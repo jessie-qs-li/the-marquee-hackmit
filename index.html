@@ -80,46 +80,6 @@ ul{margin:0;padding:0;list-style:none}
 }
 @media (max-width:720px){.navlinks{display:none}.proto{display:none}}
 
-/* ---------- hero ---------- */
-.hero{position:relative;overflow:hidden;border-radius:var(--r-l);margin-top:4px;border:1px solid var(--line)}
-.hero-art{position:absolute;inset:0}
-.hero-scrim{position:absolute;inset:0;background:
-  linear-gradient(90deg,rgba(10,11,15,.92) 0%,rgba(10,11,15,.74) 46%,rgba(10,11,15,.42) 100%),
-  linear-gradient(0deg,rgba(10,11,15,.7) 0%,rgba(10,11,15,0) 70%);}
-.hero-in{position:relative;display:grid;grid-template-columns:138px minmax(0,1fr) 258px;gap:28px;
-  padding:28px 32px;align-items:center}
-.hero-also{border-left:1px solid var(--line-2);padding-left:22px;align-self:stretch;display:flex;flex-direction:column;justify-content:center}
-.hero-also h4{font-size:9.5px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--faint);margin:0 0 12px}
-.also-row{display:grid;grid-template-columns:52px minmax(0,1fr);gap:9px;width:100%;text-align:left;padding:7px 0;
-  border-top:1px solid var(--line)}
-.also-row:hover .also-t{color:var(--amber-soft)}
-.also-row .also-time{font-family:var(--mono);font-size:10.5px;color:var(--amber)}
-.also-t{font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:color .12s}
-.also-v{font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--faint);margin-top:2px;
-  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-@media (max-width:1080px){.hero-in{grid-template-columns:138px minmax(0,1fr)}.hero-also{display:none}}
-.hero-poster{width:138px;border-radius:5px;box-shadow:0 14px 34px rgba(0,0,0,.62),0 0 0 1px rgba(255,255,255,.07)}
-.hero-body{min-width:0;max-width:600px}
-.hero .meta{color:var(--dim);font-size:13.5px;margin-top:13px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
-@media (max-width:640px){
-  .hero-in{grid-template-columns:96px minmax(0,1fr);gap:18px;padding:20px}
-  .hero-poster{width:96px}
-}
-@media (max-width:460px){
-  .hero-in{grid-template-columns:minmax(0,1fr)}
-  .hero-poster{display:none}
-}
-.eyebrow{
-  font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
-  color:var(--amber);display:flex;align-items:center;gap:8px;margin-bottom:14px;flex-wrap:wrap;
-}
-.eyebrow .dot{width:4px;height:4px;border-radius:50%;background:var(--amber)}
-.hero h1{font-family:var(--display);font-weight:800;font-size:clamp(32px,5vw,50px);line-height:1;letter-spacing:-.03em}
-.hero .credit{font-family:var(--display);font-weight:500;font-size:16px;color:var(--amber-soft);margin-top:10px}
-.hero .meta{color:var(--dim);font-size:14px;margin-top:14px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
-.hero .blurb{color:var(--dim);margin-top:11px;font-size:14px;max-width:48ch}
-.hero-cta{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
-
 .btn{display:inline-flex;align-items:center;gap:9px;padding:11px 18px;border-radius:99px;font-weight:600;font-size:14px;transition:transform .12s,background .15s}
 .btn:active{transform:scale(.97)}
 .btn-primary{background:var(--amber);color:var(--amber-ink)}
@@ -131,9 +91,14 @@ ul{margin:0;padding:0;list-style:none}
 .btn[disabled]{opacity:.4;cursor:not-allowed}
 
 /* ---------- controls ---------- */
-.section-head{display:flex;align-items:baseline;gap:14px;margin:34px 0 0;flex-wrap:wrap}
+.section-head{display:flex;align-items:baseline;gap:14px;margin:26px 0 0;flex-wrap:wrap}
+.section-head .btn-sm{margin-left:auto;padding:8px 15px;font-size:12.5px}
+@media (max-width:560px){.section-head .btn-sm{margin-left:0}}
 .section-head h2{font-family:var(--display);font-weight:700;font-size:15px;letter-spacing:.14em;text-transform:uppercase}
 .section-head .note{color:var(--faint);font-size:13px;font-family:var(--mono)}
+.src{font-family:var(--mono);font-size:10px;letter-spacing:.07em;text-transform:uppercase;
+  border:1px solid var(--line);border-radius:99px;padding:3px 9px;margin-left:8px;color:var(--faint);white-space:nowrap}
+.src.live{color:var(--agree);border-color:rgba(79,178,134,.4)}
 
 .days{display:flex;gap:7px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none}
 .days::-webkit-scrollbar{display:none}
@@ -227,6 +192,7 @@ ul{margin:0;padding:0;list-style:none}
 .flow-body{padding-block:38px 60px;max-width:820px;margin:0 auto}
 .step-label{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint)}
 .step-h{font-family:var(--display);font-weight:700;font-size:clamp(29px,5vw,42px);line-height:1.06;margin-top:10px;letter-spacing:-.01em}
+.coverage{display:block;margin-top:8px;font-size:12.5px;color:var(--faint);font-family:var(--mono);line-height:1.5}
 .step-sub{color:var(--dim);margin-top:12px;max-width:56ch;font-size:15px}
 .step-actions{display:flex;gap:12px;margin-top:34px;align-items:center;flex-wrap:wrap}
 
@@ -417,8 +383,10 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 @media (max-width:760px){.trange{flex-wrap:wrap;gap:10px}}
 
 /* ---- venue grid ---- */
-.vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(228px,1fr));gap:34px 28px;margin-top:30px;align-items:start}
-.vcol{min-width:0}
+.vgrid{display:block;column-width:228px;column-gap:28px;margin-top:30px}
+.vcol{margin-bottom:30px;break-inside:auto}
+.vcol-head{break-after:avoid;-webkit-column-break-after:avoid;break-inside:avoid}
+.vrow{break-inside:avoid;-webkit-column-break-inside:avoid}
 .vcol h3{font-family:var(--display);font-weight:700;font-size:14.5px;letter-spacing:.005em;text-transform:uppercase;
   line-height:1.2;min-height:1.2em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .vcol .hood{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--hot);margin-top:4px}
@@ -435,7 +403,7 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 .vbadge.mute{background:var(--ink-600);color:var(--dim)}
 .vbadge.gold{background:var(--amber);color:var(--amber-ink)}
 .vbadge.out{background:var(--ink-700);color:var(--faint)}
-.vempty{color:var(--faint);font-size:13px;padding:40px 0;grid-column:1/-1}
+.vempty{color:var(--faint);font-size:13px;padding:40px 0}
 
 @media (max-width:860px){
   .board-grid{grid-template-columns:1fr}
@@ -464,18 +432,17 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
         <button id="nav-pick">Find a Pick</button>
       </nav>
       <div class="nav-right">
-        <span class="proto">Prototype · seeded data</span>
+        <span class="proto" id="proto">Prototype</span>
       </div>
     </div>
   </div>
 
   <!-- BROWSE -->
   <main class="wrap wrap-wide" id="browse">
-    <section class="hero" id="hero"></section>
-
     <div class="section-head">
       <h2>What's playing</h2>
       <span class="note" id="weekline"></span>
+      <button class="btn btn-primary btn-sm" id="head-pick">Find a pick →</button>
     </div>
 
     <div class="board-grid">
@@ -498,9 +465,9 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
     </div>
 
     <footer class="footer wrap" style="padding-inline:0">
-      <b>The Marquee</b> — a screening index for New York. Listings for Sept 21–27, 2026 are seeded for this
-      prototype; live venue ingestion is the next build. Taste profiles read Letterboxd RSS, watchlists and
-      ratings pages.
+      <b>The Marquee</b> — a screening index for New York, across 20 cinemas. Showtimes are scraped from the
+      venues' own sites by <b>scripts/scrape.mjs</b>; see SCRAPING.md for which cinemas are live and which
+      are not yet reachable. Taste profiles read Letterboxd RSS, watchlists and ratings pages.
     </footer>
   </main>
 
@@ -701,67 +668,11 @@ const SCREENINGS = RAW.map((s,i)=>({
   mins:(+s[3].slice(0,2))*60 + (+s[3].slice(3))
 }));
 
-/* RAW holds the hand-written highlights — the Q&As, the one-night prints, the
-   70mm bookings. A listings board only reads like one when every house shows a
-   full night around them, so this pads each venue/day out to a plausible
-   schedule. Deterministic: same page on every render. */
-(function fillSchedule(){
-  const hash = str => [...str].reduce((a,c)=>(a*31 + c.charCodeAt(0))>>>0, 7);
-  const rng = seed => { let x=(seed>>>0)||1; return ()=>((x=(x*1664525+1013904223)>>>0)/4294967296); };
-
-  const REP = FILMS.filter(f=>f.rep).map(f=>f.id);
-  const NEW = FILMS.filter(f=>!f.rep).map(f=>f.id);
-  const POOL = {
-    ff:REP, mg:REP, afa:REP, roxy:REP, momi:REP,
-    ifc:REP.concat(NEW), quad:REP.concat(NEW), flc:REP.concat(NEW),
-    nhw:REP.concat(NEW), nhp:REP.concat(NEW),
-    alamo:NEW.concat(REP), amc:NEW, regal:NEW
-  };
-  // what each house actually projects
-  const FORMATS = {
-    ff:["35mm","35mm","dcp"], mg:["35mm","dcp","dcp"], afa:["dcp","35mm"],
-    roxy:["35mm","dcp"], quad:["dcp","dcp","35mm"], ifc:["dcp","dcp","35mm"],
-    flc:["dcp","70mm","35mm"], momi:["dcp","70mm"], nhw:["35mm","dcp"], nhp:["35mm","dcp"],
-    alamo:["digital","digital","70mm"], amc:["digital"], regal:["digital"]
-  };
-  const SLOTS = ["12:15","13:00","13:45","14:30","15:15","16:00","16:45","17:30",
-                 "18:15","19:00","19:45","20:30","21:15","22:00","22:45","23:30"];
-
-  let n = SCREENINGS.length;
-  Object.keys(VENUES).forEach(vid=>{
-    const v = VENUES[vid];
-    for(let day=0; day<7; day++){
-      const r = rng(hash(vid) + day*7919);
-      const weekend = day>=4;
-      const want = (v.kind==="chain" ? 7 : 5) + (weekend?2:0) + Math.floor(r()*2);
-
-      const here = SCREENINGS.filter(s=>s.venue===vid && s.day===day);
-      const films = new Set(here.map(s=>s.film));
-      const slots = new Set(here.map(s=>s.time));
-      const pool = POOL[vid] || REP;
-      const fmts = FORMATS[vid] || ["dcp"];
-
-      let made = here.length, guard = 0;
-      while(made < want && guard++ < 80){
-        const time = SLOTS[Math.floor(r()*SLOTS.length)];
-        if(slots.has(time)) continue;
-        const film = pool[Math.floor(r()*pool.length)];
-        if(films.has(film)) continue;
-        // no 90-minute matinee slot for a 3-hour film
-        const mins = (+time.slice(0,2))*60 + (+time.slice(3));
-        if(mins + F[film].r + 20 > 24*60 + 30) continue;
-
-        slots.add(time); films.add(film); made++;
-        const fmt = fmts[Math.floor(r()*fmts.length)];
-        SCREENINGS.push({
-          id:"g"+(n++), film, venue:vid, day, time, fmt,
-          note: mins>=23*60 ? "Late show" : "",
-          once:false, out: r() < .07, mins
-        });
-      }
-    }
-  });
-})();
+/* SEED_* are the fallback: a hand-written week used when data/screenings.json
+   is missing (open index.html straight off disk) or unreadable. The live board
+   comes from scripts/scrape.mjs. */
+const SEED_SCREENINGS = SCREENINGS.slice();
+const SEED_VENUES = VENUES;
 
 const STREAM = {
   yiyi:["criterion"], aos:["criterion","max"], portrait:["hulu","criterion"], mood:["criterion"],
@@ -854,16 +765,6 @@ function artFor(id){
   return `radial-gradient(70% 50% at 20% 12%, ${c}77 0, transparent 60%),
           linear-gradient(90deg, ${a} 0 36%, ${c} 36% 42%, ${b} 42%)`;
 }
-/* artFor() draws poster art -- hard-edged bands that read as graphic design at
-   2:3, and as a stripe across a wide hero. The hero gets its own soft wash in
-   the same hues instead. */
-function artWash(id){
-  const h = hash(id);
-  const hue = h % 360, hue2 = (hue + 40 + (h>>3)%60) % 360;
-  return `radial-gradient(115% 150% at 84% 14%, hsl(${hue2} 54% 30%) 0%, transparent 60%),
-          radial-gradient(95% 130% at 10% 96%, hsl(${hue} 44% 22%) 0%, transparent 64%),
-          linear-gradient(180deg, hsl(${hue} 26% 11%), var(--ink-900))`;
-}
 function posterHTML(f, size){
   const ts = size==="lg" ? 19 : 10.5;
   return `<div class="poster" style="background:${artFor(f.id)}">
@@ -875,7 +776,7 @@ function posterHTML(f, size){
 function esc(s){return String(s).replace(/[&<>"]/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[m]))}
 function avColor(name){const h=hash(name)%360;return `hsl(${h} 62% 68%)`}
 function money(c){return "$"+(c/100).toFixed(2)}
-function fmtRuntime(m){return Math.floor(m/60)+"h "+String(m%60).padStart(2,"0")+"m"}
+function fmtRuntime(m){return m?Math.floor(m/60)+"h "+String(m%60).padStart(2,"0")+"m":""}
 
 /* =========================================================================
    STATE
@@ -919,7 +820,7 @@ function scoreOne(p, f, v){
   f.tags.forEach(t=>{ if(p.avoids.includes(t)) s -= 2.2; });
   if(p.avoids.includes("long") && f.r>150) s -= 1.6;
   if(p.avoids.includes("subtitles") && f.sub) s -= 2.1;
-  s += (f.lb - 3.8) * .95;
+  s += ((f.lb ?? 3.8) - 3.8) * .95;
   if(p.watch.includes(f.id)) s += 1.9;
   if(p.seen.includes(f.id)) s -= 1.3;
   if(v){
@@ -932,12 +833,19 @@ function scoreOne(p, f, v){
   return Math.max(0, Math.min(10, s));
 }
 
+/* how much of tonight the engine can and cannot speak to */
+function nightTotal(){ return SCREENINGS.filter(s=>s.day===S.day).length; }
+function taggedTonight(){
+  return SCREENINGS.some(s=>s.day===S.day && F[s.film] && F[s.film].tags.length);
+}
 function candidates(){
   if(S.mode==="home"){
     return FILMS.filter(f=>(STREAM[f.id]||[]).some(sv=>S.services.has(sv)))
       .map(f=>({f, opt:{kind:"stream", svc:(STREAM[f.id]||[]).find(sv=>S.services.has(sv))}, all:[]}));
   }
-  const day = SCREENINGS.filter(s=>s.day===S.day);
+  // the engine reasons from taste tags; a scraped title with no catalogue
+  // match has none, so ranking it would be guesswork dressed up as a pick
+  const day = SCREENINGS.filter(s=>s.day===S.day && F[s.film] && F[s.film].tags.length);
   const byFilm = {};
   day.forEach(s=>{
     const v=VENUES[s.venue];
@@ -1032,67 +940,13 @@ function reasonFor(x, rank){
 /* =========================================================================
    BROWSE RENDER
    ========================================================================= */
-function heroPick(){
-  const s = SCREENINGS.find(x=>x.day===TODAY && x.once) || SCREENINGS.find(x=>x.day===TODAY);
-  return s;
-}
-/* the night's other bookings worth knowing about, best first */
-function alsoTonight(hero){
-  const rank = x => { const e=eventTags(x);
-    return e.has("qa")?0 : e.has("once")?1 : x.fmt==="70mm"?2 : e.has("resto")?3 : x.fmt==="35mm"?4 : 9; };
-  return SCREENINGS
-    .filter(x=>x.day===S.day && x.id!==hero.id && !x.out)
-    .sort((a,b)=>rank(a)-rank(b) || F[b.film].lb-F[a.film].lb)
-    .slice(0,4)
-    .sort((a,b)=>a.mins-b.mins);
-}
-function renderHero(){
-  const s = heroPick(), f = F[s.film], v = VENUES[s.venue];
-  document.getElementById("hero").innerHTML = `
-    <div class="hero-art" style="background:${artWash(f.id)}"></div>
-    <img class="grain" src="${GRAIN}" alt="" aria-hidden="true" style="position:absolute;inset:0;opacity:.18">
-    <div class="hero-scrim"></div>
-    <div class="hero-in">
-      <div class="hero-poster">${posterHTML(f,"lg")}</div>
-      <div class="hero-body">
-      <div class="eyebrow">Tonight <span class="dot"></span> ${esc(s.note||"Playing now")}${new RegExp(s.fmt,"i").test(s.note||"")?"":` <span class="dot"></span> ${s.fmt.toUpperCase()}`}</div>
-      <h1>${esc(f.t)}</h1>
-      <div class="credit">${esc(f.d)}, ${f.y}</div>
-      <p class="blurb">${esc(f.s)}</p>
-      <div class="meta">
-        <span class="lb">★ ${f.lb.toFixed(1)}</span>
-        <span>${fmtRuntime(f.r)}</span>
-        <span>${esc(v.n)} · ${esc(v.hood)}</span>
-        <span style="font-family:var(--mono);color:var(--amber)">${s.time}</span>
-      </div>
-      <div class="hero-cta">
-        <button class="btn btn-primary" data-tix="${esc(v.n)}">Get tickets · ${money(v.price)}</button>
-        <button class="btn btn-ghost" id="hero-pick">Who's coming?</button>
-      </div>
-      </div>
-      <aside class="hero-also">
-        <h4>Also tonight</h4>
-        ${alsoTonight(s).map(x=>{const xf=F[x.film], xv=VENUES[x.venue];
-          return `<button class="also-row" data-tix="${esc(xv.n)}">
-            <span class="also-time">${x.time}</span>
-            <span style="min-width:0">
-              <span class="also-t">${esc(xf.t)}</span>
-              <span class="also-v">${esc(xv.sn||xv.n)}${x.note?" · "+esc(x.note.split("·")[0].trim()):""}</span>
-            </span>
-          </button>`}).join("")}
-      </aside>
-    </div>`;
-  document.getElementById("hero-pick").onclick = openFlow;
-}
-
 function hoods(){
   const set = new Set(Object.values(VENUES).map(v=>v.hood));
   return [...set];
 }
 
 /* ---- filter vocabularies, all drawn from the seeded data ---- */
-const BOROS  = [...new Set(Object.values(VENUES).map(v=>v.boro))];
-const FMTS   = [["35mm","35mm"],["70mm","70mm"],["dcp","DCP"],["digital","Digital"]];
+const FMTS   = [["35mm","35mm"],["70mm","70mm"],["16mm","16mm"],["dcp","DCP"],["digital","Digital"]];
 const EVENTS = [["once","One night only"],["qa","Director Q&A"],["midnight","Midnight"],
                 ["late","Late show"],["resto","Restoration / new print"],["sing","Sing-along"]];
 const GENRES = [["action","Action"],["anime","Anime"],["camp","Camp"],["classic","Classic"],
@@ -1139,18 +993,38 @@ function optHTML(attr,val,label,on,solo){
   return `<button class="fopt${on?" on":""}${solo?" solo":""}" data-${attr}="${esc(val)}">
     <span class="fbox"></span><span>${esc(label)}</span></button>`;
 }
+/* what this week's listings actually contain, so no option leads to a dead board */
+function present(){
+  const boros=new Set(), fmts=new Set(), evs=new Set(), tags=new Set();
+  for(const sc of SCREENINGS){
+    const v=VENUES[sc.venue], f=F[sc.film];
+    if(v) boros.add(v.boro);
+    if(sc.fmt) fmts.add(sc.fmt);
+    eventTags(sc).forEach(e=>evs.add(e));
+    if(f) f.tags.forEach(t=>tags.add(t));
+  }
+  return {boros,fmts,evs,tags};
+}
 function renderSide(){
-  const g = (title,body)=>`<div class="fgroup"><h4>${title}</h4>${body}</div>`;
+  const p = present();
+  const g = (title,body)=>body?`<div class="fgroup"><h4>${title}</h4>${body}</div>`:"";
+  const boros = [...p.boros].sort();
   document.getElementById("side").innerHTML =
-    g("Filter by borough", BOROS.map(b=>optHTML("boro",b,b,S.boros.has(b))).join("")) +
-    g("Film format",       FMTS.map(([k,l])=>optHTML("fmtv",k,l,S.fmts.has(k))).join("")) +
-    g("Special event",     EVENTS.map(([k,l])=>optHTML("ev",k,l,S.events.has(k),k==="once")).join("")) +
-    g("Filter by genre",   GENRES.map(([k,l])=>optHTML("genre",k,l,S.genres.has(k))).join("")) +
+    g("Filter by borough", boros.map(b=>optHTML("boro",b,b,S.boros.has(b))).join("")) +
+    g("Film format",   FMTS.filter(([k])=>p.fmts.has(k)).map(([k,l])=>optHTML("fmtv",k,l,S.fmts.has(k))).join("")) +
+    g("Special event", EVENTS.filter(([k])=>p.evs.has(k)).map(([k,l])=>optHTML("ev",k,l,S.events.has(k),k==="once")).join("")) +
+    g("Filter by genre",GENRES.filter(([k])=>p.tags.has(k)).map(([k,l])=>optHTML("genre",k,l,S.genres.has(k))).join("")) +
     (filtersActive()?`<button class="side-clear" data-clear="1">Clear all filters</button>`:"");
 }
 
 function renderControls(){
-  document.getElementById("weekline").textContent = "Sept 21 – 27, 2026 · New York";
+  const MON=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  const span = d => { const x=new Date((d.date||"2026-09-21")+"T12:00:00"); return MON[x.getMonth()]+" "+x.getDate(); };
+  document.getElementById("weekline").innerHTML =
+    `${span(DAYS[0])} – ${span(DAYS[DAYS.length-1])} · New York` +
+    (SOURCE.live
+      ? ` <span class="src live">Live · ${SOURCE.venues} cinemas · scraped ${new Date(SOURCE.fetchedAt).toLocaleString([], {month:"short",day:"numeric",hour:"numeric",minute:"2-digit"})}</span>`
+      : ` <span class="src">Seeded sample — run scripts/scrape.mjs for live listings</span>`);
   renderSide();
 
   document.getElementById("days").innerHTML = DAYS.map(d=>{
@@ -1199,8 +1073,8 @@ function badgeFor(s){
   if(n.includes("print"))       return ["New print",""];
   if(n.includes("late show"))   return ["Late","mute"];
   if(s.fmt==="35mm"||s.fmt==="70mm") return [s.fmt.toUpperCase(),""];
-  if(!F[s.film].rep) return ["New","mute"];
-  return [s.fmt.toUpperCase(),"mute"];
+  if(F[s.film].rep===0) return ["New","mute"];
+  return s.fmt ? [s.fmt.toUpperCase(),"mute"] : null;
 }
 
 function renderVenueBoard(list,el){
@@ -1212,15 +1086,17 @@ function renderVenueBoard(list,el){
   el.innerHTML = ids.map(vid=>{
     const v=VENUES[vid], times=by[vid].sort((a,b)=>a.mins-b.mins);
     return `<section class="vcol">
-      <h3 title="${esc(v.n)}">${esc(v.sn||v.n)}</h3>
-      <div class="hood">${esc(v.hood)}</div>
+      <div class="vcol-head">
+        <h3 title="${esc(v.n)}">${esc(v.sn||v.n)}</h3>
+        <div class="hood">${esc(v.hood)}</div>
+      </div>
       <div class="vlist">
         ${times.map(s=>{
-          const f=F[s.film], [label,cls]=badgeFor(s);
+          const f=F[s.film], badge=badgeFor(s);
           return `<button class="vrow ${s.out?"out":""}" ${s.out?"":`data-tix="${esc(v.n)}"`} title="${esc(f.t)} · ${f.y} · ${esc(f.d)}">
             <span class="vt-time">${s.time}</span>
             <span class="vn">${esc(f.t)}</span>
-            <span class="vbadge ${cls}">${label}</span>
+            ${badge?`<span class="vbadge ${badge[1]}">${badge[0]}</span>`:"<span></span>"}
           </button>`;
         }).join("")}
       </div>
@@ -1247,11 +1123,11 @@ function renderFilmRows(list,el){
         <div class="rmeta">
           <span class="dir">${esc(f.d)}</span>
           <span>${fmtRuntime(f.r)}</span>
-          <span class="lb">★ ${f.lb.toFixed(1)}</span>
+          ${f.lb?`<span class="lb">★ ${f.lb.toFixed(1)}</span>`:""}
           ${f.sub?`<span>subtitled</span>`:""}
         </div>
         <div class="tags">
-          ${f.rep?`<span class="tag rep">Repertory</span>`:`<span class="tag">New release</span>`}
+          ${f.rep===1?`<span class="tag rep">Repertory</span>`:f.rep===0?`<span class="tag">New release</span>`:""}
           ${once?`<span class="tag once">One night only</span>`:""}
           ${f.tags.slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join("")}
         </div>
@@ -1259,7 +1135,7 @@ function renderFilmRows(list,el){
           ${times.map(s=>{const v=VENUES[s.venue];return `<button class="time ${s.out?"out":""}" ${s.out?"":`data-tix="${esc(v.n)}"`}>
             <div class="t">${s.time}</div>
             <div class="v">${esc(v.n)}</div>
-            <div class="f">${s.out?"Sold out":s.fmt+(s.note?" · "+esc(s.note.split("·")[0].trim()):"")}</div>
+            <div class="f">${s.out?"Sold out":[s.fmt,s.note?esc(s.note.split("·")[0].trim()):""].filter(Boolean).join(" · ")||"&nbsp;"}</div>
           </button>`}).join("")}
         </div>
       </div>
@@ -1280,20 +1156,33 @@ function renderRows(){
 
 function renderTicker(){
   const pri = s=>{ const e=eventTags(s);
-    return e.has("qa")?0 : e.has("once")?1 : s.fmt==="70mm"?2 : e.has("resto")?3 : e.has("midnight")?4 : 9; };
-  const picks = SCREENINGS.filter(s=>pri(s)<9)
+    return e.has("qa")?0 : e.has("once")?1 : s.fmt==="70mm"?2 : s.fmt==="35mm"?3
+         : s.fmt==="16mm"?3 : e.has("resto")?4 : e.has("midnight")?5 : 9; };
+  let picks = SCREENINGS.filter(s=>s.day>=S.day && pri(s)<9)
     .sort((a,b)=>pri(a)-pri(b) || a.day-b.day).slice(0,7);
+  // live listings often carry no print/event notes; fall back to what is on tonight
+  if(picks.length < 4){
+    const extra = SCREENINGS.filter(s=>s.day===S.day && !picks.includes(s))
+      .sort((a,b)=>a.mins-b.mins).slice(0, 7-picks.length);
+    picks = picks.concat(extra);
+  }
+  const bar = document.querySelector(".ticker");
+  if(!picks.length){ if(bar) bar.hidden = true; return; }
+  if(bar) bar.hidden = false;
+
   const line = s=>{
     const f=F[s.film], v=VENUES[s.venue], d=DAYS[s.day];
-    const when = s.day===TODAY ? "Tonight" : d.dow;
-    const head = (s.note||s.fmt).replace(/·.*$/,"").trim();
-    return `${head} — ${f.t} at ${v.n} · ${when} ${s.time}`;
+    const when = s.day===S.day ? "Tonight" : d.dow;
+    const head = (s.note||"").replace(/·.*$/,"").trim()
+              || (s.fmt && s.fmt!=="digital" && s.fmt!=="dcp" ? s.fmt.toUpperCase()+" print" : when);
+    return `${head} — ${f.t} at ${v.sn||v.n} · ${when} ${s.time}`;
   };
   const html = picks.map(s=>`<i>${esc(line(s))}</i>`).join("");
   document.getElementById("ticker").innerHTML = html + html; // doubled for the seamless loop
 }
 
-function renderBrowse(){ renderTicker(); renderHero(); renderControls(); renderRows(); }
+
+function renderBrowse(){ renderTicker(); renderControls(); renderRows(); }
 
 /* =========================================================================
    FLOW
@@ -1584,7 +1473,7 @@ function pickCard(x, rank){
       <div class="row-main">
         <div class="rtitle"><h3>${esc(f.t)}</h3><span class="yr">${f.y}</span></div>
         <div class="rmeta"><span class="dir">${esc(f.d)}</span><span>${fmtRuntime(f.r)}</span>
-          <span class="lb">★ ${f.lb.toFixed(1)}</span>${f.sub?"<span>subtitled</span>":""}</div>
+          ${f.lb?`<span class="lb">★ ${f.lb.toFixed(1)}</span>`:""}${f.sub?"<span>subtitled</span>":""}</div>
         <p class="reason">${esc(reasonFor(x, rank))}</p>
         ${x.override?`<div class="override"><span>↻</span><span>This isn't what your histories would pick. It's here because of tonight's mood.</span></div>`:""}
         ${agreeRow(x)}
@@ -1597,16 +1486,19 @@ function pickCard(x, rank){
 function viewResults(){
   const R=S.results;
   if(!R.picks.length){
+    const thin = S.mode==="theater" && SOURCE.live && !taggedTonight();
     return `<div class="step-label">Step 5 of 5</div>
-    <h2 class="step-h">Nothing fits.</h2>
-    <p class="step-sub">No films match that night, those neighborhoods and that mood together. Loosen one of them.</p>
+    <h2 class="step-h">${thin?"Nothing we can vouch for.":"Nothing fits."}</h2>
+    <p class="step-sub">${thin
+      ? `Tonight's listings are live from the cinemas, but none of ${nightTotal()} screenings match a film in our taste catalogue, so there is nothing we can honestly rank. Browse the board instead.`
+      : "No films match that night, those neighborhoods and that mood together. Loosen one of them."}</p>
     <div class="step-actions"><button class="btn btn-primary" data-go="1">Change where and when</button></div>`;
   }
   const names = S.people.map(p=>p.name).filter(Boolean);
   const nameline = names.length===1? names[0] : names.slice(0,-1).join(", ")+" and "+names[names.length-1];
   return `<div class="step-label">Step 5 of 5</div>
   <h2 class="step-h">Four for ${esc(nameline)}</h2>
-  <p class="step-sub">Narrowed from ${R.n} option${R.n===1?"":"s"} ${S.mode==="theater"?`playing ${S.day===TODAY?"tonight":DAYS[S.day].dow+" the "+DAYS[S.day].num}`:"on your services"}.</p>
+  <p class="step-sub">Narrowed from ${R.n} option${R.n===1?"":"s"} ${S.mode==="theater"?`playing ${S.day===TODAY?"tonight":DAYS[S.day].dow+" the "+DAYS[S.day].num}`:"on your services"}.${S.mode==="theater"&&SOURCE.live?` <span class="coverage">${R.n} of ${nightTotal()} screenings tonight are films we hold taste data for — the rest are on the board.</span>`:""}</p>
 
   <div class="objbar">
     <span class="lbl">Rank by</span>
@@ -1734,7 +1626,7 @@ document.addEventListener("click", e=>{
         Tickets are held for 20 minutes.</p></div>`;
   }
   if(e.target.id==="flow-back"){ captureInputs(); S.step===0 ? closeFlow() : go(S.step-1); }
-  if(e.target.id==="start-pick") openFlow();
+  if(e.target.id==="start-pick"||e.target.id==="head-pick") openFlow();
   if(e.target.id==="nav-pick") openFlow();
   if(e.target.id==="nav-browse") closeFlow();
 });
@@ -1742,7 +1634,94 @@ document.addEventListener("click", e=>{
 document.addEventListener("keydown", e=>{ if(e.key==="Escape" && S.view==="flow"){ captureInputs(); closeFlow(); } });
 
 /* boot */
-renderBrowse();
+
+/* =========================================================================
+   LIVE DATA — data/screenings.json, written by scripts/scrape.mjs
+   The cinemas' sites send no CORS headers, so the page cannot scrape them
+   itself; the Node script does it and the page consumes the result.
+   ========================================================================= */
+const SOURCE = { live:false, fetchedAt:null, venues:0, note:"" };
+const DOW = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+const normTitle = t => String(t).toLowerCase()
+  .replace(/\s*\((?:open captioning|oc|q&a|35mm|70mm)\)\s*/gi," ")
+  .replace(/^(the|a|an)\s+/,"").replace(/[^a-z0-9]+/g,"");
+
+function applyLive(data){
+  const week = data.week.slice(0,7);
+  if(!week.length || !Array.isArray(data.screenings) || !data.screenings.length) return false;
+
+  DAYS.splice(0, DAYS.length, ...week.map((d,i)=>{
+    const dt = new Date(d+"T12:00:00");
+    return { i, dow:DOW[dt.getDay()], num:dt.getDate(), date:d };
+  }));
+
+  Object.keys(VENUES).forEach(k=>delete VENUES[k]);
+  Object.entries(data.venues).forEach(([id,v])=>{ VENUES[id]=v; });
+
+  // a scraped title that matches the curated catalogue inherits its taste data
+  const catalogue = new Map(FILMS.map(f=>[normTitle(f.t), f]));
+  Object.keys(F).forEach(k=>delete F[k]);
+  const idFor = new Map();
+  const dayOf = Object.fromEntries(week.map((d,i)=>[d,i]));
+
+  SCREENINGS.splice(0, SCREENINGS.length);
+  data.screenings.forEach((row,n)=>{
+    const day = dayOf[row.date];
+    if(day===undefined || !VENUES[row.venue]) return;
+    const key = normTitle(row.title);
+    if(!idFor.has(key)){
+      const known = catalogue.get(key);
+      const id = known ? known.id : "L"+idFor.size;
+      idFor.set(key, id);
+      F[id] = known ? { ...known } : {
+        id, t:row.title, y:row.year??null, d:row.director??"", r:row.runtime??0,
+        lb:null, sub:0, rep:null, tags:[], s:""
+      };
+      if(known){ // prefer the venue's own metadata where the scrape supplied it
+        if(row.year) F[id].y = row.year;
+        if(row.runtime) F[id].r = row.runtime;
+      }
+    }
+    const id = idFor.get(key);
+    const mins = (+row.time.slice(0,2))*60 + (+row.time.slice(3));
+    const note = row.note || "";
+    SCREENINGS.push({
+      id:"l"+n, film:id, venue:row.venue, day, time:row.time,
+      fmt: normFmt(row.fmt), note,
+      once:/one night only|midnight/i.test(note), out:false, mins
+    });
+  });
+
+  SOURCE.live = true;
+  SOURCE.fetchedAt = data.fetchedAt;
+  SOURCE.venues = new Set(SCREENINGS.map(x=>x.venue)).size;
+  const dead = (data.sources||[]).filter(r=>!r.ok && !r.skipped).length;
+  const skip = (data.sources||[]).filter(r=>r.skipped).length;
+  const chip = document.getElementById("proto");
+  if(chip) chip.textContent = "Live listings";
+  SOURCE.note = `${skip} venue${skip===1?"":"s"} without an adapter${dead?`, ${dead} failing`:""}`;
+  return true;
+}
+
+function normFmt(f){
+  const x = String(f||"").toLowerCase();
+  if(x.includes("70mm")) return "70mm";
+  if(x.includes("35mm")) return "35mm";
+  if(x.includes("16mm")) return "16mm";
+  if(x.includes("dcp"))  return "dcp";
+  if(x.includes("digital")) return "digital";
+  return null;               // the venue did not say
+}
+
+async function boot(){
+  try{
+    const res = await fetch("data/screenings.json", { cache:"no-store" });
+    if(res.ok) applyLive(await res.json());
+  }catch(e){ /* opened from disk, or no scrape has run yet -- seeded week stands */ }
+  renderBrowse();
+}
+
+boot();
 setNav();
 </script>
 
