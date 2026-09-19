@@ -383,21 +383,23 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 @media (max-width:760px){.trange{flex-wrap:wrap;gap:10px}}
 
 /* ---- venue grid ---- */
-.vgrid{display:block;column-width:228px;column-gap:28px;margin-top:30px}
-.vcol{margin-bottom:30px;break-inside:auto}
-.vcol-head{break-after:avoid;-webkit-column-break-after:avoid;break-inside:avoid}
-.vrow{break-inside:avoid;-webkit-column-break-inside:avoid}
+.vgrid{display:grid;gap:0 30px;margin-top:30px;align-items:start}
+.vcolumn{min-width:0}
+.vcol{margin-bottom:32px}
 .vcol h3{font-family:var(--display);font-weight:700;font-size:14.5px;letter-spacing:.005em;text-transform:uppercase;
   line-height:1.2;min-height:1.2em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .vcol .hood{font-size:9px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--hot);margin-top:4px}
 .vlist{margin-top:11px;border-top:1px solid var(--line-2)}
-.vrow{display:grid;grid-template-columns:58px minmax(0,1fr) auto;gap:9px;align-items:center;width:100%;
-  text-align:left;padding:6.5px 4px 6.5px 0;border-bottom:1px solid var(--line);transition:background .12s}
-.vrow:hover{background:rgba(255,255,255,.035)}
-.vrow .vt-time{font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--hot);letter-spacing:.01em}
-.vrow .vn{font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.vrow.out{opacity:.38}
-.vrow.out:hover{background:none;cursor:default}
+.vfilm{display:grid;grid-template-columns:54px minmax(0,1fr) auto;gap:10px;align-items:start;
+  padding:8px 4px 9px 0;border-bottom:1px solid var(--line)}
+.vfilm:hover{background:rgba(255,255,255,.03)}
+.vtimes{display:flex;flex-direction:column;align-items:flex-start;gap:3px}
+.vt-time{font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--hot);letter-spacing:.01em;
+  line-height:1.5;text-align:left}
+.vt-time:hover{color:var(--amber)}
+.vt-time.out{color:var(--faint);text-decoration:line-through;cursor:default}
+.vt-time.out:hover{color:var(--faint)}
+.vfilm .vn{font-size:12.5px;line-height:1.35;overflow-wrap:anywhere}
 .vbadge{font-family:var(--mono);font-size:8px;font-weight:500;letter-spacing:.09em;text-transform:uppercase;
   padding:2.5px 5px;background:var(--hot);color:#fff;white-space:nowrap}
 .vbadge.mute{background:var(--ink-600);color:var(--dim)}
@@ -1077,31 +1079,67 @@ function badgeFor(s){
   return s.fmt ? [s.fmt.toUpperCase(),"mute"] : null;
 }
 
+function columnCount(el){
+  const w = el.getBoundingClientRect().width || 900;
+  return Math.max(1, Math.min(5, Math.floor((w + 30) / (232 + 30))));
+}
+/* rough rendered height of a venue block, enough to balance against */
+function blockHeight(films){
+  let h = 46;                                   // name + neighbourhood + rule
+  for(const shows of films) h += Math.max(27, 12 + shows.length*16.5) + 1;
+  return h;
+}
+
 function renderVenueBoard(list,el){
   const by={};
   list.forEach(s=>(by[s.venue]=by[s.venue]||[]).push(s));
   const ids=Object.keys(by).sort((a,b)=>
     by[b].length-by[a].length || VENUES[a].n.localeCompare(VENUES[b].n));
   el.className="vgrid";
-  el.innerHTML = ids.map(vid=>{
+  const n = columnCount(el);
+  el.style.gridTemplateColumns = `repeat(${n}, minmax(0,1fr))`;
+  const cols = Array.from({length:n}, ()=>({h:0, html:""}));
+
+  ids.forEach(vid=>{
     const v=VENUES[vid], times=by[vid].sort((a,b)=>a.mins-b.mins);
+    const html = (()=>{
     return `<section class="vcol">
       <div class="vcol-head">
         <h3 title="${esc(v.n)}">${esc(v.sn||v.n)}</h3>
         <div class="hood">${esc(v.hood)}</div>
       </div>
       <div class="vlist">
-        ${times.map(s=>{
-          const f=F[s.film], badge=badgeFor(s);
-          return `<button class="vrow ${s.out?"out":""}" ${s.out?"":`data-tix="${esc(v.n)}"`} title="${esc(f.t)} · ${f.y} · ${esc(f.d)}">
-            <span class="vt-time">${s.time}</span>
-            <span class="vn">${esc(f.t)}</span>
-            ${badge?`<span class="vbadge ${badge[1]}">${badge[0]}</span>`:"<span></span>"}
-          </button>`;
-        }).join("")}
+        ${(()=>{
+          const byFilm = {};
+          times.forEach(s=>(byFilm[s.film]=byFilm[s.film]||[]).push(s));
+          return Object.keys(byFilm)
+            .sort((a,b)=>byFilm[a][0].mins-byFilm[b][0].mins)
+            .map(fid=>{
+              const f = F[fid], shows = byFilm[fid];
+              // one badge for the film: the first showtime that has something to say
+              const badge = shows.map(badgeFor).find(Boolean);
+              const meta = [f.y, f.d].filter(Boolean).join(" · ");
+              return `<div class="vfilm">
+                <span class="vtimes">${shows.map(s=>
+                  `<button class="vt-time ${s.out?"out":""}" ${s.out?"":`data-tix="${esc(v.n)}"`}
+                    title="${esc(f.t)}${meta?" — "+esc(meta):""}${s.out?" — sold out":""}">${s.time}</button>`
+                ).join("")}</span>
+                <span class="vn">${esc(f.t)}</span>
+                ${badge?`<span class="vbadge ${badge[1]}">${badge[0]}</span>`:"<span></span>"}
+              </div>`;
+            }).join("");
+        })()}
       </div>
     </section>`;
-  }).join("");
+    })();
+    const byFilm = {};
+    times.forEach(x=>(byFilm[x.film]=byFilm[x.film]||[]).push(x));
+    const target = cols.reduce((a,b)=>b.h<a.h?b:a);
+    target.html += html;
+    target.h += blockHeight(Object.values(byFilm));
+  });
+
+  el.innerHTML = cols.map(c=>`<div class="vcolumn">${c.html}</div>`).join("");
 }
 
 function renderFilmRows(list,el){
@@ -1720,6 +1758,12 @@ async function boot(){
   }catch(e){ /* opened from disk, or no scrape has run yet -- seeded week stands */ }
   renderBrowse();
 }
+
+let resizeT;
+addEventListener("resize", ()=>{
+  clearTimeout(resizeT);
+  resizeT = setTimeout(()=>{ if(S.view==="browse" && S.board==="venue") renderRows(); }, 150);
+});
 
 boot();
 setNav();
