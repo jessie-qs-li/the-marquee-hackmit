@@ -26,23 +26,19 @@ export const VENUES = [
 
   { id:"cv",      name:"Cinema Village",        sn:"Cinema Village",    hood:"Greenwich Village", boro:"Manhattan", kind:"indie", price:1500,
     about:"Old-school neighborhood indie theater.",
-    url:"https://www.cinemavillage.com/", scrape:null,
-    blocked:"Showtimes are injected client-side; the served HTML has no times." },
+    url:"https://www.cinemavillage.com/", scrape:"cinemaVillage" },
 
   { id:"roxy",    name:"Roxy Cinema New York",  sn:"Roxy Cinema",       hood:"Tribeca",           boro:"Manhattan", kind:"indie", price:1500,
     about:"35mm, cult films, rare prints and indie releases.",
-    url:"https://www.roxycinemanewyork.com/", scrape:null,
-    blocked:"Squarespace site renders its schedule in JS; no showtimes in the HTML." },
+    url:"https://www.roxycinemanewyork.com/", scrape:"roxy" },
 
   { id:"angelika",name:"Angelika Film Center",  sn:"Angelika",          hood:"SoHo",              boro:"Manhattan", kind:"indie", price:1900,
     about:"One of NYC's classic first-run indie and foreign-film venues.",
-    url:"https://www.angelikafilmcenter.com/nyc", scrape:null,
-    blocked:"Single-page app; listings come from an authenticated internal API." },
+    url:"https://www.angelikafilmcenter.com/nyc", scrape:"angelika" },
 
   { id:"paris",   name:"The Paris Theater",     sn:"Paris Theater",     hood:"Midtown",           boro:"Manhattan", kind:"indie", price:1700,
     about:"Historic single-screen arthouse, now operated by Netflix.",
-    url:"https://www.theparistheater.com/", scrape:null,
-    blocked:"Schedule is rendered client-side; served HTML carries no showtimes." },
+    url:"https://www.paristheaternyc.com/", scrape:"paris" },
 
   { id:"wrt",     name:"Walter Reade Theater",  sn:"Walter Reade",      hood:"Lincoln Center",    boro:"Manhattan", kind:"indie", price:1700,
     about:"Film at Lincoln Center: international, festival and repertory cinema.",
@@ -56,8 +52,7 @@ export const VENUES = [
 
   { id:"bam",     name:"BAM Rose Cinemas",      sn:"BAM Rose",          hood:"Fort Greene",       boro:"Brooklyn",  kind:"indie", price:1700,
     about:"Indie, international, repertory and festival programming.",
-    url:"https://www.bam.org/film", scrape:null,
-    blocked:"Listings load from a JSON API behind the page; no stable public endpoint found." },
+    url:"https://www.bam.org/film", scrape:"bam" },
 
   { id:"nhw",     name:"Nitehawk Williamsburg", sn:"Nitehawk W'burg",   hood:"Williamsburg",      boro:"Brooklyn",  kind:"indie", price:1600,
     about:"Indie and repertory programming with food and drinks.",
@@ -74,8 +69,8 @@ export const VENUES = [
 
   { id:"synd",    name:"Syndicated",            sn:"Syndicated",        hood:"Bushwick",          boro:"Brooklyn",  kind:"indie", price:400,
     about:"Cinema and bar with cult, repertory and genre programming.",
-    url:"https://syndicatedbk.com/", scrape:null,
-    blocked:"No listings path found that returns showtimes in HTML." },
+    url:"https://syndicatedbk.com/", scrape:"syndicated",
+    scheduleUrl:"https://ticketing.us.veezi.com/sessions/?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c" },
 
   { id:"momi",    name:"Museum of the Moving Image", sn:"MOMI",         hood:"Astoria",           boro:"Queens",    kind:"indie", price:1500,
     about:"Museum cinema with excellent retrospectives and special screenings.",

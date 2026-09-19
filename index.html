@@ -11,7 +11,7 @@
 <title>The Marquee</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap">
 
 <style>
 :root{
@@ -34,9 +34,9 @@
   --agree:#4FB286;
   --low:#C9614F;
   --r-s:6px; --r-m:10px; --r-l:16px;
-  --display:"Archivo","Helvetica Neue",Arial,sans-serif;
-  --ui:"Archivo","Helvetica Neue",Arial,sans-serif;
-  --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  --display:"Lexend",Arial,sans-serif;
+  --ui:"Lexend",Arial,sans-serif;
+  --mono:"Lexend",Arial,sans-serif;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -47,7 +47,8 @@ body{
 }
 html,body{overflow-x:hidden}
 button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
-input,select{font:inherit;color:inherit}
+input,select,textarea{font:inherit;color:inherit}
+code,pre,kbd,samp{font-family:var(--ui)}
 :focus-visible{outline:2px solid var(--amber);outline-offset:2px;border-radius:4px}
 h1,h2,h3{margin:0;text-wrap:balance}
 p{margin:0}
@@ -396,6 +397,15 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 .vtimes{display:flex;flex-direction:column;align-items:flex-start;gap:3px}
 .vt-time{font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--hot);letter-spacing:.01em;
   line-height:1.5;text-align:left}
+.screening-more{grid-column:1 / -1;min-width:0}
+.screening-more summary{color:var(--dim);font-size:10.5px;cursor:pointer;list-style:none;line-height:1.5}
+.screening-more summary::-webkit-details-marker{display:none}
+.screening-more summary:hover{color:var(--amber)}
+.screening-more summary:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+.screening-more .less-label{display:none}
+.screening-more[open] .more-label{display:none}
+.screening-more[open] .less-label{display:inline}
+.screening-more .vtimes{margin-top:6px}
 .vt-time:hover{color:var(--amber)}
 .vt-time.out{color:var(--faint);text-decoration:line-through;cursor:default}
 .vt-time.out:hover{color:var(--faint)}
@@ -1086,7 +1096,7 @@ function columnCount(el){
 /* rough rendered height of a venue block, enough to balance against */
 function blockHeight(films){
   let h = 46;                                   // name + neighbourhood + rule
-  for(const shows of films) h += Math.max(27, 12 + shows.length*16.5) + 1;
+  for(const shows of films) h += Math.max(27, 12 + Math.min(shows.length,2)*16.5 + (shows.length>2?26:0)) + 1;
   return h;
 }
 
@@ -1119,13 +1129,19 @@ function renderVenueBoard(list,el){
               // one badge for the film: the first showtime that has something to say
               const badge = shows.map(badgeFor).find(Boolean);
               const meta = [f.y, f.d].filter(Boolean).join(" · ");
+              const timeButton = s => `<button class="vt-time ${s.out?"out":""}" ${s.out?"":`data-tix="${esc(v.n)}"`}
+                title="${esc(f.t)}${meta?" — "+esc(meta):""}${s.out?" — sold out":""}">${s.time}</button>`;
               return `<div class="vfilm">
-                <span class="vtimes">${shows.map(s=>
-                  `<button class="vt-time ${s.out?"out":""}" ${s.out?"":`data-tix="${esc(v.n)}"`}
-                    title="${esc(f.t)}${meta?" — "+esc(meta):""}${s.out?" — sold out":""}">${s.time}</button>`
-                ).join("")}</span>
+                <span class="vtimes">${shows.slice(0,2).map(timeButton).join("")}</span>
                 <span class="vn">${esc(f.t)}</span>
                 ${badge?`<span class="vbadge ${badge[1]}">${badge[0]}</span>`:"<span></span>"}
+                ${shows.length>2?`<details class="screening-more">
+                  <summary aria-label="More screening times for ${esc(f.t)} at ${esc(v.n)}">
+                    <span class="more-label">Show more screening times (${shows.length-2})</span>
+                    <span class="less-label">Show fewer screening times</span>
+                  </summary>
+                  <div class="vtimes">${shows.slice(2).map(timeButton).join("")}</div>
+                </details>`:""}
               </div>`;
             }).join("");
         })()}

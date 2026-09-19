@@ -9,11 +9,12 @@
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
            "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
 
-export async function get(url){
-  const res = await fetch(url, { headers:{
+export async function get(url, options = {}){
+  const res = await fetch(url, { ...options, signal:AbortSignal.timeout(30000), headers:{
     "User-Agent":UA,
     "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language":"en-US,en;q=0.9"
+    "Accept-Language":"en-US,en;q=0.9",
+    ...options.headers
   }, redirect:"follow" });
   if(!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.text();
@@ -254,6 +255,203 @@ export async function uniondocs(v, ctx){
     const m = String(e.start_date||"").match(/^(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2})/);
     if(!m || !ctx.week.includes(m[1])) continue;
     out.push({ title: clean(String(e.title||"")), date:m[1], time:m[2], url:e.url });
+  }
+  return out;
+}
+
+/* ================= ROXY ================= */
+export function parseRoxy(html, ctx){
+  const out = [];
+  for(const card of html.split(/<div\b[^>]*class=['"][^'"]*\bscreening__card\b[^'"]*['"][^>]*>/i).slice(1)){
+    const t = card.match(/<h3\b[^>]*>[\s\S]*?<a\b[^>]*href=['"]([^'"]+)['"][^>]*>([\s\S]*?)<\/a>/i);
+    const d = card.match(/<p\b[^>]*class=['"]screening__date['"][^>]*>\s*(\d{2})\.(\d{2})\.(\d{4})\s*\|\s*([^<]+)/i);
+    if(!t || !d) continue;
+    const date = `${d[3]}-${d[1]}-${d[2]}`, time = to24(clean(d[4]));
+    if(!ctx.week.includes(date) || !time) continue;
+    const [title, ...notes] = clean(t[2]).split(/\s+\|\s+/);
+    out.push({title, date, time, url:ents(t[1]), note:notes.join(' | '),
+      fmt:title.match(/\b(?:35|70|16)mm\b/i)?.[0] || ''});
+  }
+  return out;
+}
+export async function roxy(v, ctx){ return parseRoxy(await get(v.url), ctx); }
+
+/* ================= SYNDICATED / VEEZI ================= */
+export function parseVeezi(html, ctx){
+  const out = [];
+  // The page repeats the schedule in date and film views. Read only the date view.
+  const byDate = html.split(/id="sessionsByFilmConent"/)[0];
+  for(const film of byDate.split(/<div\s+class="film\s*[^"]*"/).slice(1)){
+    const title = film.match(/<h3 class="title">([\s\S]*?)<\/h3>/)?.[1];
+    if(!title) continue;
+    for(const group of film.split(/<div class="date-container">/).slice(1)){
+      const label = group.match(/<h4 class="date">\w+\s+(\d{1,2}),\s*(\w+)<\/h4>/);
+      if(!label) continue;
+      const date = dateFromLabel(`${label[2]} ${label[1]}`, ctx.today);
+      if(!ctx.week.includes(date)) continue;
+      for(const li of group.matchAll(/<li\b[^>]*>([\s\S]*?)<\/li>/g)){
+        const raw = li[1].match(/<time>([^<]+)<\/time>/)?.[1];
+        const time = raw && to24(raw);
+        if(!time) continue;
+        out.push({title:clean(title), date, time,
+          url:ents(li[1].match(/href="([^"]+)"/)?.[1] || ''),
+          note:/SOLD OUT/.test(li[1]) ? 'Sold out' : /BOOKINGS CLOSED/.test(li[1]) ? 'Bookings closed' : ''});
+      }
+    }
+  }
+  return out;
+}
+export async function syndicated(v, ctx){ return parseVeezi(await get(v.scheduleUrl), ctx); }
+
+/* ================= BAM ================= */
+export function parseBam(data, ctx){
+  if(!Array.isArray(data)) throw new Error('BAM calendar response is not an array');
+  const out = [];
+  for(const film of data){
+    if(film.genres !== 'Film') continue;
+    for(const stamp of film.performances || []){
+      const ms = Date.parse(stamp);
+      if(!Number.isFinite(ms)) throw new Error('BAM returned an invalid performance date');
+      const {date,time} = nyParts(ms);
+      if(ctx.week.includes(date)) out.push({title:clean(film.name), date, time,
+        url:new URL(film.moreLink, 'https://www.bam.org').href});
+    }
+  }
+  return out;
+}
+export async function bam(v, ctx){
+  const usDate = d => `${d.slice(5,7)}/${d.slice(8,10)}/${d.slice(0,4)}`;
+  // Match the widget URL exactly: the server can return XML for encoded slashes.
+  const params = `start=${usDate(ctx.week[0])}&end=${usDate(ctx.week.at(-1))}`;
+  return parseBam(JSON.parse(await get(`https://www.bam.org/api/BAMApi/GetCalendarEventsByDayWithOnGoing?${params}`, {headers:{Accept:"application/json"}})), ctx);
+}
+
+/* ================= CINEMA VILLAGE ================= */
+export function parseCinemaVillageListings(html, ctx){
+  const dates = new Map();
+  for(const link of html.matchAll(/<a\b[^>]*href="#tab_default_(\d+)"[^>]*>([\s\S]*?)<\/a>/g)){
+    const md = clean(link[2]).match(/(\d{2})\.(\d{2})/);
+    if(md) dates.set(link[1], ctx.week.find(d=>d.slice(5)===`${md[1]}-${md[2]}`));
+  }
+  const out = [];
+  for(const tab of html.split(/<div\b[^>]*class="tab-pane[^"]*"\s+id="tab_default_/).slice(1)){
+    const date = dates.get(tab.match(/^(\d+)/)?.[1]);
+    if(!date) continue;
+    for(const li of tab.matchAll(/<li\b[^>]*>([\s\S]*?)<\/li>/g)){
+      const title = li[1].match(/class="ttl"[^>]*>([\s\S]*?)<\/a>/)?.[1];
+      const id = li[1].match(/id="container-for-ticketsid-\d+-([^"<>]+)"/)?.[1];
+      if(title && id) out.push({title:clean(title),movieId:id,date});
+    }
+  }
+  return out;
+}
+export function parseCinemaVillageTimes(data, film, ctx){
+  if(data.type !== 'success' || typeof data.msg !== 'string') throw new Error('Cinema Village returned an invalid times response');
+  const out = [];
+  for(const a of data.msg.matchAll(/<a\b[^>]*rel="([^"|]+)\|(\d{4})(\d{2})(\d{2})(\d{2})(\d{2})\|[^"|]+"[^>]*>/g)){
+    const date = `${a[2]}-${a[3]}-${a[4]}`;
+    if(a[1]!==film.movieId || date!==film.date || !ctx.week.includes(date)) continue;
+    out.push({title:film.title,date,time:`${a[5]}:${a[6]}`,url:'https://www.cinemavillage.com/showtimes/'});
+  }
+  return out;
+}
+export async function cinemaVillage(v, ctx){
+  const films = parseCinemaVillageListings(await get(`${v.url}showtimes/`), ctx);
+  if(!films.length) throw new Error('Cinema Village has no dated film listings in range');
+  const out = [];
+  // Small batches avoid hammering the venue's server.
+  for(let i=0;i<films.length;i+=3){
+    const rows = await Promise.all(films.slice(i,i+3).map(async film => {
+      const data = JSON.parse(await get(`${v.url}managemovies.html`, {
+        method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'},
+        body:new URLSearchParams({do:'movietimes',m:film.movieId,d:film.date}).toString()
+      }));
+      return parseCinemaVillageTimes(data, film, ctx);
+    }));
+    out.push(...rows.flat());
+  }
+  return out;
+}
+
+/* ================= ANGELIKA ================= */
+export function parseAngelika(data, ctx){
+  const result = data.nowShowing;
+  if(result?.statusCode!==200 || !Array.isArray(result.data?.movies)) throw new Error('Angelika returned an invalid showtimes response');
+  const out = [];
+  for(const film of result.data.movies){
+    if(film.theater !== '0000000005') continue;
+    for(const day of film.showdates || []) for(const type of day.showtypes || []) for(const show of type.showtimes || []){
+      // The API uses ISO offsets shortened to -04; normalize before parsing.
+      const ms = Date.parse(String(show.date_time).replace(/([+-]\d{2})$/, '$1:00'));
+      if(!Number.isFinite(ms)) throw new Error('Angelika returned an invalid performance date');
+      const {date,time} = nyParts(ms);
+      if(!ctx.week.includes(date)) continue;
+      out.push({title:clean(film.name),date,time,fmt:type.type || '',
+        director:clean(film.director || ''),runtime:Number(film.length) || undefined,
+        note:show.soldout ? 'Sold out' : '',
+        url:`https://www.angelikafilmcenter.com/nyc/movies/details/${encodeURIComponent(film.movieSlug)}`});
+    }
+  }
+  return out;
+}
+export async function angelika(v, ctx){
+  const base = 'https://production-api.readingcinemas.com';
+  // This is the site's anonymous browsing token, issued without a user account.
+  const settings = JSON.parse(await get(`${base}/settings/6`));
+  const token = settings.data?.settings?.token;
+  if(!token) throw new Error('Angelika did not issue an anonymous browsing token');
+  const out = [];
+  for(const date of ctx.week){
+    const q = new URLSearchParams({countryId:'6',cinemaId:'0000000005',status:'getShows',flag:'nowshowing',selectedDate:date});
+    out.push(...parseAngelika(JSON.parse(await get(`${base}/films?${q}`, {headers:{Authorization:`Bearer ${token}`}})), ctx));
+  }
+  return out;
+}
+
+/* ================= PARIS ================= */
+export function parseParis(data, ctx){
+  if(!Array.isArray(data.showtimes) || !Array.isArray(data.relatedData?.films)) throw new Error('Paris returned an invalid showtimes response');
+  const films = new Map(data.relatedData.films.map(f=>[f.id,f]));
+  const attrs = new Map((data.relatedData.attributes || []).map(a=>[a.id,a.shortName?.text || a.name?.text || '']));
+  const out = [];
+  for(const show of data.showtimes){
+    if(show.siteId !== '2001') continue;
+    const film = films.get(show.filmId);
+    if(!film) throw new Error('Paris showtime is missing its film metadata');
+    const ms = Date.parse(show.schedule?.startsAt);
+    if(!Number.isFinite(ms)) throw new Error('Paris returned an invalid performance date');
+    const {date,time} = nyParts(ms);
+    if(!ctx.week.includes(date)) continue;
+    out.push({title:clean(film.title.text),date,time,runtime:film.runtimeInMinutes,
+      fmt:(show.attributeIds || []).map(id=>attrs.get(id)).filter(Boolean).join(', '),
+      note:show.isSoldOut ? 'Sold out' : '',
+      url:`https://tickets.paristheaternyc.com/order/showtimes/${encodeURIComponent(show.id)}/seats`});
+  }
+  return out;
+}
+export async function paris(v, ctx){
+  // Follow the public website's anonymous browsing flow. Discover its current
+  // published client configuration at runtime; never commit credentials/tokens.
+  const html = await get(v.url);
+  const layout = html.match(/static\/chunks\/app\/layout-[a-z0-9]+\.js/)?.[0];
+  if(!layout) throw new Error('Paris browsing configuration script was not found');
+  const script = await get(new URL(`/_next/${layout}`,v.url).href);
+  const form = new URLSearchParams({grant_type:'password'});
+  for(const key of ['username','password','client_id']){
+    const value = script.match(new RegExp(`\\.append\\("${key}",""\\.concat\\("([^"\\\\]+)"\\)\\)`))?.[1];
+    if(!value) throw new Error('Paris anonymous browsing configuration changed');
+    form.set(key,value);
+  }
+  const auth = JSON.parse(await get('https://auth.moviexchange.com/connect/token', {
+    method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:form.toString()
+  }));
+  if(!auth.access_token) throw new Error('Paris did not issue an anonymous browsing token');
+  const out = [];
+  for(const date of ctx.week){
+    const data = JSON.parse(await get(`https://digital-api.paristheaternyc.com/ocapi/v1/showtimes/by-business-date/${date}?siteIds=2001`, {
+      headers:{Authorization:`Bearer ${auth.access_token}`}
+    }));
+    out.push(...parseParis(data,ctx));
   }
   return out;
 }

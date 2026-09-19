@@ -13,7 +13,7 @@ node scripts/scrape.mjs --only ff,mg # one or more venue ids
 Open `index.html` without running the scraper and it falls back to the seeded sample week,
 and says so in the header.
 
-### Live adapters (9 of 20 venues)
+### Live adapters (15 of 20 venues)
 
 | Cinema | Source | Notes |
 | --- | --- | --- |
@@ -26,34 +26,51 @@ and says so in the header.
 | Nitehawk Prospect Park | HTML — per-day page, unix timestamps |  |
 | Maysles Documentary Center | JSON — Squarespace `?format=json` | small programme; a few events a week |
 | UnionDocs | JSON — The Events Calendar REST | nothing scheduled in the current week |
+| Cinema Village | JSON/HTML — dated film tabs + `managemovies.html` | queries each film/date; uses session timestamps, not undated homepage times |
+| Roxy Cinema New York | HTML — `.screening__card` / `.screening__date` | retains series notes and screening links |
+| Angelika Film Center | JSON — Reading Cinemas public browsing API | anonymous token from `/settings/6`; NYC cinema `0000000005` only |
+| The Paris Theater | JSON — Vista public browsing API | correct site: `www.paristheaternyc.com`; site `2001` only |
+| BAM Rose Cinemas | JSON — `/api/BAMApi/GetCalendarEventsByDayWithOnGoing` | same date query as the film widget; excludes non-film events |
+| Syndicated | HTML — Veezi sessions | uses the venue's public site token; keeps sold-out/closed notes |
 
-### Listed but not yet scraped (11 venues)
+### Listed but not yet scraped (5 venues)
 
 These are on the board and in the filters, but have no adapter yet. The run report prints
 the reason for each rather than quietly returning nothing.
 
 | Cinema | Why |
 | --- | --- |
-| Cinema Village | Showtimes are injected client-side; the served HTML has no times. |
-| Roxy Cinema New York | Squarespace site renders its schedule in JS; no showtimes in the HTML. |
-| Angelika Film Center | Single-page app; listings come from an authenticated internal API. |
-| The Paris Theater | Schedule is rendered client-side; served HTML carries no showtimes. |
 | Walter Reade Theater | filmlinc.org returns 403 to scripted requests (bot protection). |
 | Elinor Bunin Munroe Film Center | filmlinc.org returns 403 to scripted requests (bot protection). |
-| BAM Rose Cinemas | Listings load from a JSON API behind the page; no stable public endpoint found. |
 | Spectacle | Calendar is a JS widget; the served HTML lists no showtimes. |
-| Syndicated | No listings path found that returns showtimes in HTML. |
 | Museum of the Moving Image | movingimage.org returns 403 to scripted requests (bot protection). |
 | Kew Gardens Cinema | Host does not respond to requests from here (connection times out). |
 
-The three causes, and what each would take:
+The earlier report incorrectly described Roxy and Paris as blocked client-rendered sites,
+and missed Syndicated's public Veezi schedule. Cinema Village's homepage has undated times;
+its date-specific endpoint provides the dates needed for this index. BAM and Angelika both
+have public browsing APIs used by their own websites.
 
-- **Client-rendered schedules** (Cinema Village, Roxy, Paris, Spectacle, Angelika) — the served
-  HTML has no showtimes. Needs a headless browser, or the internal JSON endpoint each app calls.
-- **Bot protection** (Film at Lincoln Center, MOMI) — both return 403 to scripted requests.
-  Needs a real browser session, or asking the venues for a feed.
-- **Unreachable / not found** (Kew Gardens, Syndicated, BAM) — no listings path that returns
-  showtimes; BAM loads them from an API with no stable public route.
+Paris and Angelika obtain anonymous browsing tokens at runtime. Paris's public layout script
+contains the configuration used by its own browsing client; the adapter discovers that current
+configuration instead of committing a password or token. Changes to this flow fail visibly in
+the run report. No visitor login or saved browser session is used.
+
+The remaining venues need separate investigation: Film at Lincoln Center and MOMI returned
+403 during the original probes, Spectacle still needs a dated schedule source, and Kew Gardens
+was unreachable. Those older observations have not been reverified by this change.
+
+### Verification
+
+```bash
+node --test tests/scrapers.test.mjs
+node scripts/scrape.mjs
+```
+
+The new parser tests cover title/date pairing, year rollover, midnight and timezone handling,
+venue filtering, sold-out sessions, malformed responses, and metadata joins. Fetches made
+through the shared helper time out after 30 seconds. The complete scrape refreshes the preview;
+`--only` writes a dataset containing only the requested venues, so use a full run for the full board.
 
 ### Known limitation
 
