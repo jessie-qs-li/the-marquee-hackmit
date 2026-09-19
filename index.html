@@ -397,7 +397,9 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 .vtimes{display:flex;flex-direction:column;align-items:flex-start;gap:3px}
 .vt-time{font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--hot);letter-spacing:.01em;
   line-height:1.5;text-align:left}
-.screening-more{grid-column:1 / -1;min-width:0}
+.vfilm.has-more{row-gap:3px}
+.vsecond{grid-column:1 / -1;display:grid;grid-template-columns:54px minmax(0,1fr);column-gap:10px;align-items:start}
+.screening-more{min-width:0}
 .screening-more summary{color:var(--dim);font-size:10.5px;cursor:pointer;list-style:none;line-height:1.5}
 .screening-more summary::-webkit-details-marker{display:none}
 .screening-more summary:hover{color:var(--amber)}
@@ -405,7 +407,7 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 .screening-more .less-label{display:none}
 .screening-more[open] .more-label{display:none}
 .screening-more[open] .less-label{display:inline}
-.screening-more .vtimes{margin-top:6px}
+.screening-more .vtimes{margin-top:3px;margin-left:-64px}
 .vt-time:hover{color:var(--amber)}
 .vt-time.out{color:var(--faint);text-decoration:line-through;cursor:default}
 .vt-time.out:hover{color:var(--faint)}
@@ -1096,7 +1098,7 @@ function columnCount(el){
 /* rough rendered height of a venue block, enough to balance against */
 function blockHeight(films){
   let h = 46;                                   // name + neighbourhood + rule
-  for(const shows of films) h += Math.max(27, 12 + Math.min(shows.length,2)*16.5 + (shows.length>2?26:0)) + 1;
+  for(const shows of films) h += Math.max(27, 12 + Math.min(shows.length,2)*16.5) + 1;
   return h;
 }
 
@@ -1131,17 +1133,17 @@ function renderVenueBoard(list,el){
               const meta = [f.y, f.d].filter(Boolean).join(" · ");
               const timeButton = s => `<button class="vt-time ${s.out?"out":""}" ${s.out?"":`data-tix="${esc(v.n)}"`}
                 title="${esc(f.t)}${meta?" — "+esc(meta):""}${s.out?" — sold out":""}">${s.time}</button>`;
-              return `<div class="vfilm">
-                <span class="vtimes">${shows.slice(0,2).map(timeButton).join("")}</span>
+              return `<div class="vfilm ${shows.length>2?"has-more":""}">
+                <span class="vtimes">${shows.slice(0,shows.length>2?1:2).map(timeButton).join("")}</span>
                 <span class="vn">${esc(f.t)}</span>
                 ${badge?`<span class="vbadge ${badge[1]}">${badge[0]}</span>`:"<span></span>"}
-                ${shows.length>2?`<details class="screening-more">
+                ${shows.length>2?`<div class="vsecond">${timeButton(shows[1])}<details class="screening-more">
                   <summary aria-label="More screening times for ${esc(f.t)} at ${esc(v.n)}">
                     <span class="more-label">Show more screening times (${shows.length-2})</span>
                     <span class="less-label">Show fewer screening times</span>
                   </summary>
                   <div class="vtimes">${shows.slice(2).map(timeButton).join("")}</div>
-                </details>`:""}
+                </details></div>`:""}
               </div>`;
             }).join("");
         })()}
