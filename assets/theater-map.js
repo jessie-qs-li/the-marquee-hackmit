@@ -1,22 +1,21 @@
-/* Leaflet + CARTO Dark Matter, to sit with the rest of the board.
+/* Leaflet + CARTO Voyager, color-preserving dark treatment applied only to tiles.
    The browser tile key is scoped to this map project; without it CARTO
    serves an "API KEY REQUIRED" watermark instead of the map. */
 window.MarqueeMap=(()=>{
- const tileURL='https://basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png?key=cb1_3m7j_1_17fd37577805412e52f4339d';
+ const tileURL='https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=cb1_3m7j_1_17fd37577805412e52f4339d';
  let map,layer,lastSignature='',locations,userMoved=false;
  const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  function update({visible,venues,counts,boroughs,cinemas}){
   const section=document.getElementById('theater-map-panel');section.hidden=!visible;
   if(!visible)return;
   const status=document.getElementById('theater-map-status');
-  if(!window.L||!window.NYC_THEATER_LOCATIONS){status.textContent='Map unavailable. Theater links are still available in the listings below.';return;}
+  if(!window.L||!window.NYC_THEATER_LOCATIONS){status.hidden=false;status.textContent='Map unavailable. Theater links are still available in the listings below.';return;}
   locations=window.NYC_THEATER_LOCATIONS;
   if(!map){
-   map=L.map('theater-map',{scrollWheelZoom:false,zoomSnap:0.25,zoomDelta:0.5}).setView([40.735,-73.975],13);
+   map=L.map('theater-map',{scrollWheelZoom:false,zoomSnap:0,zoomDelta:0.5}).setView([40.735,-73.975],13);
    pinchToZoom(map);
-   L.tileLayer(tileURL,{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'}).on('tileerror',()=>{status.textContent='Some map tiles could not load. Theater pins and links are still available.';}).addTo(map);
+   L.tileLayer(tileURL,{className:"marquee-dark-tiles",maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'}).on('tileerror',()=>{status.hidden=false;status.textContent='Some map tiles could not load. Theater pins and links are still available.';}).addTo(map);
    layer=L.layerGroup().addTo(map);
-   document.getElementById('map-reset').onclick=()=>{userMoved=false;fit();};
    // once the map has been driven by hand, stop re-framing it underneath them
    if(map.on) map.on('dragstart',()=>{userMoved=true;});
    const box=map.getContainer&&map.getContainer();
@@ -39,7 +38,7 @@ window.MarqueeMap=(()=>{
     hoverPopup(marker);
    }
   }
-  status.textContent=`${ids.length} theaters · Red pins have matching screenings`;
+
   // the panel has just been unhidden, so wait two frames for a real size
   // before framing the pins -- fitting against a stale box lands far too wide
   const frame=()=>{map.invalidateSize();if(ids.length&&!userMoved)fit();};
@@ -65,19 +64,37 @@ window.MarqueeMap=(()=>{
     el.addEventListener('mouseleave',close);}});
  }
 
- /* A trackpad pinch arrives as ctrl+wheel, which the browser reads as
-    page zoom. Over the map, zoom the map instead. A plain two-finger
-    scroll is left alone so the page still scrolls normally. */
+ /* Chromium sends trackpad pinches as ctrl+wheel; Safari uses gesture events.
+    Fractional zoom avoids losing small movements to zoom snapping. */
  function pinchToZoom(map){
   const box=map.getContainer&&map.getContainer();
   if(!box||!box.addEventListener)return;
+  let gestureActive=false,startZoom=0,anchor;
+  const zoom=(value,point)=>{
+   userMoved=true;
+   const next=Math.min(map.getMaxZoom(),Math.max(map.getMinZoom(),value));
+   map.setZoomAround(point,next,{animate:false});
+  };
   box.addEventListener('wheel',e=>{
    if(!e.ctrlKey)return;
-   e.preventDefault();
+   e.preventDefault();e.stopPropagation();
+   if(gestureActive)return;
+   const delta=e.deltaY*(e.deltaMode===1?16:e.deltaMode===2?box.clientHeight:1);
+   zoom(map.getZoom()-Math.max(-100,Math.min(100,delta))*0.01,map.mouseEventToLatLng(e));
+  },{passive:false});
+  box.addEventListener('gesturestart',e=>{
+   e.preventDefault();e.stopPropagation();
+   gestureActive=true;startZoom=map.getZoom();anchor=map.mouseEventToLatLng(e);
    userMoved=true;
-   const step=Math.max(-0.34,Math.min(0.34,-e.deltaY*0.01));
-   const next=map.getZoom()+step;
-   map.setZoomAround(map.mouseEventToLatLng(e),Math.min(map.getMaxZoom(),Math.max(map.getMinZoom(),next)),{animate:false});
+  },{passive:false});
+  box.addEventListener('gesturechange',e=>{
+   if(!gestureActive)return;
+   e.preventDefault();e.stopPropagation();
+   if(Number.isFinite(e.scale)&&e.scale>0)zoom(startZoom+Math.log2(e.scale),anchor);
+  },{passive:false});
+  box.addEventListener('gestureend',e=>{
+   if(!gestureActive)return;
+   e.preventDefault();e.stopPropagation();gestureActive=false;
   },{passive:false});
  }
 

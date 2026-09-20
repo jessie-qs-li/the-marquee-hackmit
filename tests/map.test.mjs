@@ -17,3 +17,18 @@ test('map respects visibility and venue filters, preserves one map instance, and
  window.MarqueeMap.update(state);assert.equal(created,1);assert.equal(elements['theater-map-panel'].hidden,false);
  window.MarqueeMap.update({...state,boroughs:new Set(['Bronx'])});assert.equal(markers.length,0);
 });
+
+test('trackpad pinch supports wheel and Safari gestures without hijacking page scrolling',()=>{
+ const handlers={};let zoom=12,prevented=0;
+ const map={getContainer:()=>({clientHeight:400,addEventListener:(name,fn)=>handlers[name]=fn}),getZoom:()=>zoom,getMinZoom:()=>1,getMaxZoom:()=>19,mouseEventToLatLng:()=>[40.7,-74],setZoomAround:(_,value)=>zoom=value};
+ const window={};const context=vm.createContext({window});
+ const source=readFileSync(new URL('../assets/theater-map.js',import.meta.url),'utf8').replace('return {update,','return {pinchToZoom,update,');
+ vm.runInContext(source,context);window.MarqueeMap.pinchToZoom(map);
+ const event=extra=>({preventDefault(){prevented++},stopPropagation(){},...extra});
+ handlers.wheel(event({ctrlKey:false,deltaY:20}));assert.equal(zoom,12);assert.equal(prevented,0);
+ handlers.wheel(event({ctrlKey:true,deltaY:-2,deltaMode:0}));assert.equal(zoom,12.02);
+ handlers.wheel(event({ctrlKey:true,deltaY:2,deltaMode:0}));assert.equal(zoom,12);
+ handlers.gesturestart(event({}));handlers.gesturechange(event({scale:2}));assert.equal(zoom,13);
+ handlers.wheel(event({ctrlKey:true,deltaY:-20}));assert.equal(zoom,13);
+ handlers.gesturechange(event({scale:0.5}));assert.equal(zoom,11);handlers.gestureend(event({}));
+});

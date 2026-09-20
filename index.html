@@ -634,12 +634,13 @@ a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset
 .map-checkbox{display:flex;align-items:center;gap:8px;white-space:nowrap;font-size:11px;color:var(--text);cursor:pointer;margin-right:10px}
 .map-checkbox input{accent-color:var(--hot);width:15px;height:15px;cursor:pointer}
 .theater-map-panel{margin-bottom:28px;border:1px solid var(--line-2)}
-.map-heading{display:flex;justify-content:space-between;gap:16px;padding:10px 14px;color:var(--dim);font-size:11px}
-.map-heading button{color:var(--text);text-decoration:underline;text-underline-offset:3px}
+#theater-map-status{padding:10px 14px;margin:0;color:var(--dim);font-size:11px}
 #theater-map{height:440px;z-index:0;background:var(--ink-800);font-family:var(--sans)}
 .theater-pin{display:grid;place-items:center;background:none;border:0}
 .theater-pin span{width:15px;height:15px;border:2px solid #fff;border-radius:50%;background:var(--hot);box-shadow:0 1px 6px #0006}
-.theater-pin.muted span{background:#747982;width:11px;height:11px}
+.theater-pin.muted span{background:var(--faint);width:11px;height:11px}
+/* A cool dark palette: warm tile colors become neutral; water and parks retain blue/green. */
+#theater-map .marquee-dark-tiles{filter:invert(1) hue-rotate(180deg) brightness(.92) saturate(.8) url("#map-cool-palette")}
 #theater-map .leaflet-popup-content{font-family:Lexend,sans-serif;line-height:1.5;color:var(--text)}
 #theater-map .leaflet-popup-content p{margin:7px 0;font-size:11px;color:var(--dim)}
 #theater-map .leaflet-popup-content a{color:var(--hot);font-size:11px;font-weight:600}
@@ -652,11 +653,16 @@ a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset
 #theater-map .leaflet-control-attribution a{color:var(--dim)}
 #theater-map .leaflet-bar a{background:var(--ink-800);color:var(--text);border-bottom-color:var(--line-2)}
 #theater-map .leaflet-bar a:hover{background:var(--ink-700);color:var(--text)}
-@media(max-width:600px){#theater-map{height:330px}.map-heading{font-size:10px}.map-checkbox{width:100%}}
+@media(max-width:600px){#theater-map{height:330px}.map-checkbox{width:100%}}
 </style>
 
 </head>
 <body>
+<svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;pointer-events:none">
+  <defs><filter id="map-cool-palette" color-interpolation-filters="sRGB">
+    <feColorMatrix type="matrix" values="0.5 0.15 0.15 0 0  0.5 0.3 0.2 0 0  0.5 0.15 0.35 0 0  0 0 0 1 0"/>
+  </filter></defs>
+</svg>
 <div id="app">
   <!-- TICKER -->
   <div class="ticker"><div class="ticker-track" id="ticker"></div></div>
@@ -689,7 +695,7 @@ a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset
         </div>
         <div class="trange" id="trange"></div>
         <section id="theater-map-panel" class="theater-map-panel" aria-label="NYC theater map" hidden>
-          <div class="map-heading"><span id="theater-map-status" role="status">NYC theaters</span><button id="map-reset" type="button">Fit theaters</button></div>
+          <p id="theater-map-status" role="status" hidden></p>
           <div id="theater-map" aria-label="Interactive map of New York City theaters"></div>
         </section>
         <div class="rows" id="rows"></div>
