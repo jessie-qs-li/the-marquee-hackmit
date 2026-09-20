@@ -1,8 +1,8 @@
 {
  "city": "boston",
  "genreCoverage": {
-  "total": 40,
-  "classified": 23,
+  "total": 54,
+  "classified": 28,
   "unresolved": [
    {
     "key": "weight|",
@@ -13,6 +13,30 @@
    {
     "key": "unioncounty|",
     "title": "Union County",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "hopehopeu|",
+    "title": "Hope (Hopeu)",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "tony|",
+    "title": "Tony",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "twentyyearsofthemetincinemasananniversarycelebration|",
+    "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "ifigowilltheymissme|",
+    "title": "If I Go Will They Miss Me",
     "year": null,
     "reason": "ambiguous"
    },
@@ -47,6 +71,12 @@
     "reason": "not-found"
    },
    {
+    "key": "hoveringoverthewater|",
+    "title": "Hovering Over the Water",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "votingcountselectionsinfilmtuesdaysection|",
     "title": "Voting Counts: Elections in Film (Tuesday Section)",
     "year": null,
@@ -59,16 +89,16 @@
     "reason": "not-found"
    },
    {
-    "key": "misanthrope|",
-    "title": "The Misanthrope",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "cemeterycinemathestraightstorywingsofdesire|",
     "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
     "year": null,
     "reason": "not-found"
+   },
+   {
+    "key": "misanthrope|",
+    "title": "The Misanthrope",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "votingcountselectionsinfilmwednesdaysection|",
@@ -77,16 +107,28 @@
     "reason": "not-found"
    },
    {
+    "key": "primetime|",
+    "title": "Primetime",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "pulpwhatdoyoudoforanencore|",
+    "title": "Pulp: What Do You Do For An Encore?",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "twochaplinshorts|",
     "title": "Two Chaplin Shorts",
     "year": null,
     "reason": "not-found"
    },
    {
-    "key": "primetime|",
-    "title": "Primetime",
+    "key": "recollectionsoftheyellowhouse|",
+    "title": "Recollections of the Yellow House",
     "year": null,
-    "reason": "ambiguous"
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "frizzi2fulcitheconcert|",
@@ -101,6 +143,18 @@
     "reason": "ambiguous"
    },
    {
+    "key": "occupationalhazardthefirstcoralreefers|",
+    "title": "Occupational Hazard: The First Coral Reefers",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "godscomedy|",
+    "title": "God's Comedy",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "cannibalholocaust4krestoration|",
     "title": "Cannibal Holocaust (4K Restoration)",
     "year": null,
@@ -110,7 +164,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-20T04:05:09.257Z",
+ "fetchedAt": "2026-09-20T04:28:57.376Z",
  "week": [
   "2026-09-20",
   "2026-09-21",
@@ -140,6 +194,46 @@
    "price": 0,
    "about": "Independent releases, repertory and special screenings. Check the venue for ticket prices.",
    "url": "https://coolidge.org/showtimes"
+  },
+  "somerville": {
+   "n": "Somerville Theatre",
+   "sn": "Somerville",
+   "hood": "Davis Square",
+   "boro": "Somerville",
+   "kind": "indie",
+   "price": 0,
+   "about": "A 1914 movie palace known for 35mm and 70mm projection, live events and local film festivals.",
+   "url": "https://www.somervilletheatre.com/movies/"
+  },
+  "kendall": {
+   "n": "Landmark Kendall Square Cinema",
+   "sn": "Kendall Square",
+   "hood": "Kendall Square",
+   "boro": "Cambridge",
+   "kind": "indie",
+   "price": 0,
+   "about": "Multi-screen arthouse hub for new indie releases, documentaries and foreign films.",
+   "url": "https://www.landmarktheatres.com/boston/kendall-square-cinema"
+  },
+  "hfa": {
+   "n": "Harvard Film Archive",
+   "sn": "Harvard Film Archive",
+   "hood": "Harvard Square",
+   "boro": "Cambridge",
+   "kind": "indie",
+   "price": 1200,
+   "about": "Cinematheque in Harvard's Carpenter Center: rare international films, experimental work and preserved prints.",
+   "url": "https://harvardfilmarchive.org/calendar"
+  },
+  "mfa": {
+   "n": "Museum of Fine Arts",
+   "sn": "MFA Film",
+   "hood": "Fenway",
+   "boro": "Boston",
+   "kind": "indie",
+   "price": 0,
+   "about": "The museum auditorium screens curated international films, indie documentaries and restored classics.",
+   "url": "https://www.mfa.org/programs/film"
   }
  },
  "sources": [
@@ -148,14 +242,44 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 20,
-   "ms": 2455
+   "ms": 2253
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 112,
-   "ms": 485
+   "ms": 5483
+  },
+  {
+   "id": "somerville",
+   "name": "Somerville Theatre",
+   "ok": false,
+   "count": 0,
+   "skipped": true,
+   "error": "somervilletheatre.com returns 403 to scripted requests; the page loads normally in a real browser, so this needs a headless browser."
+  },
+  {
+   "id": "kendall",
+   "name": "Landmark Kendall Square Cinema",
+   "ok": true,
+   "count": 70,
+   "ms": 817
+  },
+  {
+   "id": "hfa",
+   "name": "Harvard Film Archive",
+   "ok": true,
+   "count": 5,
+   "ms": 445
+  },
+  {
+   "id": "mfa",
+   "name": "Museum of Fine Arts",
+   "ok": false,
+   "count": 0,
+   "skipped": true,
+   "error": "The programs calendar lists only a couple of film entries and carries date ranges rather than showtimes; per-screening times are not in any page found."
   }
  ],
  "screenings": [
@@ -259,27 +383,29 @@
     "Drama",
     "Adventure",
     "Comedy",
-    "Drama",
-    "Adventure",
-    "Comedy",
-    "Drama",
-    "Adventure",
-    "Comedy",
-    "Drama",
-    "Adventure",
-    "Comedy",
-    "Drama",
-    "Adventure",
-    "Comedy",
-    "Drama",
-    "Adventure",
-    "Comedy",
-    "Drama",
-    "Adventure",
-    "Comedy",
     "Drama"
    ],
    "genreSource": "venue"
+  },
+  {
+   "venue": "kendall",
+   "title": "Hope (Hopeu)",
+   "date": "2026-09-20",
+   "time": "12:50",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Tony",
+   "date": "2026-09-20",
+   "time": "12:55",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -305,6 +431,56 @@
    "tmdbId": 1477104
   },
   {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-20",
+   "time": "13:00",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
+   "venue": "kendall",
+   "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration",
+   "date": "2026-09-20",
+   "time": "13:00",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Practical Magic 2",
+   "date": "2026-09-20",
+   "time": "13:05",
+   "fmt": "",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "coolidge",
    "title": "American Doctor",
    "date": "2026-09-20",
@@ -327,6 +503,16 @@
    "time": "13:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036548~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "If I Go Will They Miss Me",
+   "date": "2026-09-20",
+   "time": "13:30",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -359,6 +545,27 @@
    "tmdbId": 1711224
   },
   {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-20",
+   "time": "14:00",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
    "venue": "brattle",
    "title": "The Librarians",
    "date": "2026-09-20",
@@ -386,6 +593,24 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "hfa",
+   "title": "Snow White",
+   "date": "2026-09-20",
+   "time": "15:00",
+   "note": "João César Monteiro, Poet-Provocateur",
+   "url": "https://harvardfilmarchive.org/calendar/snow-white-2026-09",
+   "genres": [
+    "scifi",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Fantasy",
+    "Romance"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "72921"
+  },
+  {
    "venue": "coolidge",
    "title": "Seminar: Amores Perros",
    "date": "2026-09-20",
@@ -395,6 +620,37 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Hope (Hopeu)",
+   "date": "2026-09-20",
+   "time": "15:15",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-20",
+   "time": "15:20",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "coolidge",
@@ -420,12 +676,62 @@
    "tmdbId": 1477104
   },
   {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-20",
+   "time": "15:50",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
+   "venue": "kendall",
+   "title": "Practical Magic 2",
+   "date": "2026-09-20",
+   "time": "15:55",
+   "fmt": "",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "coolidge",
    "title": "Amores Perros (4K Restoration)",
    "date": "2026-09-20",
    "time": "16:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1028415~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/amores-perros-4k-restoration",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Tony",
+   "date": "2026-09-20",
+   "time": "16:00",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -462,6 +768,27 @@
    "tmdbId": 1204680
   },
   {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-20",
+   "time": "16:20",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
    "venue": "coolidge",
    "title": "American Doctor",
    "date": "2026-09-20",
@@ -496,6 +823,27 @@
    "genreSource": "venue"
   },
   {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-20",
+   "time": "18:00",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
    "venue": "coolidge",
    "title": "Shaun the Sheep: The Beast of Mossy Bottom",
    "date": "2026-09-20",
@@ -519,6 +867,16 @@
    "tmdbId": 1477104
   },
   {
+   "venue": "kendall",
+   "title": "Tony",
+   "date": "2026-09-20",
+   "time": "18:25",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Boorman and the Devil",
    "date": "2026-09-20",
@@ -535,6 +893,26 @@
    "tmdbId": 1517111
   },
   {
+   "venue": "kendall",
+   "title": "Hope (Hopeu)",
+   "date": "2026-09-20",
+   "time": "18:30",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "If I Go Will They Miss Me",
+   "date": "2026-09-20",
+   "time": "18:35",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Union County",
    "date": "2026-09-20",
@@ -546,6 +924,25 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Practical Magic 2",
+   "date": "2026-09-20",
+   "time": "18:45",
+   "fmt": "",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "coolidge",
    "title": "The Weight",
    "date": "2026-09-20",
@@ -555,6 +952,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-20",
+   "time": "19:00",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "coolidge",
@@ -579,16 +997,9 @@
    "time": "19:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036571~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [
-    "drama",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1329016
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "brattle",
@@ -604,24 +1015,6 @@
    ],
    "year": 2016,
    "sourceGenres": [
-    "Adventure",
-    "Comedy",
-    "Drama",
-    "Adventure",
-    "Comedy",
-    "Drama",
-    "Adventure",
-    "Comedy",
-    "Drama",
-    "Adventure",
-    "Comedy",
-    "Drama",
-    "Adventure",
-    "Comedy",
-    "Drama",
-    "Adventure",
-    "Comedy",
-    "Drama",
     "Adventure",
     "Comedy",
     "Drama",
@@ -707,16 +1100,9 @@
    "time": "21:55",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036573~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [
-    "drama",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1329016
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -725,6 +1111,37 @@
    "time": "15:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036648~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/odyssey-digital",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-21",
+   "time": "15:20",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
+   "venue": "kendall",
+   "title": "Hope (Hopeu)",
+   "date": "2026-09-21",
+   "time": "15:25",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -761,12 +1178,41 @@
    "tmdbId": 1204680
   },
   {
+   "venue": "kendall",
+   "title": "Practical Magic 2",
+   "date": "2026-09-21",
+   "time": "15:55",
+   "fmt": "",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "coolidge",
    "title": "The Weight",
    "date": "2026-09-21",
    "time": "16:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036552~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Tony",
+   "date": "2026-09-21",
+   "time": "16:00",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -795,6 +1241,37 @@
    "tmdbId": 1477104
   },
   {
+   "venue": "kendall",
+   "title": "If I Go Will They Miss Me",
+   "date": "2026-09-21",
+   "time": "16:15",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-21",
+   "time": "16:20",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
    "venue": "coolidge",
    "title": "American Doctor",
    "date": "2026-09-21",
@@ -821,6 +1298,27 @@
    "year": null,
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-21",
+   "time": "18:10",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "coolidge",
@@ -862,6 +1360,26 @@
    "tmdbId": 1517111
   },
   {
+   "venue": "kendall",
+   "title": "Hope (Hopeu)",
+   "date": "2026-09-21",
+   "time": "18:30",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "If I Go Will They Miss Me",
+   "date": "2026-09-21",
+   "time": "18:35",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Union County",
    "date": "2026-09-21",
@@ -873,12 +1391,41 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Practical Magic 2",
+   "date": "2026-09-21",
+   "time": "18:45",
+   "fmt": "",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "coolidge",
    "title": "The Weight",
    "date": "2026-09-21",
    "time": "18:50",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036559~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Tony",
+   "date": "2026-09-21",
+   "time": "18:50",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -917,6 +1464,38 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "949"
+  },
+  {
+   "venue": "hfa",
+   "title": "Hovering Over the Water",
+   "date": "2026-09-21",
+   "time": "19:00",
+   "note": "João César Monteiro, Poet-Provocateur",
+   "url": "https://harvardfilmarchive.org/calendar/hovering-over-the-water-2026-09",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-21",
+   "time": "19:10",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "coolidge",
@@ -1010,16 +1589,9 @@
    "time": "21:55",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036575~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [
-    "drama",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1329016
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -1039,6 +1611,37 @@
    "time": "15:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036645~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/odyssey-digital",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-22",
+   "time": "15:20",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
+   "venue": "kendall",
+   "title": "Hope (Hopeu)",
+   "date": "2026-09-22",
+   "time": "15:25",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1080,12 +1683,41 @@
    "tmdbId": 1204680
   },
   {
+   "venue": "kendall",
+   "title": "Practical Magic 2",
+   "date": "2026-09-22",
+   "time": "15:55",
+   "fmt": "",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "coolidge",
    "title": "The Weight",
    "date": "2026-09-22",
    "time": "16:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036553~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Tony",
+   "date": "2026-09-22",
+   "time": "16:00",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1114,6 +1746,37 @@
    "tmdbId": 1477104
   },
   {
+   "venue": "kendall",
+   "title": "If I Go Will They Miss Me",
+   "date": "2026-09-22",
+   "time": "16:15",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-22",
+   "time": "16:20",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
    "venue": "coolidge",
    "title": "American Doctor",
    "date": "2026-09-22",
@@ -1140,6 +1803,27 @@
    "year": null,
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-22",
+   "time": "18:10",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "coolidge",
@@ -1171,16 +1855,19 @@
    "time": "18:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036652~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [
-    "drama",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1329016
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "If I Go Will They Miss Me",
+   "date": "2026-09-22",
+   "time": "18:35",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -1194,12 +1881,52 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Practical Magic 2",
+   "date": "2026-09-22",
+   "time": "18:45",
+   "fmt": "",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "coolidge",
    "title": "The Weight",
    "date": "2026-09-22",
    "time": "18:50",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036558~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Tony",
+   "date": "2026-09-22",
+   "time": "18:50",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
+   "date": "2026-09-22",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1025694~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1216,15 +1943,41 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "coolidge",
-   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
+   "venue": "kendall",
+   "title": "School of Rock",
    "date": "2026-09-22",
    "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1025694~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "fmt": "",
+   "genres": [
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Musical"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "6863"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-22",
+   "time": "19:10",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "coolidge",
@@ -1335,16 +2088,9 @@
    "time": "22:10",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036574~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [
-    "drama",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1329016
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -1364,6 +2110,37 @@
    "time": "15:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036647~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/odyssey-digital",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-23",
+   "time": "15:20",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
+   "venue": "kendall",
+   "title": "Hope (Hopeu)",
+   "date": "2026-09-23",
+   "time": "15:25",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1400,12 +2177,41 @@
    "tmdbId": 1204680
   },
   {
+   "venue": "kendall",
+   "title": "Practical Magic 2",
+   "date": "2026-09-23",
+   "time": "15:55",
+   "fmt": "",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "coolidge",
    "title": "The Weight",
    "date": "2026-09-23",
    "time": "16:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036555~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Tony",
+   "date": "2026-09-23",
+   "time": "16:00",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1432,6 +2238,37 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1477104
+  },
+  {
+   "venue": "kendall",
+   "title": "If I Go Will They Miss Me",
+   "date": "2026-09-23",
+   "time": "16:15",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-23",
+   "time": "16:20",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "brattle",
@@ -1471,6 +2308,27 @@
    "tmdbId": 1596332
   },
   {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-23",
+   "time": "18:10",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
    "venue": "coolidge",
    "title": "Boorman and the Devil",
    "date": "2026-09-23",
@@ -1485,6 +2343,16 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1517111
+  },
+  {
+   "venue": "kendall",
+   "title": "If I Go Will They Miss Me",
+   "date": "2026-09-23",
+   "time": "18:35",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -1510,6 +2378,35 @@
    "tmdbId": 1477104
   },
   {
+   "venue": "kendall",
+   "title": "Practical Magic 2",
+   "date": "2026-09-23",
+   "time": "18:45",
+   "fmt": "",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
+   "venue": "kendall",
+   "title": "Tony",
+   "date": "2026-09-23",
+   "time": "18:50",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "brattle",
    "title": "In the Mouth of Madness",
    "date": "2026-09-23",
@@ -1530,17 +2427,6 @@
   },
   {
    "venue": "coolidge",
-   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
-   "date": "2026-09-23",
-   "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1033993~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
    "title": "Romy and Michele’s High School Reunion",
    "date": "2026-09-23",
    "time": "19:00",
@@ -1554,6 +2440,55 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1513"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
+   "date": "2026-09-23",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1033993~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Miss Congeniality",
+   "date": "2026-09-23",
+   "time": "19:00",
+   "fmt": "",
+   "genres": [
+    "comedy",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Crime"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "4025"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-23",
+   "time": "19:10",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "coolidge",
@@ -1632,16 +2567,9 @@
    "time": "21:55",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036578~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [
-    "drama",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1329016
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -1828,6 +2756,47 @@
    "tmdbId": 1517111
   },
   {
+   "venue": "kendall",
+   "title": "If I Go Will They Miss Me",
+   "date": "2026-09-24",
+   "time": "16:15",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-24",
+   "time": "16:20",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
+   "venue": "kendall",
+   "title": "Primetime",
+   "date": "2026-09-24",
+   "time": "16:30",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "American Doctor",
    "date": "2026-09-24",
@@ -1902,6 +2871,16 @@
    "tmdbId": 1596332
   },
   {
+   "venue": "kendall",
+   "title": "If I Go Will They Miss Me",
+   "date": "2026-09-24",
+   "time": "18:35",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Union County",
    "date": "2026-09-24",
@@ -1932,6 +2911,47 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "239"
+  },
+  {
+   "venue": "kendall",
+   "title": "Pulp: What Do You Do For An Encore?",
+   "date": "2026-09-24",
+   "time": "19:00",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Primetime",
+   "date": "2026-09-24",
+   "time": "19:05",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-09-24",
+   "time": "19:10",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "coolidge",
@@ -2048,16 +3068,9 @@
    "time": "22:10",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036579~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [
-    "drama",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1329016
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "brattle",
@@ -2068,6 +3081,16 @@
    "filmUrl": "https://brattlefilm.org/special_events/two-chaplin-shorts/",
    "genres": [],
    "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Primetime",
+   "date": "2026-09-25",
+   "time": "16:30",
+   "fmt": "",
+   "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
@@ -2087,6 +3110,27 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 91735
+  },
+  {
+   "venue": "hfa",
+   "title": "Recollections of the Yellow House",
+   "date": "2026-09-25",
+   "time": "19:00",
+   "note": "João César Monteiro, Poet-Provocateur",
+   "url": "https://harvardfilmarchive.org/calendar/recollections-of-the-yellow-house-2026-10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Primetime",
+   "date": "2026-09-25",
+   "time": "19:05",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -2128,12 +3172,42 @@
    "genreMovieId": "3637"
   },
   {
+   "venue": "kendall",
+   "title": "Primetime",
+   "date": "2026-09-25",
+   "time": "21:40",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "The Beyond",
    "date": "2026-09-25",
    "time": "23:59",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1030002~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/beyond",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Occupational Hazard: The First Coral Reefers",
+   "date": "2026-09-26",
+   "time": "13:00",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Primetime",
+   "date": "2026-09-26",
+   "time": "13:50",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2156,6 +3230,24 @@
    "tmdbId": 91735
   },
   {
+   "venue": "hfa",
+   "title": "Amarcord",
+   "date": "2026-09-26",
+   "time": "14:00",
+   "note": "Nostalgia, A Harvard Undergraduate Cinematheque",
+   "url": "https://harvardfilmarchive.org/calendar/amarcord-2026-09",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "7089"
+  },
+  {
    "venue": "brattle",
    "title": "Ten Women in Black",
    "date": "2026-09-26",
@@ -2173,6 +3265,16 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 125368
+  },
+  {
+   "venue": "kendall",
+   "title": "Primetime",
+   "date": "2026-09-26",
+   "time": "16:30",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "brattle",
@@ -2194,6 +3296,27 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "8507"
+  },
+  {
+   "venue": "hfa",
+   "title": "God's Comedy",
+   "date": "2026-09-26",
+   "time": "19:00",
+   "note": "João César Monteiro, Poet-Provocateur",
+   "url": "https://harvardfilmarchive.org/calendar/gods-comedy-2016-09",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Primetime",
+   "date": "2026-09-26",
+   "time": "19:05",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -2226,6 +3349,16 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2167"
+  },
+  {
+   "venue": "kendall",
+   "title": "Primetime",
+   "date": "2026-09-26",
+   "time": "21:40",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",

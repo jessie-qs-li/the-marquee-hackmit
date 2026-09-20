@@ -52,7 +52,7 @@ body{
   font-family:var(--ui);font-size:15px;line-height:1.5;
   -webkit-font-smoothing:antialiased;
 }
-html,body{overflow-x:hidden}
+html,body{overflow-x:clip}
 button{font:inherit;color:inherit;background:none;border:none;cursor:pointer}
 input,select,textarea{font:inherit;color:inherit}
 code,pre,kbd,samp{font-family:var(--ui)}
@@ -66,7 +66,7 @@ ul{margin:0;padding:0;list-style:none}
 
 /* ---------- nav ---------- */
 .nav{
-  position:sticky;top:env(safe-area-inset-top,0px);z-index:60;
+  position:relative;z-index:60;
   background:linear-gradient(180deg,rgba(10,11,15,.97),rgba(10,11,15,.86) 70%,rgba(10,11,15,0));
   backdrop-filter:blur(14px);
 }
@@ -330,7 +330,10 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 
 /* ================= BOARD SHELL ================= */
 .board-grid{display:grid;grid-template-columns:206px minmax(0,1fr);margin-top:18px;border-top:1px solid var(--line-2)}
-.side{border-right:1px solid var(--line);padding:24px 22px 48px 0}
+.side{border-right:1px solid var(--line);padding:24px 22px 48px 0;
+  position:sticky;top:env(safe-area-inset-top,0px);align-self:start;
+  max-height:calc(100dvh - env(safe-area-inset-top,0px));
+  overflow-y:auto;scrollbar-width:thin;scrollbar-gutter:stable}
 .board{padding:24px 0 24px 26px;min-width:0}
 
 /* ---- sidebar filter groups ---- */
@@ -432,7 +435,7 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 
 @media (max-width:860px){
   .board-grid{grid-template-columns:1fr}
-  .side{border-right:0;border-bottom:1px solid var(--line);padding:20px 0 26px;
+  .side{position:static;max-height:none;overflow:visible;scrollbar-gutter:auto;border-right:0;border-bottom:1px solid var(--line);padding:20px 0 26px;
     display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:22px}
   .fgroup+.fgroup{margin-top:0}
   .board{padding:22px 0 24px}
@@ -871,7 +874,7 @@ const S = {
   view:"browse", city:"nyc", cityLoading:false, cityError:"",
   day:TODAY, hoods:new Set(), venueKind:"any", fmt:"any",
   boros:new Set(), fmts:new Set(), events:new Set(), genres:new Set(),
-  tMin:720, tMax:1440, board:"venue",
+  tMin:600, tMax:1380, board:"venue",
   step:0,
   mode:"theater",
   services:new Set(["netflix","max","criterion"]),
@@ -1093,7 +1096,7 @@ function visibleScreenings(){ return SCREENINGS.filter(s=>s.day===S.day && passe
 function dayCount(i){ return SCREENINGS.filter(s=>s.day===i && passesNonDay(s)).length; }
 function filtersActive(){
   return S.boros.size||S.fmts.size||S.events.size||S.genres.size||S.hoods.size
-      || S.venueKind!=="any" || S.tMin!==720 || S.tMax!==1440;
+      || S.venueKind!=="any" || S.tMin!==600 || S.tMax!==1380;
 }
 
 function optHTML(attr,val,label,on,solo){
@@ -1148,15 +1151,15 @@ function renderControls(){
     `<button class="vt ${S.board==="venue"?"on":""}" data-board="venue" aria-pressed="${S.board==="venue"}">By venue</button>
      <button class="vt ${S.board==="film"?"on":""}" data-board="film" aria-pressed="${S.board==="film"}">By film</button>`;
 
-  const pct = m=>((m-720)/(1440-720))*100;
+  const pct = m=>(m/1440)*100;
   document.getElementById("trange").innerHTML = `
     <span class="tlab">Select time range</span>
     <span class="tval" id="time-min-label">${hhmm(S.tMin)}</span>
     <span class="rr">
       <span class="rr-track"></span>
       <span class="rr-fill" style="left:${pct(S.tMin)}%;right:${100-pct(S.tMax)}%"></span>
-      <input type="range" id="t-min" min="720" max="1440" step="1" value="${S.tMin}" aria-valuetext="${hhmm(S.tMin)}" aria-label="Earliest showtime">
-      <input type="range" id="t-max" min="720" max="1440" step="1" value="${S.tMax}" aria-valuetext="${hhmm(S.tMax)}" aria-label="Latest showtime">
+      <input type="range" id="t-min" min="0" max="1440" step="1" value="${S.tMin}" aria-valuetext="${hhmm(S.tMin)}" aria-label="Earliest showtime">
+      <input type="range" id="t-max" min="0" max="1440" step="1" value="${S.tMax}" aria-valuetext="${hhmm(S.tMax)}" aria-label="Latest showtime">
     </span>
     <span class="tval" id="time-max-label" style="text-align:right">${hhmm(S.tMax)}</span>`;
 
@@ -1703,7 +1706,7 @@ document.addEventListener("click", e=>{
   if(t.dataset.board){ S.board=t.dataset.board; renderControls(); renderRows(); return; }
   if(t.dataset.clear){
     S.boros.clear(); S.fmts.clear(); S.events.clear(); S.genres.clear(); S.hoods.clear();
-    S.venueKind="any"; S.tMin=720; S.tMax=1440; renderControls(); renderRows(); return;
+    S.venueKind="any"; S.tMin=600; S.tMax=1380; renderControls(); renderRows(); return;
   }
   if(t.dataset.mode){ S.mode=t.dataset.mode; renderFlow(); return; }
   if(t.dataset.svc){ S.services.has(t.dataset.svc)?S.services.delete(t.dataset.svc):S.services.add(t.dataset.svc); renderFlow(); return; }
@@ -1884,7 +1887,7 @@ async function loadCity(city){
   const request=++cityRequest;
   S.city=city;S.cityLoading=true;S.cityError="";S.day=0;S.results=null;S.chosen=null;
   for(const key of ['boros','hoods','fmts','events','genres'])S[key].clear();
-  S.venueKind="any";S.tMin=720;S.tMax=1440;
+  S.venueKind="any";S.tMin=600;S.tMax=1380;
   SCREENINGS.splice(0);Object.keys(VENUES).forEach(k=>delete VENUES[k]);
   renderBrowse();
   try{

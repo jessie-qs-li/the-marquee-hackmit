@@ -1,7 +1,7 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 193,
+  "total": 194,
   "classified": 124,
   "unresolved": [
    {
@@ -335,6 +335,12 @@
     "reason": "not-found"
    },
    {
+    "key": "nationaltheatrelivethemisanthrope|",
+    "title": "National Theatre Live: The Misanthrope",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "iphigenia|1977",
     "title": "Iphigenia",
     "year": 1977,
@@ -422,7 +428,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-20T04:13:15.283Z",
+ "fetchedAt": "2026-09-20T04:30:10.809Z",
  "week": [
   "2026-09-20",
   "2026-09-21",
@@ -640,63 +646,63 @@
    "name": "Film Forum",
    "ok": true,
    "count": 87,
-   "ms": 1094
+   "ms": 800
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
    "count": 63,
-   "ms": 250
+   "ms": 153
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
-   "count": 141,
-   "ms": 134
+   "count": 153,
+   "ms": 1946
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 22,
-   "ms": 306
+   "ms": 578
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 78,
-   "ms": 260
+   "ms": 296
   },
   {
    "id": "cv",
    "name": "Cinema Village",
    "ok": true,
    "count": 73,
-   "ms": 1312
+   "ms": 1343
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 20,
-   "ms": 202
+   "ms": 380
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
    "count": 183,
-   "ms": 5877
+   "ms": 5842
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
    "count": 23,
-   "ms": 3230
+   "ms": 3349
   },
   {
    "id": "wrt",
@@ -719,21 +725,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 109,
-   "ms": 322
+   "ms": 309
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 84,
-   "ms": 5263
+   "ms": 4566
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 147,
-   "ms": 7350
+   "ms": 7707
   },
   {
    "id": "spec",
@@ -748,7 +754,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 14,
-   "ms": 1173
+   "ms": 1858
   },
   {
    "id": "momi",
@@ -763,7 +769,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 5,
-   "ms": 553
+   "ms": 150
   },
   {
    "id": "kew",
@@ -779,7 +785,7 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 1002
+   "ms": 401
   }
  ],
  "screenings": [
@@ -15076,6 +15082,31 @@
    "tmdbId": 1596249
   },
   {
+   "venue": "ifc",
+   "title": "The Incomer",
+   "date": "2026-09-26",
+   "time": "10:45",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1554956
+  },
+  {
+   "venue": "ifc",
+   "title": "National Theatre Live: The Misanthrope",
+   "date": "2026-09-26",
+   "time": "11:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "The Best of Betty Boop",
    "date": "2026-09-26",
@@ -15231,6 +15262,22 @@
    "genreMovieId": "105835"
   },
   {
+   "venue": "ifc",
+   "title": "9 to 5",
+   "date": "2026-09-26",
+   "time": "13:15",
+   "genres": [
+    "comedy",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Crime"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "4291"
+  },
+  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
    "date": "2026-09-26",
@@ -15250,6 +15297,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1437396
+  },
+  {
+   "venue": "ifc",
+   "title": "Take Me Home",
+   "date": "2026-09-26",
+   "time": "13:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -15339,6 +15395,22 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ifc",
+   "title": "The Incomer",
+   "date": "2026-09-26",
+   "time": "14:00",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1554956
   },
   {
    "venue": "mg",
@@ -15683,6 +15755,15 @@
    "genreMovieId": "32179"
   },
   {
+   "venue": "ifc",
+   "title": "Take Me Home",
+   "date": "2026-09-26",
+   "time": "16:25",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "afa",
    "title": "SCREAMPLAY",
    "date": "2026-09-26",
@@ -15727,6 +15808,22 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "ifc",
+   "title": "The Incomer",
+   "date": "2026-09-26",
+   "time": "16:35",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1554956
   },
   {
    "venue": "angelika",
@@ -15891,6 +15988,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ifc",
+   "title": "Take Me Home",
+   "date": "2026-09-26",
+   "time": "18:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-09-26",
@@ -16037,6 +16143,25 @@
    "tmdbId": 1596249
   },
   {
+   "venue": "ifc",
+   "title": "The Best Little Whorehouse in Texas",
+   "date": "2026-09-26",
+   "time": "18:45",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Musical",
+    "Romance"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5927"
+  },
+  {
    "venue": "nhp",
    "title": "Coyote vs. Acme",
    "date": "2026-09-26",
@@ -16149,6 +16274,22 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1437396
+  },
+  {
+   "venue": "ifc",
+   "title": "The Incomer",
+   "date": "2026-09-26",
+   "time": "19:10",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1554956
   },
   {
    "venue": "nhp",
@@ -16441,6 +16582,20 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ifc",
+   "title": "Steel Magnolias",
+   "date": "2026-09-26",
+   "time": "21:20",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "3844"
+  },
+  {
    "venue": "bam",
    "title": "Primetime",
    "date": "2026-09-26",
@@ -16467,6 +16622,22 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1240889
+  },
+  {
+   "venue": "ifc",
+   "title": "The Incomer",
+   "date": "2026-09-26",
+   "time": "21:45",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1554956
   },
   {
    "venue": "nhp",

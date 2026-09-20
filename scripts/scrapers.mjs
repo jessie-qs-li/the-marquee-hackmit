@@ -497,3 +497,70 @@ export function parseCoolidge(html,date){
 export async function coolidge(v,ctx){
  const rows=[];for(const date of ctx.week)rows.push(...parseCoolidge(await get(`${v.url}?date=${date}`),date));return rows;
 }
+
+/* ================= HARVARD FILM ARCHIVE ================= */
+/* calendar rows: .event blocks whose .event__time carries a machine datetime */
+export function parseHFA(html, ctx){
+  const out = [];
+  for(const ev of html.split(/<div class="grid-3 m-calendar__spot--event event"/).slice(1)){
+    const dt = ev.match(/<time datetime="(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2})/);
+    if(!dt || !ctx.week.includes(dt[1])) continue;
+    const t = ev.match(/<h5 class="event__title">([\s\S]*?)<\/h5>/);
+    if(!t) continue;
+    const title = clean(t[1]);
+    if(!title) continue;
+    const series = ev.match(/<div class="event__series">([\s\S]*?)<\/div>/);
+    const href = ev.match(/href="([^"]+)" class="event__link"/);
+    out.push({ title, date:dt[1], time:dt[2],
+      note: series ? clean(series[1]).replace(/\s*\.\.\.$/,"") : "",
+      url: href ? new URL(href[1], "https://harvardfilmarchive.org").href : undefined });
+  }
+  return out;
+}
+export async function hfa(v, ctx){
+  return parseHFA(await get("https://harvardfilmarchive.org/calendar"), ctx);
+}
+
+/* ================= LANDMARK KENDALL SQUARE ================= */
+/* Landmark's site reads its own public Box Office API; schedule gives
+ * movieId -> date -> showtimes, and titles come from the movies endpoint. */
+export function parseLandmark(schedule, titles, ctx){
+  const out = [];
+  for(const [movieId, days] of Object.entries(schedule || {})){
+    const title = titles[movieId];
+    if(!title) continue;
+    for(const [date, shows] of Object.entries(days || {})){
+      if(!ctx.week.includes(date)) continue;
+      for(const show of shows || []){
+        const m = String(show.startsAt||"").match(/^(\d{4}-\d{2}-\d{2})T(\d{2}:\d{2})/);
+        if(!m) continue;
+        const tags = show.tags || [];
+        const print = tags.find(x=>/Format\.Projection\.(70mm|35mm|Imax)/i.test(x));
+        out.push({ title, date:m[1], time:m[2],
+          fmt: print ? print.split(".").pop() : "" });
+      }
+    }
+  }
+  return out;
+}
+export async function landmark(v, ctx){
+  const base = "https://www.landmarktheatres.com/api/gatsby-source-boxofficeapi";
+  const theaters = encodeURIComponent(JSON.stringify({id:v.theaterId, timeZone:"America/New_York"}));
+  const day = (d, h) => `${d}T${h}`;
+  const sched = JSON.parse(await get(
+    `${base}/schedule?from=${day(ctx.week[0],"03:00:00")}&theaters=${theaters}&to=${day(ctx.week.at(-1),"23:59:00")}`,
+    { headers:{ Accept:"application/json" } }));
+  const schedule = sched?.[v.theaterId]?.schedule;
+  if(!schedule) throw new Error("Landmark schedule response had no theater entry");
+
+  const ids = Object.keys(schedule);
+  if(!ids.length) return [];
+  const q = new URLSearchParams({ basic:"true" });
+  ids.forEach(id=>q.append("ids", id));
+  const movies = JSON.parse(await get(`${base}/movies?${q}`, { headers:{ Accept:"application/json" } }));
+  const list = Array.isArray(movies) ? movies : Object.values(movies||{}).flat();
+  const titles = Object.fromEntries(list
+    .filter(m=>m && m.id!=null)
+    .map(m=>[String(m.id), clean(String(m.title||m.originalTitle||""))]));
+  return parseLandmark(schedule, titles, ctx);
+}

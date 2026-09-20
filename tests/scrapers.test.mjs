@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {parseRoxy,parseVeezi,parseBam,parseCinemaVillageListings,parseCinemaVillageTimes,parseAngelika,parseParis} from '../scripts/scrapers.mjs';
+import {parseRoxy,parseVeezi,parseBam,parseCinemaVillageListings,parseCinemaVillageTimes,parseAngelika,parseParis,parseHFA,parseLandmark} from '../scripts/scrapers.mjs';
 const ctx={today:new Date(2026,8,19),week:['2026-09-19','2026-09-20']};
 
 test('Roxy pairs each title with its date, decodes entities, and keeps series notes separate',()=>{
@@ -47,4 +47,24 @@ test('Brattle uses the requested HTML day instead of stale homepage JSONLD',()=>
 test('Coolidge keeps each film and ticket URL paired and decodes nested entities',()=>{
  const html='<div class="film-card"><h2><a class="film-card__link" href="/films/test">Test</a></h2><a href="https://store.coolidge.org/ticket?x=1&amp;amp;y=2" class="showtime-ticket__button"><span class="showtime-ticket__time">12:05am</span></a>';
  const rows=parseCoolidge(html,'2026-09-20');assert.equal(rows[0].time,'00:05');assert.equal(rows[0].url,'https://store.coolidge.org/ticket?x=1&y=2');
+});
+
+test('Harvard Film Archive reads the machine datetime and keeps the series as a note',()=>{
+ const ev=(dt,title,series)=>`<div class="grid-3 m-calendar__spot--event event"><a href="/calendar/x" class="event__link"></a><div class="event__series">${series} ...</div><div class="event__time"><time datetime="${dt}"><span>2:00 pm</span></time></div><h5 class="event__title">${title}</h5></div>`;
+ const rows=parseHFA(ev('2026-09-19 14:00:00','Cabaret','Nostalgia')+ev('2026-09-28 19:00:00','Later','Other'),ctx);
+ assert.equal(rows.length,1);
+ assert.equal(rows[0].title,'Cabaret');
+ assert.equal(rows[0].date,'2026-09-19');
+ assert.equal(rows[0].time,'14:00');
+ assert.equal(rows[0].note,'Nostalgia');
+ assert.equal(rows[0].url,'https://harvardfilmarchive.org/calendar/x');
+});
+
+test('Landmark joins schedule ids to titles, filters to the week and reads print format',()=>{
+ const schedule={'314882':{'2026-09-19':[{startsAt:'2026-09-19T12:50:00',tags:['Format.Projection.70mm']},{startsAt:'2026-09-19T21:05:00',tags:[]}],'2026-10-01':[{startsAt:'2026-10-01T12:00:00'}]},'99':{'2026-09-20':[{startsAt:'2026-09-20T18:00:00'}]}};
+ const rows=parseLandmark(schedule,{'314882':'Sirat'},ctx);
+ assert.equal(rows.length,2);                    // unknown id 99 is dropped, October is out of range
+ assert.deepEqual(rows.map(r=>r.time),['12:50','21:05']);
+ assert.equal(rows[0].fmt,'70mm');
+ assert.equal(rows[1].fmt,'');
 });
