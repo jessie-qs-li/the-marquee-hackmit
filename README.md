@@ -96,25 +96,6 @@ python3 -m http.server 8000
 4. Vibes: `something dumb and fun, we've all had a long week`
 5. On the results, toggle **Everyone's happy** against **Group average** and watch the picks reorder.
 
-## What's real and what's staged
-
-Honest internal accounting, so nobody over-promises in Q&A.
-
-**Real:** the ranking engine, the objective function and its confidence weighting, per-person scoring, generated reasoning copy, the cold-start path, all filtering, all navigation and state.
-
-**Staged:**
-
-| Thing | What you see | What happens |
-| --- | --- | --- |
-| Listings | A live index of NYC screenings | Seeded dataset, one fixed week (Sept 21–27, 2026) |
-| Letterboxd import | Live fetch with staged progress | Three seeded profiles; the RSS and scraping paths are specified, not wired |
-| Invite link | Share sheet, real URL, copy confirmation | No cross-device sync |
-| CSV upload | File picker, progress, success | Fixture loaded regardless of file |
-| Split payment | Split screen, confirm, success | No integration, no charge |
-| Ticket purchase | "Get tickets" | Deep link out |
-
-Posters are generated geometrically from each film's id rather than fetched, since the prototype ships without external assets.
-
 ## Next
 
 **Live listing normalization** is the real product. Indie theaters run on Squarespace, Agile Ticketing, Veezi and a long tail of custom sites. A scraper per venue doesn't scale past a dozen. The version that scales is a model layer that takes any theater's listings page and returns structured screenings, with per-venue adapters only where extraction fails. That's the piece nobody has built, it compounds with every venue added, and it's why the hardcoded dataset here is a sequencing choice rather than a shortcut.
