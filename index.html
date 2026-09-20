@@ -8,7 +8,6 @@
 <meta property="og:title" content="The Marquee">
 <meta property="og:description" content="Every film screening in NYC this week, and a pick your whole group agrees on.">
 <style>*{box-sizing:border-box}html,body{margin:0;padding:0}img{max-width:100%}[hidden]{display:none!important}
-#city-select{display:block;width:100%;margin-top:10px;padding:10px 12px;background:var(--ink-850);color:var(--text);font:inherit;border:1px solid var(--line);border-radius:4px;color-scheme:dark}
 .fgroup>label{font-size:11px;font-weight:600}
 .vn,.film-entry h3 a,.rtitle h3 a{color:inherit;text-decoration:none}
 .vn:hover,.film-entry h3 a:hover,.rtitle h3 a:hover{text-decoration:underline;text-underline-offset:3px}
@@ -354,31 +353,31 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 
 
 /* ---- cinema multi-select ---- */
-.cin-drop{position:relative}
-.cin-toggle{display:flex;align-items:center;gap:8px;width:100%;text-align:left;
+.drop{position:relative}
+.drop-toggle{display:flex;align-items:center;gap:8px;width:100%;text-align:left;
   border:1px solid var(--line-2);padding:8px 10px;font-size:11.5px;font-weight:500;letter-spacing:.06em;
   text-transform:uppercase;color:var(--text);background:var(--ink-850);transition:border-color .12s}
-.cin-toggle:hover{border-color:var(--hot)}
-.cin-toggle span{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.cin-caret{flex:0 0 auto;width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;
+.drop-toggle:hover{border-color:var(--hot)}
+.drop-toggle span{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.drop-caret{flex:0 0 auto;width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;
   border-top:5px solid var(--hot);transition:transform .15s}
-.cin-drop.open .cin-caret{transform:rotate(180deg)}
-.cin-drop.open .cin-toggle{border-color:var(--hot)}
-.cin-panel{position:absolute;z-index:40;top:calc(100% + 4px);left:0;right:0;min-width:210px;
+.drop.open .drop-caret{transform:rotate(180deg)}
+.drop.open .drop-toggle{border-color:var(--hot)}
+.drop-panel{position:absolute;z-index:40;top:calc(100% + 4px);left:0;right:0;min-width:210px;
   background:var(--ink-850);border:1px solid var(--line-2);box-shadow:0 14px 34px rgba(0,0,0,.6);
   max-height:290px;overflow-y:auto;padding:6px}
-.cin-panel .fopt{padding:7px 8px;gap:8px;align-items:flex-start}
-.cin-panel .fopt .fbox{margin-top:2px}
-.cin-text{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1 1 auto}
-.cin-panel .fopt:hover{background:rgba(255,255,255,.05)}
-.cin-name{overflow-wrap:anywhere;line-height:1.3}
-.cin-hood{font-size:9px;letter-spacing:.1em;color:var(--faint);text-transform:uppercase;line-height:1.3}
-.fopt.on .cin-hood{color:var(--hot)}
-.cin-reset{display:block;width:100%;text-align:left;margin-top:4px;padding:7px 8px;
+.drop-panel .fopt{padding:7px 8px;gap:8px;align-items:flex-start}
+.drop-panel .fopt .fbox{margin-top:2px}
+.drop-text{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1 1 auto}
+.drop-panel .fopt:hover{background:rgba(255,255,255,.05)}
+.drop-name{overflow-wrap:anywhere;line-height:1.3}
+.drop-sub{font-size:9px;letter-spacing:.1em;color:var(--faint);text-transform:uppercase;line-height:1.3}
+.fopt.on .drop-sub{color:var(--hot)}
+.drop-reset{display:block;width:100%;text-align:left;margin-top:4px;padding:7px 8px;
   border-top:1px solid var(--line);font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;
   text-transform:uppercase;color:var(--faint)}
-.cin-reset:hover{color:var(--text)}
-@media (max-width:860px){.cin-panel{position:static;max-height:none;box-shadow:none;margin-top:6px}}
+.drop-reset:hover{color:var(--text)}
+@media (max-width:860px){.drop-panel{position:static;max-height:none;box-shadow:none;margin-top:6px}}
 
 /* ---- day strip ---- */
 .board-top{display:flex;gap:14px;align-items:stretch;flex-wrap:wrap}
@@ -532,7 +531,6 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 @media(max-width:1000px){.film-board{grid-template-columns:1fr}.steps{gap:12px}}
 @media(max-width:700px){.flow-layout{grid-template-columns:1fr}.flow-intro{padding:24px 0;border-right:0;border-bottom:1px solid var(--line)}.flow-intro p,.flow-intro>span{display:none}.flow-body{padding:26px 0 48px}.steps{margin-left:0;width:100%;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}.flow-stage{font-size:8px}.flow-stage b{display:block;margin-bottom:4px}.flow .mode{min-height:150px;padding:20px}.film-board-head{font-size:9px}.film-venue{grid-template-columns:110px minmax(0,1fr)}}
 
-#city-select{display:block;width:100%;margin-top:10px;padding:10px 12px;background:var(--ink-850);color:var(--text);font:inherit;border:1px solid var(--line);border-radius:4px;color-scheme:dark}
 .fgroup>label{font-size:11px;font-weight:600}
 .vn,.film-entry h3 a,.rtitle h3 a{color:inherit;text-decoration:none}
 .vn:hover,.film-entry h3 a:hover,.rtitle h3 a:hover{text-decoration:underline;text-underline-offset:3px}
@@ -903,7 +901,7 @@ function fmtRuntime(m){return m?Math.floor(m/60)+"h "+String(m%60).padStart(2,"0
 const S = {
   view:"browse", city:"nyc", cityLoading:false, cityError:"",
   day:TODAY, hoods:new Set(), venueKind:"any", fmt:"any",
-  boros:new Set(), cinemas:new Set(), cinemaOpen:false, fmts:new Set(), events:new Set(), genres:new Set(),
+  boros:new Set(), cinemas:new Set(), cinemaOpen:false, cityOpen:false, fmts:new Set(), events:new Set(), genres:new Set(),
   tMin:600, tMax:1380, board:"venue",
   step:0,
   mode:"theater",
@@ -1168,13 +1166,43 @@ function renderSide(){
   const films=[...new Set(SCREENINGS.map(s=>s.film))].map(id=>F[id]);
   const tagged=films.filter(f=>!filmGenres(f).includes("unclassified")).length;
   document.getElementById("side").innerHTML =
-    `<div class="fgroup"><label for="city-select">City</label><select id="city-select" ${S.cityLoading?"disabled":""}><option value="nyc" ${S.city==="nyc"?"selected":""}>New York City</option><option value="boston" ${S.city==="boston"?"selected":""}>Boston</option></select>${S.city==="boston"?'<p class="genre-coverage">Greater Boston cinemas</p>':""}</div>` +
+    cityPicker() +
     g(S.city==="nyc"?"Filter by borough":"Filter by area", boros.map(b=>optHTML("boro",b,b,S.boros.has(b))).join("")) +
     cinemaPicker() +
     g("Film format",   FMTS.filter(([k])=>p.fmts.has(k)).map(([k,l])=>optHTML("fmtv",k,l,S.fmts.has(k))).join("")) +
     g("Special event", EVENTS.filter(([k])=>p.evs.has(k)).map(([k,l])=>optHTML("ev",k,l,S.events.has(k),k==="once")).join("")) +
     g("Filter by genre",GENRES.map(([k,l])=>optHTML("genre",k,l,S.genres.has(k))).join("")+(tagged<films.length?optHTML("genre","unclassified",`Not yet classified (${films.length-tagged})`,S.genres.has("unclassified")):"")) +
     (filtersActive()?`<button class="side-clear" data-clear="1">Clear all filters</button>`:"");
+}
+
+/* shared disclosure dropdown: a labelled button and a panel of .fopt rows */
+function dropdown({key, label, rows, footer="", disabled=false, panelLabel}){
+  const open = !disabled && S[key];
+  return `<div class="drop ${open?"open":""}">
+    <button class="drop-toggle" data-drop="${esc(key)}" aria-expanded="${open}" aria-haspopup="listbox"
+      ${disabled?"disabled":""}>
+      <span>${esc(label)}</span><i class="drop-caret" aria-hidden="true"></i>
+    </button>
+    <div class="drop-panel" role="listbox" aria-label="${esc(panelLabel||label)}" ${open?"":"hidden"}>
+      ${rows}${footer}
+    </div>
+  </div>`;
+}
+function dropRow(attr, val, name, sub, on){
+  return `<button class="fopt${on?" on":""}" role="option" aria-selected="${on}" data-${attr}="${esc(val)}">
+    <span class="fbox"></span><span class="drop-text">
+      <span class="drop-name">${esc(name)}</span>
+      ${sub?`<span class="drop-sub">${esc(sub)}</span>`:""}</span></button>`;
+}
+
+const CITIES = [["nyc","New York City","Five boroughs"],["boston","Boston","Greater Boston"]];
+function cityPicker(){
+  const current = CITIES.find(c=>c[0]===S.city) || CITIES[0];
+  return `<div class="fgroup"><h4>City</h4>` +
+    dropdown({ key:"cityOpen", label:S.cityLoading?"Loading…":current[1], disabled:S.cityLoading,
+      panelLabel:"Choose a city",
+      rows: CITIES.map(([id,name,sub])=>dropRow("city",id,name,sub,S.city===id)).join("") }) +
+    `</div>`;
 }
 
 function cinemaPicker(){
@@ -1186,23 +1214,12 @@ function cinemaPicker(){
               : `${n} cinemas`;
   const rows = ids.map(id=>{
     const v=VENUES[id], on=S.cinemas.has(id);
-    return `<button class="fopt${on?" on":""}" role="option" aria-selected="${on}" data-cinema="${esc(id)}">
-      <span class="fbox"></span><span class="cin-text">
-        <span class="cin-name">${esc(v.sn||v.n)}</span>
-        <span class="cin-hood">${esc(v.hood)}</span></span></button>`;
+    return dropRow("cinema", id, v.sn||v.n, v.hood, on);
   }).join("");
-  return `<div class="fgroup">
-    <h4>Cinemas</h4>
-    <div class="cin-drop ${S.cinemaOpen?"open":""}">
-      <button class="cin-toggle" data-cinema-toggle="1" aria-expanded="${S.cinemaOpen}" aria-haspopup="listbox">
-        <span>${esc(label)}</span><i class="cin-caret" aria-hidden="true"></i>
-      </button>
-      <div class="cin-panel" role="listbox" aria-multiselectable="true" aria-label="Filter by cinema" ${S.cinemaOpen?"":"hidden"}>
-        ${rows}
-        ${n?`<button class="cin-reset" data-cinema-all="1">Select all</button>`:""}
-      </div>
-    </div>
-  </div>`;
+  return `<div class="fgroup"><h4>Cinemas</h4>` +
+    dropdown({ key:"cinemaOpen", label, rows, panelLabel:"Filter by cinema",
+      footer: n?`<button class="drop-reset" data-cinema-all="1">Select all</button>`:"" }) +
+    `</div>`;
 }
 
 function renderDayButtons(){
@@ -1820,8 +1837,10 @@ function toast(msg){
 }
 
 document.addEventListener("click", e=>{
-  if(S.cinemaOpen && !e.target.closest(".cin-drop")){ S.cinemaOpen=false; renderSide(); }
-  const t = e.target.closest("[data-day],[data-hood],[data-kind],[data-fmt],[data-boro],[data-cinema],[data-cinema-toggle],[data-cinema-all],[data-fmtv],[data-ev],[data-genre],[data-board],[data-clear],[data-mode],[data-svc],[data-go],[data-vibe],[data-obj],[data-tix],[data-pick-tix],[data-seed],[data-import],[data-drop],[data-edit],[data-pchip]");
+  if((S.cinemaOpen||S.cityOpen) && !e.target.closest(".drop")){
+    S.cinemaOpen=false; S.cityOpen=false; renderSide();
+  }
+  const t = e.target.closest("[data-day],[data-hood],[data-kind],[data-fmt],[data-boro],[data-cinema],[data-drop],[data-cinema-all],[data-city],[data-fmtv],[data-ev],[data-genre],[data-board],[data-clear],[data-mode],[data-svc],[data-go],[data-vibe],[data-obj],[data-tix],[data-pick-tix],[data-seed],[data-import],[data-drop],[data-edit],[data-pchip]");
   if(!t) return;
 
   if(t.dataset.day!==undefined){ S.day=+t.dataset.day; S.view==="flow"?renderFlow():renderBrowse(); return; }
@@ -1836,7 +1855,17 @@ document.addEventListener("click", e=>{
     S.boros.has(t.dataset.boro)?S.boros.delete(t.dataset.boro):S.boros.add(t.dataset.boro);
     pruneCinemas(); renderControls(); renderRows(); return;
   }
-  if(t.dataset.cinemaToggle){ S.cinemaOpen=!S.cinemaOpen; renderSide(); return; }
+  if(t.dataset.drop){
+    const key=t.dataset.drop;
+    // only one panel open at a time
+    ["cinemaOpen","cityOpen"].forEach(k=>{ if(k!==key) S[k]=false; });
+    S[key]=!S[key]; renderSide(); return;
+  }
+  if(t.dataset.city){
+    S.cityOpen=false;
+    if(t.dataset.city!==S.city) loadCity(t.dataset.city); else renderSide();
+    return;
+  }
   if(t.dataset.cinema){
     S.cinemas.has(t.dataset.cinema)?S.cinemas.delete(t.dataset.cinema):S.cinemas.add(t.dataset.cinema);
     renderControls(); renderRows(); return;
@@ -2039,7 +2068,7 @@ async function loadCity(city){
   const request=++cityRequest;
   S.city=city;S.cityLoading=true;S.cityError="";S.day=0;S.results=null;S.chosen=null;
   for(const key of ['boros','cinemas','hoods','fmts','events','genres'])S[key].clear();
-  S.cinemaOpen=false;
+  S.cinemaOpen=false;S.cityOpen=false;
   S.venueKind="any";S.tMin=600;S.tMax=1380;
   SCREENINGS.splice(0);Object.keys(VENUES).forEach(k=>delete VENUES[k]);
   renderBrowse();
@@ -2051,13 +2080,12 @@ async function loadCity(city){
   }catch{if(request!==cityRequest)return;S.cityError='Listings could not be loaded. Choose the city again to retry.';}
   S.cityLoading=false;renderBrowse();
 }
-document.addEventListener('change',e=>{if(e.target.id==='city-select')loadCity(e.target.value);});
+
 async function boot(){await loadCity('nyc');}
 
 document.addEventListener("keydown", e=>{
-  if(e.key==="Escape" && S.cinemaOpen){
-    S.cinemaOpen=false; renderSide();
-    document.querySelector(".cin-toggle")?.focus();
+  if(e.key==="Escape" && (S.cinemaOpen||S.cityOpen)){
+    S.cinemaOpen=false; S.cityOpen=false; renderSide();
   }
 });
 
