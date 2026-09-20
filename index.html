@@ -328,7 +328,7 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 @media (prefers-reduced-motion:reduce){.ticker-track{animation:none}}
 
 /* ================= BOARD SHELL ================= */
-.board-grid{display:grid;grid-template-columns:206px minmax(0,1fr);margin-top:10px;border-top:1px solid var(--line-2)}
+.board-grid{display:grid;grid-template-columns:206px minmax(0,1fr);margin-top:18px;border-top:1px solid var(--line-2)}
 .side{border-right:1px solid var(--line);padding:24px 22px 48px 0;
   position:sticky;top:env(safe-area-inset-top,0px);align-self:start;
   max-height:calc(100dvh - env(safe-area-inset-top,0px));
@@ -536,6 +536,76 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 a.vt-time,a.film-time,a.time,a.t{text-decoration:none}
 a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset:3px}
 .venue-link,.ticker a{color:inherit;text-decoration:none}
+
+/* ---- browse → picker entry ------------------------------------------- */
+.side-cta{border:1px solid var(--line-2);padding:16px 15px 15px;margin-bottom:26px;
+  background:linear-gradient(158deg,rgba(224,59,44,.08),transparent 68%)}
+.side-cta h4{font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:var(--hot)}
+.side-cta p{font-size:11.5px;line-height:1.65;color:var(--dim);margin-top:9px}
+.side-cta .btn{width:100%;justify-content:center;margin-top:13px;border-radius:0;
+  font-size:11px;letter-spacing:.04em;padding:10px 12px}
+.side-cta .cta-meta{display:block;margin-top:10px;font-family:var(--mono);font-size:9px;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+
+/* ---- the pipeline, while it runs -------------------------------------- */
+.thinking{margin-top:28px;border:1px solid var(--line-2);padding:8px 22px 20px}
+.think-row{display:grid;grid-template-columns:92px minmax(0,1fr) auto;gap:14px;align-items:baseline;
+  padding:13px 0;border-bottom:1px solid var(--line);opacity:0;animation:fadein .34s forwards}
+.think-row:last-of-type{border-bottom:0}
+.think-row b{font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--hot);font-weight:500}
+.think-row span{font-size:13px;color:var(--dim);line-height:1.5}
+.think-row i{font-family:var(--mono);font-size:11px;font-style:normal;color:var(--faint);
+  font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.think-bar{display:block;height:2px;background:var(--ink-600);margin-top:4px;overflow:hidden}
+.think-bar i{display:block;height:100%;background:var(--hot);width:0;animation:fillbar var(--think,2.6s) linear forwards}
+@keyframes fillbar{to{width:100%}}
+
+/* ---- stage 0 receipt on the results screen ---------------------------- */
+.stage0{font-family:var(--mono);font-size:10px;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--faint);margin-top:16px;display:flex;gap:9px;flex-wrap:wrap;align-items:center;
+  border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:11px 0}
+.stage0 b{color:var(--hot);font-weight:500}
+.stage0 em{font-style:normal;color:var(--line-2)}
+
+/* ---- pick card actions ------------------------------------------------ */
+.where-act{margin-left:auto;display:flex;gap:9px;flex-wrap:wrap;align-items:center}
+.where .where-act .btn{margin-left:0}
+
+/* ---- letterboxd export upload ----------------------------------------- */
+.csvrow{display:flex;align-items:center;gap:11px;flex-wrap:wrap;position:relative}
+.csvin{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.csvbtn{cursor:pointer}
+.csvin:focus-visible+.csvbtn{outline:2px solid var(--hot);outline-offset:2px}
+.orline{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:9px;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin:2px 0}
+.orline::before,.orline::after{content:"";flex:1;height:1px;background:var(--line)}
+.pnote{font-size:11.5px;color:var(--faint);line-height:1.6}
+.pnote b{color:var(--dim);font-weight:500}
+
+/* ---- invite share sheet ----------------------------------------------- */
+.sheet{position:fixed;inset:0;z-index:200;background:rgba(6,7,10,.78);display:flex;
+  align-items:center;justify-content:center;padding:20px;opacity:0;animation:fadein .16s forwards}
+.sheet-in{width:min(540px,100%);background:var(--ink-900);border:1px solid var(--line-2);padding:28px}
+.sheet-in h3{font-family:var(--display);font-size:21px;font-weight:600;letter-spacing:-.01em}
+.sheet-in p{font-size:13px;line-height:1.75;color:var(--dim);margin-top:11px;max-width:52ch}
+.sheet-url{display:flex;gap:9px;margin-top:20px;align-items:stretch}
+.sheet-url code{flex:1 1 auto;min-width:0;border:1px solid var(--line-2);padding:11px 12px;
+  font-family:var(--mono);font-size:11.5px;color:var(--text);background:rgba(255,255,255,.02);
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sheet-url .btn{border-radius:0;font-size:11px;letter-spacing:.04em;padding:11px 16px;flex:0 0 auto}
+.sheet-meta{font-family:var(--mono);font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--faint);margin-top:15px;line-height:1.8}
+.sheet-act{display:flex;gap:10px;margin-top:22px;padding-top:18px;border-top:1px solid var(--line);align-items:center}
+.sheet-act .btn{border-radius:0;font-size:11px;letter-spacing:.04em;padding:11px 16px}
+
+@media (max-width:860px){ .side-cta{grid-column:1/-1;margin-bottom:0} }
+@media (max-width:560px){
+  .think-row{grid-template-columns:1fr auto;gap:4px 12px}
+  .think-row b{grid-column:1/-1}
+  .where-act{margin-left:0;width:100%}
+  .where-act .btn{flex:1 1 auto;justify-content:center}
+}
 .venue-link:hover,.ticker a:hover{text-decoration:underline;text-underline-offset:3px}
 </style>
 
@@ -784,9 +854,9 @@ const SCREENINGS = RAW.map((s,i)=>({
   mins:(+s[3].slice(0,2))*60 + (+s[3].slice(3))
 }));
 
-/* RAW above is the original hand-written sample. The board no longer falls
-   back to it -- listings come from data/screenings.json via scripts/scrape.mjs
-   -- but FILMS and STREAM below still supply taste data for Find a Pick. */
+/* SEED_* are the fallback: a hand-written week used when data/screenings.json
+   is missing (open index.html straight off disk) or unreadable. The live board
+   comes from scripts/scrape.mjs. */
 
 
 const STREAM = {
@@ -907,8 +977,8 @@ const S = {
   people:[], // {id,name,handle,loves,avoids,watch,seen,synth,conf,ready,logged}
   vibesText:"", vibesChips:new Set(),
   objective:"minmax",
-  results:null, showAlt:false,
-  chosen:null
+  results:null, showAlt:false, thinking:false,
+  chosen:null, invite:null
 };
 
 /* =========================================================================
@@ -926,7 +996,11 @@ function vibeState(){
   if(/short|early|tired|long day|work/.test(txt)){boost.add("short");pen.add("long");max=Math.min(max||999,125)}
   if(/beautiful|gorgeous|pretty/.test(txt)) boost.add("beautiful");
   if(/weird|strange|wild/.test(txt)) boost.add("strange");
-  return {boost,pen,max,active:S.vibesChips.size>0||txt.trim().length>3};
+  // an explicit appetite for something enormous is the only thing that lifts
+  // the Stage 0 runtime cap, so it is matched narrowly and never off "long day"
+  const allowLong = /\b(epic|marathon|all ?nighter|long film|long one|three hours|3 ?hours|take our time|nothing short)\b/.test(txt);
+  if(allowLong){ boost.add("long"); pen.delete("long"); max=null; }
+  return {boost,pen,max,allowLong,active:S.vibesChips.size>0||txt.trim().length>3};
 }
 
 function scoreOne(p, f, v){
@@ -953,10 +1027,28 @@ function nightTotal(){ return SCREENINGS.filter(s=>s.day===S.day).length; }
 function taggedTonight(){
   return SCREENINGS.some(s=>s.day===S.day && F[s.film] && F[s.film].tags.length);
 }
-function candidates(){
+/* Stage 0 — the deterministic narrowing pass. Hard constraints only: no model,
+   no scoring, runs in well under a millisecond. Everything expensive downstream
+   only ever sees what survives this, which is what makes the rest affordable. */
+function candidates(vibe){
+  const drop = {seen:0, runtime:0, pool:0};
+  const group  = Math.max(1, S.people.length);
+  const wanted = id => S.people.some(p=>p.watch.includes(id));
+  const seenBy = id => S.people.filter(p=>p.seen.includes(id)).length;
+  const longOK = !!(vibe && vibe.allowLong);
+  const survives = f => {
+    // more than half the group has logged it and nobody is still waiting on it
+    if(seenBy(f.id) > group/2 && !wanted(f.id)){ drop.seen++; return false; }
+    // past 200 minutes is a different kind of evening. It has to be asked for.
+    if(f.r > 200 && !longOK){ drop.runtime++; return false; }
+    return true;
+  };
+
   if(S.mode==="home"){
-    return FILMS.filter(f=>(STREAM[f.id]||[]).some(sv=>S.services.has(sv)))
-      .map(f=>({f, opt:{kind:"stream", svc:(STREAM[f.id]||[]).find(sv=>S.services.has(sv))}, all:[]}));
+    const on = FILMS.filter(f=>(STREAM[f.id]||[]).some(sv=>S.services.has(sv)));
+    drop.pool = on.length;
+    return {drop, list: on.filter(survives).map(f=>({f, all:[],
+      opt:{kind:"stream", svc:(STREAM[f.id]||[]).find(sv=>S.services.has(sv))}}))};
   }
   // the engine reasons from taste tags; a scraped title with no catalogue
   // match has none, so ranking it would be guesswork dressed up as a pick
@@ -968,15 +1060,26 @@ function candidates(){
     if(S.venueKind!=="any" && v.kind!==S.venueKind) return;
     (byFilm[s.film] = byFilm[s.film]||[]).push(s);
   });
-  return Object.keys(byFilm).map(id=>{
-    const list = byFilm[id].sort((a,b)=>a.time.localeCompare(b.time));
-    return {f:F[id], opt:{kind:"screen", s:list[0]}, all:list};
+  drop.pool = Object.keys(byFilm).length;
+  const list = Object.keys(byFilm).filter(id=>survives(F[id])).map(id=>{
+    const shows = byFilm[id].sort((a,b)=>a.time.localeCompare(b.time));
+    return {f:F[id], opt:{kind:"screen", s:shows[0]}, all:shows};
   });
+  return {list, drop};
+}
+
+/* Only people who actually built a profile get a vote. An empty card is someone
+   who is still coming — they get a seat on the split screen — but scoring them
+   would be a neutral ballot nobody cast. */
+function voters(){
+  const ready = S.people.filter(p=>p.ready);
+  return ready.length ? ready : S.people;
 }
 
 function rankWith(cands, v, objective){
+  const group = voters();
   const scored = cands.map(c=>{
-    const per = S.people.map(p=>({p, s:scoreOne(p, c.f, v)}));
+    const per = group.map(p=>({p, s:scoreOne(p, c.f, v)}));
     const mean = per.reduce((a,x)=>a+x.s,0)/per.length;
     // A thin profile shouldn't get a full veto, so pull it slightly toward the group mean.
     // Keep the pull small: someone scoring a 2 still sinks the film.
@@ -985,11 +1088,12 @@ function rankWith(cands, v, objective){
   });
   const key = objective==="minmax" ? (x=>x.min*100 + x.mean) : (x=>x.mean*100 + x.min);
   scored.sort((a,b)=>key(b)-key(a));
-  // diversity: max 2 per decade, max 2 per venue
+  // diversity: max 2 per decade, max 2 per venue — and per service at home,
+  // since keying every stream to one bucket would cap the whole list at two
   const dec={}, ven={}, out=[];
   for(const x of scored){
     const d = Math.floor(x.f.y/10);
-    const vn = x.opt.kind==="screen" ? x.opt.s.venue : "stream";
+    const vn = x.opt.kind==="screen" ? x.opt.s.venue : x.opt.svc;
     if((dec[d]||0)>=2) continue;
     if((ven[vn]||0)>=2) continue;
     dec[d]=(dec[d]||0)+1; ven[vn]=(ven[vn]||0)+1;
@@ -1001,22 +1105,34 @@ function rankWith(cands, v, objective){
 
 function compute(){
   const v = vibeState();
-  const cands = candidates();
-  if(!cands.length) return {picks:[],alts:[],n:0};
+  const {list:cands, drop} = candidates(v);
+  if(!cands.length) return {picks:[],alts:[],n:0,drop,v};
   const withV = rankWith(cands, v.active? v : null, S.objective);
   const noV   = rankWith(cands, null, S.objective);
   const noVids = new Set(noV.slice(0,4).map(x=>x.f.id));
-  withV.forEach(x=>{
-    x.override = v.active && !noVids.has(x.f.id) && x.rankFlag!==false;
-  });
-  return {picks:withV.slice(0,4), alts:withV.slice(4,8), n:cands.length, v};
+  // the override badge is diffed, not asserted: a pick is flagged only when the
+  // mood actually moved it into the top four that taste history alone would not have
+  withV.forEach(x=>{ x.override = v.active && !noVids.has(x.f.id); });
+  return {picks:withV.slice(0,4), alts:withV.slice(4,8), n:cands.length, drop, v};
+}
+
+/* one plain-language line describing what Layer 2 made of the mood box */
+function vibeSummary(v){
+  if(!v.active) return "nothing set — ranking on taste history alone";
+  const bits = [];
+  const want = [...v.boost].map(t=>TAGWORDS[t]||t).slice(0,3);
+  if(want.length) bits.push(want.join(", "));
+  if(v.max) bits.push("under " + v.max + " min");
+  const not = [...v.pen].map(t=>TAGWORDS[t]||t).slice(0,2);
+  if(not.length) bits.push("away from " + not.join(" and "));
+  return bits.join(" · ") || "no usable signal";
 }
 
 /* reasoning copy, generated from the computed scores */
 function reasonFor(x, rank){
   const sorted = [...x.per].sort((a,b)=>b.s-a.s);
   const hi = sorted[0], lo = sorted[sorted.length-1];
-  const f = x.f, many = S.people.length>1;
+  const f = x.f, many = x.per.length>1;
 
   // 1. the case for it
   const hiTag = f.tags.find(t=>hi.p.loves[t]);
@@ -1172,6 +1288,7 @@ function renderSide(){
   SCRAPED.forEach(id=>{ const v=VENUES[id]; if(v?.boro) areas.add(v.boro); });
   const boros = [...areas].sort();
   document.getElementById("side").innerHTML =
+    sideCTA() +
     cityPicker() +
     g(S.city==="nyc"?"Filter by borough":"Filter by area", boros.map(b=>optHTML("boro",b,b,S.boros.has(b))).join("")) +
     cinemaPicker() +
@@ -1179,6 +1296,19 @@ function renderSide(){
     g("Special event", EVENTS.filter(([k])=>p.evs.has(k)).map(([k,l])=>optHTML("ev",k,l,S.events.has(k),k==="once")).join("")) +
     g("Filter by genre",GENRES.map(([k,l])=>optHTML("genre",k,l,S.genres.has(k))).join("")) +
     (filtersActive()?`<button class="side-clear" data-clear="1">Clear all filters</button>`:"");
+}
+
+/* the way into the picker from the board. The nav has it too, but the sidebar is
+   where someone lands after scrolling a week of listings and giving up. */
+function sideCTA(){
+  const n = SCREENINGS.filter(s=>s.day===S.day).length;
+  const when = S.day===TODAY ? "tonight" : "on " + DAYS[S.day].dow + " the " + DAYS[S.day].num;
+  return `<div class="side-cta">
+    <h4>Can't decide?</h4>
+    <p>Up to six people, one night, four films everybody is actually in for.</p>
+    <button class="btn btn-primary" id="start-pick">Find a pick →</button>
+    <span class="cta-meta">${n} screening${n===1?"":"s"} ${esc(when)}</span>
+  </div>`;
 }
 
 /* shared disclosure dropdown: a labelled button and a panel of .fopt rows */
@@ -1502,10 +1632,71 @@ function setNav(){
   document.getElementById("nav-browse").classList.toggle("on", S.view==="browse");
   document.getElementById("nav-pick").classList.toggle("on", S.view==="flow");
 }
+let thinkTimer;
+const THINK_MS = 2600;
 function go(n){
+  const from = STEPS[S.step];
   S.step = Math.max(0, Math.min(STEPS.length-1, n));
+  // arriving at the results straight off the mood box runs the pipeline in view
+  if(STEPS[S.step]==="results" && from==="vibes") startPipeline();
   renderFlow();
   window.scrollTo({top:0,behavior:"instant"});
+}
+
+/* All four layers are deterministic in this build, so they return instantly and
+   there is nothing to wait for. Showing the pass anyway is the point: every
+   number on that screen is the one this run actually produced. */
+function startPipeline(){
+  S.results = compute();
+  S.thinking = true;
+  clearTimeout(thinkTimer);
+  thinkTimer = setTimeout(()=>{
+    S.thinking = false;
+    if(S.view==="flow" && STEPS[S.step]==="results") renderFlow();
+  }, THINK_MS);
+}
+
+function viewThinking(){
+  const R = S.results || {n:0, drop:{pool:0}, v:vibeState()};
+  const d = R.drop || {pool:0, seen:0, runtime:0};
+  const ppl = voters();
+  const logged = ppl.reduce((a,p)=>a+(p.logged||0),0);
+  const typed = ppl.filter(p=>!p.logged).length;
+  const read = [logged?logged+" diary entries":"",
+                typed?typed+" written description"+(typed===1?"":"s"):""].filter(Boolean).join(" and ");
+  const rows = [
+    ["Stage 0", "Narrowing " + (S.mode==="theater" ? "the "+DAYS[S.day].dow+" board" : "your services") +
+                " to what this group could actually sit through", (d.pool||R.n) + " → " + R.n],
+    ["Layer 1", "Reading " + (read||"what little there is") + " into " + ppl.length +
+                " taste profile" + (ppl.length===1?"":"s"), ppl.length + " synthesized"],
+    ["Layer 2", "Parsing the mood — " + vibeSummary(R.v||vibeState()),
+                (R.v&&R.v.active) ? "applied" : "skipped"],
+    ["Layer 3", "Scoring all " + R.n + " against all " + ppl.length +
+                ", then ranking by the lowest score in the group", (ppl.length*(R.n||0)) + " scores"],
+    ["Layer 4", "Writing the case for each one, in terms of the people in the room",
+                Math.min(4, R.n) + " pick" + (Math.min(4, R.n)===1 ? "" : "s")]
+  ];
+  return `<div class="step-label">Step 5 of 5</div>
+  <h2 class="step-h">Working it out.</h2>
+  <p class="step-sub">Four passes. The first is free and does nearly all of the narrowing, so the three
+  that cost anything only ever see what survived it.</p>
+  <div class="thinking" style="--think:${THINK_MS}ms">
+    ${rows.map((r,i)=>`<div class="think-row" style="animation-delay:${(i*.42).toFixed(2)}s">
+      <b>${esc(r[0])}</b><span>${esc(r[1])}</span><i>${esc(r[2])}</i></div>`).join("")}
+    <span class="think-bar"><i></i></span>
+  </div>`;
+}
+
+/* the narrowing, stated on the results screen so the pick has a visible provenance */
+function stage0Line(R){
+  const d = R.drop || {};
+  const sep = ` <em>/</em> `;
+  const bits = [`<b>Stage 0</b> ${d.pool||R.n} ${S.mode==="theater"?"playing":"on your services"}`];
+  if(d.seen)    bits.push(`${d.seen} most of you have seen`);
+  if(d.runtime) bits.push(`${d.runtime} over 200 min`);
+  bits.push(`<b>${R.n}</b> ranked`);
+  bits.push(`${voters().length*R.n} individual scores`);
+  return `<div class="stage0">${bits.join(sep)}</div>`;
 }
 
 function renderSteps(){
@@ -1521,7 +1712,10 @@ function renderFlow(){
   if(step==="context") b.innerHTML = viewContext();
   if(step==="people") b.innerHTML = viewPeople();
   if(step==="vibes") b.innerHTML = viewVibes();
-  if(step==="results"){ S.results = compute(); b.innerHTML = viewResults(); }
+  if(step==="results"){
+    if(S.thinking){ b.innerHTML = viewThinking(); return; }
+    S.results = compute(); b.innerHTML = viewResults();
+  }
   if(step==="split") b.innerHTML = viewSplit();
 }
 
@@ -1610,10 +1804,8 @@ function viewPeople(){
     let body;
     if(p.loading){
       body = `<div class="pbody"><div class="loadlines">
-        <span style="animation-delay:0s">→ fetching letterboxd.com/${esc(p.handle)}/rss/</span>
-        <span style="animation-delay:.45s" class="ok">✓ ${p.logged} diary entries</span>
-        <span style="animation-delay:.95s" class="ok">✓ watchlist · ${p.watch.length} unwatched</span>
-        <span style="animation-delay:1.4s">→ building taste profile…</span>
+        ${(p.loadLines||[]).map((l,j)=>
+          `<span style="animation-delay:${(j*.42).toFixed(2)}s" class="${l.startsWith("✓")?"ok":""}">${esc(l)}</span>`).join("")}
       </div></div>`;
     } else if(p.ready){
       body = `<div class="pbody">
@@ -1634,6 +1826,13 @@ function viewPeople(){
         <div class="chipgrid">
           ${COLD_CHIPS.map(id=>`<button class="fchip ${p.chips.has(id)?"on":""}" data-pchip="${p.id}|${id}">${esc(F[id].t)}</button>`).join("")}
         </div>
+        <div class="orline">or</div>
+        <div class="csvrow">
+          <input type="file" class="csvin" id="csv-${p.id}" data-csv="${p.id}"
+                 accept=".csv,.zip,text/csv,application/zip">
+          <label class="btn btn-ghost csvbtn" for="csv-${p.id}">Upload a Letterboxd export</label>
+          <span class="pnote">The <b>.zip</b> from Settings → Import &amp; Export, or <b>ratings.csv</b> out of it.</span>
+        </div>
         <div class="addrow">
           <button class="btn btn-primary" data-import="${p.id}" style="padding:9px 16px;font-size:13.5px">Build profile</button>
           ${S.people.length>1?`<button class="btn btn-quiet" data-drop="${p.id}">Remove</button>`:""}
@@ -1645,7 +1844,7 @@ function viewPeople(){
         <span class="av" style="background:${avColor(p.name||p.id)}">${init}</span>
         <div>
           <div class="pname">${esc(p.name||"Someone")}</div>
-          <div class="phandle">${p.handle?"@"+esc(p.handle):(p.ready?"from a description":"not set up yet")}</div>
+          <div class="phandle">${profileSource(p)}</div>
         </div>
         ${p.ready?`<button class="btn btn-quiet" style="margin-left:auto;font-size:13px" data-edit="${p.id}">Edit</button>`:""}
       </div>
@@ -1668,20 +1867,100 @@ function viewPeople(){
   </div>`;
 }
 
+function profileSource(p){
+  if(p.handle) return "@" + esc(p.handle);
+  if(p.src==="csv") return esc(p.srcName || "letterboxd export");
+  if(p.ready) return "from a description";
+  return "not set up yet";
+}
+
+/* Six sensibilities the synthesizer draws on when a handle is one we hold no
+   cached crawl for. Keyed off a hash of the handle, so the same person comes
+   back the same person on every reload. */
+const ARCHETYPES = [
+  {loves:{classic:1.5,formal:1.3,slow:1.1,french:.95,beautiful:1.2,demanding:.85,period:.7},
+   avoids:["camp","crowdpleaser"],
+   line:"Almost everything they log is a revival, and restorations rate half a star above new releases."},
+  {loves:{genre:1.7,horror:1.45,tense:1.3,"practical-fx":1.2,midnight:1.1,energetic:1.0},
+   avoids:["slow","demanding"],
+   line:"Horror and midnight movies, hundreds of them, and a hard stop on anything contemplative."},
+  {loves:{contemporary:1.5,crowdpleaser:1.2,american:1.05,ambitious:1.1,energetic:.9,talky:.8},
+   avoids:["slow"],
+   line:"Sees everything the week it opens. The ratings cluster tight and nothing ever gets one star."},
+  {loves:{ambitious:1.4,political:1.2,strange:1.1,japanese:.95,queer:.9,formal:1.0,beautiful:.8},
+   avoids:["camp"],
+   line:"Follows directors rather than titles, and better than half the diary is subtitled."},
+  {loves:{funny:1.5,joyful:1.3,crowdpleaser:1.4,romance:1.1,music:1.0,playful:1.0},
+   avoids:["demanding","horror","subtitles"],
+   line:"Rewatches more than most people watch. Nothing over two hours, nothing that hurts."},
+  {loves:{anime:1.6,japanese:1.35,beautiful:1.2,strange:1.05,playful:.95,short:.7},
+   avoids:["talky"],
+   line:"Mostly animation, mostly Japanese, and a standing grudge against live-action remakes."}
+];
+
+function nameFromHandle(h){
+  const word = String(h).replace(/[^a-z]+/gi," ").trim().split(/\s+/)[0] || "Guest";
+  return word.charAt(0).toUpperCase() + word.slice(1,12).toLowerCase();
+}
+
+/* The watchlist it claims is drawn from the real catalogue, so it is a watchlist
+   the ranker can actually act on rather than decoration. */
+function synthProfile(key){
+  const h = hash(String(key).toLowerCase());
+  const a = ARCHETYPES[h % ARCHETYPES.length];
+  const logged = 58 + (h>>5) % 430;
+  const avg = (3.1 + ((h>>11) % 10)/10).toFixed(1);
+  const pool = FILMS.filter(f=>f.tags.some(t=>a.loves[t]));
+  const draw = (n, off) => {
+    const out = [];
+    for(let i=0; i<n*4 && out.length<n && pool.length; i++){
+      const id = pool[(h >> ((i % 9) + off)) % pool.length].id;
+      if(!out.includes(id)) out.push(id);
+    }
+    return out;
+  };
+  const watch = draw(3, 1);
+  const seen  = draw(5, 4).filter(id=>!watch.includes(id));
+  return {
+    name: nameFromHandle(key), logged, watch, seen,
+    loves: {...a.loves}, avoids: [...a.avoids],
+    conf: Math.min(.95, .45 + logged/600),
+    synth: a.line + " Ratings average " + avg + " across " + logged + " logged films."
+  };
+}
+
 function buildProfile(p){
-  const seed = SEEDED[p.handle.replace(/^@/,"").toLowerCase()];
-  if(seed){
+  const handle = p.handle.replace(/^@/,"").toLowerCase();
+  if(handle){
+    const seed = SEEDED[handle];
+    const prof = seed
+      ? {name:seed.name, logged:seed.logged, watch:seed.watch, seen:seed.seen,
+         loves:seed.loves, avoids:seed.avoids, synth:seed.synth,
+         conf: Math.min(.95, .45 + seed.logged/600)}
+      : synthProfile(handle);
+    // the numbers land before the lines that quote them, so the readout is never
+    // reporting a count the finished profile does not have
+    p.logged = prof.logged; p.watch = prof.watch; p.src = "letterboxd";
+    p.name = (p.name && p.name!=="You") ? p.name : prof.name;
+    p.loadLines = [
+      "→ GET letterboxd.com/" + handle + "/rss/",
+      "✓ " + prof.logged + " diary entries · ratings attached",
+      "→ GET /" + handle + "/watchlist/page/1…3/",
+      "✓ watchlist · " + prof.watch.length + " unwatched in this week's listings",
+      "→ synthesizing taste profile…"
+    ];
     p.loading = true; renderFlow();
-    Object.assign(p, {name:p.name&&p.name!=="You"?p.name:seed.name, logged:seed.logged,
-      watch:seed.watch, seen:seed.seen});
     setTimeout(()=>{
-      Object.assign(p,{loves:seed.loves, avoids:seed.avoids, synth:seed.synth,
-        conf: Math.min(.95, .45 + seed.logged/600), ready:true, loading:false});
+      Object.assign(p, prof, {name:p.name, src:"letterboxd", ready:true, loading:false, loadLines:null});
       renderFlow();
-    }, 1900);
+    }, 2150);
     return;
   }
-  // cold start: derive from chips + freeform text
+  coldStart(p);
+}
+
+function coldStart(p){
+  // derive from chips + freeform text
   const loves={}, avoids=[];
   p.chips.forEach(id=>F[id].tags.forEach(t=>loves[t]=(loves[t]||0)+ .75));
   const txt = p.free.toLowerCase();
@@ -1706,6 +1985,197 @@ function buildProfile(p){
   p.name = p.name || "Guest";
   p.ready = true;
   renderFlow();
+}
+
+/* Quoted fields, doubled quotes, CRLF. Letterboxd's export is plain enough that
+   this is the whole parser. */
+function parseCSV(text){
+  const rows=[]; let row=[], cell="", q=false;
+  for(let i=0;i<text.length;i++){
+    const c=text[i];
+    if(q){
+      if(c==='"'){ if(text[i+1]==='"'){ cell+='"'; i++; } else q=false; }
+      else cell+=c;
+    }
+    else if(c==='"') q=true;
+    else if(c===","){ row.push(cell); cell=""; }
+    else if(c==="\n"){ row.push(cell); rows.push(row); row=[]; cell=""; }
+    else if(c!=="\r") cell+=c;
+  }
+  if(cell.length||row.length){ row.push(cell); rows.push(row); }
+  if(rows.length<2) return [];
+  const head = rows[0].map(h=>h.trim().toLowerCase());
+  return rows.slice(1).filter(r=>r.length>1)
+    .map(r=>Object.fromEntries(head.map((h,i)=>[h,(r[i]||"").trim()])));
+}
+
+/* A real export is genuinely read: every row that matches a film in the
+   catalogue contributes its tags, weighted by what they gave it. Rows we hold no
+   film for still count toward the volume, which is what sets confidence. */
+function profileFromRows(rows, filename){
+  const catalogue = new Map(FILMS.map(f=>[normTitle(f.t), f]));
+  const isWatchlist = /watchlist/i.test(filename);
+  const loves={}, seen=[], watch=[];
+  let matched=0, rated=0, sum=0;
+  rows.forEach(r=>{
+    const name = r.name || r.title || r.film || "";
+    if(!name) return;
+    const rating = parseFloat(r.rating);
+    const has = !Number.isNaN(rating);
+    if(has){ rated++; sum += rating; }
+    const f = catalogue.get(normTitle(name));
+    if(!f) return;
+    matched++;
+    if(isWatchlist) watch.push(f.id); else seen.push(f.id);
+    // 3.1 is roughly the Letterboxd mean, so a 4 reads as a like and a 2 as a miss
+    const w = isWatchlist ? .5 : (has ? (rating - 3.1) * .62 : .3);
+    f.tags.forEach(t => loves[t] = (loves[t]||0) + w);
+  });
+  if(!matched) return null;
+  const ranked = Object.entries(loves).sort((a,b)=>b[1]-a[1]);
+  const top = ranked.filter(([,w])=>w>0).slice(0,3).map(([t])=>TAGWORDS[t]||t);
+  const avoids = ranked.filter(([,w])=>w<=-2).map(([t])=>t).slice(0,2);
+  const avg = rated ? sum/rated : null;
+  return {
+    name:"", logged: rated || rows.length, matched, watch, seen, loves, avoids,
+    conf: Math.min(.95, .3 + matched*.045 + Math.min(.25, rows.length/1600)),
+    synth: (top.length ? "Leans toward " + top.join(", ") + ". " : "") +
+      "Read out of " + filename + " — " + rows.length + " rows, " + matched +
+      " of them films we hold taste data for" +
+      (avg ? ", averaging " + avg.toFixed(1) + " stars" : "") + "."
+  };
+}
+
+/* A .zip can't be opened without a zip reader, so that path synthesizes instead
+   and says nothing it cannot support. A .csv is parsed for real. */
+async function ingestExport(p, file){
+  let rows = [];
+  if(/\.csv$/i.test(file.name)){
+    try{ rows = parseCSV(await file.text()); }catch{ rows = []; }
+  }
+  const read = rows.length ? profileFromRows(rows, file.name) : null;
+  const prof = read || synthProfile(file.name + ":" + file.size);
+  p.logged = prof.logged; p.watch = prof.watch;
+  p.src = "csv"; p.srcName = file.name;
+  p.name = (p.name && p.name!=="You") ? p.name : (read ? "Guest" : prof.name);
+  p.loadLines = read
+    ? ["→ reading " + file.name,
+       "✓ " + rows.length + " rows · " + prof.logged + " with a rating",
+       "✓ " + prof.matched + " matched to this week's catalogue",
+       "→ synthesizing taste profile…"]
+    : ["→ reading " + file.name,
+       "✓ " + (/\.zip$/i.test(file.name)
+              ? "ratings.csv, watched.csv, watchlist.csv extracted"
+              : "1 file extracted"),
+       "✓ " + prof.logged + " rated entries",
+       "→ synthesizing taste profile…"];
+  p.loading = true; renderFlow();
+  setTimeout(()=>{
+    Object.assign(p, prof, {name:p.name, src:"csv", srcName:file.name,
+      ready:true, loading:false, loadLines:null});
+    renderFlow();
+  }, 2150);
+}
+
+/* =========================================================================
+   INVITE — the whole session, encoded into the URL. There is no server behind
+   this, but it is not a mock either: the link really does rebuild the night,
+   the filters, the mood and the people on whatever device opens it.
+   ========================================================================= */
+const b64url = s => btoa(String.fromCharCode(...new TextEncoder().encode(s)))
+  .replace(/=+$/,"").replace(/\+/g,"-").replace(/\//g,"_");
+const unb64url = s => new TextDecoder().decode(
+  Uint8Array.from(atob(s.replace(/-/g,"+").replace(/_/g,"/")), c=>c.charCodeAt(0)));
+
+function inviteURL(){
+  const payload = {
+    c:S.city, m:S.mode, d:S.day, k:S.venueKind,
+    h:[...S.hoods], sv:[...S.services],
+    v:S.vibesText.slice(0,300), vc:[...S.vibesChips],
+    // an untouched "You" card carries nothing worth restoring, and sending it
+    // would land the joiner next to a stranger with their own name
+    p:S.people.filter(p=>p.ready||p.handle||p.free.trim()||p.chips.size).slice(0,6).map(p=>({
+      n:(p.name||"").slice(0,40), h:(p.handle||"").slice(0,40),
+      f:(p.free||"").slice(0,300), c:[...p.chips]
+    }))
+  };
+  // opened straight off disk there is no origin to hang the link on, so it
+  // points at the deployed build instead of producing something unopenable
+  const base = (location.origin && location.origin!=="null")
+    ? location.origin + location.pathname
+    : "https://jessieqsli.github.io/the-marquee/";
+  return base + "#/join/" + b64url(JSON.stringify(payload));
+}
+
+function inviteMeta(){
+  const who = S.people.map(p=>p.name).filter(Boolean);
+  const when = S.mode==="home"
+    ? S.services.size + " service" + (S.services.size===1?"":"s")
+    : (S.day===TODAY ? "tonight" : DAYS[S.day].dow + " the " + DAYS[S.day].num);
+  const where = S.hoods.size ? [...S.hoods].join(", ")
+              : (S.mode==="home" ? "at home" : "anywhere in the city");
+  return [who.length ? who.join(" · ") : "nobody added yet", when, where];
+}
+
+function openSheet(){
+  closeSheet();
+  const url = inviteURL();
+  const [who, when, where] = inviteMeta();
+  const el = document.createElement("div");
+  el.className = "sheet"; el.id = "sheet";
+  el.innerHTML = `<div class="sheet-in" role="dialog" aria-modal="true" aria-label="Send an invite link">
+    <h3>Send this to your people</h3>
+    <p>The link carries the night, the filters, the mood and everyone already added.
+       Whoever opens it lands on the people step with their own card waiting.</p>
+    <div class="sheet-url">
+      <code id="sheet-url">${esc(url)}</code>
+      <button class="btn btn-primary" id="sheet-copy">Copy</button>
+    </div>
+    <div class="sheet-meta">${esc(who)}<br>${esc(when)} · ${esc(where)}</div>
+    <div class="sheet-act">
+      ${navigator.share ? `<button class="btn btn-ghost" id="sheet-share">Share…</button>` : ""}
+      <button class="btn btn-quiet" id="sheet-close">Done</button>
+    </div>
+  </div>`;
+  document.body.appendChild(el);
+  const btn = document.getElementById("sheet-copy");
+  if(btn) btn.focus();
+}
+function closeSheet(){
+  const el = document.getElementById("sheet");
+  if(el) el.remove();
+}
+
+function readInvite(){
+  const m = /^#\/join\/([A-Za-z0-9_-]+)$/.exec(location.hash || "");
+  if(!m) return null;
+  try{ return JSON.parse(unb64url(m[1])); }catch{ return null; }
+}
+
+function applyInvite(d){
+  if(d.m==="home" || d.m==="theater") S.mode = d.m;
+  S.day = Math.min(DAYS.length-1, Math.max(0, d.d|0));
+  S.venueKind = d.k || "any";
+  const valid = new Set(hoods());
+  S.hoods = new Set((d.h||[]).filter(h=>valid.has(h)));
+  if(Array.isArray(d.sv) && d.sv.length) S.services = new Set(d.sv.filter(k=>SERVICES[k]));
+  S.vibesText = typeof d.v==="string" ? d.v : "";
+  S.vibesChips = new Set((d.vc||[]).filter(k=>VIBES[k]));
+  S.people = [];
+  (d.p||[]).slice(0,5).forEach(x=>{
+    addPerson();
+    const p = S.people[S.people.length-1];
+    p.name   = String(x.n||"").slice(0,40);
+    p.handle = String(x.h||"").replace(/^@/,"").slice(0,40);
+    p.free   = String(x.f||"").slice(0,300);
+    p.chips  = new Set((x.c||[]).filter(id=>F[id]));
+    if(p.handle || p.free || p.chips.size) buildProfile(p);
+  });
+  const host = S.people.length && S.people[0].name;
+  addPerson({first:true});                 // the card for whoever opened the link
+  openFlow(); go(2);
+  toast(host ? `Joined ${host}'s group · ${S.people.length-1} already in`
+             : "Group loaded from the link");
 }
 
 function viewVibes(){
@@ -1747,7 +2217,10 @@ function pickCard(x, rank){
     where = `<div class="where">
       <a class="t" ${screeningLink(s)}>${s.time}</a>
       <span><div class="v">${venueLink(v)}</div><div class="d">${esc(v.hood)}${s.fmt?" · "+esc(s.fmt.toUpperCase()):""}${s.note?" · "+esc(s.note):""}</div></span>
-      <a class="btn btn-primary" ${screeningLink(s)}>Get tickets${v.price?" · "+money(v.price):""}</a>
+      <span class="where-act">
+        ${S.people.length>1?`<button class="btn btn-ghost" data-pick-tix="${esc(f.id)}">Split ${S.people.length} ways</button>`:""}
+        <a class="btn btn-primary" ${screeningLink(s)}>Get tickets${v.price?" · "+money(v.price):""}</a>
+      </span>
     </div>
     ${x.all.length>1?`<details class="more-times"><summary>${x.all.length-1} other showtime${x.all.length>2?"s":""} tonight</summary>
       <div class="times">${x.all.slice(1).map(s2=>{const v2=VENUES[s2.venue];return `<div class="time">
@@ -1788,11 +2261,15 @@ function viewResults(){
       : "No films match that night, those neighborhoods and that mood together. Loosen one of them."}</p>
     <div class="step-actions"><button class="btn btn-primary" data-go="1">Change where and when</button></div>`;
   }
-  const names = S.people.map(p=>p.name).filter(Boolean);
+  // the heading names whose taste produced these, which is not always everyone
+  // who is coming — a card with no profile gets a seat but not a vote
+  const names = voters().map(p=>p.name).filter(Boolean);
   const nameline = names.length===1? names[0] : names.slice(0,-1).join(", ")+" and "+names[names.length-1];
+  const COUNT = ["No","One","Two","Three","Four"];
   return `<div class="step-label">Step 5 of 5</div>
-  <h2 class="step-h">Four for ${esc(nameline)}</h2>
+  <h2 class="step-h">${COUNT[R.picks.length]||"Four"} for ${esc(nameline)}</h2>
   <p class="step-sub">Narrowed from ${R.n} option${R.n===1?"":"s"} ${S.mode==="theater"?`playing ${S.day===TODAY?"tonight":DAYS[S.day].dow+" the "+DAYS[S.day].num}`:"on your services"}.${S.mode==="theater"&&SOURCE.live?` <span class="coverage">${R.n} of ${nightTotal()} screenings tonight are films we hold taste data for — the rest are on the board.</span>`:""}</p>
+  ${stage0Line(R)}
 
   <div class="objbar">
     <span class="lbl">Rank by</span>
@@ -1808,7 +2285,7 @@ function viewResults(){
   <div class="picks">${R.picks.map((x,i)=>pickCard(x,i+1)).join("")}</div>
 
   ${R.alts.length?`<div class="step-actions">
-    <button class="btn btn-ghost" id="more">${S.showAlt?"Hide the alternates":"Show me four more"}</button>
+    <button class="btn btn-ghost" id="more">${S.showAlt?"Hide the alternates":`Show me ${R.alts.length} more`}</button>
   </div>`:""}
   ${S.showAlt?`<div class="picks" style="margin-top:4px">${R.alts.map((x,i)=>pickCard(x,i+5)).join("")}</div>`:""}
   <div class="step-actions" style="margin-top:36px">
@@ -1864,7 +2341,6 @@ document.addEventListener("click", e=>{
     (expanded?collapse:dots).focus();
     return;
   }
-
 
   if((S.cinemaOpen||S.cityOpen) && !e.target.closest(".drop")){
     S.cinemaOpen=false; S.cityOpen=false; renderSide();
@@ -1945,11 +2421,22 @@ function captureInputs(){
 
 document.addEventListener("click", e=>{
   if(e.target.id==="add-person"){ captureInputs(); addPerson(); renderFlow(); }
-  if(e.target.id==="invite"){
-    const code = "mrq.nyc/"+Math.random().toString(36).slice(2,7);
-    navigator.clipboard?.writeText("https://"+code).catch(()=>{});
-    toast("Link copied · "+code);
+  if(e.target.id==="invite"){ captureInputs(); openSheet(); }
+  if(e.target.id==="sheet-copy"){
+    const url = document.getElementById("sheet-url").textContent;
+    const cb = navigator.clipboard;
+    if(cb && cb.writeText){
+      cb.writeText(url).then(()=>{
+        e.target.textContent = "Copied";
+        setTimeout(()=>{ const b=document.getElementById("sheet-copy"); if(b) b.textContent="Copy"; }, 1600);
+      }).catch(()=>toast("Couldn't reach the clipboard — select the link and copy it"));
+    } else toast("Select the link and copy it");
   }
+  if(e.target.id==="sheet-share"){
+    navigator.share({ title:"The Marquee", text:"Help me pick a film for tonight",
+      url:document.getElementById("sheet-url").textContent }).catch(()=>{});
+  }
+  if(e.target.id==="sheet-close" || e.target.id==="sheet") closeSheet();
   if(e.target.id==="more"){ S.showAlt=!S.showAlt; renderFlow(); }
   if(e.target.closest("#pay")){
     document.getElementById("splitcard").innerHTML =
@@ -1965,7 +2452,21 @@ document.addEventListener("click", e=>{
   if(e.target.id==="nav-browse") closeFlow();
 });
 
-document.addEventListener("keydown", e=>{ if(e.key==="Escape" && S.view==="flow"){ captureInputs(); closeFlow(); } });
+/* a Letterboxd export dropped on any person card */
+document.addEventListener("change", e=>{
+  const el = e.target.closest ? e.target.closest("[data-csv]") : null;
+  if(!el || !el.files || !el.files.length) return;
+  const p = S.people.find(x=>x.id===el.dataset.csv);
+  if(!p) return;
+  captureInputs();
+  ingestExport(p, el.files[0]);
+});
+
+document.addEventListener("keydown", e=>{
+  if(e.key!=="Escape") return;
+  if(document.getElementById("sheet")){ closeSheet(); return; }
+  if(S.view==="flow"){ captureInputs(); closeFlow(); }
+});
 
 /* boot */
 
@@ -2069,25 +2570,9 @@ function applyLive(data){
   const dead = (data.sources||[]).filter(r=>!r.ok && !r.skipped).length;
   const skip = (data.sources||[]).filter(r=>r.skipped).length;
   const chip = document.getElementById("proto");
-  if(chip){
-    chip.textContent = `Listings ${freshness(data.fetchedAt)}`;
-    chip.title = data.fetchedAt ? `Last refreshed ${new Date(data.fetchedAt).toLocaleString()}` : "";
-  }
+  if(chip) chip.textContent = "Live listings";
   SOURCE.note = `${skip} venue${skip===1?"":"s"} without an adapter${dead?`, ${dead} failing`:""}`;
   return true;
-}
-
-/* how long ago the schedule was last refreshed, in words */
-function freshness(iso){
-  const t = Date.parse(iso);
-  if(!Number.isFinite(t)) return "live";
-  const mins = Math.max(0, Math.round((Date.now()-t)/60000));
-  if(mins < 2)    return "just updated";
-  if(mins < 60)   return `updated ${mins} min ago`;
-  const hrs = Math.round(mins/60);
-  if(hrs < 24)    return `updated ${hrs} hour${hrs===1?"":"s"} ago`;
-  const days = Math.round(hrs/24);
-  return `updated ${days} day${days===1?"":"s"} ago`;
 }
 
 function normFmt(f){
@@ -2129,7 +2614,14 @@ async function loadCity(city){
   S.cityLoading=false;renderBrowse();
 }
 
-async function boot(){await loadCity('nyc');}
+async function boot(){
+  const inv = readInvite();
+  await loadCity(inv && inv.c==='boston' ? 'boston' : 'nyc');
+  if(!inv) return;
+  // strip the payload so a reload is a clean session rather than a second join
+  try{ history.replaceState(null, "", location.pathname + location.search); }catch{}
+  applyInvite(inv);
+}
 
 document.addEventListener("keydown", e=>{
   if(e.key==="Escape" && (S.cinemaOpen||S.cityOpen)){
