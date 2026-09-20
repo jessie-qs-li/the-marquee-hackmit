@@ -72,11 +72,11 @@ ul{margin:0;padding:0;list-style:none}
   background:linear-gradient(180deg,rgba(10,11,15,.97),rgba(10,11,15,.86) 70%,rgba(10,11,15,0));
   backdrop-filter:blur(14px);
 }
-.nav-in{display:flex;align-items:center;gap:26px;padding-block:16px 20px}
+.nav-in{display:flex;align-items:center;gap:26px;padding-block:11px}
 .brand{display:flex;align-items:center;gap:10px;margin-right:6px}
-.brand-mark{display:block;width:106px;height:auto;mix-blend-mode:screen;flex:0 0 auto}
-@media (max-width:720px){.brand-mark{width:80px}}
-.brand b{font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:.005em;text-transform:uppercase}
+.brand-mark{display:block;width:84px;height:auto;mix-blend-mode:screen;flex:0 0 auto}
+@media (max-width:720px){.brand-mark{width:70px}}
+.brand b{font-family:var(--display);font-weight:800;font-size:19px;letter-spacing:.005em;text-transform:uppercase}
 .navlinks{display:flex;gap:22px;font-size:14px}
 .navlinks button{color:var(--faint);padding-block:4px;border-bottom:1.5px solid transparent}
 .navlinks button.on{color:var(--text);border-color:var(--amber)}
@@ -639,8 +639,8 @@ a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset
 .theater-pin{display:grid;place-items:center;background:none;border:0}
 .theater-pin span{width:15px;height:15px;border:2px solid #fff;border-radius:50%;background:var(--hot);box-shadow:0 1px 6px #0006}
 .theater-pin.muted span{background:var(--faint);width:11px;height:11px}
-/* A cool dark palette: warm tile colors become neutral; water and parks retain blue/green. */
-#theater-map .marquee-dark-tiles{filter:invert(1) hue-rotate(180deg) brightness(.92) saturate(.8) url("#map-cool-palette")}
+/* Grayscale streets and buildings; only water and parks keep a colour. */
+#theater-map .marquee-dark-tiles{filter:invert(1) hue-rotate(180deg) brightness(.92) saturate(.8) url("#map-selective")}
 #theater-map .leaflet-popup-content{font-family:Lexend,sans-serif;line-height:1.5;color:var(--text)}
 #theater-map .leaflet-popup-content p{margin:7px 0;font-size:11px;color:var(--dim)}
 #theater-map .leaflet-popup-content a{color:var(--hot);font-size:11px;font-weight:600}
@@ -659,8 +659,44 @@ a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset
 </head>
 <body>
 <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;pointer-events:none">
-  <defs><filter id="map-cool-palette" color-interpolation-filters="sRGB">
-    <feColorMatrix type="matrix" values="0.5 0.15 0.15 0 0  0.5 0.3 0.2 0 0  0.5 0.15 0.35 0 0  0 0 0 1 0"/>
+  <defs><filter id="map-selective" color-interpolation-filters="sRGB">
+    <!-- Base: everything grey. -->
+    <feColorMatrix type="saturate" values="0" result="grey"/>
+
+    <!-- Tinted copies of that grey, so water and parks keep the tiles'
+         light and shade instead of becoming flat blocks of colour. -->
+    <feColorMatrix in="grey" type="matrix" result="blueTint"
+      values="0.30 0 0 0 0   0 0.62 0 0 0   0 0 1.35 0 0.02   0 0 0 1 0"/>
+    <feColorMatrix in="grey" type="matrix" result="greenTint"
+      values="0.26 0 0 0 0   0 1.10 0 0 0.01   0 0 0.42 0 0   0 0 0 1 0"/>
+
+    <!-- Water and parkland are dark; place names are light and carry a blue
+         cast of their own, so gate the tints on darkness to leave text grey. -->
+    <feColorMatrix in="SourceGraphic" type="matrix" result="darkOnly"
+      values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0   -0.64 -2.15 -0.22 0 1"/>
+
+    <!-- Water is the only thing left with more blue than red or green. -->
+    <feColorMatrix in="SourceGraphic" type="matrix" result="waterMask"
+      values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0   -10 -10 20 0 0"/>
+
+    <!-- Parks are the only thing greener than both its red and its blue,
+         so require both comparisons rather than one. -->
+    <feColorMatrix in="SourceGraphic" type="matrix" result="greenOverRed"
+      values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0   -20 20 0 0 0"/>
+    <feColorMatrix in="SourceGraphic" type="matrix" result="greenOverBlue"
+      values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0   0 20 -20 0 0"/>
+    <feComposite in="greenOverRed" in2="greenOverBlue" operator="in" result="parkMask"/>
+
+    <feComposite in="waterMask" in2="darkOnly" operator="in" result="waterDark"/>
+    <feComposite in="parkMask"  in2="darkOnly" operator="in" result="parkDark"/>
+    <feComposite in="blueTint"  in2="waterDark" operator="in" result="water"/>
+    <feComposite in="greenTint" in2="parkDark"  operator="in" result="parks"/>
+
+    <feMerge>
+      <feMergeNode in="grey"/>
+      <feMergeNode in="parks"/>
+      <feMergeNode in="water"/>
+    </feMerge>
   </filter></defs>
 </svg>
 <div id="app">
@@ -671,7 +707,7 @@ a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset
   <div class="nav">
     <div class="wrap wrap-wide nav-in">
       <div class="brand">
-        <img class="brand-mark" src="assets/marquee-logo.png" alt="" width="106" height="44" aria-hidden="true">
+        <img class="brand-mark" src="assets/marquee-logo.png" alt="" width="84" height="35" aria-hidden="true">
         <b>The Marquee</b>
       </div>
       <nav class="navlinks">
