@@ -1,32 +1,14 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 194,
-  "classified": 124,
+  "total": 187,
+  "classified": 120,
   "unresolved": [
-   {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "musical|",
-    "title": "THE MUSICAL",
-    "year": null,
-    "reason": "ambiguous"
-   },
    {
     "key": "cameraman|",
     "title": "THE CAMERAMAN",
     "year": null,
     "reason": "ambiguous"
-   },
-   {
-    "key": "ghostintheshell30thanniversaryremaster|1995",
-    "title": "Ghost in the Shell: 30th Anniversary Remaster",
-    "year": 1995,
-    "reason": "not-found"
    },
    {
     "key": "bestofbettyboop|",
@@ -71,8 +53,8 @@
     "reason": "ambiguous"
    },
    {
-    "key": "invite|",
-    "title": "THE INVITE",
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
     "year": null,
     "reason": "ambiguous"
    },
@@ -104,6 +86,12 @@
     "key": "timeandtide|2000",
     "title": "Time and Tide",
     "year": 2000,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "musical|",
+    "title": "THE MUSICAL",
+    "year": null,
     "reason": "ambiguous"
    },
    {
@@ -311,12 +299,6 @@
     "reason": "ambiguous"
    },
    {
-    "key": "krizalitcelebrationofturkishandwomenvoices|",
-    "title": "KRIZALIT CELEBRATION OF TURKISH AND WOMEN VOICES",
-    "year": null,
-    "reason": "not-found"
-   },
-   {
     "key": "toneywmerrittpgm1psychodramas|",
     "title": "TONEY W. MERRITT PGM 1: PSYCHODRAMAS",
     "year": null,
@@ -428,7 +410,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-20T14:57:07.945Z",
+ "fetchedAt": "2026-09-20T18:13:35.139Z",
  "week": [
   "2026-09-20",
   "2026-09-21",
@@ -646,63 +628,63 @@
    "name": "Film Forum",
    "ok": true,
    "count": 87,
-   "ms": 804
+   "ms": 903
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
-   "count": 63,
-   "ms": 155
+   "count": 61,
+   "ms": 137
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 153,
-   "ms": 343
+   "ms": 198
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 22,
-   "ms": 260
+   "ms": 517
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 78,
-   "ms": 231
+   "ms": 199
   },
   {
    "id": "cv",
    "name": "Cinema Village",
-   "ok": true,
-   "count": 73,
-   "ms": 1002
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 20,
-   "ms": 127
+   "ms": 147
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 182,
-   "ms": 5575
+   "count": 172,
+   "ms": 4706
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 23,
-   "ms": 2949
+   "count": 22,
+   "ms": 2177
   },
   {
    "id": "wrt",
@@ -725,21 +707,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 109,
-   "ms": 230
+   "ms": 127
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 77,
-   "ms": 5605
+   "ms": 4466
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 154,
-   "ms": 6222
+   "ms": 6460
   },
   {
    "id": "spec",
@@ -754,7 +736,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 14,
-   "ms": 1169
+   "ms": 1326
   },
   {
    "id": "momi",
@@ -769,7 +751,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 5,
-   "ms": 991
+   "ms": 253
   },
   {
    "id": "kew",
@@ -785,7 +767,7 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 206
+   "ms": 1162
   }
  ],
  "notices": {},
@@ -835,57 +817,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-20",
-   "time": "10:50",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-20",
-   "time": "10:50",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "TEENAGE SEX AND DEATH AT CAMP MIASMA in 35MM",
-   "date": "2026-09-20",
-   "time": "11:00",
-   "fmt": "35mm",
-   "director": "Jane Schoenbrun",
-   "runtime": 112,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/teenage-sex-and-death-at-camp-miasma-in-35mm",
-   "genres": [
-    "comedy",
-    "horror",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Horror",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
-  },
-  {
    "venue": "ff",
    "title": "THE CAMERAMAN",
    "date": "2026-09-20",
@@ -894,43 +825,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "mg",
-   "title": "Ghost in the Shell: 30th Anniversary Remaster",
-   "date": "2026-09-20",
-   "time": "11:00",
-   "fmt": "4K DCP",
-   "year": 1995,
-   "runtime": 83,
-   "director": "Mamoru Oshii",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "mg",
-   "title": "The Little Mermaid",
-   "date": "2026-09-20",
-   "time": "11:00",
-   "fmt": "35mm",
-   "year": 1989,
-   "runtime": 83,
-   "director": "Ron Clements, John Musker",
-   "genres": [
-    "family",
-    "comedy",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Animation",
-    "Children",
-    "Comedy",
-    "Musical",
-    "Romance"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "2081"
   },
   {
    "venue": "nhp",
@@ -974,25 +868,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "angelika",
-   "title": "AMERICAN DOCTOR",
-   "date": "2026-09-20",
-   "time": "11:20",
-   "fmt": "Open Captions",
-   "director": "Poh Si Teng",
-   "runtime": 91,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/american-doctor",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
-  },
-  {
    "venue": "ifc",
    "title": "Heathers",
    "date": "2026-09-20",
@@ -1023,20 +898,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-20",
-   "time": "12:00",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Ghosts of Mars",
    "date": "2026-09-20",
@@ -1053,28 +914,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "4735"
-  },
-  {
-   "venue": "paris",
-   "title": "West Side Story",
-   "date": "2026-09-20",
-   "time": "12:00",
-   "runtime": 153,
-   "fmt": "70MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3011/seats",
-   "genres": [
-    "drama",
-    "comedy",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Musical",
-    "Romance"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1947"
   },
   {
    "venue": "ff",
@@ -1207,20 +1046,6 @@
    "tmdbId": 26356
   },
   {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-20",
-   "time": "13:00",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "mg",
    "title": "Knock Off",
    "date": "2026-09-20",
@@ -1243,20 +1068,6 @@
    "title": "Bad Apples",
    "date": "2026-09-20",
    "time": "13:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-20",
-   "time": "13:10",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1285,25 +1096,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "AMERICAN DOCTOR",
-   "date": "2026-09-20",
-   "time": "13:20",
-   "fmt": "English subtitles",
-   "director": "Poh Si Teng",
-   "runtime": 91,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/american-doctor",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
   },
   {
    "venue": "bam",
@@ -1350,29 +1142,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "TEENAGE SEX AND DEATH AT CAMP MIASMA in 35MM",
-   "date": "2026-09-20",
-   "time": "13:40",
-   "fmt": "35mm",
-   "director": "Jane Schoenbrun",
-   "runtime": 112,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/teenage-sex-and-death-at-camp-miasma-in-35mm",
-   "genres": [
-    "comedy",
-    "horror",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Horror",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
-  },
-  {
    "venue": "bam",
    "title": "Tony",
    "date": "2026-09-20",
@@ -1381,25 +1150,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE OLDEST PERSON IN THE WORLD",
-   "date": "2026-09-20",
-   "time": "13:45",
-   "fmt": "Standard",
-   "director": "Sam Green",
-   "runtime": 87,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-oldest-person-in-the-world",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596302
   },
   {
    "venue": "bam",
@@ -1449,41 +1199,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1299581
-  },
-  {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-20",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
-  },
-  {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-20",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-20",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "bam",
@@ -1830,21 +1545,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-20",
-   "time": "16:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
-  },
-  {
    "venue": "nhp",
    "title": "Spider-Man: Brand New Day",
    "date": "2026-09-20",
@@ -1935,16 +1635,6 @@
    "date": "2026-09-20",
    "time": "16:15",
    "url": "https://www.bam.org/film/2026/a-pure-person-the-world",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-20",
-   "time": "16:15",
-   "url": "https://www.cinemavillage.com/showtimes/",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2372,21 +2062,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-20",
-   "time": "18:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
-  },
-  {
    "venue": "nhp",
    "title": "The Odyssey (DCP)",
    "date": "2026-09-20",
@@ -2501,16 +2176,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596302
-  },
-  {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-20",
-   "time": "18:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -2907,21 +2572,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-20",
-   "time": "20:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
-  },
-  {
    "venue": "roxy",
    "title": "Outfitumentary + Q&A",
    "date": "2026-09-20",
@@ -2979,8 +2629,8 @@
    "title": "Secretary",
    "date": "2026-09-20",
    "time": "20:30",
-   "url": "https://ticketing.useast.veezi.com/purchase/6566?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
+   "url": "",
+   "note": "Sold out",
    "genres": [
     "comedy",
     "drama",
@@ -3012,16 +2662,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1493991
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-20",
-   "time": "20:45",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -3938,31 +3578,6 @@
    "tmdbId": 1240889
   },
   {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-21",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
-  },
-  {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-21",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Arsa",
    "date": "2026-09-21",
@@ -4038,16 +3653,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 91735
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-21",
-   "time": "14:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -4341,21 +3946,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-21",
-   "time": "16:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
-  },
-  {
    "venue": "nhp",
    "title": "Spider-Man: Brand New Day",
    "date": "2026-09-21",
@@ -4618,26 +4208,6 @@
    "tmdbId": 1596332
   },
   {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-21",
-   "time": "17:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-21",
-   "time": "17:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "The Fisherman",
    "date": "2026-09-21",
@@ -4809,21 +4379,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596302
-  },
-  {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-21",
-   "time": "18:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
   },
   {
    "venue": "ff",
@@ -5276,26 +4831,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-21",
-   "time": "19:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-21",
-   "time": "19:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Critics & Filmmakers: A Conversation between Godfrey Cheshire & Alex Winter",
    "date": "2026-09-21",
@@ -5389,21 +4924,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 91735
-  },
-  {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-21",
-   "time": "20:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
   },
   {
    "venue": "angelika",
@@ -6386,31 +5906,6 @@
    "tmdbId": 1596332
   },
   {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-22",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
-  },
-  {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-22",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Arsa",
    "date": "2026-09-22",
@@ -6543,16 +6038,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1493991
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-22",
-   "time": "14:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -6779,21 +6264,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-22",
-   "time": "16:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
   },
   {
    "venue": "nhp",
@@ -7109,26 +6579,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-22",
-   "time": "17:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-22",
-   "time": "17:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-22",
@@ -7277,21 +6727,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596332
-  },
-  {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-22",
-   "time": "18:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
   },
   {
    "venue": "ff",
@@ -7717,26 +7152,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-22",
-   "time": "19:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-22",
-   "time": "19:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-22",
@@ -7836,21 +7251,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 91735
-  },
-  {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-22",
-   "time": "20:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
   },
   {
    "venue": "quad",
@@ -8845,31 +8245,6 @@
    "tmdbId": 1596332
   },
   {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-23",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
-  },
-  {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-23",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "mg",
    "title": "Happy Together",
    "date": "2026-09-23",
@@ -8971,16 +8346,6 @@
    "title": "Take Me Home",
    "date": "2026-09-23",
    "time": "14:25",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-23",
-   "time": "14:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9211,21 +8576,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-23",
-   "time": "16:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
   },
   {
    "venue": "mg",
@@ -9536,26 +8886,6 @@
    "tmdbId": 1627931
   },
   {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-23",
-   "time": "17:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-23",
-   "time": "17:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-23",
@@ -9652,21 +8982,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1493991
-  },
-  {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-23",
-   "time": "18:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
   },
   {
    "venue": "ff",
@@ -10157,26 +9472,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-23",
-   "time": "19:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-23",
-   "time": "19:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-23",
@@ -10228,21 +9523,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 91735
-  },
-  {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-23",
-   "time": "20:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
   },
   {
    "venue": "quad",
@@ -10433,8 +9713,8 @@
    "title": "Crash (1996)",
    "date": "2026-09-23",
    "time": "21:00",
-   "url": "https://ticketing.useast.veezi.com/purchase/6567?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
+   "url": "",
+   "note": "Sold out",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11282,31 +10562,6 @@
    "tmdbId": 1629355
   },
   {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-24",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
-  },
-  {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-24",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Arsa",
    "date": "2026-09-24",
@@ -11457,16 +10712,6 @@
    "title": "Take Me Home",
    "date": "2026-09-24",
    "time": "14:25",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-24",
-   "time": "14:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11689,21 +10934,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1204680
-  },
-  {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-24",
-   "time": "16:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
   },
   {
    "venue": "nhp",
@@ -12037,16 +11267,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-24",
-   "time": "17:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "The Fisherman",
    "date": "2026-09-24",
@@ -12094,16 +11314,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-24",
-   "time": "17:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Spider-Man: Brand New Day",
    "date": "2026-09-24",
@@ -12139,21 +11349,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1629051
-  },
-  {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-24",
-   "time": "18:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
   },
   {
    "venue": "ff",
@@ -12658,16 +11853,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-24",
-   "time": "19:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-24",
@@ -12718,25 +11903,6 @@
    "tmdbId": 1437396
   },
   {
-   "venue": "cv",
-   "title": "BUDDY",
-   "date": "2026-09-24",
-   "time": "19:45",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "adventure",
-    "family",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Adventure",
-    "Children",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1551"
-  },
-  {
    "venue": "ff",
    "title": "THE SCOUT",
    "date": "2026-09-24",
@@ -12767,21 +11933,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 91735
-  },
-  {
-   "venue": "cv",
-   "title": "NO COUNTRY FOR MOTHERS",
-   "date": "2026-09-24",
-   "time": "20:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1720906
   },
   {
    "venue": "angelika",
@@ -13558,26 +12709,6 @@
    "tmdbId": 29134
   },
   {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-25",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-25",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The Incomer",
    "date": "2026-09-25",
@@ -13629,25 +12760,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
-  },
-  {
-   "venue": "cv",
-   "title": "BUDDY",
-   "date": "2026-09-25",
-   "time": "14:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "adventure",
-    "family",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Adventure",
-    "Children",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1551"
   },
   {
    "venue": "mg",
@@ -13842,26 +12954,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596249
-  },
-  {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-25",
-   "time": "16:15",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-25",
-   "time": "16:15",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "nhw",
@@ -14064,16 +13156,6 @@
    "genreMovieId": "5219"
   },
   {
-   "venue": "cv",
-   "title": "KRIZALIT CELEBRATION OF TURKISH AND WOMEN VOICES",
-   "date": "2026-09-25",
-   "time": "17:15",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
    "date": "2026-09-25",
@@ -14196,26 +13278,6 @@
    "genreMovieId": "58559"
   },
   {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-25",
-   "time": "18:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-25",
-   "time": "18:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-25",
@@ -14234,25 +13296,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "cv",
-   "title": "BUDDY",
-   "date": "2026-09-25",
-   "time": "18:40",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "adventure",
-    "family",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Adventure",
-    "Children",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1551"
   },
   {
    "venue": "afa",
@@ -14594,26 +13637,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-25",
-   "time": "20:45",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-25",
-   "time": "20:45",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-09-25",
@@ -14650,25 +13673,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "cv",
-   "title": "BUDDY",
-   "date": "2026-09-25",
-   "time": "20:50",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "adventure",
-    "family",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Adventure",
-    "Children",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1551"
   },
   {
    "venue": "afa",
@@ -15364,26 +14368,6 @@
    "genreMovieId": "46970"
   },
   {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-26",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-26",
-   "time": "14:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The Incomer",
    "date": "2026-09-26",
@@ -15481,25 +14465,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
-  },
-  {
-   "venue": "cv",
-   "title": "BUDDY",
-   "date": "2026-09-26",
-   "time": "14:20",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "adventure",
-    "family",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Adventure",
-    "Children",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1551"
   },
   {
    "venue": "nhp",
@@ -15681,26 +14646,6 @@
    "genreMovieId": "61323"
   },
   {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-26",
-   "time": "16:15",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-26",
-   "time": "16:15",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-26",
@@ -15877,16 +14822,6 @@
    "genreMovieId": "5219"
   },
   {
-   "venue": "cv",
-   "title": "KRIZALIT CELEBRATION OF TURKISH AND WOMEN VOICES",
-   "date": "2026-09-26",
-   "time": "17:15",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Hope",
    "date": "2026-09-26",
@@ -16043,26 +14978,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-26",
-   "time": "18:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-26",
-   "time": "18:30",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-26",
@@ -16081,25 +14996,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "cv",
-   "title": "BUDDY",
-   "date": "2026-09-26",
-   "time": "18:40",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "adventure",
-    "family",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Adventure",
-    "Children",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1551"
   },
   {
    "venue": "afa",
@@ -16415,26 +15311,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "THE INVITE",
-   "date": "2026-09-26",
-   "time": "20:45",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "cv",
-   "title": "TONY",
-   "date": "2026-09-26",
-   "time": "20:45",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "mg",
    "title": "Alien: Resurrection",
    "date": "2026-09-26",
@@ -16493,25 +15369,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "cv",
-   "title": "BUDDY",
-   "date": "2026-09-26",
-   "time": "20:50",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "adventure",
-    "family",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Adventure",
-    "Children",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1551"
   },
   {
    "venue": "afa",
