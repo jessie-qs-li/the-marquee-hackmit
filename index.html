@@ -503,6 +503,8 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 .vn:hover,.film-entry h3 a:hover,.rtitle h3 a:hover{text-decoration:underline;text-underline-offset:3px}
 a.vt-time,a.film-time,a.time,a.t{text-decoration:none}
 a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset:3px}
+.venue-link,.ticker a{color:inherit;text-decoration:none}
+.venue-link:hover,.ticker a:hover{text-decoration:underline;text-underline-offset:3px}
 </style>
 
 </head>
@@ -1216,7 +1218,7 @@ function renderVenueBoard(list,el){
     const html = (()=>{
     return `<section class="vcol">
       <div class="vcol-head">
-        <h3 title="${esc(v.n)}">${esc(v.sn||v.n)}</h3>
+        <h3 title="${esc(v.n)}">${venueLink(v,v.sn||v.n)}</h3>
         <div class="hood">${esc(v.hood)}</div>
       </div>
       <div class="vlist">
@@ -1266,7 +1268,7 @@ function renderFilmRows(list,el){
     return `<article class="film-entry">
       <header><h3><a ${screeningLink(times[0],true)}>${esc(f.t)}</a></h3>${metadata.length?`<p class="film-meta">${metadata.map(esc).join(' · ')}</p>`:''}
       <p class="film-count">${times.length} screening${times.length===1?'':'s'} · ${Object.keys(venues).length} cinema${Object.keys(venues).length===1?'':'s'}</p></header>
-      <div class="film-venues">${Object.entries(venues).map(([vid,shows])=>{const v=VENUES[vid];return `<section class="film-venue"><div><h4>${esc(v.sn||v.n)}</h4><p>${esc(v.hood)}</p></div><div class="film-sessions">${shows.slice(0,4).map(x=>button(x,v)).join('')}${shows.length>4?`<details class="film-extra"><summary>+ ${shows.length-4} more times</summary><div class="film-sessions">${shows.slice(4).map(x=>button(x,v)).join('')}</div></details>`:''}</div></section>`}).join('')}</div>
+      <div class="film-venues">${Object.entries(venues).map(([vid,shows])=>{const v=VENUES[vid];return `<section class="film-venue"><div><h4>${venueLink(v,v.sn||v.n)}</h4><p>${esc(v.hood)}</p></div><div class="film-sessions">${shows.slice(0,4).map(x=>button(x,v)).join('')}${shows.length>4?`<details class="film-extra"><summary>+ ${shows.length-4} more times</summary><div class="film-sessions">${shows.slice(4).map(x=>button(x,v)).join('')}</div></details>`:''}</div></section>`}).join('')}</div>
     </article>`;
   }).join('');
 }
@@ -1303,9 +1305,9 @@ function renderTicker(){
     const when = s.day===S.day ? "Tonight" : d.dow;
     const head = (s.note||"").replace(/·.*$/,"").trim()
               || (s.fmt && s.fmt!=="digital" && s.fmt!=="dcp" ? s.fmt.toUpperCase()+" print" : when);
-    return `${head} — ${f.t} at ${v.sn||v.n} · ${when} ${s.time}`;
+    return `<a ${screeningLink(s,true)}>${esc(head)} — ${esc(f.t)}</a> at ${venueLink(v,v.sn||v.n)} · <a ${screeningLink(s)}>${esc(when)} ${s.time}</a>`;
   };
-  const html = picks.map(s=>`<a ${screeningLink(s)} style="color:inherit;text-decoration:none"><i>${esc(line(s))}</i></a>`).join("");
+  const html = picks.map(s=>`<i>${line(s)}</i>`).join("");
   document.getElementById("ticker").innerHTML = html + html; // doubled for the seamless loop
 }
 
@@ -1580,12 +1582,12 @@ function pickCard(x, rank){
     const s=x.opt.s, v=VENUES[s.venue];
     where = `<div class="where">
       <a class="t" ${screeningLink(s)}>${s.time}</a>
-      <span><div class="v">${esc(v.n)}</div><div class="d">${esc(v.hood)}${s.fmt?" · "+esc(s.fmt.toUpperCase()):""}${s.note?" · "+esc(s.note):""}</div></span>
+      <span><div class="v">${venueLink(v)}</div><div class="d">${esc(v.hood)}${s.fmt?" · "+esc(s.fmt.toUpperCase()):""}${s.note?" · "+esc(s.note):""}</div></span>
       <a class="btn btn-primary" ${screeningLink(s)}>Get tickets${v.price?" · "+money(v.price):""}</a>
     </div>
     ${x.all.length>1?`<details class="more-times"><summary>${x.all.length-1} other showtime${x.all.length>2?"s":""} tonight</summary>
-      <div class="times">${x.all.slice(1).map(s2=>{const v2=VENUES[s2.venue];return `<a class="time" ${screeningLink(s2)}>
-        <div class="t">${s2.time}</div><div class="v">${esc(v2.n)}</div><div class="f">${esc((s2.fmt||"").toUpperCase())}</div></a>`}).join("")}</div>
+      <div class="times">${x.all.slice(1).map(s2=>{const v2=VENUES[s2.venue];return `<div class="time">
+        <a class="t" ${screeningLink(s2)}>${s2.time}</a><div class="v">${venueLink(v2)}</div><div class="f">${esc((s2.fmt||"").toUpperCase())}</div></div>`}).join("")}</div>
     </details>`:""}`;
   } else {
     where = `<div class="where">
@@ -1658,7 +1660,7 @@ function viewSplit(){
   const total = each * S.people.length;
   return `<div class="step-label">Checkout</div>
   <h2 class="step-h">${esc(x.f.t)}</h2>
-  <p class="step-sub">${x.opt.s.time} at ${esc(v.n)} · ${S.people.length} ticket${S.people.length===1?"":"s"}</p>
+  <p class="step-sub">${x.opt.s.time} at ${venueLink(v)} · ${S.people.length} ticket${S.people.length===1?"":"s"}</p>
   <div class="split-card" id="splitcard">
     ${S.people.map(p=>`<div class="split-row">
       <span class="av" style="background:${avColor(p.name)};width:28px;height:28px;font-size:12px">${esc((p.name||"?").charAt(0).toUpperCase())}</span>
@@ -1868,6 +1870,10 @@ function normFmt(f){
 
 function safeLink(value){
   try{const u=new URL(value);return ["https:","http:"].includes(u.protocol)?u.href:null;}catch{return null;}
+}
+function venueLink(v,label=v.n){
+  const href=safeLink(v.url);
+  return href?`<a class="venue-link" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`:esc(label);
 }
 function screeningLink(s,film=false){
   const href=(film?safeLink(s.filmUrl):null)||safeLink(s.url)||safeLink(VENUES[s.venue]?.url);
