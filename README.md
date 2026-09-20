@@ -97,7 +97,7 @@ python3 -m http.server 8000
 5. Vibes: `something dumb and fun, we've all had a long week`
 6. The pipeline readout names what each layer did and what it cost. Stage 0 is the number to point at.
 7. On the results, toggle **Everyone's happy** against **Group average** and watch the picks reorder.
-8. **Split 3 ways** on the top pick, then confirm.
+8. **Split 3 ways** on the top pick, then **send a payment link**. Open it in a second window, pay as one of the others, and watch the amount left to collect fall on the checkout screen without anyone touching it.
 
 ## Next
 

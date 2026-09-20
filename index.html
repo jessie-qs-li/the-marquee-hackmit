@@ -309,6 +309,29 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 .tick{width:58px;height:58px;border-radius:50%;background:rgba(79,178,134,.15);border:1px solid var(--agree);
   display:grid;place-items:center;margin:0 auto 18px;color:var(--agree);font-size:26px}
 
+/* split — collection progress, shared by the organiser's card and the pay page */
+.owe{display:flex;align-items:baseline;gap:10px;margin-top:18px}
+.owe .n{font-family:var(--display);font-size:38px;line-height:1;font-variant-numeric:tabular-nums}
+.owe .of{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.owe.done .n{color:var(--agree)}
+.meter{height:5px;border-radius:99px;background:var(--line);overflow:hidden;margin-top:14px}
+.meter i{display:block;height:100%;background:var(--amber);border-radius:99px;
+  transition:width .45s cubic-bezier(.2,.7,.2,1)}
+.meter.done i{background:var(--agree)}
+.split-row.settled .amt{color:var(--agree)}
+.split-row .who{display:flex;flex-direction:column;gap:2px;min-width:0}
+.split-row .sub{font-family:var(--mono);font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--faint)}
+.pick-me{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.pick-me button{border:1px solid var(--line-2);background:transparent;color:var(--dim);
+  padding:9px 13px;font:inherit;font-size:13px;cursor:pointer;border-radius:var(--r-l);display:flex;align-items:center;gap:8px}
+.pick-me button:hover:not(:disabled){border-color:var(--amber);color:var(--ink-50,#fff)}
+.pick-me button[aria-pressed="true"]{border-color:var(--amber);color:var(--amber)}
+.pick-me button:disabled{opacity:.42;cursor:not-allowed;text-decoration:line-through}
+.mock{font-family:var(--mono);font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--faint);border:1px solid var(--line-2);padding:4px 8px;border-radius:99px;display:inline-block}
+.pay-wrap{max-width:520px;margin-inline:auto;padding-block:54px 80px}
+.pay-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+
 .toast{
   position:fixed;left:50%;transform:translateX(-50%);bottom:calc(26px + env(safe-area-inset-bottom,0px));
   background:var(--ink-700);border:1px solid var(--line-2);border-radius:99px;padding:11px 20px;font-size:13.5px;
@@ -694,6 +717,9 @@ a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset
     </div>
     <div class="wrap wrap-wide flow-layout"><aside class="flow-intro"><h2>Find a pick</h2><p>A good film.<br>A night everyone is in for.</p><span>Made for your people</span></aside><div class="flow-body" id="flow-body"></div></div>
   </div>
+
+  <!-- PAY — what someone sees when they follow a payment link -->
+  <main class="wrap" id="payview" hidden><div class="pay-wrap" id="pay-body"></div></main>
 </div>
 
 <script src="assets/leaflet/leaflet.js"></script>
@@ -1008,7 +1034,8 @@ const S = {
   vibesText:"", vibesChips:new Set(),
   objective:"minmax",
   results:null, showAlt:false, thinking:false,
-  chosen:null, invite:null
+  chosen:null, invite:null,
+  bill:null, payAs:null      // a payment link being viewed, and who the viewer claimed to be
 };
 
 /* =========================================================================
@@ -1661,8 +1688,9 @@ function openFlow(){
   window.scrollTo(0,0);
 }
 function closeFlow(){
-  S.view="browse";
+  S.view="browse"; S.bill=null;
   document.getElementById("flow").hidden=true;
+  document.getElementById("payview").hidden=true;
   document.getElementById("browse").hidden=false;
   renderTheaterMap();
   setNav();
@@ -2217,6 +2245,218 @@ function applyInvite(d){
              : "Group loaded from the link");
 }
 
+/* =========================================================================
+   SPLIT PAYMENTS — mock checkout, real ledger.
+
+   The organiser fronts the whole ticket cost and everyone else pays them
+   back. The bill rides in the link exactly the way an invite does, so the
+   page needs no server to know what is owed.
+
+   What is genuinely live: the ledger is one localStorage record keyed by the
+   bill, and every window watching that bill re-renders the moment it moves,
+   so the remaining total really does fall as people pay. That is real across
+   tabs and windows on one browser, and only there -- carrying a payment
+   between two devices is the part that needs a server, and there isn't one.
+
+   What is mocked: the charge. No card, no processor, nothing moves.
+   ========================================================================= */
+const BILL_NS = "marquee:bill:";
+
+/* the bill is derived, never typed -- the film, the venue's published price
+   and the size of the group are already sitting in state by this point */
+function billOf(){
+  const x = S.chosen;
+  if(!x || x.opt.kind!=="screen") return null;
+  const v = VENUES[x.opt.s.venue];
+  if(!(v.price > 0)) return null;               // nothing to split without a price
+  const names = S.people.map((p,i)=>(p.name||"").trim() || (i?`Guest ${i+1}`:"You"));
+  return {
+    f: x.f.t, vn: v.sn || v.n, t: x.opt.s.time,
+    // a screening carries a day index, not a date -- DAYS holds the ISO one
+    dy: (DAYS[x.opt.s.day] || {}).date || "", c: Math.round(v.price), p: names.slice(0,6)
+  };
+}
+
+/* a stable id so the organiser's window and the payer's window agree on which
+   ledger they are both looking at */
+function billId(b){
+  return hash([b.f,b.vn,b.t,b.dy,b.c,b.p.join("|")].join("~")).toString(36);
+}
+
+/* the bill carries an ISO date because the id has to be stable; the screen
+   wants something a person would say out loud */
+function billDay(iso){
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(iso||"")) return "";
+  const dt = new Date(iso+"T12:00:00");
+  return isNaN(dt) ? "" : DOW[dt.getDay()] + " the " + dt.getDate();
+}
+
+function payURL(b){
+  const base = (location.origin && location.origin!=="null")
+    ? location.origin + location.pathname
+    : "https://jessieqsli.github.io/the-marquee/";
+  return base + "#/pay/" + b64url(JSON.stringify(b));
+}
+
+function readBillLink(){
+  const m = /^#\/pay\/([A-Za-z0-9_-]+)$/.exec(location.hash || "");
+  if(!m) return null;
+  try{
+    const b = JSON.parse(unb64url(m[1]));
+    // a link is untrusted input like any other: shape it before it renders
+    if(!b || typeof b.f!=="string" || !Array.isArray(b.p) || !b.p.length) return null;
+    return { f:String(b.f).slice(0,120), vn:String(b.vn||"").slice(0,80),
+             t:String(b.t||"").slice(0,10), dy:String(b.dy||"").slice(0,20),
+             c:Math.max(0, Math.min(100000, b.c|0)),
+             p:b.p.slice(0,6).map(n=>String(n||"").slice(0,40)) };
+  }catch{ return null; }
+}
+
+/* ---- the ledger -------------------------------------------------------- */
+/* index 0 is the organiser, who has already paid the cinema; everyone else
+   owes them one share */
+function ledger(id){
+  try{ const raw = localStorage.getItem(BILL_NS+id);
+       const o = raw ? JSON.parse(raw) : null;
+       return (o && Array.isArray(o.paid)) ? o : {paid:[]};
+  }catch{ return {paid:[]}; }          // private windows throw on access
+}
+function settle(id, i){
+  const L = ledger(id);
+  if(!L.paid.includes(i)) L.paid.push(i);
+  try{ localStorage.setItem(BILL_NS+id, JSON.stringify(L)); }catch{}
+  billChanged(id);                     // same window; storage only fires in others
+  return L;
+}
+function billMath(b, L){
+  const owed = b.c * Math.max(0, b.p.length - 1);        // organiser fronted theirs
+  const got  = b.c * L.paid.filter(i=>i>0).length;
+  return { owed, got, left: Math.max(0, owed - got), total: b.c * b.p.length,
+           done: owed>0 && got>=owed, pct: owed ? Math.min(100, got/owed*100) : 100 };
+}
+
+/* ---- live wiring ------------------------------------------------------- */
+/* storage fires in every OTHER tab on this origin, which is what makes the
+   organiser's total fall while the payer is still on their own screen */
+const billBus = ("BroadcastChannel" in window) ? new BroadcastChannel("marquee-bills") : null;
+function billChanged(id){
+  if(billBus) try{ billBus.postMessage(id); }catch{}
+  repaintBill(id);
+}
+function repaintBill(id){
+  if(S.view==="pay" && S.bill && billId(S.bill)===id) return renderPay();
+  if(S.view==="flow" && STEPS[S.step]==="split"){
+    const b = billOf();
+    if(b && billId(b)===id) renderFlow();
+  }
+}
+addEventListener("storage", e=>{
+  if(e.key && e.key.startsWith(BILL_NS)) repaintBill(e.key.slice(BILL_NS.length));
+});
+if(billBus) billBus.onmessage = e => repaintBill(String(e.data||""));
+
+/* ---- the collection strip, on both sides of the link ------------------- */
+function meter(b, L){
+  const m = billMath(b, L);
+  return `<div class="owe ${m.done?"done":""}">
+    <span class="n">${money(m.left)}</span>
+    <span class="of">${m.done ? "fully settled" : "left of "+money(m.owed)}</span>
+  </div>
+  <div class="meter ${m.done?"done":""}"><i style="width:${m.pct.toFixed(1)}%"></i></div>`;
+}
+function rows(b, L, meIdx){
+  const host = meIdx===0, to = esc(b.p[0]);
+  return b.p.map((n,i)=>{
+    const paid = i===0 || L.paid.includes(i);
+    const sub = i===0 ? "paid the cinema"
+              : paid ? (host ? "paid you back" : "paid "+to)
+                     : (host ? "owes you"      : "owes "+to);
+    return `<div class="split-row ${paid?"settled":""}">
+      <span class="av" style="background:${avColor(n)};width:28px;height:28px;font-size:12px">${esc((n||"?").charAt(0).toUpperCase())}</span>
+      <span class="who"><span>${esc(n)}${i===meIdx?" · you":""}</span>
+        <span class="sub">${sub}</span></span>
+      <span class="amt">${i===0?"—":(paid?"✓ "+money(b.c):money(b.c))}</span>
+    </div>`;
+  }).join("");
+}
+
+/* ---- the payer's page ------------------------------------------------- */
+function renderPay(){
+  const b = S.bill, L = ledger(billId(b)), m = billMath(b, L);
+  const me = S.payAs, claimed = Number.isInteger(me) && me>0;
+  const mine = claimed && L.paid.includes(me);
+  document.getElementById("pay-body").innerHTML = `
+    <div class="pay-head"><div class="step-label" style="margin:0">Split the bill</div><span class="mock">Mock checkout · no card charged</span></div>
+    <h2 class="step-h">${esc(b.f)}</h2>
+    <p class="step-sub">${esc(b.t)} at ${esc(b.vn)}${billDay(b.dy)?" · "+esc(billDay(b.dy)):""} · ${b.p.length} ticket${b.p.length===1?"":"s"} · ${money(b.c)} each</p>
+    <div class="split-card">
+      ${rows(b, L, claimed?me:-1)}
+      <div class="split-total"><span class="of" style="font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)">Ticket total</span><span class="n">${money(m.total)}</span></div>
+      ${meter(b, L)}
+      ${mine
+        ? `<div class="paid" style="padding:26px 10px"><div class="tick">✓</div>
+             <div style="font-family:var(--display);font-size:22px">You're square</div>
+             <p class="hint" style="margin-top:10px">${money(b.c)} to ${esc(b.p[0])}.
+             ${m.left>0 ? money(m.left)+" still to come from the others."
+                        : "That was the last one — "+esc(b.p[0])+" is fully paid back."}</p></div>`
+        : m.done
+          ? `<p class="hint" style="margin-top:16px">Everyone has settled up. ${esc(b.p[0])} has the tickets.</p>`
+          : !claimed
+            ? `<div class="flabel" style="margin-top:20px">Which one are you?</div>
+               <div class="pick-me">${b.p.map((n,i)=>i===0?"":`
+                 <button data-payas="${i}" ${L.paid.includes(i)?"disabled":""}
+                   aria-pressed="false">${esc(n)}</button>`).join("")}</div>
+               <p class="hint" style="margin-top:12px">Pick your name to pay ${esc(b.p[0])} back your ${money(b.c)} share.</p>`
+            : `<button class="btn btn-primary paybtn" id="pay-now"><span class="card-glyph"></span> Pay ${esc(b.p[0])} ${money(b.c)}</button>
+               <button class="btn btn-quiet paybtn" id="pay-not-me" style="margin-top:9px">Not me — go back</button>`}
+    </div>
+    <p class="hint" style="margin-top:18px">This total updates by itself as people pay.
+      Open this link in another window to watch it move.</p>
+    <div class="step-actions" style="margin-top:26px"><button class="btn btn-quiet" id="pay-exit">Browse this week's screenings →</button></div>`;
+}
+
+function openPay(b){
+  S.bill = b; S.payAs = null; S.view = "pay";
+  document.getElementById("browse").hidden = true;
+  document.getElementById("flow").hidden = true;
+  document.getElementById("payview").hidden = false;
+  setNav(); renderPay(); window.scrollTo(0,0);
+}
+function closePay(){
+  S.view = "browse"; S.bill = null;
+  document.getElementById("payview").hidden = true;
+  document.getElementById("browse").hidden = false;
+  setNav(); renderBrowse();
+}
+
+/* the organiser's own copy of the link */
+function openPaySheet(){
+  closeSheet();
+  const b = billOf();
+  if(!b) return toast("No published price to split yet.");
+  const url = payURL(b), m = billMath(b, ledger(billId(b)));
+  const el = document.createElement("div");
+  el.className = "sheet"; el.id = "sheet";
+  el.innerHTML = `<div class="sheet-in" role="dialog" aria-modal="true" aria-label="Send a payment link">
+    <h3>Send this to get paid back</h3>
+    <p>The link carries the film, the showtime and everyone's share. Whoever opens it
+       picks their name and pays you their ${money(b.c)}. Your total on the previous
+       screen falls as each one lands.</p>
+    <div class="sheet-url">
+      <code id="sheet-url">${esc(url)}</code>
+      <button class="btn btn-primary" id="sheet-copy">Copy</button>
+    </div>
+    <div class="sheet-meta">${esc(b.p.slice(1).join(", "))}<br>${money(m.owed)} to collect · ${money(b.c)} each</div>
+    <div class="sheet-act">
+      ${navigator.share ? `<button class="btn btn-ghost" id="sheet-share">Share…</button>` : ""}
+      <button class="btn btn-quiet" id="sheet-close">Done</button>
+    </div>
+  </div>`;
+  document.body.appendChild(el);
+  const btn = document.getElementById("sheet-copy");
+  if(btn) btn.focus();
+}
+
 function viewVibes(){
   return `<div class="step-label">Step 4 of 5</div>
   <h2 class="step-h">What are you in the mood for?</h2>
@@ -2336,24 +2576,38 @@ function viewSplit(){
   const x = S.chosen;
   if(!x || x.opt.kind!=="screen") return `<h2 class="step-h">Nothing to split.</h2>`;
   const v = VENUES[x.opt.s.venue];
-  const priced = v.price > 0;          // some cinemas publish no fixed price
-  const each = Math.round(v.price||0);
-  const total = each * S.people.length;
-  return `<div class="step-label">Checkout</div>
+  const b = billOf();                  // null when the cinema publishes no price
+  const head = `<div class="step-label">Checkout</div>
   <h2 class="step-h">${esc(x.f.t)}</h2>
-  <p class="step-sub">${x.opt.s.time} at ${venueLink(v)} · ${S.people.length} ticket${S.people.length===1?"":"s"}</p>
-  <div class="split-card" id="splitcard">
+  <p class="step-sub">${x.opt.s.time} at ${venueLink(v)} · ${S.people.length} ticket${S.people.length===1?"":"s"}</p>`;
+
+  if(!b) return head + `<div class="split-card" id="splitcard">
     ${S.people.map(p=>`<div class="split-row">
       <span class="av" style="background:${avColor(p.name)};width:28px;height:28px;font-size:12px">${esc((p.name||"?").charAt(0).toUpperCase())}</span>
-      <span>${esc(p.name)}</span>
-      <span class="amt">${priced?money(each):"—"}</span>
+      <span>${esc(p.name)}</span><span class="amt">—</span>
     </div>`).join("")}
-    ${priced?`<div class="split-total"><span class="lbl" style="font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)">Total</span><span class="n">${money(total)}</span></div>`:""}
-    ${priced
-      ? `<button class="btn btn-primary paybtn" id="pay"><span class="card-glyph"></span> Split with Visa</button>
-         <p class="hint" style="text-align:center;margin-top:12px">Everyone gets a request. Tickets release when the last person pays.</p>`
-      : `<a class="btn btn-primary paybtn" ${screeningLink(x.opt.s)}>Get tickets at ${esc(v.sn||v.n)}</a>
-         <p class="hint" style="text-align:center;margin-top:12px">${esc(v.sn||v.n)} doesn't publish a fixed ticket price, so there's nothing to split yet. Check the cinema for prices.</p>`}
+    <a class="btn btn-primary paybtn" ${screeningLink(x.opt.s)}>Get tickets at ${esc(v.sn||v.n)}</a>
+    <p class="hint" style="text-align:center;margin-top:12px">${esc(v.sn||v.n)} doesn't publish a fixed ticket price, so there's nothing to split yet. Check the cinema for prices.</p>
+  </div>
+  <div class="step-actions"><button class="btn btn-quiet" data-go="4">← Back to the picks</button></div>`;
+
+  const id = billId(b), L = ledger(id), m = billMath(b, L);
+  const solo = b.p.length === 1;
+  return head + `<div class="split-card" id="splitcard">
+    ${rows(b, L, 0)}
+    <div class="split-total"><span class="lbl" style="font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)">Total</span><span class="n">${money(m.total)}</span></div>
+    ${solo ? "" : meter(b, L)}
+    ${solo
+      ? `<button class="btn btn-primary paybtn" id="pay"><span class="card-glyph"></span> Pay ${money(m.total)} with Visa</button>
+         <p class="hint" style="text-align:center;margin-top:12px">Just the one ticket, so there is nothing to split.</p>`
+      : m.done
+        ? `<div class="paid" style="padding:26px 10px"><div class="tick">✓</div>
+             <div style="font-family:var(--display);font-size:22px">Everyone has paid up</div>
+             <p class="hint" style="margin-top:10px">All ${money(m.owed)} collected. Tickets are held for 20 minutes.</p></div>`
+        : `<button class="btn btn-primary paybtn" id="paylink">Send a payment link · collect ${money(m.left)}</button>
+           <a class="btn btn-ghost paybtn" ${screeningLink(x.opt.s)} style="margin-top:9px">Get tickets at ${esc(v.sn||v.n)}</a>
+           <p class="hint" style="text-align:center;margin-top:12px">You cover the ${money(m.total)} up front. The link collects
+             ${money(b.c)} from each of the other ${b.p.length-1}, and this total falls as they pay.</p>`}
   </div>
   <div class="step-actions"><button class="btn btn-quiet" data-go="4">← Back to the picks</button></div>`;
 }
@@ -2477,18 +2731,30 @@ document.addEventListener("click", e=>{
   }
   if(e.target.id==="sheet-close" || e.target.id==="sheet") closeSheet();
   if(e.target.id==="more"){ S.showAlt=!S.showAlt; renderFlow(); }
-  if(e.target.closest("#pay")){
+  if(e.target.closest("#pay") && document.getElementById("splitcard")){
     document.getElementById("splitcard").innerHTML =
       `<div class="paid"><div class="tick">✓</div>
-        <div style="font-family:var(--display);font-size:24px">Requests sent</div>
-        <p class="hint" style="margin-top:10px">${(()=>{const pr=VENUES[S.chosen.opt.s.venue].price;
-          return pr>0 ? `${S.people.length-1} people owe you ${money(pr)}.` : `${S.people.length-1} people were sent a request.`;})()}
-        Tickets are held for 20 minutes.</p></div>`;
+        <div style="font-family:var(--display);font-size:24px">Paid</div>
+        <p class="hint" style="margin-top:10px">Tickets are held for 20 minutes.</p></div>`;
   }
+  if(e.target.closest("#paylink")) openPaySheet();
+
+  /* the payer's side of a link */
+  const as = e.target.closest("[data-payas]");
+  if(as && S.view==="pay"){ S.payAs = as.dataset.payas|0; renderPay(); }
+  if(e.target.id==="pay-not-me"){ S.payAs = null; renderPay(); }
+  if(e.target.closest("#pay-now") && S.view==="pay" && S.payAs>0){
+    const btn = e.target.closest("#pay-now");
+    btn.disabled = true; btn.textContent = "Sending…";
+    // the only staged beat on this screen: a processor would take a moment
+    setTimeout(()=>{ settle(billId(S.bill), S.payAs); toast("Paid. Thanks!"); }, 700);
+  }
+  if(e.target.id==="pay-exit") closePay();
+
   if(e.target.id==="flow-back"){ captureInputs(); S.step===0 ? closeFlow() : go(S.step-1); }
   if(e.target.id==="start-pick"||e.target.id==="head-pick") openFlow();
   if(e.target.id==="nav-pick") openFlow();
-  if(e.target.id==="nav-browse") closeFlow();
+  if(e.target.id==="nav-browse") S.view==="pay" ? closePay() : closeFlow();
 });
 
 /* a Letterboxd export dropped on any person card */
@@ -2654,6 +2920,12 @@ async function loadCity(city){
 }
 
 async function boot(){
+  const bill = readBillLink();
+  if(bill){
+    await loadCity('nyc');
+    try{ history.replaceState(null, "", location.pathname + location.search); }catch{}
+    return openPay(bill);              // a payment link is its own destination
+  }
   const inv = readInvite();
   await loadCity(inv && inv.c==='boston' ? 'boston' : 'nyc');
   if(!inv) return;
@@ -2661,6 +2933,15 @@ async function boot(){
   try{ history.replaceState(null, "", location.pathname + location.search); }catch{}
   applyInvite(inv);
 }
+
+/* a payment link followed while the site is already open is a fragment
+   change, not a page load, so boot() never sees it */
+addEventListener("hashchange", ()=>{
+  const b = readBillLink();
+  if(!b) return;
+  try{ history.replaceState(null, "", location.pathname + location.search); }catch{}
+  openPay(b);
+});
 
 document.addEventListener("keydown", e=>{
   if(e.key==="Escape" && (S.cinemaOpen||S.cityOpen)){
