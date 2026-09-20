@@ -88,6 +88,34 @@ These are HTML scrapers against sites that can redesign without notice. Every ad
 zero-row parse as a failure, so a silent break shows up in the run report.
 
 
+## Staying current
+
+`.github/workflows/refresh-listings.yml` re-scrapes both cities every hour,
+commits the result and redeploys. It also runs on demand from the Actions tab.
+
+Two things keep it safe to leave alone:
+
+- `scripts/check-refresh.mjs` runs between scraping and publishing. It refuses
+  to publish a schedule with no screenings, or one that has lost more than half
+  its screenings or live venues since the last commit — a network blip or a new
+  bot wall leaves the published board untouched rather than emptying it.
+- It also reports whether anything actually changed, ignoring the `fetchedAt`
+  stamp, so a quiet hour makes no commit and no deployment.
+
+The workflow needs three repository secrets:
+
+| Secret | Where it comes from |
+| --- | --- |
+| `VERCEL_TOKEN` | vercel.com/account/tokens |
+| `VERCEL_ORG_ID` | the `orgId` in `.vercel/project.json` |
+| `VERCEL_PROJECT_ID` | the `projectId` in `.vercel/project.json` |
+
+`.vercel/` is gitignored, so those two ids exist only on the machine that ran
+`vercel deploy`.
+
+The header chip shows how stale the listings are — "updated 12 min ago" — so a
+job that has quietly stopped is visible on the site itself.
+
 ## Cities and genres
 
 `node scripts/scrape.mjs` refreshes NYC; `node scripts/scrape.mjs --city boston`

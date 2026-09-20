@@ -2069,9 +2069,25 @@ function applyLive(data){
   const dead = (data.sources||[]).filter(r=>!r.ok && !r.skipped).length;
   const skip = (data.sources||[]).filter(r=>r.skipped).length;
   const chip = document.getElementById("proto");
-  if(chip) chip.textContent = "Live listings";
+  if(chip){
+    chip.textContent = `Listings ${freshness(data.fetchedAt)}`;
+    chip.title = data.fetchedAt ? `Last refreshed ${new Date(data.fetchedAt).toLocaleString()}` : "";
+  }
   SOURCE.note = `${skip} venue${skip===1?"":"s"} without an adapter${dead?`, ${dead} failing`:""}`;
   return true;
+}
+
+/* how long ago the schedule was last refreshed, in words */
+function freshness(iso){
+  const t = Date.parse(iso);
+  if(!Number.isFinite(t)) return "live";
+  const mins = Math.max(0, Math.round((Date.now()-t)/60000));
+  if(mins < 2)    return "just updated";
+  if(mins < 60)   return `updated ${mins} min ago`;
+  const hrs = Math.round(mins/60);
+  if(hrs < 24)    return `updated ${hrs} hour${hrs===1?"":"s"} ago`;
+  const days = Math.round(hrs/24);
+  return `updated ${days} day${days===1?"":"s"} ago`;
 }
 
 function normFmt(f){

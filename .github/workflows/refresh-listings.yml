@@ -1,0 +1,61 @@
+name: Refresh listings
+
+# The board is a static snapshot, so it only stays current if something
+# re-scrapes and redeploys it. Hourly keeps "today" honest as showtimes pass
+# and picks up cinemas publishing later in the week.
+on:
+  schedule:
+    - cron: "23 * * * *"   # hourly, off the hour: GitHub queues :00 heavily
+  workflow_dispatch:        # and a manual "Run workflow" button
+
+concurrency:
+  group: refresh-listings
+  cancel-in-progress: false   # never interrupt a run mid-commit
+
+permissions:
+  contents: write             # to push the refreshed schedule back
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Scrape New York
+        run: node scripts/scrape.mjs
+
+      - name: Scrape Greater Boston
+        run: node scripts/scrape.mjs --city boston
+
+      # Refuses to publish a collapsed schedule, and reports whether anything
+      # actually changed so a quiet hour costs nothing.
+      - name: Check the new listings
+        id: check
+        run: node scripts/check-refresh.mjs
+
+      - name: Run tests
+        if: steps.check.outputs.changed == 'true'
+        run: node --test tests/
+
+      - name: Commit the refreshed schedule
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/screenings.json data/screenings-boston.json
+          git commit -m "Refresh listings $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: Deploy to Vercel
+        if: steps.check.outputs.changed == 'true'
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: |
+          npm i -g vercel@latest
+          vercel deploy --prod --yes --token "${{ secrets.VERCEL_TOKEN }}"
