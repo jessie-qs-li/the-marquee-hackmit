@@ -217,19 +217,26 @@ export async function quad(v, ctx){
 
 /* ================= NITEHAWK (both locations) ================= */
 /* per-day page; each .showtime carries data-date as a unix timestamp */
+/* Nitehawk renders a bookable showtime as <a> and one that has already
+   started as <span class="showtime past">, so both tags have to match --
+   keying on </span> alone quietly captured only the past ones. */
+export function parseNitehawk(html, date){
+  const out = [];
+  for(const show of html.split(/<li class="show-container/).slice(1)){
+    const t = show.match(/<div class="show-title">([\s\S]*?)<\/div>/);
+    if(!t) continue;
+    const title = clean(t[1]);
+    for(const s of show.matchAll(/<li data-date="(\d+)"[^>]*>[\s\S]*?<(a|span)[^>]*class="showtime[^"]*"[^>]*>\s*([^<]+?)\s*<\/\2>/g)){
+      const time = to24(s[3]);
+      if(time) out.push({ title, date, time });
+    }
+  }
+  return out;
+}
 export async function nitehawk(v, ctx){
   const out = [];
   for(const date of ctx.week){
-    const html = await get(`${v.url}?date=${date}`);
-    for(const show of html.split(/<li class="show-container/).slice(1)){
-      const t = show.match(/<div class="show-title">([\s\S]*?)<\/div>/);
-      if(!t) continue;
-      const title = clean(t[1]);
-      for(const s of show.matchAll(/<li data-date="(\d+)"[^>]*>[\s\S]*?class="showtime[^"]*"[^>]*>\s*([^<]+?)\s*<\/span>/g)){
-        const time = to24(s[2]);
-        if(time) out.push({ title, date, time });
-      }
-    }
+    out.push(...parseNitehawk(await get(`${v.url}?date=${date}`), date));
   }
   return out;
 }

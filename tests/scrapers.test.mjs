@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {parseRoxy,parseVeezi,parseBam,parseCinemaVillageListings,parseCinemaVillageTimes,parseAngelika,parseParis,parseHFA,parseLandmark,parseMetrographNotices} from '../scripts/scrapers.mjs';
+import {parseRoxy,parseVeezi,parseBam,parseCinemaVillageListings,parseCinemaVillageTimes,parseAngelika,parseParis,parseHFA,parseLandmark,parseMetrographNotices,parseNitehawk} from '../scripts/scrapers.mjs';
 const ctx={today:new Date(2026,8,19),week:['2026-09-19','2026-09-20']};
 
 test('Roxy pairs each title with its date, decodes entities, and keeps series notes separate',()=>{
@@ -74,4 +74,15 @@ test('Metrograph reports its own wording for dates it has not programmed',()=>{
  const html=li('2026-09-19','','See showtimes')+li('2026-09-20','unscheduled','Showtimes coming soon')+li('2026-09-25','unscheduled','Closed for a private event');
  const notices=parseMetrographNotices(html,{today:new Date(2026,8,19),week:['2026-09-19','2026-09-20']});
  assert.deepEqual(notices,{'2026-09-20':'Showtimes coming soon'});   // scheduled day and out-of-week day both excluded
+});
+
+test('Nitehawk reads both bookable <a> showtimes and past <span> ones',()=>{
+ const show=(title,inner)=>`<li class="show-container thumbnail"><div class="show-title">${title}</div><ul class="showtime-button-row">${inner}</ul></li>`;
+ const bookable=`<li data-date="1789887600" ><a href="/purchase/1/" data-showtime_id="1" class="showtime">11:00 am</a></li>`;
+ const past=`<li data-date="1789801200" ><span title="This showtime has passed." class="showtime past">9:30 pm</span></li>`;
+ const rows=parseNitehawk(show('Peggy Sue Got Married',bookable+past),'2026-09-20');
+ assert.equal(rows.length,2);
+ assert.deepEqual(rows.map(r=>r.time),['11:00','21:30']);
+ assert.equal(rows[0].title,'Peggy Sue Got Married');
+ assert.equal(rows[0].date,'2026-09-20');
 });

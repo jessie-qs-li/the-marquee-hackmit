@@ -1,7 +1,7 @@
 {
  "city": "boston",
  "genreCoverage": {
-  "total": 54,
+  "total": 53,
   "classified": 28,
   "unresolved": [
    {
@@ -27,12 +27,6 @@
     "title": "Tony",
     "year": null,
     "reason": "ambiguous"
-   },
-   {
-    "key": "twentyyearsofthemetincinemasananniversarycelebration|",
-    "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "ifigowilltheymissme|",
@@ -164,7 +158,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-20T04:38:55.000Z",
+ "fetchedAt": "2026-09-20T14:55:47.975Z",
  "week": [
   "2026-09-20",
   "2026-09-21",
@@ -242,14 +236,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 20,
-   "ms": 2405
+   "ms": 1993
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 112,
-   "ms": 515
+   "ms": 3245
   },
   {
    "id": "somerville",
@@ -263,15 +257,15 @@
    "id": "kendall",
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
-   "count": 70,
-   "ms": 747
+   "count": 69,
+   "ms": 1026
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 467
+   "ms": 420
   },
   {
    "id": "mfa",
@@ -451,16 +445,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "kendall",
-   "title": "Twenty Years of the Met in Cinemas: An Anniversary Celebration",
-   "date": "2026-09-20",
-   "time": "13:00",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "kendall",

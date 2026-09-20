@@ -35,12 +35,6 @@
     "reason": "ambiguous"
    },
    {
-    "key": "spoonstoonsboozegoesbacktoschool|",
-    "title": "Spoons Toons & Booze Goes Back To School",
-    "year": null,
-    "reason": "not-found"
-   },
-   {
     "key": "filipinana|",
     "title": "FILIPIÑANA",
     "year": null,
@@ -89,14 +83,14 @@
     "reason": "ambiguous"
    },
    {
-    "key": "uprising|",
-    "title": "The Uprising",
+    "key": "serpentspath|",
+    "title": "Serpent's Path",
     "year": null,
     "reason": "ambiguous"
    },
    {
-    "key": "serpentspath|",
-    "title": "Serpent's Path",
+    "key": "uprising|",
+    "title": "The Uprising",
     "year": null,
     "reason": "ambiguous"
    },
@@ -135,6 +129,12 @@
     "title": "JENNIFER REEVES SHORT FILM PGM",
     "year": null,
     "reason": "not-found"
+   },
+   {
+    "key": "odysseydcp|",
+    "title": "The Odyssey (DCP)",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "2026sundancefestivalshortfilmtour|",
@@ -428,7 +428,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-20T04:37:40.878Z",
+ "fetchedAt": "2026-09-20T14:57:07.945Z",
  "week": [
   "2026-09-20",
   "2026-09-21",
@@ -646,63 +646,63 @@
    "name": "Film Forum",
    "ok": true,
    "count": 87,
-   "ms": 931
+   "ms": 804
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
    "count": 63,
-   "ms": 105
+   "ms": 155
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 153,
-   "ms": 295
+   "ms": 343
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 22,
-   "ms": 311
+   "ms": 260
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 78,
-   "ms": 292
+   "ms": 231
   },
   {
    "id": "cv",
    "name": "Cinema Village",
    "ok": true,
    "count": 73,
-   "ms": 1336
+   "ms": 1002
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 20,
-   "ms": 298
+   "ms": 127
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 183,
-   "ms": 5625
+   "count": 182,
+   "ms": 5575
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
    "count": 23,
-   "ms": 2986
+   "ms": 2949
   },
   {
    "id": "wrt",
@@ -725,21 +725,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 109,
-   "ms": 413
+   "ms": 230
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 84,
-   "ms": 4993
+   "count": 77,
+   "ms": 5605
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 147,
-   "ms": 6472
+   "count": 154,
+   "ms": 6222
   },
   {
    "id": "spec",
@@ -754,7 +754,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 14,
-   "ms": 2068
+   "ms": 1169
   },
   {
    "id": "momi",
@@ -769,7 +769,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 5,
-   "ms": 137
+   "ms": 991
   },
   {
    "id": "kew",
@@ -785,7 +785,7 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 313
+   "ms": 206
   }
  ],
  "notices": {},
@@ -817,25 +817,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1359206
-  },
-  {
-   "venue": "angelika",
-   "title": "THE OLDEST PERSON IN THE WORLD",
-   "date": "2026-09-20",
-   "time": "10:45",
-   "fmt": "Standard",
-   "director": "Sam Green",
-   "runtime": 87,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-oldest-person-in-the-world",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596302
   },
   {
    "venue": "ifc",
@@ -993,15 +974,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhw",
-   "title": "Spoons Toons & Booze Goes Back To School",
-   "date": "2026-09-20",
-   "time": "11:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "AMERICAN DOCTOR",
    "date": "2026-09-20",
@@ -1066,19 +1038,21 @@
   },
   {
    "venue": "nhp",
-   "title": "Above the Rim",
+   "title": "Ghosts of Mars",
    "date": "2026-09-20",
    "time": "12:00",
    "genres": [
-    "thriller",
-    "drama"
+    "horror",
+    "scifi",
+    "thriller"
    ],
    "sourceGenres": [
-    "Crime",
-    "Drama"
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
    ],
    "genreSource": "movies.csv",
-   "genreMovieId": "409"
+   "genreMovieId": "4735"
   },
   {
    "venue": "paris",
@@ -1608,26 +1582,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-09-20",
-   "time": "14:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
    "venue": "quad",
    "title": "Franz",
    "date": "2026-09-20",
@@ -1653,12 +1607,23 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
+   "title": "Resident Evil (2026)",
    "date": "2026-09-20",
-   "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "time": "14:40",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "nhw",
@@ -1683,6 +1648,15 @@
    "title": "The Fisherman",
    "date": "2026-09-20",
    "time": "14:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The Uprising",
+   "date": "2026-09-20",
+   "time": "14:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2203,10 +2177,19 @@
    "tmdbId": 288988
   },
   {
+   "venue": "quad",
+   "title": "The Fisherman",
+   "date": "2026-09-20",
+   "time": "17:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-20",
-   "time": "17:00",
+   "time": "17:05",
    "genres": [
     "action",
     "horror",
@@ -2221,15 +2204,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "quad",
-   "title": "The Fisherman",
-   "date": "2026-09-20",
-   "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -2252,15 +2226,6 @@
   {
    "venue": "afa",
    "title": "JENNIFER REEVES SHORT FILM PGM",
-   "date": "2026-09-20",
-   "time": "17:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hope",
    "date": "2026-09-20",
    "time": "17:15",
    "genres": [],
@@ -2292,6 +2257,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1354301
+  },
+  {
+   "venue": "nhp",
+   "title": "Hope",
+   "date": "2026-09-20",
+   "time": "17:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -2411,6 +2385,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1720906
+  },
+  {
+   "venue": "nhp",
+   "title": "The Odyssey (DCP)",
+   "date": "2026-09-20",
+   "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "synd",
@@ -3650,15 +3633,6 @@
    "tmdbId": 1359206
   },
   {
-   "venue": "nhw",
-   "title": "Spoons Toons & Booze Goes Back To School",
-   "date": "2026-09-21",
-   "time": "11:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Heathers",
    "date": "2026-09-21",
@@ -3717,19 +3691,21 @@
   },
   {
    "venue": "nhp",
-   "title": "Above the Rim",
+   "title": "Ghosts of Mars",
    "date": "2026-09-21",
    "time": "12:00",
    "genres": [
-    "thriller",
-    "drama"
+    "horror",
+    "scifi",
+    "thriller"
    ],
    "sourceGenres": [
-    "Crime",
-    "Drama"
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
    ],
    "genreSource": "movies.csv",
-   "genreMovieId": "409"
+   "genreMovieId": "4735"
   },
   {
    "venue": "angelika",
@@ -4101,26 +4077,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-09-21",
-   "time": "14:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
    "venue": "angelika",
    "title": "AMERICAN DOCTOR",
    "date": "2026-09-21",
@@ -4150,12 +4106,23 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
+   "title": "Resident Evil (2026)",
    "date": "2026-09-21",
-   "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "time": "14:40",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "nhw",
@@ -4180,6 +4147,15 @@
    "title": "The Fisherman",
    "date": "2026-09-21",
    "time": "14:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The Uprising",
+   "date": "2026-09-21",
+   "time": "14:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4662,10 +4638,19 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "quad",
+   "title": "The Fisherman",
+   "date": "2026-09-21",
+   "time": "17:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-21",
-   "time": "17:00",
+   "time": "17:05",
    "genres": [
     "action",
     "horror",
@@ -4680,15 +4665,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "quad",
-   "title": "The Fisherman",
-   "date": "2026-09-21",
-   "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -4729,15 +4705,6 @@
    "tmdbId": 35867
   },
   {
-   "venue": "nhp",
-   "title": "Hope",
-   "date": "2026-09-21",
-   "time": "17:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Bad Apples",
    "date": "2026-09-21",
@@ -4756,6 +4723,15 @@
    "runtime": 84,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Hope",
+   "date": "2026-09-21",
+   "time": "17:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4863,6 +4839,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 91735
+  },
+  {
+   "venue": "nhp",
+   "title": "The Odyssey (DCP)",
+   "date": "2026-09-21",
+   "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -6088,15 +6073,6 @@
    "tmdbId": 1359206
   },
   {
-   "venue": "nhw",
-   "title": "Spoons Toons & Booze Goes Back To School",
-   "date": "2026-09-22",
-   "time": "11:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "AMERICAN DOCTOR",
    "date": "2026-09-22",
@@ -6161,19 +6137,21 @@
   },
   {
    "venue": "nhp",
-   "title": "Above the Rim",
+   "title": "Ghosts of Mars",
    "date": "2026-09-22",
    "time": "12:00",
    "genres": [
-    "thriller",
-    "drama"
+    "horror",
+    "scifi",
+    "thriller"
    ],
    "sourceGenres": [
-    "Crime",
-    "Drama"
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
    ],
    "genreSource": "movies.csv",
-   "genreMovieId": "409"
+   "genreMovieId": "4735"
   },
   {
    "venue": "ff",
@@ -6607,7 +6585,7 @@
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-22",
-   "time": "14:30",
+   "time": "14:40",
    "genres": [
     "action",
     "horror",
@@ -6624,15 +6602,6 @@
    "genreMovieId": "5219"
   },
   {
-   "venue": "nhp",
-   "title": "The Uprising",
-   "date": "2026-09-22",
-   "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhw",
    "title": "Hope",
    "date": "2026-09-22",
@@ -6646,6 +6615,15 @@
    "title": "Serpent's Path",
    "date": "2026-09-22",
    "time": "14:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The Uprising",
+   "date": "2026-09-22",
+   "time": "14:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7154,7 +7132,7 @@
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-22",
-   "time": "17:00",
+   "time": "17:05",
    "genres": [
     "action",
     "horror",
@@ -7171,15 +7149,6 @@
    "genreMovieId": "5219"
   },
   {
-   "venue": "nhp",
-   "title": "Hope",
-   "date": "2026-09-22",
-   "time": "17:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "THE MUSICAL",
    "date": "2026-09-22",
@@ -7189,6 +7158,15 @@
    "runtime": 84,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Hope",
+   "date": "2026-09-22",
+   "time": "17:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7338,6 +7316,15 @@
    "date": "2026-09-22",
    "time": "18:00",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The Odyssey (DCP)",
+   "date": "2026-09-22",
+   "time": "18:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8556,15 +8543,6 @@
    "tmdbId": 1359206
   },
   {
-   "venue": "nhw",
-   "title": "Spoons Toons & Booze Goes Back To School",
-   "date": "2026-09-23",
-   "time": "11:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "AMERICAN DOCTOR",
    "date": "2026-09-23",
@@ -8629,19 +8607,21 @@
   },
   {
    "venue": "nhp",
-   "title": "Above the Rim",
+   "title": "Ghosts of Mars",
    "date": "2026-09-23",
    "time": "12:00",
    "genres": [
-    "thriller",
-    "drama"
+    "horror",
+    "scifi",
+    "thriller"
    ],
    "sourceGenres": [
-    "Crime",
-    "Drama"
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
    ],
    "genreSource": "movies.csv",
-   "genreMovieId": "409"
+   "genreMovieId": "4735"
   },
   {
    "venue": "ff",
@@ -9056,7 +9036,7 @@
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-23",
-   "time": "14:30",
+   "time": "14:40",
    "genres": [
     "action",
     "horror",
@@ -9073,8 +9053,8 @@
    "genreMovieId": "5219"
   },
   {
-   "venue": "nhp",
-   "title": "The Uprising",
+   "venue": "nhw",
+   "title": "Hope",
    "date": "2026-09-23",
    "time": "14:45",
    "genres": [],
@@ -9082,10 +9062,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Hope",
+   "venue": "nhp",
+   "title": "The Uprising",
    "date": "2026-09-23",
-   "time": "14:45",
+   "time": "14:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9579,7 +9559,7 @@
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-23",
-   "time": "17:00",
+   "time": "17:05",
    "genres": [
     "action",
     "horror",
@@ -9596,15 +9576,6 @@
    "genreMovieId": "5219"
   },
   {
-   "venue": "nhp",
-   "title": "Hope",
-   "date": "2026-09-23",
-   "time": "17:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "THE MUSICAL",
    "date": "2026-09-23",
@@ -9614,6 +9585,15 @@
    "runtime": 84,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Hope",
+   "date": "2026-09-23",
+   "time": "17:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9712,6 +9692,15 @@
    "year": 1990,
    "runtime": 108,
    "director": "F. J. Ossang",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The Odyssey (DCP)",
+   "date": "2026-09-23",
+   "time": "18:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10959,15 +10948,6 @@
    "tmdbId": 1359206
   },
   {
-   "venue": "nhw",
-   "title": "Spoons Toons & Booze Goes Back To School",
-   "date": "2026-09-24",
-   "time": "11:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "THE OLDEST PERSON IN THE WORLD",
    "date": "2026-09-24",
@@ -11073,19 +11053,21 @@
   },
   {
    "venue": "nhp",
-   "title": "Above the Rim",
+   "title": "Ghosts of Mars",
    "date": "2026-09-24",
    "time": "12:00",
    "genres": [
-    "thriller",
-    "drama"
+    "horror",
+    "scifi",
+    "thriller"
    ],
    "sourceGenres": [
-    "Crime",
-    "Drama"
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
    ],
    "genreSource": "movies.csv",
-   "genreMovieId": "409"
+   "genreMovieId": "4735"
   },
   {
    "venue": "quad",
@@ -11520,7 +11502,7 @@
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-24",
-   "time": "14:30",
+   "time": "14:40",
    "genres": [
     "action",
     "horror",
@@ -11535,15 +11517,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Uprising",
-   "date": "2026-09-24",
-   "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "nhw",
@@ -11573,6 +11546,15 @@
    "runtime": 84,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The Uprising",
+   "date": "2026-09-24",
+   "time": "14:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12065,10 +12047,19 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "quad",
+   "title": "The Fisherman",
+   "date": "2026-09-24",
+   "time": "17:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-24",
-   "time": "17:00",
+   "time": "17:05",
    "genres": [
     "action",
     "horror",
@@ -12085,19 +12076,10 @@
    "genreMovieId": "5219"
   },
   {
-   "venue": "quad",
-   "title": "The Fisherman",
-   "date": "2026-09-24",
-   "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Hope",
    "date": "2026-09-24",
-   "time": "17:15",
+   "time": "17:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12187,6 +12169,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 91735
+  },
+  {
+   "venue": "nhp",
+   "title": "The Odyssey (DCP)",
+   "date": "2026-09-24",
+   "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -13377,15 +13368,6 @@
    "genreMovieId": "2469"
   },
   {
-   "venue": "nhw",
-   "title": "Spoons Toons & Booze Goes Back To School",
-   "date": "2026-09-25",
-   "time": "11:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "paris",
    "title": "The Bridge on the River Kwai",
    "date": "2026-09-25",
@@ -13448,19 +13430,21 @@
   },
   {
    "venue": "nhp",
-   "title": "Above the Rim",
+   "title": "Ghosts of Mars",
    "date": "2026-09-25",
    "time": "12:00",
    "genres": [
-    "thriller",
-    "drama"
+    "horror",
+    "scifi",
+    "thriller"
    ],
    "sourceGenres": [
-    "Crime",
-    "Drama"
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
    ],
    "genreSource": "movies.csv",
-   "genreMovieId": "409"
+   "genreMovieId": "4735"
   },
   {
    "venue": "ifc",
@@ -13666,26 +13650,6 @@
    "genreMovieId": "1551"
   },
   {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-09-25",
-   "time": "14:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
    "venue": "mg",
    "title": "Four Adventures of Reinette and Mirabelle",
    "date": "2026-09-25",
@@ -13727,6 +13691,26 @@
    "tmdbId": 1437396
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-25",
+   "time": "14:40",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
    "venue": "mg",
    "title": "The Wedding Banquet",
    "date": "2026-09-25",
@@ -13749,8 +13733,8 @@
    "genreMovieId": "7023"
   },
   {
-   "venue": "nhp",
-   "title": "The Uprising",
+   "venue": "nhw",
+   "title": "Hope",
    "date": "2026-09-25",
    "time": "14:45",
    "genres": [],
@@ -13758,10 +13742,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Hope",
+   "venue": "nhp",
+   "title": "The Uprising",
    "date": "2026-09-25",
-   "time": "14:45",
+   "time": "14:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -14063,7 +14047,7 @@
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-25",
-   "time": "17:00",
+   "time": "17:05",
    "genres": [
     "action",
     "horror",
@@ -14085,15 +14069,6 @@
    "date": "2026-09-25",
    "time": "17:15",
    "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hope",
-   "date": "2026-09-25",
-   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -14121,6 +14096,15 @@
   },
   {
    "venue": "nhp",
+   "title": "Hope",
+   "date": "2026-09-25",
+   "time": "17:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
    "title": "Spider-Man: Brand New Day",
    "date": "2026-09-25",
    "time": "17:45",
@@ -14136,6 +14120,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 969681
+  },
+  {
+   "venue": "nhp",
+   "title": "The Odyssey (DCP)",
+   "date": "2026-09-25",
+   "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -15133,15 +15126,6 @@
    "genreMovieId": "2469"
   },
   {
-   "venue": "nhw",
-   "title": "Spoons Toons & Booze Goes Back To School",
-   "date": "2026-09-26",
-   "time": "11:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
    "date": "2026-09-26",
@@ -15206,19 +15190,21 @@
   },
   {
    "venue": "nhp",
-   "title": "Above the Rim",
+   "title": "Ghosts of Mars",
    "date": "2026-09-26",
    "time": "12:00",
    "genres": [
-    "thriller",
-    "drama"
+    "horror",
+    "scifi",
+    "thriller"
    ],
    "sourceGenres": [
-    "Crime",
-    "Drama"
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
    ],
    "genreSource": "movies.csv",
-   "genreMovieId": "409"
+   "genreMovieId": "4735"
   },
   {
    "venue": "paris",
@@ -15519,7 +15505,7 @@
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-26",
-   "time": "14:30",
+   "time": "14:40",
    "genres": [
     "action",
     "horror",
@@ -15536,8 +15522,8 @@
    "genreMovieId": "5219"
   },
   {
-   "venue": "nhp",
-   "title": "The Uprising",
+   "venue": "nhw",
+   "title": "Hope",
    "date": "2026-09-26",
    "time": "14:45",
    "genres": [],
@@ -15545,10 +15531,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Hope",
+   "venue": "nhp",
+   "title": "The Uprising",
    "date": "2026-09-26",
-   "time": "14:45",
+   "time": "14:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -15874,7 +15860,7 @@
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-26",
-   "time": "17:00",
+   "time": "17:05",
    "genres": [
     "action",
     "horror",
@@ -15904,7 +15890,7 @@
    "venue": "nhp",
    "title": "Hope",
    "date": "2026-09-26",
-   "time": "17:15",
+   "time": "17:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -15982,6 +15968,15 @@
   {
    "venue": "afa",
    "title": "TONEY W. MERRITT PGM 2: VIGNETTES / MINIATURES",
+   "date": "2026-09-26",
+   "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The Odyssey (DCP)",
    "date": "2026-09-26",
    "time": "18:00",
    "genres": [],
