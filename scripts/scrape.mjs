@@ -12,7 +12,7 @@
 import { writeFileSync, mkdirSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { VENUES } from "./venues.mjs";
+import { VENUES as NYC_VENUES } from "./venues.mjs";
 import * as S from "./scrapers.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -20,6 +20,12 @@ const arg = (flag, dflt) => {
   const i = process.argv.indexOf(flag);
   return i > -1 && process.argv[i+1] ? process.argv[i+1] : dflt;
 };
+import { BOSTON_VENUES } from "./boston-venues.mjs";
+import { enrichGenres } from "./genres.mjs";
+const CITY=arg("--city","nyc");
+if(!["nyc","boston"].includes(CITY))throw new Error("Unknown city");
+const VENUES=CITY==="boston"?BOSTON_VENUES:NYC_VENUES;
+const outputFile=CITY==="boston"?"screenings-boston.json":"screenings.json";
 const DAYS = Math.max(1, Math.min(31, +arg("--days", 7)));
 const ONLY = arg("--only", "") ? arg("--only","").split(",").map(s=>s.trim()) : null;
 
@@ -79,7 +85,9 @@ for(const v of targets){
 
 rows.sort((a,b) => a.date.localeCompare(b.date) || a.time.localeCompare(b.time) || a.venue.localeCompare(b.venue));
 
+const genreCoverage=await enrichGenres(rows,{root:ROOT});
 const out = {
+  city:CITY, genreCoverage,
   fetchedAt: new Date().toISOString(),
   week,
   venues: Object.fromEntries(VENUES.map(v => [v.id, {
@@ -90,10 +98,10 @@ const out = {
 };
 
 mkdirSync(resolve(ROOT,"data"), { recursive:true });
-writeFileSync(resolve(ROOT,"data/screenings.json"), JSON.stringify(out, null, 1));
+writeFileSync(resolve(ROOT,"data",outputFile), JSON.stringify(out, null, 1));
 
 const live = report.filter(r=>r.ok).length;
 const dead = report.filter(r=>!r.ok && !r.skipped).length;
 const skip = report.filter(r=>r.skipped).length;
 console.log(`\n  ${rows.length} showtimes from ${live} venues — ${dead} failed, ${skip} without an adapter`);
-console.log(`  wrote data/screenings.json\n`);
+console.log(`  wrote data/${outputFile}\n`);

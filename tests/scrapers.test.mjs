@@ -38,3 +38,13 @@ test('Paris joins film metadata and format by ID and uses actual start date afte
  const data={showtimes:[{id:'2001-1',siteId:'2001',filmId:'f1',schedule:{businessDate:'2026-09-19',startsAt:'2026-09-20T00:15:00-04:00'},attributeIds:['a1']}],relatedData:{films:[{id:'f1',title:{text:'Babylon'},runtimeInMinutes:189}],attributes:[{id:'a1',shortName:{text:'70MM'}}]}};
  const rows=parseParis(data,ctx);assert.equal(rows[0].title,'Babylon');assert.equal(rows[0].date,'2026-09-20');assert.equal(rows[0].fmt,'70MM');assert.match(rows[0].url,/2001-1\/seats$/);assert.throws(()=>parseParis({...data,relatedData:{films:[]}},ctx));
 });
+
+import {parseBrattle,parseCoolidge} from '../scripts/scrapers.mjs';
+test('Brattle uses the requested HTML day instead of stale homepage JSONLD',()=>{
+ const html='<div class="show" style="x"><a href="https://brattlefilm.org/movies/test/"><h2>A &amp; B</h2></a><ol class="showtimes"><li><a href="https://brattlefilm.org/purchase/1/" class="showtime">7:00 pm</a></li></ol>';
+ const rows=parseBrattle(html,ctx,'2026-09-21');assert.equal(rows[0].date,'2026-09-21');assert.equal(rows[0].time,'19:00');assert.equal(rows[0].title,'A & B');
+});
+test('Coolidge keeps each film and ticket URL paired and decodes nested entities',()=>{
+ const html='<div class="film-card"><h2><a class="film-card__link" href="/films/test">Test</a></h2><a href="https://store.coolidge.org/ticket?x=1&amp;amp;y=2" class="showtime-ticket__button"><span class="showtime-ticket__time">12:05am</span></a>';
+ const rows=parseCoolidge(html,'2026-09-20');assert.equal(rows[0].time,'00:05');assert.equal(rows[0].url,'https://store.coolidge.org/ticket?x=1&y=2');
+});

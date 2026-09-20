@@ -1,0 +1,2242 @@
+{
+ "city": "boston",
+ "genreCoverage": {
+  "total": 40,
+  "classified": 23,
+  "unresolved": [
+   {
+    "key": "weight|",
+    "title": "The Weight",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "unioncounty|",
+    "title": "Union County",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "odysseydigital|",
+    "title": "The Odyssey (Digital)",
+    "year": null,
+    "reason": "not-found"
+   },
+   {
+    "key": "seminaramoresperros|",
+    "title": "Seminar: Amores Perros",
+    "year": null,
+    "reason": "not-found"
+   },
+   {
+    "key": "amoresperros4krestoration|",
+    "title": "Amores Perros (4K Restoration)",
+    "year": null,
+    "reason": "not-found"
+   },
+   {
+    "key": "akira4krestoration|",
+    "title": "Akira (4K Restoration)",
+    "year": null,
+    "reason": "not-found"
+   },
+   {
+    "key": "newtaipeicitydayshortsprogram|",
+    "title": "New Taipei City Day Shorts Program",
+    "year": null,
+    "reason": "not-found"
+   },
+   {
+    "key": "votingcountselectionsinfilmtuesdaysection|",
+    "title": "Voting Counts: Elections in Film (Tuesday Section)",
+    "year": null,
+    "reason": "not-found"
+   },
+   {
+    "key": "harvardbookstorewelcomesalexwagner|",
+    "title": "Harvard Book Store Welcomes Alex Wagner",
+    "year": null,
+    "reason": "not-found"
+   },
+   {
+    "key": "misanthrope|",
+    "title": "The Misanthrope",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "cemeterycinemathestraightstorywingsofdesire|",
+    "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
+    "year": null,
+    "reason": "not-found"
+   },
+   {
+    "key": "votingcountselectionsinfilmwednesdaysection|",
+    "title": "Voting Counts: Elections in Film (Wednesday Section)",
+    "year": null,
+    "reason": "not-found"
+   },
+   {
+    "key": "twochaplinshorts|",
+    "title": "Two Chaplin Shorts",
+    "year": null,
+    "reason": "not-found"
+   },
+   {
+    "key": "primetime|",
+    "title": "Primetime",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "frizzi2fulcitheconcert|",
+    "title": "Frizzi 2 Fulci - The Concert",
+    "year": null,
+    "reason": "not-found"
+   },
+   {
+    "key": "beyond|",
+    "title": "The Beyond",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "cannibalholocaust4krestoration|",
+    "title": "Cannibal Holocaust (4K Restoration)",
+    "year": null,
+    "reason": "not-found"
+   }
+  ],
+  "tmdbRequests": 0,
+  "errors": []
+ },
+ "fetchedAt": "2026-09-20T04:05:09.257Z",
+ "week": [
+  "2026-09-20",
+  "2026-09-21",
+  "2026-09-22",
+  "2026-09-23",
+  "2026-09-24",
+  "2026-09-25",
+  "2026-09-26"
+ ],
+ "venues": {
+  "brattle": {
+   "n": "Brattle Theatre",
+   "sn": "Brattle",
+   "hood": "Harvard Square",
+   "boro": "Cambridge",
+   "kind": "indie",
+   "price": 1550,
+   "about": "Repertory and independent cinema in Harvard Square.",
+   "url": "https://brattlefilm.org/"
+  },
+  "coolidge": {
+   "n": "Coolidge Corner Theatre",
+   "sn": "Coolidge Corner",
+   "hood": "Coolidge Corner",
+   "boro": "Brookline",
+   "kind": "indie",
+   "price": 0,
+   "about": "Independent releases, repertory and special screenings. Check the venue for ticket prices.",
+   "url": "https://coolidge.org/showtimes"
+  }
+ },
+ "sources": [
+  {
+   "id": "brattle",
+   "name": "Brattle Theatre",
+   "ok": true,
+   "count": 20,
+   "ms": 2455
+  },
+  {
+   "id": "coolidge",
+   "name": "Coolidge Corner Theatre",
+   "ok": true,
+   "count": 112,
+   "ms": 485
+  }
+ ],
+ "screenings": [
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-20",
+   "time": "11:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036547~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "American Doctor",
+   "date": "2026-09-20",
+   "time": "11:05",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036585~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/american-doctor",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
+   "venue": "coolidge",
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "date": "2026-09-20",
+   "time": "11:10",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036607~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
+   "genres": [
+    "family",
+    "comedy",
+    "adventure",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Comedy",
+    "Family",
+    "Adventure",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1477104
+  },
+  {
+   "venue": "coolidge",
+   "title": "Union County",
+   "date": "2026-09-20",
+   "time": "11:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036629~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/union-county",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-20",
+   "time": "11:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036570~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
+   "venue": "brattle",
+   "title": "Hunt for the Wilderpeople",
+   "date": "2026-09-20",
+   "time": "12:00",
+   "url": "https://brattlefilm.org/purchase/1686144/",
+   "filmUrl": "https://brattlefilm.org/movies/hunt-for-the-wilderpeople/",
+   "genres": [
+    "adventure",
+    "comedy",
+    "drama"
+   ],
+   "year": 2016,
+   "sourceGenres": [
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Adventure",
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "venue"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "date": "2026-09-20",
+   "time": "13:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036608~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
+   "genres": [
+    "family",
+    "comedy",
+    "adventure",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Comedy",
+    "Family",
+    "Adventure",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1477104
+  },
+  {
+   "venue": "coolidge",
+   "title": "American Doctor",
+   "date": "2026-09-20",
+   "time": "13:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036587~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/american-doctor",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-20",
+   "time": "13:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036548~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Union County",
+   "date": "2026-09-20",
+   "time": "13:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036630~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/union-county",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "CatVideoFest 2026",
+   "date": "2026-09-20",
+   "time": "14:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1028132~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/catvideofest-2026",
+   "genres": [
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1711224
+  },
+  {
+   "venue": "brattle",
+   "title": "The Librarians",
+   "date": "2026-09-20",
+   "time": "15:00",
+   "url": "https://brattlefilm.org/showtimes/the-librarians-9-20-26-300-pm/",
+   "filmUrl": "https://brattlefilm.org/movies/the-librarians/",
+   "genres": [
+    "documentary"
+   ],
+   "year": 2025,
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "venue"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Odyssey (Digital)",
+   "date": "2026-09-20",
+   "time": "15:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036642~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/odyssey-digital",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Seminar: Amores Perros",
+   "date": "2026-09-20",
+   "time": "15:15",
+   "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=e3b7cc99-4b7d-4bb6-9d15-544d8a9a6f5b&",
+   "filmUrl": "https://coolidge.org/events/seminar-amores-perros",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "date": "2026-09-20",
+   "time": "15:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036614~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
+   "genres": [
+    "family",
+    "comedy",
+    "adventure",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Comedy",
+    "Family",
+    "Adventure",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1477104
+  },
+  {
+   "venue": "coolidge",
+   "title": "Amores Perros (4K Restoration)",
+   "date": "2026-09-20",
+   "time": "16:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1028415~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/amores-perros-4k-restoration",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-20",
+   "time": "16:10",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036551~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-20",
+   "time": "16:20",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036658~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
+   "venue": "coolidge",
+   "title": "American Doctor",
+   "date": "2026-09-20",
+   "time": "16:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036590~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/american-doctor",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
+   "venue": "brattle",
+   "title": "Jurassic Park",
+   "date": "2026-09-20",
+   "time": "18:00",
+   "url": "https://brattlefilm.org/purchase/1686146/",
+   "filmUrl": "https://brattlefilm.org/movies/jurassic-park/",
+   "genres": [
+    "adventure",
+    "scifi"
+   ],
+   "year": 1993,
+   "sourceGenres": [
+    "Adventure",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "date": "2026-09-20",
+   "time": "18:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036618~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
+   "genres": [
+    "family",
+    "comedy",
+    "adventure",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Comedy",
+    "Family",
+    "Adventure",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1477104
+  },
+  {
+   "venue": "coolidge",
+   "title": "Boorman and the Devil",
+   "date": "2026-09-20",
+   "time": "18:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036650~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/boorman-and-devil",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1517111
+  },
+  {
+   "venue": "coolidge",
+   "title": "Union County",
+   "date": "2026-09-20",
+   "time": "18:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036632~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/union-county",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-20",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036556~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "American Doctor",
+   "date": "2026-09-20",
+   "time": "19:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036595~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/american-doctor",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
+   "venue": "coolidge",
+   "title": "Tony (2026)",
+   "date": "2026-09-20",
+   "time": "19:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036571~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/tony-2026",
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
+  },
+  {
+   "venue": "brattle",
+   "title": "Hunt for the Wilderpeople",
+   "date": "2026-09-20",
+   "time": "21:00",
+   "url": "https://brattlefilm.org/purchase/1686145/",
+   "filmUrl": "https://brattlefilm.org/movies/hunt-for-the-wilderpeople/",
+   "genres": [
+    "adventure",
+    "comedy",
+    "drama"
+   ],
+   "year": 2016,
+   "sourceGenres": [
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Adventure",
+    "Comedy",
+    "Drama",
+    "Adventure",
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "venue"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-20",
+   "time": "21:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036623~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
+   "venue": "coolidge",
+   "title": "Union County",
+   "date": "2026-09-20",
+   "time": "21:10",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036662~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/union-county",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Akira (4K Restoration)",
+   "date": "2026-09-20",
+   "time": "21:20",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036638~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/akira-4k-restoration",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Boorman and the Devil",
+   "date": "2026-09-20",
+   "time": "21:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036601~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/boorman-and-devil",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1517111
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-20",
+   "time": "21:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036564~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Tony (2026)",
+   "date": "2026-09-20",
+   "time": "21:55",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036573~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/tony-2026",
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Odyssey (Digital)",
+   "date": "2026-09-21",
+   "time": "15:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036648~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/odyssey-digital",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Akira (4K Restoration)",
+   "date": "2026-09-21",
+   "time": "15:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036659~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/akira-4k-restoration",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-21",
+   "time": "15:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036581~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-21",
+   "time": "16:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036552~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "date": "2026-09-21",
+   "time": "16:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036612~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
+   "genres": [
+    "family",
+    "comedy",
+    "adventure",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Comedy",
+    "Family",
+    "Adventure",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1477104
+  },
+  {
+   "venue": "coolidge",
+   "title": "American Doctor",
+   "date": "2026-09-21",
+   "time": "16:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036591~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/american-doctor",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
+   "venue": "brattle",
+   "title": "New Taipei City Day Shorts Program",
+   "date": "2026-09-21",
+   "time": "17:30",
+   "url": "https://www.zeffy.com/en-US/ticketing/8th-taiwan-film-festival-of-boston",
+   "filmUrl": "https://brattlefilm.org/special_events/new-taipei-city-day-shorts-program/",
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "date": "2026-09-21",
+   "time": "18:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036619~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
+   "genres": [
+    "family",
+    "comedy",
+    "adventure",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Comedy",
+    "Family",
+    "Adventure",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1477104
+  },
+  {
+   "venue": "coolidge",
+   "title": "Boorman and the Devil",
+   "date": "2026-09-21",
+   "time": "18:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036669~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/boorman-and-devil",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1517111
+  },
+  {
+   "venue": "coolidge",
+   "title": "Union County",
+   "date": "2026-09-21",
+   "time": "18:40",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036634~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/union-county",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-21",
+   "time": "18:50",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036559~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "brattle",
+   "title": "Marching Boys",
+   "date": "2026-09-21",
+   "time": "19:00",
+   "url": "https://www.zeffy.com/en-US/ticketing/8th-taiwan-film-festival-of-boston",
+   "filmUrl": "https://brattlefilm.org/movies/marching-boys/",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Music",
+    "Drama"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1222574
+  },
+  {
+   "venue": "coolidge",
+   "title": "East of Eden",
+   "date": "2026-09-21",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1016848~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/east-eden",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "949"
+  },
+  {
+   "venue": "coolidge",
+   "title": "American Doctor",
+   "date": "2026-09-21",
+   "time": "19:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036596~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/american-doctor",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
+   "venue": "coolidge",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-21",
+   "time": "21:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036625~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
+   "venue": "coolidge",
+   "title": "Union County",
+   "date": "2026-09-21",
+   "time": "21:10",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036664~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/union-county",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Akira (4K Restoration)",
+   "date": "2026-09-21",
+   "time": "21:20",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036639~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/akira-4k-restoration",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Boorman and the Devil",
+   "date": "2026-09-21",
+   "time": "21:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036602~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/boorman-and-devil",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1517111
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-21",
+   "time": "21:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036563~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Tony (2026)",
+   "date": "2026-09-21",
+   "time": "21:55",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036575~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/tony-2026",
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
+  },
+  {
+   "venue": "coolidge",
+   "title": "Voting Counts: Elections in Film (Tuesday Section)",
+   "date": "2026-09-22",
+   "time": "10:00",
+   "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=8b2077c6-db0e-455f-ac03-be0f064424c9&",
+   "filmUrl": "https://coolidge.org/events/voting-counts-elections-film-tuesday-section",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Odyssey (Digital)",
+   "date": "2026-09-22",
+   "time": "15:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036645~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/odyssey-digital",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Boorman and the Devil",
+   "date": "2026-09-22",
+   "time": "15:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036667~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/boorman-and-devil",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1517111
+  },
+  {
+   "venue": "coolidge",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-22",
+   "time": "15:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036580~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-22",
+   "time": "16:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036553~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "date": "2026-09-22",
+   "time": "16:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036613~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
+   "genres": [
+    "family",
+    "comedy",
+    "adventure",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Comedy",
+    "Family",
+    "Adventure",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1477104
+  },
+  {
+   "venue": "coolidge",
+   "title": "American Doctor",
+   "date": "2026-09-22",
+   "time": "16:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036592~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/american-doctor",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
+   "venue": "brattle",
+   "title": "Harvard Book Store Welcomes Alex Wagner",
+   "date": "2026-09-22",
+   "time": "18:00",
+   "url": "https://www.eventbrite.com/e/alex-wagner-at-the-brattle-theatre-tickets-1993848594820?aff=oddtdtcreator",
+   "filmUrl": "https://brattlefilm.org/special_events/harvard-book-store-welcomes-alex-wagner/",
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "date": "2026-09-22",
+   "time": "18:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036620~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
+   "genres": [
+    "family",
+    "comedy",
+    "adventure",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Comedy",
+    "Family",
+    "Adventure",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1477104
+  },
+  {
+   "venue": "coolidge",
+   "title": "Tony (2026)",
+   "date": "2026-09-22",
+   "time": "18:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036652~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/tony-2026",
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
+  },
+  {
+   "venue": "coolidge",
+   "title": "Union County",
+   "date": "2026-09-22",
+   "time": "18:40",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036635~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/union-county",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-22",
+   "time": "18:50",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036558~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Misanthrope",
+   "date": "2026-09-22",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017272~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/misanthrope",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
+   "date": "2026-09-22",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1025694~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "American Doctor",
+   "date": "2026-09-22",
+   "time": "19:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036597~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/american-doctor",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
+   "venue": "brattle",
+   "title": "Dead Calm",
+   "date": "2026-09-22",
+   "time": "20:00",
+   "url": "https://brattlefilm.org/purchase/1686150/",
+   "filmUrl": "https://brattlefilm.org/movies/dead-calm/",
+   "genres": [
+    "thriller"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "3203"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-22",
+   "time": "21:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036626~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
+   "venue": "coolidge",
+   "title": "Union County",
+   "date": "2026-09-22",
+   "time": "21:10",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036663~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/union-county",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Akira (4K Restoration)",
+   "date": "2026-09-22",
+   "time": "21:20",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036640~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/akira-4k-restoration",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Boorman and the Devil",
+   "date": "2026-09-22",
+   "time": "21:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036605~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/boorman-and-devil",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1517111
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-22",
+   "time": "21:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036565~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Tony (2026)",
+   "date": "2026-09-22",
+   "time": "22:10",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036574~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/tony-2026",
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
+  },
+  {
+   "venue": "coolidge",
+   "title": "Voting Counts: Elections in Film (Wednesday Section)",
+   "date": "2026-09-23",
+   "time": "10:00",
+   "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=cd4ae178-d76b-4b35-828e-cb185a033866&",
+   "filmUrl": "https://coolidge.org/events/voting-counts-elections-film-wednesday-section",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Odyssey (Digital)",
+   "date": "2026-09-23",
+   "time": "15:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036647~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/odyssey-digital",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Akira (4K Restoration)",
+   "date": "2026-09-23",
+   "time": "15:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036657~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/akira-4k-restoration",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-23",
+   "time": "15:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036584~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-23",
+   "time": "16:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036555~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "date": "2026-09-23",
+   "time": "16:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036615~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
+   "genres": [
+    "family",
+    "comedy",
+    "adventure",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Comedy",
+    "Family",
+    "Adventure",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1477104
+  },
+  {
+   "venue": "brattle",
+   "title": "Event Horizon",
+   "date": "2026-09-23",
+   "time": "16:45",
+   "url": "https://brattlefilm.org/purchase/1686152/",
+   "filmUrl": "https://brattlefilm.org/movies/event-horizon/",
+   "genres": [
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1590"
+  },
+  {
+   "venue": "coolidge",
+   "title": "American Doctor",
+   "date": "2026-09-23",
+   "time": "16:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036593~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/american-doctor",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
+   "venue": "coolidge",
+   "title": "Boorman and the Devil",
+   "date": "2026-09-23",
+   "time": "18:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036668~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/boorman-and-devil",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1517111
+  },
+  {
+   "venue": "coolidge",
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "date": "2026-09-23",
+   "time": "18:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036621~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
+   "genres": [
+    "family",
+    "comedy",
+    "adventure",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Comedy",
+    "Family",
+    "Adventure",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1477104
+  },
+  {
+   "venue": "brattle",
+   "title": "In the Mouth of Madness",
+   "date": "2026-09-23",
+   "time": "19:00",
+   "url": "https://brattlefilm.org/purchase/1686153/",
+   "filmUrl": "https://brattlefilm.org/movies/in-the-mouth-of-madness/",
+   "genres": [
+    "horror",
+    "thriller"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "407"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
+   "date": "2026-09-23",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1033993~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Romy and Michele’s High School Reunion",
+   "date": "2026-09-23",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1030613~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/romy-and-micheles-high-school-reunion",
+   "genres": [
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Comedy"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1513"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-23",
+   "time": "19:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036560~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Union County",
+   "date": "2026-09-23",
+   "time": "21:10",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036665~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/union-county",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "brattle",
+   "title": "Event Horizon",
+   "date": "2026-09-23",
+   "time": "21:15",
+   "url": "https://brattlefilm.org/purchase/1686154/",
+   "filmUrl": "https://brattlefilm.org/movies/event-horizon/",
+   "genres": [
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1590"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Akira (4K Restoration)",
+   "date": "2026-09-23",
+   "time": "21:20",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036643~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/akira-4k-restoration",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Boorman and the Devil",
+   "date": "2026-09-23",
+   "time": "21:50",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036603~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/boorman-and-devil",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1517111
+  },
+  {
+   "venue": "coolidge",
+   "title": "Tony (2026)",
+   "date": "2026-09-23",
+   "time": "21:55",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036578~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/tony-2026",
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-23",
+   "time": "22:05",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036566~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Akira (4K Restoration)",
+   "date": "2026-09-24",
+   "time": "12:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036654~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/akira-4k-restoration",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "date": "2026-09-24",
+   "time": "12:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036610~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
+   "genres": [
+    "family",
+    "comedy",
+    "adventure",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Comedy",
+    "Family",
+    "Adventure",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1477104
+  },
+  {
+   "venue": "coolidge",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-24",
+   "time": "13:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036576~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-24",
+   "time": "13:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036546~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Union County",
+   "date": "2026-09-24",
+   "time": "13:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036631~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/union-county",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "American Doctor",
+   "date": "2026-09-24",
+   "time": "14:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036589~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/american-doctor",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Odyssey (Digital)",
+   "date": "2026-09-24",
+   "time": "15:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036646~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/odyssey-digital",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "date": "2026-09-24",
+   "time": "15:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036616~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
+   "genres": [
+    "family",
+    "comedy",
+    "adventure",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Comedy",
+    "Family",
+    "Adventure",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1477104
+  },
+  {
+   "venue": "coolidge",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-24",
+   "time": "15:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036582~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-24",
+   "time": "16:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036554~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Boorman and the Devil",
+   "date": "2026-09-24",
+   "time": "16:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036666~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/boorman-and-devil",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1517111
+  },
+  {
+   "venue": "coolidge",
+   "title": "American Doctor",
+   "date": "2026-09-24",
+   "time": "16:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036598~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/american-doctor",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
+   "venue": "brattle",
+   "title": "In the Mouth of Madness",
+   "date": "2026-09-24",
+   "time": "18:00",
+   "url": "https://brattlefilm.org/purchase/1712520/",
+   "filmUrl": "https://brattlefilm.org/movies/in-the-mouth-of-madness/",
+   "genres": [
+    "horror",
+    "thriller"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "407"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+   "date": "2026-09-24",
+   "time": "18:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036622~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
+   "genres": [
+    "family",
+    "comedy",
+    "adventure",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Comedy",
+    "Family",
+    "Adventure",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1477104
+  },
+  {
+   "venue": "coolidge",
+   "title": "American Doctor",
+   "date": "2026-09-24",
+   "time": "18:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036600~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/american-doctor",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
+   "venue": "coolidge",
+   "title": "Union County",
+   "date": "2026-09-24",
+   "time": "18:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036636~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/union-county",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "A Goofy Movie",
+   "date": "2026-09-24",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=997338~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/goofy-movie",
+   "genres": [
+    "family",
+    "comedy",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Children",
+    "Comedy",
+    "Romance"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "239"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-24",
+   "time": "19:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036561~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "brattle",
+   "title": "Possession",
+   "date": "2026-09-24",
+   "time": "20:15",
+   "url": "https://brattlefilm.org/purchase/1712521/",
+   "filmUrl": "https://brattlefilm.org/movies/possession/",
+   "genres": [
+    "drama",
+    "romance"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5527"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-24",
+   "time": "21:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036627~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Weight",
+   "date": "2026-09-24",
+   "time": "21:10",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036567~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Akira (4K Restoration)",
+   "date": "2026-09-24",
+   "time": "21:20",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036641~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/akira-4k-restoration",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Down by Law",
+   "date": "2026-09-24",
+   "time": "21:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1028419~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/down-law",
+   "genres": [
+    "comedy",
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Film-Noir"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1273"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Boorman and the Devil",
+   "date": "2026-09-24",
+   "time": "21:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036604~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/boorman-and-devil",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1517111
+  },
+  {
+   "venue": "coolidge",
+   "title": "Tony (2026)",
+   "date": "2026-09-24",
+   "time": "22:10",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036579~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/tony-2026",
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
+  },
+  {
+   "venue": "brattle",
+   "title": "Two Chaplin Shorts",
+   "date": "2026-09-25",
+   "time": "16:30",
+   "url": "https://brattlefilm.org/purchase/1713187/",
+   "filmUrl": "https://brattlefilm.org/special_events/two-chaplin-shorts/",
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "brattle",
+   "title": "My Brother's Wedding",
+   "date": "2026-09-25",
+   "time": "18:00",
+   "url": "https://brattlefilm.org/purchase/1687283/",
+   "filmUrl": "https://brattlefilm.org/movies/my-brothers-wedding/",
+   "genres": [
+    "drama"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 91735
+  },
+  {
+   "venue": "coolidge",
+   "title": "Primetime",
+   "date": "2026-09-25",
+   "time": "19:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1035588~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Frizzi 2 Fulci - The Concert",
+   "date": "2026-09-25",
+   "time": "19:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1021681~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/events/frizzi-2-fulci-concert",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "brattle",
+   "title": "Vagabond",
+   "date": "2026-09-25",
+   "time": "20:30",
+   "url": "https://brattlefilm.org/purchase/1687284/",
+   "filmUrl": "https://brattlefilm.org/movies/vagabond/",
+   "genres": [
+    "drama"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "3637"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Beyond",
+   "date": "2026-09-25",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1030002~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/beyond",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "brattle",
+   "title": "My Brother's Wedding",
+   "date": "2026-09-26",
+   "time": "14:00",
+   "url": "https://brattlefilm.org/purchase/1687287/",
+   "filmUrl": "https://brattlefilm.org/movies/my-brothers-wedding/",
+   "genres": [
+    "drama"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 91735
+  },
+  {
+   "venue": "brattle",
+   "title": "Ten Women in Black",
+   "date": "2026-09-26",
+   "time": "16:00",
+   "url": "https://brattlefilm.org/purchase/1687288/",
+   "filmUrl": "https://brattlefilm.org/movies/ten-women-in-black/",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 125368
+  },
+  {
+   "venue": "brattle",
+   "title": "Freaks",
+   "date": "2026-09-26",
+   "time": "18:30",
+   "url": "https://brattlefilm.org/purchase/1687289/",
+   "filmUrl": "https://brattlefilm.org/movies/freaks/",
+   "genres": [
+    "thriller",
+    "drama",
+    "horror"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Crime",
+    "Drama",
+    "Horror"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "8507"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Primetime",
+   "date": "2026-09-26",
+   "time": "19:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1035589~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "brattle",
+   "title": "The Blade",
+   "date": "2026-09-26",
+   "time": "20:30",
+   "url": "https://brattlefilm.org/purchase/1687291/",
+   "filmUrl": "https://brattlefilm.org/movies/the-blade/",
+   "genres": [
+    "action",
+    "horror",
+    "thriller"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2167"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Cannibal Holocaust (4K Restoration)",
+   "date": "2026-09-26",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1030003~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/cannibal-holocaust-4k-restoration",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  }
+ ]
+}

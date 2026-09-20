@@ -455,3 +455,45 @@ export async function paris(v, ctx){
   }
   return out;
 }
+
+/* Greater Boston: server-rendered official schedules. */
+export function parseBrattle(html,ctx,date){
+ const nodes=[];
+ for(const m of html.matchAll(/<script[^>]*type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)){
+  const data=JSON.parse(m[1]);nodes.push(...(data['@graph']||[data]));
+ }
+ const films=new Map(nodes.filter(n=>n['@type']==='Movie').map(n=>[n['@id'],n]));
+ if(date){
+  const rows=[];
+  for(const block of html.split(/<div class="show"[^>]*>/).slice(1)){
+   const title=block.match(/<a href="([^"]+)">\s*<h2>([\s\S]*?)<\/h2>/);if(!title)continue;
+   const film=[...films.values()].find(f=>f.url===title[1]);
+   const schedule=block.match(/<ol class="showtimes"[^>]*>([\s\S]*?)<\/ol>/)?.[1]||'';
+   for(const m of schedule.matchAll(/<(?:a|span) href="([^"]+)"[^>]*class="showtime[^"]*"[^>]*>\s*(\d{1,2}:\d{2}\s*[ap]m)/g)){
+    rows.push({title:clean(title[2]),date,time:to24(m[2]),url:ents(m[1]),filmUrl:title[1],genres:film?.genre||[],year:Number(film?.dateCreated?.slice(0,4))||null});
+   }
+  }return rows;
+ }
+
+ return nodes.filter(n=>n['@type']==='ScreeningEvent'&&ctx.week.includes(n.startDate?.slice(0,10))).flatMap(n=>{
+  const f=films.get(n.workPresented?.['@id']);if(!f)return [];
+  return [{title:ents(f.name),date:n.startDate.slice(0,10),time:n.startDate.slice(11,16),url:n.url,filmUrl:f.url,genres:f.genre||[],year:Number(f.dateCreated?.slice(0,4))||null,director:(f.director||[]).map(p=>p.name).join(', ')}];
+ });
+}
+export async function brattle(v,ctx){
+ const rows=[];for(const date of ctx.week)rows.push(...parseBrattle(await get(new URL(date,v.url)),ctx,date));return rows;
+}
+export function parseCoolidge(html,date){
+ const rows=[];
+ for(const block of html.split(/<div class="film-card">/).slice(1)){
+  const title=block.match(/<h2><a[^>]*class="film-card__link"[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/);
+  if(!title)continue;
+  for(const m of block.matchAll(/<a href="([^"]+)" class="showtime-ticket__button">[\s\S]*?<span class="showtime-ticket__time">([^<]+)<\/span>/g)){
+   const time=to24(clean(m[2]));if(time)rows.push({title:clean(title[2]),date,time,url:ents(ents(m[1])),filmUrl:new URL(title[1],'https://coolidge.org').href});
+  }
+ }
+ return rows;
+}
+export async function coolidge(v,ctx){
+ const rows=[];for(const date of ctx.week)rows.push(...parseCoolidge(await get(`${v.url}?date=${date}`),date));return rows;
+}

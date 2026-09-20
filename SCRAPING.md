@@ -83,3 +83,47 @@ the next build.
 These are HTML scrapers against sites that can redesign without notice. Every adapter treats a
 zero-row parse as a failure, so a silent break shows up in the run report.
 
+
+## Cities and genres
+
+`node scripts/scrape.mjs` refreshes NYC; `node scripts/scrape.mjs --city boston`
+refreshes Greater Boston (Brattle Theatre and Coolidge Corner Theatre). Each city
+has its own JSON schedule; the browser never mixes their venues or screenings.
+Boston coverage is limited to those two cinemas, not all Boston cinemas.
+
+Genre matching runs locally after scraping, using `data/movies.csv` copied from
+the supplied Desktop file. The CSV is checked before a cached TMDB fallback for missing genres. Replace that
+file to update the catalogue. Run `node scripts/genres.mjs` to reclassify both
+saved schedules without scraping again.
+
+Matching normalizes articles, punctuation, alternate titles, release years and
+known screening suffixes. Remakes with ambiguous titles require a release year;
+there is no fuzzy title matching. The supplied CSV ends in 2018, so many newer
+films and special programs are absent. `genreCoverage.unresolved` in each schedule
+lists titles needing review. These remain accessible under Not yet classified.
+To supply verified classifications, create `data/genre-overrides.json` with keys
+from that report and arrays of genres; title-only normalized keys also work.
+Venue-provided genres take precedence over CSV matches; editorial overrides take
+precedence over both. Each row records `genreSource` and `sourceGenres`.
+
+The ten filter groups are Drama (including War), Comedy & Musical,
+Thriller & Mystery (including Crime and Film-Noir), Horror, Sci-Fi & Fantasy,
+Documentary, Action & Western, Adventure, Romance, and Animation & Family.
+IMAX is a format and is not used as a genre. Films can belong to multiple groups.
+
+
+### Cached TMDB enrichment
+
+Export `TMDB_READ_TOKEN` when running `node scripts/genres.mjs` or the scraper.
+On this machine, the credential is stored outside the repository and web server
+root in `/Users/jessieli/Documents/Codex/.credentials/the-marquee.env` (mode 600).
+Load it in the shell with `set -a`, `source <path>`, then `set +a` before running
+Node. Never copy the credential into the public website directory.
+
+`data/tmdb-cache.json` contains only public movie metadata and match statuses.
+Successful matches are reused without another request. Unmatched/ambiguous searches
+are retried after seven days during enrichment; visitors never call TMDB. A match
+must have an exact normalized title and agree with a known release year; ambiguous
+remakes are left for review. Network/authentication failures stop further API calls
+for that run and are reported in `genreCoverage.errors`. CSV and cached data remain
+usable without credentials. To deliberately refresh a film, remove its cache entry.
