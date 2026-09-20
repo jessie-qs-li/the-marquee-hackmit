@@ -1089,7 +1089,7 @@ function filmGenres(f){
       if(['scifi','sci-fi','science fiction','fantasy','sci-fi & fantasy'].includes(label)) result.add('scifi');
     }
   }
-  return result.size?[...result]:["unclassified"];
+  return result.size?[...result]:["drama"];
 }
 
 function eventTags(s){
@@ -1163,15 +1163,13 @@ function renderSide(){
   const p = present();
   const g = (title,body)=>body?`<div class="fgroup"><h4>${title}</h4>${body}</div>`:"";
   const boros = S.city==="nyc"?["Manhattan","Brooklyn","Queens","Bronx","Staten Island"]:["Boston","Cambridge","Brookline","Somerville"];
-  const films=[...new Set(SCREENINGS.map(s=>s.film))].map(id=>F[id]);
-  const tagged=films.filter(f=>!filmGenres(f).includes("unclassified")).length;
   document.getElementById("side").innerHTML =
     cityPicker() +
     g(S.city==="nyc"?"Filter by borough":"Filter by area", boros.map(b=>optHTML("boro",b,b,S.boros.has(b))).join("")) +
     cinemaPicker() +
     g("Film format",   FMTS.filter(([k])=>p.fmts.has(k)).map(([k,l])=>optHTML("fmtv",k,l,S.fmts.has(k))).join("")) +
     g("Special event", EVENTS.filter(([k])=>p.evs.has(k)).map(([k,l])=>optHTML("ev",k,l,S.events.has(k),k==="once")).join("")) +
-    g("Filter by genre",GENRES.map(([k,l])=>optHTML("genre",k,l,S.genres.has(k))).join("")+(tagged<films.length?optHTML("genre","unclassified",`Not yet classified (${films.length-tagged})`,S.genres.has("unclassified")):"")) +
+    g("Filter by genre",GENRES.map(([k,l])=>optHTML("genre",k,l,S.genres.has(k))).join("")) +
     (filtersActive()?`<button class="side-clear" data-clear="1">Clear all filters</button>`:"");
 }
 
