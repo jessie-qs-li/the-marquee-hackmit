@@ -2,7 +2,12 @@
    The browser tile key is scoped to this map project; without it CARTO
    serves an "API KEY REQUIRED" watermark instead of the map. */
 window.MarqueeMap=(()=>{
- const tileURL='https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=cb1_3m7j_1_17fd37577805412e52f4339d';
+ /* Base map and place names are fetched as separate layers so each can be
+    filtered differently: the base keeps water and parks coloured, while the
+    labels are forced to plain greyscale and can never pick up a tint. */
+ const KEY='cb1_3m7j_1_17fd37577805412e52f4339d';
+ const tileURL='https://basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}.png?key='+KEY;
+ const labelURL='https://basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}.png?key='+KEY;
  let map,layer,lastSignature='',locations,userMoved=false;
  const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  function update({visible,venues,counts,boroughs,cinemas}){
@@ -15,6 +20,7 @@ window.MarqueeMap=(()=>{
    map=L.map('theater-map',{scrollWheelZoom:false,zoomSnap:0,zoomDelta:0.5}).setView([40.735,-73.975],13);
    pinchToZoom(map);
    L.tileLayer(tileURL,{className:"marquee-dark-tiles",maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'}).on('tileerror',()=>{status.hidden=false;status.textContent='Some map tiles could not load. Theater pins and links are still available.';}).addTo(map);
+   L.tileLayer(labelURL,{className:"marquee-label-tiles",maxZoom:19,zIndex:3}).addTo(map);
    layer=L.layerGroup().addTo(map);
    // once the map has been driven by hand, stop re-framing it underneath them
    if(map.on) map.on('dragstart',()=>{userMoved=true;});

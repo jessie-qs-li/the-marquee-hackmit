@@ -641,6 +641,8 @@ a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset
 .theater-pin.muted span{background:var(--faint);width:11px;height:11px}
 /* Grayscale streets and buildings; only water and parks keep a colour. */
 #theater-map .marquee-dark-tiles{filter:invert(1) hue-rotate(180deg) brightness(.92) saturate(.8) url("#map-selective")}
+/* place names: inverted for a dark map, and flatly greyscale */
+#theater-map .marquee-label-tiles{filter:invert(1) grayscale(1) brightness(.95)}
 #theater-map .leaflet-popup-content{font-family:Lexend,sans-serif;line-height:1.5;color:var(--text)}
 #theater-map .leaflet-popup-content p{margin:7px 0;font-size:11px;color:var(--dim)}
 #theater-map .leaflet-popup-content a{color:var(--hot);font-size:11px;font-weight:600}
