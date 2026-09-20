@@ -1,11 +1,12 @@
 name: Refresh listings
 
 # The board is a static snapshot, so it only stays current if something
-# re-scrapes and redeploys it. Hourly keeps "today" honest as showtimes pass
-# and picks up cinemas publishing later in the week.
+# re-scrapes and redeploys it. Every three hours keeps "today" honest as
+# showtimes pass and picks up cinemas publishing later in the week, while
+# staying light on the venues' servers.
 on:
   schedule:
-    - cron: "23 * * * *"   # hourly, off the hour: GitHub queues :00 heavily
+    - cron: "23 */3 * * *"   # 00:23, 03:23, … off the hour: GitHub queues :00 heavily
   workflow_dispatch:        # and a manual "Run workflow" button
 
 concurrency:

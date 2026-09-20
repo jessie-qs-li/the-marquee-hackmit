@@ -90,8 +90,8 @@ zero-row parse as a failure, so a silent break shows up in the run report.
 
 ## Staying current
 
-`.github/workflows/refresh-listings.yml` re-scrapes both cities every hour,
-commits the result and redeploys. It also runs on demand from the Actions tab.
+`.github/workflows/refresh-listings.yml` re-scrapes both cities every three
+hours, commits the result and redeploys. It also runs on demand from the Actions tab.
 
 Two things keep it safe to leave alone:
 
