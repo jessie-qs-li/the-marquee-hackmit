@@ -124,6 +124,17 @@ export async function ifc(v, ctx){
 /* <div class="calendar-list-day …" id="calendar-list-day-YYYY-MM-DD">
  *   <h4><a class="title">…</a></h4><div class="film-metadata">Dir / 1995 / 105min / 35mm</div>
  *   <div class="showtimes"><a>8:50pm</a> */
+export function parseMetrographNotices(html, ctx){
+  const notices = {};
+  for(const li of html.matchAll(/<li data-thisdate="(\d{4}-\d{2}-\d{2})"([^>]*)>/g)){
+    const [, date, attrs] = li;
+    if(!ctx.week.includes(date)) continue;
+    if(!/class="[^"]*\bunscheduled\b/.test(attrs)) continue;
+    const title = attrs.match(/title="([^"]+)"/);
+    notices[date] = title ? clean(title[1]) : "Showtimes coming soon";
+  }
+  return notices;
+}
 export async function metrograph(v, ctx){
   const html = await get(v.url);
   const out = [];
@@ -151,7 +162,7 @@ export async function metrograph(v, ctx){
       }
     }
   }
-  return out;
+  return { screenings:out, notices:parseMetrographNotices(html, ctx) };
 }
 
 /* ================= ANTHOLOGY FILM ARCHIVES ================= */

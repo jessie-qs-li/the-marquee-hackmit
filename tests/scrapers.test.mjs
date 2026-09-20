@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {parseRoxy,parseVeezi,parseBam,parseCinemaVillageListings,parseCinemaVillageTimes,parseAngelika,parseParis,parseHFA,parseLandmark} from '../scripts/scrapers.mjs';
+import {parseRoxy,parseVeezi,parseBam,parseCinemaVillageListings,parseCinemaVillageTimes,parseAngelika,parseParis,parseHFA,parseLandmark,parseMetrographNotices} from '../scripts/scrapers.mjs';
 const ctx={today:new Date(2026,8,19),week:['2026-09-19','2026-09-20']};
 
 test('Roxy pairs each title with its date, decodes entities, and keeps series notes separate',()=>{
@@ -67,4 +67,11 @@ test('Landmark joins schedule ids to titles, filters to the week and reads print
  assert.deepEqual(rows.map(r=>r.time),['12:50','21:05']);
  assert.equal(rows[0].fmt,'70mm');
  assert.equal(rows[1].fmt,'');
+});
+
+test('Metrograph reports its own wording for dates it has not programmed',()=>{
+ const li=(date,cls,title)=>`<li data-thisdate="${date}"${cls?` class="${cls}"`:''}${title?` title="${title}"`:''}><a href="?date=${date}">x</a></li>`;
+ const html=li('2026-09-19','','See showtimes')+li('2026-09-20','unscheduled','Showtimes coming soon')+li('2026-09-25','unscheduled','Closed for a private event');
+ const notices=parseMetrographNotices(html,{today:new Date(2026,8,19),week:['2026-09-19','2026-09-20']});
+ assert.deepEqual(notices,{'2026-09-20':'Showtimes coming soon'});   // scheduled day and out-of-week day both excluded
 });

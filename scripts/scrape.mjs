@@ -41,6 +41,7 @@ const ctx = { today, week };
 const targets = VENUES.filter(v => !ONLY || ONLY.includes(v.id));
 const report = [];
 const rows = [];
+const notices = {};
 
 console.log(`\nThe Marquee — scraping ${week[0]} … ${week.at(-1)}\n`);
 
@@ -58,7 +59,11 @@ for(const v of targets){
   }
   const t0 = Date.now();
   try {
-    const got = await fn(v, ctx);
+    const result = await fn(v, ctx);
+    const got = Array.isArray(result) ? result : (result.screenings || []);
+    if(!Array.isArray(result) && result.notices && Object.keys(result.notices).length){
+      notices[v.id] = result.notices;
+    }
     const seen = new Set();
     let n = 0;
     for(const s of got){
@@ -94,6 +99,7 @@ const out = {
     n:v.name, sn:v.sn, hood:v.hood, boro:v.boro, kind:v.kind, price:v.price, about:v.about, url:v.url
   }])),
   sources: report,
+  notices,
   screenings: rows
 };
 

@@ -461,6 +461,9 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 .vbadge.gold{background:var(--amber);color:var(--amber-ink)}
 .vbadge.out{background:var(--ink-700);color:var(--faint)}
 .vempty{color:var(--faint);font-size:13px;padding:40px 0}
+.vcol.quiet .vcol-head{opacity:.62}
+.vnote{margin-top:11px;padding:10px 0 11px;border-top:1px solid var(--line-2);border-bottom:1px solid var(--line);
+  font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);line-height:1.6}
 
 @media (max-width:860px){
   .board-grid{grid-template-columns:1fr}
@@ -1278,6 +1281,42 @@ function blockHeight(films){
   return h;
 }
 
+/* A blank day at a cinema usually means it has not published that far ahead,
+   not that it is dark. Prefer the venue's own wording when the scrape caught
+   it, then fall back to how far its published schedule reaches. */
+function venueLastPublished(vid){
+  let last = "";
+  for(const s of SCREENINGS) if(s.venue===vid){
+    const d = DAYS[s.day]?.date;
+    if(d && d > last) last = d;
+  }
+  return last;
+}
+function blankDayNote(vid, date){
+  const own = NOTICES[vid] && NOTICES[vid][date];
+  if(own) return own;
+  // a source that answered for the whole week is telling us it is dark, not late
+  if(EMPTY_WEEK.has(vid)) return "Nothing scheduled this week";
+  const last = venueLastPublished(vid);
+  if(!last || date > last) return "Screenings not published yet";
+  return "No screenings listed for this day";
+}
+/* content filters narrow what is on; venue filters narrow where. Only the
+   former should hide a cinema that simply has nothing to show. */
+function contentFiltersActive(){
+  return S.fmts.size || S.genres.size || S.events.size || S.tMin!==600 || S.tMax!==1380;
+}
+function quietVenues(shown){
+  if(contentFiltersActive()) return [];
+  const date = DAYS[S.day]?.date;
+  if(!date) return [];
+  return Object.keys(VENUES)
+    .filter(id=>SCRAPED.has(id) && !shown.has(id))
+    .filter(id=>!S.boros.size   || S.boros.has(VENUES[id].boro))
+    .filter(id=>!S.cinemas.size || S.cinemas.has(id))
+    .sort((a,b)=>(VENUES[a].sn||VENUES[a].n).localeCompare(VENUES[b].sn||VENUES[b].n));
+}
+
 function renderVenueBoard(list,el){
   const by={};
   list.forEach(s=>(by[s.venue]=by[s.venue]||[]).push(s));
@@ -1324,6 +1363,21 @@ function renderVenueBoard(list,el){
     const target = cols.reduce((a,b)=>b.h<a.h?b:a);
     target.html += html;
     target.h += blockHeight(Object.values(byFilm));
+  });
+
+  // cinemas we can read that simply have nothing listed on this day
+  const date = DAYS[S.day]?.date;
+  quietVenues(new Set(ids)).forEach(vid=>{
+    const v = VENUES[vid];
+    const target = cols.reduce((a,b)=>b.h<a.h?b:a);
+    target.html += `<section class="vcol quiet">
+      <div class="vcol-head">
+        <h3 title="${esc(v.n)}">${venueLink(v, v.sn||v.n)}</h3>
+        <div class="hood">${esc(v.hood)}</div>
+      </div>
+      <p class="vnote">${esc(blankDayNote(vid, date))}</p>
+    </section>`;
+    target.h += 86;
   });
 
   el.innerHTML = cols.map(c=>`<div class="vcolumn">${c.html}</div>`).join("");
@@ -1862,6 +1916,9 @@ document.addEventListener("keydown", e=>{ if(e.key==="Escape" && S.view==="flow"
    itself; the Node script does it and the page consumes the result.
    ========================================================================= */
 const SOURCE = { live:false, fetchedAt:null, venues:0, note:"" };
+const NOTICES = {};   // venue -> date -> the venue's own wording for a blank day
+const SCRAPED = new Set(); // venues whose adapter ran, so a blank day means something
+const EMPTY_WEEK = new Set(); // venues whose source answered 'nothing on' for the whole week
 const DOW = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 // Normalize shouting/lowercase source titles once, before any view renders them.
 // Keep intentional mixed-case names (e.g. iPhone, McQueen, Se7en) untouched.
@@ -1937,6 +1994,13 @@ function applyLive(data){
       once:/one night only|midnight/i.test(note), out:/sold out/i.test(note), mins
     });
   });
+
+  Object.keys(NOTICES).forEach(k=>delete NOTICES[k]);
+  Object.assign(NOTICES, data.notices || {});
+  SCRAPED.clear();
+  (data.sources||[]).filter(r=>r.ok).forEach(r=>SCRAPED.add(r.id));
+  EMPTY_WEEK.clear();
+  (data.sources||[]).filter(r=>r.empty).forEach(r=>EMPTY_WEEK.add(r.id));
 
   SOURCE.live = true;
   SOURCE.fetchedAt = data.fetchedAt;
