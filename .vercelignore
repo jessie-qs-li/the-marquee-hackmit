@@ -1,0 +1,8 @@
+# The site is index.html + assets + the two schedule files. Everything below
+# builds those locally and has no business being served publicly.
+scripts/
+tests/
+data/movies.csv
+data/tmdb-cache.json
+*.md
+.claude/

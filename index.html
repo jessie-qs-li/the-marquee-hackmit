@@ -328,7 +328,7 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 @media (prefers-reduced-motion:reduce){.ticker-track{animation:none}}
 
 /* ================= BOARD SHELL ================= */
-.board-grid{display:grid;grid-template-columns:206px minmax(0,1fr);margin-top:18px;border-top:1px solid var(--line-2)}
+.board-grid{display:grid;grid-template-columns:206px minmax(0,1fr);margin-top:10px;border-top:1px solid var(--line-2)}
 .side{border-right:1px solid var(--line);padding:24px 22px 48px 0;
   position:sticky;top:env(safe-area-inset-top,0px);align-self:start;
   max-height:calc(100dvh - env(safe-area-inset-top,0px));
@@ -439,16 +439,6 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 .vt-time{font-family:var(--mono);font-size:10.5px;font-weight:500;color:var(--hot);letter-spacing:.01em;
   line-height:1.5;text-align:left}
 .vfilm.has-more{row-gap:3px}
-.screening-dots{position:relative;display:flex;flex-direction:column;gap:3px;align-items:center;justify-content:center;width:30px;height:25px;color:var(--hot);border-radius:3px}
-.screening-dots i{display:block;width:3px;height:3px;border-radius:50%;background:currentColor}
-.screening-dots:hover,.screening-dots:focus-visible{background:var(--hot-dim);outline:none}
-.screening-dots .screening-tooltip{position:absolute;left:calc(100% + 8px);top:50%;transform:translateY(-50%);z-index:3;
-  width:max-content;max-width:190px;background:var(--ink-700);border:1px solid var(--line-2);padding:7px 10px;color:var(--text);font-size:10px;line-height:1.4;text-align:left;pointer-events:none;opacity:0;visibility:hidden}
-.screening-dots:hover .screening-tooltip,.screening-dots:focus-visible .screening-tooltip{opacity:1;visibility:visible}
-.extra-screenings{display:flex;flex-direction:column;gap:3px;align-items:flex-start}
-.screening-toggle{grid-column:1 / -1;justify-self:start;margin-top:5px;color:var(--dim);font-size:10.5px;line-height:1.5;text-align:left}
-.screening-toggle:hover{color:var(--amber)}
-.screening-toggle:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
 .vt-time:hover{color:var(--amber)}
 .vt-time.out{color:var(--faint);text-decoration:line-through;cursor:default}
 .vt-time.out:hover{color:var(--faint)}
@@ -784,9 +774,9 @@ const SCREENINGS = RAW.map((s,i)=>({
   mins:(+s[3].slice(0,2))*60 + (+s[3].slice(3))
 }));
 
-/* SEED_* are the fallback: a hand-written week used when data/screenings.json
-   is missing (open index.html straight off disk) or unreadable. The live board
-   comes from scripts/scrape.mjs. */
+/* RAW above is the original hand-written sample. The board no longer falls
+   back to it -- listings come from data/screenings.json via scripts/scrape.mjs
+   -- but FILMS and STREAM below still supply taste data for Find a Pick. */
 
 
 const STREAM = {
@@ -1370,16 +1360,11 @@ function renderVenueBoard(list,el){
               const badge = shows.map(badgeFor).find(Boolean);
               const meta = [f.y, f.d].filter(Boolean).join(" · ");
               const timeButton = s => `<a class="vt-time ${s.out?"out":""}" ${screeningLink(s)} title="${esc(f.t)}${s.out?" — sold out":""}">${s.time}</a>`;
+              // every showtime is listed; nothing hides behind an expander
               return `<div class="vfilm">
-                <div class="vtimes">
-                  ${timeButton(shows[0])}
-                  ${shows.length>2?`<button class="screening-dots" data-screenings-toggle="expand" aria-label="Show more screening times for ${esc(f.t)}" aria-expanded="false" aria-controls="extra-${esc(vid)}-${esc(fid)}"><i></i><i></i><i></i><span class="screening-tooltip" aria-hidden="true">Show more screening times</span></button>
-                  <div class="extra-screenings" id="extra-${esc(vid)}-${esc(fid)}" hidden>${shows.slice(1,-1).map(timeButton).join("")}</div>`:""}
-                  ${shows.length>1?timeButton(shows.at(-1)):""}
-                </div>
+                <div class="vtimes">${shows.map(timeButton).join("")}</div>
                 <a class="vn" ${screeningLink(shows[0],true)}>${esc(f.t)}</a>
                 ${badge?`<span class="vbadge ${badge[1]}">${badge[0]}</span>`:"<span></span>"}
-                ${shows.length>2?`<button class="screening-toggle" data-screenings-toggle="collapse" aria-expanded="true" aria-controls="extra-${esc(vid)}-${esc(fid)}" hidden>Show fewer screening times</button>`:""}
               </div>`;
             }).join("");
         })()}
@@ -1853,18 +1838,6 @@ function toast(msg){
 }
 
 document.addEventListener("click", e=>{
-  const screeningToggle=e.target.closest('[data-screenings-toggle]');
-  if(screeningToggle){
-    const tile=screeningToggle.closest('.vfilm');
-    const expanded=screeningToggle.dataset.screeningsToggle==='expand';
-    const dots=tile.querySelector('.screening-dots'), collapse=tile.querySelector('.screening-toggle');
-    tile.querySelector('.extra-screenings').hidden=!expanded;
-    dots.hidden=expanded;dots.setAttribute('aria-expanded',String(expanded));
-    collapse.hidden=!expanded;
-    (expanded?collapse:dots).focus();
-    return;
-  }
-
   if((S.cinemaOpen||S.cityOpen) && !e.target.closest(".drop")){
     S.cinemaOpen=false; S.cityOpen=false; renderSide();
   }
