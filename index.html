@@ -317,6 +317,7 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 }
 .footer{border-top:1px solid var(--line);margin-top:20px;padding-block:26px 40px;color:var(--faint);font-size:12.5px}
 .footer b{color:var(--dim);font-weight:500}
+.legal{margin-top:14px;padding-top:14px;border-top:1px solid var(--line);font-size:11.5px;line-height:1.6;color:var(--faint);max-width:82ch}
 
 /* ================= TICKER ================= */
 .ticker{background:var(--hot);color:#fff;overflow:hidden;position:relative;height:26px;display:flex;align-items:center}
@@ -350,6 +351,34 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 .side-clear{margin-top:26px;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);
   border-bottom:1px solid var(--line-2);padding-bottom:2px}
 .side-clear:hover{color:var(--text)}
+
+
+/* ---- cinema multi-select ---- */
+.cin-drop{position:relative}
+.cin-toggle{display:flex;align-items:center;gap:8px;width:100%;text-align:left;
+  border:1px solid var(--line-2);padding:8px 10px;font-size:11.5px;font-weight:500;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--text);background:var(--ink-850);transition:border-color .12s}
+.cin-toggle:hover{border-color:var(--hot)}
+.cin-toggle span{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cin-caret{flex:0 0 auto;width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;
+  border-top:5px solid var(--hot);transition:transform .15s}
+.cin-drop.open .cin-caret{transform:rotate(180deg)}
+.cin-drop.open .cin-toggle{border-color:var(--hot)}
+.cin-panel{position:absolute;z-index:40;top:calc(100% + 4px);left:0;right:0;min-width:210px;
+  background:var(--ink-850);border:1px solid var(--line-2);box-shadow:0 14px 34px rgba(0,0,0,.6);
+  max-height:290px;overflow-y:auto;padding:6px}
+.cin-panel .fopt{padding:7px 8px;gap:8px;align-items:flex-start}
+.cin-panel .fopt .fbox{margin-top:2px}
+.cin-text{display:flex;flex-direction:column;gap:2px;min-width:0;flex:1 1 auto}
+.cin-panel .fopt:hover{background:rgba(255,255,255,.05)}
+.cin-name{overflow-wrap:anywhere;line-height:1.3}
+.cin-hood{font-size:9px;letter-spacing:.1em;color:var(--faint);text-transform:uppercase;line-height:1.3}
+.fopt.on .cin-hood{color:var(--hot)}
+.cin-reset{display:block;width:100%;text-align:left;margin-top:4px;padding:7px 8px;
+  border-top:1px solid var(--line);font-family:var(--mono);font-size:9.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--faint)}
+.cin-reset:hover{color:var(--text)}
+@media (max-width:860px){.cin-panel{position:static;max-height:none;box-shadow:none;margin-top:6px}}
 
 /* ---- day strip ---- */
 .board-top{display:flex;gap:14px;align-items:stretch;flex-wrap:wrap}
@@ -547,16 +576,14 @@ a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset
       </div>
     </div>
 
-    <div class="dock">
-      <div class="dock-in">
-        <p><b>Can't decide?</b> Tell us who's coming and we'll find four everyone's happy with.</p>
-        <button class="btn btn-primary" id="start-pick">Find a pick →</button>
-      </div>
-    </div>
 
     <footer class="footer wrap" style="padding-inline:0">
       <b>The Marquee</b> — independent cinema listings for New York City and Greater Boston. Follow a film or showtime to its cinema’s website for details and tickets.
       <div aria-label="Data credits" style="margin-top:16px"><a href="https://www.themoviedb.org" target="_blank" rel="noopener noreferrer"><img src="assets/tmdb.svg" alt="TMDB" width="70" style="vertical-align:middle;margin-right:12px"></a>This product uses the TMDB API but is not endorsed or certified by TMDB.</div>
+      <p class="legal">© 2026 The Marquee. Showtimes are gathered from each cinema’s own website and remain the property of those
+      cinemas; we are not affiliated with, endorsed by, or acting on behalf of any venue listed. Listings may be incomplete or out
+      of date — confirm with the cinema before buying a ticket. Film titles, artwork and trademarks belong to their respective
+      rights holders.</p>
     </footer>
   </main>
 
@@ -873,7 +900,7 @@ function fmtRuntime(m){return m?Math.floor(m/60)+"h "+String(m%60).padStart(2,"0
 const S = {
   view:"browse", city:"nyc", cityLoading:false, cityError:"",
   day:TODAY, hoods:new Set(), venueKind:"any", fmt:"any",
-  boros:new Set(), fmts:new Set(), events:new Set(), genres:new Set(),
+  boros:new Set(), cinemas:new Set(), cinemaOpen:false, fmts:new Set(), events:new Set(), genres:new Set(),
   tMin:600, tMax:1380, board:"venue",
   step:0,
   mode:"theater",
@@ -1086,6 +1113,7 @@ function passesNonDay(s){
   if(S.hoods.size && !S.hoods.has(v.hood)) return false;
   if(S.venueKind!=="any" && v.kind!==S.venueKind) return false;
   if(S.boros.size && !S.boros.has(v.boro)) return false;
+  if(S.cinemas.size && !S.cinemas.has(s.venue)) return false;
   if(S.fmts.size && !S.fmts.has(s.fmt)) return false;
   if(S.genres.size && !filmGenres(f).some(t=>S.genres.has(t))) return false;
   if(S.events.size){ const e=eventTags(s); if(![...S.events].some(x=>e.has(x))) return false; }
@@ -1095,7 +1123,7 @@ function passesNonDay(s){
 function visibleScreenings(){ return SCREENINGS.filter(s=>s.day===S.day && passesNonDay(s)); }
 function dayCount(i){ return SCREENINGS.filter(s=>s.day===i && passesNonDay(s)).length; }
 function filtersActive(){
-  return S.boros.size||S.fmts.size||S.events.size||S.genres.size||S.hoods.size
+  return S.boros.size||S.cinemas.size||S.fmts.size||S.events.size||S.genres.size||S.hoods.size
       || S.venueKind!=="any" || S.tMin!==600 || S.tMax!==1380;
 }
 
@@ -1103,7 +1131,22 @@ function optHTML(attr,val,label,on,solo){
   return `<button class="fopt${on?" on":""}${solo?" solo":""}" data-${attr}="${esc(val)}">
     <span class="fbox"></span><span>${esc(label)}</span></button>`;
 }
-/* what this week's listings actually contain, so no option leads to a dead board */
+/* The cinema picker lists venues playing this week, narrowed to the selected
+   boroughs. It deliberately ignores the other filters so the list does not
+   shift underneath you while you are choosing. */
+function pickableCinemas(){
+  const playing = new Set(SCREENINGS.map(s=>s.venue));
+  return [...playing]
+    .filter(id=>VENUES[id] && (!S.boros.size || S.boros.has(VENUES[id].boro)))
+    .sort((a,b)=>(VENUES[a].sn||VENUES[a].n).localeCompare(VENUES[b].sn||VENUES[b].n));
+}
+/* a borough change can strand a selected cinema outside the visible list */
+function pruneCinemas(){
+  const allowed = new Set(pickableCinemas());
+  [...S.cinemas].forEach(id=>{ if(!allowed.has(id)) S.cinemas.delete(id); });
+}
+
+/* what this week's listings actually contain, so no option leads to a dead option */
 function present(){
   const boros=new Set(), fmts=new Set(), evs=new Set(), tags=new Set();
   for(const sc of SCREENINGS){
@@ -1124,10 +1167,39 @@ function renderSide(){
   document.getElementById("side").innerHTML =
     `<div class="fgroup"><label for="city-select">City</label><select id="city-select" ${S.cityLoading?"disabled":""}><option value="nyc" ${S.city==="nyc"?"selected":""}>New York City</option><option value="boston" ${S.city==="boston"?"selected":""}>Boston</option></select>${S.city==="boston"?'<p class="genre-coverage">Greater Boston cinemas</p>':""}</div>` +
     g(S.city==="nyc"?"Filter by borough":"Filter by area", boros.map(b=>optHTML("boro",b,b,S.boros.has(b))).join("")) +
+    cinemaPicker() +
     g("Film format",   FMTS.filter(([k])=>p.fmts.has(k)).map(([k,l])=>optHTML("fmtv",k,l,S.fmts.has(k))).join("")) +
     g("Special event", EVENTS.filter(([k])=>p.evs.has(k)).map(([k,l])=>optHTML("ev",k,l,S.events.has(k),k==="once")).join("")) +
     g("Filter by genre",GENRES.map(([k,l])=>optHTML("genre",k,l,S.genres.has(k))).join("")+(tagged<films.length?optHTML("genre","unclassified",`Not yet classified (${films.length-tagged})`,S.genres.has("unclassified")):"")) +
     (filtersActive()?`<button class="side-clear" data-clear="1">Clear all filters</button>`:"");
+}
+
+function cinemaPicker(){
+  const ids = pickableCinemas();
+  if(!ids.length) return "";
+  const n = S.cinemas.size;
+  const label = n===0 ? `All cinemas (${ids.length})`
+              : n===1 ? (VENUES[[...S.cinemas][0]].sn || VENUES[[...S.cinemas][0]].n)
+              : `${n} cinemas`;
+  const rows = ids.map(id=>{
+    const v=VENUES[id], on=S.cinemas.has(id);
+    return `<button class="fopt${on?" on":""}" role="option" aria-selected="${on}" data-cinema="${esc(id)}">
+      <span class="fbox"></span><span class="cin-text">
+        <span class="cin-name">${esc(v.sn||v.n)}</span>
+        <span class="cin-hood">${esc(v.hood)}</span></span></button>`;
+  }).join("");
+  return `<div class="fgroup">
+    <h4>Cinemas</h4>
+    <div class="cin-drop ${S.cinemaOpen?"open":""}">
+      <button class="cin-toggle" data-cinema-toggle="1" aria-expanded="${S.cinemaOpen}" aria-haspopup="listbox">
+        <span>${esc(label)}</span><i class="cin-caret" aria-hidden="true"></i>
+      </button>
+      <div class="cin-panel" role="listbox" aria-multiselectable="true" aria-label="Filter by cinema" ${S.cinemaOpen?"":"hidden"}>
+        ${rows}
+        ${n?`<button class="cin-reset" data-cinema-all="1">Select all</button>`:""}
+      </div>
+    </div>
+  </div>`;
 }
 
 function renderDayButtons(){
@@ -1287,6 +1359,12 @@ function renderRows(){
   S.board==="venue" ? renderVenueBoard(list,el) : renderFilmRows(list,el);
 }
 
+/* "Tonight" only once the evening actually starts */
+function dayWord(mins){
+  if(mins < 12*60) return "This morning";
+  if(mins < 17*60) return "This afternoon";
+  return "Tonight";
+}
 function renderTicker(){
   const pri = s=>{ const e=eventTags(s);
     return e.has("qa")?0 : e.has("once")?1 : s.fmt==="70mm"?2 : s.fmt==="35mm"?3
@@ -1305,7 +1383,7 @@ function renderTicker(){
 
   const line = s=>{
     const f=F[s.film], v=VENUES[s.venue], d=DAYS[s.day];
-    const when = s.day===S.day ? "Tonight" : d.dow;
+    const when = s.day===S.day ? dayWord(s.mins) : d.dow;
     const head = (s.note||"").replace(/·.*$/,"").trim()
               || (s.fmt && s.fmt!=="digital" && s.fmt!=="dcp" ? s.fmt.toUpperCase()+" print" : when);
     return `<a ${screeningLink(s,true)}>${esc(head)} — ${esc(f.t)}</a> at ${venueLink(v,v.sn||v.n)} · <a ${screeningLink(s)}>${esc(when)} ${s.time}</a>`;
@@ -1688,7 +1766,8 @@ function toast(msg){
 }
 
 document.addEventListener("click", e=>{
-  const t = e.target.closest("[data-day],[data-hood],[data-kind],[data-fmt],[data-boro],[data-fmtv],[data-ev],[data-genre],[data-board],[data-clear],[data-mode],[data-svc],[data-go],[data-vibe],[data-obj],[data-tix],[data-pick-tix],[data-seed],[data-import],[data-drop],[data-edit],[data-pchip]");
+  if(S.cinemaOpen && !e.target.closest(".cin-drop")){ S.cinemaOpen=false; renderSide(); }
+  const t = e.target.closest("[data-day],[data-hood],[data-kind],[data-fmt],[data-boro],[data-cinema],[data-cinema-toggle],[data-cinema-all],[data-fmtv],[data-ev],[data-genre],[data-board],[data-clear],[data-mode],[data-svc],[data-go],[data-vibe],[data-obj],[data-tix],[data-pick-tix],[data-seed],[data-import],[data-drop],[data-edit],[data-pchip]");
   if(!t) return;
 
   if(t.dataset.day!==undefined){ S.day=+t.dataset.day; S.view==="flow"?renderFlow():renderBrowse(); return; }
@@ -1699,13 +1778,22 @@ document.addEventListener("click", e=>{
 
   // browse-board filters
   const toggle = (set,val)=>{ set.has(val)?set.delete(val):set.add(val); renderControls(); renderRows(); };
-  if(t.dataset.boro){  toggle(S.boros,  t.dataset.boro);  return; }
+  if(t.dataset.boro){
+    S.boros.has(t.dataset.boro)?S.boros.delete(t.dataset.boro):S.boros.add(t.dataset.boro);
+    pruneCinemas(); renderControls(); renderRows(); return;
+  }
+  if(t.dataset.cinemaToggle){ S.cinemaOpen=!S.cinemaOpen; renderSide(); return; }
+  if(t.dataset.cinema){
+    S.cinemas.has(t.dataset.cinema)?S.cinemas.delete(t.dataset.cinema):S.cinemas.add(t.dataset.cinema);
+    renderControls(); renderRows(); return;
+  }
+  if(t.dataset.cinemaAll){ S.cinemas.clear(); renderControls(); renderRows(); return; }
   if(t.dataset.fmtv){  toggle(S.fmts,   t.dataset.fmtv);  return; }
   if(t.dataset.ev){    toggle(S.events, t.dataset.ev);    return; }
   if(t.dataset.genre){ toggle(S.genres, t.dataset.genre); return; }
   if(t.dataset.board){ S.board=t.dataset.board; renderControls(); renderRows(); return; }
   if(t.dataset.clear){
-    S.boros.clear(); S.fmts.clear(); S.events.clear(); S.genres.clear(); S.hoods.clear();
+    S.boros.clear(); S.cinemas.clear(); S.fmts.clear(); S.events.clear(); S.genres.clear(); S.hoods.clear();
     S.venueKind="any"; S.tMin=600; S.tMax=1380; renderControls(); renderRows(); return;
   }
   if(t.dataset.mode){ S.mode=t.dataset.mode; renderFlow(); return; }
@@ -1886,7 +1974,8 @@ let cityRequest=0;
 async function loadCity(city){
   const request=++cityRequest;
   S.city=city;S.cityLoading=true;S.cityError="";S.day=0;S.results=null;S.chosen=null;
-  for(const key of ['boros','hoods','fmts','events','genres'])S[key].clear();
+  for(const key of ['boros','cinemas','hoods','fmts','events','genres'])S[key].clear();
+  S.cinemaOpen=false;
   S.venueKind="any";S.tMin=600;S.tMax=1380;
   SCREENINGS.splice(0);Object.keys(VENUES).forEach(k=>delete VENUES[k]);
   renderBrowse();
@@ -1900,6 +1989,13 @@ async function loadCity(city){
 }
 document.addEventListener('change',e=>{if(e.target.id==='city-select')loadCity(e.target.value);});
 async function boot(){await loadCity('nyc');}
+
+document.addEventListener("keydown", e=>{
+  if(e.key==="Escape" && S.cinemaOpen){
+    S.cinemaOpen=false; renderSide();
+    document.querySelector(".cin-toggle")?.focus();
+  }
+});
 
 let resizeT;
 addEventListener("resize", ()=>{
