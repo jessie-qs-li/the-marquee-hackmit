@@ -3,10 +3,10 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="A screening index for New York, and a group pick everyone is actually happy with.">
+<meta name="description" content="A screening index for New York City and Greater Boston, and a group pick everyone is actually happy with.">
 <meta name="color-scheme" content="dark">
 <meta property="og:title" content="The Marquee">
-<meta property="og:description" content="Every film screening in NYC this week, and a pick your whole group agrees on.">
+<meta property="og:description" content="Every film screening in New York City and Greater Boston this week, and a pick your whole group agrees on.">
 <style>*{box-sizing:border-box}html,body{margin:0;padding:0}img{max-width:100%}[hidden]{display:none!important}
 .fgroup>label{font-size:11px;font-weight:600}
 .vn,.film-entry h3 a,.rtitle h3 a{color:inherit;text-decoration:none}
@@ -788,8 +788,7 @@ const SCREENINGS = RAW.map((s,i)=>({
 /* SEED_* are the fallback: a hand-written week used when data/screenings.json
    is missing (open index.html straight off disk) or unreadable. The live board
    comes from scripts/scrape.mjs. */
-const SEED_SCREENINGS = SCREENINGS.slice();
-const SEED_VENUES = VENUES;
+
 
 const STREAM = {
   yiyi:["criterion"], aos:["criterion","max"], portrait:["hulu","criterion"], mood:["criterion"],
@@ -1057,9 +1056,16 @@ function reasonFor(x, rank){
 /* =========================================================================
    BROWSE RENDER
    ========================================================================= */
+/* which kinds of room this city's listings actually contain */
+function venueKinds(){
+  return [...new Set(Object.values(VENUES).map(v=>v.kind).filter(Boolean))].sort();
+}
 function hoods(){
-  const set = new Set(Object.values(VENUES).map(v=>v.hood));
-  return [...set];
+  // only neighbourhoods that actually have screenings; a venue we cannot scrape
+  // would otherwise offer a chip that matches nothing
+  const set = new Set();
+  for(const sc of SCREENINGS){ const v=VENUES[sc.venue]; if(v && v.hood) set.add(v.hood); }
+  return [...set].sort();
 }
 
 /* ---- filter vocabularies, all drawn from the seeded data ---- */
@@ -1162,7 +1168,10 @@ function present(){
 function renderSide(){
   const p = present();
   const g = (title,body)=>body?`<div class="fgroup"><h4>${title}</h4>${body}</div>`:"";
-  const boros = S.city==="nyc"?["Manhattan","Brooklyn","Queens","Bronx","Staten Island"]:["Boston","Cambridge","Brookline","Somerville"];
+  const areas = new Set();
+  for(const sc of SCREENINGS){ const v=VENUES[sc.venue]; if(v?.boro) areas.add(v.boro); }
+  SCRAPED.forEach(id=>{ const v=VENUES[id]; if(v?.boro) areas.add(v.boro); });
+  const boros = [...areas].sort();
   document.getElementById("side").innerHTML =
     cityPicker() +
     g(S.city==="nyc"?"Filter by borough":"Filter by area", boros.map(b=>optHTML("boro",b,b,S.boros.has(b))).join("")) +
@@ -1420,7 +1429,9 @@ function renderFilmRows(list,el){
 function renderRows(){
   const list = visibleScreenings();
   const el = document.getElementById("rows");
-  if(!list.length){
+  // a day with no screenings can still have cinemas worth showing as quiet
+  const quiet = S.board==="venue" && !S.cityLoading && !S.cityError ? quietVenues(new Set()) : [];
+  if(!list.length && !quiet.length){
     el.className="vgrid";
     el.innerHTML = `<div class="vempty">${S.cityLoading?"Loading cinemas…":S.cityError||"Nothing matches those filters on this night. Try another date or clear your filters."}</div>`;
     return;
@@ -1561,14 +1572,13 @@ function viewContext(){
       ${hoods().map(h=>`<button class="chip ${S.hoods.has(h)?"on":""}" data-hood="${esc(h)}">${esc(h)}</button>`).join("")}
     </div>
   </div>
-  <div class="fieldset">
+  ${venueKinds().length>1?`<div class="fieldset">
     <div class="flabel">Kind of room</div>
     <div class="filters" style="margin-top:0">
       <button class="chip ${S.venueKind==="any"?"on":""}" data-kind="any">Doesn't matter</button>
-      <button class="chip ${S.venueKind==="indie"?"on":""}" data-kind="indie">Indie cinema</button>
-      <button class="chip ${S.venueKind==="chain"?"on":""}" data-kind="chain">AMC / Regal</button>
+      ${venueKinds().map(k=>`<button class="chip ${S.venueKind===k?"on":""}" data-kind="${esc(k)}">${k==="chain"?"Chains":"Indie cinema"}</button>`).join("")}
     </div>
-  </div>
+  </div>`:""}
   <div class="step-actions">
     <button class="btn btn-primary" data-go="2">Continue →</button>
     <span class="hint">${n} screening${n===1?"":"s"} match so far</span>
@@ -1806,7 +1816,8 @@ function viewSplit(){
   const x = S.chosen;
   if(!x || x.opt.kind!=="screen") return `<h2 class="step-h">Nothing to split.</h2>`;
   const v = VENUES[x.opt.s.venue];
-  const each = Math.round(v.price);
+  const priced = v.price > 0;          // some cinemas publish no fixed price
+  const each = Math.round(v.price||0);
   const total = each * S.people.length;
   return `<div class="step-label">Checkout</div>
   <h2 class="step-h">${esc(x.f.t)}</h2>
@@ -1815,11 +1826,14 @@ function viewSplit(){
     ${S.people.map(p=>`<div class="split-row">
       <span class="av" style="background:${avColor(p.name)};width:28px;height:28px;font-size:12px">${esc((p.name||"?").charAt(0).toUpperCase())}</span>
       <span>${esc(p.name)}</span>
-      <span class="amt">${money(each)}</span>
+      <span class="amt">${priced?money(each):"—"}</span>
     </div>`).join("")}
-    <div class="split-total"><span class="lbl" style="font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)">Total</span><span class="n">${money(total)}</span></div>
-    <button class="btn btn-primary paybtn" id="pay"><span class="card-glyph"></span> Split with Visa</button>
-    <p class="hint" style="text-align:center;margin-top:12px">Everyone gets a request. Tickets release when the last person pays.</p>
+    ${priced?`<div class="split-total"><span class="lbl" style="font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)">Total</span><span class="n">${money(total)}</span></div>`:""}
+    ${priced
+      ? `<button class="btn btn-primary paybtn" id="pay"><span class="card-glyph"></span> Split with Visa</button>
+         <p class="hint" style="text-align:center;margin-top:12px">Everyone gets a request. Tickets release when the last person pays.</p>`
+      : `<a class="btn btn-primary paybtn" ${screeningLink(x.opt.s)}>Get tickets at ${esc(v.sn||v.n)}</a>
+         <p class="hint" style="text-align:center;margin-top:12px">${esc(v.sn||v.n)} doesn't publish a fixed ticket price, so there's nothing to split yet. Check the cinema for prices.</p>`}
   </div>
   <div class="step-actions"><button class="btn btn-quiet" data-go="4">← Back to the picks</button></div>`;
 }
@@ -1924,7 +1938,8 @@ document.addEventListener("click", e=>{
     document.getElementById("splitcard").innerHTML =
       `<div class="paid"><div class="tick">✓</div>
         <div style="font-family:var(--display);font-size:24px">Requests sent</div>
-        <p class="hint" style="margin-top:10px">${S.people.length-1} people owe you ${money(VENUES[S.chosen.opt.s.venue].price)}.
+        <p class="hint" style="margin-top:10px">${(()=>{const pr=VENUES[S.chosen.opt.s.venue].price;
+          return pr>0 ? `${S.people.length-1} people owe you ${money(pr)}.` : `${S.people.length-1} people were sent a request.`;})()}
         Tickets are held for 20 minutes.</p></div>`;
   }
   if(e.target.id==="flow-back"){ captureInputs(); S.step===0 ? closeFlow() : go(S.step-1); }
@@ -2028,6 +2043,8 @@ function applyLive(data){
   (data.sources||[]).filter(r=>r.ok).forEach(r=>SCRAPED.add(r.id));
   EMPTY_WEEK.clear();
   (data.sources||[]).filter(r=>r.empty).forEach(r=>EMPTY_WEEK.add(r.id));
+
+  if(!venueKinds().includes(S.venueKind)) S.venueKind="any";
 
   SOURCE.live = true;
   SOURCE.fetchedAt = data.fetchedAt;

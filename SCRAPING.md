@@ -5,13 +5,17 @@
 page: the cinemas send no CORS headers, so a browser cannot read their pages directly.
 
 ```bash
-node scripts/scrape.mjs              # next 7 days
+node scripts/scrape.mjs                   # NYC, next 7 days
+node scripts/scrape.mjs --city boston     # Greater Boston
 node scripts/scrape.mjs --days 14
-node scripts/scrape.mjs --only ff,mg # one or more venue ids
+node scripts/scrape.mjs --only ff,mg      # one or more venue ids
 ```
 
-Open `index.html` without running the scraper and it falls back to the seeded sample week,
-and says so in the header.
+Each city writes its own file — `data/screenings.json` and
+`data/screenings-boston.json` — and the page loads one at a time, so venues and
+screenings from the two never mix. Both need to be refreshed to stay current.
+The page fetches its schedule at startup; if that fetch fails it says the
+listings could not be loaded rather than showing stale or invented data.
 
 ### Live adapters (15 of 20 venues)
 
@@ -87,9 +91,26 @@ zero-row parse as a failure, so a silent break shows up in the run report.
 ## Cities and genres
 
 `node scripts/scrape.mjs` refreshes NYC; `node scripts/scrape.mjs --city boston`
-refreshes Greater Boston (Brattle Theatre and Coolidge Corner Theatre). Each city
-has its own JSON schedule; the browser never mixes their venues or screenings.
-Boston coverage is limited to those two cinemas, not all Boston cinemas.
+refreshes Greater Boston. Everything the page does — the borough/area filter, the
+cinema multi-select, the time range, genres, quiet-venue notices, Find a Pick —
+runs off whichever city's file is loaded.
+
+Greater Boston lists six cinemas, four of them live:
+
+| Cinema | Source | Showtimes in the last run |
+| --- | --- | --- |
+| Brattle Theatre | HTML — per-day schedule | 20 |
+| Coolidge Corner Theatre | HTML — per-day showtimes page | 112 |
+| Landmark Kendall Square Cinema | JSON — Landmark Box Office API | 70 |
+| Harvard Film Archive | HTML — calendar with machine datetimes | 5 |
+
+| Not yet scraped | Why |
+| --- | --- |
+| Somerville Theatre | somervilletheatre.com returns 403 to scripted requests; the page loads normally in a real browser, so this needs a headless browser. |
+| Museum of Fine Arts | The programs calendar lists only a couple of film entries and carries date ranges rather than showtimes; per-screening times are not in any page found. |
+
+Boston venues are listed by town — Boston, Cambridge, Brookline, Somerville —
+where New York is listed by borough.
 
 Genre matching runs locally after scraping, using `data/movies.csv` copied from
 the supplied Desktop file. The CSV is checked before a cached TMDB fallback for missing genres. Replace that
