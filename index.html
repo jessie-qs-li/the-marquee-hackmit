@@ -70,12 +70,9 @@ ul{margin:0;padding:0;list-style:none}
   backdrop-filter:blur(14px);
 }
 .nav-in{display:flex;align-items:center;gap:26px;padding-block:16px 20px}
-.brand{display:flex;align-items:baseline;gap:9px;margin-right:6px}
-.bulbs{display:flex;gap:4px;align-self:center}
-.bulb{width:6px;height:6px;border-radius:50%;background:var(--amber);opacity:.35;animation:chase 2.4s infinite}
-.bulb:nth-child(2){animation-delay:.3s}.bulb:nth-child(3){animation-delay:.6s}
-@keyframes chase{0%,70%{opacity:.3}12%{opacity:1;box-shadow:0 0 8px var(--amber)}}
-@media (prefers-reduced-motion:reduce){.bulb{animation:none;opacity:.7}}
+.brand{display:flex;align-items:center;gap:10px;margin-right:6px}
+.brand-mark{display:block;width:106px;height:auto;mix-blend-mode:screen;flex:0 0 auto}
+@media (max-width:720px){.brand-mark{width:80px}}
 .brand b{font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:.005em;text-transform:uppercase}
 .navlinks{display:flex;gap:22px;font-size:14px}
 .navlinks button{color:var(--faint);padding-block:4px;border-bottom:1.5px solid transparent}
@@ -550,7 +547,7 @@ a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset
   <div class="nav">
     <div class="wrap wrap-wide nav-in">
       <div class="brand">
-        <span class="bulbs"><i class="bulb"></i><i class="bulb"></i><i class="bulb"></i></span>
+        <img class="brand-mark" src="assets/marquee-logo.png" alt="" width="106" height="44" aria-hidden="true">
         <b>The Marquee</b>
       </div>
       <nav class="navlinks">
