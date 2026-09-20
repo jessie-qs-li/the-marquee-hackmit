@@ -6,6 +6,10 @@ window.MarqueeMap=(()=>{
     filtered differently: the base keeps water and parks coloured, while the
     labels are forced to plain greyscale and can never pick up a tint. */
  const KEY='cb1_3m7j_1_17fd37577805412e52f4339d';
+ /* Theaters with a photo in assets/theaters. Anything absent just renders the
+    popup without one. */
+ const SHOTS=new Set(['angelika','afa','bam','cv','ff','ifc','kew','maysles','mg',
+                      'nhp','nhw','paris','quad','roxy','spec','synd','udocs']);
  const tileURL='https://basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}.png?key='+KEY;
  const labelURL='https://basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}.png?key='+KEY;
  let map,layer,lastSignature='',locations,userMoved=false;
@@ -36,10 +40,10 @@ window.MarqueeMap=(()=>{
    for(const id of ids){
     const venue=venues[id],n=counts[id]||0,point=locations[id];
     const node=document.createElement('div');
-    node.innerHTML=`<strong>${escape(venue.n)}</strong><p>${escape(point.address)}</p><p>${n?n+' matching screening'+(n===1?'':'s'):'No matching screenings in these listings'}</p>`;
+    node.innerHTML=`${SHOTS.has(id)?`<img class="popup-shot" data-src="assets/theaters/${id}.jpg" alt="" width="660" height="240">`:''}<strong>${escape(venue.n)}</strong><p>${escape(point.address)}</p><p>${n?n+' matching screening'+(n===1?'':'s'):'No matching screenings in these listings'}</p>`;
     const href=(()=>{try{const u=new URL(venue.url);return /^https?:$/.test(u.protocol)?u.href:null;}catch{return null;}})();
     if(href){const a=document.createElement('a');a.href=href;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Visit theater →';node.appendChild(a);}
-    const marker=L.marker(point.coordinates,{icon:L.divIcon({className:'theater-pin'+(n?'':' muted'),html:'<span></span>',iconSize:[24,24],iconAnchor:[12,12]}),title:venue.n,alt:venue.n,keyboard:true}).bindPopup(node,{autoPan:false}).addTo(layer);
+    const marker=L.marker(point.coordinates,{icon:L.divIcon({className:'theater-pin'+(n?'':' muted'),html:'<span></span>',iconSize:[24,24],iconAnchor:[12,12]}),title:venue.n,alt:venue.n,keyboard:true}).bindPopup(node,{autoPan:false,maxWidth:288,minWidth:248}).addTo(layer);
     marker._hasScreenings=n>0;
     hoverPopup(marker);
    }
@@ -65,6 +69,9 @@ window.MarqueeMap=(()=>{
   marker.on('mouseover',open).on('mouseout',close);
   marker.on('focus',open).on('blur',close);
   marker.on('popupopen',()=>{const el=marker.getPopup().getElement();
+   if(el){const img=el.querySelector('img.popup-shot[data-src]');
+    if(img){img.src=img.dataset.src;delete img.dataset.src;}}
+   fitPopup(marker);
    if(el&&!el._marqueeHover){el._marqueeHover=true;
     el.addEventListener('mouseenter',()=>clearTimeout(timer));
     el.addEventListener('mouseleave',close);}});
@@ -72,6 +79,28 @@ window.MarqueeMap=(()=>{
 
  /* Chromium sends trackpad pinches as ctrl+wheel; Safari uses gesture events.
     Fractional zoom avoids losing small movements to zoom snapping. */
+ /* Popups open above the pin, and the photo makes them tall enough that a pin
+    near the top of the panel would have its picture cut off. Auto-panning
+    would drag the map out from under the cursor and cancel the hover, so the
+    popup is flipped below the pin instead when there is no room above. */
+ function fitPopup(marker){
+  const pop=marker.getPopup(); if(!pop||!pop.getElement||!map.getContainer) return;
+  const place=()=>{
+   const el=pop.getElement(); if(!el) return;
+   const box=el.getBoundingClientRect(), panel=map.getContainer().getBoundingClientRect();
+   const below=!!pop.options._marqueeFlipped;
+   const wantBelow=below ? box.top-(box.height+34) < panel.top+4   // would it still clip if put back?
+                         : box.top < panel.top+4;
+   if(wantBelow===below) return;
+   pop.options._marqueeFlipped=wantBelow;
+   pop.options.offset=wantBelow?L.point(0,box.height+34):L.point(0,7);
+   pop.update();
+  };
+  place();
+  const img=pop.getElement()&&pop.getElement().querySelector('img.popup-shot');
+  if(img&&!img.complete) img.addEventListener('load',place,{once:true});  // height is only known once it loads
+ }
+
  function pinchToZoom(map){
   const box=map.getContainer&&map.getContainer();
   if(!box||!box.addEventListener)return;
