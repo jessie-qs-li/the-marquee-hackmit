@@ -91,10 +91,13 @@ python3 -m http.server 8000
 ## Demo script
 
 1. Land on the browse page. Fourteen tabs, one page.
-2. Hit "Find a pick."
-3. Add `@jessieqs`, `@dmarchetti`, `@tobyw` — three genuinely incompatible tastes.
-4. Vibes: `something dumb and fun, we've all had a long week`
-5. On the results, toggle **Everyone's happy** against **Group average** and watch the picks reorder.
+2. Hit **Find a pick** in the sidebar.
+3. Add `@jessieqs`, `@dmarchetti`, `@tobyw` — three genuinely incompatible tastes. Drop a `ratings.csv` on a fourth card if you want to show the export path reading a real file.
+4. **Send an invite link**, open it on a phone, and watch the same group rebuild itself with a card waiting for whoever followed it.
+5. Vibes: `something dumb and fun, we've all had a long week`
+6. The pipeline readout names what each layer did and what it cost. Stage 0 is the number to point at.
+7. On the results, toggle **Everyone's happy** against **Group average** and watch the picks reorder.
+8. **Split 3 ways** on the top pick, then confirm.
 
 ## Next
 
