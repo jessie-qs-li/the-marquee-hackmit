@@ -2,13 +2,19 @@
  "city": "nyc",
  "genreCoverage": {
   "total": 187,
-  "classified": 120,
+  "classified": 121,
   "unresolved": [
    {
     "key": "cameraman|",
     "title": "THE CAMERAMAN",
     "year": null,
     "reason": "ambiguous"
+   },
+   {
+    "key": "ghostintheshell30thanniversaryremaster|1995",
+    "title": "Ghost in the Shell: 30th Anniversary Remaster",
+    "year": 1995,
+    "reason": "not-found"
    },
    {
     "key": "bestofbettyboop|",
@@ -23,38 +29,14 @@
     "reason": "ambiguous"
    },
    {
-    "key": "fisherman|",
-    "title": "The Fisherman",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "tony|",
     "title": "Tony",
     "year": null,
     "reason": "ambiguous"
    },
    {
-    "key": "badapples|",
-    "title": "Bad Apples",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "checkout|",
-    "title": "Checkout",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "hope|",
     "title": "Hope",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
     "year": null,
     "reason": "ambiguous"
    },
@@ -67,6 +49,12 @@
    {
     "key": "serpentspath|",
     "title": "Serpent's Path",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "fisherman|",
+    "title": "The Fisherman",
     "year": null,
     "reason": "ambiguous"
    },
@@ -89,14 +77,14 @@
     "reason": "ambiguous"
    },
    {
-    "key": "musical|",
-    "title": "THE MUSICAL",
+    "key": "badapples|",
+    "title": "Bad Apples",
     "year": null,
     "reason": "ambiguous"
    },
    {
-    "key": "goodsport|",
-    "title": "GOOD SPORT",
+    "key": "checkout|",
+    "title": "Checkout",
     "year": null,
     "reason": "ambiguous"
    },
@@ -119,10 +107,16 @@
     "reason": "not-found"
    },
    {
-    "key": "odysseydcp|",
-    "title": "The Odyssey (DCP)",
+    "key": "musical|",
+    "title": "THE MUSICAL",
     "year": null,
-    "reason": "not in catalogue or ambiguous title"
+    "reason": "ambiguous"
+   },
+   {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "2026sundancefestivalshortfilmtour|",
@@ -410,7 +404,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-20T18:13:35.139Z",
+ "fetchedAt": "2026-09-20T20:54:53.368Z",
  "week": [
   "2026-09-20",
   "2026-09-21",
@@ -628,35 +622,35 @@
    "name": "Film Forum",
    "ok": true,
    "count": 87,
-   "ms": 903
+   "ms": 966
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
-   "count": 61,
-   "ms": 137
+   "count": 63,
+   "ms": 133
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 153,
-   "ms": 198
+   "ms": 259
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 22,
-   "ms": 517
+   "ms": 380
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 78,
-   "ms": 199
+   "count": 74,
+   "ms": 232
   },
   {
    "id": "cv",
@@ -670,21 +664,21 @@
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 20,
-   "ms": 147
+   "ms": 155
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 172,
-   "ms": 4706
+   "count": 165,
+   "ms": 4677
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 22,
-   "ms": 2177
+   "count": 21,
+   "ms": 2797
   },
   {
    "id": "wrt",
@@ -707,21 +701,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 109,
-   "ms": 127
+   "ms": 309
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 77,
-   "ms": 4466
+   "ms": 4830
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 154,
-   "ms": 6460
+   "count": 147,
+   "ms": 7058
   },
   {
    "id": "spec",
@@ -735,8 +729,8 @@
    "id": "synd",
    "name": "Syndicated",
    "ok": true,
-   "count": 14,
-   "ms": 1326
+   "count": 13,
+   "ms": 1632
   },
   {
    "id": "momi",
@@ -751,7 +745,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 5,
-   "ms": 253
+   "ms": 396
   },
   {
    "id": "kew",
@@ -767,7 +761,7 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 1162
+   "ms": 1977
   }
  ],
  "notices": {},
@@ -825,6 +819,43 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "mg",
+   "title": "Ghost in the Shell: 30th Anniversary Remaster",
+   "date": "2026-09-20",
+   "time": "11:00",
+   "fmt": "4K DCP",
+   "year": 1995,
+   "runtime": 83,
+   "director": "Mamoru Oshii",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "mg",
+   "title": "The Little Mermaid",
+   "date": "2026-09-20",
+   "time": "11:00",
+   "fmt": "35mm",
+   "year": 1989,
+   "runtime": 83,
+   "director": "Ron Clements, John Musker",
+   "genres": [
+    "family",
+    "comedy",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Animation",
+    "Children",
+    "Comedy",
+    "Musical",
+    "Romance"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2081"
   },
   {
    "venue": "nhp",
@@ -957,33 +988,6 @@
    "tmdbId": 1359206
   },
   {
-   "venue": "quad",
-   "title": "Virginia Woolf’s Night & Day",
-   "date": "2026-09-20",
-   "time": "12:35",
-   "genres": [
-    "comedy",
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1291375
-  },
-  {
-   "venue": "quad",
-   "title": "The Fisherman",
-   "date": "2026-09-20",
-   "time": "12:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "roxy",
    "title": "Tony",
    "date": "2026-09-20",
@@ -1064,15 +1068,6 @@
    "genreMovieId": "2196"
   },
   {
-   "venue": "quad",
-   "title": "Bad Apples",
-   "date": "2026-09-20",
-   "time": "13:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-09-20",
@@ -1087,15 +1082,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "quad",
-   "title": "Checkout",
-   "date": "2026-09-20",
-   "time": "13:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "bam",
@@ -1254,20 +1240,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-20",
-   "time": "14:20",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -1448,73 +1420,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "synd",
-   "title": "Teenage Sex and Death at Camp Miasma",
-   "date": "2026-09-20",
-   "time": "15:25",
-   "url": "",
-   "note": "Sold out",
-   "genres": [
-    "comedy",
-    "horror",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Horror",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-20",
-   "time": "15:30",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-20",
-   "time": "15:35",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "TRACES OF HOME",
-   "date": "2026-09-20",
-   "time": "15:45",
-   "fmt": "Q&A to follow the screening",
-   "director": "Colette Ghunim",
-   "runtime": 93,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/traces-of-home",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1493991
-  },
-  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-09-20",
@@ -1529,20 +1434,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "angelika",
-   "title": "GOOD SPORT",
-   "date": "2026-09-20",
-   "time": "16:00",
-   "fmt": "Q&A to follow the screening",
-   "director": "Andrew Jack Zuckerman",
-   "runtime": 73,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/good-sport",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
@@ -1607,29 +1498,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "TEENAGE SEX AND DEATH AT CAMP MIASMA in 35MM",
-   "date": "2026-09-20",
-   "time": "16:15",
-   "fmt": "35mm",
-   "director": "Jane Schoenbrun",
-   "runtime": 112,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/teenage-sex-and-death-at-camp-miasma-in-35mm",
-   "genres": [
-    "comedy",
-    "horror",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Horror",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
-  },
-  {
    "venue": "bam",
    "title": "The World",
    "date": "2026-09-20",
@@ -1658,27 +1526,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "paris",
-   "title": "Barry Lyndon",
-   "date": "2026-09-20",
-   "time": "16:15",
-   "runtime": 185,
-   "fmt": "",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3012/seats",
-   "genres": [
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Romance",
-    "War"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "2730"
   },
   {
    "venue": "bam",
@@ -1761,20 +1608,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-20",
-   "time": "16:40",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "bam",
@@ -2062,21 +1895,12 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Odyssey (DCP)",
-   "date": "2026-09-20",
-   "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "synd",
    "title": "Tony",
    "date": "2026-09-20",
    "time": "18:00",
-   "url": "",
-   "note": "Sold out",
+   "url": "https://ticketing.useast.veezi.com/purchase/6564?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4394,15 +4218,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 91735
-  },
-  {
-   "venue": "nhp",
-   "title": "The Odyssey (DCP)",
-   "date": "2026-09-21",
-   "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -6756,15 +6571,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Odyssey (DCP)",
-   "date": "2026-09-22",
-   "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-09-22",
@@ -9007,15 +8813,6 @@
    "year": 1990,
    "runtime": 108,
    "director": "F. J. Ossang",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Odyssey (DCP)",
-   "date": "2026-09-23",
-   "time": "18:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11366,15 +11163,6 @@
    "tmdbId": 91735
   },
   {
-   "venue": "nhp",
-   "title": "The Odyssey (DCP)",
-   "date": "2026-09-24",
-   "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "AMERICAN DOCTOR",
    "date": "2026-09-24",
@@ -13204,15 +12992,6 @@
    "tmdbId": 969681
   },
   {
-   "venue": "nhp",
-   "title": "The Odyssey (DCP)",
-   "date": "2026-09-25",
-   "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Take Me Home",
    "date": "2026-09-25",
@@ -14903,15 +14682,6 @@
   {
    "venue": "afa",
    "title": "TONEY W. MERRITT PGM 2: VIGNETTES / MINIATURES",
-   "date": "2026-09-26",
-   "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Odyssey (DCP)",
    "date": "2026-09-26",
    "time": "18:00",
    "genres": [],

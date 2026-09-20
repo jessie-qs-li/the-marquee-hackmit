@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 53,
-  "classified": 28,
+  "classified": 27,
   "unresolved": [
    {
     "key": "weight|",
@@ -33,6 +33,12 @@
     "title": "If I Go Will They Miss Me",
     "year": null,
     "reason": "ambiguous"
+   },
+   {
+    "key": "librarians|",
+    "title": "The Librarians",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "odysseydigital|",
@@ -83,16 +89,16 @@
     "reason": "not-found"
    },
    {
-    "key": "misanthrope|",
-    "title": "The Misanthrope",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "cemeterycinemathestraightstorywingsofdesire|",
     "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
     "year": null,
     "reason": "not-found"
+   },
+   {
+    "key": "misanthrope|",
+    "title": "The Misanthrope",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "votingcountselectionsinfilmwednesdaysection|",
@@ -158,7 +164,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-20T18:13:41.057Z",
+ "fetchedAt": "2026-09-20T20:55:01.062Z",
  "week": [
   "2026-09-20",
   "2026-09-21",
@@ -236,14 +242,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 20,
-   "ms": 2203
+   "ms": 2272
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 112,
-   "ms": 2290
+   "ms": 3540
   },
   {
    "id": "somerville",
@@ -258,14 +264,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 69,
-   "ms": 696
+   "ms": 1278
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 523
+   "ms": 402
   },
   {
    "id": "mfa",
@@ -368,19 +374,15 @@
    "filmUrl": "https://brattlefilm.org/movies/hunt-for-the-wilderpeople/",
    "genres": [
     "adventure",
-    "comedy",
-    "drama"
+    "comedy"
    ],
-   "year": 2016,
+   "year": null,
    "sourceGenres": [
     "Adventure",
-    "Comedy",
-    "Drama",
-    "Adventure",
-    "Comedy",
-    "Drama"
+    "Comedy"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "152970"
   },
   {
    "venue": "kendall",
@@ -557,14 +559,10 @@
    "time": "15:00",
    "url": "https://brattlefilm.org/showtimes/the-librarians-9-20-26-300-pm/",
    "filmUrl": "https://brattlefilm.org/movies/the-librarians/",
-   "genres": [
-    "documentary"
-   ],
-   "year": 2025,
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -797,15 +795,20 @@
    "url": "https://brattlefilm.org/purchase/1686146/",
    "filmUrl": "https://brattlefilm.org/movies/jurassic-park/",
    "genres": [
+    "action",
     "adventure",
-    "scifi"
+    "scifi",
+    "thriller"
    ],
-   "year": 1993,
+   "year": null,
    "sourceGenres": [
+    "Action",
     "Adventure",
-    "Science Fiction"
+    "Sci-Fi",
+    "Thriller"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "480"
   },
   {
    "venue": "kendall",
@@ -995,19 +998,15 @@
    "filmUrl": "https://brattlefilm.org/movies/hunt-for-the-wilderpeople/",
    "genres": [
     "adventure",
-    "comedy",
-    "drama"
+    "comedy"
    ],
-   "year": 2016,
+   "year": null,
    "sourceGenres": [
     "Adventure",
-    "Comedy",
-    "Drama",
-    "Adventure",
-    "Comedy",
-    "Drama"
+    "Comedy"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "152970"
   },
   {
    "venue": "coolidge",
@@ -1907,22 +1906,22 @@
   },
   {
    "venue": "coolidge",
-   "title": "The Misanthrope",
+   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
    "date": "2026-09-22",
    "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017272~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/misanthrope",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1025694~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
-   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
+   "title": "The Misanthrope",
    "date": "2026-09-22",
    "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1025694~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1017272~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/misanthrope",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2412,6 +2411,17 @@
   },
   {
    "venue": "coolidge",
+   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
+   "date": "2026-09-23",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1033993~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
    "title": "Romy and Michele’s High School Reunion",
    "date": "2026-09-23",
    "time": "19:00",
@@ -2425,17 +2435,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1513"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
-   "date": "2026-09-23",
-   "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1033993~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "kendall",
