@@ -646,7 +646,7 @@ a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset
 #theater-map .marquee-label-tiles{filter:invert(1) grayscale(1) brightness(.95)}
 #theater-map .leaflet-popup-content{font-family:Lexend,sans-serif;line-height:1.5;color:var(--text);margin:0;padding:11px 14px 12px}
 /* the theater photo sits flush to the top corners of the popup */
-#theater-map .popup-shot{display:block;width:calc(100% + 28px);margin:-11px -14px 10px;height:auto;
+#theater-map .popup-shot{display:block;width:calc(100% + 28px);max-width:none;margin:-11px -14px 10px;height:auto;
   aspect-ratio:2.75/1;object-fit:cover;border-radius:3px 3px 0 0;background:var(--ink-700)}
 #theater-map .leaflet-popup-content p{margin:7px 0;font-size:11px;color:var(--dim)}
 #theater-map .leaflet-popup-content a{color:var(--hot);font-size:11px;font-weight:600}
@@ -654,7 +654,9 @@ a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset
 #theater-map .leaflet-popup-content-wrapper{background:var(--ink-800);color:var(--text);
   border:1px solid var(--line-2);border-radius:4px;box-shadow:0 10px 28px rgba(0,0,0,.6)}
 #theater-map .leaflet-popup-tip{background:var(--ink-800);border:1px solid var(--line-2)}
-#theater-map .leaflet-popup-close-button{display:none}   /* it closes on hover-out */
+#theater-map .leaflet-popup-close-button{display:none}
+/* when the popup is flipped below its pin, its tip has to point up at it */
+#theater-map .leaflet-popup.marquee-flipped .leaflet-popup-tip-container{top:-19px;bottom:auto;transform:rotate(180deg)}   /* it closes on hover-out */
 #theater-map .leaflet-control-attribution{font-size:9px;background:rgba(10,11,15,.78);color:var(--faint)}
 #theater-map .leaflet-control-attribution a{color:var(--dim)}
 #theater-map .leaflet-bar a{background:var(--ink-800);color:var(--text);border-bottom-color:var(--line-2)}
@@ -736,9 +738,9 @@ a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset
           <div class="vtoggle" id="vtoggle" role="group" aria-label="Group screenings"></div>
         </div>
         <div class="trange" id="trange"></div>
-        <section id="theater-map-panel" class="theater-map-panel" aria-label="NYC theater map" hidden>
+        <section id="theater-map-panel" class="theater-map-panel" aria-label="Theater map" hidden>
           <p id="theater-map-status" role="status" hidden></p>
-          <div id="theater-map" aria-label="Interactive map of New York City theaters"></div>
+          <div id="theater-map" aria-label="Interactive map of the listed theaters"></div>
         </section>
         <div class="rows" id="rows"></div>
       </div>
@@ -772,6 +774,7 @@ a:focus-visible,select:focus-visible{outline:2px solid var(--hot);outline-offset
 
 <script src="assets/leaflet/leaflet.js"></script>
 <script src="assets/theater-locations.js"></script>
+<script src="assets/theater-locations-boston.js"></script>
 <script src="assets/theater-map.js"></script>
 <script>
 /* =========================================================================
@@ -1496,7 +1499,7 @@ function renderControls(){
 
   const pct = m=>(m/1440)*100;
   document.getElementById("trange").innerHTML = `
-    ${S.city==='nyc'?`<label class="map-checkbox"><input id="show-map" type="checkbox" ${S.showMap?'checked':''} aria-controls="theater-map-panel"> Show map</label>`:''}
+    <label class="map-checkbox"><input id="show-map" type="checkbox" ${S.showMap?'checked':''} aria-controls="theater-map-panel"> Show map</label>
     <span class="tlab">Select time range</span>
     <span class="tval" id="time-min-label">${hhmm(S.tMin)}</span>
     <span class="rr">
@@ -1678,7 +1681,7 @@ function renderFilmRows(list,el){
 
 function renderTheaterMap(list=visibleScreenings()){
   const counts={};list.forEach(s=>counts[s.venue]=(counts[s.venue]||0)+1);
-  if(window.MarqueeMap)window.MarqueeMap.update({visible:S.city==='nyc'&&S.showMap&&!S.cityLoading,venues:VENUES,counts,boroughs:S.boros,cinemas:S.cinemas});
+  if(window.MarqueeMap)window.MarqueeMap.update({visible:S.showMap&&!S.cityLoading,venues:VENUES,counts,boroughs:S.boros,cinemas:S.cinemas,city:S.city});
 }
 document.addEventListener('change',e=>{if(e.target.id==='show-map'){S.showMap=e.target.checked;renderTheaterMap();}});
 

@@ -9,17 +9,21 @@ window.MarqueeMap=(()=>{
  /* Theaters with a photo in assets/theaters. Anything absent just renders the
     popup without one. */
  const SHOTS=new Set(['angelika','afa','bam','cv','ff','ifc','kew','maysles','mg',
-                      'nhp','nhw','paris','quad','roxy','spec','synd','udocs']);
+                      'nhp','nhw','paris','quad','roxy','spec','synd','udocs',
+                      'brattle','coolidge','kendall']);
  const tileURL='https://basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}.png?key='+KEY;
  const labelURL='https://basemaps.cartocdn.com/rastertiles/voyager_only_labels/{z}/{x}/{y}.png?key='+KEY;
  let map,layer,lastSignature='',locations,userMoved=false;
  const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
- function update({visible,venues,counts,boroughs,cinemas}){
+ function update({visible,venues,counts,boroughs,cinemas,city}){
   const section=document.getElementById('theater-map-panel');section.hidden=!visible;
   if(!visible)return;
   const status=document.getElementById('theater-map-status');
-  if(!window.L||!window.NYC_THEATER_LOCATIONS){status.hidden=false;status.textContent='Map unavailable. Theater links are still available in the listings below.';return;}
-  locations=window.NYC_THEATER_LOCATIONS;
+  const set=city==='boston'?window.BOSTON_THEATER_LOCATIONS:window.NYC_THEATER_LOCATIONS;
+  if(!window.L||!set){status.hidden=false;status.textContent='Map unavailable. Theater links are still available in the listings below.';return;}
+  // a city switch replaces every pin, so the old frame no longer applies
+  if(locations&&locations!==set){lastSignature='';userMoved=false;}
+  locations=set;
   if(!map){
    map=L.map('theater-map',{scrollWheelZoom:false,zoomSnap:0,zoomDelta:0.5}).setView([40.735,-73.975],13);
    pinchToZoom(map);
@@ -34,7 +38,7 @@ window.MarqueeMap=(()=>{
    },true);
   }
   const ids=Object.keys(locations).filter(id=>venues[id]&&(!boroughs.size||boroughs.has(venues[id].boro))&&(!cinemas.size||cinemas.has(id)));
-  const signature=JSON.stringify(ids.map(id=>[id,counts[id]||0]));
+  const signature=JSON.stringify([city||'nyc',ids.map(id=>[id,counts[id]||0])]);
   if(signature!==lastSignature){
    layer.clearLayers();lastSignature=signature;
    for(const id of ids){
@@ -43,7 +47,7 @@ window.MarqueeMap=(()=>{
     node.innerHTML=`${SHOTS.has(id)?`<img class="popup-shot" data-src="assets/theaters/${id}.jpg" alt="" width="660" height="240">`:''}<strong>${escape(venue.n)}</strong><p>${escape(point.address)}</p><p>${n?n+' matching screening'+(n===1?'':'s'):'No matching screenings in these listings'}</p>`;
     const href=(()=>{try{const u=new URL(venue.url);return /^https?:$/.test(u.protocol)?u.href:null;}catch{return null;}})();
     if(href){const a=document.createElement('a');a.href=href;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Visit theater →';node.appendChild(a);}
-    const marker=L.marker(point.coordinates,{icon:L.divIcon({className:'theater-pin'+(n?'':' muted'),html:'<span></span>',iconSize:[24,24],iconAnchor:[12,12]}),title:venue.n,alt:venue.n,keyboard:true}).bindPopup(node,{autoPan:false,maxWidth:288,minWidth:248}).addTo(layer);
+    const marker=L.marker(point.coordinates,{icon:L.divIcon({className:'theater-pin'+(n?'':' muted'),html:'<span></span>',iconSize:[24,24],iconAnchor:[12,12]}),alt:venue.n,keyboard:true}).bindPopup(node,{autoPan:false,maxWidth:288,minWidth:248}).addTo(layer);
     marker._hasScreenings=n>0;
     hoverPopup(marker);
    }
@@ -95,6 +99,8 @@ window.MarqueeMap=(()=>{
    pop.options._marqueeFlipped=wantBelow;
    pop.options.offset=wantBelow?L.point(0,box.height+34):L.point(0,7);
    pop.update();
+   const after=pop.getElement();
+   if(after&&after.classList) after.classList.toggle('marquee-flipped',wantBelow);
   };
   place();
   const img=pop.getElement()&&pop.getElement().querySelector('img.popup-shot');
