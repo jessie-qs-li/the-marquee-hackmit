@@ -1370,11 +1370,16 @@ function renderVenueBoard(list,el){
               const badge = shows.map(badgeFor).find(Boolean);
               const meta = [f.y, f.d].filter(Boolean).join(" · ");
               const timeButton = s => `<a class="vt-time ${s.out?"out":""}" ${screeningLink(s)} title="${esc(f.t)}${s.out?" — sold out":""}">${s.time}</a>`;
-              // every showtime is listed; a film's times read as one stacked column
               return `<div class="vfilm">
-                <div class="vtimes">${shows.map(timeButton).join("")}</div>
+                <div class="vtimes">
+                  ${timeButton(shows[0])}
+                  ${shows.length>2?`<button class="screening-dots" data-screenings-toggle="expand" aria-label="Show more screening times for ${esc(f.t)}" aria-expanded="false" aria-controls="extra-${esc(vid)}-${esc(fid)}"><i></i><i></i><i></i><span class="screening-tooltip" aria-hidden="true">Show more screening times</span></button>
+                  <div class="extra-screenings" id="extra-${esc(vid)}-${esc(fid)}" hidden>${shows.slice(1,-1).map(timeButton).join("")}</div>`:""}
+                  ${shows.length>1?timeButton(shows.at(-1)):""}
+                </div>
                 <a class="vn" ${screeningLink(shows[0],true)}>${esc(f.t)}</a>
                 ${badge?`<span class="vbadge ${badge[1]}">${badge[0]}</span>`:"<span></span>"}
+                ${shows.length>2?`<button class="screening-toggle" data-screenings-toggle="collapse" aria-expanded="true" aria-controls="extra-${esc(vid)}-${esc(fid)}" hidden>Show fewer screening times</button>`:""}
               </div>`;
             }).join("");
         })()}
@@ -1848,6 +1853,18 @@ function toast(msg){
 }
 
 document.addEventListener("click", e=>{
+  const screeningToggle=e.target.closest('[data-screenings-toggle]');
+  if(screeningToggle){
+    const tile=screeningToggle.closest('.vfilm');
+    const expanded=screeningToggle.dataset.screeningsToggle==='expand';
+    const dots=tile.querySelector('.screening-dots'), collapse=tile.querySelector('.screening-toggle');
+    tile.querySelector('.extra-screenings').hidden=!expanded;
+    dots.hidden=expanded;dots.setAttribute('aria-expanded',String(expanded));
+    collapse.hidden=!expanded;
+    (expanded?collapse:dots).focus();
+    return;
+  }
+
   if((S.cinemaOpen||S.cityOpen) && !e.target.closest(".drop")){
     S.cinemaOpen=false; S.cityOpen=false; renderSide();
   }
