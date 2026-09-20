@@ -176,3 +176,17 @@ must have an exact normalized title and agree with a known release year; ambiguo
 remakes are left for review. Network/authentication failures stop further API calls
 for that run and are reported in `genreCoverage.errors`. CSV and cached data remain
 usable without credentials. To deliberately refresh a film, remove its cache entry.
+
+## NYC theater map
+
+The This Week map uses locally bundled Leaflet 1.9.4 and CARTO Voyager raster
+tiles. The public basemap key is in `assets/theater-map.js`; it is intended for
+browser tile requests, unlike the private TMDB credential. CARTO allows domain
+restrictions via its basemap dashboard. Attribution remains visible on the map.
+
+`assets/theater-locations.js` stores coordinates for the 20 NYC venues, with
+OpenStreetMap source URLs. These were geocoded once and cached; no geocoding API
+is called by visitors. Check coordinates when a venue relocates. The map honors
+borough and cinema filters; red pins have screenings matching the chosen day,
+time and content filters. Boston does not display a map yet. Show map defaults
+on and its selection persists while switching filters and cities in the page.
