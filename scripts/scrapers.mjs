@@ -26,11 +26,11 @@ export async function get(url, options = {}){
         ...options.headers
       }, redirect:"follow" });
       if(res.ok) return res.text();
-      last = new Error(`HTTP ${res.status}`);
+      last = new Error(`HTTP ${res.status} on ${(options.method||"GET")} ${new URL(url).pathname}`);
       if(!RETRYABLE.has(res.status)) throw last;
     }catch(err){
       last = err;
-      if(err.message && /^HTTP (404|410)$/.test(err.message)) throw err;
+      if(err.message && /^HTTP (404|410)\b/.test(err.message)) throw err;
     }
     if(attempt < tries) await sleep(700 * attempt + Math.random()*400);   // back off, and jitter so venues do not sync up
   }
@@ -390,16 +390,20 @@ export async function cinemaVillage(v, ctx){
   const films = parseCinemaVillageListings(await get(`${v.url}showtimes/`), ctx);
   if(!films.length) throw new Error('Cinema Village has no dated film listings in range');
   const out = [];
-  // Small batches avoid hammering the venue's server.
-  for(let i=0;i<films.length;i+=3){
-    const rows = await Promise.all(films.slice(i,i+3).map(async film => {
-      const data = JSON.parse(await get(`${v.url}managemovies.html`, {
-        method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'},
-        body:new URLSearchParams({do:'movietimes',m:film.movieId,d:film.date}).toString()
-      }));
-      return parseCinemaVillageTimes(data, film, ctx);
+  const origin = new URL(v.url).origin;
+  for(const film of films){
+    const data = JSON.parse(await get(`${v.url}managemovies.html`, {
+      method:'POST',
+      headers:{
+        'Content-Type':'application/x-www-form-urlencoded; charset=UTF-8',
+        'X-Requested-With':'XMLHttpRequest',
+        'Accept':'application/json, text/javascript, */*; q=0.01',
+        'Origin':origin,
+        'Referer':`${v.url}showtimes/`
+      },
+      body:new URLSearchParams({do:'movietimes',m:film.movieId,d:film.date}).toString()
     }));
-    out.push(...rows.flat());
+    out.push(...parseCinemaVillageTimes(data, film, ctx));
   }
   return out;
 }
