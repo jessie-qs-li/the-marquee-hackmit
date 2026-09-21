@@ -182,7 +182,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-21T12:59:26.136Z",
+ "fetchedAt": "2026-09-21T20:01:48.455Z",
  "week": [
   "2026-09-21",
   "2026-09-22",
@@ -260,14 +260,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 20,
-   "ms": 2572
+   "ms": 2224
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 86,
-   "ms": 5449
+   "ms": 2416
   },
   {
    "id": "somerville",
@@ -282,14 +282,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 54,
-   "ms": 1356
+   "ms": 790
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 217
+   "ms": 457
   },
   {
    "id": "mfa",
@@ -636,15 +636,16 @@
    "url": "https://www.zeffy.com/en-US/ticketing/8th-taiwan-film-festival-of-boston",
    "filmUrl": "https://brattlefilm.org/movies/marching-boys/",
    "genres": [
-    "drama",
-    "comedy"
+    "comedy",
+    "drama"
    ],
-   "year": 2025,
+   "year": null,
    "sourceGenres": [
-    "Drama",
-    "Music"
+    "Music",
+    "Drama"
    ],
-   "genreSource": "venue"
+   "genreSource": "tmdb",
+   "tmdbId": 1222574
   },
   {
    "venue": "coolidge",
@@ -1624,6 +1625,17 @@
   },
   {
    "venue": "coolidge",
+   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
+   "date": "2026-09-23",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1033993~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
    "title": "Romy and Michele’s High School Reunion",
    "date": "2026-09-23",
    "time": "19:00",
@@ -1637,17 +1649,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1513"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
-   "date": "2026-09-23",
-   "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1033993~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "kendall",
