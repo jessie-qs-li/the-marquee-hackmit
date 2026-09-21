@@ -9,15 +9,32 @@
 const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 " +
            "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36";
 
+const sleep = ms => new Promise(r=>setTimeout(r,ms));
+/* Worth retrying: a rate-limit, a gateway hiccup, a dropped connection. Not
+ * worth retrying: 404, 410 -- the page is simply not there. */
+const RETRYABLE = new Set([408,425,429,500,502,503,504,403]);
+
 export async function get(url, options = {}){
-  const res = await fetch(url, { ...options, signal:AbortSignal.timeout(30000), headers:{
-    "User-Agent":UA,
-    "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language":"en-US,en;q=0.9",
-    ...options.headers
-  }, redirect:"follow" });
-  if(!res.ok) throw new Error(`HTTP ${res.status}`);
-  return res.text();
+  const tries = options.tries ?? 3;
+  let last;
+  for(let attempt=1; attempt<=tries; attempt++){
+    try{
+      const res = await fetch(url, { ...options, signal:AbortSignal.timeout(30000), headers:{
+        "User-Agent":UA,
+        "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language":"en-US,en;q=0.9",
+        ...options.headers
+      }, redirect:"follow" });
+      if(res.ok) return res.text();
+      last = new Error(`HTTP ${res.status}`);
+      if(!RETRYABLE.has(res.status)) throw last;
+    }catch(err){
+      last = err;
+      if(err.message && /^HTTP (404|410)$/.test(err.message)) throw err;
+    }
+    if(attempt < tries) await sleep(700 * attempt + Math.random()*400);   // back off, and jitter so venues do not sync up
+  }
+  throw last;
 }
 
 /* ---------- helpers ---------- */
@@ -244,10 +261,8 @@ export async function nitehawk(v, ctx){
 /* ================= MAYSLES ================= */
 /* Squarespace serves the calendar collection as JSON; startDate is epoch ms. */
 export async function maysles(v, ctx){
-  const res = await fetch("https://www.maysles.org/calendar?format=json", {
-    headers:{ "User-Agent":UA, "Accept":"application/json" } });
-  if(!res.ok) throw new Error(`HTTP ${res.status}`);
-  const data = await res.json();
+  const data = JSON.parse(await get("https://www.maysles.org/calendar?format=json",
+    { headers:{ Accept:"application/json" } }));
   const out = [];
   for(const it of data.items || []){
     const ms = it.startDate;
@@ -265,9 +280,7 @@ export async function maysles(v, ctx){
 export async function uniondocs(v, ctx){
   const url = `https://uniondocs.org/wp-json/tribe/events/v1/events`
             + `?per_page=50&start_date=${ctx.week[0]}&end_date=${ctx.week.at(-1)}`;
-  const res = await fetch(url, { headers:{ "User-Agent":UA, "Accept":"application/json" } });
-  if(!res.ok) throw new Error(`HTTP ${res.status}`);
-  const data = await res.json();
+  const data = JSON.parse(await get(url, { headers:{ Accept:"application/json" } }));
   const out = [];
   for(const e of data.events || []){
     const m = String(e.start_date||"").match(/^(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2})/);
