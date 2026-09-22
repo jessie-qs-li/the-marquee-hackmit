@@ -188,7 +188,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-22T11:49:06.809Z",
+ "fetchedAt": "2026-09-22T17:02:58.813Z",
  "week": [
   "2026-09-22",
   "2026-09-23",
@@ -266,14 +266,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 19,
-   "ms": 2034
+   "ms": 3013
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 70,
-   "ms": 3224
+   "ms": 2767
   },
   {
    "id": "somerville",
@@ -288,14 +288,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 42,
-   "ms": 947
+   "ms": 1043
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 334
+   "ms": 194
   },
   {
    "id": "mfa",
@@ -1145,6 +1145,17 @@
   },
   {
    "venue": "coolidge",
+   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
+   "date": "2026-09-23",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1033993~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
    "title": "Romy and Michele’s High School Reunion",
    "date": "2026-09-23",
    "time": "19:00",
@@ -1158,17 +1169,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1513"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
-   "date": "2026-09-23",
-   "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1033993~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "kendall",
