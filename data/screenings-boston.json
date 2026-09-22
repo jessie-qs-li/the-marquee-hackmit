@@ -2,8 +2,14 @@
  "city": "boston",
  "genreCoverage": {
   "total": 53,
-  "classified": 24,
+  "classified": 23,
   "unresolved": [
+   {
+    "key": "votingcountselectionsinfilmtuesdaysection|",
+    "title": "Voting Counts: Elections in Film (Tuesday Section)",
+    "year": null,
+    "reason": "not-found"
+   },
    {
     "key": "odysseydigital|",
     "title": "The Odyssey (Digital)",
@@ -15,12 +21,6 @@
     "title": "Hope (Hopeu)",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "akira4krestoration|",
-    "title": "Akira (4K Restoration)",
-    "year": null,
-    "reason": "not-found"
    },
    {
     "key": "weight|",
@@ -41,8 +41,8 @@
     "reason": "ambiguous"
    },
    {
-    "key": "newtaipeicitydayshortsprogram|",
-    "title": "New Taipei City Day Shorts Program",
+    "key": "harvardbookstorewelcomesalexwagner|",
+    "title": "Harvard Book Store Welcomes Alex Wagner",
     "year": null,
     "reason": "not-found"
    },
@@ -53,24 +53,6 @@
     "reason": "ambiguous"
    },
    {
-    "key": "hoveringoverthewater|",
-    "title": "Hovering Over the Water",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "votingcountselectionsinfilmtuesdaysection|",
-    "title": "Voting Counts: Elections in Film (Tuesday Section)",
-    "year": null,
-    "reason": "not-found"
-   },
-   {
-    "key": "harvardbookstorewelcomesalexwagner|",
-    "title": "Harvard Book Store Welcomes Alex Wagner",
-    "year": null,
-    "reason": "not-found"
-   },
-   {
     "key": "misanthrope|",
     "title": "The Misanthrope",
     "year": null,
@@ -79,6 +61,12 @@
    {
     "key": "cemeterycinemathestraightstorywingsofdesire|",
     "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
+    "year": null,
+    "reason": "not-found"
+   },
+   {
+    "key": "akira4krestoration|",
+    "title": "Akira (4K Restoration)",
     "year": null,
     "reason": "not-found"
    },
@@ -177,20 +165,38 @@
     "title": "Smog",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "elementsofcinemamidnight|",
+    "title": "Elements of Cinema: Midnight",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "seminarstrictlyballroom|",
+    "title": "Seminar: Strictly Ballroom",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "lottereinigershortfilms|",
+    "title": "Lotte Reiniger Short Films",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    }
   ],
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-21T20:01:48.455Z",
+ "fetchedAt": "2026-09-22T00:11:12.212Z",
  "week": [
-  "2026-09-21",
   "2026-09-22",
   "2026-09-23",
   "2026-09-24",
   "2026-09-25",
   "2026-09-26",
-  "2026-09-27"
+  "2026-09-27",
+  "2026-09-28"
  ],
  "venues": {
   "brattle": {
@@ -259,15 +265,15 @@
    "id": "brattle",
    "name": "Brattle Theatre",
    "ok": true,
-   "count": 20,
-   "ms": 2224
+   "count": 19,
+   "ms": 2752
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
-   "count": 86,
-   "ms": 2416
+   "count": 70,
+   "ms": 4072
   },
   {
    "id": "somerville",
@@ -281,15 +287,15 @@
    "id": "kendall",
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
-   "count": 54,
-   "ms": 790
+   "count": 42,
+   "ms": 735
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 457
+   "ms": 410
   },
   {
    "id": "mfa",
@@ -302,495 +308,6 @@
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "coolidge",
-   "title": "The Odyssey (Digital)",
-   "date": "2026-09-21",
-   "time": "15:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036648~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/odyssey-digital",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Resident Evil",
-   "date": "2026-09-21",
-   "time": "15:20",
-   "fmt": "",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
-   "venue": "kendall",
-   "title": "Hope (Hopeu)",
-   "date": "2026-09-21",
-   "time": "15:25",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Akira (4K Restoration)",
-   "date": "2026-09-21",
-   "time": "15:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036659~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/akira-4k-restoration",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Coyote vs. Acme",
-   "date": "2026-09-21",
-   "time": "15:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036581~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
-   "genres": [
-    "comedy",
-    "adventure",
-    "family"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Adventure",
-    "Family"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1204680
-  },
-  {
-   "venue": "kendall",
-   "title": "Practical Magic 2",
-   "date": "2026-09-21",
-   "time": "15:55",
-   "fmt": "",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
-   "venue": "coolidge",
-   "title": "The Weight",
-   "date": "2026-09-21",
-   "time": "16:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036552~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/weight",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Tony",
-   "date": "2026-09-21",
-   "time": "16:00",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-   "date": "2026-09-21",
-   "time": "16:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036612~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
-   "genres": [
-    "family",
-    "comedy",
-    "adventure",
-    "horror"
-   ],
-   "sourceGenres": [
-    "Animation",
-    "Comedy",
-    "Family",
-    "Adventure",
-    "Horror"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1477104
-  },
-  {
-   "venue": "kendall",
-   "title": "If I Go Will They Miss Me",
-   "date": "2026-09-21",
-   "time": "16:15",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Resident Evil",
-   "date": "2026-09-21",
-   "time": "16:20",
-   "fmt": "",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
-   "venue": "coolidge",
-   "title": "American Doctor",
-   "date": "2026-09-21",
-   "time": "16:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036591~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/american-doctor",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
-  },
-  {
-   "venue": "brattle",
-   "title": "New Taipei City Day Shorts Program",
-   "date": "2026-09-21",
-   "time": "17:30",
-   "url": "https://www.zeffy.com/en-US/ticketing/8th-taiwan-film-festival-of-boston",
-   "filmUrl": "https://brattlefilm.org/special_events/new-taipei-city-day-shorts-program/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Resident Evil",
-   "date": "2026-09-21",
-   "time": "18:10",
-   "fmt": "",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-   "date": "2026-09-21",
-   "time": "18:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036619~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
-   "genres": [
-    "family",
-    "comedy",
-    "adventure",
-    "horror"
-   ],
-   "sourceGenres": [
-    "Animation",
-    "Comedy",
-    "Family",
-    "Adventure",
-    "Horror"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1477104
-  },
-  {
-   "venue": "coolidge",
-   "title": "Boorman and the Devil",
-   "date": "2026-09-21",
-   "time": "18:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036669~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/boorman-and-devil",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1517111
-  },
-  {
-   "venue": "kendall",
-   "title": "Hope (Hopeu)",
-   "date": "2026-09-21",
-   "time": "18:30",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "If I Go Will They Miss Me",
-   "date": "2026-09-21",
-   "time": "18:35",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Union County",
-   "date": "2026-09-21",
-   "time": "18:40",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036634~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/union-county",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Practical Magic 2",
-   "date": "2026-09-21",
-   "time": "18:45",
-   "fmt": "",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
-   "venue": "coolidge",
-   "title": "The Weight",
-   "date": "2026-09-21",
-   "time": "18:50",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036559~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/weight",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Tony",
-   "date": "2026-09-21",
-   "time": "18:50",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "brattle",
-   "title": "Marching Boys",
-   "date": "2026-09-21",
-   "time": "19:00",
-   "url": "https://www.zeffy.com/en-US/ticketing/8th-taiwan-film-festival-of-boston",
-   "filmUrl": "https://brattlefilm.org/movies/marching-boys/",
-   "genres": [
-    "comedy",
-    "drama"
-   ],
-   "year": null,
-   "sourceGenres": [
-    "Music",
-    "Drama"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1222574
-  },
-  {
-   "venue": "coolidge",
-   "title": "East of Eden",
-   "date": "2026-09-21",
-   "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1016848~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/east-eden",
-   "genres": [
-    "drama"
-   ],
-   "sourceGenres": [
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "949"
-  },
-  {
-   "venue": "hfa",
-   "title": "Hovering Over the Water",
-   "date": "2026-09-21",
-   "time": "19:00",
-   "note": "João César Monteiro, Poet-Provocateur",
-   "url": "https://harvardfilmarchive.org/calendar/hovering-over-the-water-2026-09",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Resident Evil",
-   "date": "2026-09-21",
-   "time": "19:10",
-   "fmt": "",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
-   "venue": "coolidge",
-   "title": "American Doctor",
-   "date": "2026-09-21",
-   "time": "19:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036596~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/american-doctor",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
-  },
-  {
-   "venue": "coolidge",
-   "title": "Coyote vs. Acme",
-   "date": "2026-09-21",
-   "time": "21:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036625~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
-   "genres": [
-    "comedy",
-    "adventure",
-    "family"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Adventure",
-    "Family"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1204680
-  },
-  {
-   "venue": "coolidge",
-   "title": "Union County",
-   "date": "2026-09-21",
-   "time": "21:10",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036664~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/union-county",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Akira (4K Restoration)",
-   "date": "2026-09-21",
-   "time": "21:20",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036639~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/akira-4k-restoration",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Boorman and the Devil",
-   "date": "2026-09-21",
-   "time": "21:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036602~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/boorman-and-devil",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1517111
-  },
-  {
-   "venue": "coolidge",
-   "title": "The Weight",
-   "date": "2026-09-21",
-   "time": "21:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036563~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/weight",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Tony (2026)",
-   "date": "2026-09-21",
-   "time": "21:55",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036575~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "coolidge",
    "title": "Voting Counts: Elections in Film (Tuesday Section)",
@@ -1625,17 +1142,6 @@
   },
   {
    "venue": "coolidge",
-   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
-   "date": "2026-09-23",
-   "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1033993~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
    "title": "Romy and Michele’s High School Reunion",
    "date": "2026-09-23",
    "time": "19:00",
@@ -1649,6 +1155,17 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1513"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Cemetery Cinema: The Straight Story & Wings of Desire",
+   "date": "2026-09-23",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1033993~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/events/cemetery-cinema-straight-story-wings-desire",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "kendall",
@@ -2696,6 +2213,58 @@
    "time": "19:15",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1035590~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "brattle",
+   "title": "Elements of Cinema: Midnight",
+   "date": "2026-09-28",
+   "time": "18:00",
+   "url": "https://brattlefilm.org/showtimes/elements-of-cinema-midnight-9-28-26-600-pm/",
+   "filmUrl": "https://brattlefilm.org/movies/elements-of-cinema-midnight/",
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Seminar: Strictly Ballroom",
+   "date": "2026-09-28",
+   "time": "18:15",
+   "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=887072ef-e4e1-484e-969f-3cefb3f424e8&",
+   "filmUrl": "https://coolidge.org/events/seminar-strictly-ballroom",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Strictly Ballroom",
+   "date": "2026-09-28",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1030907~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/strictly-ballroom",
+   "genres": [
+    "comedy",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Romance"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1188"
+  },
+  {
+   "venue": "hfa",
+   "title": "Lotte Reiniger Short Films",
+   "date": "2026-09-28",
+   "time": "19:00",
+   "note": "The Adventures of Lotte Reiniger",
+   "url": "https://harvardfilmarchive.org/calendar/lotte-reiniger-short-films-2026-09",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
