@@ -88,6 +88,34 @@ These are HTML scrapers against sites that can redesign without notice. Every ad
 zero-row parse as a failure, so a silent break shows up in the run report.
 
 
+## Running the refresh from your own machine
+
+Cinema Village refuses GitHub's shared runner addresses, so every scheduled run
+loses roughly eighty showtimes with `HTTP 403 on GET /showtimes/`. It answers a
+normal residential address without complaint, so the fix is to run the job from
+one:
+
+```bash
+bash scripts/setup-runner.sh <REGISTRATION_TOKEN>
+```
+
+The token comes from **Settings → Actions → Runners → New self-hosted runner**
+and lasts an hour. The script installs the runner as a login service, so it
+survives reboots. Afterwards add a repository **variable** (not a secret):
+
+| Variable | Value |
+| --- | --- |
+| `RUNNER_LABEL` | `marquee-local` |
+
+The workflow reads `${{ vars.RUNNER_LABEL || 'ubuntu-latest' }}`, so until that
+variable exists it keeps using GitHub's runners and nothing breaks while the
+runner is being set up.
+
+The trade-off: a runner on a laptop only works while the laptop is awake. A
+missed slot is not a gap in the listings -- the published schedule simply stays
+as it was until the next successful run -- but it does mean the three-hourly
+cadence becomes best-effort. Somewhere always-on avoids that.
+
 ## Staying current
 
 `.github/workflows/refresh-listings.yml` re-scrapes both cities every three
