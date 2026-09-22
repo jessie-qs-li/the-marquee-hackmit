@@ -39,6 +39,12 @@ const week  = Array.from({length:DAYS}, (_,i) => {
 const ctx = { today, week };
 
 const targets = VENUES.filter(v => !ONLY || ONLY.includes(v.id));
+if(ONLY && previous){
+  const untouched = new Set(VENUES.filter(v=>!ONLY.includes(v.id)).map(v=>v.id));
+  rows.push(...(previous.screenings||[]).filter(s=>untouched.has(s.venue) && week.includes(s.date)));
+  report.push(...(previous.sources||[]).filter(r=>untouched.has(r.id)));
+  Object.entries(previous.notices||{}).forEach(([id,n])=>{ if(untouched.has(id)) notices[id]=n; });
+}
 const report = [];
 const rows = [];
 const notices = {};
