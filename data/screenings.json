@@ -71,12 +71,6 @@
     "reason": "ambiguous"
    },
    {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "musical|",
     "title": "THE MUSICAL",
     "year": null,
@@ -105,6 +99,12 @@
     "title": "VALENTIN NOUJAÏM PGM 1: VEILED STRUGGLES",
     "year": null,
     "reason": "not-found"
+   },
+   {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "thiiird|",
@@ -530,7 +530,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-22T20:26:22.084Z",
+ "fetchedAt": "2026-09-22T21:26:06.166Z",
  "week": [
   "2026-09-22",
   "2026-09-23",
@@ -748,63 +748,67 @@
    "name": "Film Forum",
    "ok": true,
    "count": 125,
-   "ms": 1411
+   "ms": 1049
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": true,
-   "count": 62,
-   "ms": 703
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 on GET /nyc/",
+   "carried": 62,
+   "carriedFrom": "2026-09-22T20:26:22.084Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 186,
-   "ms": 2487
+   "ms": 102
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 24,
-   "ms": 2526
+   "ms": 472
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 107,
-   "ms": 849
+   "ms": 192
   },
   {
    "id": "cv",
    "name": "Cinema Village",
-   "ok": true,
-   "count": 84,
-   "ms": 16910
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 on GET /showtimes/",
+   "carried": 84,
+   "carriedFrom": "2026-09-22T20:26:22.084Z"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 19,
-   "ms": 3514
+   "ms": 82
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 186,
-   "ms": 10359
+   "count": 184,
+   "ms": 5893
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 21,
-   "ms": 6945
+   "count": 20,
+   "ms": 2374
   },
   {
    "id": "wrt",
@@ -826,22 +830,22 @@
    "id": "bam",
    "name": "BAM Rose Cinemas",
    "ok": true,
-   "count": 98,
-   "ms": 1361
+   "count": 124,
+   "ms": 444
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 49,
-   "ms": 7817
+   "ms": 4811
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 105,
-   "ms": 8334
+   "ms": 6530
   },
   {
    "id": "spec",
@@ -856,7 +860,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 15,
-   "ms": 2834
+   "ms": 1104
   },
   {
    "id": "momi",
@@ -871,7 +875,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 7,
-   "ms": 1041
+   "ms": 952
   },
   {
    "id": "kew",
@@ -886,7 +890,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 1,
-   "ms": 1727
+   "ms": 444
   }
  ],
  "notices": {},
@@ -1349,27 +1353,6 @@
    "tmdbId": 1720906
   },
   {
-   "venue": "paris",
-   "title": "Elevator to the Gallows",
-   "date": "2026-09-22",
-   "time": "16:00",
-   "runtime": 93,
-   "fmt": "",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3019/seats",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "32179"
-  },
-  {
    "venue": "ff",
    "title": "MY BROTHER'S WEDDING",
    "date": "2026-09-22",
@@ -1471,20 +1454,6 @@
    "genreMovieId": "5219"
   },
   {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-22",
-   "time": "16:40",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Chronovisor",
    "date": "2026-09-22",
@@ -1533,25 +1502,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "angelika",
-   "title": "THE OLDEST PERSON IN THE WORLD",
-   "date": "2026-09-22",
-   "time": "16:45",
-   "fmt": "Standard",
-   "director": "Sam Green",
-   "runtime": 87,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-oldest-person-in-the-world",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596302
   },
   {
    "venue": "ff",
@@ -3675,6 +3625,16 @@
   },
   {
    "venue": "bam",
+   "title": "The Assassin",
+   "date": "2026-09-23",
+   "time": "16:30",
+   "url": "https://www.bam.org/film/2026/a-pure-person-the-assassin",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
    "title": "Resident Evil",
    "date": "2026-09-23",
    "time": "16:30",
@@ -3693,16 +3653,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "bam",
-   "title": "The Assassin",
-   "date": "2026-09-23",
-   "time": "16:30",
-   "url": "https://www.bam.org/film/2026/a-pure-person-the-assassin",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -6546,6 +6496,23 @@
   },
   {
    "venue": "bam",
+   "title": "Pink Floyd – The Wall",
+   "date": "2026-09-24",
+   "time": "19:00",
+   "url": "https://www.bam.org/film/2026/a-pure-person-pink-floyd",
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Musical"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1298"
+  },
+  {
+   "venue": "bam",
    "title": "Primetime",
    "date": "2026-09-24",
    "time": "19:00",
@@ -6593,23 +6560,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1599181
-  },
-  {
-   "venue": "bam",
-   "title": "Pink Floyd – The Wall",
-   "date": "2026-09-24",
-   "time": "19:00",
-   "url": "https://www.bam.org/film/2026/a-pure-person-pink-floyd",
-   "genres": [
-    "drama",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Musical"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1298"
   },
   {
    "venue": "ff",
@@ -7064,6 +7014,21 @@
   },
   {
    "venue": "bam",
+   "title": "Caught by the Tides",
+   "date": "2026-09-24",
+   "time": "21:15",
+   "url": "https://www.bam.org/film/2026/a-pure-person-caught-by-the-tides",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1136837
+  },
+  {
+   "venue": "bam",
    "title": "Ha-Chan, Shake Your Booty",
    "date": "2026-09-24",
    "time": "21:15",
@@ -7099,21 +7064,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1240889
-  },
-  {
-   "venue": "bam",
-   "title": "Caught by the Tides",
-   "date": "2026-09-24",
-   "time": "21:15",
-   "url": "https://www.bam.org/film/2026/a-pure-person-caught-by-the-tides",
-   "genres": [
-    "drama"
-   ],
-   "sourceGenres": [
-    "Drama"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1136837
   },
   {
    "venue": "ff",
@@ -7807,6 +7757,25 @@
    "tmdbId": 1596249
   },
   {
+   "venue": "bam",
+   "title": "Coyote vs Acme",
+   "date": "2026-09-25",
+   "time": "13:30",
+   "url": "https://www.bam.org/film/2026/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
    "date": "2026-09-25",
@@ -7836,6 +7805,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-25",
+   "time": "13:50",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "bam",
@@ -8264,6 +8254,27 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-25",
+   "time": "16:10",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "angelika",
@@ -8775,6 +8786,25 @@
    "genreMovieId": "58559"
   },
   {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-09-25",
+   "time": "18:30",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "cv",
    "title": "THE INVITE",
    "date": "2026-09-25",
@@ -8908,6 +8938,27 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "86898"
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-25",
+   "time": "18:50",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "cv",
@@ -9406,6 +9457,25 @@
    "tmdbId": 83282
   },
   {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-09-25",
+   "time": "21:00",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-09-25",
@@ -9431,6 +9501,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-25",
+   "time": "21:10",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "ff",
@@ -10403,6 +10494,25 @@
   },
   {
    "venue": "bam",
+   "title": "Coyote vs Acme",
+   "date": "2026-09-26",
+   "time": "13:30",
+   "url": "https://www.bam.org/film/2026/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
+   "venue": "bam",
    "title": "Primetime",
    "date": "2026-09-26",
    "time": "13:45",
@@ -10427,6 +10537,27 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "46970"
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-26",
+   "time": "13:50",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "cv",
@@ -10839,6 +10970,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-26",
+   "time": "16:10",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "ifc",
@@ -11378,6 +11530,25 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-09-26",
+   "time": "18:30",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "cv",
    "title": "THE INVITE",
    "date": "2026-09-26",
@@ -11496,6 +11667,27 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1204680
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-26",
+   "time": "18:50",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "cv",
@@ -11961,6 +12153,25 @@
    "tmdbId": 83282
   },
   {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-09-26",
+   "time": "21:00",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-09-26",
@@ -11977,6 +12188,27 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-26",
+   "time": "21:10",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "ff",
@@ -12929,6 +13161,25 @@
    "tmdbId": 1596249
   },
   {
+   "venue": "bam",
+   "title": "Coyote vs Acme",
+   "date": "2026-09-27",
+   "time": "13:30",
+   "url": "https://www.bam.org/film/2026/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
    "venue": "ff",
    "title": "YOU HAD TO BE THERE",
    "date": "2026-09-27",
@@ -12980,6 +13231,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-27",
+   "time": "13:50",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "bam",
@@ -13410,6 +13682,27 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "924"
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-27",
+   "time": "16:10",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "ifc",
@@ -13892,6 +14185,25 @@
    "tmdbId": 1302904
   },
   {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-09-27",
+   "time": "18:30",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "cv",
    "title": "THE INVITE",
    "date": "2026-09-27",
@@ -14014,6 +14326,27 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1204680
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-27",
+   "time": "18:50",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "cv",
@@ -14481,6 +14814,25 @@
    "tmdbId": 83282
   },
   {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-09-27",
+   "time": "21:00",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-09-27",
@@ -14497,6 +14849,27 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-27",
+   "time": "21:10",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "ifc",
@@ -15582,6 +15955,25 @@
    "genreMovieId": "58559"
   },
   {
+   "venue": "bam",
+   "title": "Coyote vs Acme",
+   "date": "2026-09-28",
+   "time": "16:00",
+   "url": "https://www.bam.org/film/2026/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
    "venue": "ff",
    "title": "UNZIPPED",
    "date": "2026-09-28",
@@ -15614,6 +16006,27 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1199"
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-28",
+   "time": "16:10",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "ifc",
@@ -15956,6 +16369,25 @@
    "tmdbId": 1302904
   },
   {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-09-28",
+   "time": "18:30",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "cv",
    "title": "KRIZALIT CELEBRATION OF TURKISH AND WOMEN VOICES",
    "date": "2026-09-28",
@@ -16133,6 +16565,27 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "96728"
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-28",
+   "time": "18:50",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "ifc",
@@ -16600,6 +17053,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-28",
+   "time": "21:10",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "ifc",
