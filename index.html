@@ -1586,13 +1586,19 @@ function quietVenues(shown){
     .filter(id=>SCRAPED.has(id) && !shown.has(id))
     .filter(id=>!S.boros.size   || S.boros.has(VENUES[id].boro))
     .filter(id=>!S.cinemas.size || S.cinemas.has(id))
-    .sort((a,b)=>(VENUES[a].sn||VENUES[a].n).localeCompare(VENUES[b].sn||VENUES[b].n));
+    .sort((a,b)=>pinRank(a)-pinRank(b) ||
+      (VENUES[a].sn||VENUES[a].n).localeCompare(VENUES[b].sn||VENUES[b].n));
 }
+
+/* Venues that lead the board regardless of how much they have on. */
+const PINNED=['paris','mg'];
+const pinRank=id=>{const i=PINNED.indexOf(id);return i<0?PINNED.length:i;};
 
 function renderVenueBoard(list,el){
   const by={};
   list.forEach(s=>(by[s.venue]=by[s.venue]||[]).push(s));
   const ids=Object.keys(by).sort((a,b)=>
+    pinRank(a)-pinRank(b) ||
     by[b].length-by[a].length || VENUES[a].n.localeCompare(VENUES[b].n));
   el.className="vgrid";
   const n = columnCount(el);
