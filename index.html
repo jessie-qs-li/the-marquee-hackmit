@@ -485,6 +485,7 @@ textarea.inp{resize:vertical;min-height:68px;font-family:inherit}
 .vbadge.out{background:var(--ink-700);color:var(--faint)}
 .vempty{color:var(--faint);font-size:13px;padding:40px 0}
 .vcol.quiet .vcol-head{opacity:.62}
+.vstale{margin-top:6px;font-family:var(--mono);font-size:9px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);line-height:1.5}
 .vnote{margin-top:11px;padding:10px 0 11px;border-top:1px solid var(--line-2);border-bottom:1px solid var(--line);
   font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);line-height:1.6}
 
@@ -1619,6 +1620,7 @@ function renderVenueBoard(list,el){
       <div class="vcol-head">
         <h3 title="${esc(v.n)}">${venueLink(v,v.sn||v.n)}</h3>
         <div class="hood">${esc(v.hood)}</div>
+        ${CARRIED.has(vid)?`<p class="vstale">Kept from the last refresh &mdash; this cinema did not answer</p>`:""}
       </div>
       <div class="vlist">
         ${(()=>{
@@ -2858,6 +2860,7 @@ const SOURCE = { live:false, fetchedAt:null, venues:0, note:"" };
 const NOTICES = {};   // venue -> date -> the venue's own wording for a blank day
 const SCRAPED = new Set(); // venues whose adapter ran, so a blank day means something
 const EMPTY_WEEK = new Set(); // venues whose source answered 'nothing on' for the whole week
+const CARRIED = new Map();    // venue -> its listings were kept from an earlier run
 const DOW = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 // Normalize shouting/lowercase source titles once, before any view renders them.
 // Keep intentional mixed-case names (e.g. iPhone, McQueen, Se7en) untouched.
@@ -2940,6 +2943,9 @@ function applyLive(data){
   (data.sources||[]).filter(r=>r.ok).forEach(r=>SCRAPED.add(r.id));
   EMPTY_WEEK.clear();
   (data.sources||[]).filter(r=>r.empty).forEach(r=>EMPTY_WEEK.add(r.id));
+  CARRIED.clear();
+  (data.sources||[]).filter(r=>r.carried).forEach(r=>CARRIED.set(r.id, r.carriedFrom));
+  CARRIED.forEach((_,id)=>SCRAPED.add(id));   // kept listings still belong on the board
 
   if(!venueKinds().includes(S.venueKind)) S.venueKind="any";
 

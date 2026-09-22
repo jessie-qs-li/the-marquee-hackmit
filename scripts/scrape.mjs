@@ -9,7 +9,7 @@
  * Scraping runs here rather than in the page because the cinemas' sites send
  * no CORS headers -- the browser cannot read them directly. */
 
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, readFileSync, existsSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { VENUES as NYC_VENUES } from "./venues.mjs";
@@ -42,6 +42,16 @@ const targets = VENUES.filter(v => !ONLY || ONLY.includes(v.id));
 const report = [];
 const rows = [];
 const notices = {};
+
+/* A venue that refuses this run used to disappear from the board altogether --
+ * not even shown as unpublished. Its last good listings are kept instead, for
+ * the dates still inside the window, and flagged so the page can say so. */
+const previousPath = resolve(ROOT, "data", outputFile);
+let previous = null;
+try{ if(existsSync(previousPath)) previous = JSON.parse(readFileSync(previousPath,"utf8")); }
+catch{ previous = null; }
+const carryForward = id =>
+  (previous?.screenings || []).filter(s => s.venue===id && week.includes(s.date));
 
 console.log(`\nThe Marquee — scraping ${week[0]} … ${week.at(-1)}\n`);
 
@@ -83,8 +93,16 @@ for(const v of targets){
     report.push({ id:v.id, name:v.name, ok:true, count:n, ms:Date.now()-t0 });
     console.log(`  ✓ ${v.name.padEnd(34)} ${String(n).padStart(4)} showtimes  (${Date.now()-t0}ms)`);
   } catch(err){
-    report.push({ id:v.id, name:v.name, ok:false, count:0, error:err.message });
-    console.log(`  ✗ ${v.name.padEnd(34)} ${err.message}`);
+    const kept = carryForward(v.id);
+    if(kept.length){
+      rows.push(...kept);
+      report.push({ id:v.id, name:v.name, ok:false, count:0, error:err.message,
+                    carried:kept.length, carriedFrom:previous.fetchedAt });
+      console.log(`  ↺ ${v.name.padEnd(34)} ${err.message} — kept ${kept.length} from the last run`);
+    } else {
+      report.push({ id:v.id, name:v.name, ok:false, count:0, error:err.message });
+      console.log(`  ✗ ${v.name.padEnd(34)} ${err.message}`);
+    }
   }
 }
 
@@ -107,7 +125,8 @@ mkdirSync(resolve(ROOT,"data"), { recursive:true });
 writeFileSync(resolve(ROOT,"data",outputFile), JSON.stringify(out, null, 1));
 
 const live = report.filter(r=>r.ok).length;
+const carried = report.filter(r=>r.carried).length;
 const dead = report.filter(r=>!r.ok && !r.skipped).length;
 const skip = report.filter(r=>r.skipped).length;
-console.log(`\n  ${rows.length} showtimes from ${live} venues — ${dead} failed, ${skip} without an adapter`);
+console.log(`\n  ${rows.length} showtimes from ${live} venues — ${dead} failed${carried?` (${carried} kept from the last run)`:""}, ${skip} without an adapter`);
 console.log(`  wrote data/${outputFile}\n`);
