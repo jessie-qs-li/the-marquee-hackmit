@@ -1,8 +1,8 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 190,
-  "classified": 111,
+  "total": 193,
+  "classified": 113,
   "unresolved": [
    {
     "key": "musical|",
@@ -229,6 +229,12 @@
    {
     "key": "youhadtobethere|",
     "title": "YOU HAD TO BE THERE",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "marchingband|",
+    "title": "The Marching Band",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -482,7 +488,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-22T00:11:04.053Z",
+ "fetchedAt": "2026-09-22T05:07:50.098Z",
  "week": [
   "2026-09-22",
   "2026-09-23",
@@ -699,36 +705,36 @@
    "id": "ff",
    "name": "Film Forum",
    "ok": true,
-   "count": 107,
-   "ms": 1126
+   "count": 125,
+   "ms": 981
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
    "count": 65,
-   "ms": 68
+   "ms": 115
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
-   "count": 160,
-   "ms": 179
+   "count": 164,
+   "ms": 237
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 24,
-   "ms": 173
+   "ms": 368
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 46,
-   "ms": 164
+   "count": 116,
+   "ms": 153
   },
   {
    "id": "cv",
@@ -742,21 +748,21 @@
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 19,
-   "ms": 76
+   "ms": 138
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
    "count": 199,
-   "ms": 5965
+   "ms": 5269
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
    "count": 22,
-   "ms": 2745
+   "ms": 2515
   },
   {
    "id": "wrt",
@@ -779,21 +785,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 94,
-   "ms": 431
+   "ms": 178
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 49,
-   "ms": 3952
+   "ms": 3548
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 84,
-   "ms": 6540
+   "ms": 5500
   },
   {
    "id": "spec",
@@ -808,7 +814,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 15,
-   "ms": 1713
+   "ms": 1693
   },
   {
    "id": "momi",
@@ -823,7 +829,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 7,
-   "ms": 175
+   "ms": 171
   },
   {
    "id": "kew",
@@ -838,7 +844,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 1,
-   "ms": 1611
+   "ms": 995
   }
  ],
  "notices": {},
@@ -6607,6 +6613,22 @@
    "tmdbId": 91735
   },
   {
+   "venue": "quad",
+   "title": "Totally F***ed Up",
+   "date": "2026-09-24",
+   "time": "20:00",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 33560
+  },
+  {
    "venue": "angelika",
    "title": "THE MUSICAL",
    "date": "2026-09-24",
@@ -7228,6 +7250,24 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "quad",
+   "title": "Checkout",
+   "date": "2026-09-25",
+   "time": "12:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-25",
+   "time": "12:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "IF I GO WILL THEY MISS ME",
    "date": "2026-09-25",
@@ -7255,6 +7295,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-25",
+   "time": "12:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -7318,6 +7367,20 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-25",
+   "time": "13:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
   },
   {
    "venue": "angelika",
@@ -7474,6 +7537,15 @@
    "genreMovieId": "206"
   },
   {
+   "venue": "quad",
+   "title": "Franz",
+   "date": "2026-09-25",
+   "time": "14:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ff",
    "title": "THE SCOUT",
    "date": "2026-09-25",
@@ -7519,6 +7591,15 @@
    "tmdbId": 1302904
   },
   {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-25",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "mg",
    "title": "Four Adventures of Reinette and Mirabelle",
    "date": "2026-09-25",
@@ -7558,6 +7639,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1437396
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-25",
+   "time": "14:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "mg",
@@ -7627,6 +7717,20 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-25",
+   "time": "15:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
   },
   {
    "venue": "nhw",
@@ -7928,6 +8032,15 @@
    "tmdbId": 1006732
   },
   {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-25",
+   "time": "16:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "NEVER AFTER DARK",
    "date": "2026-09-25",
@@ -7952,6 +8065,24 @@
    "date": "2026-09-25",
    "time": "16:45",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "The Fisherman",
+   "date": "2026-09-25",
+   "time": "16:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-25",
+   "time": "16:50",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8017,6 +8148,20 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1437396
+  },
+  {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-25",
+   "time": "17:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
   },
   {
    "venue": "nhp",
@@ -8290,6 +8435,15 @@
    "genreMovieId": "86898"
   },
   {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-25",
+   "time": "18:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
    "date": "2026-09-25",
@@ -8360,6 +8514,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1649949
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-25",
+   "time": "19:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "roxy",
@@ -8466,6 +8629,15 @@
    "genreMovieId": "47"
   },
   {
+   "venue": "quad",
+   "title": "Checkout",
+   "date": "2026-09-25",
+   "time": "19:10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "mg",
    "title": "This Long Century Presents: Salomé Lamas",
    "date": "2026-09-25",
@@ -8496,6 +8668,20 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1629051
+  },
+  {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-25",
+   "time": "19:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
   },
   {
    "venue": "nhp",
@@ -8651,6 +8837,15 @@
    "tmdbId": 969681
   },
   {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-25",
+   "time": "21:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ff",
    "title": "THE SCOUT",
    "date": "2026-09-25",
@@ -8685,6 +8880,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5927"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-25",
+   "time": "21:10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "bam",
@@ -8754,6 +8958,20 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-25",
+   "time": "21:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
    "venue": "bam",
    "title": "Primetime",
    "date": "2026-09-25",
@@ -8785,6 +9003,15 @@
   {
    "venue": "nhp",
    "title": "Bullet",
+   "date": "2026-09-25",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "The Fisherman",
    "date": "2026-09-25",
    "time": "21:30",
    "genres": [],
@@ -9031,6 +9258,36 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "ifc",
+   "title": "Dog Day Afternoon",
+   "date": "2026-09-25",
+   "time": "23:45",
+   "genres": [
+    "thriller",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Crime",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "3362"
+  },
+  {
+   "venue": "ifc",
+   "title": "Paris Is Burning",
+   "date": "2026-09-25",
+   "time": "23:45",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1192"
   },
   {
    "venue": "ifc",
@@ -9307,6 +9564,15 @@
    "genreMovieId": "105835"
   },
   {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-26",
+   "time": "12:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "IF I GO WILL THEY MISS ME",
    "date": "2026-09-26",
@@ -9334,6 +9600,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-26",
+   "time": "12:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Franz",
+   "date": "2026-09-26",
+   "time": "12:35",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -9406,6 +9690,20 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-26",
+   "time": "13:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
   },
   {
    "venue": "angelika",
@@ -9648,6 +9946,24 @@
    "tmdbId": 1302904
   },
   {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-26",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-26",
+   "time": "14:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "The Uprising",
    "date": "2026-09-26",
@@ -9681,6 +9997,20 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-26",
+   "time": "15:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
    "venue": "nhw",
    "title": "Practical Magic 2",
    "date": "2026-09-26",
@@ -9697,6 +10027,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "quad",
+   "title": "Checkout",
+   "date": "2026-09-26",
+   "time": "15:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -10006,6 +10345,15 @@
    "tmdbId": 1554956
   },
   {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-26",
+   "time": "16:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "NEVER AFTER DARK",
    "date": "2026-09-26",
@@ -10060,6 +10408,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-26",
+   "time": "16:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "IF I GO WILL THEY MISS ME",
    "date": "2026-09-26",
@@ -10072,6 +10429,20 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-26",
+   "time": "17:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
   },
   {
    "venue": "angelika",
@@ -10185,6 +10556,15 @@
   {
    "venue": "nhp",
    "title": "Resident Evil (2026)",
+   "date": "2026-09-26",
+   "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "The Fisherman",
    "date": "2026-09-26",
    "time": "18:00",
    "genres": [],
@@ -10444,6 +10824,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-26",
+   "time": "19:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "roxy",
    "title": "Situations + Q&A",
    "date": "2026-09-26",
@@ -10532,6 +10921,15 @@
    "tmdbId": 1554956
   },
   {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-26",
+   "time": "19:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "NEVER AFTER DARK",
    "date": "2026-09-26",
@@ -10549,6 +10947,20 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1629051
+  },
+  {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-26",
+   "time": "19:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
   },
   {
    "venue": "nhp",
@@ -10648,6 +11060,15 @@
    "date": "2026-09-26",
    "time": "20:30",
    "url": "https://www.bam.org/film/2026/gwb-film-war-of-the-worlds",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Checkout",
+   "date": "2026-09-26",
+   "time": "20:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10823,6 +11244,20 @@
    "genreMovieId": "3844"
   },
   {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-26",
+   "time": "21:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
    "venue": "angelika",
    "title": "THE MUSICAL",
    "date": "2026-09-26",
@@ -10849,6 +11284,15 @@
   {
    "venue": "nhp",
    "title": "Bullet",
+   "date": "2026-09-26",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "The Fisherman",
    "date": "2026-09-26",
    "time": "21:30",
    "genres": [],
@@ -11100,6 +11544,36 @@
   },
   {
    "venue": "ifc",
+   "title": "Dog Day Afternoon",
+   "date": "2026-09-26",
+   "time": "23:45",
+   "genres": [
+    "thriller",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Crime",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "3362"
+  },
+  {
+   "venue": "ifc",
+   "title": "Paris Is Burning",
+   "date": "2026-09-26",
+   "time": "23:50",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1192"
+  },
+  {
+   "venue": "ifc",
    "title": "Angel's Egg",
    "date": "2026-09-26",
    "time": "23:55",
@@ -11348,6 +11822,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "quad",
+   "title": "Franz",
+   "date": "2026-09-27",
+   "time": "11:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ff",
    "title": "THE SCOUT",
    "date": "2026-09-27",
@@ -11365,6 +11848,15 @@
    "genreMovieId": "528"
   },
   {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-27",
+   "time": "12:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "IF I GO WILL THEY MISS ME",
    "date": "2026-09-27",
@@ -11374,6 +11866,15 @@
    "runtime": 95,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-27",
+   "time": "12:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11490,6 +11991,20 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-27",
+   "time": "13:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
   },
   {
    "venue": "angelika",
@@ -11675,6 +12190,15 @@
    "genreMovieId": "528"
   },
   {
+   "venue": "quad",
+   "title": "Checkout",
+   "date": "2026-09-27",
+   "time": "14:25",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-09-27",
@@ -11691,6 +12215,24 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-27",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-27",
+   "time": "14:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
@@ -11795,6 +12337,20 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-27",
+   "time": "15:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
   },
   {
    "venue": "nhw",
@@ -12140,6 +12696,33 @@
    "tmdbId": 1554956
   },
   {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-27",
+   "time": "16:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "The Fisherman",
+   "date": "2026-09-27",
+   "time": "16:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-27",
+   "time": "16:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "IF I GO WILL THEY MISS ME",
    "date": "2026-09-27",
@@ -12165,6 +12748,20 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-27",
+   "time": "17:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
   },
   {
    "venue": "roxy",
@@ -12470,6 +13067,15 @@
    "tmdbId": 1204680
   },
   {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-27",
+   "time": "18:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "afa",
    "title": "TONEY W. MERRITT PGM 1: PSYCHODRAMAS",
    "date": "2026-09-27",
@@ -12526,6 +13132,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-27",
+   "time": "19:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-27",
@@ -12549,6 +13164,29 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1554956
+  },
+  {
+   "venue": "quad",
+   "title": "Checkout",
+   "date": "2026-09-27",
+   "time": "19:10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-27",
+   "time": "19:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
   },
   {
    "venue": "nhp",
@@ -13170,6 +13808,51 @@
    "tmdbId": 1629051
   },
   {
+   "venue": "quad",
+   "title": "Franz",
+   "date": "2026-09-28",
+   "time": "11:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "The Fisherman",
+   "date": "2026-09-28",
+   "time": "12:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "THE SCOUT",
+   "date": "2026-09-28",
+   "time": "12:15",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
+  },
+  {
+   "venue": "ff",
+   "title": "YOU HAD TO BE THERE",
+   "date": "2026-09-28",
+   "time": "12:15",
+   "note": "(OC)",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
    "date": "2026-09-28",
@@ -13200,6 +13883,30 @@
    "runtime": 95,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "UNZIPPED",
+   "date": "2026-09-28",
+   "time": "12:30",
+   "note": "",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "206"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-28",
+   "time": "12:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13242,6 +13949,30 @@
    "tmdbId": 1596249
   },
   {
+   "venue": "ff",
+   "title": "FILIPIÑANA",
+   "date": "2026-09-28",
+   "time": "13:00",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-28",
+   "time": "13:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
    "date": "2026-09-28",
@@ -13282,6 +14013,57 @@
    "tmdbId": 1629051
   },
   {
+   "venue": "ff",
+   "title": "UNZIPPED",
+   "date": "2026-09-28",
+   "time": "14:15",
+   "note": "",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "206"
+  },
+  {
+   "venue": "ff",
+   "title": "THE SCOUT",
+   "date": "2026-09-28",
+   "time": "14:20",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
+  },
+  {
+   "venue": "quad",
+   "title": "Checkout",
+   "date": "2026-09-28",
+   "time": "14:25",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "YOU HAD TO BE THERE",
+   "date": "2026-09-28",
+   "time": "14:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-09-28",
@@ -13298,6 +14080,24 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-28",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-28",
+   "time": "14:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
@@ -13377,6 +14177,30 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1437396
+  },
+  {
+   "venue": "ff",
+   "title": "FILIPIÑANA",
+   "date": "2026-09-28",
+   "time": "15:15",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-28",
+   "time": "15:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
   },
   {
    "venue": "nhw",
@@ -13469,6 +14293,21 @@
    "genreMovieId": "58559"
   },
   {
+   "venue": "ff",
+   "title": "UNZIPPED",
+   "date": "2026-09-28",
+   "time": "16:00",
+   "note": "",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "206"
+  },
+  {
    "venue": "mg",
    "title": "Brazil",
    "date": "2026-09-28",
@@ -13537,6 +14376,23 @@
    "tmdbId": 1437396
   },
   {
+   "venue": "ff",
+   "title": "THE SCOUT",
+   "date": "2026-09-28",
+   "time": "16:25",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
+  },
+  {
    "venue": "bam",
    "title": "Primetime",
    "date": "2026-09-28",
@@ -13575,6 +14431,34 @@
    "tmdbId": 1629051
   },
   {
+   "venue": "ff",
+   "title": "YOU HAD TO BE THERE",
+   "date": "2026-09-28",
+   "time": "16:45",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "The Fisherman",
+   "date": "2026-09-28",
+   "time": "16:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-28",
+   "time": "16:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "IF I GO WILL THEY MISS ME",
    "date": "2026-09-28",
@@ -13603,6 +14487,20 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-28",
+   "time": "17:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
    "venue": "nhp",
    "title": "Spider-Man: Brand New Day",
    "date": "2026-09-28",
@@ -13619,6 +14517,21 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 969681
+  },
+  {
+   "venue": "ff",
+   "title": "MY BROTHER'S WEDDING",
+   "date": "2026-09-28",
+   "time": "17:50",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 91735
   },
   {
    "venue": "mg",
@@ -13675,6 +14588,23 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "ff",
+   "title": "THE SCOUT",
+   "date": "2026-09-28",
+   "time": "18:30",
+   "note": "(OC)",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
   },
   {
    "venue": "nhp",
@@ -13888,6 +14818,25 @@
    "genreMovieId": "33834"
   },
   {
+   "venue": "ff",
+   "title": "YOU HAD TO BE THERE",
+   "date": "2026-09-28",
+   "time": "19:00",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-28",
+   "time": "19:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "roxy",
    "title": "Idlewild - 35MM",
    "date": "2026-09-28",
@@ -13918,6 +14867,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-09-28",
+   "time": "19:10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "NEVER AFTER DARK",
    "date": "2026-09-28",
@@ -13935,6 +14893,20 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1629051
+  },
+  {
+   "venue": "quad",
+   "title": "American Doctor",
+   "date": "2026-09-28",
+   "time": "19:20",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
   },
   {
    "venue": "nhp",
@@ -13955,6 +14927,25 @@
    "runtime": 95,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Checkout",
+   "date": "2026-09-28",
+   "time": "19:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FILIPIÑANA",
+   "date": "2026-09-28",
+   "time": "19:50",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13994,6 +14985,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "THE SCOUT",
+   "date": "2026-09-28",
+   "time": "20:35",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
   },
   {
    "venue": "afa",
@@ -14072,6 +15080,16 @@
    "tmdbId": 1596249
   },
   {
+   "venue": "ff",
+   "title": "YOU HAD TO BE THERE",
+   "date": "2026-09-28",
+   "time": "21:15",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Hope",
    "date": "2026-09-28",
@@ -14121,6 +15139,21 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "UNZIPPED",
+   "date": "2026-09-28",
+   "time": "21:30",
+   "note": "",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "206"
   },
   {
    "venue": "nhp",
