@@ -1593,13 +1593,20 @@ function quietVenues(shown){
 /* Venues that lead the board regardless of how much they have on. */
 const PINNED=['paris','mg'];
 const pinRank=id=>{const i=PINNED.indexOf(id);return i<0?PINNED.length:i;};
+/* These two trade places wherever the ordering happens to put them. */
+const SWAP=['ff','angelika'];
+function applySwap(ids){
+  const i=ids.indexOf(SWAP[0]), j=ids.indexOf(SWAP[1]);
+  if(i>-1&&j>-1)[ids[i],ids[j]]=[ids[j],ids[i]];
+  return ids;
+}
 
 function renderVenueBoard(list,el){
   const by={};
   list.forEach(s=>(by[s.venue]=by[s.venue]||[]).push(s));
-  const ids=Object.keys(by).sort((a,b)=>
+  const ids=applySwap(Object.keys(by).sort((a,b)=>
     pinRank(a)-pinRank(b) ||
-    by[b].length-by[a].length || VENUES[a].n.localeCompare(VENUES[b].n));
+    by[b].length-by[a].length || VENUES[a].n.localeCompare(VENUES[b].n)));
   el.className="vgrid";
   const n = columnCount(el);
   el.style.gridTemplateColumns = `repeat(${n}, minmax(0,1fr))`;
