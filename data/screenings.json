@@ -17,36 +17,6 @@
     "reason": "not-found"
    },
    {
-    "key": "fisherman|",
-    "title": "The Fisherman",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "badapples|",
-    "title": "Bad Apples",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "franz|",
-    "title": "Franz",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "checkout|",
-    "title": "Checkout",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "invite|",
     "title": "THE INVITE",
     "year": null,
@@ -71,14 +41,26 @@
     "reason": "ambiguous"
    },
    {
-    "key": "musical|",
-    "title": "THE MUSICAL",
+    "key": "fisherman|",
+    "title": "The Fisherman",
     "year": null,
     "reason": "ambiguous"
    },
    {
     "key": "hope|",
     "title": "Hope",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "badapples|",
+    "title": "Bad Apples",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "checkout|",
+    "title": "Checkout",
     "year": null,
     "reason": "ambiguous"
    },
@@ -107,6 +89,12 @@
     "reason": "not-found"
    },
    {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
     "key": "afteralanalbiesafterpartyandfilmcelebration|",
     "title": "After AL: An Albies After Party and Film Celebration",
     "year": null,
@@ -117,6 +105,12 @@
     "title": "Wings of Desire + Hidden in Pieces",
     "year": null,
     "reason": "not-found"
+   },
+   {
+    "key": "musical|",
+    "title": "THE MUSICAL",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "serpentspath|",
@@ -151,6 +145,12 @@
    {
     "key": "sorcerer|",
     "title": "Sorcerer",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "franz|",
+    "title": "Franz",
     "year": null,
     "reason": "ambiguous"
    },
@@ -494,7 +494,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-23T17:12:20.817Z",
+ "fetchedAt": "2026-09-23T21:35:15.789Z",
  "week": [
   "2026-09-23",
   "2026-09-24",
@@ -712,37 +712,35 @@
    "name": "Film Forum",
    "ok": true,
    "count": 128,
-   "ms": 1649
+   "ms": 896
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP 403 on GET /nyc/",
-   "carried": 62,
-   "carriedFrom": "2026-09-23T11:48:36.418Z"
+   "ok": true,
+   "count": 62,
+   "ms": 108
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 184,
-   "ms": 301
+   "ms": 152
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 23,
-   "ms": 319
+   "ms": 313
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 118,
-   "ms": 247
+   "count": 114,
+   "ms": 155
   },
   {
    "id": "cv",
@@ -751,28 +749,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /showtimes/",
    "carried": 74,
-   "carriedFrom": "2026-09-23T11:48:36.418Z"
+   "carriedFrom": "2026-09-23T17:12:20.817Z"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 19,
-   "ms": 125
+   "ms": 126
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 195,
-   "ms": 5458
+   "count": 184,
+   "ms": 5623
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
    "count": 21,
-   "ms": 4454
+   "ms": 2586
   },
   {
    "id": "wrt",
@@ -794,22 +792,22 @@
    "id": "bam",
    "name": "BAM Rose Cinemas",
    "ok": true,
-   "count": 121,
-   "ms": 474
+   "count": 139,
+   "ms": 158
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 56,
-   "ms": 4875
+   "ms": 5490
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 126,
-   "ms": 6835
+   "ms": 5993
   },
   {
    "id": "spec",
@@ -824,7 +822,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 14,
-   "ms": 1530
+   "ms": 1553
   },
   {
    "id": "momi",
@@ -839,7 +837,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 8,
-   "ms": 799
+   "ms": 220
   },
   {
    "id": "kew",
@@ -854,7 +852,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 1,
-   "ms": 846
+   "ms": 1729
   }
  ],
  "notices": {},
@@ -1014,38 +1012,6 @@
    "genreMovieId": "7564"
   },
   {
-   "venue": "quad",
-   "title": "The Fisherman",
-   "date": "2026-09-23",
-   "time": "13:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Bad Apples",
-   "date": "2026-09-23",
-   "time": "13:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-23",
-   "time": "13:20",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-09-23",
@@ -1074,66 +1040,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1299581
-  },
-  {
-   "venue": "quad",
-   "title": "Franz",
-   "date": "2026-09-23",
-   "time": "13:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Checkout",
-   "date": "2026-09-23",
-   "time": "13:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "TEENAGE SEX AND DEATH AT CAMP MIASMA in 35MM",
-   "date": "2026-09-23",
-   "time": "13:40",
-   "fmt": "35mm",
-   "director": "Jane Schoenbrun",
-   "runtime": 112,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/teenage-sex-and-death-at-camp-miasma-in-35mm",
-   "genres": [
-    "comedy",
-    "horror",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Horror",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
-  },
-  {
-   "venue": "angelika",
-   "title": "AMERICAN DOCTOR",
-   "date": "2026-09-23",
-   "time": "13:45",
-   "fmt": "English subtitles",
-   "director": "Poh Si Teng",
-   "runtime": 91,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/american-doctor",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
   },
   {
    "venue": "cv",
@@ -1209,20 +1115,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-23",
-   "time": "14:20",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -1333,39 +1225,6 @@
    "tmdbId": 1302904
   },
   {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-23",
-   "time": "15:10",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "TRACES OF HOME",
-   "date": "2026-09-23",
-   "time": "15:10",
-   "fmt": "English subtitles",
-   "director": "Colette Ghunim",
-   "runtime": 93,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/traces-of-home",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1493991
-  },
-  {
    "venue": "quad",
    "title": "The Fisherman",
    "date": "2026-09-23",
@@ -1415,20 +1274,6 @@
    "title": "Checkout",
    "date": "2026-09-23",
    "time": "15:35",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-23",
-   "time": "15:40",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1564,25 +1409,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "AMERICAN DOCTOR",
-   "date": "2026-09-23",
-   "time": "16:05",
-   "fmt": "English subtitles",
-   "director": "Poh Si Teng",
-   "runtime": 91,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/american-doctor",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
-  },
-  {
    "venue": "ff",
    "title": "MY BROTHER'S WEDDING",
    "date": "2026-09-23",
@@ -1596,29 +1422,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 91735
-  },
-  {
-   "venue": "angelika",
-   "title": "TEENAGE SEX AND DEATH AT CAMP MIASMA in 35MM",
-   "date": "2026-09-23",
-   "time": "16:15",
-   "fmt": "35mm",
-   "director": "Jane Schoenbrun",
-   "runtime": 112,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/teenage-sex-and-death-at-camp-miasma-in-35mm",
-   "genres": [
-    "comedy",
-    "horror",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Horror",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
   },
   {
    "venue": "bam",
@@ -1664,20 +1467,6 @@
    "title": "Resident Evil (2026)",
    "date": "2026-09-23",
    "time": "16:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-23",
-   "time": "16:40",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1809,20 +1598,6 @@
    "date": "2026-09-23",
    "time": "17:00",
    "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-23",
-   "time": "17:20",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4503,16 +4278,6 @@
   },
   {
    "venue": "bam",
-   "title": "Resident Evil",
-   "date": "2026-09-24",
-   "time": "19:00",
-   "url": "https://www.bam.org/film/2026/resident-evil",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "bam",
    "title": "Chronovisor",
    "date": "2026-09-24",
    "time": "19:00",
@@ -4529,6 +4294,16 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1599181
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-24",
+   "time": "19:00",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -4952,21 +4727,6 @@
   },
   {
    "venue": "bam",
-   "title": "Caught by the Tides",
-   "date": "2026-09-24",
-   "time": "21:15",
-   "url": "https://www.bam.org/film/2026/a-pure-person-caught-by-the-tides",
-   "genres": [
-    "drama"
-   ],
-   "sourceGenres": [
-    "Drama"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1136837
-  },
-  {
-   "venue": "bam",
    "title": "Ha-Chan, Shake Your Booty",
    "date": "2026-09-24",
    "time": "21:15",
@@ -4983,6 +4743,21 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596249
+  },
+  {
+   "venue": "bam",
+   "title": "Caught by the Tides",
+   "date": "2026-09-24",
+   "time": "21:15",
+   "url": "https://www.bam.org/film/2026/a-pure-person-caught-by-the-tides",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1136837
   },
   {
    "venue": "bam",
@@ -5721,6 +5496,23 @@
   },
   {
    "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-25",
+   "time": "13:40",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
+   "venue": "bam",
    "title": "Primetime",
    "date": "2026-09-25",
    "time": "13:45",
@@ -6287,6 +6079,23 @@
    "tmdbId": 1437396
   },
   {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-25",
+   "time": "16:20",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "cv",
    "title": "LATE FAME",
    "date": "2026-09-25",
@@ -6786,6 +6595,23 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1240889
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-25",
+   "time": "18:40",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "afa",
@@ -7396,6 +7222,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-25",
+   "time": "21:10",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "bam",
@@ -8419,6 +8262,23 @@
   },
   {
    "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-26",
+   "time": "13:40",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
+   "venue": "bam",
    "title": "Primetime",
    "date": "2026-09-26",
    "time": "13:45",
@@ -9043,6 +8903,23 @@
    "genreMovieId": "32179"
   },
   {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-26",
+   "time": "16:20",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "cv",
    "title": "LATE FAME",
    "date": "2026-09-26",
@@ -9522,6 +9399,23 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1240889
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-26",
+   "time": "18:40",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "afa",
@@ -10084,6 +9978,23 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1599181
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-26",
+   "time": "21:10",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "bam",
@@ -11123,6 +11034,23 @@
   },
   {
    "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-27",
+   "time": "13:40",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
+   "venue": "bam",
    "title": "Primetime",
    "date": "2026-09-27",
    "time": "13:45",
@@ -11542,16 +11470,6 @@
   },
   {
    "venue": "bam",
-   "title": "Tony",
-   "date": "2026-09-27",
-   "time": "16:00",
-   "url": "https://www.bam.org/film/2026/tony",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "bam",
    "title": "25th Hour",
    "date": "2026-09-27",
    "time": "16:00",
@@ -11566,6 +11484,16 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5954"
+  },
+  {
+   "venue": "bam",
+   "title": "Tony",
+   "date": "2026-09-27",
+   "time": "16:00",
+   "url": "https://www.bam.org/film/2026/tony",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhw",
@@ -11695,6 +11623,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-27",
+   "time": "16:20",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "cv",
@@ -12185,6 +12130,23 @@
    "tmdbId": 1596249
   },
   {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-27",
+   "time": "18:40",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "afa",
    "title": "SCREAMPLAY",
    "date": "2026-09-27",
@@ -12428,25 +12390,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "NEVER AFTER DARK",
-   "date": "2026-09-27",
-   "time": "19:30",
-   "fmt": "English subtitles",
-   "director": "Dave Boyle",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/never-after-dark",
-   "genres": [
-    "horror"
-   ],
-   "sourceGenres": [
-    "Horror"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1629051
-  },
-  {
    "venue": "ff",
    "title": "UNZIPPED",
    "date": "2026-09-27",
@@ -12508,6 +12451,25 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "NEVER AFTER DARK",
+   "date": "2026-09-27",
+   "time": "20:00",
+   "fmt": "English subtitles",
+   "director": "Dave Boyle",
+   "runtime": 105,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/never-after-dark",
+   "genres": [
+    "horror"
+   ],
+   "sourceGenres": [
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1629051
   },
   {
    "venue": "cv",
@@ -12741,6 +12703,23 @@
   },
   {
    "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-27",
+   "time": "21:10",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
+   "venue": "bam",
    "title": "Resident Evil",
    "date": "2026-09-27",
    "time": "21:10",
@@ -12961,20 +12940,6 @@
   },
   {
    "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-27",
-   "time": "22:00",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
    "title": "NEVER AFTER DARK",
    "date": "2026-09-27",
    "time": "22:00",
@@ -13010,6 +12975,20 @@
    "title": "Resident Evil (2026)",
    "date": "2026-09-27",
    "time": "22:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "THE MUSICAL",
+   "date": "2026-09-27",
+   "time": "22:10",
+   "fmt": "Standard",
+   "director": "Giselle Bonilla",
+   "runtime": 84,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13993,6 +13972,23 @@
    "tmdbId": 1437396
   },
   {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-28",
+   "time": "16:20",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "ff",
    "title": "THE SCOUT",
    "date": "2026-09-28",
@@ -14350,6 +14346,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-28",
+   "time": "18:40",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "afa",
@@ -14928,6 +14941,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-28",
+   "time": "21:10",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "bam",
@@ -16153,6 +16183,23 @@
    "tmdbId": 1437396
   },
   {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-29",
+   "time": "16:20",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "ff",
    "title": "THE SCOUT",
    "date": "2026-09-29",
@@ -16498,6 +16545,23 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1240889
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-29",
+   "time": "18:40",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "afa",
@@ -16990,6 +17054,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-09-29",
+   "time": "21:10",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "bam",

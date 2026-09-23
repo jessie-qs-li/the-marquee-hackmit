@@ -1,7 +1,7 @@
 {
  "city": "boston",
  "genreCoverage": {
-  "total": 58,
+  "total": 57,
   "classified": 25,
   "unresolved": [
    {
@@ -59,22 +59,16 @@
     "reason": "ambiguous"
    },
    {
-    "key": "avengersendgameencore|",
-    "title": "Avengers Endgame: Encore",
+    "key": "primetime|",
+    "title": "Primetime",
     "year": null,
-    "reason": "not in catalogue or ambiguous title"
+    "reason": "ambiguous"
    },
    {
     "key": "heartofthebeast|",
     "title": "Heart Of The Beast",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "primetime|",
-    "title": "Primetime",
-    "year": null,
-    "reason": "ambiguous"
    },
    {
     "key": "pulpwhatdoyoudoforanencore|",
@@ -206,7 +200,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-23T17:12:31.175Z",
+ "fetchedAt": "2026-09-23T21:35:24.876Z",
  "week": [
   "2026-09-23",
   "2026-09-24",
@@ -284,14 +278,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 19,
-   "ms": 2396
+   "ms": 2441
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 161,
-   "ms": 6631
+   "ms": 5021
   },
   {
    "id": "somerville",
@@ -305,15 +299,15 @@
    "id": "kendall",
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
-   "count": 85,
-   "ms": 812
+   "count": 73,
+   "ms": 859
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 316
+   "ms": 556
   },
   {
    "id": "mfa",
@@ -933,16 +927,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
-   "date": "2026-09-24",
-   "time": "15:25",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "coolidge",
    "title": "Shaun the Sheep: The Beast of Mossy Bottom",
    "date": "2026-09-24",
@@ -998,6 +982,16 @@
   },
   {
    "venue": "kendall",
+   "title": "Primetime",
+   "date": "2026-09-24",
+   "time": "16:00",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
    "title": "Heart Of The Beast",
    "date": "2026-09-24",
    "time": "16:05",
@@ -1021,6 +1015,16 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1517111
+  },
+  {
+   "venue": "kendall",
+   "title": "Tony",
+   "date": "2026-09-24",
+   "time": "16:15",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "kendall",
@@ -1138,16 +1142,6 @@
   },
   {
    "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
-   "date": "2026-09-24",
-   "time": "18:30",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
    "title": "If I Go Will They Miss Me",
    "date": "2026-09-24",
    "time": "18:35",
@@ -1236,6 +1230,16 @@
    "time": "19:15",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1036561~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/weight",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Heart Of The Beast",
+   "date": "2026-09-24",
+   "time": "19:15",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1455,16 +1459,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1204680
-  },
-  {
-   "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
-   "date": "2026-09-25",
-   "time": "15:00",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "kendall",
@@ -1719,16 +1713,6 @@
   },
   {
    "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
-   "date": "2026-09-25",
-   "time": "19:00",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
    "title": "Primetime",
    "date": "2026-09-25",
    "time": "19:05",
@@ -1806,16 +1790,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "3637"
-  },
-  {
-   "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
-   "date": "2026-09-25",
-   "time": "20:30",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -2057,16 +2031,6 @@
    "genreMovieId": "5219"
   },
   {
-   "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
-   "date": "2026-09-26",
-   "time": "13:20",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "coolidge",
    "title": "Ha-Chan, Shake Your Booty!",
    "date": "2026-09-26",
@@ -2224,16 +2188,6 @@
    "title": "Heart Of The Beast",
    "date": "2026-09-26",
    "time": "14:20",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
-   "date": "2026-09-26",
-   "time": "15:15",
    "fmt": "",
    "genres": [],
    "sourceGenres": [],
@@ -2506,16 +2460,6 @@
   },
   {
    "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
-   "date": "2026-09-26",
-   "time": "19:00",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
    "title": "Primetime",
    "date": "2026-09-26",
    "time": "19:05",
@@ -2604,16 +2548,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2167"
-  },
-  {
-   "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
-   "date": "2026-09-26",
-   "time": "20:30",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -2824,16 +2758,6 @@
    "tmdbId": 1477104
   },
   {
-   "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
-   "date": "2026-09-27",
-   "time": "11:50",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "brattle",
    "title": "Careful",
    "date": "2026-09-27",
@@ -2952,16 +2876,6 @@
    "time": "14:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1028417~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/uncle-boonmee-who-can-recall-his-past-lives",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
-   "date": "2026-09-27",
-   "time": "14:00",
-   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3173,16 +3087,6 @@
    "time": "17:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037910~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
-   "date": "2026-09-27",
-   "time": "18:00",
-   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3591,11 +3495,12 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
+   "venue": "coolidge",
+   "title": "Tony (2026)",
    "date": "2026-09-28",
-   "time": "18:05",
-   "fmt": "",
+   "time": "18:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1038007~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/tony-2026",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3607,17 +3512,6 @@
    "time": "18:15",
    "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=887072ef-e4e1-484e-969f-3cefb3f424e8&",
    "filmUrl": "https://coolidge.org/events/seminar-strictly-ballroom",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Tony (2026)",
-   "date": "2026-09-28",
-   "time": "18:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1038007~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/tony-2026",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3842,16 +3736,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
-   "date": "2026-09-29",
-   "time": "15:20",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "coolidge",
    "title": "American Doctor",
    "date": "2026-09-29",
@@ -4009,16 +3893,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "kendall",
-   "title": "Avengers Endgame: Encore",
-   "date": "2026-09-29",
-   "time": "18:05",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
