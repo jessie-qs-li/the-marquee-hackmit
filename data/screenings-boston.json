@@ -206,7 +206,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-23T04:52:55.526Z",
+ "fetchedAt": "2026-09-23T11:48:45.734Z",
  "week": [
   "2026-09-23",
   "2026-09-24",
@@ -284,14 +284,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 19,
-   "ms": 2745
+   "ms": 2580
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 161,
-   "ms": 8803
+   "ms": 5002
   },
   {
    "id": "somerville",
@@ -306,14 +306,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 85,
-   "ms": 971
+   "ms": 1072
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 250
+   "ms": 451
   },
   {
    "id": "mfa",
@@ -513,17 +513,19 @@
    "filmUrl": "https://brattlefilm.org/movies/event-horizon/",
    "genres": [
     "horror",
-    "scifi",
-    "thriller"
+    "thriller",
+    "scifi"
    ],
-   "year": null,
+   "year": 1997,
    "sourceGenres": [
     "Horror",
-    "Sci-Fi",
-    "Thriller"
+    "Mystery",
+    "Science Fiction",
+    "Horror",
+    "Mystery",
+    "Science Fiction"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1590"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -648,16 +650,25 @@
    "url": "https://brattlefilm.org/purchase/1686153/",
    "filmUrl": "https://brattlefilm.org/movies/in-the-mouth-of-madness/",
    "genres": [
+    "drama",
+    "scifi",
     "horror",
     "thriller"
    ],
-   "year": null,
+   "year": 1995,
    "sourceGenres": [
+    "Drama",
+    "Fantasy",
     "Horror",
+    "Mystery",
+    "Thriller",
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Mystery",
     "Thriller"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "407"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -755,17 +766,19 @@
    "filmUrl": "https://brattlefilm.org/movies/event-horizon/",
    "genres": [
     "horror",
-    "scifi",
-    "thriller"
+    "thriller",
+    "scifi"
    ],
-   "year": null,
+   "year": 1997,
    "sourceGenres": [
     "Horror",
-    "Sci-Fi",
-    "Thriller"
+    "Mystery",
+    "Science Fiction",
+    "Horror",
+    "Mystery",
+    "Science Fiction"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1590"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1064,16 +1077,25 @@
    "url": "https://brattlefilm.org/purchase/1712520/",
    "filmUrl": "https://brattlefilm.org/movies/in-the-mouth-of-madness/",
    "genres": [
+    "drama",
+    "scifi",
     "horror",
     "thriller"
    ],
-   "year": null,
+   "year": 1995,
    "sourceGenres": [
+    "Drama",
+    "Fantasy",
     "Horror",
+    "Mystery",
+    "Thriller",
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Mystery",
     "Thriller"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "407"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
