@@ -5,18 +5,6 @@
   "classified": 107,
   "unresolved": [
    {
-    "key": "musical|",
-    "title": "THE MUSICAL",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "filipinana|",
     "title": "FILIPIÑANA",
     "year": null,
@@ -37,6 +25,12 @@
    {
     "key": "badapples|",
     "title": "Bad Apples",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
     "year": null,
     "reason": "ambiguous"
    },
@@ -73,6 +67,12 @@
    {
     "key": "uprising|",
     "title": "The Uprising",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "musical|",
+    "title": "THE MUSICAL",
     "year": null,
     "reason": "ambiguous"
    },
@@ -494,7 +494,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-23T11:48:36.418Z",
+ "fetchedAt": "2026-09-23T17:12:20.817Z",
  "week": [
   "2026-09-23",
   "2026-09-24",
@@ -712,35 +712,37 @@
    "name": "Film Forum",
    "ok": true,
    "count": 128,
-   "ms": 944
+   "ms": 1649
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": true,
-   "count": 62,
-   "ms": 184
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 on GET /nyc/",
+   "carried": 62,
+   "carriedFrom": "2026-09-23T11:48:36.418Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 184,
-   "ms": 581
+   "ms": 301
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 23,
-   "ms": 690
+   "ms": 319
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 118,
-   "ms": 400
+   "ms": 247
   },
   {
    "id": "cv",
@@ -749,28 +751,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /showtimes/",
    "carried": 74,
-   "carriedFrom": "2026-09-23T04:52:42.558Z"
+   "carriedFrom": "2026-09-23T11:48:36.418Z"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 19,
-   "ms": 276
+   "ms": 125
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 202,
-   "ms": 5133
+   "count": 195,
+   "ms": 5458
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
    "count": 21,
-   "ms": 2183
+   "ms": 4454
   },
   {
    "id": "wrt",
@@ -793,21 +795,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 121,
-   "ms": 656
+   "ms": 474
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 56,
-   "ms": 4572
+   "ms": 4875
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 126,
-   "ms": 6601
+   "ms": 6835
   },
   {
    "id": "spec",
@@ -822,7 +824,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 14,
-   "ms": 1641
+   "ms": 1530
   },
   {
    "id": "momi",
@@ -837,7 +839,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 8,
-   "ms": 359
+   "ms": 799
   },
   {
    "id": "kew",
@@ -852,7 +854,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 1,
-   "ms": 1767
+   "ms": 846
   }
  ],
  "notices": {},
@@ -902,57 +904,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-23",
-   "time": "10:50",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "TEENAGE SEX AND DEATH AT CAMP MIASMA in 35MM",
-   "date": "2026-09-23",
-   "time": "11:00",
-   "fmt": "35mm",
-   "director": "Jane Schoenbrun",
-   "runtime": 112,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/teenage-sex-and-death-at-camp-miasma-in-35mm",
-   "genres": [
-    "comedy",
-    "horror",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Horror",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-23",
-   "time": "11:00",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Arsa",
    "date": "2026-09-23",
@@ -965,25 +916,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1359206
-  },
-  {
-   "venue": "angelika",
-   "title": "AMERICAN DOCTOR",
-   "date": "2026-09-23",
-   "time": "11:30",
-   "fmt": "English subtitles",
-   "director": "Poh Si Teng",
-   "runtime": 91,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/american-doctor",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
   },
   {
    "venue": "ifc",
@@ -1016,20 +948,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-23",
-   "time": "12:00",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "YOU HAD TO BE THERE: HOW THE TORONTO GODSPELL IGNITED THE COMEDY REVOLUTION…",
    "date": "2026-09-23",
@@ -1057,15 +975,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "ifc",
-   "title": "2026 Sundance Festival Short Film Tour (Open Captioning)",
-   "date": "2026-09-23",
-   "time": "12:25",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "MY BROTHER'S WEDDING",
    "date": "2026-09-23",
@@ -1081,34 +990,10 @@
    "tmdbId": 91735
   },
   {
-   "venue": "angelika",
-   "title": "THE OLDEST PERSON IN THE WORLD",
+   "venue": "ifc",
+   "title": "2026 Sundance Festival Short Film Tour (Open Captioning)",
    "date": "2026-09-23",
-   "time": "12:55",
-   "fmt": "Standard",
-   "director": "Sam Green",
-   "runtime": 87,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-oldest-person-in-the-world",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596302
-  },
-  {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-23",
-   "time": "13:00",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
+   "time": "12:35",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
