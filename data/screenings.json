@@ -1,24 +1,12 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 184,
-  "classified": 100,
+  "total": 179,
+  "classified": 96,
   "unresolved": [
-   {
-    "key": "checkout|",
-    "title": "Checkout",
-    "year": null,
-    "reason": "ambiguous"
-   },
    {
     "key": "filipinana|",
     "title": "FILIPIÑANA",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "fisherman|",
-    "title": "The Fisherman",
     "year": null,
     "reason": "ambiguous"
    },
@@ -27,12 +15,6 @@
     "title": "2026 Sundance Festival Short Film Tour (Open Captioning)",
     "year": null,
     "reason": "not-found"
-   },
-   {
-    "key": "badapples|",
-    "title": "Bad Apples",
-    "year": null,
-    "reason": "ambiguous"
    },
    {
     "key": "howtolive|",
@@ -45,12 +27,6 @@
     "title": "Rebels of the Neon God",
     "year": 1992,
     "reason": "not-found"
-   },
-   {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
    },
    {
     "key": "takemehome|",
@@ -77,8 +53,8 @@
     "reason": "ambiguous"
    },
    {
-    "key": "musical|",
-    "title": "THE MUSICAL",
+    "key": "fisherman|",
+    "title": "The Fisherman",
     "year": null,
     "reason": "ambiguous"
    },
@@ -89,8 +65,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "sorcerer|",
-    "title": "Sorcerer",
+    "key": "badapples|",
+    "title": "Bad Apples",
     "year": null,
     "reason": "ambiguous"
    },
@@ -111,6 +87,12 @@
     "title": "KRIZALIT CELEBRATION OF TURKISH AND WOMEN VOICES",
     "year": null,
     "reason": "not-found"
+   },
+   {
+    "key": "checkout|",
+    "title": "Checkout",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "serpentspath|",
@@ -143,10 +125,22 @@
     "reason": "ambiguous"
    },
    {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
     "key": "narrowroomsjerker|",
     "title": "NARROW ROOMS: JERKER",
     "year": null,
     "reason": "not-found"
+   },
+   {
+    "key": "musical|",
+    "title": "THE MUSICAL",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "kaboom|",
@@ -512,7 +506,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-24T17:18:22.660Z",
+ "fetchedAt": "2026-09-24T21:36:13.312Z",
  "week": [
   "2026-09-24",
   "2026-09-25",
@@ -730,35 +724,35 @@
    "name": "Film Forum",
    "ok": true,
    "count": 130,
-   "ms": 1043
+   "ms": 825
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
    "count": 59,
-   "ms": 39
+   "ms": 181
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 180,
-   "ms": 94
+   "ms": 263
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 23,
-   "ms": 442
+   "ms": 537
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 119,
-   "ms": 193
+   "count": 113,
+   "ms": 300
   },
   {
    "id": "cv",
@@ -767,28 +761,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /showtimes/",
    "carried": 64,
-   "carriedFrom": "2026-09-24T11:57:02.104Z"
+   "carriedFrom": "2026-09-24T17:18:22.660Z"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 19,
-   "ms": 123
+   "ms": 280
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 198,
-   "ms": 5461
+   "count": 187,
+   "ms": 5290
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 20,
-   "ms": 2307
+   "count": 19,
+   "ms": 2777
   },
   {
    "id": "wrt",
@@ -811,21 +805,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 141,
-   "ms": 303
+   "ms": 317
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 49,
-   "ms": 4199
+   "ms": 4298
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 133,
-   "ms": 6700
+   "ms": 6126
   },
   {
    "id": "spec",
@@ -840,7 +834,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 14,
-   "ms": 2004
+   "ms": 2070
   },
   {
    "id": "momi",
@@ -855,7 +849,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 7,
-   "ms": 192
+   "ms": 1151
   },
   {
    "id": "kew",
@@ -870,7 +864,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 1,
-   "ms": 1850
+   "ms": 1677
   }
  ],
  "notices": {},
@@ -950,33 +944,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "quad",
-   "title": "Virginia Woolf’s Night & Day",
-   "date": "2026-09-24",
-   "time": "11:55",
-   "genres": [
-    "comedy",
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1291375
-  },
-  {
-   "venue": "quad",
-   "title": "Checkout",
-   "date": "2026-09-24",
-   "time": "12:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "YOU HAD TO BE THERE: HOW THE TORONTO GODSPELL IGNITED THE COMEDY REVOLUTION…",
    "date": "2026-09-24",
@@ -1033,15 +1000,6 @@
    "tmdbId": 91735
   },
   {
-   "venue": "quad",
-   "title": "The Fisherman",
-   "date": "2026-09-24",
-   "time": "12:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "2026 Sundance Festival Short Film Tour (Open Captioning)",
    "date": "2026-09-24",
@@ -1066,15 +1024,6 @@
    "genreMovieId": "7564"
   },
   {
-   "venue": "quad",
-   "title": "Bad Apples",
-   "date": "2026-09-24",
-   "time": "13:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-09-24",
@@ -1091,25 +1040,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "angelika",
-   "title": "AMERICAN DOCTOR",
-   "date": "2026-09-24",
-   "time": "13:20",
-   "fmt": "English subtitles",
-   "director": "Poh Si Teng",
-   "runtime": 91,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/american-doctor",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
-  },
-  {
    "venue": "ifc",
    "title": "Knife: The Attempted Murder of Salman Rushdie",
    "date": "2026-09-24",
@@ -1122,43 +1052,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1299581
-  },
-  {
-   "venue": "angelika",
-   "title": "TRACES OF HOME",
-   "date": "2026-09-24",
-   "time": "13:40",
-   "fmt": "English subtitles",
-   "director": "Colette Ghunim",
-   "runtime": 93,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/traces-of-home",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1493991
-  },
-  {
-   "venue": "quad",
-   "title": "Black Zombie",
-   "date": "2026-09-24",
-   "time": "13:55",
-   "genres": [
-    "documentary",
-    "horror",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Horror",
-    "Thriller"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1629355
   },
   {
    "venue": "cv",
@@ -1210,15 +1103,6 @@
    "genreMovieId": "5540"
   },
   {
-   "venue": "quad",
-   "title": "Checkout",
-   "date": "2026-09-24",
-   "time": "14:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Arsa",
    "date": "2026-09-24",
@@ -1257,43 +1141,6 @@
    "year": 1992,
    "runtime": 106,
    "director": "Tsai Ming-liang",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "TEENAGE SEX AND DEATH AT CAMP MIASMA in 35MM",
-   "date": "2026-09-24",
-   "time": "14:15",
-   "fmt": "35mm",
-   "director": "Jane Schoenbrun",
-   "runtime": 112,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/teenage-sex-and-death-at-camp-miasma-in-35mm",
-   "genres": [
-    "comedy",
-    "horror",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Horror",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-24",
-   "time": "14:20",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1405,43 +1252,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-24",
-   "time": "14:50",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
-   "date": "2026-09-24",
-   "time": "15:00",
-   "fmt": "Standard",
-   "director": "Josef Kobota Wladyka",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
-   "genres": [
-    "comedy",
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596249
-  },
-  {
    "venue": "cv",
    "title": "SMALL TALK FULL MOUTH",
    "date": "2026-09-24",
@@ -1461,19 +1271,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "paris",
-   "title": "Sorcerer",
-   "date": "2026-09-24",
-   "time": "15:15",
-   "runtime": 121,
-   "fmt": "",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3023/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-24",
@@ -1481,25 +1278,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "AMERICAN DOCTOR",
-   "date": "2026-09-24",
-   "time": "15:45",
-   "fmt": "English subtitles",
-   "director": "Poh Si Teng",
-   "runtime": 91,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/american-doctor",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
   },
   {
    "venue": "ifc",
@@ -1648,25 +1426,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "THE OLDEST PERSON IN THE WORLD",
-   "date": "2026-09-24",
-   "time": "16:10",
-   "fmt": "Standard",
-   "director": "Sam Green",
-   "runtime": 87,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-oldest-person-in-the-world",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596302
-  },
-  {
    "venue": "ff",
    "title": "MY BROTHER'S WEDDING",
    "date": "2026-09-24",
@@ -1779,20 +1538,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-24",
-   "time": "16:40",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Chronovisor",
    "date": "2026-09-24",
@@ -1875,41 +1620,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "4847"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-09-24",
-   "time": "17:00",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-24",
-   "time": "17:00",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "cv",
@@ -9866,22 +9576,22 @@
   },
   {
    "venue": "roxy",
-   "title": "Her Will Be Done + Q&A",
+   "title": "Sex Is Comedy + Introduction",
    "date": "2026-09-27",
    "time": "17:30",
-   "url": "https://www.roxycinemanewyork.com/screenings/her-will-be-done-qa/",
+   "url": "https://www.roxycinemanewyork.com/screenings/sex-is-comedy/",
    "note": "",
    "fmt": "",
    "genres": [
-    "drama",
-    "horror"
+    "comedy",
+    "drama"
    ],
    "sourceGenres": [
-    "Drama",
-    "Horror"
+    "Comedy",
+    "Drama"
    ],
    "genreSource": "tmdb",
-   "tmdbId": 1376046
+   "tmdbId": 53244
   },
   {
    "venue": "nhp",
