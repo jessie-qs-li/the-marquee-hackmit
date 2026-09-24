@@ -5,18 +5,6 @@
   "classified": 100,
   "unresolved": [
    {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "musical|",
-    "title": "THE MUSICAL",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "checkout|",
     "title": "Checkout",
     "year": null,
@@ -59,6 +47,12 @@
     "reason": "not-found"
    },
    {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
     "key": "takemehome|",
     "title": "Take Me Home",
     "year": null,
@@ -79,6 +73,12 @@
    {
     "key": "hope|",
     "title": "Hope",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "musical|",
+    "title": "THE MUSICAL",
     "year": null,
     "reason": "ambiguous"
    },
@@ -512,7 +512,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-24T11:57:02.104Z",
+ "fetchedAt": "2026-09-24T17:18:22.660Z",
  "week": [
   "2026-09-24",
   "2026-09-25",
@@ -730,35 +730,35 @@
    "name": "Film Forum",
    "ok": true,
    "count": 130,
-   "ms": 782
+   "ms": 1043
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
    "count": 59,
-   "ms": 99
+   "ms": 39
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 180,
-   "ms": 222
+   "ms": 94
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 23,
-   "ms": 654
+   "ms": 442
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 119,
-   "ms": 314
+   "ms": 193
   },
   {
    "id": "cv",
@@ -767,28 +767,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /showtimes/",
    "carried": 64,
-   "carriedFrom": "2026-09-24T05:01:39.245Z"
+   "carriedFrom": "2026-09-24T11:57:02.104Z"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 19,
-   "ms": 300
+   "ms": 123
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 206,
-   "ms": 5102
+   "count": 198,
+   "ms": 5461
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 21,
-   "ms": 1945
+   "count": 20,
+   "ms": 2307
   },
   {
    "id": "wrt",
@@ -811,21 +811,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 141,
-   "ms": 506
+   "ms": 303
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 49,
-   "ms": 4228
+   "ms": 4199
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 133,
-   "ms": 5752
+   "ms": 6700
   },
   {
    "id": "spec",
@@ -840,7 +840,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 14,
-   "ms": 1601
+   "ms": 2004
   },
   {
    "id": "momi",
@@ -855,7 +855,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 7,
-   "ms": 515
+   "ms": 192
   },
   {
    "id": "kew",
@@ -870,39 +870,11 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 1,
-   "ms": 1095
+   "ms": 1850
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-24",
-   "time": "10:30",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-24",
-   "time": "10:30",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "ifc",
    "title": "The Vanishing Song",
@@ -948,65 +920,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "angelika",
-   "title": "TRACES OF HOME",
-   "date": "2026-09-24",
-   "time": "11:00",
-   "fmt": "English subtitles",
-   "director": "Colette Ghunim",
-   "runtime": 93,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/traces-of-home",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1493991
-  },
-  {
-   "venue": "paris",
-   "title": "Barry Lyndon",
-   "date": "2026-09-24",
-   "time": "11:00",
-   "runtime": 185,
-   "fmt": "",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3022/seats",
-   "genres": [
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Romance",
-    "War"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "2730"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE OLDEST PERSON IN THE WORLD",
-   "date": "2026-09-24",
-   "time": "11:20",
-   "fmt": "Standard",
-   "director": "Sam Green",
-   "runtime": 87,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-oldest-person-in-the-world",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596302
-  },
-  {
    "venue": "ifc",
    "title": "Heathers",
    "date": "2026-09-24",
@@ -1019,29 +932,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1285"
-  },
-  {
-   "venue": "angelika",
-   "title": "TEENAGE SEX AND DEATH AT CAMP MIASMA in 35MM",
-   "date": "2026-09-24",
-   "time": "11:40",
-   "fmt": "35mm",
-   "director": "Jane Schoenbrun",
-   "runtime": 112,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/teenage-sex-and-death-at-camp-miasma-in-35mm",
-   "genres": [
-    "comedy",
-    "horror",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Horror",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
   },
   {
    "venue": "ifc",
@@ -1076,20 +966,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1291375
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-24",
-   "time": "12:00",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -1173,39 +1049,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-24",
-   "time": "12:40",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE OLDEST PERSON IN THE WORLD",
-   "date": "2026-09-24",
-   "time": "12:45",
-   "fmt": "Standard",
-   "director": "Sam Green",
-   "runtime": 87,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-oldest-person-in-the-world",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596302
   },
   {
    "venue": "ff",
@@ -6870,7 +6713,7 @@
    "fmt": "Q&A to follow the screening",
    "director": "Bassam Tariq",
    "runtime": 111,
-   "note": "Sold out",
+   "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
    "genres": [
     "drama",
