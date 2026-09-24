@@ -191,14 +191,14 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "cinefestlatinobostonamericanpachucothelegendofluisvaldez|",
-    "title": "CineFest Latino Boston: American Pachuco: The Legend of Luis Valdez",
+    "key": "nostalghia|",
+    "title": "Nostalghia",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "nostalghia|",
-    "title": "Nostalghia",
+    "key": "cinefestlatinobostonamericanpachucothelegendofluisvaldez|",
+    "title": "CineFest Latino Boston: American Pachuco: The Legend of Luis Valdez",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -218,7 +218,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-24T05:02:09.475Z",
+ "fetchedAt": "2026-09-24T11:57:12.320Z",
  "week": [
   "2026-09-24",
   "2026-09-25",
@@ -296,14 +296,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 18,
-   "ms": 2708
+   "ms": 2646
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 163,
-   "ms": 25781
+   "ms": 5732
   },
   {
    "id": "somerville",
@@ -318,14 +318,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 90,
-   "ms": 1371
+   "ms": 1350
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 192
+   "ms": 320
   },
   {
    "id": "mfa",
@@ -596,16 +596,20 @@
    "url": "https://brattlefilm.org/purchase/1712520/",
    "filmUrl": "https://brattlefilm.org/movies/in-the-mouth-of-madness/",
    "genres": [
+    "drama",
+    "scifi",
     "horror",
     "thriller"
    ],
-   "year": null,
+   "year": 1995,
    "sourceGenres": [
+    "Drama",
+    "Fantasy",
     "Horror",
+    "Mystery",
     "Thriller"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "407"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -758,16 +762,13 @@
    "url": "https://brattlefilm.org/purchase/1712521/",
    "filmUrl": "https://brattlefilm.org/movies/possession/",
    "genres": [
-    "drama",
-    "romance"
+    "horror"
    ],
-   "year": null,
+   "year": 1981,
    "sourceGenres": [
-    "Drama",
-    "Romance"
+    "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5527"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -4140,22 +4141,22 @@
   },
   {
    "venue": "coolidge",
-   "title": "CineFest Latino Boston: American Pachuco: The Legend of Luis Valdez",
+   "title": "Nostalghia",
    "date": "2026-09-30",
    "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1034685~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/cinefest-latino-boston-american-pachuco-legend-luis-valdez",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1028418~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/nostalghia",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
-   "title": "Nostalghia",
+   "title": "CineFest Latino Boston: American Pachuco: The Legend of Luis Valdez",
    "date": "2026-09-30",
    "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1028418~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/nostalghia",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1034685~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/cinefest-latino-boston-american-pachuco-legend-luis-valdez",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
