@@ -95,17 +95,33 @@ loses roughly eighty showtimes with `HTTP 403 on GET /showtimes/`. It answers a
 normal residential address without complaint, so the fix is to run the job from
 one:
 
+If a runner is already registered on the machine, all that is needed is a
+repository **variable** (not a secret) naming a label it carries:
+
+| Variable | Value |
+| --- | --- |
+| `RUNNER_LABEL` | `self-hosted` |
+
+Every self-hosted runner carries `self-hosted` automatically and the label
+cannot be removed, so it matches whatever the runner was named at registration.
+
+To set one up from scratch instead:
+
 ```bash
 bash scripts/setup-runner.sh <REGISTRATION_TOKEN>
 ```
 
 The token comes from **Settings → Actions → Runners → New self-hosted runner**
-and lasts an hour. The script installs the runner as a login service, so it
-survives reboots. Afterwards add a repository **variable** (not a secret):
+and lasts an hour. That script registers the runner with the extra label
+`marquee-local` and installs it as a login service, so it survives reboots; use
+that label instead if you go this route.
 
-| Variable | Value |
-| --- | --- |
-| `RUNNER_LABEL` | `marquee-local` |
+A runner started with `./run.sh` only lives as long as its terminal. To keep it
+across reboots and sleep:
+
+```bash
+cd ~/actions-runner && ./svc.sh install && ./svc.sh start
+```
 
 The workflow reads `${{ vars.RUNNER_LABEL || 'ubuntu-latest' }}`, so until that
 variable exists it keeps using GitHub's runners and nothing breaks while the
