@@ -1,8 +1,8 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 169,
-  "classified": 84,
+  "total": 168,
+  "classified": 83,
   "unresolved": [
    {
     "key": "2026sundancefestivalshortfilmtour|",
@@ -15,24 +15,6 @@
     "title": "YOU HAD TO BE THERE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "checkout|",
-    "title": "Checkout",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "marchingband|",
-    "title": "The Marching Band",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "badapples|",
-    "title": "Bad Apples",
-    "year": null,
-    "reason": "ambiguous"
    },
    {
     "key": "filipinana|",
@@ -65,12 +47,6 @@
     "reason": "ambiguous"
    },
    {
-    "key": "franz|",
-    "title": "Franz",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "heartofthebeast|",
     "title": "Heart of the Beast",
     "year": null,
@@ -83,10 +59,22 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "marchingband|",
+    "title": "The Marching Band",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "howtolive|",
     "title": "HOW TO LIVE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "badapples|",
+    "title": "Bad Apples",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "fisherman|",
@@ -98,18 +86,6 @@
     "key": "blade|1995",
     "title": "The Blade",
     "year": 1995,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "musical|",
-    "title": "THE MUSICAL",
-    "year": null,
     "reason": "ambiguous"
    },
    {
@@ -131,10 +107,28 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "checkout|",
+    "title": "Checkout",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
     "key": "thislongcenturypresentssalomelamas|2025",
     "title": "This Long Century Presents: Salomé Lamas",
     "year": 2025,
     "reason": "not-found"
+   },
+   {
+    "key": "musical|",
+    "title": "THE MUSICAL",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "toneywmerrittpgm2vignettesminiatures|",
@@ -165,6 +159,12 @@
     "title": "National Theatre Live: The Misanthrope",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "franz|",
+    "title": "Franz",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "iphigenia|1977",
@@ -518,7 +518,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-25T19:13:58.436Z",
+ "fetchedAt": "2026-09-25T21:46:18.045Z",
  "week": [
   "2026-09-25",
   "2026-09-26",
@@ -736,7 +736,7 @@
    "name": "Film Forum",
    "ok": true,
    "count": 134,
-   "ms": 1387
+   "ms": 873
   },
   {
    "id": "mg",
@@ -745,56 +745,56 @@
    "count": 0,
    "error": "HTTP 403 on GET /nyc/",
    "carried": 56,
-   "carriedFrom": "2026-09-25T17:18:47.902Z"
+   "carriedFrom": "2026-09-25T19:13:58.436Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 177,
-   "ms": 627
+   "ms": 301
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 24,
-   "ms": 1444
+   "ms": 831
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 118,
-   "ms": 494
+   "count": 110,
+   "ms": 499
   },
   {
    "id": "cv",
    "name": "Cinema Village",
    "ok": true,
    "count": 85,
-   "ms": 6015
+   "ms": 6745
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 19,
-   "ms": 2619
+   "ms": 395
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 191,
-   "ms": 6181
+   "count": 185,
+   "ms": 5412
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 20,
-   "ms": 3415
+   "count": 19,
+   "ms": 2310
   },
   {
    "id": "wrt",
@@ -817,21 +817,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 133,
-   "ms": 451
+   "ms": 144
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 63,
-   "ms": 8310
+   "count": 49,
+   "ms": 4329
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 119,
-   "ms": 16317
+   "ms": 38974
   },
   {
    "id": "spec",
@@ -846,7 +846,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 14,
-   "ms": 2502
+   "ms": 1804
   },
   {
    "id": "momi",
@@ -861,7 +861,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 6,
-   "ms": 502
+   "ms": 288
   },
   {
    "id": "kew",
@@ -876,7 +876,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 2,
-   "ms": 2112
+   "ms": 979
   }
  ],
  "notices": {},
@@ -980,24 +980,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Checkout",
-   "date": "2026-09-25",
-   "time": "12:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "The Marching Band",
-   "date": "2026-09-25",
-   "time": "12:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "UNZIPPED",
    "date": "2026-09-25",
@@ -1011,15 +993,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
-  },
-  {
-   "venue": "quad",
-   "title": "Bad Apples",
-   "date": "2026-09-25",
-   "time": "12:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -1069,20 +1042,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "American Doctor",
-   "date": "2026-09-25",
-   "time": "13:20",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
   },
   {
    "venue": "bam",
@@ -1268,15 +1227,6 @@
    "genreMovieId": "206"
   },
   {
-   "venue": "quad",
-   "title": "Franz",
-   "date": "2026-09-25",
-   "time": "14:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "THE SCOUT",
    "date": "2026-09-25",
@@ -1304,15 +1254,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "The Marching Band",
-   "date": "2026-09-25",
-   "time": "14:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "mg",
    "title": "Four Adventures of Reinette and Mirabelle",
    "date": "2026-09-25",
@@ -1331,15 +1272,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 37189
-  },
-  {
-   "venue": "quad",
-   "title": "Bad Apples",
-   "date": "2026-09-25",
-   "time": "14:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "mg",
@@ -1417,44 +1349,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "American Doctor",
-   "date": "2026-09-25",
-   "time": "15:20",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
-  },
-  {
-   "venue": "paris",
-   "title": "Mad Max: Fury Road",
-   "date": "2026-09-25",
-   "time": "15:30",
-   "runtime": 120,
-   "fmt": "Atmos",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3027/seats",
-   "genres": [
-    "action",
-    "adventure",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Adventure",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "122882"
   },
   {
    "venue": "ifc",
@@ -1617,29 +1511,6 @@
    "genreMovieId": "5219"
   },
   {
-   "venue": "angelika",
-   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
-   "date": "2026-09-25",
-   "time": "16:15",
-   "fmt": "Standard",
-   "director": "Josef Kobota Wladyka",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
-   "genres": [
-    "comedy",
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596249
-  },
-  {
    "venue": "bam",
    "title": "Ha-Chan, Shake Your Booty",
    "date": "2026-09-25",
@@ -1667,27 +1538,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-09-25",
-   "time": "16:20",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "bam",
@@ -1853,25 +1703,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "NEVER AFTER DARK",
-   "date": "2026-09-25",
-   "time": "16:45",
-   "fmt": "English subtitles",
-   "director": "Dave Boyle",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/never-after-dark",
-   "genres": [
-    "horror"
-   ],
-   "sourceGenres": [
-    "Horror"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1629051
-  },
-  {
    "venue": "cv",
    "title": "HOW TO LIVE",
    "date": "2026-09-25",
@@ -1921,55 +1752,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-25",
-   "time": "17:10",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-25",
-   "time": "17:10",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
-   "date": "2026-09-25",
-   "time": "17:20",
-   "fmt": "Standard",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "quad",
@@ -2035,24 +1817,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Practical Magic 2",
-   "date": "2026-09-25",
-   "time": "18:00",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "ifc",
    "title": "Take Me Home",
    "date": "2026-09-25",
@@ -2096,15 +1860,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-09-25",
-   "time": "18:25",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "afa",
@@ -2344,7 +2099,7 @@
    "fmt": "Q&A to follow the screening",
    "director": "Bassam Tariq",
    "runtime": 111,
-   "note": "Sold out",
+   "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
    "genres": [
     "drama",
@@ -4915,24 +4670,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Practical Magic 2",
-   "date": "2026-09-26",
-   "time": "18:00",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "ifc",
    "title": "Take Me Home",
    "date": "2026-09-26",
@@ -4986,15 +4723,6 @@
    "year": 2000,
    "runtime": 113,
    "director": "Tsui Hark",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-09-26",
-   "time": "18:25",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7731,24 +7459,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Practical Magic 2",
-   "date": "2026-09-27",
-   "time": "18:00",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "ifc",
    "title": "Take Me Home",
    "date": "2026-09-27",
@@ -7792,15 +7502,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-09-27",
-   "time": "18:25",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "cv",
@@ -9740,22 +9441,6 @@
    "genreMovieId": "5219"
   },
   {
-   "venue": "ifc",
-   "title": "The History of Concrete",
-   "date": "2026-09-28",
-   "time": "16:10",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
    "venue": "bam",
    "title": "Ha-Chan, Shake Your Booty",
    "date": "2026-09-28",
@@ -9773,6 +9458,22 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596249
+  },
+  {
+   "venue": "ifc",
+   "title": "The History of Concrete",
+   "date": "2026-09-28",
+   "time": "16:15",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "angelika",
@@ -10043,24 +9744,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Practical Magic 2",
-   "date": "2026-09-28",
-   "time": "18:00",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "nhp",
    "title": "Resident Evil (2026)",
    "date": "2026-09-28",
@@ -10079,15 +9762,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-09-28",
-   "time": "18:25",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "cv",
@@ -12398,24 +12072,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Practical Magic 2",
-   "date": "2026-09-29",
-   "time": "18:00",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "angelika",
    "title": "THE MUSICAL",
    "date": "2026-09-29",
@@ -12464,15 +12120,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-09-29",
-   "time": "18:25",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "cv",
@@ -14691,24 +14338,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Practical Magic 2",
-   "date": "2026-09-30",
-   "time": "18:00",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "quad",
    "title": "Bad Apples",
    "date": "2026-09-30",
@@ -14770,15 +14399,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-09-30",
-   "time": "18:25",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "cv",
@@ -17024,24 +16644,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Practical Magic 2",
-   "date": "2026-10-01",
-   "time": "18:00",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "angelika",
    "title": "NEVER AFTER DARK",
    "date": "2026-10-01",
@@ -17079,15 +16681,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-01",
-   "time": "18:25",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "afa",
