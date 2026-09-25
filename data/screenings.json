@@ -1,8 +1,8 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 171,
-  "classified": 86,
+  "total": 169,
+  "classified": 84,
   "unresolved": [
    {
     "key": "ifigowilltheymissme|",
@@ -83,16 +83,10 @@
     "reason": "ambiguous"
    },
    {
-    "key": "uprising|",
-    "title": "The Uprising",
+    "key": "heartofthebeast|",
+    "title": "Heart of the Beast",
     "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "hope|",
-    "title": "Hope",
-    "year": null,
-    "reason": "ambiguous"
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "smalltalkfullmouth|",
@@ -129,6 +123,12 @@
     "title": "TONEY W. MERRITT PGM 1: PSYCHODRAMAS",
     "year": null,
     "reason": "not-found"
+   },
+   {
+    "key": "forgottenisland|",
+    "title": "Forgotten Island",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "thislongcenturypresentssalomelamas|2025",
@@ -518,7 +518,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-25T05:05:28.341Z",
+ "fetchedAt": "2026-09-25T11:58:48.849Z",
  "week": [
   "2026-09-25",
   "2026-09-26",
@@ -736,35 +736,37 @@
    "name": "Film Forum",
    "ok": true,
    "count": 134,
-   "ms": 880
+   "ms": 724
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": true,
-   "count": 56,
-   "ms": 92
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 on GET /nyc/",
+   "carried": 56,
+   "carriedFrom": "2026-09-25T05:05:28.341Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 177,
-   "ms": 283
+   "ms": 430
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 24,
-   "ms": 3737
+   "ms": 561
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 118,
-   "ms": 339
+   "ms": 401
   },
   {
    "id": "cv",
@@ -773,28 +775,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /showtimes/",
    "carried": 52,
-   "carriedFrom": "2026-09-24T21:36:13.312Z"
+   "carriedFrom": "2026-09-25T05:05:28.341Z"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 19,
-   "ms": 360
+   "ms": 385
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
    "count": 205,
-   "ms": 4786
+   "ms": 4770
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
    "count": 21,
-   "ms": 2014
+   "ms": 1534
   },
   {
    "id": "wrt",
@@ -817,21 +819,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 133,
-   "ms": 835
+   "ms": 698
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 49,
-   "ms": 5080
+   "count": 70,
+   "ms": 5138
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 133,
-   "ms": 7208
+   "count": 119,
+   "ms": 5751
   },
   {
    "id": "spec",
@@ -846,7 +848,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 14,
-   "ms": 2381
+   "ms": 1499
   },
   {
    "id": "momi",
@@ -861,7 +863,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 6,
-   "ms": 379
+   "ms": 616
   },
   {
    "id": "kew",
@@ -876,7 +878,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 2,
-   "ms": 2476
+   "ms": 1802
   }
  ],
  "notices": {},
@@ -1528,24 +1530,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
-   "date": "2026-09-25",
-   "time": "14:30",
-   "genres": [
-    "scifi",
-    "action",
-    "adventure"
-   ],
-   "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
    "venue": "quad",
    "title": "The Marching Band",
    "date": "2026-09-25",
@@ -1628,21 +1612,23 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
+   "title": "Resident Evil (2026)",
    "date": "2026-09-25",
    "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hope",
-   "date": "2026-09-25",
-   "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "angelika",
@@ -1673,11 +1659,36 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-25",
+   "time": "15:00",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "ff",
    "title": "FILIPIÑANA",
    "date": "2026-09-25",
    "time": "15:15",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-25",
+   "time": "15:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1695,26 +1706,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596332
-  },
-  {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-09-25",
-   "time": "15:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
   },
   {
    "venue": "paris",
@@ -1772,6 +1763,15 @@
   },
   {
    "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-25",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-09-25",
    "time": "15:45",
@@ -1787,6 +1787,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-25",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhw",
@@ -1807,24 +1816,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "nhw",
-   "title": "Practical Magic 2",
-   "date": "2026-09-25",
-   "time": "15:45",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
   },
   {
    "venue": "cv",
@@ -1863,12 +1854,21 @@
   },
   {
    "venue": "nhw",
-   "title": "Hope",
+   "title": "Practical Magic 2",
    "date": "2026-09-25",
    "time": "16:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "bam",
@@ -1939,15 +1939,6 @@
    "date": "2026-09-25",
    "time": "16:15",
    "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-09-25",
-   "time": "16:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2280,24 +2271,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Practical Magic 2",
-   "date": "2026-09-25",
-   "time": "17:35",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "ff",
    "title": "MY BROTHER'S WEDDING",
    "date": "2026-09-25",
@@ -2311,24 +2284,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 91735
-  },
-  {
-   "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
-   "date": "2026-09-25",
-   "time": "17:50",
-   "genres": [
-    "scifi",
-    "action",
-    "adventure"
-   ],
-   "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 969681
   },
   {
    "venue": "ff",
@@ -2349,7 +2304,7 @@
    "venue": "nhp",
    "title": "Primetime",
    "date": "2026-09-25",
-   "time": "18:05",
+   "time": "18:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2358,7 +2313,7 @@
    "venue": "nhw",
    "title": "Practical Magic 2",
    "date": "2026-09-25",
-   "time": "18:05",
+   "time": "18:00",
    "genres": [
     "romance",
     "scifi",
@@ -2382,6 +2337,26 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-25",
+   "time": "18:15",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-09-25",
@@ -2398,10 +2373,10 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhp",
-   "title": "Hope",
+   "venue": "nhw",
+   "title": "Primetime",
    "date": "2026-09-25",
-   "time": "18:20",
+   "time": "18:25",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2471,6 +2446,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "528"
+  },
+  {
+   "venue": "nhp",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-25",
+   "time": "18:30",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
   },
   {
    "venue": "bam",
@@ -2544,21 +2537,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Coyote vs. Acme",
+   "title": "Forgotten Island",
    "date": "2026-09-25",
    "time": "18:45",
-   "genres": [
-    "comedy",
-    "adventure",
-    "family"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Adventure",
-    "Family"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1204680
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "paris",
@@ -2635,7 +2619,7 @@
    "fmt": "Q&A to follow the screening",
    "director": "Bassam Tariq",
    "runtime": 111,
-   "note": "",
+   "note": "Sold out",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
    "genres": [
     "drama",
@@ -2700,7 +2684,7 @@
    "tmdbId": 1649949
   },
   {
-   "venue": "nhp",
+   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-25",
    "time": "19:00",
@@ -2824,6 +2808,22 @@
    "genreMovieId": "47"
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-25",
+   "time": "19:10",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "quad",
    "title": "Checkout",
    "date": "2026-09-25",
@@ -2879,26 +2879,6 @@
    "tmdbId": 1596332
   },
   {
-   "venue": "nhw",
-   "title": "Resident Evil (2026)",
-   "date": "2026-09-25",
-   "time": "19:25",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
    "venue": "angelika",
    "title": "THE MUSICAL",
    "date": "2026-09-25",
@@ -2911,6 +2891,24 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Practical Magic 2",
+   "date": "2026-09-25",
+   "time": "19:30",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "angelika",
@@ -2932,6 +2930,15 @@
    "date": "2026-09-25",
    "time": "19:50",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-25",
+   "time": "19:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2973,15 +2980,6 @@
    "genreMovieId": "206"
   },
   {
-   "venue": "nhp",
-   "title": "The Uprising",
-   "date": "2026-09-25",
-   "time": "20:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "afa",
    "title": "TONEY W. MERRITT PGM 2: VIGNETTES / MINIATURES",
    "date": "2026-09-25",
@@ -2992,12 +2990,21 @@
   },
   {
    "venue": "nhp",
-   "title": "Hope",
+   "title": "Practical Magic 2",
    "date": "2026-09-25",
    "time": "20:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "ifc",
@@ -3035,20 +3042,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Perfume: The Story of a Murderer",
+   "title": "Primetime",
    "date": "2026-09-25",
    "time": "20:45",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "48997"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "cv",
@@ -3086,6 +3085,24 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Practical Magic 2",
+   "date": "2026-09-25",
+   "time": "20:50",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "afa",
    "title": "SCREAMPLAY",
    "date": "2026-09-25",
@@ -3105,25 +3122,23 @@
   },
   {
    "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
+   "title": "The History of Concrete",
    "date": "2026-09-25",
    "time": "21:00",
    "genres": [
-    "scifi",
-    "action",
-    "adventure"
+    "documentary",
+    "comedy"
    ],
    "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
+    "Documentary",
+    "Comedy"
    ],
    "genreSource": "tmdb",
-   "tmdbId": 969681
+   "tmdbId": 1596296
   },
   {
-   "venue": "nhw",
-   "title": "Hope",
+   "venue": "quad",
+   "title": "The Marching Band",
    "date": "2026-09-25",
    "time": "21:00",
    "genres": [],
@@ -3131,10 +3146,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "The Marching Band",
+   "venue": "nhw",
+   "title": "Primetime",
    "date": "2026-09-25",
-   "time": "21:00",
+   "time": "21:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3252,24 +3267,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Practical Magic 2",
-   "date": "2026-09-25",
-   "time": "21:15",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "quad",
    "title": "The Fisherman",
    "date": "2026-09-25",
@@ -3304,6 +3301,26 @@
    "tmdbId": 1596332
   },
   {
+   "venue": "nhw",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-25",
+   "time": "21:25",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
    "venue": "bam",
    "title": "Land of the Dead",
    "date": "2026-09-25",
@@ -3334,23 +3351,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Resident Evil (2026)",
+   "title": "Heart of the Beast",
    "date": "2026-09-25",
    "time": "21:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -3409,15 +3415,6 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
-   "date": "2026-09-25",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-25",
    "time": "21:45",
@@ -3621,6 +3618,26 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "nhw",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-25",
+   "time": "23:40",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "ifc",
@@ -4406,24 +4423,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
-   "date": "2026-09-26",
-   "time": "14:30",
-   "genres": [
-    "scifi",
-    "action",
-    "adventure"
-   ],
-   "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
    "venue": "quad",
    "title": "Bad Apples",
    "date": "2026-09-26",
@@ -4434,21 +4433,23 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
+   "title": "Resident Evil (2026)",
    "date": "2026-09-26",
    "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hope",
-   "date": "2026-09-26",
-   "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "quad",
@@ -4483,11 +4484,36 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-26",
+   "time": "15:00",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "ff",
    "title": "FILIPIÑANA",
    "date": "2026-09-26",
    "time": "15:15",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-26",
+   "time": "15:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4505,26 +4531,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596332
-  },
-  {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-09-26",
-   "time": "15:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
   },
   {
    "venue": "angelika",
@@ -4572,6 +4578,15 @@
   },
   {
    "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-26",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-09-26",
    "time": "15:45",
@@ -4587,6 +4602,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-26",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhw",
@@ -4607,24 +4631,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "nhw",
-   "title": "Practical Magic 2",
-   "date": "2026-09-26",
-   "time": "15:45",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
   },
   {
    "venue": "cv",
@@ -4703,12 +4709,21 @@
   },
   {
    "venue": "nhw",
-   "title": "Hope",
+   "title": "Practical Magic 2",
    "date": "2026-09-26",
    "time": "16:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "bam",
@@ -4827,15 +4842,6 @@
    "date": "2026-09-26",
    "time": "16:15",
    "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-09-26",
-   "time": "16:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5093,24 +5099,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Practical Magic 2",
-   "date": "2026-09-26",
-   "time": "17:35",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
    "date": "2026-09-26",
@@ -5178,24 +5166,6 @@
    "tmdbId": 91735
   },
   {
-   "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
-   "date": "2026-09-26",
-   "time": "17:50",
-   "genres": [
-    "scifi",
-    "action",
-    "adventure"
-   ],
-   "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
    "venue": "afa",
    "title": "TONEY W. MERRITT PGM 2: VIGNETTES / MINIATURES",
    "date": "2026-09-26",
@@ -5223,7 +5193,7 @@
    "venue": "nhp",
    "title": "Primetime",
    "date": "2026-09-26",
-   "time": "18:05",
+   "time": "18:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5232,7 +5202,7 @@
    "venue": "nhw",
    "title": "Practical Magic 2",
    "date": "2026-09-26",
-   "time": "18:05",
+   "time": "18:00",
    "genres": [
     "romance",
     "scifi",
@@ -5254,6 +5224,26 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-26",
+   "time": "18:15",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "ifc",
@@ -5285,10 +5275,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Hope",
+   "venue": "nhw",
+   "title": "Primetime",
    "date": "2026-09-26",
-   "time": "18:20",
+   "time": "18:25",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5339,6 +5329,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "528"
+  },
+  {
+   "venue": "nhp",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-26",
+   "time": "18:30",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
   },
   {
    "venue": "bam",
@@ -5415,21 +5423,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Coyote vs. Acme",
+   "title": "Forgotten Island",
    "date": "2026-09-26",
    "time": "18:45",
-   "genres": [
-    "comedy",
-    "adventure",
-    "family"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Adventure",
-    "Family"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1204680
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "bam",
@@ -5518,7 +5517,7 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
+   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-26",
    "time": "19:00",
@@ -5544,7 +5543,7 @@
    "time": "19:00",
    "runtime": 129,
    "fmt": "Q&A",
-   "note": "Sold out",
+   "note": "",
    "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3042/seats",
    "genres": [],
    "sourceGenres": [],
@@ -5639,6 +5638,22 @@
    "tmdbId": 1554956
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-26",
+   "time": "19:10",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "quad",
    "title": "The Marching Band",
    "date": "2026-09-26",
@@ -5690,24 +5705,22 @@
    "tmdbId": 1596332
   },
   {
-   "venue": "nhw",
-   "title": "Resident Evil (2026)",
+   "venue": "nhp",
+   "title": "Practical Magic 2",
    "date": "2026-09-26",
-   "time": "19:25",
+   "time": "19:30",
    "genres": [
-    "action",
-    "horror",
+    "romance",
     "scifi",
-    "thriller"
+    "comedy"
    ],
    "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
+    "Romance",
+    "Fantasy",
+    "Comedy"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "angelika",
@@ -5747,6 +5760,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-26",
+   "time": "19:55",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ff",
    "title": "UNZIPPED",
    "date": "2026-09-26",
@@ -5760,15 +5782,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Uprising",
-   "date": "2026-09-26",
-   "time": "20:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "synd",
@@ -5823,12 +5836,21 @@
   },
   {
    "venue": "nhp",
-   "title": "Hope",
+   "title": "Practical Magic 2",
    "date": "2026-09-26",
    "time": "20:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "ifc",
@@ -5883,20 +5905,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Perfume: The Story of a Murderer",
+   "title": "Primetime",
    "date": "2026-09-26",
    "time": "20:45",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "48997"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -5913,6 +5927,24 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "nhw",
+   "title": "Practical Magic 2",
+   "date": "2026-09-26",
+   "time": "20:50",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "afa",
@@ -5934,27 +5966,25 @@
   },
   {
    "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
+   "title": "The History of Concrete",
    "date": "2026-09-26",
    "time": "21:00",
    "genres": [
-    "scifi",
-    "action",
-    "adventure"
+    "documentary",
+    "comedy"
    ],
    "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
+    "Documentary",
+    "Comedy"
    ],
    "genreSource": "tmdb",
-   "tmdbId": 969681
+   "tmdbId": 1596296
   },
   {
    "venue": "nhw",
-   "title": "Hope",
+   "title": "Primetime",
    "date": "2026-09-26",
-   "time": "21:00",
+   "time": "21:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6044,24 +6074,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Practical Magic 2",
-   "date": "2026-09-26",
-   "time": "21:15",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "ifc",
    "title": "Steel Magnolias",
    "date": "2026-09-26",
@@ -6088,6 +6100,26 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596332
+  },
+  {
+   "venue": "nhw",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-26",
+   "time": "21:25",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "quad",
@@ -6124,23 +6156,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Resident Evil (2026)",
+   "title": "Heart of the Beast",
    "date": "2026-09-26",
    "time": "21:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -6185,15 +6206,6 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
-   "date": "2026-09-26",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-26",
    "time": "21:45",
@@ -6412,6 +6424,26 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "nhw",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-26",
+   "time": "23:40",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "ifc",
@@ -7152,24 +7184,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
-   "date": "2026-09-27",
-   "time": "14:30",
-   "genres": [
-    "scifi",
-    "action",
-    "adventure"
-   ],
-   "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
    "venue": "quad",
    "title": "The Marching Band",
    "date": "2026-09-27",
@@ -7199,21 +7213,23 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
+   "title": "Resident Evil (2026)",
    "date": "2026-09-27",
    "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hope",
-   "date": "2026-09-27",
-   "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "angelika",
@@ -7301,11 +7317,36 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-27",
+   "time": "15:00",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "ff",
    "title": "FILIPIÑANA",
    "date": "2026-09-27",
    "time": "15:15",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-27",
+   "time": "15:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7323,26 +7364,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596332
-  },
-  {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-09-27",
-   "time": "15:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
   },
   {
    "venue": "synd",
@@ -7413,6 +7434,15 @@
   },
   {
    "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-27",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-09-27",
    "time": "15:45",
@@ -7428,6 +7458,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-27",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhw",
@@ -7448,24 +7487,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "nhw",
-   "title": "Practical Magic 2",
-   "date": "2026-09-27",
-   "time": "15:45",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
   },
   {
    "venue": "cv",
@@ -7525,12 +7546,21 @@
   },
   {
    "venue": "nhw",
-   "title": "Hope",
+   "title": "Practical Magic 2",
    "date": "2026-09-27",
    "time": "16:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "paris",
@@ -7609,15 +7639,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596249
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-09-27",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -7907,24 +7928,6 @@
    "tmdbId": 53244
   },
   {
-   "venue": "nhp",
-   "title": "Practical Magic 2",
-   "date": "2026-09-27",
-   "time": "17:35",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "ff",
    "title": "UNZIPPED",
    "date": "2026-09-27",
@@ -7989,24 +7992,6 @@
    "tmdbId": 91735
   },
   {
-   "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
-   "date": "2026-09-27",
-   "time": "17:50",
-   "genres": [
-    "scifi",
-    "action",
-    "adventure"
-   ],
-   "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
    "venue": "ff",
    "title": "YOU HAD TO BE THERE",
    "date": "2026-09-27",
@@ -8033,7 +8018,7 @@
    "venue": "nhp",
    "title": "Primetime",
    "date": "2026-09-27",
-   "time": "18:05",
+   "time": "18:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8042,7 +8027,7 @@
    "venue": "nhw",
    "title": "Practical Magic 2",
    "date": "2026-09-27",
-   "time": "18:05",
+   "time": "18:00",
    "genres": [
     "romance",
     "scifi",
@@ -8066,6 +8051,26 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-27",
+   "time": "18:15",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-09-27",
@@ -8082,10 +8087,10 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhp",
-   "title": "Hope",
+   "venue": "nhw",
+   "title": "Primetime",
    "date": "2026-09-27",
-   "time": "18:20",
+   "time": "18:25",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8116,6 +8121,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "528"
+  },
+  {
+   "venue": "nhp",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-27",
+   "time": "18:30",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
   },
   {
    "venue": "angelika",
@@ -8206,21 +8229,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Coyote vs. Acme",
+   "title": "Forgotten Island",
    "date": "2026-09-27",
    "time": "18:45",
-   "genres": [
-    "comedy",
-    "adventure",
-    "family"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Adventure",
-    "Family"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1204680
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "bam",
@@ -8328,7 +8342,7 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhp",
+   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-27",
    "time": "19:00",
@@ -8373,6 +8387,22 @@
    "tmdbId": 1554956
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-27",
+   "time": "19:10",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "quad",
    "title": "Checkout",
    "date": "2026-09-27",
@@ -8396,26 +8426,6 @@
    "tmdbId": 1596332
   },
   {
-   "venue": "nhw",
-   "title": "Resident Evil (2026)",
-   "date": "2026-09-27",
-   "time": "19:25",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
    "venue": "ff",
    "title": "UNZIPPED",
    "date": "2026-09-27",
@@ -8429,6 +8439,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
+  },
+  {
+   "venue": "nhp",
+   "title": "Practical Magic 2",
+   "date": "2026-09-27",
+   "time": "19:30",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "udocs",
@@ -8460,6 +8488,15 @@
    "date": "2026-09-27",
    "time": "19:50",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-27",
+   "time": "19:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8534,15 +8571,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Uprising",
-   "date": "2026-09-27",
-   "time": "20:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "paris",
    "title": "Barry Lyndon",
    "date": "2026-09-27",
@@ -8612,12 +8640,21 @@
   },
   {
    "venue": "nhp",
-   "title": "Hope",
+   "title": "Practical Magic 2",
    "date": "2026-09-27",
    "time": "20:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "ff",
@@ -8657,20 +8694,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Perfume: The Story of a Murderer",
+   "title": "Primetime",
    "date": "2026-09-27",
    "time": "20:45",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "48997"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "cv",
@@ -8708,6 +8737,24 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Practical Magic 2",
+   "date": "2026-09-27",
+   "time": "20:50",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "afa",
    "title": "SCREAMPLAY",
    "date": "2026-09-27",
@@ -8727,27 +8774,25 @@
   },
   {
    "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
+   "title": "The History of Concrete",
    "date": "2026-09-27",
    "time": "21:00",
    "genres": [
-    "scifi",
-    "action",
-    "adventure"
+    "documentary",
+    "comedy"
    ],
    "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
+    "Documentary",
+    "Comedy"
    ],
    "genreSource": "tmdb",
-   "tmdbId": 969681
+   "tmdbId": 1596296
   },
   {
    "venue": "nhw",
-   "title": "Hope",
+   "title": "Primetime",
    "date": "2026-09-27",
-   "time": "21:00",
+   "time": "21:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8829,24 +8874,6 @@
    "tmdbId": 1596249
   },
   {
-   "venue": "nhp",
-   "title": "Practical Magic 2",
-   "date": "2026-09-27",
-   "time": "21:15",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "angelika",
    "title": "HA-CHAN, SHAKE YOUR BOOTY!",
    "date": "2026-09-27",
@@ -8870,20 +8897,10 @@
    "tmdbId": 1596249
   },
   {
-   "venue": "bam",
-   "title": "Primetime",
-   "date": "2026-09-27",
-   "time": "21:30",
-   "url": "https://www.bam.org/film/2026/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
+   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-27",
-   "time": "21:30",
+   "time": "21:25",
    "genres": [
     "action",
     "horror",
@@ -8898,6 +8915,25 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
+  },
+  {
+   "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-09-27",
+   "time": "21:30",
+   "url": "https://www.bam.org/film/2026/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-27",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -8954,15 +8990,6 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
-   "date": "2026-09-27",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-27",
    "time": "21:45",
@@ -9062,6 +9089,26 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "52885"
+  },
+  {
+   "venue": "nhw",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-27",
+   "time": "23:40",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "angelika",
@@ -9553,24 +9600,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
-   "date": "2026-09-28",
-   "time": "14:30",
-   "genres": [
-    "scifi",
-    "action",
-    "adventure"
-   ],
-   "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
    "venue": "quad",
    "title": "The Marching Band",
    "date": "2026-09-28",
@@ -9590,21 +9619,23 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
+   "title": "Resident Evil (2026)",
    "date": "2026-09-28",
    "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hope",
-   "date": "2026-09-28",
-   "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "paris",
@@ -9721,11 +9752,36 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-28",
+   "time": "15:00",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "ff",
    "title": "FILIPIÑANA",
    "date": "2026-09-28",
    "time": "15:15",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-28",
+   "time": "15:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9743,26 +9799,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596332
-  },
-  {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-09-28",
-   "time": "15:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
   },
   {
    "venue": "ifc",
@@ -9816,6 +9852,15 @@
   },
   {
    "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-28",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-09-28",
    "time": "15:45",
@@ -9831,6 +9876,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-28",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhw",
@@ -9851,24 +9905,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "nhw",
-   "title": "Practical Magic 2",
-   "date": "2026-09-28",
-   "time": "15:45",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
   },
   {
    "venue": "angelika",
@@ -9968,12 +10004,21 @@
   },
   {
    "venue": "nhw",
-   "title": "Hope",
+   "title": "Practical Magic 2",
    "date": "2026-09-28",
    "time": "16:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "bam",
@@ -10030,15 +10075,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596249
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-09-28",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -10255,24 +10291,6 @@
    "tmdbId": 1285895
   },
   {
-   "venue": "nhp",
-   "title": "Practical Magic 2",
-   "date": "2026-09-28",
-   "time": "17:35",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "cv",
    "title": "HOW TO LIVE",
    "date": "2026-09-28",
@@ -10298,24 +10316,6 @@
    "tmdbId": 91735
   },
   {
-   "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
-   "date": "2026-09-28",
-   "time": "17:50",
-   "genres": [
-    "scifi",
-    "action",
-    "adventure"
-   ],
-   "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
    "venue": "mg",
    "title": "Women on the Verge of a Nervous Breakdown",
    "date": "2026-09-28",
@@ -10339,7 +10339,7 @@
    "venue": "nhp",
    "title": "Primetime",
    "date": "2026-09-28",
-   "time": "18:05",
+   "time": "18:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10348,7 +10348,7 @@
    "venue": "nhw",
    "title": "Practical Magic 2",
    "date": "2026-09-28",
-   "time": "18:05",
+   "time": "18:00",
    "genres": [
     "romance",
     "scifi",
@@ -10364,9 +10364,29 @@
   },
   {
    "venue": "nhp",
-   "title": "Hope",
+   "title": "Resident Evil (2026)",
    "date": "2026-09-28",
-   "time": "18:20",
+   "time": "18:15",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-28",
+   "time": "18:25",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10406,6 +10426,24 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-28",
+   "time": "18:30",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
   },
   {
    "venue": "synd",
@@ -10524,21 +10562,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Coyote vs. Acme",
+   "title": "Forgotten Island",
    "date": "2026-09-28",
    "time": "18:45",
-   "genres": [
-    "comedy",
-    "adventure",
-    "family"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Adventure",
-    "Family"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1204680
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "paris",
@@ -10679,7 +10708,7 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhp",
+   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-28",
    "time": "19:00",
@@ -10745,6 +10774,22 @@
    "tmdbId": 1554956
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-28",
+   "time": "19:10",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "quad",
    "title": "The Marching Band",
    "date": "2026-09-28",
@@ -10801,26 +10846,6 @@
    "tmdbId": 1596332
   },
   {
-   "venue": "nhw",
-   "title": "Resident Evil (2026)",
-   "date": "2026-09-28",
-   "time": "19:25",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
    "venue": "cv",
    "title": "THE INVITE",
    "date": "2026-09-28",
@@ -10839,6 +10864,24 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Practical Magic 2",
+   "date": "2026-09-28",
+   "time": "19:30",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "quad",
@@ -10869,6 +10912,15 @@
    "date": "2026-09-28",
    "time": "19:50",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-28",
+   "time": "19:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10916,15 +10968,6 @@
    "genreMovieId": "7802"
   },
   {
-   "venue": "nhp",
-   "title": "The Uprising",
-   "date": "2026-09-28",
-   "time": "20:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "mg",
    "title": "Tokyo Melody",
    "date": "2026-09-28",
@@ -10939,12 +10982,21 @@
   },
   {
    "venue": "nhp",
-   "title": "Hope",
+   "title": "Practical Magic 2",
    "date": "2026-09-28",
    "time": "20:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "ff",
@@ -10965,20 +11017,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Perfume: The Story of a Murderer",
+   "title": "Primetime",
    "date": "2026-09-28",
    "time": "20:45",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "48997"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -10995,6 +11039,24 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "nhw",
+   "title": "Practical Magic 2",
+   "date": "2026-09-28",
+   "time": "20:50",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "afa",
@@ -11026,30 +11088,19 @@
   },
   {
    "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
+   "title": "The History of Concrete",
    "date": "2026-09-28",
    "time": "21:00",
    "genres": [
-    "scifi",
-    "action",
-    "adventure"
+    "documentary",
+    "comedy"
    ],
    "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
+    "Documentary",
+    "Comedy"
    ],
    "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
-   "venue": "nhw",
-   "title": "Hope",
-   "date": "2026-09-28",
-   "time": "21:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "tmdbId": 1596296
   },
   {
    "venue": "synd",
@@ -11068,6 +11119,15 @@
    "date": "2026-09-28",
    "time": "21:05",
    "url": "https://www.bam.org/film/2026/gwb-film-war-of-the-worlds",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-28",
+   "time": "21:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11149,24 +11209,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Practical Magic 2",
-   "date": "2026-09-28",
-   "time": "21:15",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "ifc",
    "title": "9 to 5",
    "date": "2026-09-28",
@@ -11181,6 +11223,26 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "4291"
+  },
+  {
+   "venue": "nhw",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-28",
+   "time": "21:25",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "angelika",
@@ -11223,23 +11285,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Resident Evil (2026)",
+   "title": "Heart of the Beast",
    "date": "2026-09-28",
    "time": "21:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "roxy",
@@ -11331,15 +11382,6 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
-   "date": "2026-09-28",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-28",
    "time": "21:45",
@@ -11441,6 +11483,26 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "79702"
+  },
+  {
+   "venue": "nhw",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-28",
+   "time": "23:40",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "angelika",
@@ -11945,24 +12007,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
-   "date": "2026-09-29",
-   "time": "14:30",
-   "genres": [
-    "scifi",
-    "action",
-    "adventure"
-   ],
-   "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
    "venue": "paris",
    "title": "Barry Lyndon",
    "date": "2026-09-29",
@@ -12003,21 +12047,23 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
+   "title": "Resident Evil (2026)",
    "date": "2026-09-29",
    "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hope",
-   "date": "2026-09-29",
-   "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "angelika",
@@ -12032,6 +12078,22 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-29",
+   "time": "15:00",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "angelika",
@@ -12058,6 +12120,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-29",
+   "time": "15:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "American Doctor",
    "date": "2026-09-29",
@@ -12070,26 +12141,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596332
-  },
-  {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-09-29",
-   "time": "15:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
   },
   {
    "venue": "ifc",
@@ -12145,6 +12196,15 @@
   },
   {
    "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-29",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-09-29",
    "time": "15:45",
@@ -12160,6 +12220,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-29",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhw",
@@ -12180,24 +12249,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "nhw",
-   "title": "Practical Magic 2",
-   "date": "2026-09-29",
-   "time": "15:45",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
   },
   {
    "venue": "bam",
@@ -12251,12 +12302,21 @@
   },
   {
    "venue": "nhw",
-   "title": "Hope",
+   "title": "Practical Magic 2",
    "date": "2026-09-29",
    "time": "16:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "bam",
@@ -12320,15 +12380,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596249
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-09-29",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -12523,24 +12574,6 @@
    "tmdbId": 1596332
   },
   {
-   "venue": "nhp",
-   "title": "Practical Magic 2",
-   "date": "2026-09-29",
-   "time": "17:35",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
    "date": "2026-09-29",
@@ -12577,24 +12610,6 @@
    "tmdbId": 91735
   },
   {
-   "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
-   "date": "2026-09-29",
-   "time": "17:50",
-   "genres": [
-    "scifi",
-    "action",
-    "adventure"
-   ],
-   "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
    "venue": "ff",
    "title": "DUTCHMAN",
    "date": "2026-09-29",
@@ -12608,7 +12623,7 @@
    "venue": "nhp",
    "title": "Primetime",
    "date": "2026-09-29",
-   "time": "18:05",
+   "time": "18:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12617,7 +12632,7 @@
    "venue": "nhw",
    "title": "Practical Magic 2",
    "date": "2026-09-29",
-   "time": "18:05",
+   "time": "18:00",
    "genres": [
     "romance",
     "scifi",
@@ -12646,6 +12661,26 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-29",
+   "time": "18:15",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-09-29",
@@ -12662,10 +12697,10 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhp",
-   "title": "Hope",
+   "venue": "nhw",
+   "title": "Primetime",
    "date": "2026-09-29",
-   "time": "18:20",
+   "time": "18:25",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12695,6 +12730,24 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-29",
+   "time": "18:30",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
   },
   {
    "venue": "bam",
@@ -12752,21 +12805,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Coyote vs. Acme",
+   "title": "Forgotten Island",
    "date": "2026-09-29",
    "time": "18:45",
-   "genres": [
-    "comedy",
-    "adventure",
-    "family"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Adventure",
-    "Family"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1204680
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "synd",
@@ -12892,7 +12936,7 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
+   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-29",
    "time": "19:00",
@@ -12993,6 +13037,22 @@
    "tmdbId": 1554956
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-29",
+   "time": "19:10",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "quad",
    "title": "Checkout",
    "date": "2026-09-29",
@@ -13035,26 +13095,6 @@
    "tmdbId": 1596332
   },
   {
-   "venue": "nhw",
-   "title": "Resident Evil (2026)",
-   "date": "2026-09-29",
-   "time": "19:25",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
    "venue": "ff",
    "title": "UNZIPPED",
    "date": "2026-09-29",
@@ -13068,6 +13108,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
+  },
+  {
+   "venue": "nhp",
+   "title": "Practical Magic 2",
+   "date": "2026-09-29",
+   "time": "19:30",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "angelika",
@@ -13095,9 +13153,9 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
+   "title": "Heart of the Beast",
    "date": "2026-09-29",
-   "time": "20:00",
+   "time": "19:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13152,12 +13210,21 @@
   },
   {
    "venue": "nhp",
-   "title": "Hope",
+   "title": "Practical Magic 2",
    "date": "2026-09-29",
    "time": "20:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "ff",
@@ -13178,20 +13245,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Perfume: The Story of a Murderer",
+   "title": "Primetime",
    "date": "2026-09-29",
    "time": "20:45",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "48997"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -13208,6 +13267,24 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "nhw",
+   "title": "Practical Magic 2",
+   "date": "2026-09-29",
+   "time": "20:50",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "afa",
@@ -13239,27 +13316,25 @@
   },
   {
    "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
+   "title": "The History of Concrete",
    "date": "2026-09-29",
    "time": "21:00",
    "genres": [
-    "scifi",
-    "action",
-    "adventure"
+    "documentary",
+    "comedy"
    ],
    "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
+    "Documentary",
+    "Comedy"
    ],
    "genreSource": "tmdb",
-   "tmdbId": 969681
+   "tmdbId": 1596296
   },
   {
    "venue": "nhw",
-   "title": "Hope",
+   "title": "Primetime",
    "date": "2026-09-29",
-   "time": "21:00",
+   "time": "21:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13347,24 +13422,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Practical Magic 2",
-   "date": "2026-09-29",
-   "time": "21:15",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "ifc",
    "title": "Serpent's Path",
    "date": "2026-09-29",
@@ -13372,6 +13429,26 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-29",
+   "time": "21:25",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "bam",
@@ -13395,23 +13472,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Resident Evil (2026)",
+   "title": "Heart of the Beast",
    "date": "2026-09-29",
    "time": "21:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "roxy",
@@ -13489,15 +13555,6 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
-   "date": "2026-09-29",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-29",
    "time": "21:45",
@@ -13602,6 +13659,26 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-29",
+   "time": "23:40",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "angelika",
@@ -14106,24 +14183,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
-   "date": "2026-09-30",
-   "time": "14:30",
-   "genres": [
-    "scifi",
-    "action",
-    "adventure"
-   ],
-   "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
    "venue": "quad",
    "title": "Checkout",
    "date": "2026-09-30",
@@ -14134,21 +14193,23 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
+   "title": "Resident Evil (2026)",
    "date": "2026-09-30",
    "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hope",
-   "date": "2026-09-30",
-   "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "angelika",
@@ -14200,6 +14261,22 @@
    "tmdbId": 1437396
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-30",
+   "time": "15:00",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "ff",
    "title": "FILIPIÑANA",
    "date": "2026-09-30",
@@ -14220,23 +14297,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Resident Evil (2026)",
+   "title": "Primetime",
    "date": "2026-09-30",
-   "time": "15:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
+   "time": "15:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -14278,6 +14344,15 @@
   },
   {
    "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-30",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-09-30",
    "time": "15:45",
@@ -14293,6 +14368,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-30",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhw",
@@ -14313,24 +14397,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "nhw",
-   "title": "Practical Magic 2",
-   "date": "2026-09-30",
-   "time": "15:45",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
   },
   {
    "venue": "quad",
@@ -14391,12 +14457,21 @@
   },
   {
    "venue": "nhw",
-   "title": "Hope",
+   "title": "Practical Magic 2",
    "date": "2026-09-30",
    "time": "16:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "bam",
@@ -14460,15 +14535,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596249
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-09-30",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -14676,24 +14742,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Practical Magic 2",
-   "date": "2026-09-30",
-   "time": "17:35",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
    "date": "2026-09-30",
@@ -14746,36 +14794,9 @@
   },
   {
    "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
-   "date": "2026-09-30",
-   "time": "17:50",
-   "genres": [
-    "scifi",
-    "action",
-    "adventure"
-   ],
-   "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
-   "venue": "quad",
-   "title": "Bad Apples",
-   "date": "2026-09-30",
-   "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
    "title": "Primetime",
    "date": "2026-09-30",
-   "time": "18:05",
+   "time": "18:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -14784,7 +14805,7 @@
    "venue": "nhw",
    "title": "Practical Magic 2",
    "date": "2026-09-30",
-   "time": "18:05",
+   "time": "18:00",
    "genres": [
     "romance",
     "scifi",
@@ -14797,6 +14818,35 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-09-30",
+   "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-30",
+   "time": "18:15",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "ifc",
@@ -14813,15 +14863,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "nhp",
-   "title": "Hope",
-   "date": "2026-09-30",
-   "time": "18:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "synd",
@@ -14842,6 +14883,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-30",
+   "time": "18:25",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ff",
    "title": "THE SCOUT",
    "date": "2026-09-30",
@@ -14857,6 +14907,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "528"
+  },
+  {
+   "venue": "nhp",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-30",
+   "time": "18:30",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
   },
   {
    "venue": "bam",
@@ -14914,21 +14982,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Coyote vs. Acme",
+   "title": "Forgotten Island",
    "date": "2026-09-30",
    "time": "18:45",
-   "genres": [
-    "comedy",
-    "adventure",
-    "family"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Adventure",
-    "Family"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1204680
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "bam",
@@ -15049,7 +15108,7 @@
    "tmdbId": 473033
   },
   {
-   "venue": "nhp",
+   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-30",
    "time": "19:00",
@@ -15120,6 +15179,22 @@
    "tmdbId": 1554956
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-30",
+   "time": "19:10",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "quad",
    "title": "Checkout",
    "date": "2026-09-30",
@@ -15175,26 +15250,6 @@
    "tmdbId": 1629051
   },
   {
-   "venue": "nhw",
-   "title": "Resident Evil (2026)",
-   "date": "2026-09-30",
-   "time": "19:25",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
    "venue": "ff",
    "title": "UNZIPPED",
    "date": "2026-09-30",
@@ -15208,6 +15263,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
+  },
+  {
+   "venue": "nhp",
+   "title": "Practical Magic 2",
+   "date": "2026-09-30",
+   "time": "19:30",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "angelika",
@@ -15244,9 +15317,9 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
+   "title": "Heart of the Beast",
    "date": "2026-09-30",
-   "time": "20:00",
+   "time": "19:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -15297,12 +15370,21 @@
   },
   {
    "venue": "nhp",
-   "title": "Hope",
+   "title": "Practical Magic 2",
    "date": "2026-09-30",
    "time": "20:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "ff",
@@ -15323,20 +15405,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Perfume: The Story of a Murderer",
+   "title": "Primetime",
    "date": "2026-09-30",
    "time": "20:45",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "48997"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "synd",
@@ -15373,6 +15447,24 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "nhw",
+   "title": "Practical Magic 2",
+   "date": "2026-09-30",
+   "time": "20:50",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "afa",
@@ -15423,27 +15515,25 @@
   },
   {
    "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
+   "title": "The History of Concrete",
    "date": "2026-09-30",
    "time": "21:00",
    "genres": [
-    "scifi",
-    "action",
-    "adventure"
+    "documentary",
+    "comedy"
    ],
    "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
+    "Documentary",
+    "Comedy"
    ],
    "genreSource": "tmdb",
-   "tmdbId": 969681
+   "tmdbId": 1596296
   },
   {
    "venue": "nhw",
-   "title": "Hope",
+   "title": "Primetime",
    "date": "2026-09-30",
-   "time": "21:00",
+   "time": "21:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -15550,22 +15640,24 @@
    "genreMovieId": "5927"
   },
   {
-   "venue": "nhp",
-   "title": "Practical Magic 2",
+   "venue": "nhw",
+   "title": "Resident Evil (2026)",
    "date": "2026-09-30",
-   "time": "21:15",
+   "time": "21:25",
    "genres": [
-    "romance",
+    "action",
+    "horror",
     "scifi",
-    "comedy"
+    "thriller"
    ],
    "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "angelika",
@@ -15593,23 +15685,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Resident Evil (2026)",
+   "title": "Heart of the Beast",
    "date": "2026-09-30",
    "time": "21:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "roxy",
@@ -15704,15 +15785,6 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
-   "date": "2026-09-30",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-09-30",
    "time": "21:45",
@@ -15795,6 +15867,26 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596249
+  },
+  {
+   "venue": "nhw",
+   "title": "Resident Evil (2026)",
+   "date": "2026-09-30",
+   "time": "23:40",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "angelika",
@@ -16294,24 +16386,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
-   "date": "2026-10-01",
-   "time": "14:30",
-   "genres": [
-    "scifi",
-    "action",
-    "adventure"
-   ],
-   "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
    "venue": "quad",
    "title": "The Marching Band",
    "date": "2026-10-01",
@@ -16345,21 +16419,23 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
+   "title": "Resident Evil (2026)",
    "date": "2026-10-01",
    "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hope",
-   "date": "2026-10-01",
-   "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "angelika",
@@ -16376,6 +16452,22 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-10-01",
+   "time": "15:00",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "ff",
    "title": "FILIPIÑANA",
    "date": "2026-10-01",
@@ -16388,6 +16480,15 @@
   {
    "venue": "ifc",
    "title": "Naza",
+   "date": "2026-10-01",
+   "time": "15:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
    "date": "2026-10-01",
    "time": "15:15",
    "genres": [],
@@ -16437,26 +16538,6 @@
    "tmdbId": 1629051
   },
   {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-10-01",
-   "time": "15:30",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
    "venue": "paris",
    "title": "Imitation of Life",
    "date": "2026-10-01",
@@ -16494,6 +16575,15 @@
   },
   {
    "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-10-01",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-10-01",
    "time": "15:45",
@@ -16509,6 +16599,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-01",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhw",
@@ -16529,24 +16628,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
-  },
-  {
-   "venue": "nhw",
-   "title": "Practical Magic 2",
-   "date": "2026-10-01",
-   "time": "15:45",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
   },
   {
    "venue": "bam",
@@ -16603,12 +16684,21 @@
   },
   {
    "venue": "nhw",
-   "title": "Hope",
+   "title": "Practical Magic 2",
    "date": "2026-10-01",
    "time": "16:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "bam",
@@ -16649,15 +16739,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596249
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-01",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -16881,24 +16962,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Practical Magic 2",
-   "date": "2026-10-01",
-   "time": "17:35",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "ff",
    "title": "UNZIPPED",
    "date": "2026-10-01",
@@ -16929,24 +16992,6 @@
    "tmdbId": 91735
   },
   {
-   "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
-   "date": "2026-10-01",
-   "time": "17:50",
-   "genres": [
-    "scifi",
-    "action",
-    "adventure"
-   ],
-   "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
    "venue": "angelika",
    "title": "MOONLIGHT (10TH ANNIVERSARY REMASTERED)",
    "date": "2026-10-01",
@@ -16964,7 +17009,7 @@
    "venue": "nhp",
    "title": "Primetime",
    "date": "2026-10-01",
-   "time": "18:05",
+   "time": "18:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -16973,7 +17018,7 @@
    "venue": "nhw",
    "title": "Practical Magic 2",
    "date": "2026-10-01",
-   "time": "18:05",
+   "time": "18:00",
    "genres": [
     "romance",
     "scifi",
@@ -17008,9 +17053,29 @@
   },
   {
    "venue": "nhp",
-   "title": "Hope",
+   "title": "Resident Evil (2026)",
    "date": "2026-10-01",
-   "time": "18:20",
+   "time": "18:15",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-01",
+   "time": "18:25",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -17075,6 +17140,24 @@
    "genreMovieId": "26717"
   },
   {
+   "venue": "nhp",
+   "title": "Coyote vs. Acme",
+   "date": "2026-10-01",
+   "time": "18:30",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
    "venue": "bam",
    "title": "Digger",
    "date": "2026-10-01",
@@ -17123,21 +17206,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Coyote vs. Acme",
+   "title": "Forgotten Island",
    "date": "2026-10-01",
    "time": "18:45",
-   "genres": [
-    "comedy",
-    "adventure",
-    "family"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Adventure",
-    "Family"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1204680
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "paris",
@@ -17262,7 +17336,7 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
+   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-10-01",
    "time": "19:00",
@@ -17328,6 +17402,22 @@
    "tmdbId": 1554956
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-10-01",
+   "time": "19:10",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "quad",
    "title": "Checkout",
    "date": "2026-10-01",
@@ -17357,26 +17447,6 @@
    "genreMovieId": "7088"
   },
   {
-   "venue": "nhw",
-   "title": "Resident Evil (2026)",
-   "date": "2026-10-01",
-   "time": "19:25",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
    "venue": "ff",
    "title": "UNZIPPED",
    "date": "2026-10-01",
@@ -17390,6 +17460,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
+  },
+  {
+   "venue": "nhp",
+   "title": "Practical Magic 2",
+   "date": "2026-10-01",
+   "time": "19:30",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "udocs",
@@ -17422,9 +17510,9 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
+   "title": "Heart of the Beast",
    "date": "2026-10-01",
-   "time": "20:00",
+   "time": "19:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -17447,12 +17535,21 @@
   },
   {
    "venue": "nhp",
-   "title": "Hope",
+   "title": "Practical Magic 2",
    "date": "2026-10-01",
    "time": "20:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
   },
   {
    "venue": "ff",
@@ -17487,20 +17584,12 @@
   },
   {
    "venue": "nhp",
-   "title": "Perfume: The Story of a Murderer",
+   "title": "Primetime",
    "date": "2026-10-01",
    "time": "20:45",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "48997"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -17526,6 +17615,24 @@
    "tmdbId": 1596249
   },
   {
+   "venue": "nhw",
+   "title": "Practical Magic 2",
+   "date": "2026-10-01",
+   "time": "20:50",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "afa",
    "title": "SCREAMPLAY",
    "date": "2026-10-01",
@@ -17545,30 +17652,19 @@
   },
   {
    "venue": "nhp",
-   "title": "Spider-Man: Brand New Day",
+   "title": "The History of Concrete",
    "date": "2026-10-01",
    "time": "21:00",
    "genres": [
-    "scifi",
-    "action",
-    "adventure"
+    "documentary",
+    "comedy"
    ],
    "sourceGenres": [
-    "Science Fiction",
-    "Action",
-    "Adventure"
+    "Documentary",
+    "Comedy"
    ],
    "genreSource": "tmdb",
-   "tmdbId": 969681
-  },
-  {
-   "venue": "nhw",
-   "title": "Hope",
-   "date": "2026-10-01",
-   "time": "21:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "tmdbId": 1596296
   },
   {
    "venue": "synd",
@@ -17587,6 +17683,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-01",
+   "time": "21:05",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "bam",
@@ -17713,24 +17818,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhp",
-   "title": "Practical Magic 2",
-   "date": "2026-10-01",
-   "time": "21:15",
-   "genres": [
-    "romance",
-    "scifi",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Romance",
-    "Fantasy",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1302904
-  },
-  {
    "venue": "bam",
    "title": "Digger",
    "date": "2026-10-01",
@@ -17741,20 +17828,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "bam",
-   "title": "Primetime",
-   "date": "2026-10-01",
-   "time": "21:30",
-   "url": "https://www.bam.org/film/2026/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
+   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-10-01",
-   "time": "21:30",
+   "time": "21:25",
    "genres": [
     "action",
     "horror",
@@ -17769,6 +17846,25 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
+  },
+  {
+   "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-10-01",
+   "time": "21:30",
+   "url": "https://www.bam.org/film/2026/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-10-01",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "roxy",
@@ -17870,15 +17966,6 @@
   },
   {
    "venue": "nhp",
-   "title": "The Uprising",
-   "date": "2026-10-01",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-10-01",
    "time": "21:45",
@@ -17965,6 +18052,26 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1629051
+  },
+  {
+   "venue": "nhw",
+   "title": "Resident Evil (2026)",
+   "date": "2026-10-01",
+   "time": "23:40",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   }
  ]
 }
