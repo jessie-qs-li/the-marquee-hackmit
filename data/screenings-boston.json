@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 52,
-  "classified": 16,
+  "classified": 20,
   "unresolved": [
    {
     "key": "primetime|",
@@ -15,12 +15,6 @@
     "title": "Union County",
     "year": null,
     "reason": "ambiguous"
-   },
-   {
-    "key": "careful|",
-    "title": "Careful",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "tony|",
@@ -41,26 +35,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "bellissima|",
-    "title": "Bellissima",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "adventuresofprinceachmed|",
     "title": "The Adventures of Prince Achmed",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "heranalltheway|",
-    "title": "He Ran All the Way",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "smog|",
-    "title": "Smog",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -131,14 +107,14 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "nostalghia|",
-    "title": "Nostalghia",
+    "key": "cinefestlatinobostonamericanpachucothelegendofluisvaldez|",
+    "title": "CineFest Latino Boston: American Pachuco: The Legend of Luis Valdez",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "cinefestlatinobostonamericanpachucothelegendofluisvaldez|",
-    "title": "CineFest Latino Boston: American Pachuco: The Legend of Luis Valdez",
+    "key": "nostalghia|",
+    "title": "Nostalghia",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -224,7 +200,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-27T05:26:08.542Z",
+ "fetchedAt": "2026-09-27T17:03:41.760Z",
  "week": [
   "2026-09-27",
   "2026-09-28",
@@ -302,14 +278,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 17,
-   "ms": 2211
+   "ms": 2505
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 120,
-   "ms": 1585
+   "ms": 3716
   },
   {
    "id": "somerville",
@@ -324,14 +300,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 63,
-   "ms": 845
+   "ms": 863
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 416
+   "ms": 420
   },
   {
    "id": "mfa",
@@ -434,10 +410,21 @@
    "time": "12:00",
    "url": "https://brattlefilm.org/purchase/1687296/",
    "filmUrl": "https://brattlefilm.org/movies/careful/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "comedy",
+    "drama",
+    "scifi"
+   ],
+   "year": 1992,
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Comedy",
+    "Drama",
+    "Fantasy"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -595,10 +582,14 @@
    "time": "14:30",
    "url": "https://brattlefilm.org/purchase/1687297/",
    "filmUrl": "https://brattlefilm.org/movies/bellissima/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama"
+   ],
+   "year": 1952,
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -775,10 +766,15 @@
    "time": "17:00",
    "url": "https://brattlefilm.org/purchase/1687298/",
    "filmUrl": "https://brattlefilm.org/movies/he-ran-all-the-way/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "thriller"
+   ],
+   "year": 1951,
+   "sourceGenres": [
+    "Crime",
+    "Thriller"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -896,10 +892,14 @@
    "time": "19:00",
    "url": "https://brattlefilm.org/purchase/1687299/",
    "filmUrl": "https://brattlefilm.org/movies/smog/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama"
+   ],
+   "year": 1962,
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -1845,10 +1845,21 @@
    "time": "21:00",
    "url": "https://brattlefilm.org/purchase/1687314/",
    "filmUrl": "https://brattlefilm.org/movies/careful/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "comedy",
+    "drama",
+    "scifi"
+   ],
+   "year": 1992,
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Fantasy",
+    "Comedy",
+    "Drama",
+    "Fantasy"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2171,22 +2182,22 @@
   },
   {
    "venue": "coolidge",
-   "title": "Nostalghia",
+   "title": "CineFest Latino Boston: American Pachuco: The Legend of Luis Valdez",
    "date": "2026-09-30",
    "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1028418~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/nostalghia",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1034685~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/cinefest-latino-boston-american-pachuco-legend-luis-valdez",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
-   "title": "CineFest Latino Boston: American Pachuco: The Legend of Luis Valdez",
+   "title": "Nostalghia",
    "date": "2026-09-30",
    "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1034685~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/cinefest-latino-boston-american-pachuco-legend-luis-valdez",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1028418~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/nostalghia",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3172,6 +3183,17 @@
   },
   {
    "venue": "coolidge",
+   "title": "Rozz Williams: Romeo’s Distress",
+   "date": "2026-10-03",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1031710~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/rozz-williams-romeos-distress",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
    "title": "The ’Burbs",
    "date": "2026-10-03",
    "time": "23:59",
@@ -3185,17 +3207,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2072"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Rozz Williams: Romeo’s Distress",
-   "date": "2026-10-03",
-   "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1031710~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/rozz-williams-romeos-distress",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   }
  ]
 }

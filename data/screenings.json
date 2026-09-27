@@ -1,31 +1,13 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 182,
-  "classified": 84,
+  "total": 181,
+  "classified": 83,
   "unresolved": [
-   {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "musical|",
-    "title": "THE MUSICAL",
-    "year": null,
-    "reason": "ambiguous"
-   },
    {
     "key": "nationaltheatrelivethemisanthrope|",
     "title": "National Theatre Live: The Misanthrope",
     "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "goodbyedragoninn|2003",
-    "title": "Goodbye, Dragon Inn",
-    "year": 2003,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -119,6 +101,12 @@
     "reason": "ambiguous"
    },
    {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
     "key": "jolloffilmspresentsfaatkine|2001",
     "title": "Jollof Films Presents: Faat Kiné",
     "year": 2001,
@@ -141,6 +129,12 @@
     "title": "Heart of the Beast",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "musical|",
+    "title": "THE MUSICAL",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "afternoonwithashantialstoninconversationwithjoyjamesfreeevent|",
@@ -509,6 +503,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "tonyopencaptiononscreensubtitles|",
+    "title": "TONY OPEN CAPTION (ON-SCREEN SUBTITLES)",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "inwhichanniegivesitthoseones|",
     "title": "In Which Annie Gives it Those Ones",
     "year": null,
@@ -596,7 +596,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-27T05:26:03.234Z",
+ "fetchedAt": "2026-09-27T17:03:33.948Z",
  "week": [
   "2026-09-27",
   "2026-09-28",
@@ -814,63 +814,63 @@
    "name": "Film Forum",
    "ok": true,
    "count": 96,
-   "ms": 899
+   "ms": 1026
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
-   "count": 57,
-   "ms": 91
+   "count": 55,
+   "ms": 113
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 146,
-   "ms": 305
+   "ms": 108
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 23,
-   "ms": 290
+   "ms": 382
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 96,
-   "ms": 219
+   "ms": 145
   },
   {
    "id": "cv",
    "name": "Cinema Village",
    "ok": true,
-   "count": 57,
-   "ms": 2908
+   "count": 70,
+   "ms": 3345
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 18,
-   "ms": 256
+   "ms": 141
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 161,
-   "ms": 4557
+   "count": 153,
+   "ms": 4520
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
    "count": 21,
-   "ms": 2644
+   "ms": 2607
   },
   {
    "id": "wrt",
@@ -893,21 +893,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 103,
-   "ms": 262
+   "ms": 163
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 63,
-   "ms": 4398
+   "count": 84,
+   "ms": 4798
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 105,
-   "ms": 6794
+   "count": 140,
+   "ms": 6483
   },
   {
    "id": "spec",
@@ -922,7 +922,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 15,
-   "ms": 1999
+   "ms": 1877
   },
   {
    "id": "momi",
@@ -937,7 +937,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 4,
-   "ms": 580
+   "ms": 710
   },
   {
    "id": "kew",
@@ -952,65 +952,11 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 3,
-   "ms": 1544
+   "ms": 3411
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "NEVER AFTER DARK",
-   "date": "2026-09-27",
-   "time": "10:00",
-   "fmt": "English subtitles",
-   "director": "Dave Boyle",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/never-after-dark",
-   "genres": [
-    "horror"
-   ],
-   "sourceGenres": [
-    "Horror"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1629051
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
-   "date": "2026-09-27",
-   "time": "10:00",
-   "fmt": "Standard",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-27",
-   "time": "10:10",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "ifc",
    "title": "The History of Concrete",
@@ -1028,43 +974,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-27",
-   "time": "10:40",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
-   "date": "2026-09-27",
-   "time": "10:40",
-   "fmt": "Standard",
-   "director": "Josef Kobota Wladyka",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
-   "genres": [
-    "comedy",
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596249
-  },
-  {
    "venue": "ifc",
    "title": "The Incomer",
    "date": "2026-09-27",
@@ -1079,27 +988,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1554956
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-09-27",
-   "time": "11:00",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "ff",
@@ -1125,43 +1013,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "mg",
-   "title": "Goodbye, Dragon Inn",
-   "date": "2026-09-27",
-   "time": "11:00",
-   "fmt": "DCP",
-   "year": 2003,
-   "runtime": 82,
-   "director": "Tsai Ming-liang",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "mg",
-   "title": "The Little Mermaid",
-   "date": "2026-09-27",
-   "time": "11:00",
-   "fmt": "35mm",
-   "year": 1989,
-   "runtime": 83,
-   "director": "Ron Clements, John Musker",
-   "genres": [
-    "family",
-    "comedy",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Animation",
-    "Children",
-    "Comedy",
-    "Musical",
-    "Romance"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "2081"
   },
   {
    "venue": "nhw",
@@ -1298,20 +1149,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-27",
-   "time": "12:30",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Bad Apples",
    "date": "2026-09-27",
@@ -1342,20 +1179,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 41244
-  },
-  {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-27",
-   "time": "12:50",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "mg",
@@ -1479,22 +1302,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596249
-  },
-  {
-   "venue": "nhp",
-   "title": "The History of Concrete",
-   "date": "2026-09-27",
-   "time": "13:25",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
   },
   {
    "venue": "angelika",
@@ -1743,6 +1550,15 @@
    "title": "Checkout",
    "date": "2026-09-27",
    "time": "14:25",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-27",
+   "time": "14:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2615,6 +2431,24 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Practical Magic 2",
+   "date": "2026-09-27",
+   "time": "18:25",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "cv",
    "title": "THE INVITE",
    "date": "2026-09-27",
@@ -2640,6 +2474,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "528"
+  },
+  {
+   "venue": "nhp",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-27",
+   "time": "18:30",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
   },
   {
    "venue": "angelika",
@@ -2680,6 +2532,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-27",
+   "time": "18:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "afa",
@@ -2850,6 +2711,22 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-27",
+   "time": "19:00",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "quad",
    "title": "Bad Apples",
    "date": "2026-09-27",
@@ -2953,6 +2830,15 @@
    "genreMovieId": "206"
   },
   {
+   "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-27",
+   "time": "19:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "udocs",
    "title": "Narcisa Hirsch: Graffiti, Film & Political Gesture",
    "date": "2026-09-27",
@@ -2988,20 +2874,6 @@
   },
   {
    "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-27",
-   "time": "20:00",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
    "title": "NEVER AFTER DARK",
    "date": "2026-09-27",
    "time": "20:00",
@@ -3018,6 +2890,20 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1629051
+  },
+  {
+   "venue": "angelika",
+   "title": "THE MUSICAL",
+   "date": "2026-09-27",
+   "time": "20:00",
+   "fmt": "Standard",
+   "director": "Giselle Bonilla",
+   "runtime": 84,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "cv",
@@ -3051,6 +2937,15 @@
    "year": 2002,
    "runtime": 97,
    "director": "Lynne Ramsay",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-27",
+   "time": "20:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3378,6 +3273,24 @@
    "date": "2026-09-27",
    "time": "21:30",
    "url": "https://www.bam.org/film/2026/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-27",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-27",
+   "time": "21:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4051,22 +3964,6 @@
    "tmdbId": 1596332
   },
   {
-   "venue": "nhp",
-   "title": "The History of Concrete",
-   "date": "2026-09-28",
-   "time": "13:25",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
    "date": "2026-09-28",
@@ -4176,6 +4073,15 @@
    "date": "2026-09-28",
    "time": "14:30",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-28",
+   "time": "14:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4928,6 +4834,24 @@
    "tmdbId": 1302904
   },
   {
+   "venue": "nhw",
+   "title": "Practical Magic 2",
+   "date": "2026-09-28",
+   "time": "18:25",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "cv",
    "title": "KRIZALIT CELEBRATION OF TURKISH AND WOMEN VOICES",
    "date": "2026-09-28",
@@ -4964,6 +4888,24 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-28",
+   "time": "18:30",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
    "venue": "synd",
    "title": "Tony",
    "date": "2026-09-28",
@@ -4990,6 +4932,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-28",
+   "time": "18:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "afa",
@@ -5227,6 +5178,22 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-28",
+   "time": "19:00",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "quad",
    "title": "Bad Apples",
    "date": "2026-09-28",
@@ -5389,6 +5356,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-28",
+   "time": "19:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "Checkout",
    "date": "2026-09-28",
@@ -5422,25 +5398,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "cv",
-   "title": "BUDDY",
-   "date": "2026-09-28",
-   "time": "20:00",
-   "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [
-    "adventure",
-    "family",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Adventure",
-    "Children",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1551"
-  },
-  {
    "venue": "mg",
    "title": "The Warriors",
    "date": "2026-09-28",
@@ -5462,6 +5419,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "7802"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-28",
+   "time": "20:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "mg",
@@ -5749,6 +5715,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-28",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-28",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "roxy",
@@ -6441,22 +6425,6 @@
    "tmdbId": 1596249
   },
   {
-   "venue": "nhp",
-   "title": "The History of Concrete",
-   "date": "2026-09-29",
-   "time": "13:25",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
    "date": "2026-09-29",
@@ -6575,6 +6543,15 @@
    "date": "2026-09-29",
    "time": "14:30",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-29",
+   "time": "14:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7314,6 +7291,24 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Practical Magic 2",
+   "date": "2026-09-29",
+   "time": "18:25",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "cv",
    "title": "KRIZALIT CELEBRATION OF TURKISH AND WOMEN VOICES",
    "date": "2026-09-29",
@@ -7350,6 +7345,24 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-29",
+   "time": "18:30",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
    "venue": "bam",
    "title": "The History of Concrete",
    "date": "2026-09-29",
@@ -7365,6 +7378,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-29",
+   "time": "18:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "afa",
@@ -7525,6 +7547,22 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-29",
+   "time": "19:00",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "paris",
@@ -7725,6 +7763,15 @@
    "genreMovieId": "206"
   },
   {
+   "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-29",
+   "time": "19:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "IF I GO WILL THEY MISS ME",
    "date": "2026-09-29",
@@ -7766,6 +7813,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1551"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-29",
+   "time": "20:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "mg",
@@ -8058,6 +8114,24 @@
    "date": "2026-09-29",
    "time": "21:30",
    "url": "https://www.bam.org/film/2026/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-29",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-29",
+   "time": "21:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8744,22 +8818,6 @@
    "tmdbId": 1596249
   },
   {
-   "venue": "nhp",
-   "title": "The History of Concrete",
-   "date": "2026-09-30",
-   "time": "13:25",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
    "date": "2026-09-30",
@@ -8885,6 +8943,15 @@
    "date": "2026-09-30",
    "time": "14:30",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-30",
+   "time": "14:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9634,6 +9701,24 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Practical Magic 2",
+   "date": "2026-09-30",
+   "time": "18:25",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "cv",
    "title": "KRIZALIT CELEBRATION OF TURKISH AND WOMEN VOICES",
    "date": "2026-09-30",
@@ -9661,6 +9746,24 @@
    "genreMovieId": "528"
   },
   {
+   "venue": "nhp",
+   "title": "Coyote vs. Acme",
+   "date": "2026-09-30",
+   "time": "18:30",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
    "venue": "bam",
    "title": "The History of Concrete",
    "date": "2026-09-30",
@@ -9676,6 +9779,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-30",
+   "time": "18:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "afa",
@@ -9831,6 +9943,22 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 473033
+  },
+  {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-09-30",
+   "time": "19:00",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "roxy",
@@ -10014,6 +10142,15 @@
    "genreMovieId": "206"
   },
   {
+   "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-09-30",
+   "time": "19:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "IF I GO WILL THEY MISS ME",
    "date": "2026-09-30",
@@ -10064,6 +10201,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1551"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-30",
+   "time": "20:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -10391,6 +10537,24 @@
    "date": "2026-09-30",
    "time": "21:30",
    "url": "https://www.bam.org/film/2026/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-09-30",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-09-30",
+   "time": "21:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11114,22 +11278,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The History of Concrete",
-   "date": "2026-10-01",
-   "time": "13:25",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
    "date": "2026-10-01",
@@ -11222,6 +11370,15 @@
    "date": "2026-10-01",
    "time": "14:30",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-10-01",
+   "time": "14:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11957,6 +12114,24 @@
    "tmdbId": 1302904
   },
   {
+   "venue": "nhw",
+   "title": "Practical Magic 2",
+   "date": "2026-10-01",
+   "time": "18:25",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "afa",
    "title": "COMBAT BREATHING: INSURGENT POIESIS",
    "date": "2026-10-01",
@@ -12026,11 +12201,38 @@
    "genreMovieId": "26717"
   },
   {
+   "venue": "nhp",
+   "title": "Coyote vs. Acme",
+   "date": "2026-10-01",
+   "time": "18:30",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
    "venue": "bam",
    "title": "Digger",
    "date": "2026-10-01",
    "time": "18:40",
    "url": "https://www.bam.org/film/2026/digger",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-01",
+   "time": "18:40",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12195,6 +12397,22 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-10-01",
+   "time": "19:00",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "quad",
    "title": "Bad Apples",
    "date": "2026-10-01",
@@ -12345,6 +12563,15 @@
    "genreMovieId": "206"
   },
   {
+   "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-10-01",
+   "time": "19:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "udocs",
    "title": "Fall of Freedom — Under Pressure: How to Document “Unprecedented Times”",
    "date": "2026-10-01",
@@ -12391,6 +12618,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1551"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-10-01",
+   "time": "20:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -12699,6 +12935,24 @@
    "date": "2026-10-01",
    "time": "21:30",
    "url": "https://www.bam.org/film/2026/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-10-01",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-01",
+   "time": "21:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13045,7 +13299,7 @@
    "venue": "quad",
    "title": "In Spite of Ourselves",
    "date": "2026-10-02",
-   "time": "12:55",
+   "time": "12:50",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13110,22 +13364,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The History of Concrete",
-   "date": "2026-10-02",
-   "time": "13:25",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
    "venue": "angelika",
    "title": "ATONEMENT (2026)",
    "date": "2026-10-02",
@@ -13171,6 +13409,26 @@
    "genreMovieId": "52885"
   },
   {
+   "venue": "cv",
+   "title": "THE INVITE",
+   "date": "2026-10-02",
+   "time": "14:00",
+   "url": "https://www.cinemavillage.com/showtimes/",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "cv",
+   "title": "TONY",
+   "date": "2026-10-02",
+   "time": "14:00",
+   "url": "https://www.cinemavillage.com/showtimes/",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "mg",
    "title": "Tokyo Melody",
    "date": "2026-10-02",
@@ -13179,6 +13437,15 @@
    "year": 1985,
    "runtime": 62,
    "director": "Elizabeth Lennard",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-10-02",
+   "time": "14:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13354,6 +13621,26 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "cv",
+   "title": "THE INVITE",
+   "date": "2026-10-02",
+   "time": "16:15",
+   "url": "https://www.cinemavillage.com/showtimes/",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "cv",
+   "title": "TONY",
+   "date": "2026-10-02",
+   "time": "16:15",
+   "url": "https://www.cinemavillage.com/showtimes/",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-10-02",
@@ -13507,11 +13794,49 @@
    "tmdbId": 1302904
   },
   {
+   "venue": "nhw",
+   "title": "Practical Magic 2",
+   "date": "2026-10-02",
+   "time": "18:25",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "bam",
    "title": "Foreign Travel",
    "date": "2026-10-02",
    "time": "18:30",
    "url": "https://www.bam.org/film/2026/nyff-foreign-travel",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "cv",
+   "title": "THE INVITE",
+   "date": "2026-10-02",
+   "time": "18:30",
+   "url": "https://www.cinemavillage.com/showtimes/",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "cv",
+   "title": "TONY",
+   "date": "2026-10-02",
+   "time": "18:30",
+   "url": "https://www.cinemavillage.com/showtimes/",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13526,11 +13851,38 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Coyote vs. Acme",
+   "date": "2026-10-02",
+   "time": "18:30",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
    "venue": "bam",
    "title": "Digger",
    "date": "2026-10-02",
    "time": "18:40",
    "url": "https://www.bam.org/film/2026/digger",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-02",
+   "time": "18:40",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13629,6 +13981,22 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-10-02",
+   "time": "19:00",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-10-02",
@@ -13699,6 +14067,15 @@
    "genreMovieId": "5219"
   },
   {
+   "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-10-02",
+   "time": "19:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "udocs",
    "title": "Zodiac Killer Project",
    "date": "2026-10-02",
@@ -13713,6 +14090,15 @@
    "title": "Naza",
    "date": "2026-10-02",
    "time": "19:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-10-02",
+   "time": "20:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13758,6 +14144,26 @@
    "year": 2017,
    "runtime": 100,
    "director": "Stephen Nomura Schible",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "cv",
+   "title": "THE INVITE",
+   "date": "2026-10-02",
+   "time": "20:45",
+   "url": "https://www.cinemavillage.com/showtimes/",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "cv",
+   "title": "TONY",
+   "date": "2026-10-02",
+   "time": "20:45",
+   "url": "https://www.cinemavillage.com/showtimes/",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13869,6 +14275,24 @@
    "date": "2026-10-02",
    "time": "21:20",
    "url": "https://www.bam.org/film/2026/digger",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-10-02",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-02",
+   "time": "21:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -14195,10 +14619,20 @@
    "genreMovieId": "8593"
   },
   {
+   "venue": "cv",
+   "title": "TONY OPEN CAPTION (ON-SCREEN SUBTITLES)",
+   "date": "2026-10-03",
+   "time": "12:30",
+   "url": "https://www.cinemavillage.com/showtimes/",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "In Spite of Ourselves",
    "date": "2026-10-03",
-   "time": "12:55",
+   "time": "12:50",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -14241,22 +14675,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The History of Concrete",
-   "date": "2026-10-03",
-   "time": "13:25",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
    "venue": "angelika",
    "title": "ATONEMENT (2026)",
    "date": "2026-10-03",
@@ -14285,6 +14703,16 @@
    "date": "2026-10-03",
    "time": "14:00",
    "url": "https://www.bam.org/film/2026/nyff-in-which-annie",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "cv",
+   "title": "THE INVITE",
+   "date": "2026-10-03",
+   "time": "14:00",
+   "url": "https://www.cinemavillage.com/showtimes/",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -14321,6 +14749,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "3384"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-10-03",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -14470,6 +14907,16 @@
    "runtime": 118,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/atonement-2026",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "cv",
+   "title": "TONY",
+   "date": "2026-10-03",
+   "time": "16:15",
+   "url": "https://www.cinemavillage.com/showtimes/",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -14651,10 +15098,38 @@
    "tmdbId": 1302904
   },
   {
+   "venue": "nhw",
+   "title": "Practical Magic 2",
+   "date": "2026-10-03",
+   "time": "18:25",
+   "genres": [
+    "romance",
+    "scifi",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Romance",
+    "Fantasy",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1302904
+  },
+  {
    "venue": "afa",
    "title": "COMBAT BREATHING: PERPETUAL RECURRENCES, PART 2: TESTAMENT",
    "date": "2026-10-03",
    "time": "18:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "cv",
+   "title": "TONY",
+   "date": "2026-10-03",
+   "time": "18:30",
+   "url": "https://www.cinemavillage.com/showtimes/",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -14667,6 +15142,24 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Coyote vs. Acme",
+   "date": "2026-10-03",
+   "time": "18:30",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
   },
   {
    "venue": "roxy",
@@ -14686,6 +15179,15 @@
    "date": "2026-10-03",
    "time": "18:40",
    "url": "https://www.bam.org/film/2026/digger",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-03",
+   "time": "18:40",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -14746,6 +15248,22 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 26356
+  },
+  {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-10-03",
+   "time": "19:00",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "quad",
@@ -14838,6 +15356,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Heart of the Beast",
+   "date": "2026-10-03",
+   "time": "19:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-10-03",
@@ -14864,6 +15391,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "159061"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-10-03",
+   "time": "20:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "afa",
@@ -14903,6 +15439,26 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "cv",
+   "title": "THE INVITE",
+   "date": "2026-10-03",
+   "time": "20:45",
+   "url": "https://www.cinemavillage.com/showtimes/",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "cv",
+   "title": "TONY",
+   "date": "2026-10-03",
+   "time": "20:45",
+   "url": "https://www.cinemavillage.com/showtimes/",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
@@ -14993,6 +15549,24 @@
    "date": "2026-10-03",
    "time": "21:20",
    "url": "https://www.bam.org/film/2026/digger",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Primetime",
+   "date": "2026-10-03",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-03",
+   "time": "21:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
