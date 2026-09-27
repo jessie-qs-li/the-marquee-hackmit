@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 52,
-  "classified": 20,
+  "classified": 16,
   "unresolved": [
    {
     "key": "primetime|",
@@ -15,6 +15,12 @@
     "title": "Union County",
     "year": null,
     "reason": "ambiguous"
+   },
+   {
+    "key": "careful|",
+    "title": "Careful",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "tony|",
@@ -35,8 +41,26 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "bellissima|",
+    "title": "Bellissima",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "adventuresofprinceachmed|",
     "title": "The Adventures of Prince Achmed",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "heranalltheway|",
+    "title": "He Ran All the Way",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "smog|",
+    "title": "Smog",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -200,7 +224,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-27T17:03:41.760Z",
+ "fetchedAt": "2026-09-27T21:26:32.638Z",
  "week": [
   "2026-09-27",
   "2026-09-28",
@@ -278,14 +302,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 17,
-   "ms": 2505
+   "ms": 2719
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 120,
-   "ms": 3716
+   "ms": 3138
   },
   {
    "id": "somerville",
@@ -300,7 +324,7 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 63,
-   "ms": 863
+   "ms": 882
   },
   {
    "id": "hfa",
@@ -410,21 +434,10 @@
    "time": "12:00",
    "url": "https://brattlefilm.org/purchase/1687296/",
    "filmUrl": "https://brattlefilm.org/movies/careful/",
-   "genres": [
-    "comedy",
-    "drama",
-    "scifi"
-   ],
-   "year": 1992,
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Fantasy",
-    "Comedy",
-    "Drama",
-    "Fantasy"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "kendall",
@@ -582,14 +595,10 @@
    "time": "14:30",
    "url": "https://brattlefilm.org/purchase/1687297/",
    "filmUrl": "https://brattlefilm.org/movies/bellissima/",
-   "genres": [
-    "drama"
-   ],
-   "year": 1952,
-   "sourceGenres": [
-    "Drama"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -766,15 +775,10 @@
    "time": "17:00",
    "url": "https://brattlefilm.org/purchase/1687298/",
    "filmUrl": "https://brattlefilm.org/movies/he-ran-all-the-way/",
-   "genres": [
-    "thriller"
-   ],
-   "year": 1951,
-   "sourceGenres": [
-    "Crime",
-    "Thriller"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -892,14 +896,10 @@
    "time": "19:00",
    "url": "https://brattlefilm.org/purchase/1687299/",
    "filmUrl": "https://brattlefilm.org/movies/smog/",
-   "genres": [
-    "drama"
-   ],
-   "year": 1962,
-   "sourceGenres": [
-    "Drama"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "kendall",
@@ -1227,22 +1227,22 @@
   },
   {
    "venue": "coolidge",
-   "title": "Seminar: Strictly Ballroom",
+   "title": "Tony (2026)",
    "date": "2026-09-28",
    "time": "18:15",
-   "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=887072ef-e4e1-484e-969f-3cefb3f424e8&",
-   "filmUrl": "https://coolidge.org/events/seminar-strictly-ballroom",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1038007~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/tony-2026",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
-   "title": "Tony (2026)",
+   "title": "Seminar: Strictly Ballroom",
    "date": "2026-09-28",
    "time": "18:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1038007~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/tony-2026",
+   "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=887072ef-e4e1-484e-969f-3cefb3f424e8&",
+   "filmUrl": "https://coolidge.org/events/seminar-strictly-ballroom",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1845,21 +1845,10 @@
    "time": "21:00",
    "url": "https://brattlefilm.org/purchase/1687314/",
    "filmUrl": "https://brattlefilm.org/movies/careful/",
-   "genres": [
-    "comedy",
-    "drama",
-    "scifi"
-   ],
-   "year": 1992,
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Fantasy",
-    "Comedy",
-    "Drama",
-    "Fantasy"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
