@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 51,
-  "classified": 16,
+  "classified": 15,
   "unresolved": [
    {
     "key": "primetime|",
@@ -81,6 +81,12 @@
     "title": "Akira (4K Restoration)",
     "year": null,
     "reason": "not-found"
+   },
+   {
+    "key": "careful|",
+    "title": "Careful",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "votingcountselectionsinfilmwednesdaysection|",
@@ -218,7 +224,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-28T05:37:34.256Z",
+ "fetchedAt": "2026-09-28T21:16:40.160Z",
  "week": [
   "2026-09-28",
   "2026-09-29",
@@ -296,14 +302,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 16,
-   "ms": 2455
+   "ms": 2632
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 97,
-   "ms": 4082
+   "ms": 2594
   },
   {
    "id": "somerville",
@@ -318,14 +324,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 51,
-   "ms": 984
+   "ms": 996
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 344
+   "ms": 421
   },
   {
    "id": "mfa",
@@ -521,22 +527,22 @@
   },
   {
    "venue": "coolidge",
-   "title": "Tony (2026)",
+   "title": "Seminar: Strictly Ballroom",
    "date": "2026-09-28",
    "time": "18:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1038007~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/tony-2026",
+   "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=887072ef-e4e1-484e-969f-3cefb3f424e8&",
+   "filmUrl": "https://coolidge.org/events/seminar-strictly-ballroom",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
-   "title": "Seminar: Strictly Ballroom",
+   "title": "Tony (2026)",
    "date": "2026-09-28",
    "time": "18:15",
-   "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=887072ef-e4e1-484e-969f-3cefb3f424e8&",
-   "filmUrl": "https://coolidge.org/events/seminar-strictly-ballroom",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1038007~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/tony-2026",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1139,18 +1145,10 @@
    "time": "21:00",
    "url": "https://brattlefilm.org/purchase/1687314/",
    "filmUrl": "https://brattlefilm.org/movies/careful/",
-   "genres": [
-    "comedy",
-    "drama",
-    "scifi"
-   ],
-   "year": 1992,
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Fantasy"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -2474,17 +2472,6 @@
   },
   {
    "venue": "coolidge",
-   "title": "Rozz Williams: Romeo’s Distress",
-   "date": "2026-10-03",
-   "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1031710~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/rozz-williams-romeos-distress",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
    "title": "The ’Burbs",
    "date": "2026-10-03",
    "time": "23:59",
@@ -2498,6 +2485,17 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2072"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Rozz Williams: Romeo’s Distress",
+   "date": "2026-10-03",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1031710~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/rozz-williams-romeos-distress",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
