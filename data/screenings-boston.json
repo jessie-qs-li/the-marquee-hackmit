@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 51,
-  "classified": 15,
+  "classified": 16,
   "unresolved": [
    {
     "key": "primetime|",
@@ -19,12 +19,6 @@
    {
     "key": "heartofthebeast|",
     "title": "Heart Of The Beast",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "elementsofcinemamidnight|",
-    "title": "Elements of Cinema: Midnight",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -224,7 +218,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-28T21:16:40.160Z",
+ "fetchedAt": "2026-09-29T01:03:21.455Z",
  "week": [
   "2026-09-28",
   "2026-09-29",
@@ -302,14 +296,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 16,
-   "ms": 2632
+   "ms": 2630
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 97,
-   "ms": 2594
+   "ms": 2181
   },
   {
    "id": "somerville",
@@ -324,14 +318,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 51,
-   "ms": 996
+   "ms": 895
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 421
+   "ms": 1200
   },
   {
    "id": "mfa",
@@ -520,10 +514,16 @@
    "time": "18:00",
    "url": "https://brattlefilm.org/showtimes/elements-of-cinema-midnight-9-28-26-600-pm/",
    "filmUrl": "https://brattlefilm.org/movies/elements-of-cinema-midnight/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "comedy",
+    "romance"
+   ],
+   "year": 1939,
+   "sourceGenres": [
+    "Comedy",
+    "Romance"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",

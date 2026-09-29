@@ -1,8 +1,8 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 190,
-  "classified": 77,
+  "total": 186,
+  "classified": 75,
   "unresolved": [
    {
     "key": "2026sundancefestivalshortfilmtour|",
@@ -25,24 +25,6 @@
    {
     "key": "takemehome|",
     "title": "Take Me Home",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "marchingband|",
-    "title": "The Marching Band",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "badapples|",
-    "title": "Bad Apples",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "checkout|",
-    "title": "Checkout",
     "year": null,
     "reason": "ambiguous"
    },
@@ -77,28 +59,10 @@
     "reason": "ambiguous"
    },
    {
-    "key": "fisherman|",
-    "title": "The Fisherman",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "smalltalkfullmouth|",
     "title": "SMALL TALK FULL MOUTH",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "musical|",
-    "title": "THE MUSICAL",
-    "year": null,
-    "reason": "ambiguous"
    },
    {
     "key": "howtolive|",
@@ -125,18 +89,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "notestowardanafricanorestes|1970",
-    "title": "Notes Toward an African Orestes",
-    "year": 1970,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "atonementearlyaccessqa|",
-    "title": "ATONEMENT (EARLY ACCESS Q&A)",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "legacyspiritoftheblackpanthers|",
     "title": "LEGACY SPIRIT OF THE BLACK PANTHERS",
     "year": null,
@@ -149,16 +101,22 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "tokyomelody|1985",
-    "title": "Tokyo Melody",
-    "year": 1985,
+    "key": "badapples|",
+    "title": "Bad Apples",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "marchingband|",
+    "title": "The Marching Band",
+    "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "twilight|",
-    "title": "Twilight",
+    "key": "checkout|",
+    "title": "Checkout",
     "year": null,
-    "reason": "not in catalogue or ambiguous title"
+    "reason": "ambiguous"
    },
    {
     "key": "waroftheworlds|",
@@ -169,6 +127,12 @@
    {
     "key": "serpentspath|",
     "title": "Serpent's Path",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "musical|",
+    "title": "THE MUSICAL",
     "year": null,
     "reason": "ambiguous"
    },
@@ -191,6 +155,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
     "key": "ghostintheshell30thanniversaryremaster|1995",
     "title": "Ghost in the Shell: 30th Anniversary Remaster",
     "year": 1995,
@@ -199,6 +169,12 @@
    {
     "key": "franz|",
     "title": "Franz",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "fisherman|",
+    "title": "The Fisherman",
     "year": null,
     "reason": "ambiguous"
    },
@@ -379,6 +355,18 @@
    {
     "key": "stelladallas|",
     "title": "Stella Dallas",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "tokyomelody|1985",
+    "title": "Tokyo Melody",
+    "year": 1985,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "orion|",
+    "title": "Orion",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -686,7 +674,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-09-28T21:16:33.273Z",
+ "fetchedAt": "2026-09-29T01:03:14.263Z",
  "week": [
   "2026-09-28",
   "2026-09-29",
@@ -904,63 +892,63 @@
    "name": "Film Forum",
    "ok": true,
    "count": 78,
-   "ms": 1061
+   "ms": 882
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
-   "count": 55,
-   "ms": 173
+   "count": 51,
+   "ms": 85
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
-   "count": 193,
-   "ms": 96
+   "count": 194,
+   "ms": 194
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 23,
-   "ms": 771
+   "ms": 325
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 85,
-   "ms": 185
+   "count": 104,
+   "ms": 226
   },
   {
    "id": "cv",
    "name": "Cinema Village",
    "ok": true,
    "count": 65,
-   "ms": 3193
+   "ms": 3418
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 18,
-   "ms": 263
+   "ms": 218
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 123,
-   "ms": 5164
+   "count": 179,
+   "ms": 5500
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 21,
-   "ms": 2794
+   "count": 20,
+   "ms": 2808
   },
   {
    "id": "wrt",
@@ -982,22 +970,22 @@
    "id": "bam",
    "name": "BAM Rose Cinemas",
    "ok": true,
-   "count": 89,
-   "ms": 330
+   "count": 138,
+   "ms": 134
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 49,
-   "ms": 5510
+   "ms": 4438
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 98,
-   "ms": 7168
+   "ms": 6616
   },
   {
    "id": "spec",
@@ -1011,8 +999,8 @@
    "id": "synd",
    "name": "Syndicated",
    "ok": true,
-   "count": 14,
-   "ms": 1312
+   "count": 12,
+   "ms": 2074
   },
   {
    "id": "momi",
@@ -1027,7 +1015,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 2,
-   "ms": 697
+   "ms": 206
   },
   {
    "id": "kew",
@@ -1042,7 +1030,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 4,
-   "ms": 1754
+   "ms": 3123
   }
  ],
  "notices": {},
@@ -1289,33 +1277,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "The Marching Band",
-   "date": "2026-09-28",
-   "time": "14:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Bad Apples",
-   "date": "2026-09-28",
-   "time": "14:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Checkout",
-   "date": "2026-09-28",
-   "time": "14:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "cv",
    "title": "LATE FAME",
    "date": "2026-09-28",
@@ -1375,20 +1336,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "American Doctor",
-   "date": "2026-09-28",
-   "time": "15:20",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
   },
   {
    "venue": "nhp",
@@ -1458,25 +1405,6 @@
   },
   {
    "venue": "bam",
-   "title": "Coyote vs Acme",
-   "date": "2026-09-28",
-   "time": "16:00",
-   "url": "https://www.bam.org/film/2026/coyote-vs-acme",
-   "genres": [
-    "comedy",
-    "adventure",
-    "family"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Adventure",
-    "Family"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1204680
-  },
-  {
-   "venue": "bam",
    "title": "The Dark Knight",
    "date": "2026-09-28",
    "time": "16:00",
@@ -1494,6 +1422,25 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "58559"
+  },
+  {
+   "venue": "bam",
+   "title": "Coyote vs Acme",
+   "date": "2026-09-28",
+   "time": "16:00",
+   "url": "https://www.bam.org/film/2026/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
   },
   {
    "venue": "ff",
@@ -1644,57 +1591,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "The Fisherman",
-   "date": "2026-09-28",
-   "time": "16:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "cv",
    "title": "SMALL TALK FULL MOUTH",
    "date": "2026-09-28",
    "time": "16:50",
    "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Bad Apples",
-   "date": "2026-09-28",
-   "time": "16:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-28",
-   "time": "17:10",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-28",
-   "time": "17:10",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1717,20 +1618,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "American Doctor",
-   "date": "2026-09-28",
-   "time": "17:20",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
   },
   {
    "venue": "cv",
@@ -1773,26 +1660,6 @@
    "tmdbId": 91735
   },
   {
-   "venue": "mg",
-   "title": "Women on the Verge of a Nervous Breakdown",
-   "date": "2026-09-28",
-   "time": "18:00",
-   "fmt": "35mm",
-   "year": 1988,
-   "runtime": 88,
-   "director": "Pedro Almodóvar",
-   "genres": [
-    "comedy",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "3067"
-  },
-  {
    "venue": "nhp",
    "title": "Forgotten Island",
    "date": "2026-09-28",
@@ -1818,6 +1685,25 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
+  },
+  {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-09-28",
+   "time": "18:30",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
   },
   {
    "venue": "cv",
@@ -1860,17 +1746,6 @@
    "title": "Primetime",
    "date": "2026-09-28",
    "time": "18:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "synd",
-   "title": "Tony",
-   "date": "2026-09-28",
-   "time": "18:30",
-   "url": "https://ticketing.useast.veezi.com/purchase/6610?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1920,29 +1795,6 @@
    "tmdbId": 83282
   },
   {
-   "venue": "angelika",
-   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
-   "date": "2026-09-28",
-   "time": "18:45",
-   "fmt": "Open Captions",
-   "director": "Josef Kobota Wladyka",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
-   "genres": [
-    "comedy",
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596249
-  },
-  {
    "venue": "bam",
    "title": "Ha-Chan, Shake Your Booty",
    "date": "2026-09-28",
@@ -1976,19 +1828,6 @@
    "genreMovieId": "3844"
   },
   {
-   "venue": "mg",
-   "title": "Notes Toward an African Orestes",
-   "date": "2026-09-28",
-   "time": "18:45",
-   "fmt": "DCP",
-   "year": 1970,
-   "runtime": 65,
-   "director": "Pier Paolo Pasolini",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Coyote vs. Acme",
    "date": "2026-09-28",
@@ -2007,24 +1846,6 @@
    "tmdbId": 1204680
   },
   {
-   "venue": "paris",
-   "title": "The Master",
-   "date": "2026-09-28",
-   "time": "18:45",
-   "runtime": 137,
-   "fmt": "70MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3037/seats",
-   "genres": [
-    "drama"
-   ],
-   "sourceGenres": [
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "96728"
-  },
-  {
    "venue": "bam",
    "title": "Resident Evil",
    "date": "2026-09-28",
@@ -2039,41 +1860,6 @@
    "title": "Take Me Home",
    "date": "2026-09-28",
    "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-09-28",
-   "time": "19:00",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
-   "venue": "angelika",
-   "title": "ATONEMENT (EARLY ACCESS Q&A)",
-   "date": "2026-09-28",
-   "time": "19:00",
-   "fmt": "Q&A to follow the screening",
-   "director": "Reed Van Dyk",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/atonement-early-access-qa",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2208,39 +1994,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-09-28",
-   "time": "19:20",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "NEVER AFTER DARK",
-   "date": "2026-09-28",
-   "time": "19:20",
-   "fmt": "English subtitles",
-   "director": "Dave Boyle",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/never-after-dark",
-   "genres": [
-    "horror"
-   ],
-   "sourceGenres": [
-    "Horror"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1629051
-  },
-  {
    "venue": "quad",
    "title": "American Doctor",
    "date": "2026-09-28",
@@ -2293,20 +2046,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-09-28",
-   "time": "19:35",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "The History of Concrete",
    "date": "2026-09-28",
@@ -2333,29 +2072,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "mg",
-   "title": "The Warriors",
-   "date": "2026-09-28",
-   "time": "20:00",
-   "fmt": "35mm",
-   "year": 1979,
-   "runtime": 93,
-   "director": "Walter Hill",
-   "genres": [
-    "action",
-    "adventure",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Adventure",
-    "Crime",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "7802"
-  },
-  {
    "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-09-28",
@@ -2372,19 +2088,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1302904
-  },
-  {
-   "venue": "mg",
-   "title": "Tokyo Melody",
-   "date": "2026-09-28",
-   "time": "20:15",
-   "fmt": "DCP",
-   "year": 1985,
-   "runtime": 62,
-   "director": "Elizabeth Lennard",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -2466,32 +2169,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "synd",
-   "title": "Twilight",
-   "date": "2026-09-28",
-   "time": "21:00",
-   "url": "",
-   "note": "Sold out",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "War of the Worlds",
    "date": "2026-09-28",
    "time": "21:05",
    "url": "https://www.bam.org/film/2026/gwb-film-war-of-the-worlds",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "bam",
-   "title": "Resident Evil",
-   "date": "2026-09-28",
-   "time": "21:10",
-   "url": "https://www.bam.org/film/2026/resident-evil",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2512,6 +2194,16 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-09-28",
+   "time": "21:10",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -4021,6 +3713,25 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-09-29",
+   "time": "18:30",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
   },
   {
    "venue": "cv",
@@ -6215,6 +5926,25 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-09-30",
+   "time": "18:30",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "cv",
    "title": "KRIZALIT CELEBRATION OF TURKISH AND WOMEN VOICES",
    "date": "2026-09-30",
@@ -6389,16 +6119,6 @@
   },
   {
    "venue": "bam",
-   "title": "Primetime",
-   "date": "2026-09-30",
-   "time": "19:00",
-   "url": "https://www.bam.org/film/2026/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "bam",
    "title": "Jesus Camp",
    "date": "2026-09-30",
    "time": "19:00",
@@ -6413,6 +6133,16 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "47999"
+  },
+  {
+   "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-09-30",
+   "time": "19:00",
+   "url": "https://www.bam.org/film/2026/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -9365,6 +9095,29 @@
   },
   {
    "venue": "angelika",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
+   "date": "2026-10-02",
+   "time": "10:30",
+   "fmt": "Standard",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
+   "venue": "angelika",
    "title": "ATONEMENT (2026)",
    "date": "2026-10-02",
    "time": "10:45",
@@ -9430,6 +9183,41 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "angelika",
+   "title": "THE MUSICAL",
+   "date": "2026-10-02",
+   "time": "11:20",
+   "fmt": "Standard",
+   "director": "Giselle Bonilla",
+   "runtime": 84,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-02",
+   "time": "11:30",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
    "venue": "ifc",
    "title": "The Incomer",
    "date": "2026-10-02",
@@ -9446,6 +9234,41 @@
    "tmdbId": 1554956
   },
   {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-02",
+   "time": "12:30",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
+   "date": "2026-10-02",
+   "time": "12:40",
+   "fmt": "Standard",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-10-02",
@@ -9460,6 +9283,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-10-02",
+   "time": "12:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -9493,6 +9325,29 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "angelika",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
+   "date": "2026-10-02",
+   "time": "13:15",
+   "fmt": "Standard",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
    "venue": "bam",
    "title": "Digger",
    "date": "2026-10-02",
@@ -9501,6 +9356,25 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Ha-Chan, Shake Your Booty",
+   "date": "2026-10-02",
+   "time": "13:15",
+   "url": "https://www.bam.org/film/2026/ha-chan",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
   },
   {
    "venue": "ifc",
@@ -9542,10 +9416,56 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "angelika",
+   "title": "NEVER AFTER DARK",
+   "date": "2026-10-02",
+   "time": "13:30",
+   "fmt": "Standard",
+   "director": "Dave Boyle",
+   "runtime": 105,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/never-after-dark",
+   "genres": [
+    "horror"
+   ],
+   "sourceGenres": [
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1629051
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-02",
+   "time": "13:30",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-10-02",
    "time": "13:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-10-02",
+   "time": "13:45",
+   "url": "https://www.bam.org/film/2026/primetime",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9573,6 +9493,25 @@
    "genreMovieId": "52885"
   },
   {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-10-02",
+   "time": "13:50",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-10-02",
+   "time": "13:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "cv",
    "title": "THE INVITE",
    "date": "2026-10-02",
@@ -9591,6 +9530,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-02",
+   "time": "14:05",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "mg",
@@ -9638,6 +9598,29 @@
    "genreMovieId": "26717"
   },
   {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-02",
+   "time": "14:50",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Orion",
+   "date": "2026-10-02",
+   "time": "14:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "In Spite of Ourselves",
    "date": "2026-10-02",
@@ -9672,10 +9655,40 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
+   "date": "2026-10-02",
+   "time": "15:20",
+   "fmt": "Standard",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
    "venue": "nhp",
    "title": "Heart of the Beast",
    "date": "2026-10-02",
    "time": "15:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ifc",
+   "title": "The Last First: Winter K2",
+   "date": "2026-10-02",
+   "time": "15:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9772,6 +9785,38 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-10-02",
+   "time": "15:55",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
+   "date": "2026-10-02",
+   "time": "16:00",
+   "fmt": "Standard",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
    "venue": "angelika",
    "title": "MOONLIGHT (10TH ANNIVERSARY REMASTERED)",
    "date": "2026-10-02",
@@ -9829,6 +9874,25 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-10-02",
+   "time": "16:15",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "cv",
    "title": "THE INVITE",
    "date": "2026-10-02",
@@ -9849,10 +9913,37 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-02",
+   "time": "16:20",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-10-02",
    "time": "16:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-10-02",
+   "time": "16:30",
+   "url": "https://www.bam.org/film/2026/primetime",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9865,6 +9956,37 @@
    "url": "https://www.roxycinemanewyork.com/screenings/the-misconceived-35mm-four-by-james-n-kienitz-wilkins/",
    "note": "Four by James N. Kienitz Wilkins",
    "fmt": "35MM",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-02",
+   "time": "16:40",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-10-02",
+   "time": "16:40",
+   "url": "https://www.bam.org/film/2026/resident-evil",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9903,9 +10025,32 @@
   },
   {
    "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-10-02",
+   "time": "16:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
    "title": "In Spite of Ourselves",
    "date": "2026-10-02",
    "time": "17:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-02",
+   "time": "17:10",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9947,6 +10092,27 @@
    "tmdbId": 1006732
   },
   {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
+   "date": "2026-10-02",
+   "time": "18:00",
+   "fmt": "Standard",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
    "venue": "mg",
    "title": "O Brother, Where Art Thou?",
    "date": "2026-10-02",
@@ -9971,6 +10137,15 @@
   {
    "venue": "nhp",
    "title": "Forgotten Island",
+   "date": "2026-10-02",
+   "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
    "date": "2026-10-02",
    "time": "18:00",
    "genres": [],
@@ -10088,6 +10263,25 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-10-02",
+   "time": "18:45",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "nhp",
    "title": "Coyote vs. Acme",
    "date": "2026-10-02",
@@ -10144,6 +10338,55 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "angelika",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
+   "date": "2026-10-02",
+   "time": "18:50",
+   "fmt": "Standard",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-02",
+   "time": "18:50",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-10-02",
+   "time": "18:55",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "afa",
    "title": "COMBAT BREATHING: THE TIME BENEATH THE CONCRETE",
    "date": "2026-10-02",
@@ -10176,6 +10419,26 @@
    "runtime": 126,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/moonlight-10th-anniversary-remastered",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-10-02",
+   "time": "19:00",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-10-02",
+   "time": "19:00",
+   "url": "https://www.bam.org/film/2026/primetime",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10245,6 +10508,41 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-02",
+   "time": "19:15",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-02",
+   "time": "19:30",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Heart of the Beast",
    "date": "2026-10-02",
@@ -10307,6 +10605,15 @@
    "tmdbId": 1302904
   },
   {
+   "venue": "quad",
+   "title": "Digger",
+   "date": "2026-10-02",
+   "time": "20:05",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "Joy of Joys",
    "date": "2026-10-02",
@@ -10350,6 +10657,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
+   "date": "2026-10-02",
+   "time": "20:45",
+   "fmt": "Standard",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "cv",
@@ -10406,6 +10734,25 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Ha-Chan, Shake Your Booty",
+   "date": "2026-10-02",
+   "time": "21:00",
+   "url": "https://www.bam.org/film/2026/ha-chan",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
    "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-10-02",
@@ -10422,6 +10769,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-02",
+   "time": "21:10",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "ifc",
@@ -10460,6 +10824,16 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "71205"
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-10-02",
+   "time": "21:15",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
@@ -10502,6 +10876,16 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "26717"
+  },
+  {
+   "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-10-02",
+   "time": "21:30",
+   "url": "https://www.bam.org/film/2026/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
@@ -10568,6 +10952,46 @@
    "tmdbId": 1554956
   },
   {
+   "venue": "quad",
+   "title": "Deep Red",
+   "date": "2026-10-02",
+   "time": "21:35",
+   "genres": [
+    "horror",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Horror",
+    "Mystery",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "7115"
+  },
+  {
+   "venue": "angelika",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
+   "date": "2026-10-02",
+   "time": "21:40",
+   "fmt": "Standard",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
    "venue": "paris",
    "title": "A Face in the Crowd",
    "date": "2026-10-02",
@@ -10584,6 +11008,41 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "3038"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-02",
+   "time": "21:50",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
+   "venue": "angelika",
+   "title": "ATONEMENT (2026)",
+   "date": "2026-10-02",
+   "time": "21:50",
+   "fmt": "English subtitles",
+   "director": "Reed Van Dyk",
+   "runtime": 118,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/atonement-2026",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -10613,6 +11072,20 @@
    "title": "Resident Evil (2026)",
    "date": "2026-10-02",
    "time": "22:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-02",
+   "time": "22:10",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10736,6 +11209,29 @@
   },
   {
    "venue": "angelika",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
+   "date": "2026-10-03",
+   "time": "10:30",
+   "fmt": "Standard",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
+   "venue": "angelika",
    "title": "ATONEMENT (2026)",
    "date": "2026-10-03",
    "time": "10:45",
@@ -10801,6 +11297,41 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "angelika",
+   "title": "THE MUSICAL",
+   "date": "2026-10-03",
+   "time": "11:20",
+   "fmt": "Standard",
+   "director": "Giselle Bonilla",
+   "runtime": 84,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-03",
+   "time": "11:30",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
    "venue": "ifc",
    "title": "The Incomer",
    "date": "2026-10-03",
@@ -10863,6 +11394,20 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-03",
+   "time": "12:30",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "cv",
    "title": "TONY OPEN CAPTION (ON-SCREEN SUBTITLES)",
    "date": "2026-10-03",
@@ -10871,6 +11416,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
+   "date": "2026-10-03",
+   "time": "12:40",
+   "fmt": "Open Captions",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "ifc",
@@ -10887,6 +11453,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-10-03",
+   "time": "12:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -10907,6 +11482,29 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "angelika",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
+   "date": "2026-10-03",
+   "time": "13:15",
+   "fmt": "Open Captions",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
    "venue": "bam",
    "title": "Digger",
    "date": "2026-10-03",
@@ -10915,6 +11513,25 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Ha-Chan, Shake Your Booty",
+   "date": "2026-10-03",
+   "time": "13:15",
+   "url": "https://www.bam.org/film/2026/ha-chan",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
   },
   {
    "venue": "ifc",
@@ -10956,10 +11573,65 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "angelika",
+   "title": "NEVER AFTER DARK",
+   "date": "2026-10-03",
+   "time": "13:30",
+   "fmt": "Standard",
+   "director": "Dave Boyle",
+   "runtime": 105,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/never-after-dark",
+   "genres": [
+    "horror"
+   ],
+   "sourceGenres": [
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1629051
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-03",
+   "time": "13:30",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
+   "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-10-03",
+   "time": "13:30",
+   "url": "https://www.bam.org/film/2026/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-10-03",
    "time": "13:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-10-03",
+   "time": "13:50",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10983,6 +11655,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-03",
+   "time": "14:05",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "mg",
@@ -11050,6 +11743,29 @@
    "genreMovieId": "26717"
   },
   {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-03",
+   "time": "14:50",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Orion",
+   "date": "2026-10-03",
+   "time": "14:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "In Spite of Ourselves",
    "date": "2026-10-03",
@@ -11095,6 +11811,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
+   "date": "2026-10-03",
+   "time": "15:20",
+   "fmt": "Standard",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "nhp",
@@ -11167,6 +11904,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-10-03",
+   "time": "15:55",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "afa",
    "title": "COMBAT BREATHING: PERPETUAL RECURRENCES, PART 1: CINÉ-GUERRILLAS",
    "date": "2026-10-03",
@@ -11177,10 +11923,33 @@
   },
   {
    "venue": "angelika",
-   "title": "MOONLIGHT (10TH ANNIVERSARY REMASTERED)",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
    "date": "2026-10-03",
    "time": "16:00",
    "fmt": "Standard",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
+   "venue": "angelika",
+   "title": "MOONLIGHT (10TH ANNIVERSARY REMASTERED)",
+   "date": "2026-10-03",
+   "time": "16:00",
+   "fmt": "Open Captions",
    "director": "Barry Jenkins",
    "runtime": 126,
    "note": "",
@@ -11223,6 +11992,25 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-10-03",
+   "time": "16:15",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "cv",
    "title": "TONY",
    "date": "2026-10-03",
@@ -11231,6 +12019,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-03",
+   "time": "16:20",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "quad",
@@ -11247,6 +12052,37 @@
    "date": "2026-10-03",
    "time": "16:30",
    "url": "https://www.bam.org/film/2026/nyff-everytime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-03",
+   "time": "16:40",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
+   "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-10-03",
+   "time": "16:40",
+   "url": "https://www.bam.org/film/2026/primetime",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11332,9 +12168,32 @@
   },
   {
    "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-10-03",
+   "time": "16:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
    "title": "In Spite of Ourselves",
    "date": "2026-10-03",
    "time": "17:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-03",
+   "time": "17:10",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11358,8 +12217,38 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
+   "date": "2026-10-03",
+   "time": "18:00",
+   "fmt": "Standard",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
    "venue": "nhp",
    "title": "Forgotten Island",
+   "date": "2026-10-03",
+   "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
    "date": "2026-10-03",
    "time": "18:00",
    "genres": [],
@@ -11487,6 +12376,25 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-10-03",
+   "time": "18:45",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "nhp",
    "title": "Coyote vs. Acme",
    "date": "2026-10-03",
@@ -11503,6 +12411,55 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1204680
+  },
+  {
+   "venue": "angelika",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
+   "date": "2026-10-03",
+   "time": "18:50",
+   "fmt": "Standard",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-03",
+   "time": "18:50",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-10-03",
+   "time": "18:55",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -11528,6 +12485,16 @@
    "runtime": 126,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/moonlight-10th-anniversary-remastered",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-10-03",
+   "time": "19:00",
+   "url": "https://www.bam.org/film/2026/primetime",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11580,6 +12547,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-10-03",
+   "time": "19:10",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-10-03",
@@ -11603,6 +12580,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-03",
+   "time": "19:15",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "bam",
@@ -11632,6 +12630,20 @@
    "title": "FUCKTOYS",
    "date": "2026-10-03",
    "time": "19:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-03",
+   "time": "19:30",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11708,6 +12720,15 @@
    "tmdbId": 1302904
   },
   {
+   "venue": "quad",
+   "title": "Digger",
+   "date": "2026-10-03",
+   "time": "20:05",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "afa",
    "title": "COMBAT BREATHING: PERPETUAL RECURRENCES, PART 3: PERPETUAL RECURRENCES",
    "date": "2026-10-03",
@@ -11745,6 +12766,27 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
+   "date": "2026-10-03",
+   "time": "20:45",
+   "fmt": "Standard",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "cv",
@@ -11792,6 +12834,25 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Ha-Chan, Shake Your Booty",
+   "date": "2026-10-03",
+   "time": "21:00",
+   "url": "https://www.bam.org/film/2026/ha-chan",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
    "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-10-03",
@@ -11810,6 +12871,23 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-03",
+   "time": "21:10",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-10-03",
@@ -11824,6 +12902,16 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-10-03",
+   "time": "21:15",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "mg",
@@ -11881,6 +12969,16 @@
    "genreMovieId": "26717"
   },
   {
+   "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-10-03",
+   "time": "21:30",
+   "url": "https://www.bam.org/film/2026/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Practical Magic 2",
    "date": "2026-10-03",
@@ -11933,6 +13031,38 @@
    "tmdbId": 1554956
   },
   {
+   "venue": "quad",
+   "title": "Orion",
+   "date": "2026-10-03",
+   "time": "21:35",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
+   "date": "2026-10-03",
+   "time": "21:40",
+   "fmt": "Standard",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
    "venue": "angelika",
    "title": "ATONEMENT (2026)",
    "date": "2026-10-03",
@@ -11942,6 +13072,41 @@
    "runtime": 118,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/atonement-2026",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-03",
+   "time": "21:50",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-03",
+   "time": "21:50",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12143,6 +13308,29 @@
   },
   {
    "venue": "angelika",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
+   "date": "2026-10-04",
+   "time": "10:30",
+   "fmt": "Standard",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
+   "venue": "angelika",
    "title": "ATONEMENT (2026)",
    "date": "2026-10-04",
    "time": "10:45",
@@ -12243,6 +13431,41 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "angelika",
+   "title": "THE MUSICAL",
+   "date": "2026-10-04",
+   "time": "11:20",
+   "fmt": "Standard",
+   "director": "Giselle Bonilla",
+   "runtime": 84,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-04",
+   "time": "11:30",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
    "venue": "ifc",
    "title": "The Incomer",
    "date": "2026-10-04",
@@ -12279,6 +13502,41 @@
    "genreMovieId": "27627"
   },
   {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-04",
+   "time": "12:30",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
+   "date": "2026-10-04",
+   "time": "12:40",
+   "fmt": "Standard",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-10-04",
@@ -12305,9 +13563,27 @@
   },
   {
    "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-10-04",
+   "time": "12:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
    "title": "In Spite of Ourselves",
    "date": "2026-10-04",
    "time": "12:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-10-04",
+   "time": "12:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12351,6 +13627,29 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "angelika",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
+   "date": "2026-10-04",
+   "time": "13:15",
+   "fmt": "Standard",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
    "venue": "bam",
    "title": "Digger",
    "date": "2026-10-04",
@@ -12359,6 +13658,25 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Ha-Chan, Shake Your Booty",
+   "date": "2026-10-04",
+   "time": "13:15",
+   "url": "https://www.bam.org/film/2026/ha-chan",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
   },
   {
    "venue": "ifc",
@@ -12406,6 +13724,42 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "angelika",
+   "title": "NEVER AFTER DARK",
+   "date": "2026-10-04",
+   "time": "13:30",
+   "fmt": "Standard",
+   "director": "Dave Boyle",
+   "runtime": 105,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/never-after-dark",
+   "genres": [
+    "horror"
+   ],
+   "sourceGenres": [
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1629051
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-04",
+   "time": "13:30",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "cv",
    "title": "THE INVITE",
    "date": "2026-10-04",
@@ -12427,6 +13781,26 @@
   },
   {
    "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-10-04",
+   "time": "13:45",
+   "url": "https://www.bam.org/film/2026/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-10-04",
+   "time": "13:50",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
    "title": "Bardi",
    "date": "2026-10-04",
    "time": "14:00",
@@ -12434,6 +13808,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-04",
+   "time": "14:05",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "ifc",
@@ -12468,6 +13863,29 @@
    "genreMovieId": "26717"
   },
   {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-04",
+   "time": "14:50",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-10-04",
+   "time": "14:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "In Spite of Ourselves",
    "date": "2026-10-04",
@@ -12491,6 +13909,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "quad",
+   "title": "Orion",
+   "date": "2026-10-04",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "roxy",
@@ -12530,6 +13957,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
+   "date": "2026-10-04",
+   "time": "15:20",
+   "fmt": "Open Captions",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "quad",
@@ -12636,6 +14084,29 @@
   },
   {
    "venue": "angelika",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
+   "date": "2026-10-04",
+   "time": "16:00",
+   "fmt": "Open Captions",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
+   "venue": "angelika",
    "title": "MOONLIGHT (10TH ANNIVERSARY REMASTERED)",
    "date": "2026-10-04",
    "time": "16:00",
@@ -12704,6 +14175,83 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-10-04",
+   "time": "16:15",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-04",
+   "time": "16:20",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
+   "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-10-04",
+   "time": "16:30",
+   "url": "https://www.bam.org/film/2026/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-04",
+   "time": "16:40",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-10-04",
+   "time": "16:40",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-10-04",
@@ -12736,6 +14284,15 @@
    "tmdbId": 1554956
   },
   {
+   "venue": "quad",
+   "title": "Bad Apples",
+   "date": "2026-10-04",
+   "time": "16:55",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "Misty Green",
    "date": "2026-10-04",
@@ -12750,6 +14307,29 @@
    "title": "In Spite of Ourselves",
    "date": "2026-10-04",
    "time": "17:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-10-04",
+   "time": "17:05",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-04",
+   "time": "17:10",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12809,6 +14389,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
+   "date": "2026-10-04",
+   "time": "18:00",
+   "fmt": "Standard",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "ifc",
@@ -12962,6 +14563,25 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Chronovisor",
+   "date": "2026-10-04",
+   "time": "18:45",
+   "url": "https://www.bam.org/film/2026/chronovisor",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "mg",
    "title": "The Yellow Sea",
    "date": "2026-10-04",
@@ -13002,6 +14622,46 @@
   },
   {
    "venue": "angelika",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
+   "date": "2026-10-04",
+   "time": "18:50",
+   "fmt": "Standard",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-04",
+   "time": "18:50",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
+   "venue": "angelika",
    "title": "ATONEMENT (2026)",
    "date": "2026-10-04",
    "time": "19:00",
@@ -13029,6 +14689,26 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-10-04",
+   "time": "19:00",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-10-04",
+   "time": "19:00",
+   "url": "https://www.bam.org/film/2026/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "The Last First: Winter K2",
    "date": "2026-10-04",
@@ -13040,6 +14720,15 @@
   {
    "venue": "nhp",
    "title": "ZEISM, the Brooklyn Knight",
+   "date": "2026-10-04",
+   "time": "19:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Digger",
    "date": "2026-10-04",
    "time": "19:00",
    "genres": [],
@@ -13067,6 +14756,50 @@
    "title": "In Spite of Ourselves",
    "date": "2026-10-04",
    "time": "19:10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-04",
+   "time": "19:15",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
+   "venue": "quad",
+   "title": "The Marching Band",
+   "date": "2026-10-04",
+   "time": "19:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-04",
+   "time": "19:30",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13224,6 +14957,27 @@
    "genreMovieId": "1263"
   },
   {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
+   "date": "2026-10-04",
+   "time": "20:45",
+   "fmt": "Standard",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
    "venue": "nhp",
    "title": "Primetime",
    "date": "2026-10-04",
@@ -13242,6 +14996,25 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Ha-Chan, Shake Your Booty",
+   "date": "2026-10-04",
+   "time": "21:00",
+   "url": "https://www.bam.org/film/2026/ha-chan",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
    "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-10-04",
@@ -13249,6 +15022,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-04",
+   "time": "21:10",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "ifc",
@@ -13265,6 +15055,16 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "bam",
+   "title": "Resident Evil",
+   "date": "2026-10-04",
+   "time": "21:15",
+   "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
@@ -13307,6 +15107,16 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "26717"
+  },
+  {
+   "venue": "bam",
+   "title": "Primetime",
+   "date": "2026-10-04",
+   "time": "21:30",
+   "url": "https://www.bam.org/film/2026/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
@@ -13375,6 +15185,29 @@
   },
   {
    "venue": "angelika",
+   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
+   "date": "2026-10-04",
+   "time": "21:40",
+   "fmt": "Standard",
+   "director": "Josef Kobota Wladyka",
+   "runtime": 122,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
+   "venue": "angelika",
    "title": "ATONEMENT (2026)",
    "date": "2026-10-04",
    "time": "21:45",
@@ -13396,6 +15229,41 @@
    "year": 1987,
    "runtime": 102,
    "director": "Paul Verhoeven",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
+   "date": "2026-10-04",
+   "time": "21:50",
+   "fmt": "35mm",
+   "director": "Bassam Tariq",
+   "runtime": 111,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
+  },
+  {
+   "venue": "angelika",
+   "title": "IF I GO WILL THEY MISS ME",
+   "date": "2026-10-04",
+   "time": "21:50",
+   "fmt": "Standard",
+   "director": "Walter Thompson-Hernandez",
+   "runtime": 95,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
