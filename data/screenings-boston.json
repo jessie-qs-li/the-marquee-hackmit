@@ -2,23 +2,11 @@
  "city": "boston",
  "genreCoverage": {
   "total": 51,
-  "classified": 15,
+  "classified": 17,
   "unresolved": [
-   {
-    "key": "votingcountselectionsinfilmwednesdaysection|",
-    "title": "Voting Counts: Elections in Film (Wednesday Section)",
-    "year": null,
-    "reason": "not-found"
-   },
    {
     "key": "primetime|",
     "title": "Primetime",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "tony|",
-    "title": "Tony",
     "year": null,
     "reason": "ambiguous"
    },
@@ -29,32 +17,20 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "harvardbookstorewelcomesanthonyscaramucci|",
-    "title": "Harvard Book Store Welcomes Anthony Scaramucci",
+    "key": "digger|",
+    "title": "Digger",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "nostalghia|",
-    "title": "Nostalghia",
+    "key": "verity|",
+    "title": "Verity",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "cinefestlatinobostonamericanpachucothelegendofluisvaldez|",
-    "title": "CineFest Latino Boston: American Pachuco: The Legend of Luis Valdez",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "stepfordwives|",
-    "title": "The Stepford Wives",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "linkinparkunshatter|",
-    "title": "LINKIN PARK: UNSHATTER",
+    "key": "portersquarebookwelcomestaherehmafi|",
+    "title": "Porter Square Book Welcomes Tahereh Mafi",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -75,24 +51,6 @@
     "title": "The Weight",
     "year": null,
     "reason": "ambiguous"
-   },
-   {
-    "key": "digger|",
-    "title": "Digger",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "verity|",
-    "title": "Verity",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "portersquarebookwelcomestaherehmafi|",
-    "title": "Porter Square Book Welcomes Tahereh Mafi",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "diggerinvistavision|",
@@ -133,6 +91,12 @@
    {
     "key": "humanconditioniiroadtoeternity|",
     "title": "The Human Condition II: Road to Eternity",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "linkinparkunshatter|",
+    "title": "LINKIN PARK: UNSHATTER",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -219,20 +183,44 @@
     "title": "Lovestruck Books Presents: Practical Magic on Screen & in Print",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "votingcountselectionsinfilmwednesdaysection|",
+    "title": "Voting Counts: Elections in Film (Wednesday Section)",
+    "year": null,
+    "reason": "not-found"
+   },
+   {
+    "key": "narrativebookshoppresentsnarrativetwowaystaipeistorywithrfkuang|",
+    "title": "Narrative Bookshop Presents \"Narrative, Two Ways\": Taipei Story, With R. F. Kuang",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "seminarjennifersbody|",
+    "title": "Seminar: Jennifer’s Body",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "queenbudapest|",
+    "title": "Queen Budapest",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    }
   ],
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-01T00:37:18.574Z",
+ "fetchedAt": "2026-10-01T18:33:46.545Z",
  "week": [
-  "2026-09-30",
   "2026-10-01",
   "2026-10-02",
   "2026-10-03",
   "2026-10-04",
   "2026-10-05",
-  "2026-10-06"
+  "2026-10-06",
+  "2026-10-07"
  ],
  "venues": {
   "brattle": {
@@ -301,15 +289,15 @@
    "id": "brattle",
    "name": "Brattle Theatre",
    "ok": true,
-   "count": 18,
-   "ms": 2800
+   "count": 17,
+   "ms": 3132
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
-   "count": 161,
-   "ms": 1983
+   "count": 160,
+   "ms": 4375
   },
   {
    "id": "somerville",
@@ -323,15 +311,15 @@
    "id": "kendall",
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
-   "count": 66,
-   "ms": 1028
+   "count": 58,
+   "ms": 983
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 594
+   "ms": 375
   },
   {
    "id": "mfa",
@@ -344,439 +332,6 @@
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "coolidge",
-   "title": "Voting Counts: Elections in Film (Wednesday Section)",
-   "date": "2026-09-30",
-   "time": "10:00",
-   "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=cd4ae178-d76b-4b35-828e-cb185a033866&",
-   "filmUrl": "https://coolidge.org/events/voting-counts-elections-film-wednesday-section",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Primetime",
-   "date": "2026-09-30",
-   "time": "15:30",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Tony",
-   "date": "2026-09-30",
-   "time": "15:40",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Shaun the Sheep: The Beast of Mossy Bottom",
-   "date": "2026-09-30",
-   "time": "15:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1038000~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/shaun-sheep-beast-mossy-bottom",
-   "genres": [
-    "family",
-    "comedy",
-    "adventure",
-    "horror"
-   ],
-   "sourceGenres": [
-    "Animation",
-    "Comedy",
-    "Family",
-    "Adventure",
-    "Horror"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1477104
-  },
-  {
-   "venue": "coolidge",
-   "title": "Ha-Chan, Shake Your Booty!",
-   "date": "2026-09-30",
-   "time": "16:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037958~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/ha-chan-shake-your-booty",
-   "genres": [
-    "comedy",
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596249
-  },
-  {
-   "venue": "coolidge",
-   "title": "American Doctor",
-   "date": "2026-09-30",
-   "time": "16:10",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037980~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/american-doctor",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
-  },
-  {
-   "venue": "coolidge",
-   "title": "Coyote vs. Acme",
-   "date": "2026-09-30",
-   "time": "16:20",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1038021~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
-   "genres": [
-    "comedy",
-    "adventure",
-    "family"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Adventure",
-    "Family"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1204680
-  },
-  {
-   "venue": "kendall",
-   "title": "Heart Of The Beast",
-   "date": "2026-09-30",
-   "time": "16:20",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Primetime",
-   "date": "2026-09-30",
-   "time": "16:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037913~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Primetime",
-   "date": "2026-09-30",
-   "time": "16:30",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Resident Evil",
-   "date": "2026-09-30",
-   "time": "16:40",
-   "fmt": "",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
-   "venue": "coolidge",
-   "title": "The History of Concrete",
-   "date": "2026-09-30",
-   "time": "16:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037934~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/history-concrete",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
-   "venue": "brattle",
-   "title": "Harvard Book Store Welcomes Anthony Scaramucci",
-   "date": "2026-09-30",
-   "time": "18:00",
-   "url": "https://www.eventbrite.com/e/anthony-scaramucci-at-the-brattle-theatre-tickets-1996303674028?aff=oddtdtcreator",
-   "filmUrl": "https://brattlefilm.org/special_events/harvard-book-store-welcomes-anthony-scaramucci/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Ha-Chan, Shake Your Booty!",
-   "date": "2026-09-30",
-   "time": "18:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037963~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/ha-chan-shake-your-booty",
-   "genres": [
-    "comedy",
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596249
-  },
-  {
-   "venue": "coolidge",
-   "title": "The History of Concrete",
-   "date": "2026-09-30",
-   "time": "18:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037940~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/history-concrete",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
-   "venue": "coolidge",
-   "title": "American Doctor",
-   "date": "2026-09-30",
-   "time": "18:40",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037986~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/american-doctor",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
-  },
-  {
-   "venue": "coolidge",
-   "title": "Primetime",
-   "date": "2026-09-30",
-   "time": "18:50",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037916~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Nostalghia",
-   "date": "2026-09-30",
-   "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1028418~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/nostalghia",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "CineFest Latino Boston: American Pachuco: The Legend of Luis Valdez",
-   "date": "2026-09-30",
-   "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1034685~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/cinefest-latino-boston-american-pachuco-legend-luis-valdez",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "The Stepford Wives",
-   "date": "2026-09-30",
-   "time": "19:00",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "LINKIN PARK: UNSHATTER",
-   "date": "2026-09-30",
-   "time": "19:00",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Resident Evil",
-   "date": "2026-09-30",
-   "time": "19:05",
-   "fmt": "",
-   "genres": [
-    "action",
-    "horror",
-    "scifi",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Horror",
-    "Sci-Fi",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5219"
-  },
-  {
-   "venue": "kendall",
-   "title": "Heart Of The Beast",
-   "date": "2026-09-30",
-   "time": "19:10",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Primetime",
-   "date": "2026-09-30",
-   "time": "19:15",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "brattle",
-   "title": "Diva",
-   "date": "2026-09-30",
-   "time": "20:00",
-   "url": "https://brattlefilm.org/purchase/1687322/",
-   "filmUrl": "https://brattlefilm.org/movies/diva/",
-   "genres": [
-    "action",
-    "drama",
-    "thriller"
-   ],
-   "year": 1981,
-   "sourceGenres": [
-    "Action",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "venue"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Akira (4K Restoration)",
-   "date": "2026-09-30",
-   "time": "20:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1038029~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/akira-4k-restoration",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Tony (2026)",
-   "date": "2026-09-30",
-   "time": "21:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1038012~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Union County",
-   "date": "2026-09-30",
-   "time": "21:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037992~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/union-county",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "The Weight",
-   "date": "2026-09-30",
-   "time": "21:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037968~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/weight",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Primetime",
-   "date": "2026-09-30",
-   "time": "21:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037922~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "The History of Concrete",
-   "date": "2026-09-30",
-   "time": "21:55",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037945~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/history-concrete",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
   {
    "venue": "coolidge",
    "title": "Shaun the Sheep: The Beast of Mossy Bottom",
@@ -893,29 +448,16 @@
    "time": "15:45",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1038006~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Ha-Chan, Shake Your Booty!",
-   "date": "2026-10-01",
-   "time": "16:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037957~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/ha-chan-shake-your-booty",
    "genres": [
-    "comedy",
     "drama",
-    "romance"
+    "comedy"
    ],
    "sourceGenres": [
-    "Comedy",
     "Drama",
-    "Romance"
+    "Comedy"
    ],
    "genreSource": "tmdb",
-   "tmdbId": 1596249
+   "tmdbId": 1329016
   },
   {
    "venue": "kendall",
@@ -1192,14 +734,13 @@
     "comedy",
     "romance"
    ],
-   "year": null,
+   "year": 1977,
    "sourceGenres": [
     "Drama",
-    "Musical",
+    "Music",
     "Romance"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "26391"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1219,9 +760,16 @@
    "time": "21:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1038013~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "coolidge",
@@ -1328,9 +876,16 @@
    "time": "11:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039348~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "coolidge",
@@ -1415,9 +970,16 @@
    "time": "14:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039365~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "coolidge",
@@ -1569,9 +1131,16 @@
    "time": "16:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039286~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "kendall",
@@ -1770,9 +1339,16 @@
    "time": "19:15",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039242~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "coolidge",
@@ -1909,9 +1485,16 @@
    "time": "21:45",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039304~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "kendall",
@@ -2017,9 +1600,16 @@
    "time": "11:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039254~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "coolidge",
@@ -2156,9 +1746,16 @@
    "time": "14:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039296~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "kendall",
@@ -2330,9 +1927,16 @@
    "time": "16:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039320~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "coolidge",
@@ -2479,9 +2083,16 @@
    "time": "19:15",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039356~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "coolidge",
@@ -2587,9 +2198,16 @@
    "time": "21:45",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039273~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "kendall",
@@ -2632,17 +2250,6 @@
   },
   {
    "venue": "coolidge",
-   "title": "Rozz Williams: Romeo’s Distress",
-   "date": "2026-10-03",
-   "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1031710~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/rozz-williams-romeos-distress",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
    "title": "The ’Burbs",
    "date": "2026-10-03",
    "time": "23:59",
@@ -2656,6 +2263,17 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2072"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Rozz Williams: Romeo’s Distress",
+   "date": "2026-10-03",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1031710~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/rozz-williams-romeos-distress",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -2815,9 +2433,16 @@
    "time": "14:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039274~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "coolidge",
@@ -3036,9 +2661,16 @@
    "time": "18:15",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039331~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "coolidge",
@@ -3215,9 +2847,16 @@
    "time": "21:45",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039294~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "coolidge",
@@ -3331,9 +2970,16 @@
    "time": "16:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039253~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "brattle",
@@ -3461,9 +3107,16 @@
    "time": "21:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039369~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "coolidge",
@@ -3601,9 +3254,16 @@
    "time": "16:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039310~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "coolidge",
@@ -3755,9 +3415,16 @@
    "time": "21:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039309~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/tony-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   },
   {
    "venue": "coolidge",
@@ -3814,6 +3481,335 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "coolidge",
+   "title": "Voting Counts: Elections in Film (Wednesday Section)",
+   "date": "2026-10-07",
+   "time": "10:00",
+   "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=cd4ae178-d76b-4b35-828e-cb185a033866&",
+   "filmUrl": "https://coolidge.org/events/voting-counts-elections-film-wednesday-section",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Digger in VistaVision",
+   "date": "2026-10-07",
+   "time": "15:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037509~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/digger-vistavision",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "American Doctor",
+   "date": "2026-10-07",
+   "time": "15:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039323~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/american-doctor",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
+   "venue": "coolidge",
+   "title": "Coyote vs. Acme",
+   "date": "2026-10-07",
+   "time": "15:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039297~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
+   "venue": "coolidge",
+   "title": "Tony (2026)",
+   "date": "2026-10-07",
+   "time": "16:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039350~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/tony-2026",
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
+  },
+  {
+   "venue": "coolidge",
+   "title": "Primetime",
+   "date": "2026-10-07",
+   "time": "16:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039337~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The History of Concrete",
+   "date": "2026-10-07",
+   "time": "16:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039318~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/history-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
+   "venue": "brattle",
+   "title": "Narrative Bookshop Presents \"Narrative, Two Ways\": Taipei Story, With R. F. Kuang",
+   "date": "2026-10-07",
+   "time": "18:00",
+   "url": "https://www.eventbrite.com/e/narrative-two-ways-taipei-story-with-r-f-kuang-tickets-1990903915204",
+   "filmUrl": "https://brattlefilm.org/special_events/narrative-two-ways-taipei-story-with-r-f-kuang/",
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Seminar: Jennifer’s Body",
+   "date": "2026-10-07",
+   "time": "18:15",
+   "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=abb68edd-df31-402b-96db-df6c5b5a617b&",
+   "filmUrl": "https://coolidge.org/events/seminar-jennifers-body",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Ha-Chan, Shake Your Booty!",
+   "date": "2026-10-07",
+   "time": "18:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039301~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/ha-chan-shake-your-booty",
+   "genres": [
+    "comedy",
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596249
+  },
+  {
+   "venue": "coolidge",
+   "title": "Digger in VistaVision",
+   "date": "2026-10-07",
+   "time": "18:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037517~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/digger-vistavision",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Jennifer’s Body",
+   "date": "2026-10-07",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1030626~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/jennifers-body",
+   "genres": [
+    "comedy",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "71205"
+  },
+  {
+   "venue": "kendall",
+   "title": "Queen Budapest",
+   "date": "2026-10-07",
+   "time": "19:00",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Halloween (1978)",
+   "date": "2026-10-07",
+   "time": "19:10",
+   "fmt": "",
+   "genres": [
+    "horror"
+   ],
+   "sourceGenres": [
+    "Horror"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1982"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Primetime",
+   "date": "2026-10-07",
+   "time": "19:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039354~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The History of Concrete",
+   "date": "2026-10-07",
+   "time": "19:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039330~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/history-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
+   "venue": "coolidge",
+   "title": "American Doctor",
+   "date": "2026-10-07",
+   "time": "21:15",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039347~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/american-doctor",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596332
+  },
+  {
+   "venue": "coolidge",
+   "title": "Primetime",
+   "date": "2026-10-07",
+   "time": "21:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039247~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/primetime",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The History of Concrete",
+   "date": "2026-10-07",
+   "time": "21:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039251~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/history-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
+   "venue": "coolidge",
+   "title": "Coyote vs. Acme",
+   "date": "2026-10-07",
+   "time": "21:50",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039312~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/coyote-vs-acme",
+   "genres": [
+    "comedy",
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Adventure",
+    "Family"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1204680
+  },
+  {
+   "venue": "coolidge",
+   "title": "Digger in VistaVision",
+   "date": "2026-10-07",
+   "time": "21:55",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1037523~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/digger-vistavision",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Tony (2026)",
+   "date": "2026-10-07",
+   "time": "22:10",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1039358~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/tony-2026",
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1329016
   }
  ]
 }
