@@ -4,12 +4,17 @@
  * An unattended hourly job must never replace a good schedule with a broken
  * one: a network blip, a site redesign or a new bot wall would otherwise empty
  * the live board. This compares what was just scraped against what is already
- * committed and fails loudly if the new data looks collapsed.
+ * committed and holds back anything that looks collapsed.
+ *
+ * The verdict is per city. One city losing its venues to a bad network minute
+ * should not throw away another city's good scrape, so each file is judged on
+ * its own and only the ones that pass are published; the rest keep their last
+ * good copy. The run only fails when every city is broken.
  *
  * It also reports whether anything actually changed, ignoring the fetchedAt
  * stamp, so a quiet hour produces no commit and no deploy.
  *
- *   node scripts/check-refresh.mjs            # writes changed=… to $GITHUB_OUTPUT
+ *   node scripts/check-refresh.mjs            # writes changed=…, publish=… to $GITHUB_OUTPUT
  */
 import { readFileSync, appendFileSync, existsSync } from "node:fs";
 import { execFileSync } from "node:child_process";
@@ -27,38 +32,46 @@ const substance = d => JSON.stringify({ week:d.week, screenings:d.screenings,
   sources:(d.sources||[]).map(({id,ok,count,empty,error})=>({id,ok,count,empty,error})),
   venues:d.venues, notices:d.notices });
 
-let changed = false, failed = false;
+let changed = false;
+const publish = [], held = [];
 
 for(const path of FILES){
-  if(!existsSync(path)){ console.error(`✗ ${path} missing — the scrape did not write it`); failed = true; continue; }
+  const hold = reason => { console.error(`✗ ${path}: ${reason}`); held.push(path); };
+
+  if(!existsSync(path)){ hold("missing — the scrape did not write it"); continue; }
   const now = JSON.parse(readFileSync(path, "utf8"));
   const was = committed(path);
   const n = now.screenings?.length ?? 0, v = liveVenues(now);
 
-  if(n === 0){ console.error(`✗ ${path}: 0 screenings`); failed = true; continue; }
+  if(n === 0){ hold("0 screenings"); continue; }
 
   if(was){
     const pn = was.screenings?.length ?? 0, pv = liveVenues(was);
-    if(pn && n < pn * MIN_FRACTION){
-      console.error(`✗ ${path}: ${n} screenings, down from ${pn} — refusing to publish`);
-      failed = true; continue;
-    }
-    if(pv && v < pv * MIN_FRACTION){
-      console.error(`✗ ${path}: ${v} live venues, down from ${pv} — refusing to publish`);
-      failed = true; continue;
-    }
+    if(pn && n < pn * MIN_FRACTION){ hold(`${n} screenings, down from ${pn}`); continue; }
+    if(pv && v < pv * MIN_FRACTION){ hold(`${v} live venues, down from ${pv}`); continue; }
     if(substance(now) !== substance(was)) changed = true;
     console.log(`✓ ${path}: ${n} screenings (was ${pn}), ${v} live venues (was ${pv})`);
   } else {
     changed = true;
     console.log(`✓ ${path}: ${n} screenings, ${v} live venues (nothing committed yet)`);
   }
+  publish.push(path);
 }
 
-if(failed){
-  console.error("\nListings look broken; leaving the published schedule alone.");
+if(!publish.length){
+  console.error("\nEvery city looks broken; leaving the published schedule alone.");
   process.exit(1);
 }
+
+if(held.length){
+  /* an annotation rather than a failure: the cities that did pass still publish,
+     and the held ones keep serving their last good copy */
+  const msg = `Held back ${held.join(", ")} — keeping the last good copy. The other cities published.`;
+  console.error(`\n${msg}`);
+  if(process.env.GITHUB_ACTIONS) console.log(`::warning title=Listings held back::${msg}`);
+}
+
 console.log(changed ? "\nListings changed — will commit and deploy."
                     : "\nNo change since the last run — nothing to publish.");
-if(process.env.GITHUB_OUTPUT) appendFileSync(process.env.GITHUB_OUTPUT, `changed=${changed}\n`);
+if(process.env.GITHUB_OUTPUT) appendFileSync(process.env.GITHUB_OUTPUT,
+  `changed=${changed}\npublish=${publish.join(" ")}\n`);
