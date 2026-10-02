@@ -533,7 +533,7 @@ const DAYS = [
   {i:0,dow:"Mon",num:21},{i:1,dow:"Tue",num:22},{i:2,dow:"Wed",num:23},
   {i:3,dow:"Thu",num:24},{i:4,dow:"Fri",num:25},{i:5,dow:"Sat",num:26},{i:6,dow:"Sun",num:27}
 ];
-const TODAY = 0; // the demo's "tonight"
+let TODAY = 0;   // index of the real "today" in the week; -1 when none of it is today
 
 const VENUES = {
   ff:{n:"Film Forum",hood:"West Village",boro:"Manhattan",kind:"indie",price:1700},
@@ -906,7 +906,7 @@ function cinemaPicker(){
 }
 
 function renderDayButtons(){
-  document.getElementById("days").innerHTML = DAYS.map(d=>{
+  document.getElementById("days").innerHTML = DAYS.filter(d=>!d.past).map(d=>{
     const n=dayCount(d.i);
     return `<button class="day ${d.i===S.day?"on":""} ${n?"":"none"}" data-day="${d.i}">
       ${d.i===TODAY?`<span class="tdy">Today</span>`:""}
@@ -1288,10 +1288,21 @@ function applyLive(data){
   const week = data.week.slice(0,7);
   if(!week.length || !Array.isArray(data.screenings)) return false;
 
+  /* The scrape fixes the week, but the page is read later — a day or more
+     later whenever a refresh is missed. Anchor "today" to the reader's real
+     date in the cinemas' own timezone instead of assuming the first scraped
+     day is tonight, and mark the days that have already gone by. */
+  const eastern = new Date().toLocaleDateString("en-CA", { timeZone:"America/New_York" });
   DAYS.splice(0, DAYS.length, ...week.map((d,i)=>{
     const dt = new Date(d+"T12:00:00");
-    return { i, dow:DOW[dt.getDay()], num:dt.getDate(), date:d };
+    return { i, dow:DOW[dt.getDay()], num:dt.getDate(), date:d, past:d < eastern };
   }));
+  /* a schedule old enough that none of it is still ahead: show the week as
+     scraped rather than an empty strip, and say so on the chip */
+  const outOfDate = DAYS.every(d=>d.past);
+  if(outOfDate) DAYS.forEach(d=>{ d.past = false; });
+  TODAY = DAYS.find(d=>d.date===eastern)?.i ?? -1;
+  if(!DAYS[S.day] || DAYS[S.day].past) S.day = (DAYS.find(d=>!d.past) ?? DAYS[0]).i;
 
   Object.keys(VENUES).forEach(k=>delete VENUES[k]);
   Object.entries(data.venues).forEach(([id,v])=>{ VENUES[id]=v; });
@@ -1351,7 +1362,7 @@ function applyLive(data){
   const dead = (data.sources||[]).filter(r=>!r.ok && !r.skipped).length;
   const skip = (data.sources||[]).filter(r=>r.skipped).length;
   const chip = document.getElementById("proto");
-  if(chip) chip.textContent = "Live listings";
+  if(chip) chip.textContent = outOfDate ? "Listings out of date" : "Live listings";
   SOURCE.note = `${skip} venue${skip===1?"":"s"} without an adapter${dead?`, ${dead} failing`:""}`;
   return true;
 }
