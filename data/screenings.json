@@ -1,8 +1,8 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 206,
-  "classified": 71,
+  "total": 201,
+  "classified": 68,
   "unresolved": [
    {
     "key": "fleshimpact|",
@@ -23,28 +23,10 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "franz|",
-    "title": "Franz",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "fisherman|",
-    "title": "The Fisherman",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "youhadtobethere|",
     "title": "YOU HAD TO BE THERE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "badapples|",
-    "title": "Bad Apples",
-    "year": null,
-    "reason": "ambiguous"
    },
    {
     "key": "filipinana|",
@@ -53,38 +35,8 @@
     "reason": "ambiguous"
    },
    {
-    "key": "digger|",
-    "title": "Digger",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "checkout|",
-    "title": "Checkout",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "marchingband|",
-    "title": "The Marching Band",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "musical|",
-    "title": "THE MUSICAL",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "primetime|",
     "title": "Primetime",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
     "year": null,
     "reason": "ambiguous"
    },
@@ -105,6 +57,12 @@
     "title": "2026 Sundance Film Festival Short Film Tour",
     "year": null,
     "reason": "not-found"
+   },
+   {
+    "key": "digger|",
+    "title": "Digger",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "redacted|",
@@ -143,12 +101,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "moonlight10thanniversaryremastered|",
-    "title": "MOONLIGHT (10TH ANNIVERSARY REMASTERED)",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "combatbreathinginsurgentpoiesis|",
     "title": "COMBAT BREATHING: INSURGENT POIESIS",
     "year": null,
@@ -167,14 +119,20 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "atonement|",
-    "title": "ATONEMENT (2026)",
+    "key": "mingofharlemtwentyonestoriesintheair|",
+    "title": "MING OF HARLEM: TWENTY ONE STORIES IN THE AIR",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "mingofharlemtwentyonestoriesintheair|",
-    "title": "MING OF HARLEM: TWENTY ONE STORIES IN THE AIR",
+    "key": "badapples|",
+    "title": "Bad Apples",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "marchingband|",
+    "title": "The Marching Band",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -185,16 +143,22 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "ghostintheshell30thanniversaryremaster|1995",
-    "title": "Ghost in the Shell: 30th Anniversary Remaster",
-    "year": 1995,
-    "reason": "not-found"
+    "key": "checkout|",
+    "title": "Checkout",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "falloffreedomunderpressurehowtodocumentunprecedentedtimes|",
     "title": "Fall of Freedom — Under Pressure: How to Document “Unprecedented Times”",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "dejavu|",
@@ -227,10 +191,22 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "atonement|",
+    "title": "ATONEMENT (2026)",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "freeleonardpeltier|",
     "title": "Free Leonard Peltier",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "musical|",
+    "title": "THE MUSICAL",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "generation|",
@@ -278,6 +254,12 @@
     "key": "robocopthedirectorscut|1987",
     "title": "RoboCop - The Director's Cut",
     "year": 1987,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "moonlight10thanniversaryremastered|",
+    "title": "MOONLIGHT (10TH ANNIVERSARY REMASTERED)",
+    "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -813,12 +795,18 @@
     "title": "The Sun Never Sets",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "ghostintheshell30thanniversaryremaster|1995",
+    "title": "Ghost in the Shell: 30th Anniversary Remaster",
+    "year": 1995,
+    "reason": "not-found"
    }
   ],
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-01T18:33:37.449Z",
+ "fetchedAt": "2026-10-02T00:53:06.965Z",
  "week": [
   "2026-10-01",
   "2026-10-02",
@@ -1036,63 +1024,63 @@
    "name": "Film Forum",
    "ok": true,
    "count": 137,
-   "ms": 3768
+   "ms": 921
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
-   "count": 59,
-   "ms": 142
+   "count": 55,
+   "ms": 84
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
-   "count": 192,
-   "ms": 73
+   "count": 195,
+   "ms": 81
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 26,
-   "ms": 250
+   "ms": 251
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 117,
-   "ms": 315
+   "count": 105,
+   "ms": 204
   },
   {
    "id": "cv",
    "name": "Cinema Village",
    "ok": true,
    "count": 49,
-   "ms": 2706
+   "ms": 2040
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 18,
-   "ms": 210
+   "ms": 144
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 186,
-   "ms": 6066
+   "count": 177,
+   "ms": 5926
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 27,
-   "ms": 2511
+   "count": 25,
+   "ms": 2697
   },
   {
    "id": "wrt",
@@ -1115,21 +1103,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 136,
-   "ms": 142
+   "ms": 143
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 56,
-   "ms": 4406
+   "count": 49,
+   "ms": 4680
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 112,
-   "ms": 6918
+   "count": 98,
+   "ms": 6278
   },
   {
    "id": "spec",
@@ -1144,7 +1132,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 15,
-   "ms": 1410
+   "ms": 1021
   },
   {
    "id": "momi",
@@ -1159,7 +1147,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 5,
-   "ms": 44975
+   "ms": 75
   },
   {
    "id": "kew",
@@ -1174,7 +1162,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 4,
-   "ms": 2847
+   "ms": 4151
   }
  ],
  "notices": {},
@@ -1255,38 +1243,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "quad",
-   "title": "Franz",
-   "date": "2026-10-01",
-   "time": "11:55",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "The Fisherman",
-   "date": "2026-10-01",
-   "time": "12:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "American Doctor",
-   "date": "2026-10-01",
-   "time": "12:05",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596332
-  },
-  {
    "venue": "ff",
    "title": "THE SCOUT",
    "date": "2026-10-01",
@@ -1327,15 +1283,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
-  },
-  {
-   "venue": "quad",
-   "title": "Bad Apples",
-   "date": "2026-10-01",
-   "time": "12:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -1414,15 +1361,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "quad",
-   "title": "Digger",
-   "date": "2026-10-01",
-   "time": "14:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "UNZIPPED",
    "date": "2026-10-01",
@@ -1455,15 +1393,6 @@
    "genreMovieId": "528"
   },
   {
-   "venue": "quad",
-   "title": "Checkout",
-   "date": "2026-10-01",
-   "time": "14:25",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "YOU HAD TO BE THERE",
    "date": "2026-10-01",
@@ -1474,56 +1403,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "The Marching Band",
-   "date": "2026-10-01",
-   "time": "14:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-10-01",
-   "time": "14:35",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Bad Apples",
-   "date": "2026-10-01",
-   "time": "14:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Primetime",
    "date": "2026-10-01",
    "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-10-01",
-   "time": "15:00",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1582,29 +1465,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
-   "date": "2026-10-01",
-   "time": "15:25",
-   "fmt": "Standard",
-   "director": "Josef Kobota Wladyka",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
-   "genres": [
-    "comedy",
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596249
-  },
-  {
    "venue": "ifc",
    "title": "2026 Sundance Film Festival Short Film Tour",
    "date": "2026-10-01",
@@ -1614,25 +1474,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "NEVER AFTER DARK",
-   "date": "2026-10-01",
-   "time": "15:30",
-   "fmt": "English subtitles",
-   "director": "Dave Boyle",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/never-after-dark",
-   "genres": [
-    "horror"
-   ],
-   "sourceGenres": [
-    "Horror"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1629051
-  },
-  {
    "venue": "nhp",
    "title": "Digger",
    "date": "2026-10-01",
@@ -1640,26 +1481,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "paris",
-   "title": "Imitation of Life",
-   "date": "2026-10-01",
-   "time": "15:30",
-   "runtime": 125,
-   "fmt": "",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3050/seats",
-   "genres": [
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6031"
   },
   {
    "venue": "ifc",
@@ -1729,24 +1550,6 @@
    "genreMovieId": "206"
   },
   {
-   "venue": "mg",
-   "title": "Yi Yi",
-   "date": "2026-10-01",
-   "time": "16:00",
-   "fmt": "DCP",
-   "year": 2000,
-   "runtime": 173,
-   "director": "Edward Yang",
-   "genres": [
-    "drama"
-   ],
-   "sourceGenres": [
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "4334"
-  },
-  {
    "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-10-01",
@@ -1792,27 +1595,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596249
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-01",
-   "time": "16:20",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "bam",
@@ -1884,15 +1666,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Digger",
-   "date": "2026-10-01",
-   "time": "16:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "roxy",
    "title": "Idlewild - 35MM",
    "date": "2026-10-01",
@@ -1930,63 +1703,11 @@
    "tmdbId": 1554956
   },
   {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-10-01",
-   "time": "16:40",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "The Marching Band",
-   "date": "2026-10-01",
-   "time": "16:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "YOU HAD TO BE THERE",
    "date": "2026-10-01",
    "time": "16:45",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "mg",
-   "title": "Evita",
-   "date": "2026-10-01",
-   "time": "16:45",
-   "fmt": "35mm",
-   "year": 1996,
-   "runtime": 135,
-   "director": "Alan Parker",
-   "genres": [
-    "drama",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Musical"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1416"
-  },
-  {
-   "venue": "quad",
-   "title": "The Fisherman",
-   "date": "2026-10-01",
-   "time": "16:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2002,34 +1723,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Bad Apples",
-   "date": "2026-10-01",
-   "time": "16:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "cv",
    "title": "TONY",
    "date": "2026-10-01",
    "time": "17:15",
    "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-10-01",
-   "time": "17:20",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2119,39 +1817,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 91735
-  },
-  {
-   "venue": "angelika",
-   "title": "MOONLIGHT (10TH ANNIVERSARY REMASTERED)",
-   "date": "2026-10-01",
-   "time": "18:00",
-   "fmt": "Standard",
-   "director": "Barry Jenkins",
-   "runtime": 126,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/moonlight-10th-anniversary-remastered",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "NEVER AFTER DARK",
-   "date": "2026-10-01",
-   "time": "18:15",
-   "fmt": "English subtitles",
-   "director": "Dave Boyle",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/never-after-dark",
-   "genres": [
-    "horror"
-   ],
-   "sourceGenres": [
-    "Horror"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1629051
   },
   {
    "venue": "nhp",
@@ -2306,26 +1971,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "paris",
-   "title": "Splendor in the Grass",
-   "date": "2026-10-01",
-   "time": "18:45",
-   "runtime": 124,
-   "fmt": "",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3051/seats",
-   "genres": [
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "3330"
-  },
-  {
    "venue": "bam",
    "title": "Resident Evil",
    "date": "2026-10-01",
@@ -2362,50 +2007,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-01",
-   "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-01",
-   "time": "19:00",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
-   "venue": "angelika",
-   "title": "ATONEMENT (2026)",
-   "date": "2026-10-01",
-   "time": "19:00",
-   "fmt": "Q&A to follow the screening",
-   "director": "Reed Van Dyk",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/atonement-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Primetime",
    "date": "2026-10-01",
@@ -2431,15 +2032,6 @@
    "date": "2026-10-01",
    "time": "19:00",
    "url": "https://www.maysles.org/calendar/ming-of-harlem-twenty-one-stories-in-the-air",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-01",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2518,26 +2110,6 @@
    "tmdbId": 1554956
   },
   {
-   "venue": "mg",
-   "title": "Black Orpheus",
-   "date": "2026-10-01",
-   "time": "19:25",
-   "fmt": "35mm",
-   "year": 1959,
-   "runtime": 107,
-   "director": "Marcel Camus",
-   "genres": [
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "7088"
-  },
-  {
    "venue": "cv",
    "title": "TONY",
    "date": "2026-10-01",
@@ -2561,19 +2133,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
-  },
-  {
-   "venue": "mg",
-   "title": "Ghost in the Shell: 30th Anniversary Remaster",
-   "date": "2026-10-01",
-   "time": "19:30",
-   "fmt": "4K DCP",
-   "year": 1995,
-   "runtime": 83,
-   "director": "Mamoru Oshii",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "udocs",
@@ -2903,15 +2462,6 @@
    "date": "2026-10-01",
    "time": "21:30",
    "url": "https://www.bam.org/film/2026/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Heart of the Beast",
-   "date": "2026-10-01",
-   "time": "21:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4590,15 +4140,6 @@
    "genreMovieId": "7238"
   },
   {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-02",
-   "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "The Marching Band",
    "date": "2026-10-02",
@@ -4679,15 +4220,6 @@
    "date": "2026-10-02",
    "time": "19:00",
    "url": "https://www.maysles.org/calendar/365-days-of-marching-the-amadou-diallo-story",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-02",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5148,15 +4680,6 @@
    "date": "2026-10-02",
    "time": "21:30",
    "url": "https://www.bam.org/film/2026/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Heart of the Beast",
-   "date": "2026-10-02",
-   "time": "21:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6204,6 +5727,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ifc",
+   "title": "The Last First: Winter K2 (Open Captioning)",
+   "date": "2026-10-03",
+   "time": "15:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ff",
    "title": "FILIPIÑANA",
    "date": "2026-10-03",
@@ -6917,15 +6449,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-03",
-   "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "The Marching Band",
    "date": "2026-10-03",
@@ -7010,15 +6533,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 26356
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-03",
-   "time": "19:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -7507,15 +7021,6 @@
    "date": "2026-10-03",
    "time": "21:30",
    "url": "https://www.bam.org/film/2026/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Heart of the Beast",
-   "date": "2026-10-03",
-   "time": "21:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8650,6 +8155,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ifc",
+   "title": "The Last First: Winter K2 (Open Captioning)",
+   "date": "2026-10-04",
+   "time": "15:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "cv",
    "title": "THE INVITE OPEN CAPTION (ON-SCREEN SUBTITLES)",
    "date": "2026-10-04",
@@ -9389,15 +8903,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-04",
-   "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "ATONEMENT (2026)",
    "date": "2026-10-04",
@@ -9475,15 +8980,6 @@
    "date": "2026-10-04",
    "time": "19:00",
    "url": "https://www.maysles.org/calendar/tv-transvestite",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-04",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9910,15 +9406,6 @@
    "date": "2026-10-04",
    "time": "21:30",
    "url": "https://www.bam.org/film/2026/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Heart of the Beast",
-   "date": "2026-10-04",
-   "time": "21:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10724,6 +10211,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ifc",
+   "title": "The Last First: Winter K2 (Open Captioning)",
+   "date": "2026-10-05",
+   "time": "15:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "The History of Concrete",
    "date": "2026-10-05",
@@ -11385,15 +10881,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-05",
-   "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "afa",
    "title": "AFA MEMBERS ONLY: TWILIGHT ZONE ON 16MM",
    "date": "2026-10-05",
@@ -11453,15 +10940,6 @@
   {
    "venue": "ifc",
    "title": "The Last First: Winter K2",
-   "date": "2026-10-05",
-   "time": "19:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
    "date": "2026-10-05",
    "time": "19:00",
    "genres": [],
@@ -11785,8 +11263,8 @@
    "title": "Casino Royale (w/Intro)",
    "date": "2026-10-05",
    "time": "20:45",
-   "url": "https://ticketing.useast.veezi.com/purchase/6620?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
+   "url": "",
+   "note": "Sold out",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11918,15 +11396,6 @@
    "date": "2026-10-05",
    "time": "21:30",
    "url": "https://www.bam.org/film/2026/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Heart of the Beast",
-   "date": "2026-10-05",
-   "time": "21:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12477,6 +11946,20 @@
    "tmdbId": 1596249
   },
   {
+   "venue": "angelika",
+   "title": "ATONEMENT (2026)",
+   "date": "2026-10-06",
+   "time": "13:20",
+   "fmt": "English subtitles",
+   "director": "Reed Van Dyk",
+   "runtime": 118,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/atonement-2026",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-10-06",
@@ -12491,20 +11974,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "angelika",
-   "title": "ATONEMENT (2026)",
-   "date": "2026-10-06",
-   "time": "13:30",
-   "fmt": "English subtitles",
-   "director": "Reed Van Dyk",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/atonement-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -12975,7 +12444,7 @@
    "venue": "angelika",
    "title": "ATONEMENT (2026)",
    "date": "2026-10-06",
-   "time": "16:15",
+   "time": "16:05",
    "fmt": "English subtitles",
    "director": "Reed Van Dyk",
    "runtime": 118,
@@ -13468,15 +12937,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-06",
-   "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "MOONLIGHT (10TH ANNIVERSARY REMASTERED)",
    "date": "2026-10-06",
@@ -13550,15 +13010,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "47"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-06",
-   "time": "19:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "roxy",
@@ -13811,6 +13262,20 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "angelika",
+   "title": "ATONEMENT (2026)",
+   "date": "2026-10-06",
+   "time": "20:40",
+   "fmt": "English subtitles",
+   "director": "Reed Van Dyk",
+   "runtime": 118,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/atonement-2026",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-10-06",
@@ -13980,15 +13445,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Heart of the Beast",
-   "date": "2026-10-06",
-   "time": "21:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhw",
    "title": "Primetime",
    "date": "2026-10-06",
@@ -14150,6 +13606,25 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "NEVER AFTER DARK",
+   "date": "2026-10-06",
+   "time": "22:00",
+   "fmt": "Standard",
+   "director": "Dave Boyle",
+   "runtime": 105,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/never-after-dark",
+   "genres": [
+    "horror"
+   ],
+   "sourceGenres": [
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1629051
   },
   {
    "venue": "nhp",
@@ -15459,15 +14934,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-07",
-   "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "ATONEMENT (2026)",
    "date": "2026-10-07",
@@ -15511,15 +14977,6 @@
    "date": "2026-10-07",
    "time": "19:00",
    "url": "https://www.bam.org/film/2026/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-07",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -15908,15 +15365,6 @@
   {
    "venue": "ifc",
    "title": "Whore",
-   "date": "2026-10-07",
-   "time": "21:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Heart of the Beast",
    "date": "2026-10-07",
    "time": "21:30",
    "genres": [],

@@ -212,7 +212,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-01T18:33:46.545Z",
+ "fetchedAt": "2026-10-02T00:53:15.217Z",
  "week": [
   "2026-10-01",
   "2026-10-02",
@@ -290,14 +290,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 17,
-   "ms": 3132
+   "ms": 2650
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 160,
-   "ms": 4375
+   "ms": 4207
   },
   {
    "id": "somerville",
@@ -311,15 +311,15 @@
    "id": "kendall",
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
-   "count": 58,
-   "ms": 983
+   "count": 66,
+   "ms": 689
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 375
+   "ms": 430
   },
   {
    "id": "mfa",
@@ -1729,6 +1729,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Heart Of The Beast",
+   "date": "2026-10-03",
+   "time": "13:40",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Primetime",
    "date": "2026-10-03",
@@ -1738,6 +1748,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-10-03",
+   "time": "13:50",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "coolidge",
@@ -1890,6 +1921,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Heart Of The Beast",
+   "date": "2026-10-03",
+   "time": "16:10",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Primetime",
    "date": "2026-10-03",
@@ -1937,6 +1978,27 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1329016
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-10-03",
+   "time": "16:30",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "coolidge",
@@ -2026,6 +2088,16 @@
   },
   {
    "venue": "kendall",
+   "title": "Heart Of The Beast",
+   "date": "2026-10-03",
+   "time": "18:45",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
    "title": "Digger",
    "date": "2026-10-03",
    "time": "18:50",
@@ -2075,6 +2147,27 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-10-03",
+   "time": "19:10",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "coolidge",
@@ -2147,6 +2240,37 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596332
+  },
+  {
+   "venue": "kendall",
+   "title": "Heart Of The Beast",
+   "date": "2026-10-03",
+   "time": "21:15",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Resident Evil",
+   "date": "2026-10-03",
+   "time": "21:25",
+   "fmt": "",
+   "genres": [
+    "action",
+    "horror",
+    "scifi",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Horror",
+    "Sci-Fi",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5219"
   },
   {
    "venue": "coolidge",
@@ -2250,6 +2374,17 @@
   },
   {
    "venue": "coolidge",
+   "title": "Rozz Williams: Romeo’s Distress",
+   "date": "2026-10-03",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1031710~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/rozz-williams-romeos-distress",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
    "title": "The ’Burbs",
    "date": "2026-10-03",
    "time": "23:59",
@@ -2263,17 +2398,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2072"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Rozz Williams: Romeo’s Distress",
-   "date": "2026-10-03",
-   "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1031710~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/rozz-williams-romeos-distress",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
