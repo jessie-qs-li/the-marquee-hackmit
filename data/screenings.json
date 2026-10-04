@@ -1,15 +1,9 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 196,
-  "classified": 65,
+  "total": 192,
+  "classified": 63,
   "unresolved": [
-   {
-    "key": "atonement|",
-    "title": "ATONEMENT (2026)",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
    {
     "key": "naza|",
     "title": "Naza",
@@ -35,34 +29,16 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "smallchange|1976",
-    "title": "Small Change",
-    "year": 1976,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "fleshimpact|",
     "title": "Flesh Impact",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "musical|",
-    "title": "THE MUSICAL",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "sundaysonfiresecrethongkong35mmfeature|",
     "title": "Sundays on Fire: Secret Hong Kong 35mm Feature",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
    },
    {
     "key": "generation|",
@@ -101,12 +77,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "amour|2012",
-    "title": "Amour",
-    "year": 2012,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "invite|",
     "title": "THE INVITE",
     "year": null,
@@ -135,6 +105,12 @@
     "title": "KANAŁ",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "orion|",
@@ -199,6 +175,12 @@
    {
     "key": "combatbreathingpostscriptsofmodernitypart1|",
     "title": "COMBAT BREATHING: POSTSCRIPTS OF MODERNITY, PART 1",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "atonement|",
+    "title": "ATONEMENT (2026)",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -297,6 +279,12 @@
     "title": "RoboCop - The Director's Cut",
     "year": 1987,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "musical|",
+    "title": "THE MUSICAL",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "lotna|",
@@ -449,8 +437,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "cinematehranpresentschickenwithplums|",
-    "title": "Cinema Tehran Presents: Chicken with Plums",
+    "key": "cinematehranpresentsmarjanesatrapischickenwithplums|",
+    "title": "Cinema Tehran presents: Marjane Satrapi’s Chicken with Plums",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -794,7 +782,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-04T12:40:04.602Z",
+ "fetchedAt": "2026-10-04T18:40:31.318Z",
  "week": [
   "2026-10-04",
   "2026-10-05",
@@ -1012,63 +1000,63 @@
    "name": "Film Forum",
    "ok": true,
    "count": 97,
-   "ms": 1582
+   "ms": 1188
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
-   "count": 61,
-   "ms": 392
+   "count": 57,
+   "ms": 95
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 145,
-   "ms": 478
+   "ms": 180
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 23,
-   "ms": 511
+   "ms": 505
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 82,
-   "ms": 535
+   "ms": 338
   },
   {
    "id": "cv",
    "name": "Cinema Village",
    "ok": true,
    "count": 48,
-   "ms": 2631
+   "ms": 2682
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 19,
-   "ms": 418
+   "ms": 306
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 167,
-   "ms": 5856
+   "count": 157,
+   "ms": 5050
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 21,
-   "ms": 2462
+   "count": 20,
+   "ms": 2618
   },
   {
    "id": "wrt",
@@ -1091,21 +1079,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 102,
-   "ms": 176
+   "ms": 259
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 84,
-   "ms": 3937
+   "ms": 5742
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 161,
-   "ms": 35356
+   "ms": 6418
   },
   {
    "id": "spec",
@@ -1120,7 +1108,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 11,
-   "ms": 1892
+   "ms": 950
   },
   {
    "id": "momi",
@@ -1135,7 +1123,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 3,
-   "ms": 756
+   "ms": 278
   },
   {
    "id": "kew",
@@ -1150,48 +1138,11 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 2,
-   "ms": 1149
+   "ms": 4409
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
-   "date": "2026-10-04",
-   "time": "10:30",
-   "fmt": "Standard",
-   "director": "Josef Kobota Wladyka",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
-   "genres": [
-    "comedy",
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596249
-  },
-  {
-   "venue": "angelika",
-   "title": "ATONEMENT (2026)",
-   "date": "2026-10-04",
-   "time": "10:45",
-   "fmt": "English subtitles",
-   "director": "Reed Van Dyk",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/atonement-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "ifc",
    "title": "Naza",
@@ -1241,41 +1192,6 @@
    "title": "Free Leonard Peltier",
    "date": "2026-10-04",
    "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "mg",
-   "title": "The Double",
-   "date": "2026-10-04",
-   "time": "11:00",
-   "fmt": "DCP",
-   "year": 2013,
-   "runtime": 93,
-   "director": "Richard Ayoade",
-   "genres": [
-    "comedy",
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "105835"
-  },
-  {
-   "venue": "mg",
-   "title": "Small Change",
-   "date": "2026-10-04",
-   "time": "11:00",
-   "fmt": "35mm",
-   "year": 1976,
-   "runtime": 104,
-   "director": "François Truffaut",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1343,41 +1259,6 @@
    "genreMovieId": "784"
   },
   {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-10-04",
-   "time": "11:20",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-04",
-   "time": "11:30",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
    "venue": "ifc",
    "title": "The Incomer",
    "date": "2026-10-04",
@@ -1403,26 +1284,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "paris",
-   "title": "Oasis",
-   "date": "2026-10-04",
-   "time": "12:00",
-   "runtime": 133,
-   "fmt": "",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3044/seats",
-   "genres": [
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "27627"
-  },
-  {
    "venue": "ff",
    "title": "THE SCOUT",
    "date": "2026-10-04",
@@ -1440,20 +1301,6 @@
    "genreMovieId": "528"
   },
   {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-10-04",
-   "time": "12:30",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "UNZIPPED",
    "date": "2026-10-04",
@@ -1467,27 +1314,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
-   "date": "2026-10-04",
-   "time": "12:40",
-   "fmt": "Standard",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "ff",
@@ -1571,19 +1397,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "mg",
-   "title": "Amour",
-   "date": "2026-10-04",
-   "time": "13:00",
-   "fmt": "4K DCP",
-   "year": 2012,
-   "runtime": 127,
-   "director": "Michael Haneke",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "The History of Concrete",
    "date": "2026-10-04",
@@ -1614,29 +1427,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "angelika",
-   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
-   "date": "2026-10-04",
-   "time": "13:15",
-   "fmt": "Standard",
-   "director": "Josef Kobota Wladyka",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
-   "genres": [
-    "comedy",
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596249
   },
   {
    "venue": "bam",
@@ -1677,28 +1467,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "mg",
-   "title": "High and Low",
-   "date": "2026-10-04",
-   "time": "13:15",
-   "fmt": "35mm",
-   "year": 1963,
-   "runtime": 143,
-   "director": "Akira Kurosawa",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama",
-    "Film-Noir",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "7926"
-  },
-  {
    "venue": "nhw",
    "title": "Digger",
    "date": "2026-10-04",
@@ -1706,39 +1474,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "ATONEMENT (2026)",
-   "date": "2026-10-04",
-   "time": "13:30",
-   "fmt": "English subtitles",
-   "director": "Reed Van Dyk",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/atonement-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "NEVER AFTER DARK",
-   "date": "2026-10-04",
-   "time": "13:30",
-   "fmt": "Standard",
-   "director": "Dave Boyle",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/never-after-dark",
-   "genres": [
-    "horror"
-   ],
-   "sourceGenres": [
-    "Horror"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1629051
   },
   {
    "venue": "bam",
@@ -1817,27 +1552,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-04",
-   "time": "14:05",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "ff",
@@ -3217,8 +2931,8 @@
    "title": "Memories of Murder",
    "date": "2026-10-04",
    "time": "20:25",
-   "url": "https://ticketing.useast.veezi.com/purchase/6619?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
+   "url": "",
+   "note": "Sold out",
    "genres": [
     "thriller",
     "drama"
@@ -8098,7 +7812,7 @@
   },
   {
    "venue": "roxy",
-   "title": "Cinema Tehran Presents: Chicken with Plums",
+   "title": "Cinema Tehran presents: Marjane Satrapi’s Chicken with Plums",
    "date": "2026-10-06",
    "time": "21:30",
    "url": "https://www.roxycinemanewyork.com/screenings/cinema-tehran-presents-chicken-with-plums/",

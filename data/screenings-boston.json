@@ -224,7 +224,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-04T12:40:11.988Z",
+ "fetchedAt": "2026-10-04T18:40:40.021Z",
  "week": [
   "2026-10-04",
   "2026-10-05",
@@ -302,14 +302,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 15,
-   "ms": 2306
+   "ms": 2685
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 115,
-   "ms": 3444
+   "ms": 4230
   },
   {
    "id": "somerville",
@@ -324,14 +324,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 32,
-   "ms": 1035
+   "ms": 844
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 341
+   "ms": 697
   },
   {
    "id": "mfa",
@@ -714,14 +714,20 @@
    "url": "https://brattlefilm.org/purchase/1687604/",
    "filmUrl": "https://brattlefilm.org/movies/kwaidan/",
    "genres": [
+    "drama",
+    "scifi",
     "horror"
    ],
-   "year": null,
+   "year": 1965,
    "sourceGenres": [
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Drama",
+    "Fantasy",
     "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "7564"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1282,14 +1288,20 @@
    "url": "https://brattlefilm.org/purchase/1687607/",
    "filmUrl": "https://brattlefilm.org/movies/kwaidan/",
    "genres": [
+    "drama",
+    "scifi",
     "horror"
    ],
-   "year": null,
+   "year": 1965,
    "sourceGenres": [
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Drama",
+    "Fantasy",
     "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "7564"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
