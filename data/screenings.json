@@ -11,12 +11,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "atonement|",
-    "title": "ATONEMENT (2026)",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "naza|",
     "title": "Naza",
     "year": null,
@@ -33,12 +27,6 @@
     "title": "Flesh Impact",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "musical|",
-    "title": "THE MUSICAL",
-    "year": null,
-    "reason": "ambiguous"
    },
    {
     "key": "marchingband|",
@@ -83,16 +71,22 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "atonement|",
+    "title": "ATONEMENT (2026)",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "everythingforsale|",
     "title": "EVERYTHING FOR SALE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "primetime|",
-    "title": "Primetime",
+    "key": "residentevil|",
+    "title": "Resident Evil (2026)",
     "year": null,
-    "reason": "ambiguous"
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "inviteopencaptiononscreensubtitles|",
@@ -113,18 +107,6 @@
     "reason": "ambiguous"
    },
    {
-    "key": "residentevil|",
-    "title": "Resident Evil (2026)",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "heartofthebeast|",
-    "title": "Heart of the Beast",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "orion|",
     "title": "Orion",
     "year": null,
@@ -141,6 +123,12 @@
     "title": "Iphigenia",
     "year": 1977,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "primetime|",
+    "title": "Primetime",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "innocentsorcerers|",
@@ -175,6 +163,12 @@
    {
     "key": "deathwish|",
     "title": "DEATH WISH",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "heartofthebeast|",
+    "title": "Heart of the Beast",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -230,6 +224,12 @@
     "key": "timeandtide|2000",
     "title": "Time and Tide",
     "year": 2000,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "musical|",
+    "title": "THE MUSICAL",
+    "year": null,
     "reason": "ambiguous"
    },
    {
@@ -569,15 +569,15 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "newnegressfilmsocietypresentsblackwomensfilmconference2026|",
-    "title": "New Negress Film Society presents Black Women's Film Conference 2026",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "briefencounter|1945",
     "title": "Brief Encounter",
     "year": 1945,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "newnegressfilmsocietypresentsblackwomensfilmconference2026|",
+    "title": "New Negress Film Society presents Black Women's Film Conference 2026",
+    "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -824,7 +824,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-06T06:30:54.945Z",
+ "fetchedAt": "2026-10-06T16:01:20.628Z",
  "week": [
   "2026-10-06",
   "2026-10-07",
@@ -1042,63 +1042,65 @@
    "name": "Film Forum",
    "ok": true,
    "count": 121,
-   "ms": 1220
+   "ms": 1124
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": true,
-   "count": 62,
-   "ms": 72
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 on GET /nyc/",
+   "carried": 62,
+   "carriedFrom": "2026-10-06T06:30:54.945Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 189,
-   "ms": 115
+   "ms": 213
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 21,
-   "ms": 157
+   "ms": 278
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 121,
-   "ms": 139
+   "ms": 224
   },
   {
    "id": "cv",
    "name": "Cinema Village",
    "ok": true,
    "count": 46,
-   "ms": 1388
+   "ms": 1657
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 20,
-   "ms": 176
+   "ms": 139
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 166,
-   "ms": 5009
+   "count": 162,
+   "ms": 4836
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
    "count": 26,
-   "ms": 2751
+   "ms": 2471
   },
   {
    "id": "wrt",
@@ -1121,21 +1123,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 135,
-   "ms": 154
+   "ms": 182
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 42,
-   "ms": 4561
+   "ms": 4884
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 91,
-   "ms": 6231
+   "ms": 7884
   },
   {
    "id": "spec",
@@ -1150,7 +1152,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 12,
-   "ms": 1949
+   "ms": 2059
   },
   {
    "id": "momi",
@@ -1165,7 +1167,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 2,
-   "ms": 651
+   "ms": 1111
   },
   {
    "id": "kew",
@@ -1180,53 +1182,16 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 1,
-   "ms": 2546
+   "ms": 1295
   }
  ],
  "notices": {},
  "screenings": [
   {
-   "venue": "angelika",
-   "title": "HA-CHAN, SHAKE YOUR BOOTY!",
-   "date": "2026-10-06",
-   "time": "10:30",
-   "fmt": "Standard",
-   "director": "Josef Kobota Wladyka",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/ha-chan-shake-your-booty",
-   "genres": [
-    "comedy",
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596249
-  },
-  {
    "venue": "ifc",
    "title": "The Last First: Winter K2",
    "date": "2026-10-06",
    "time": "10:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "ATONEMENT (2026)",
-   "date": "2026-10-06",
-   "time": "10:45",
-   "fmt": "English subtitles",
-   "director": "Reed Van Dyk",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/atonement-2026",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1257,41 +1222,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE MUSICAL",
-   "date": "2026-10-06",
-   "time": "11:20",
-   "fmt": "Standard",
-   "director": "Giselle Bonilla",
-   "runtime": 84,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-musical",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-06",
-   "time": "11:30",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "quad",
@@ -1704,6 +1634,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-10-06",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-10-06",
@@ -1714,21 +1653,19 @@
   },
   {
    "venue": "nhp",
-   "title": "Primetime",
+   "title": "Your Mother Your Mother Your Mother",
    "date": "2026-10-06",
    "time": "15:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Digger",
-   "date": "2026-10-06",
-   "time": "15:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "angelika",
@@ -1810,7 +1747,7 @@
   },
   {
    "venue": "nhw",
-   "title": "Primetime",
+   "title": "Resident Evil (2026)",
    "date": "2026-10-06",
    "time": "15:45",
    "genres": [],
@@ -1819,7 +1756,7 @@
   },
   {
    "venue": "nhw",
-   "title": "Resident Evil (2026)",
+   "title": "Digger",
    "date": "2026-10-06",
    "time": "15:45",
    "genres": [],
@@ -1847,15 +1784,6 @@
    "title": "The Marching Band",
    "date": "2026-10-06",
    "time": "15:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Heart of the Beast",
-   "date": "2026-10-06",
-   "time": "15:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2383,6 +2311,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-06",
+   "time": "18:35",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "Digger",
    "date": "2026-10-06",
@@ -2481,15 +2418,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-06",
-   "time": "18:55",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -2672,6 +2600,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-10-06",
+   "time": "19:55",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "Deep Red",
    "date": "2026-10-06",
@@ -2721,15 +2658,6 @@
    "title": "The Marching Band",
    "date": "2026-10-06",
    "time": "20:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-10-06",
-   "time": "20:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2855,8 +2783,8 @@
    "tmdbId": 1596249
   },
   {
-   "venue": "nhw",
-   "title": "Digger",
+   "venue": "nhp",
+   "title": "Heart of the Beast",
    "date": "2026-10-06",
    "time": "21:00",
    "genres": [],
@@ -2922,6 +2850,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
+  },
+  {
+   "venue": "nhp",
+   "title": "Digger",
+   "date": "2026-10-06",
+   "time": "21:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhw",
@@ -3003,6 +2940,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-06",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "roxy",
@@ -3092,22 +3038,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-06",
-   "time": "21:45",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
    "date": "2026-10-06",
@@ -3186,7 +3116,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Resident Evil (2026)",
+   "title": "Primetime",
    "date": "2026-10-06",
    "time": "22:00",
    "genres": [],
@@ -3689,21 +3619,28 @@
   },
   {
    "venue": "nhp",
-   "title": "Primetime",
+   "title": "Resident Evil (2026)",
    "date": "2026-10-07",
-   "time": "15:15",
+   "time": "15:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
-   "title": "Digger",
+   "title": "Your Mother Your Mother Your Mother",
    "date": "2026-10-07",
    "time": "15:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "angelika",
@@ -3819,7 +3756,7 @@
   },
   {
    "venue": "nhw",
-   "title": "Primetime",
+   "title": "Resident Evil (2026)",
    "date": "2026-10-07",
    "time": "15:45",
    "genres": [],
@@ -3828,7 +3765,7 @@
   },
   {
    "venue": "nhw",
-   "title": "Resident Evil (2026)",
+   "title": "Digger",
    "date": "2026-10-07",
    "time": "15:45",
    "genres": [],
@@ -3850,15 +3787,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "26717"
-  },
-  {
-   "venue": "nhp",
-   "title": "Heart of the Beast",
-   "date": "2026-10-07",
-   "time": "15:55",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -4383,6 +4311,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-07",
+   "time": "18:35",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "Digger",
    "date": "2026-10-07",
@@ -4472,15 +4409,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-07",
-   "time": "18:55",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -4660,6 +4588,15 @@
    "genreMovieId": "3355"
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-10-07",
+   "time": "19:55",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "Deep Red",
    "date": "2026-10-07",
@@ -4681,15 +4618,6 @@
    "title": "The Marching Band",
    "date": "2026-10-07",
    "time": "20:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-10-07",
-   "time": "20:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4821,8 +4749,8 @@
    "genreMovieId": "7238"
   },
   {
-   "venue": "nhw",
-   "title": "Digger",
+   "venue": "nhp",
+   "title": "Heart of the Beast",
    "date": "2026-10-07",
    "time": "21:00",
    "genres": [],
@@ -4870,6 +4798,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
+  },
+  {
+   "venue": "nhp",
+   "title": "Digger",
+   "date": "2026-10-07",
+   "time": "21:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhw",
@@ -4924,6 +4861,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-07",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "paris",
@@ -5048,22 +4994,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-07",
-   "time": "21:45",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
    "date": "2026-10-07",
@@ -5130,7 +5060,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Resident Evil (2026)",
+   "title": "Primetime",
    "date": "2026-10-07",
    "time": "22:00",
    "genres": [],
@@ -5678,6 +5608,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-10-08",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "HA-CHAN, SHAKE YOUR BOOTY!",
    "date": "2026-10-08",
@@ -5711,21 +5650,19 @@
   },
   {
    "venue": "nhp",
-   "title": "Primetime",
+   "title": "Your Mother Your Mother Your Mother",
    "date": "2026-10-08",
    "time": "15:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Digger",
-   "date": "2026-10-08",
-   "time": "15:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "angelika",
@@ -5783,7 +5720,7 @@
   },
   {
    "venue": "nhw",
-   "title": "Primetime",
+   "title": "Resident Evil (2026)",
    "date": "2026-10-08",
    "time": "15:45",
    "genres": [],
@@ -5792,7 +5729,7 @@
   },
   {
    "venue": "nhw",
-   "title": "Resident Evil (2026)",
+   "title": "Digger",
    "date": "2026-10-08",
    "time": "15:45",
    "genres": [],
@@ -5830,15 +5767,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "nhp",
-   "title": "Heart of the Beast",
-   "date": "2026-10-08",
-   "time": "15:55",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -6382,6 +6310,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-08",
+   "time": "18:35",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "Digger",
    "date": "2026-10-08",
@@ -6438,15 +6375,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-08",
-   "time": "18:55",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -6655,6 +6583,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-10-08",
+   "time": "19:55",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ff",
    "title": "KORCZAK",
    "date": "2026-10-08",
@@ -6696,15 +6633,6 @@
    "date": "2026-10-08",
    "time": "20:15",
    "url": "https://www.bam.org/film/2026/nyff-dreamed-adventure",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-10-08",
-   "time": "20:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6826,8 +6754,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Digger",
+   "venue": "nhp",
+   "title": "Heart of the Beast",
    "date": "2026-10-08",
    "time": "21:00",
    "genres": [],
@@ -6875,6 +6803,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
+  },
+  {
+   "venue": "nhp",
+   "title": "Digger",
+   "date": "2026-10-08",
+   "time": "21:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhw",
@@ -6931,6 +6868,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-08",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-10-08",
@@ -6979,22 +6925,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "27592"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-08",
-   "time": "21:45",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "roxy",
@@ -7076,7 +7006,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Resident Evil (2026)",
+   "title": "Primetime",
    "date": "2026-10-08",
    "time": "22:00",
    "genres": [],
@@ -7635,21 +7565,28 @@
   },
   {
    "venue": "nhp",
-   "title": "Primetime",
+   "title": "Resident Evil (2026)",
    "date": "2026-10-09",
-   "time": "15:15",
+   "time": "15:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
-   "title": "Digger",
+   "title": "Your Mother Your Mother Your Mother",
    "date": "2026-10-09",
    "time": "15:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "ff",
@@ -7734,15 +7671,6 @@
   },
   {
    "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-09",
-   "time": "15:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-10-09",
    "time": "15:45",
@@ -7751,10 +7679,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Heart of the Beast",
+   "venue": "nhw",
+   "title": "Digger",
    "date": "2026-10-09",
-   "time": "15:55",
+   "time": "15:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8196,6 +8124,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-09",
+   "time": "18:35",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "The History of Concrete",
    "date": "2026-10-09",
@@ -8255,15 +8192,6 @@
    "title": "The Marching Band",
    "date": "2026-10-09",
    "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-09",
-   "time": "18:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8474,6 +8402,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-10-09",
+   "time": "19:55",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ff",
    "title": "UNZIPPED",
    "date": "2026-10-09",
@@ -8494,15 +8431,6 @@
    "date": "2026-10-09",
    "time": "20:10",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-10-09",
-   "time": "20:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8608,8 +8536,8 @@
    "genreMovieId": "3459"
   },
   {
-   "venue": "nhw",
-   "title": "Digger",
+   "venue": "nhp",
+   "title": "Heart of the Beast",
    "date": "2026-10-09",
    "time": "21:00",
    "genres": [],
@@ -8664,6 +8592,15 @@
    "date": "2026-10-09",
    "time": "21:15",
    "url": "https://www.bam.org/film/2026/resident-evil",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Digger",
+   "date": "2026-10-09",
+   "time": "21:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8777,6 +8714,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-09",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "Animals",
    "date": "2026-10-09",
@@ -8838,22 +8784,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-09",
-   "time": "21:45",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
    "venue": "paris",
    "title": "Animals",
    "date": "2026-10-09",
@@ -8889,7 +8819,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Resident Evil (2026)",
+   "title": "Primetime",
    "date": "2026-10-09",
    "time": "22:00",
    "genres": [],
@@ -9119,16 +9049,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "bam",
-   "title": "New Negress Film Society presents Black Women's Film Conference 2026",
-   "date": "2026-10-10",
-   "time": "12:00",
-   "url": "https://www.bam.org/film/2026/new-negress-film-society",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "mg",
    "title": "Brief Encounter",
    "date": "2026-10-10",
@@ -9137,6 +9057,16 @@
    "year": 1945,
    "runtime": 87,
    "director": "David Lean",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "New Negress Film Society presents Black Women's Film Conference 2026",
+   "date": "2026-10-10",
+   "time": "12:01",
+   "url": "https://www.bam.org/film/2026/new-negress-film-society",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9563,21 +9493,28 @@
   },
   {
    "venue": "nhp",
-   "title": "Primetime",
+   "title": "Resident Evil (2026)",
    "date": "2026-10-10",
-   "time": "15:15",
+   "time": "15:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
-   "title": "Digger",
+   "title": "Your Mother Your Mother Your Mother",
    "date": "2026-10-10",
    "time": "15:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "roxy",
@@ -9665,7 +9602,7 @@
   },
   {
    "venue": "nhw",
-   "title": "Primetime",
+   "title": "Resident Evil (2026)",
    "date": "2026-10-10",
    "time": "15:45",
    "genres": [],
@@ -9674,7 +9611,7 @@
   },
   {
    "venue": "nhw",
-   "title": "Resident Evil (2026)",
+   "title": "Digger",
    "date": "2026-10-10",
    "time": "15:45",
    "genres": [],
@@ -9686,15 +9623,6 @@
    "title": "Women in Love",
    "date": "2026-10-10",
    "time": "15:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Heart of the Beast",
-   "date": "2026-10-10",
-   "time": "15:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10163,6 +10091,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-10",
+   "time": "18:35",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "The History of Concrete",
    "date": "2026-10-10",
@@ -10222,15 +10159,6 @@
    "title": "The Marching Band",
    "date": "2026-10-10",
    "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-10",
-   "time": "18:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10385,6 +10313,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-10-10",
+   "time": "19:55",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "afa",
    "title": "VACANCES",
    "date": "2026-10-10",
@@ -10439,15 +10376,6 @@
    "url": "https://www.roxycinemanewyork.com/screenings/the-downtown-fest-the-mayflower-qa/",
    "note": "",
    "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-10-10",
-   "time": "20:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10545,8 +10473,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Digger",
+   "venue": "nhp",
+   "title": "Heart of the Beast",
    "date": "2026-10-10",
    "time": "21:00",
    "genres": [],
@@ -10606,6 +10534,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Digger",
+   "date": "2026-10-10",
+   "time": "21:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-10-10",
@@ -10659,6 +10596,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-10",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "Animals",
    "date": "2026-10-10",
@@ -10684,22 +10630,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-10",
-   "time": "21:45",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "angelika",
@@ -10765,7 +10695,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Resident Evil (2026)",
+   "title": "Primetime",
    "date": "2026-10-10",
    "time": "22:00",
    "genres": [],
@@ -11543,6 +11473,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-10-11",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "The Marching Band",
    "date": "2026-10-11",
@@ -11553,21 +11492,19 @@
   },
   {
    "venue": "nhp",
-   "title": "Primetime",
+   "title": "Your Mother Your Mother Your Mother",
    "date": "2026-10-11",
    "time": "15:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Digger",
-   "date": "2026-10-11",
-   "time": "15:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "ifc",
@@ -11657,15 +11594,6 @@
   },
   {
    "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-11",
-   "time": "15:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-10-11",
    "time": "15:45",
@@ -11674,10 +11602,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Heart of the Beast",
+   "venue": "nhw",
+   "title": "Digger",
    "date": "2026-10-11",
-   "time": "15:55",
+   "time": "15:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12156,6 +12084,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-11",
+   "time": "18:35",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "The History of Concrete",
    "date": "2026-10-11",
@@ -12197,15 +12134,6 @@
    "date": "2026-10-11",
    "time": "18:50",
    "url": "https://www.bam.org/film/2026/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-11",
-   "time": "18:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12419,6 +12347,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-10-11",
+   "time": "19:55",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "afa",
    "title": "VACANCES",
    "date": "2026-10-11",
@@ -12459,15 +12396,6 @@
    "url": "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-the-joyless-economy-qa/",
    "note": "",
    "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-10-11",
-   "time": "20:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12574,8 +12502,8 @@
    "genreMovieId": "4518"
   },
   {
-   "venue": "nhw",
-   "title": "Digger",
+   "venue": "nhp",
+   "title": "Heart of the Beast",
    "date": "2026-10-11",
    "time": "21:00",
    "genres": [],
@@ -12626,6 +12554,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Digger",
+   "date": "2026-10-11",
+   "time": "21:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-10-11",
@@ -12670,6 +12607,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-11",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "BIG GIRLS DON'T CRY",
    "date": "2026-10-11",
@@ -12704,22 +12650,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-11",
-   "time": "21:45",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "angelika",
@@ -12770,7 +12700,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Resident Evil (2026)",
+   "title": "Primetime",
    "date": "2026-10-11",
    "time": "22:00",
    "genres": [],
@@ -13262,6 +13192,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-10-12",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "The Marching Band",
    "date": "2026-10-12",
@@ -13281,21 +13220,19 @@
   },
   {
    "venue": "nhp",
-   "title": "Primetime",
+   "title": "Your Mother Your Mother Your Mother",
    "date": "2026-10-12",
    "time": "15:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Digger",
-   "date": "2026-10-12",
-   "time": "15:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Crime"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1437396
   },
   {
    "venue": "quad",
@@ -13365,15 +13302,6 @@
   },
   {
    "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-12",
-   "time": "15:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-10-12",
    "time": "15:45",
@@ -13382,10 +13310,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Heart of the Beast",
+   "venue": "nhw",
+   "title": "Digger",
    "date": "2026-10-12",
-   "time": "15:55",
+   "time": "15:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13836,6 +13764,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-12",
+   "time": "18:35",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "The History of Concrete",
    "date": "2026-10-12",
@@ -13887,15 +13824,6 @@
    "date": "2026-10-12",
    "time": "18:50",
    "url": "https://www.bam.org/film/2026/primetime",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-12",
-   "time": "18:55",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -14076,6 +14004,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Resident Evil (2026)",
+   "date": "2026-10-12",
+   "time": "19:55",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "A Nightmare on Elm Street",
    "date": "2026-10-12",
@@ -14105,15 +14042,6 @@
    "date": "2026-10-12",
    "time": "20:10",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Resident Evil (2026)",
-   "date": "2026-10-12",
-   "time": "20:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -14187,8 +14115,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Digger",
+   "venue": "nhp",
+   "title": "Heart of the Beast",
    "date": "2026-10-12",
    "time": "21:00",
    "genres": [],
@@ -14268,6 +14196,15 @@
    "genreMovieId": "47"
   },
   {
+   "venue": "nhp",
+   "title": "Digger",
+   "date": "2026-10-12",
+   "time": "21:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "Resident Evil (2026)",
    "date": "2026-10-12",
@@ -14322,6 +14259,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-12",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "BIG GIRLS DON'T CRY",
    "date": "2026-10-12",
@@ -14374,22 +14320,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-12",
-   "time": "21:45",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
    "date": "2026-10-12",
@@ -14426,7 +14356,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Resident Evil (2026)",
+   "title": "Primetime",
    "date": "2026-10-12",
    "time": "22:00",
    "genres": [],
