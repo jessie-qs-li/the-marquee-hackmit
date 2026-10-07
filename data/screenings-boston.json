@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 60,
-  "classified": 18,
+  "classified": 22,
   "unresolved": [
    {
     "key": "votingcountselectionsinfilmwednesdaysection|",
@@ -167,26 +167,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "ironboy|",
-    "title": "Iron Boy",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "minotaur|",
-    "title": "Minotaur",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "recollectionsoftheyellowhouse|",
     "title": "Recollections of the Yellow House",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "rose|",
-    "title": "Rose",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -199,12 +181,6 @@
    {
     "key": "coolidgeimpactawardhonoringcristianmungiu|",
     "title": "Coolidge Impact Award Honoring Cristian Mungiu",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "tenderlovingcare|",
-    "title": "Tender Loving Care",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -260,7 +236,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-07T06:10:16.436Z",
+ "fetchedAt": "2026-10-07T13:35:44.926Z",
  "week": [
   "2026-10-07",
   "2026-10-08",
@@ -338,14 +314,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 19,
-   "ms": 2449
+   "ms": 2418
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 179,
-   "ms": 7443
+   "ms": 2454
   },
   {
    "id": "somerville",
@@ -360,14 +336,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 91,
-   "ms": 1199
+   "ms": 917
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 4,
-   "ms": 843
+   "ms": 353
   },
   {
    "id": "mfa",
@@ -2925,10 +2901,14 @@
    "time": "12:00",
    "url": "https://iffboston.org/events/ironboy/",
    "filmUrl": "https://brattlefilm.org/movies/iron-boy/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "family"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Animation"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -3036,10 +3016,17 @@
    "time": "14:00",
    "url": "https://iffboston.org/events/minotaur/",
    "filmUrl": "https://brattlefilm.org/movies/minotaur/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "thriller",
+    "drama"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -3232,10 +3219,16 @@
    "time": "17:15",
    "url": "https://iffboston.org/events/rose/",
    "filmUrl": "https://brattlefilm.org/movies/rose/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "History",
+    "War"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -3374,10 +3367,16 @@
    "time": "19:30",
    "url": "https://iffboston.org/events/tenderlovingcare/",
    "filmUrl": "https://brattlefilm.org/movies/tender-loving-care/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
