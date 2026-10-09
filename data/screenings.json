@@ -1,21 +1,9 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 165,
-  "classified": 40,
+  "total": 164,
+  "classified": 39,
   "unresolved": [
-   {
-    "key": "musk|",
-    "title": "MUSK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "biggirlsdontcry|",
-    "title": "BIG GIRLS DON'T CRY",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
    {
     "key": "naza|",
     "title": "Naza",
@@ -33,12 +21,6 @@
     "title": "Fjord",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
    },
    {
     "key": "myundesirablefriendspartiiexilechapters13|",
@@ -95,18 +77,6 @@
     "reason": "ambiguous"
    },
    {
-    "key": "terminator|1985",
-    "title": "The Terminator",
-    "year": 1985,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "atonement|",
-    "title": "ATONEMENT (2026)",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "marchingband|",
     "title": "The Marching Band",
     "year": null,
@@ -117,6 +87,12 @@
     "title": "Bad Apples",
     "year": null,
     "reason": "ambiguous"
+   },
+   {
+    "key": "musk|",
+    "title": "MUSK",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "socialreckoning|",
@@ -155,10 +131,22 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "biggirlsdontcry|",
+    "title": "BIG GIRLS DON'T CRY",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "socrates|1970",
     "title": "Socrates",
     "year": 1970,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "hope|",
@@ -212,6 +200,12 @@
     "key": "breaddayprecededbythetrainstop|1998",
     "title": "Bread Day preceded by The Train Stop",
     "year": 1998,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "atonement|",
+    "title": "ATONEMENT (2026)",
+    "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -446,6 +440,12 @@
     "key": "downtownfestivalthejoylesseconomy|",
     "title": "The Downtown Festival: The Joyless Economy + Q&A",
     "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "terminator|1985",
+    "title": "The Terminator",
+    "year": 1985,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -758,7 +758,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-09T10:43:00.366Z",
+ "fetchedAt": "2026-10-09T18:25:16.381Z",
  "week": [
   "2026-10-09",
   "2026-10-10",
@@ -976,63 +976,63 @@
    "name": "Film Forum",
    "ok": true,
    "count": 109,
-   "ms": 999
+   "ms": 2145
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
-   "count": 49,
-   "ms": 73
+   "count": 47,
+   "ms": 360
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 187,
-   "ms": 231
+   "ms": 498
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 18,
-   "ms": 162
+   "ms": 762
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 114,
-   "ms": 147
+   "ms": 466
   },
   {
    "id": "cv",
    "name": "Cinema Village",
    "ok": true,
    "count": 46,
-   "ms": 1343
+   "ms": 2672
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 23,
-   "ms": 123
+   "ms": 460
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 174,
-   "ms": 4527
+   "count": 164,
+   "ms": 6034
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 22,
-   "ms": 2144
+   "count": 21,
+   "ms": 3383
   },
   {
    "id": "wrt",
@@ -1055,21 +1055,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 132,
-   "ms": 146
+   "ms": 587
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 70,
-   "ms": 4080
+   "ms": 5294
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 140,
-   "ms": 5498
+   "ms": 7933
   },
   {
    "id": "spec",
@@ -1084,7 +1084,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 12,
-   "ms": 1588
+   "ms": 2760
   },
   {
    "id": "momi",
@@ -1099,7 +1099,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 2,
-   "ms": 71
+   "ms": 1025
   },
   {
    "id": "kew",
@@ -1115,58 +1115,11 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 1103
+   "ms": 1827
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "MUSK",
-   "date": "2026-10-09",
-   "time": "10:20",
-   "fmt": "Standard",
-   "director": "Alex Gibney",
-   "runtime": 232,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/musk",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "BIG GIRLS DON'T CRY",
-   "date": "2026-10-09",
-   "time": "10:25",
-   "fmt": "Standard",
-   "director": "Paloma Schneideman",
-   "runtime": 100,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/big-girls-dont-cry",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE NORTH",
-   "date": "2026-10-09",
-   "time": "10:35",
-   "fmt": "Standard",
-   "director": "Bart Schrijver",
-   "runtime": 138,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-north",
-   "genres": [
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "505"
-  },
   {
    "venue": "ifc",
    "title": "Naza",
@@ -1218,59 +1171,10 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "angelika",
-   "title": "MUSK",
-   "date": "2026-10-09",
-   "time": "11:20",
-   "fmt": "Standard",
-   "director": "Alex Gibney",
-   "runtime": 232,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/musk",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-09",
-   "time": "11:30",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
    "venue": "ifc",
    "title": "Fjord",
    "date": "2026-10-09",
    "time": "11:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-10-09",
-   "time": "11:45",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1320,25 +1224,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE NORTH",
-   "date": "2026-10-09",
-   "time": "12:50",
-   "fmt": "Standard",
-   "director": "Bart Schrijver",
-   "runtime": 138,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-north",
-   "genres": [
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "505"
   },
   {
    "venue": "ff",
@@ -1419,19 +1304,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "paris",
-   "title": "Animals",
-   "date": "2026-10-09",
-   "time": "13:00",
-   "runtime": 106,
-   "fmt": "",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3078/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The Disciple",
    "date": "2026-10-09",
@@ -1472,20 +1344,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "angelika",
-   "title": "BIG GIRLS DON'T CRY",
-   "date": "2026-10-09",
-   "time": "13:40",
-   "fmt": "Standard",
-   "director": "Paloma Schneideman",
-   "runtime": 100,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/big-girls-dont-cry",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "bam",
@@ -1543,74 +1401,6 @@
    "date": "2026-10-09",
    "time": "14:00",
    "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "mg",
-   "title": "The Terminator",
-   "date": "2026-10-09",
-   "time": "14:00",
-   "fmt": "DCP",
-   "year": 1985,
-   "runtime": 107,
-   "director": "James Cameron",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "mg",
-   "title": "The Taking of Pelham One Two Three",
-   "date": "2026-10-09",
-   "time": "14:00",
-   "fmt": "35mm",
-   "year": 1974,
-   "runtime": 104,
-   "director": "Joseph Sargent",
-   "genres": [
-    "action",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Crime"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "3384"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-09",
-   "time": "14:05",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
-   "venue": "angelika",
-   "title": "ATONEMENT (2026)",
-   "date": "2026-10-09",
-   "time": "14:10",
-   "fmt": "English subtitles",
-   "director": "Reed Van Dyk",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/atonement-2026",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
