@@ -200,7 +200,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-11T13:04:50.337Z",
+ "fetchedAt": "2026-10-11T19:36:13.274Z",
  "week": [
   "2026-10-11",
   "2026-10-12",
@@ -278,14 +278,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 21,
-   "ms": 2138
+   "ms": 3238
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 129,
-   "ms": 1328
+   "ms": 3306
   },
   {
    "id": "somerville",
@@ -300,14 +300,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 60,
-   "ms": 1235
+   "ms": 1026
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 3,
-   "ms": 359
+   "ms": 390
   },
   {
    "id": "mfa",
@@ -1007,24 +1007,6 @@
   },
   {
    "venue": "coolidge",
-   "title": "The History of Concrete",
-   "date": "2026-10-12",
-   "time": "13:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040780~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/history-concrete",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
-   "venue": "coolidge",
    "title": "Your Mother, Your Mother, Your Mother",
    "date": "2026-10-12",
    "time": "13:45",
@@ -1040,6 +1022,24 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1437396
+  },
+  {
+   "venue": "coolidge",
+   "title": "The History of Concrete",
+   "date": "2026-10-12",
+   "time": "13:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040780~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/history-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "coolidge",
