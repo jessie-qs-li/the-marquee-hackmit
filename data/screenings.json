@@ -1,8 +1,8 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 164,
-  "classified": 40,
+  "total": 159,
+  "classified": 37,
   "unresolved": [
    {
     "key": "naza|",
@@ -71,18 +71,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "animals|",
-    "title": "Animals",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "winterofthecrow|",
-    "title": "Winter of the Crow",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "invite|",
     "title": "THE INVITE",
     "year": null,
@@ -97,12 +85,6 @@
    {
     "key": "womeninanimationpgm1animatedanimals|",
     "title": "WOMEN IN ANIMATION PGM 1: ANIMATED ANIMALS",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "marchingband|",
-    "title": "The Marching Band",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -125,12 +107,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "musk|",
-    "title": "MUSK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "myundesirablefriendspartiiexilechapters45|",
     "title": "MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 4-5",
     "year": null,
@@ -143,8 +119,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "biggirlsdontcry|",
-    "title": "BIG GIRLS DON'T CRY",
+    "key": "winterofthecrow|",
+    "title": "Winter of the Crow",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -158,12 +134,6 @@
     "key": "drinkinganddriving|",
     "title": "Drinking and Driving",
     "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "arsenal|1929",
-    "title": "Arsenal",
-    "year": 1929,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -185,12 +155,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "vikakirchenbauerpgm1|",
     "title": "VIKA KIRCHENBAUER PGM 1",
     "year": null,
@@ -203,9 +167,15 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "shchors|1939",
-    "title": "Shchors",
-    "year": 1939,
+    "key": "animals|",
+    "title": "Animals",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "marchingband|",
+    "title": "The Marching Band",
+    "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -227,16 +197,16 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "atonement|",
-    "title": "ATONEMENT (2026)",
+    "key": "musk|",
+    "title": "MUSK",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "hope|",
-    "title": "Hope",
+    "key": "biggirlsdontcry|",
+    "title": "BIG GIRLS DON'T CRY",
     "year": null,
-    "reason": "ambiguous"
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "foulking|2000",
@@ -257,6 +227,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "atonement|",
+    "title": "ATONEMENT (2026)",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "goodbyedragoninn|2003",
     "title": "Goodbye, Dragon Inn",
     "year": 2003,
@@ -267,6 +243,12 @@
     "title": "A GENERATION",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "autumnstale|1987",
@@ -405,6 +387,12 @@
     "title": "The Downtown Festival: Tycoon + Q&A",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "hope|",
+    "title": "Hope",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "seductionthecruelwoman|",
@@ -752,7 +740,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-11T19:36:05.062Z",
+ "fetchedAt": "2026-10-12T00:41:51.695Z",
  "week": [
   "2026-10-11",
   "2026-10-12",
@@ -970,63 +958,63 @@
    "name": "Film Forum",
    "ok": true,
    "count": 79,
-   "ms": 1056
+   "ms": 1067
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
-   "count": 44,
-   "ms": 113
+   "count": 40,
+   "ms": 70
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 139,
-   "ms": 160
+   "ms": 282
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 19,
-   "ms": 180
+   "ms": 174
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 91,
-   "ms": 169
+   "count": 87,
+   "ms": 199
   },
   {
    "id": "cv",
    "name": "Cinema Village",
    "ok": true,
    "count": 42,
-   "ms": 1519
+   "ms": 1430
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 21,
-   "ms": 224
+   "ms": 167
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 127,
-   "ms": 4589
+   "count": 117,
+   "ms": 3845
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 19,
-   "ms": 2409
+   "count": 17,
+   "ms": 2419
   },
   {
    "id": "wrt",
@@ -1049,21 +1037,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 111,
-   "ms": 181
+   "ms": 352
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 56,
-   "ms": 5993
+   "ms": 5476
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 154,
-   "ms": 7346
+   "count": 140,
+   "ms": 6288
   },
   {
    "id": "spec",
@@ -1077,8 +1065,8 @@
    "id": "synd",
    "name": "Syndicated",
    "ok": true,
-   "count": 11,
-   "ms": 1966
+   "count": 9,
+   "ms": 2006
   },
   {
    "id": "momi",
@@ -1094,7 +1082,7 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 144
+   "ms": 196
   },
   {
    "id": "kew",
@@ -1110,7 +1098,7 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 1495
+   "ms": 975
   }
  ],
  "notices": {},
@@ -1451,35 +1439,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Digger",
-   "date": "2026-10-11",
-   "time": "14:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "The Social Reckoning",
-   "date": "2026-10-11",
-   "time": "14:35",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Animals",
-   "date": "2026-10-11",
-   "time": "14:35",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Winter of the Crow",
    "date": "2026-10-11",
    "time": "14:35",
    "genres": [],
@@ -1517,6 +1478,15 @@
    "date": "2026-10-11",
    "time": "14:45",
    "url": "https://www.cinemavillage.com/showtimes/",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Digger",
+   "date": "2026-10-11",
+   "time": "14:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1564,15 +1534,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1437396
-  },
-  {
-   "venue": "quad",
-   "title": "The Marching Band",
-   "date": "2026-10-11",
-   "time": "15:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -1629,25 +1590,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "angelika",
-   "title": "THE NORTH",
-   "date": "2026-10-11",
-   "time": "15:45",
-   "fmt": "Standard",
-   "director": "Bart Schrijver",
-   "runtime": 138,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-north",
-   "genres": [
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "505"
-  },
-  {
    "venue": "nhp",
    "title": "The History of Concrete",
    "date": "2026-10-11",
@@ -1668,20 +1610,6 @@
    "title": "PLAYING WITH FIRE: AN ECOSEXUAL EMERGENCY",
    "date": "2026-10-11",
    "time": "16:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "MUSK",
-   "date": "2026-10-11",
-   "time": "16:00",
-   "fmt": "Standard",
-   "director": "Alex Gibney",
-   "runtime": 232,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/musk",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1725,6 +1653,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5219"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-11",
+   "time": "16:10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
@@ -1777,15 +1714,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-11",
-   "time": "16:25",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Primetime",
    "date": "2026-10-11",
@@ -1820,58 +1748,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "paris",
-   "title": "Animals",
-   "date": "2026-10-11",
-   "time": "16:30",
-   "runtime": 106,
-   "fmt": "OC",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3088/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-11",
-   "time": "16:40",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-10-11",
    "time": "16:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "BIG GIRLS DON'T CRY",
-   "date": "2026-10-11",
-   "time": "16:50",
-   "fmt": "Standard",
-   "director": "Paloma Schneideman",
-   "runtime": 100,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/big-girls-dont-cry",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1935,37 +1815,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "mg",
-   "title": "Once Upon a Time in China III",
-   "date": "2026-10-11",
-   "time": "17:00",
-   "fmt": "DCP",
-   "year": 1993,
-   "runtime": 111,
-   "director": "Tsui Hark",
-   "genres": [
-    "action"
-   ],
-   "sourceGenres": [
-    "Action"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6723"
-  },
-  {
-   "venue": "mg",
-   "title": "Arsenal",
-   "date": "2026-10-11",
-   "time": "17:00",
-   "fmt": "35mm",
-   "year": 1929,
-   "runtime": 92,
-   "director": "Oleksandr Dovzhenko",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "In Spite of Ourselves",
    "date": "2026-10-11",
@@ -2003,50 +1852,6 @@
   },
   {
    "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-11",
-   "time": "17:45",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
-   "venue": "nhw",
-   "title": "Digger",
-   "date": "2026-10-11",
-   "time": "17:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "synd",
-   "title": "The Silence of the Lambs",
-   "date": "2026-10-11",
-   "time": "17:50",
-   "url": "",
-   "note": "Sold out",
-   "genres": [
-    "thriller",
-    "horror"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Horror",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "593"
-  },
-  {
-   "venue": "nhp",
    "title": "Digger",
    "date": "2026-10-11",
    "time": "18:00",
@@ -2062,20 +1867,6 @@
    "url": "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-sitting-ducks-qa/",
    "note": "",
    "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-10-11",
-   "time": "18:05",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2242,25 +2033,6 @@
    "genreMovieId": "5219"
   },
   {
-   "venue": "angelika",
-   "title": "THE NORTH",
-   "date": "2026-10-11",
-   "time": "18:50",
-   "fmt": "Standard",
-   "director": "Bart Schrijver",
-   "runtime": 138,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-north",
-   "genres": [
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "505"
-  },
-  {
    "venue": "bam",
    "title": "Primetime",
    "date": "2026-10-11",
@@ -2317,58 +2089,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "mg",
-   "title": "Shchors",
-   "date": "2026-10-11",
-   "time": "19:10",
-   "fmt": "35mm",
-   "year": 1939,
-   "runtime": 135,
-   "director": "Oleksandr Dovzhenko, Yulia Solntseva",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Winter of the Crow",
    "date": "2026-10-11",
    "time": "19:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-11",
-   "time": "19:15",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
-   "venue": "angelika",
-   "title": "BIG GIRLS DON'T CRY",
-   "date": "2026-10-11",
-   "time": "19:15",
-   "fmt": "Standard",
-   "director": "Paloma Schneideman",
-   "runtime": 100,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/big-girls-dont-cry",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2390,19 +2114,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "paris",
-   "title": "Animals",
-   "date": "2026-10-11",
-   "time": "19:15",
-   "runtime": 106,
-   "fmt": "",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3089/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "cv",
    "title": "THE INVITE",
    "date": "2026-10-11",
@@ -2421,28 +2132,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "mg",
-   "title": "A Bittersweet Life",
-   "date": "2026-10-11",
-   "time": "19:20",
-   "fmt": "4K DCP",
-   "year": 2005,
-   "runtime": 119,
-   "director": "Kim Jee-woon",
-   "genres": [
-    "action",
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Crime",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "38095"
   },
   {
    "venue": "quad",
@@ -2487,20 +2176,6 @@
    "title": "Naza",
    "date": "2026-10-11",
    "time": "19:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "MUSK",
-   "date": "2026-10-11",
-   "time": "19:45",
-   "fmt": "Standard",
-   "director": "Alex Gibney",
-   "runtime": 232,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/musk",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2570,36 +2245,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "ATONEMENT (2026)",
-   "date": "2026-10-11",
-   "time": "20:30",
-   "fmt": "English subtitles",
-   "director": "Reed Van Dyk",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/atonement-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-11",
-   "time": "20:30",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-10-11",
@@ -2614,17 +2259,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "synd",
-   "title": "Hope",
-   "date": "2026-10-11",
-   "time": "20:35",
-   "url": "https://ticketing.useast.veezi.com/purchase/6624?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -3488,6 +3122,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "Digger",
+   "date": "2026-10-12",
+   "time": "14:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "MUSK",
    "date": "2026-10-12",
@@ -3736,6 +3379,15 @@
    "genreMovieId": "7023"
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-12",
+   "time": "16:10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "Castration Movie Chapter iii. Junior Ghosts—Premorphic Drift; a fragmentary passage",
    "date": "2026-10-12",
@@ -3767,15 +3419,6 @@
    "title": "Other Mommy",
    "date": "2026-10-12",
    "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-12",
-   "time": "16:25",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3980,31 +3623,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-12",
-   "time": "17:45",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
-   "venue": "nhw",
-   "title": "Digger",
-   "date": "2026-10-12",
-   "time": "17:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "THE SCOUT",
    "date": "2026-10-12",
@@ -4062,8 +3680,8 @@
    "title": "Cure",
    "date": "2026-10-12",
    "time": "18:10",
-   "url": "https://ticketing.useast.veezi.com/purchase/6629?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
+   "url": "",
+   "note": "Sold out",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4482,22 +4100,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-12",
-   "time": "20:30",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "ifc",
@@ -5384,6 +4986,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "Digger",
+   "date": "2026-10-13",
+   "time": "14:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "MUSK",
    "date": "2026-10-13",
@@ -5607,6 +5218,15 @@
    "genreMovieId": "5219"
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-13",
+   "time": "16:10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "The History of Concrete",
    "date": "2026-10-13",
@@ -5650,15 +5270,6 @@
    "year": 1977,
    "runtime": 110,
    "director": "Valie Export",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-13",
-   "time": "16:25",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5848,31 +5459,6 @@
    "title": "The Marching Band",
    "date": "2026-10-13",
    "time": "17:35",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-13",
-   "time": "17:45",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
-   "venue": "nhw",
-   "title": "Digger",
-   "date": "2026-10-13",
-   "time": "17:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6429,22 +6015,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-13",
-   "time": "20:30",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "ifc",
@@ -7294,6 +6864,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "Digger",
+   "date": "2026-10-14",
+   "time": "14:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "MUSK",
    "date": "2026-10-14",
@@ -7493,6 +7072,15 @@
    "genreMovieId": "5219"
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-14",
+   "time": "16:10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "The History of Concrete",
    "date": "2026-10-14",
@@ -7523,15 +7111,6 @@
    "title": "Naza",
    "date": "2026-10-14",
    "time": "16:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-14",
-   "time": "16:25",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7703,31 +7282,6 @@
    "title": "Naza",
    "date": "2026-10-14",
    "time": "17:35",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-14",
-   "time": "17:45",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
-   "venue": "nhw",
-   "title": "Digger",
-   "date": "2026-10-14",
-   "time": "17:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8218,22 +7772,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-14",
-   "time": "20:30",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "ifc",
@@ -9013,6 +8551,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "Digger",
+   "date": "2026-10-15",
+   "time": "14:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "THE NORTH",
    "date": "2026-10-15",
@@ -9227,6 +8774,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-15",
+   "time": "16:10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "Ken Russell’s The Devils",
    "date": "2026-10-15",
@@ -9257,15 +8813,6 @@
    "title": "Other Mommy",
    "date": "2026-10-15",
    "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-15",
-   "time": "16:25",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9447,31 +8994,6 @@
    "title": "The Marching Band",
    "date": "2026-10-15",
    "time": "17:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-15",
-   "time": "17:45",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
-   "venue": "nhw",
-   "title": "Digger",
-   "date": "2026-10-15",
-   "time": "17:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9938,22 +9460,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-15",
-   "time": "20:30",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "ifc",
@@ -10441,6 +9947,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "Digger",
+   "date": "2026-10-16",
+   "time": "14:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Your Mother Your Mother Your Mother",
    "date": "2026-10-16",
@@ -10535,6 +10050,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-16",
+   "time": "16:10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "Ken Russell’s The Devils",
    "date": "2026-10-16",
@@ -10562,15 +10086,6 @@
    "title": "Other Mommy",
    "date": "2026-10-16",
    "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-16",
-   "time": "16:25",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10676,31 +10191,6 @@
    "date": "2026-10-16",
    "time": "17:40",
    "url": "https://www.cinemavillage.com/showtimes/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-16",
-   "time": "17:45",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
-   "venue": "nhw",
-   "title": "Digger",
-   "date": "2026-10-16",
-   "time": "17:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11000,22 +10490,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-16",
-   "time": "20:30",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "afa",
@@ -11558,6 +11032,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "Digger",
+   "date": "2026-10-17",
+   "time": "14:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Your Mother Your Mother Your Mother",
    "date": "2026-10-17",
@@ -11652,6 +11135,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-17",
+   "time": "16:10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "Ken Russell’s The Devils",
    "date": "2026-10-17",
@@ -11666,15 +11158,6 @@
    "title": "Other Mommy",
    "date": "2026-10-17",
    "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-17",
-   "time": "16:25",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11805,31 +11288,6 @@
   {
    "venue": "afa",
    "title": "MULTI-MEDIA RESOURCE CENTER PGM 3: GAY LIBERATION ON 16MM",
-   "date": "2026-10-17",
-   "time": "17:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-17",
-   "time": "17:45",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
-   "venue": "nhw",
-   "title": "Digger",
    "date": "2026-10-17",
    "time": "17:45",
    "genres": [],
@@ -12105,22 +11563,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Your Mother Your Mother Your Mother",
-   "date": "2026-10-17",
-   "time": "20:30",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "nhp",
