@@ -194,7 +194,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-12T21:19:22.651Z",
+ "fetchedAt": "2026-10-13T02:37:18.317Z",
  "week": [
   "2026-10-12",
   "2026-10-13",
@@ -272,14 +272,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 22,
-   "ms": 2803
+   "ms": 2364
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 111,
-   "ms": 2659
+   "ms": 2430
   },
   {
    "id": "somerville",
@@ -293,15 +293,15 @@
    "id": "kendall",
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
-   "count": 43,
-   "ms": 1024
+   "count": 44,
+   "ms": 1047
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 4,
-   "ms": 1277
+   "ms": 425
   },
   {
    "id": "mfa",
@@ -364,24 +364,6 @@
   },
   {
    "venue": "coolidge",
-   "title": "The History of Concrete",
-   "date": "2026-10-12",
-   "time": "13:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040780~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/history-concrete",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
-   "venue": "coolidge",
    "title": "Your Mother, Your Mother, Your Mother",
    "date": "2026-10-12",
    "time": "13:45",
@@ -397,6 +379,24 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1437396
+  },
+  {
+   "venue": "coolidge",
+   "title": "The History of Concrete",
+   "date": "2026-10-12",
+   "time": "13:45",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040780~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/history-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "coolidge",
@@ -1780,6 +1780,16 @@
    "title": "Animals",
    "date": "2026-10-15",
    "time": "15:50",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "The Social Reckoning",
+   "date": "2026-10-15",
+   "time": "15:55",
    "fmt": "",
    "genres": [],
    "sourceGenres": [],
