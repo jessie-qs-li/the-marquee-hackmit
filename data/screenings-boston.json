@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 53,
-  "classified": 20,
+  "classified": 19,
   "unresolved": [
    {
     "key": "votingcountselectionsinfilmtuesdaysection|",
@@ -67,6 +67,12 @@
    {
     "key": "bostonopenscreen|",
     "title": "Boston Open Screen",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "wildhorsenine|",
+    "title": "Wild Horse Nine",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -206,7 +212,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-13T19:30:32.602Z",
+ "fetchedAt": "2026-10-14T00:39:16.310Z",
  "week": [
   "2026-10-13",
   "2026-10-14",
@@ -284,14 +290,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 20,
-   "ms": 2912
+   "ms": 4076
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 159,
-   "ms": 7184
+   "ms": 6301
   },
   {
    "id": "somerville",
@@ -306,14 +312,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 34,
-   "ms": 1493
+   "ms": 761
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 368
+   "ms": 367
   },
   {
    "id": "mfa",
@@ -662,17 +668,10 @@
    "time": "20:00",
    "url": "https://iffboston.org/events/wildhorsenine/",
    "filmUrl": "https://brattlefilm.org/movies/wild-horse-nine/",
-   "genres": [
-    "comedy",
-    "thriller"
-   ],
-   "year": 2026,
-   "sourceGenres": [
-    "Comedy",
-    "Crime",
-    "Thriller"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
