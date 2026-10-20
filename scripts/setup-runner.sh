@@ -56,10 +56,10 @@ fi
 
 echo
 echo "Runner installed at $DIR and started."
-echo "Last step, in the repository settings:"
-echo "  Settings -> Secrets and variables -> Actions -> Variables -> New repository variable"
-echo "  Name: RUNNER_LABEL      Value: $LABEL"
 echo
-echo "Until that variable exists the job keeps using GitHub's runners, so"
-echo "nothing breaks in the meantime."
+echo "Scheduled refreshes still run on GitHub's machines. To use this one,"
+echo "pick it by hand:"
+echo "  Actions -> Refresh listings -> Run workflow -> Where to run it: self-hosted"
+echo
+echo "Check it later with:  cd $DIR && ./svc.sh status"
 echo "Stop it any time with:  cd $DIR && ./svc.sh stop"

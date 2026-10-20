@@ -93,44 +93,48 @@ zero-row parse as a failure, so a silent break shows up in the run report.
 Cinema Village refuses GitHub's shared runner addresses, so every scheduled run
 loses roughly eighty showtimes with `HTTP 403 on GET /showtimes/`. It answers a
 normal residential address without complaint, so the fix is to run the job from
-one:
+one.
 
-If a runner is already registered on the machine, all that is needed is a
-repository **variable** (not a secret) naming a label it carries:
+That fix is opt-in rather than the default. Scheduled runs go to
+`ubuntu-latest`, which is always awake. A laptop runner is chosen by hand from
+**Actions -> Refresh listings -> Run workflow**, whose **Where to run it**
+dropdown offers `self-hosted`; use it when Cinema Village has gone stale and
+you want a complete scrape.
 
-| Variable | Value |
-| --- | --- |
-| `RUNNER_LABEL` | `self-hosted` |
+The split is there because of what the laptop runner actually did over three
+weeks. It slept mid-job and the step was killed. It dropped its network
+mid-scrape and the gate refused the collapsed schedule that came back. Then the
+runner process died with the terminal that started it, and six days of
+refreshes queued up and were cancelled before anyone noticed. Listings that are
+reliably one venue short beat listings that quietly stop.
 
-Every self-hosted runner carries `self-hosted` automatically and the label
-cannot be removed, so it matches whatever the runner was named at registration.
+### Running the laptop runner
 
-To set one up from scratch instead:
+Register one from scratch with:
 
 ```bash
 bash scripts/setup-runner.sh <REGISTRATION_TOKEN>
 ```
 
-The token comes from **Settings → Actions → Runners → New self-hosted runner**
-and lasts an hour. That script registers the runner with the extra label
-`marquee-local` and installs it as a login service, so it survives reboots; use
-that label instead if you go this route.
+The token comes from **Settings -> Actions -> Runners -> New self-hosted
+runner** and lasts an hour.
 
-A runner started with `./run.sh` only lives as long as its terminal. To keep it
-across reboots and sleep:
+A runner started with `./run.sh` only lives as long as its terminal, which is
+how the October outage happened. Install it as a login service instead:
 
 ```bash
 cd ~/actions-runner && ./svc.sh install && ./svc.sh start
 ```
 
-The workflow reads `${{ vars.RUNNER_LABEL || 'ubuntu-latest' }}`, so until that
-variable exists it keeps using GitHub's runners and nothing breaks while the
-runner is being set up.
+Confirm it is alive with `./svc.sh status`, or `pgrep -fl Runner.Listener`.
 
-The trade-off: a runner on a laptop only works while the laptop is awake. A
-missed slot is not a gap in the listings -- the published schedule simply stays
-as it was until the next successful run -- but it does mean the three-hourly
-cadence becomes best-effort. Somewhere always-on avoids that.
+Even as a service it is still a laptop: it has to be awake and logged in when a
+job runs. `sudo pmset -c disablesleep 1` stops it sleeping on mains power, but
+nothing saves a closed lid on battery. A missed slot is not a gap in the
+listings -- the published schedule stays as it was until the next successful
+run -- and once the scraped week has gone by the board says "Listings out of
+date" rather than presenting an old day as today.
+
 
 ## Staying current
 

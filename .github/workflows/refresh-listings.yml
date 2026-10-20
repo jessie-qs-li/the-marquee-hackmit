@@ -8,6 +8,14 @@ on:
   schedule:
     - cron: "23 */3 * * *"   # 00:23, 03:23, … off the hour: GitHub queues :00 heavily
   workflow_dispatch:        # and a manual "Run workflow" button
+    inputs:
+      runner:
+        description: "Where to run it"
+        type: choice
+        default: ubuntu-latest
+        options:
+          - ubuntu-latest   # reliable, but Cinema Village 403s GitHub's addresses
+          - self-hosted     # the Mac: slower and only up when it is, but sees every venue
 
 concurrency:
   group: refresh-listings
@@ -18,7 +26,11 @@ permissions:
 
 jobs:
   refresh:
-    runs-on: ${{ vars.RUNNER_LABEL || 'ubuntu-latest' }}
+    # Scheduled runs go to GitHub's machines, which are always awake. The
+    # self-hosted Mac is reachable by Cinema Village but is a laptop: it
+    # sleeps mid-job and its runner dies when the terminal closes, so it is
+    # opt-in from the Run workflow button rather than the default.
+    runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
