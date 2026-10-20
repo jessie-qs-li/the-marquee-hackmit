@@ -62,6 +62,15 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add ${{ steps.check.outputs.publish }}
           git commit -m "Refresh listings $(date -u '+%Y-%m-%d %H:%M UTC')"
+          # A refresh that lands while someone is pushing to main is rejected
+          # as a non-fast-forward, and an otherwise perfect scrape is thrown
+          # away. The commit only touches data/, so rebasing onto whatever
+          # arrived first is safe; concurrency keeps two refreshes apart.
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            echo "push rejected, rebasing onto origin/main (attempt $attempt)"
+            git pull --rebase origin main || exit 1
+          done
           git push
 
       - name: Deploy to Vercel
