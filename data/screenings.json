@@ -47,30 +47,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "case137|",
-    "title": "Case 137",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "youcanseeeverything|",
-    "title": "You Can See Everything",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "winterofthecrow|",
-    "title": "Winter of the Crow",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "digger|",
-    "title": "Digger",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "othermommy|",
     "title": "Other Mommy",
     "year": null,
@@ -101,14 +77,14 @@
     "reason": "ambiguous"
    },
    {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "socialreckoning|",
     "title": "The Social Reckoning",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "youcanseeeverything|",
+    "title": "You Can See Everything",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -125,14 +101,14 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "labolanegra|",
-    "title": "LA BOLA NEGRA",
+    "key": "kenrussellsthedevils|",
+    "title": "Ken Russell’s The Devils",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "kenrussellsthedevils|",
-    "title": "Ken Russell’s The Devils",
+    "key": "digger|",
+    "title": "Digger",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -149,8 +125,14 @@
     "reason": "ambiguous"
    },
    {
-    "key": "musk|",
-    "title": "MUSK",
+    "key": "case137|",
+    "title": "Case 137",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "winterofthecrow|",
+    "title": "Winter of the Crow",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -197,6 +179,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "labolanegra|",
+    "title": "LA BOLA NEGRA",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "fly|",
     "title": "The Fly",
     "year": null,
@@ -211,6 +199,12 @@
    {
     "key": "erie|",
     "title": "Erie",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "musk|",
+    "title": "MUSK",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -231,6 +225,12 @@
     "title": "MAN OF MARBLE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "amour|2012",
@@ -782,7 +782,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-20T19:21:58.669Z",
+ "fetchedAt": "2026-10-20T23:57:32.651Z",
  "week": [
   "2026-10-20",
   "2026-10-21",
@@ -1000,35 +1000,37 @@
    "name": "Film Forum",
    "ok": true,
    "count": 127,
-   "ms": 1016
+   "ms": 1086
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": true,
-   "count": 47,
-   "ms": 335
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 on GET /nyc/",
+   "carried": 47,
+   "carriedFrom": "2026-10-20T19:21:58.669Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 196,
-   "ms": 143
+   "ms": 148
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 16,
-   "ms": 2167
+   "ms": 483
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 92,
-   "ms": 151
+   "count": 86,
+   "ms": 223
   },
   {
    "id": "cv",
@@ -1037,28 +1039,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /showtimes/",
    "carried": 38,
-   "carriedFrom": "2026-10-20T18:21:10.592Z"
+   "carriedFrom": "2026-10-20T19:21:58.669Z"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 15,
-   "ms": 95
+   "ms": 158
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 171,
-   "ms": 6135
+   "count": 162,
+   "ms": 5398
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 26,
-   "ms": 2413
+   "count": 25,
+   "ms": 2229
   },
   {
    "id": "wrt",
@@ -1081,21 +1083,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 120,
-   "ms": 469
+   "ms": 251
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 63,
-   "ms": 4827
+   "ms": 4478
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 56,
-   "ms": 7414
+   "ms": 6505
   },
   {
    "id": "spec",
@@ -1110,7 +1112,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 11,
-   "ms": 1146
+   "ms": 1677
   },
   {
    "id": "momi",
@@ -1125,7 +1127,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 6,
-   "ms": 273
+   "ms": 403
   },
   {
    "id": "kew",
@@ -1140,7 +1142,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 2,
-   "ms": 2355
+   "ms": 3403
   }
  ],
  "notices": {},
@@ -1252,44 +1254,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Case 137",
-   "date": "2026-10-20",
-   "time": "13:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "You Can See Everything",
-   "date": "2026-10-20",
-   "time": "13:05",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Winter of the Crow",
-   "date": "2026-10-20",
-   "time": "13:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The Devils",
-   "date": "2026-10-20",
-   "time": "13:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Digger",
    "date": "2026-10-20",
    "time": "13:20",
    "genres": [],
@@ -1388,15 +1354,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Case 137",
-   "date": "2026-10-20",
-   "time": "15:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-10-20",
@@ -1410,29 +1367,6 @@
    "title": "Primetime",
    "date": "2026-10-20",
    "time": "15:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Winter of the Crow",
-   "date": "2026-10-20",
-   "time": "15:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-10-20",
-   "time": "15:40",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1510,20 +1444,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA",
-   "date": "2026-10-20",
-   "time": "16:05",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The Devils",
    "date": "2026-10-20",
@@ -1556,27 +1476,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-20",
-   "time": "16:20",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "bam",
@@ -1629,20 +1528,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA",
-   "date": "2026-10-20",
-   "time": "16:45",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "bam",
@@ -1722,20 +1607,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "MUSK",
-   "date": "2026-10-20",
-   "time": "18:00",
-   "fmt": "Standard",
-   "director": "Alex Gibney",
-   "runtime": 232,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/musk",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "ONCE UPON A TIME IN HARLEM",
    "date": "2026-10-20",
@@ -1771,37 +1642,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "paris",
-   "title": "La Bola Negra",
-   "date": "2026-10-20",
-   "time": "18:15",
-   "runtime": 160,
-   "fmt": "35MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3112/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhw",
    "title": "Primetime",
    "date": "2026-10-20",
    "time": "18:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-10-20",
-   "time": "18:30",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1870,27 +1714,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-20",
-   "time": "19:00",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "bam",
@@ -1985,20 +1808,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA",
-   "date": "2026-10-20",
-   "time": "19:30",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Shorts: Transmissions",
    "date": "2026-10-20",
@@ -2049,20 +1858,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "7070"
-  },
-  {
-   "venue": "angelika",
-   "title": "MUSK",
-   "date": "2026-10-20",
-   "time": "19:40",
-   "fmt": "Standard",
-   "director": "Alex Gibney",
-   "runtime": 232,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/musk",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "bam",
