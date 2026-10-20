@@ -71,20 +71,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "labolanegra|",
-    "title": "La Bola Negra",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "othermommy|",
     "title": "Other Mommy",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "musk|",
-    "title": "MUSK",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -137,6 +125,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "labolanegra|",
+    "title": "LA BOLA NEGRA",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "kenrussellsthedevils|",
     "title": "Ken Russell’s The Devils",
     "year": null,
@@ -153,6 +147,12 @@
     "title": "THE INVITE",
     "year": null,
     "reason": "ambiguous"
+   },
+   {
+    "key": "musk|",
+    "title": "MUSK",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "brooklynhorrorsecretscreening3|",
@@ -782,7 +782,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-20T18:21:10.592Z",
+ "fetchedAt": "2026-10-20T19:21:58.669Z",
  "week": [
   "2026-10-20",
   "2026-10-21",
@@ -1000,63 +1000,65 @@
    "name": "Film Forum",
    "ok": true,
    "count": 127,
-   "ms": 1143
+   "ms": 1016
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
    "count": 47,
-   "ms": 80
+   "ms": 335
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 196,
-   "ms": 176
+   "ms": 143
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 16,
-   "ms": 179
+   "ms": 2167
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 92,
-   "ms": 289
+   "ms": 151
   },
   {
    "id": "cv",
    "name": "Cinema Village",
-   "ok": true,
-   "count": 38,
-   "ms": 2499
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 on GET /showtimes/",
+   "carried": 38,
+   "carriedFrom": "2026-10-20T18:21:10.592Z"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 15,
-   "ms": 215
+   "ms": 95
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 173,
-   "ms": 6026
+   "count": 171,
+   "ms": 6135
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 27,
-   "ms": 2790
+   "count": 26,
+   "ms": 2413
   },
   {
    "id": "wrt",
@@ -1079,21 +1081,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 120,
-   "ms": 139
+   "ms": 469
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 63,
-   "ms": 5517
+   "ms": 4827
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 56,
-   "ms": 7066
+   "ms": 7414
   },
   {
    "id": "spec",
@@ -1108,7 +1110,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 11,
-   "ms": 2283
+   "ms": 1146
   },
   {
    "id": "momi",
@@ -1123,7 +1125,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 6,
-   "ms": 844
+   "ms": 273
   },
   {
    "id": "kew",
@@ -1138,7 +1140,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 2,
-   "ms": 481
+   "ms": 2355
   }
  ],
  "notices": {},
@@ -1347,37 +1349,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "paris",
-   "title": "La Bola Negra",
-   "date": "2026-10-20",
-   "time": "14:35",
-   "runtime": 160,
-   "fmt": "35MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3111/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Other Mommy",
    "date": "2026-10-20",
    "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "MUSK",
-   "date": "2026-10-20",
-   "time": "15:00",
-   "fmt": "Standard",
-   "director": "Alex Gibney",
-   "runtime": 232,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/musk",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1388,20 +1363,6 @@
    "date": "2026-10-20",
    "time": "15:00",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-10-20",
-   "time": "15:05",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
