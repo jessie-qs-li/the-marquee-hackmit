@@ -1,8 +1,8 @@
 {
  "city": "boston",
  "genreCoverage": {
-  "total": 52,
-  "classified": 12,
+  "total": 54,
+  "classified": 13,
   "unresolved": [
    {
     "key": "diggerinvistavision|",
@@ -53,6 +53,18 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "wicker|",
+    "title": "Wicker",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "fjord|",
+    "title": "Fjord",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "xfiles|",
     "title": "The X Files (1998)",
     "year": null,
@@ -65,14 +77,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "wicker|",
-    "title": "Wicker",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "fjord|",
-    "title": "Fjord",
+    "key": "possiblelove|",
+    "title": "Possible Love",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -248,7 +254,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-21T17:21:16.782Z",
+ "fetchedAt": "2026-10-21T21:49:34.453Z",
  "week": [
   "2026-10-21",
   "2026-10-22",
@@ -326,14 +332,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 18,
-   "ms": 1995
+   "ms": 3389
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 154,
-   "ms": 4704
+   "ms": 2559
   },
   {
    "id": "somerville",
@@ -347,15 +353,15 @@
    "id": "kendall",
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
-   "count": 11,
-   "ms": 717
+   "count": 83,
+   "ms": 802
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 7,
-   "ms": 537
+   "ms": 261
   },
   {
    "id": "mfa",
@@ -396,6 +402,16 @@
    "time": "15:15",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1041683~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/sense-and-sensibility-2026",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-21",
+   "time": "15:15",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -539,6 +555,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-21",
+   "time": "18:50",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Angel Heart",
    "date": "2026-10-21",
@@ -577,6 +603,16 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "26603"
+  },
+  {
+   "venue": "kendall",
+   "title": "The Social Reckoning",
+   "date": "2026-10-21",
+   "time": "19:10",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "brattle",
@@ -809,6 +845,26 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-22",
+   "time": "15:10",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-22",
+   "time": "15:25",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "You Can See Everything",
    "date": "2026-10-22",
@@ -820,12 +876,32 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-22",
+   "time": "15:30",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "The Devils (1971)",
    "date": "2026-10-22",
    "time": "16:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1038670~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/devils-1971",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-22",
+   "time": "16:00",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -891,12 +967,32 @@
    "genreMovieId": "908"
   },
   {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-22",
+   "time": "18:05",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "The Devils (1971)",
    "date": "2026-10-22",
    "time": "18:15",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1038674~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/devils-1971",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-22",
+   "time": "18:25",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -971,6 +1067,16 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1757"
+  },
+  {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-22",
+   "time": "19:10",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -1220,12 +1326,52 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-23",
+   "time": "15:30",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "The Devils (1971)",
    "date": "2026-10-23",
    "time": "16:00",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042846~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/devils-1971",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-23",
+   "time": "16:00",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-23",
+   "time": "16:05",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-23",
+   "time": "16:10",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1260,6 +1406,16 @@
    "tmdbId": 1437396
   },
   {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-23",
+   "time": "17:05",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "brattle",
    "title": "Union Town",
    "date": "2026-10-23",
@@ -1268,6 +1424,16 @@
    "filmUrl": "https://brattlefilm.org/movies/union-town/",
    "genres": [],
    "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-23",
+   "time": "18:05",
+   "fmt": "",
+   "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
@@ -1334,12 +1500,32 @@
    "tmdbId": 1437396
   },
   {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-23",
+   "time": "19:15",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Wicker",
    "date": "2026-10-23",
    "time": "19:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042190~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/wicker",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-23",
+   "time": "19:35",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1356,6 +1542,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-23",
+   "time": "20:15",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "brattle",
    "title": "Jean-Michel Basquiat",
    "date": "2026-10-23",
@@ -1364,6 +1560,16 @@
    "filmUrl": "https://brattlefilm.org/movies/jean-michel-basquiat/",
    "genres": [],
    "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-23",
+   "time": "20:30",
+   "fmt": "",
+   "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
@@ -1390,6 +1596,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-23",
+   "time": "21:15",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "The Devils (1971)",
    "date": "2026-10-23",
@@ -1407,6 +1623,16 @@
    "time": "21:45",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042840~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/fjord",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-23",
+   "time": "21:45",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1515,6 +1741,65 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Creature from the Black Lagoon (1954)",
+   "date": "2026-10-24",
+   "time": "12:20",
+   "fmt": "",
+   "genres": [
+    "adventure",
+    "horror",
+    "scifi"
+   ],
+   "sourceGenres": [
+    "Adventure",
+    "Horror",
+    "Sci-Fi"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "3930"
+  },
+  {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-24",
+   "time": "12:25",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-24",
+   "time": "12:55",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-24",
+   "time": "13:00",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-24",
+   "time": "13:25",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "brattle",
    "title": "All About the Money",
    "date": "2026-10-24",
@@ -1560,6 +1845,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-24",
+   "time": "14:15",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Sense and Sensibility (2026)",
    "date": "2026-10-24",
@@ -1588,6 +1883,36 @@
    "time": "15:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042860~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-24",
+   "time": "15:30",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-24",
+   "time": "16:00",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-24",
+   "time": "16:10",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1632,6 +1957,36 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1437396
+  },
+  {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-24",
+   "time": "17:00",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-24",
+   "time": "17:35",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-24",
+   "time": "18:05",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -1708,6 +2063,16 @@
    "tmdbId": 1437396
   },
   {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-24",
+   "time": "19:15",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Wicker",
    "date": "2026-10-24",
@@ -1719,12 +2084,42 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-24",
+   "time": "19:35",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "You Can See Everything",
    "date": "2026-10-24",
    "time": "19:45",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042868~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-24",
+   "time": "20:35",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-24",
+   "time": "20:55",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1747,6 +2142,16 @@
    "time": "21:15",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042930~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/sense-and-sensibility-2026",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-24",
+   "time": "21:15",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1781,6 +2186,16 @@
    "time": "21:45",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042887~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/fjord",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-24",
+   "time": "21:45",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1904,12 +2319,52 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-25",
+   "time": "12:25",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "You Can See Everything",
    "date": "2026-10-25",
    "time": "12:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042861~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-25",
+   "time": "12:30",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-25",
+   "time": "12:35",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-25",
+   "time": "12:50",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1986,12 +2441,32 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-25",
+   "time": "15:00",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Fjord",
    "date": "2026-10-25",
    "time": "15:15",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042882~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/fjord",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-25",
+   "time": "15:35",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2012,6 +2487,16 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596302
+  },
+  {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-25",
+   "time": "16:05",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -2036,12 +2521,32 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-25",
+   "time": "16:35",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Wicker",
    "date": "2026-10-25",
    "time": "16:45",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042904~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/wicker",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-25",
+   "time": "16:45",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2064,6 +2569,26 @@
    "time": "18:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040972~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/fjord",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-25",
+   "time": "18:35",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-25",
+   "time": "18:55",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2092,12 +2617,32 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-25",
+   "time": "19:05",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "The Devils (1971)",
    "date": "2026-10-25",
    "time": "19:15",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042944~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/devils-1971",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-25",
+   "time": "19:15",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2216,6 +2761,36 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-26",
+   "time": "15:00",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-26",
+   "time": "15:05",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-26",
+   "time": "15:10",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "You Can See Everything",
    "date": "2026-10-26",
@@ -2227,12 +2802,32 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-26",
+   "time": "15:20",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Fjord",
    "date": "2026-10-26",
    "time": "15:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042883~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/fjord",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-26",
+   "time": "15:35",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2266,6 +2861,16 @@
    "time": "16:15",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042905~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/wicker",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-26",
+   "time": "17:35",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2327,6 +2932,36 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-26",
+   "time": "18:30",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-26",
+   "time": "18:35",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-26",
+   "time": "18:45",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Alien (Director’s Cut)",
    "date": "2026-10-26",
@@ -2344,6 +2979,16 @@
    "time": "19:00",
    "note": "Great Expectations: British Postwar Cinema,",
    "url": "https://harvardfilmarchive.org/calendar/hunted-2026-10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-26",
+   "time": "19:10",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2456,6 +3101,26 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-27",
+   "time": "15:00",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-27",
+   "time": "15:05",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "You Can See Everything",
    "date": "2026-10-27",
@@ -2467,12 +3132,32 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-27",
+   "time": "15:20",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "Fjord",
    "date": "2026-10-27",
    "time": "15:30",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042884~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/fjord",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-27",
+   "time": "15:35",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2506,6 +3191,16 @@
    "time": "16:15",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042906~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/wicker",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-27",
+   "time": "16:20",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2567,12 +3262,42 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Possible Love",
+   "date": "2026-10-27",
+   "time": "18:30",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "You Can See Everything",
+   "date": "2026-10-27",
+   "time": "18:35",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "You Can See Everything",
    "date": "2026-10-27",
    "time": "18:45",
    "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1042872~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
    "filmUrl": "https://coolidge.org/films/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "kendall",
+   "title": "Fjord",
+   "date": "2026-10-27",
+   "time": "18:45",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2609,6 +3334,16 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1348"
+  },
+  {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-10-27",
+   "time": "19:10",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",

@@ -1,7 +1,7 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 187,
+  "total": 188,
   "classified": 51,
   "unresolved": [
    {
@@ -47,20 +47,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "digger|",
-    "title": "Digger",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "myundesirablefriendspartiiexilechapters13|",
     "title": "MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 1-3",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "case137|",
-    "title": "Case 137",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -69,30 +57,6 @@
     "title": "You Can See Everything",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "musk|",
-    "title": "MUSK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "labolanegra|",
-    "title": "LA BOLA NEGRA",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "winterofthecrow|",
-    "title": "Winter of the Crow",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
    },
    {
     "key": "othermommy|",
@@ -125,9 +89,21 @@
     "reason": "ambiguous"
    },
    {
+    "key": "case137|",
+    "title": "Case 137",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "amour|2012",
     "title": "Amour",
     "year": 2012,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "winterofthecrow|",
+    "title": "Winter of the Crow",
+    "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -139,6 +115,12 @@
    {
     "key": "sweetrush|",
     "title": "SWEET RUSH",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "digger|",
+    "title": "Digger",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -164,6 +146,12 @@
     "key": "pariswasawoman|1996",
     "title": "Paris Was a Woman",
     "year": 1996,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "labolanegra|",
+    "title": "La Bola Negra",
+    "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -215,6 +203,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "musk|",
+    "title": "MUSK",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "illiacpassion|1967",
     "title": "The Illiac Passion",
     "year": 1967,
@@ -255,6 +249,12 @@
     "title": "The Downtown Festival: Big Break + Q&A",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "ifigowilltheymissme|",
+    "title": "IF I GO WILL THEY MISS ME",
+    "year": null,
+    "reason": "ambiguous"
    },
    {
     "key": "wicker|",
@@ -402,7 +402,7 @@
    },
    {
     "key": "society|",
-    "title": "Society - 35MM",
+    "title": "Society - 35MM + Q&A",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -773,6 +773,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "ishmaelreedsgospeloperagethsemanepark|",
+    "title": "Ishmael Reed’s Gospel Opera GETHSEMANE PARK",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "breaddayprecededbythetrainstop|1998",
     "title": "Bread Day preceded by The Train Stop",
     "year": 1998,
@@ -824,7 +830,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-21T17:21:08.617Z",
+ "fetchedAt": "2026-10-21T21:49:27.240Z",
  "week": [
   "2026-10-21",
   "2026-10-22",
@@ -1042,35 +1048,37 @@
    "name": "Film Forum",
    "ok": true,
    "count": 128,
-   "ms": 755
+   "ms": 1338
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": true,
-   "count": 55,
-   "ms": 132
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 on GET /nyc/",
+   "carried": 55,
+   "carriedFrom": "2026-10-21T17:21:08.617Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 197,
-   "ms": 222
+   "ms": 160
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 17,
-   "ms": 744
+   "ms": 759
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 93,
-   "ms": 169
+   "count": 90,
+   "ms": 436
   },
   {
    "id": "cv",
@@ -1079,28 +1087,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /showtimes/",
    "carried": 32,
-   "carriedFrom": "2026-10-21T12:01:24.348Z"
+   "carriedFrom": "2026-10-21T17:21:08.617Z"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 17,
-   "ms": 100
+   "ms": 446
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 181,
-   "ms": 5935
+   "count": 172,
+   "ms": 5138
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 27,
-   "ms": 2290
+   "count": 26,
+   "ms": 1627
   },
   {
    "id": "wrt",
@@ -1123,21 +1131,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 122,
-   "ms": 851
+   "ms": 471
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 63,
-   "ms": 5429
+   "count": 56,
+   "ms": 5285
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 140,
-   "ms": 6821
+   "count": 147,
+   "ms": 6486
   },
   {
    "id": "spec",
@@ -1152,7 +1160,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 11,
-   "ms": 1611
+   "ms": 1866
   },
   {
    "id": "momi",
@@ -1166,8 +1174,8 @@
    "id": "maysles",
    "name": "Maysles Documentary Center",
    "ok": true,
-   "count": 5,
-   "ms": 1103
+   "count": 6,
+   "ms": 681
   },
   {
    "id": "kew",
@@ -1182,7 +1190,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 2,
-   "ms": 2989
+   "ms": 2339
   }
  ],
  "notices": {},
@@ -1284,15 +1292,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Digger",
-   "date": "2026-10-21",
-   "time": "12:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 1-3",
    "date": "2026-10-21",
@@ -1313,46 +1312,9 @@
   },
   {
    "venue": "quad",
-   "title": "Case 137",
-   "date": "2026-10-21",
-   "time": "13:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-10-21",
    "time": "13:05",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "MUSK",
-   "date": "2026-10-21",
-   "time": "13:15",
-   "fmt": "Standard",
-   "director": "Alex Gibney",
-   "runtime": 232,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/musk",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA",
-   "date": "2026-10-21",
-   "time": "13:20",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1365,36 +1327,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Winter of the Crow",
-   "date": "2026-10-21",
-   "time": "13:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-21",
-   "time": "13:45",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "ifc",
@@ -1430,20 +1362,6 @@
    "genreMovieId": "528"
   },
   {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-10-21",
-   "time": "14:20",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "ONCE UPON A TIME IN HARLEM",
    "date": "2026-10-21",
@@ -1468,19 +1386,6 @@
    "genreMovieId": "3917"
   },
   {
-   "venue": "paris",
-   "title": "La Bola Negra",
-   "date": "2026-10-21",
-   "time": "14:35",
-   "runtime": 160,
-   "fmt": "35MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3116/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Other Mommy",
    "date": "2026-10-21",
@@ -1499,20 +1404,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "MUSK",
-   "date": "2026-10-21",
-   "time": "15:00",
-   "fmt": "Standard",
-   "director": "Alex Gibney",
-   "runtime": 232,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/musk",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Fjord",
    "date": "2026-10-21",
@@ -1526,20 +1417,6 @@
    "title": "The Social Reckoning",
    "date": "2026-10-21",
    "time": "15:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-10-21",
-   "time": "15:05",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1772,27 +1649,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-21",
-   "time": "16:20",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
    "venue": "bam",
    "title": "Naza",
    "date": "2026-10-21",
@@ -1845,34 +1701,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-10-21",
-   "time": "16:40",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA",
-   "date": "2026-10-21",
-   "time": "16:45",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "You Can See Everything",
    "date": "2026-10-21",
@@ -1907,6 +1735,15 @@
    "date": "2026-10-21",
    "time": "17:20",
    "url": "https://www.cinemavillage.com/showtimes/",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-21",
+   "time": "17:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2073,8 +1910,8 @@
    "title": "Jennifer's Body",
    "date": "2026-10-21",
    "time": "18:35",
-   "url": "",
-   "note": "Sold out",
+   "url": "https://ticketing.useast.veezi.com/purchase/6640?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
+   "note": "",
    "genres": [
     "comedy",
     "horror",
@@ -2224,15 +2061,6 @@
   },
   {
    "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-21",
-   "time": "19:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Primetime",
    "date": "2026-10-21",
    "time": "19:00",
@@ -3605,6 +3433,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-22",
+   "time": "17:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-10-22",
@@ -3919,15 +3756,6 @@
   },
   {
    "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-22",
-   "time": "19:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Primetime",
    "date": "2026-10-22",
    "time": "19:00",
@@ -4310,6 +4138,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "ifc",
+   "title": "The Great Experiment",
+   "date": "2026-10-22",
+   "time": "21:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "The Social Reckoning",
    "date": "2026-10-22",
@@ -4328,15 +4165,6 @@
    "runtime": 160,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "ifc",
-   "title": "The Great Experiment",
-   "date": "2026-10-22",
-   "time": "21:50",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5254,7 +5082,7 @@
   },
   {
    "venue": "roxy",
-   "title": "Society - 35MM",
+   "title": "Society - 35MM + Q&A",
    "date": "2026-10-23",
    "time": "16:30",
    "url": "https://www.roxycinemanewyork.com/screenings/society-35mm-the-surreal-nightmares-of-screaming-mad-george/",
@@ -5377,6 +5205,15 @@
    "runtime": 160,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-23",
+   "time": "17:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5717,15 +5554,6 @@
   },
   {
    "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-23",
-   "time": "19:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Primetime",
    "date": "2026-10-23",
    "time": "19:00",
@@ -7443,6 +7271,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-24",
+   "time": "17:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "mg",
    "title": "ACE Presents: Rosemary's Baby",
    "date": "2026-10-24",
@@ -7758,15 +7595,6 @@
   },
   {
    "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-24",
-   "time": "19:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Primetime",
    "date": "2026-10-24",
    "time": "19:00",
@@ -9551,6 +9379,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-25",
+   "time": "17:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "afa",
    "title": "IN THE MOMENT: WORLD POETRY DUELS AND IMPROVISATIONS",
    "date": "2026-10-25",
@@ -9739,16 +9576,6 @@
   },
   {
    "venue": "bam",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-10-25",
-   "time": "18:40",
-   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "bam",
    "title": "Ken Russell’s The Devils",
    "date": "2026-10-25",
    "time": "18:40",
@@ -9860,8 +9687,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Primetime",
+   "venue": "quad",
+   "title": "You Can See Everything",
    "date": "2026-10-25",
    "time": "19:00",
    "genres": [],
@@ -9869,10 +9696,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "You Can See Everything",
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-10-25",
-   "time": "19:00",
+   "time": "19:10",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10140,16 +9968,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "bam",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-10-25",
-   "time": "21:00",
-   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Fjord",
    "date": "2026-10-25",
@@ -10268,6 +10086,16 @@
    "runtime": 165,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/possible-love",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-10-25",
+   "time": "21:30",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11328,6 +11156,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-26",
+   "time": "17:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-10-26",
@@ -11653,15 +11490,6 @@
   },
   {
    "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-26",
-   "time": "19:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Primetime",
    "date": "2026-10-26",
    "time": "19:00",
@@ -13096,6 +12924,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-27",
+   "time": "17:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-10-27",
@@ -13155,6 +12992,16 @@
    "date": "2026-10-27",
    "time": "18:00",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "maysles",
+   "title": "Ishmael Reed’s Gospel Opera GETHSEMANE PARK",
+   "date": "2026-10-27",
+   "time": "18:00",
+   "url": "https://www.maysles.org/calendar/gethsemane-park",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -13417,15 +13264,6 @@
   },
   {
    "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-27",
-   "time": "19:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
    "title": "Primetime",
    "date": "2026-10-27",
    "time": "19:00",
