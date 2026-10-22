@@ -1,7 +1,7 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 181,
+  "total": 179,
   "classified": 47,
   "unresolved": [
    {
@@ -53,50 +53,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "digger|",
-    "title": "Digger",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "case137|",
-    "title": "Case 137",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "youcanseeeverything|",
     "title": "You Can See Everything",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "winterofthecrow|",
-    "title": "Winter of the Crow",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "wicker|",
-    "title": "WICKER",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "biggirlsdontcry|",
-    "title": "BIG GIRLS DON'T CRY",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "musk|",
-    "title": "MUSK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "labolanegra|",
-    "title": "La Bola Negra",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -119,12 +77,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "onlylivingpickpocketinnewyork|",
-    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "invite|",
     "title": "THE INVITE",
     "year": null,
@@ -135,6 +87,18 @@
     "title": "TONY",
     "year": null,
     "reason": "ambiguous"
+   },
+   {
+    "key": "case137|",
+    "title": "Case 137",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "winterofthecrow|",
+    "title": "Winter of the Crow",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "socialreckoning|",
@@ -149,12 +113,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "ifigowilltheymissme|",
-    "title": "IF I GO WILL THEY MISS ME",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
     "key": "myundesirablefriendspartiiexilechapters45|",
     "title": "MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 4-5",
     "year": null,
@@ -167,6 +125,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "onlylivingpickpocketinnewyork|",
+    "title": "The Only Living Pickpocket in New York",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "trustmeimadoctor|",
     "title": "TRUST ME IM A DOCTOR",
     "year": null,
@@ -175,6 +139,18 @@
    {
     "key": "ashesdiamonds|",
     "title": "ASHES & DIAMONDS",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "labolanegra|",
+    "title": "La Bola Negra",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "wicker|",
+    "title": "WICKER",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -251,6 +227,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "digger|",
+    "title": "Digger",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "walesamanofhope|",
     "title": "WALESA: MAN OF HOPE",
     "year": null,
@@ -259,6 +241,12 @@
    {
     "key": "fly|",
     "title": "The Fly",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "musk|",
+    "title": "MUSK",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -812,7 +800,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-22T17:18:29.171Z",
+ "fetchedAt": "2026-10-22T21:44:07.795Z",
  "week": [
   "2026-10-22",
   "2026-10-23",
@@ -1030,37 +1018,35 @@
    "name": "Film Forum",
    "ok": true,
    "count": 131,
-   "ms": 581
+   "ms": 1122
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP 403 on GET /nyc/",
-   "carried": 49,
-   "carriedFrom": "2026-10-22T12:04:14.973Z"
+   "ok": true,
+   "count": 49,
+   "ms": 187
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 195,
-   "ms": 414
+   "ms": 220
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 19,
-   "ms": 526
+   "ms": 650
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 94,
-   "ms": 435
+   "count": 91,
+   "ms": 281
   },
   {
    "id": "cv",
@@ -1069,28 +1055,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /showtimes/",
    "carried": 27,
-   "carriedFrom": "2026-10-22T12:04:14.973Z"
+   "carriedFrom": "2026-10-22T17:18:29.171Z"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
-   "count": 17,
-   "ms": 360
+   "count": 18,
+   "ms": 274
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 180,
-   "ms": 5426
+   "count": 170,
+   "ms": 6653
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 27,
-   "ms": 2019
+   "count": 26,
+   "ms": 2645
   },
   {
    "id": "wrt",
@@ -1113,21 +1099,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 124,
-   "ms": 449
+   "ms": 283
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 56,
-   "ms": 5555
+   "ms": 5139
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 133,
-   "ms": 6901
+   "ms": 6124
   },
   {
    "id": "spec",
@@ -1142,7 +1128,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 11,
-   "ms": 1863
+   "ms": 1394
   },
   {
    "id": "momi",
@@ -1157,7 +1143,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 5,
-   "ms": 1224
+   "ms": 1083
   },
   {
    "id": "kew",
@@ -1172,7 +1158,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 2,
-   "ms": 4274
+   "ms": 3044
   }
  ],
  "notices": {},
@@ -1293,26 +1279,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Digger",
-   "date": "2026-10-22",
-   "time": "12:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "One in a Million",
-   "date": "2026-10-22",
-   "time": "13:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Case 137",
    "date": "2026-10-22",
    "time": "13:00",
    "genres": [],
@@ -1338,43 +1306,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Winter of the Crow",
-   "date": "2026-10-22",
-   "time": "13:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WICKER",
-   "date": "2026-10-22",
-   "time": "13:30",
-   "fmt": "Standard",
-   "director": "Alex Huston Fischer & Eleanor Wilson",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "BIG GIRLS DON'T CRY",
-   "date": "2026-10-22",
-   "time": "13:30",
-   "fmt": "Standard",
-   "director": "Paloma Schneideman",
-   "runtime": 100,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/big-girls-dont-cry",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-10-22",
@@ -1389,27 +1320,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-22",
-   "time": "13:50",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "ff",
@@ -1427,20 +1337,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "528"
-  },
-  {
-   "venue": "angelika",
-   "title": "MUSK",
-   "date": "2026-10-22",
-   "time": "14:15",
-   "fmt": "Standard",
-   "director": "Alex Gibney",
-   "runtime": 232,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/musk",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -1465,19 +1361,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "3917"
-  },
-  {
-   "venue": "paris",
-   "title": "La Bola Negra",
-   "date": "2026-10-22",
-   "time": "14:35",
-   "runtime": 160,
-   "fmt": "35MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3120/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
@@ -1508,38 +1391,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-22",
-   "time": "15:00",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Fjord",
    "date": "2026-10-22",
    "time": "15:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-10-22",
-   "time": "15:05",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1669,34 +1524,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "angelika",
-   "title": "WICKER",
-   "date": "2026-10-22",
-   "time": "16:00",
-   "fmt": "Standard",
-   "director": "Alex Huston Fischer & Eleanor Wilson",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "IF I GO WILL THEY MISS ME",
-   "date": "2026-10-22",
-   "time": "16:00",
-   "fmt": "Standard",
-   "director": "Walter Thompson-Hernandez",
-   "runtime": 95,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/if-i-go-will-they-miss-me",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "You Can See Everything",
    "date": "2026-10-22",
@@ -1767,27 +1594,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER in 35MM",
-   "date": "2026-10-22",
-   "time": "16:20",
-   "fmt": "35mm",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother-in-35mm",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "bam",
@@ -1906,20 +1712,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1599181
-  },
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-22",
-   "time": "17:15",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -2070,8 +1862,8 @@
    "title": "An American Werewolf in London",
    "date": "2026-10-22",
    "time": "18:35",
-   "url": "https://ticketing.useast.veezi.com/purchase/6641?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
+   "url": "",
+   "note": "Sold out",
    "genres": [
     "comedy",
     "horror",
@@ -2941,20 +2733,20 @@
   },
   {
    "venue": "bam",
-   "title": "Ken Russell’s The Devils",
+   "title": "You Can See Everything",
    "date": "2026-10-23",
    "time": "13:00",
-   "url": "https://www.bam.org/film/2026/the-devils",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "bam",
-   "title": "You Can See Everything",
+   "title": "Ken Russell’s The Devils",
    "date": "2026-10-23",
    "time": "13:00",
-   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "url": "https://www.bam.org/film/2026/the-devils",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6036,7 +5828,7 @@
    "fmt": "Q&A to follow the screening",
    "director": "Noah Segan",
    "runtime": 88,
-   "note": "",
+   "note": "Sold out",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
    "genres": [],
    "sourceGenres": [],
@@ -7279,6 +7071,27 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "roxy",
+   "title": "Chronovisor",
+   "date": "2026-10-25",
+   "time": "14:45",
+   "url": "https://www.roxycinemanewyork.com/screenings/chronovisor/",
+   "note": "",
+   "fmt": "",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "nhp",
    "title": "Fjord",
    "date": "2026-10-25",
@@ -8229,8 +8042,8 @@
    "title": "The History of Concrete",
    "date": "2026-10-25",
    "time": "20:45",
-   "url": "https://ticketing.useast.veezi.com/purchase/6661?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
+   "url": "",
+   "note": "Sold out",
    "genres": [
     "documentary",
     "comedy"
