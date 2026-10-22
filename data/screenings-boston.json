@@ -260,7 +260,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-22T05:00:49.199Z",
+ "fetchedAt": "2026-10-22T12:04:22.190Z",
  "week": [
   "2026-10-22",
   "2026-10-23",
@@ -338,14 +338,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 18,
-   "ms": 2538
+   "ms": 2363
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 156,
-   "ms": 5323
+   "ms": 3183
   },
   {
    "id": "somerville",
@@ -360,14 +360,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 84,
-   "ms": 1233
+   "ms": 1174
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 7,
-   "ms": 294
+   "ms": 299
   },
   {
    "id": "mfa",
@@ -631,21 +631,16 @@
    "url": "https://brattlefilm.org/purchase/1734271/",
    "filmUrl": "https://brattlefilm.org/movies/north-by-northwest/",
    "genres": [
-    "action",
-    "adventure",
-    "thriller",
-    "romance"
+    "thriller"
    ],
-   "year": null,
+   "year": 1959,
    "sourceGenres": [
-    "Action",
-    "Adventure",
     "Mystery",
-    "Romance",
+    "Thriller",
+    "Mystery",
     "Thriller"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "908"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -778,21 +773,16 @@
    "url": "https://brattlefilm.org/purchase/1734273/",
    "filmUrl": "https://brattlefilm.org/movies/north-by-northwest/",
    "genres": [
-    "action",
-    "adventure",
-    "thriller",
-    "romance"
+    "thriller"
    ],
-   "year": null,
+   "year": 1959,
    "sourceGenres": [
-    "Action",
-    "Adventure",
     "Mystery",
-    "Romance",
+    "Thriller",
+    "Mystery",
     "Thriller"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "908"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
