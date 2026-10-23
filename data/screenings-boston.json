@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 54,
-  "classified": 15,
+  "classified": 17,
   "unresolved": [
    {
     "key": "devils|",
@@ -47,20 +47,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "uniontown|",
-    "title": "Union Town",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "mandy|",
     "title": "Mandy",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "jeanmichelbasquiat|",
-    "title": "Jean-Michel Basquiat",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -242,7 +230,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-23T17:17:04.331Z",
+ "fetchedAt": "2026-10-23T21:30:47.035Z",
  "week": [
   "2026-10-23",
   "2026-10-24",
@@ -320,14 +308,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 17,
-   "ms": 3041
+   "ms": 2942
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 152,
-   "ms": 1514
+   "ms": 5189
   },
   {
    "id": "somerville",
@@ -342,14 +330,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 84,
-   "ms": 1062
+   "ms": 1090
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 8,
-   "ms": 195
+   "ms": 322
   },
   {
    "id": "mfa",
@@ -598,10 +586,14 @@
    "time": "18:00",
    "url": "https://events.bostonglobe.com/2026/globedocs",
    "filmUrl": "https://brattlefilm.org/movies/union-town/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -734,10 +726,14 @@
    "time": "20:30",
    "url": "https://events.bostonglobe.com/2026/globedocs",
    "filmUrl": "https://brattlefilm.org/movies/jean-michel-basquiat/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
