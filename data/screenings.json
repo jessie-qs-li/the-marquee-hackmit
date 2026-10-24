@@ -1,21 +1,9 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 182,
+  "total": 183,
   "classified": 57,
   "unresolved": [
-   {
-    "key": "onlylivingpickpocketinnewyork|",
-    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "labolanegra|",
-    "title": "LA BOLA NEGRA",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
    {
     "key": "oneinamillion|",
     "title": "One in a Million",
@@ -35,12 +23,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "possiblelove|",
-    "title": "POSSIBLE LOVE",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "wildwood|",
     "title": "Wildwood",
     "year": null,
@@ -53,8 +35,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "wicker|",
-    "title": "WICKER",
+    "key": "spoonstoonsboozehalloween|",
+    "title": "Spoons Toons & Booze Halloween",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -67,6 +49,12 @@
    {
     "key": "winterofthecrow|",
     "title": "Winter of the Crow",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "onlylivingpickpocketinnewyork|",
+    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -163,6 +151,24 @@
    {
     "key": "papamelissa|",
     "title": "PAPA MELISSA",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "wicker|",
+    "title": "WICKER",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "possiblelove|",
+    "title": "POSSIBLE LOVE",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "labolanegra|",
+    "title": "La Bola Negra",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -758,7 +764,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-24T11:14:08.887Z",
+ "fetchedAt": "2026-10-24T16:03:49.455Z",
  "week": [
   "2026-10-24",
   "2026-10-25",
@@ -976,35 +982,37 @@
    "name": "Film Forum",
    "ok": true,
    "count": 114,
-   "ms": 1167
+   "ms": 943
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": true,
-   "count": 54,
-   "ms": 102
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 on GET /nyc/",
+   "carried": 54,
+   "carriedFrom": "2026-10-24T11:14:08.887Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 165,
-   "ms": 102
+   "ms": 286
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 23,
-   "ms": 443
+   "ms": 923
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 90,
-   "ms": 157
+   "ms": 331
   },
   {
    "id": "cv",
@@ -1013,28 +1021,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /showtimes/",
    "carried": 14,
-   "carriedFrom": "2026-10-24T04:46:45.451Z"
+   "carriedFrom": "2026-10-24T11:14:08.887Z"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 18,
-   "ms": 98
+   "ms": 320
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 178,
-   "ms": 6033
+   "count": 172,
+   "ms": 5246
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 26,
-   "ms": 1891
+   "count": 25,
+   "ms": 1734
   },
   {
    "id": "wrt",
@@ -1057,21 +1065,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 109,
-   "ms": 266
+   "ms": 530
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 35,
-   "ms": 3994
+   "count": 42,
+   "ms": 5356
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 126,
-   "ms": 5312
+   "ms": 6726
   },
   {
    "id": "spec",
@@ -1086,7 +1094,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 13,
-   "ms": 1307
+   "ms": 1431
   },
   {
    "id": "momi",
@@ -1101,7 +1109,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 4,
-   "ms": 260
+   "ms": 526
   },
   {
    "id": "kew",
@@ -1117,39 +1125,11 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 1544
+   "ms": 1401
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-24",
-   "time": "10:05",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA",
-   "date": "2026-10-24",
-   "time": "10:20",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "ifc",
    "title": "The History of Concrete",
@@ -1189,33 +1169,6 @@
    "title": "The Great Experiment",
    "date": "2026-10-24",
    "time": "10:55",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "paris",
-   "title": "La Bola Negra",
-   "date": "2026-10-24",
-   "time": "10:55",
-   "runtime": 160,
-   "fmt": "35MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3139/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "POSSIBLE LOVE",
-   "date": "2026-10-24",
-   "time": "11:00",
-   "fmt": "English subtitles",
-   "director": "Lee Chang-dong",
-   "runtime": 165,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/possible-love",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1312,53 +1265,13 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
+   "venue": "nhw",
+   "title": "Spoons Toons & Booze Halloween",
    "date": "2026-10-24",
-   "time": "11:45",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
+   "time": "11:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WICKER",
-   "date": "2026-10-24",
-   "time": "11:45",
-   "fmt": "Open Captions",
-   "director": "Alex Huston Fischer & Eleanor Wilson",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
-   "date": "2026-10-24",
-   "time": "11:45",
-   "fmt": "Open Captions",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
   },
   {
    "venue": "nhp",
@@ -3344,6 +3257,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Spoons Toons & Booze Halloween",
+   "date": "2026-10-25",
+   "time": "11:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "Making Marie Antoinette",
    "date": "2026-10-25",
@@ -5217,6 +5139,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Spoons Toons & Booze Halloween",
+   "date": "2026-10-26",
+   "time": "11:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-26",
@@ -6954,6 +6885,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Spoons Toons & Booze Halloween",
+   "date": "2026-10-27",
+   "time": "11:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-27",
@@ -8666,6 +8606,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Spoons Toons & Booze Halloween",
+   "date": "2026-10-28",
+   "time": "11:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-28",
@@ -10216,6 +10165,15 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "nhw",
+   "title": "Spoons Toons & Booze Halloween",
+   "date": "2026-10-29",
+   "time": "11:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-29",
@@ -11691,6 +11649,15 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
+  },
+  {
+   "venue": "nhw",
+   "title": "Spoons Toons & Booze Halloween",
+   "date": "2026-10-30",
+   "time": "11:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
