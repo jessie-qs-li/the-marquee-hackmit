@@ -47,12 +47,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "winterofthecrow|",
-    "title": "Winter of the Crow",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "onceuponatimeinharlem|",
     "title": "ONCE UPON A TIME IN HARLEM",
     "year": null,
@@ -95,15 +89,15 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "youcanseeeverything|",
-    "title": "You Can See Everything",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "flavorofgreenteaoverrice|1952",
     "title": "The Flavor of Green Tea Over Rice",
     "year": 1952,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "youcanseeeverything|",
+    "title": "You Can See Everything",
+    "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -127,12 +121,6 @@
    {
     "key": "onlylivingpickpocketinnewyork|",
     "title": "The Only Living Pickpocket in New York",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "makingmarieantoinette|",
-    "title": "Making Marie Antoinette",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -173,6 +161,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "makingmarieantoinette|",
+    "title": "Making Marie Antoinette",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "clayface|",
     "title": "Clayface",
     "year": null,
@@ -209,12 +203,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "labolanegra|",
-    "title": "LA BOLA NEGRA",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "acepresentsrosemarysbaby|1968",
     "title": "ACE Presents: Rosemary's Baby",
     "year": 1968,
@@ -223,12 +211,6 @@
    {
     "key": "fugsfilm|",
     "title": "FUGS FILM!",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "possiblelove|",
-    "title": "POSSIBLE LOVE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -287,6 +269,18 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "labolanegra|",
+    "title": "LA BOLA NEGRA",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "possiblelove|",
+    "title": "POSSIBLE LOVE",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "citydudes|",
     "title": "City Dudes",
     "year": null,
@@ -320,6 +314,12 @@
     "key": "artcinemafortotshowtoplayafilm|2011",
     "title": "Art Cinema for Tots: How to Play a Film",
     "year": 2011,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "winterofthecrow|",
+    "title": "Winter of the Crow",
+    "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -764,7 +764,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-24T20:57:42.579Z",
+ "fetchedAt": "2026-10-24T23:22:00.943Z",
  "week": [
   "2026-10-24",
   "2026-10-25",
@@ -982,7 +982,7 @@
    "name": "Film Forum",
    "ok": true,
    "count": 114,
-   "ms": 1026
+   "ms": 914
   },
   {
    "id": "mg",
@@ -991,28 +991,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /nyc/",
    "carried": 54,
-   "carriedFrom": "2026-10-24T16:03:49.455Z"
+   "carriedFrom": "2026-10-24T20:57:42.579Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 165,
-   "ms": 167
+   "ms": 421
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 23,
-   "ms": 445
+   "ms": 340
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 90,
-   "ms": 155
+   "count": 87,
+   "ms": 263
   },
   {
    "id": "cv",
@@ -1021,28 +1021,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /showtimes/",
    "carried": 14,
-   "carriedFrom": "2026-10-24T16:03:49.455Z"
+   "carriedFrom": "2026-10-24T20:57:42.579Z"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 18,
-   "ms": 55
+   "ms": 232
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 163,
-   "ms": 6072
+   "count": 159,
+   "ms": 6074
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 24,
-   "ms": 1952
+   "count": 23,
+   "ms": 2017
   },
   {
    "id": "wrt",
@@ -1065,21 +1065,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 109,
-   "ms": 243
+   "ms": 415
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 56,
+   "count": 42,
    "ms": 5588
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 126,
-   "ms": 7895
+   "count": 119,
+   "ms": 6756
   },
   {
    "id": "spec",
@@ -1094,7 +1094,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 13,
-   "ms": 950
+   "ms": 1146
   },
   {
    "id": "momi",
@@ -1109,7 +1109,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 4,
-   "ms": 984
+   "ms": 824
   },
   {
    "id": "kew",
@@ -1122,10 +1122,9 @@
   {
    "id": "udocs",
    "name": "UnionDocs",
-   "ok": true,
+   "ok": false,
    "count": 0,
-   "empty": true,
-   "ms": 1128
+   "error": "HTTP 504 on GET /wp-json/tribe/events/v1/events"
   }
  ],
  "notices": {},
@@ -1283,15 +1282,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Winter of the Crow",
-   "date": "2026-10-24",
-   "time": "12:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "ONCE UPON A TIME IN HARLEM",
    "date": "2026-10-24",
@@ -1368,15 +1358,6 @@
   {
    "venue": "nhp",
    "title": "Something You Should Know About Me",
-   "date": "2026-10-24",
-   "time": "12:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "You Can See Everything",
    "date": "2026-10-24",
    "time": "12:45",
    "genres": [],
@@ -1507,15 +1488,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "8264"
-  },
-  {
-   "venue": "quad",
-   "title": "Making Marie Antoinette",
-   "date": "2026-10-24",
-   "time": "13:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -1917,20 +1889,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA",
-   "date": "2026-10-24",
-   "time": "17:05",
-   "fmt": "Open Captions",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhw",
    "title": "Primetime",
    "date": "2026-10-24",
@@ -1980,33 +1938,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-10-24",
-   "time": "17:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "afa",
    "title": "FUGS FILM!",
    "date": "2026-10-24",
    "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "POSSIBLE LOVE",
-   "date": "2026-10-24",
-   "time": "18:00",
-   "fmt": "English subtitles",
-   "director": "Lee Chang-dong",
-   "runtime": 165,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/possible-love",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2059,42 +1994,6 @@
    "date": "2026-10-24",
    "time": "18:10",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-24",
-   "time": "18:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "paris",
-   "title": "La Bola Negra",
-   "date": "2026-10-24",
-   "time": "18:15",
-   "runtime": 160,
-   "fmt": "35MM, Intro",
-   "note": "Sold out",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3141/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-10-24",
-   "time": "18:30",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2242,20 +2141,6 @@
   },
   {
    "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-24",
-   "time": "19:10",
-   "fmt": "Q&A to follow the screening",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "Sold out",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
    "title": "WICKER",
    "date": "2026-10-24",
    "time": "19:15",
@@ -2331,15 +2216,6 @@
    "title": "Making Marie Antoinette",
    "date": "2026-10-24",
    "time": "19:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-24",
-   "time": "19:40",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4071,15 +3947,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-10-25",
-   "time": "17:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "POSSIBLE LOVE",
    "date": "2026-10-25",
@@ -4140,15 +4007,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "27773"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-25",
-   "time": "18:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "paris",
@@ -4439,15 +4297,6 @@
    "url": "https://www.roxycinemanewyork.com/screenings/miss-me-yet-qa/",
    "note": "",
    "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-25",
-   "time": "19:40",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5805,15 +5654,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-10-26",
-   "time": "17:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "POSSIBLE LOVE",
    "date": "2026-10-26",
@@ -5887,15 +5727,6 @@
    "year": 1991,
    "runtime": 100,
    "director": "Jean-Marie Straub, Danièle Huillet",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-26",
-   "time": "18:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6152,15 +5983,6 @@
    "title": "One in a Million",
    "date": "2026-10-26",
    "time": "19:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-26",
-   "time": "19:40",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7539,15 +7361,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-10-27",
-   "time": "17:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "A BRONX TALE",
    "date": "2026-10-27",
@@ -7632,15 +7445,6 @@
    "title": "You Can See Everything",
    "date": "2026-10-27",
    "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-27",
-   "time": "18:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7895,15 +7699,6 @@
    "title": "One in a Million",
    "date": "2026-10-27",
    "time": "19:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-27",
-   "time": "19:40",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9214,15 +9009,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-10-28",
-   "time": "17:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "POSSIBLE LOVE",
    "date": "2026-10-28",
@@ -9260,15 +9046,6 @@
    "title": "You Can See Everything",
    "date": "2026-10-28",
    "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-28",
-   "time": "18:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9529,15 +9306,6 @@
    "title": "Klara and the Sun",
    "date": "2026-10-28",
    "time": "19:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-28",
-   "time": "19:40",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10845,15 +10613,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-10-29",
-   "time": "17:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "POSSIBLE LOVE",
    "date": "2026-10-29",
@@ -10891,15 +10650,6 @@
    "title": "You Can See Everything",
    "date": "2026-10-29",
    "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-29",
-   "time": "18:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11143,15 +10893,6 @@
    "runtime": 121,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-29",
-   "time": "19:40",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11980,30 +11721,12 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-10-30",
-   "time": "17:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "synd",
    "title": "Primetime",
    "date": "2026-10-30",
    "time": "18:10",
    "url": "https://ticketing.useast.veezi.com/purchase/6650?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-30",
-   "time": "18:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12205,15 +11928,6 @@
    "runtime": 121,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-30",
-   "time": "19:40",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
