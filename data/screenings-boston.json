@@ -2,14 +2,8 @@
  "city": "boston",
  "genreCoverage": {
   "total": 55,
-  "classified": 15,
+  "classified": 19,
   "unresolved": [
-   {
-    "key": "forkintheroad|",
-    "title": "Fork in the Road",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
    {
     "key": "wicker|",
     "title": "Wicker",
@@ -35,12 +29,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "allaboutthemoney|",
-    "title": "All About the Money",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "diggerdigital|",
     "title": "Digger (Digital)",
     "year": null,
@@ -59,20 +47,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "othersideofmemory|",
-    "title": "The Other Side of Memory",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "devils|",
     "title": "The Devils (1971)",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "givemetheball|",
-    "title": "Give Me the Ball!",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -248,7 +224,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-24T04:46:55.109Z",
+ "fetchedAt": "2026-10-24T11:14:17.143Z",
  "week": [
   "2026-10-24",
   "2026-10-25",
@@ -326,14 +302,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 17,
-   "ms": 2562
+   "ms": 2025
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 129,
-   "ms": 5540
+   "ms": 4788
   },
   {
    "id": "somerville",
@@ -348,14 +324,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 72,
-   "ms": 1064
+   "ms": 738
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 7,
-   "ms": 293
+   "ms": 509
   },
   {
    "id": "mfa",
@@ -375,10 +351,14 @@
    "time": "11:00",
    "url": "https://events.bostonglobe.com/2026/globedocs",
    "filmUrl": "https://brattlefilm.org/movies/fork-in-the-road/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -490,10 +470,14 @@
    "time": "13:30",
    "url": "https://events.bostonglobe.com/2026/globedocs",
    "filmUrl": "https://brattlefilm.org/movies/all-about-the-money/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -608,10 +592,14 @@
    "time": "16:30",
    "url": "https://events.bostonglobe.com/2026/globedocs",
    "filmUrl": "https://brattlefilm.org/movies/the-other-side-of-memory/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -712,10 +700,14 @@
    "time": "19:00",
    "url": "https://events.bostonglobe.com/2026/globedocs",
    "filmUrl": "https://brattlefilm.org/movies/give-me-the-ball/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "hfa",
