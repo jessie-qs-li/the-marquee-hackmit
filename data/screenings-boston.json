@@ -224,7 +224,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-24T16:04:28.621Z",
+ "fetchedAt": "2026-10-24T20:57:48.889Z",
  "week": [
   "2026-10-24",
   "2026-10-25",
@@ -302,14 +302,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 17,
-   "ms": 2719
+   "ms": 2930
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 129,
-   "ms": 1901
+   "ms": 1420
   },
   {
    "id": "somerville",
@@ -324,16 +324,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 72,
-   "ms": 913
+   "ms": 1339
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
-   "ok": false,
-   "count": 0,
-   "error": "fetch failed",
-   "carried": 7,
-   "carriedFrom": "2026-10-24T11:14:17.143Z"
+   "ok": true,
+   "count": 7,
+   "ms": 414
   },
   {
    "id": "mfa",
