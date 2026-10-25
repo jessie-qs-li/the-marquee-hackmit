@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 54,
-  "classified": 15,
+  "classified": 17,
   "unresolved": [
    {
     "key": "mattheaton|",
@@ -59,20 +59,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "cuttodavid|",
-    "title": "Cut to David",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "diggerdigital|",
     "title": "Digger (Digital)",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "playingpotus|",
-    "title": "Playing POTUS",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -242,7 +230,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-25T04:54:10.596Z",
+ "fetchedAt": "2026-10-25T11:44:49.237Z",
  "week": [
   "2026-10-25",
   "2026-10-26",
@@ -320,14 +308,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 17,
-   "ms": 2108
+   "ms": 2725
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 111,
-   "ms": 3786
+   "ms": 5758
   },
   {
    "id": "somerville",
@@ -342,14 +330,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 54,
-   "ms": 661
+   "ms": 1332
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 6,
-   "ms": 378
+   "ms": 262
   },
   {
    "id": "mfa",
@@ -515,10 +503,14 @@
    "time": "13:30",
    "url": "https://events.bostonglobe.com/2026/globedocs",
    "filmUrl": "https://brattlefilm.org/movies/cut-to-david/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -603,12 +595,11 @@
    "genres": [
     "documentary"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
     "Documentary"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596302
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -722,10 +713,14 @@
    "time": "19:00",
    "url": "https://events.bostonglobe.com/2026/globedocs",
    "filmUrl": "https://brattlefilm.org/movies/playing-potus/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "hfa",
