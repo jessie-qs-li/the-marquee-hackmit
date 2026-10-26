@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 51,
-  "classified": 12,
+  "classified": 14,
   "unresolved": [
    {
     "key": "senseandsensibility|",
@@ -47,12 +47,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "mrnobodyagainstputin|",
-    "title": "Mr. Nobody Against Putin",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "seminaralien|",
     "title": "Seminar: Alien",
     "year": null,
@@ -67,12 +61,6 @@
    {
     "key": "hunted|",
     "title": "Hunted",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "elementsofcinemahalloween|",
-    "title": "Elements of Cinema: Halloween",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -242,7 +230,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-26T04:57:52.029Z",
+ "fetchedAt": "2026-10-26T13:16:58.215Z",
  "week": [
   "2026-10-26",
   "2026-10-27",
@@ -320,14 +308,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 17,
-   "ms": 2034
+   "ms": 2947
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 90,
-   "ms": 2275
+   "ms": 942
   },
   {
    "id": "somerville",
@@ -342,14 +330,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 40,
-   "ms": 697
+   "ms": 918
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 6,
-   "ms": 353
+   "ms": 134
   },
   {
    "id": "mfa",
@@ -495,10 +483,14 @@
    "time": "18:00",
    "url": "https://daviscenter.fas.harvard.edu/events/film-screening-mr-nobody-against-putin",
    "filmUrl": "https://brattlefilm.org/movies/mr-nobody-against-putin/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2025,
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -624,10 +616,16 @@
    "time": "21:00",
    "url": "https://brattlefilm.org/showtimes/elements-of-cinema-halloween-10-26-26-900-pm/",
    "filmUrl": "https://brattlefilm.org/movies/halloween/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "horror",
+    "thriller"
+   ],
+   "year": 1978,
+   "sourceGenres": [
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",

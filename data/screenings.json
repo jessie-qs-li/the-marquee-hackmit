@@ -1,8 +1,8 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 162,
-  "classified": 51,
+  "total": 161,
+  "classified": 52,
   "unresolved": [
    {
     "key": "musk|",
@@ -49,18 +49,6 @@
    {
     "key": "possiblelove|",
     "title": "POSSIBLE LOVE",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "wildwood|",
-    "title": "Wildwood",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "socialreckoning|",
-    "title": "The Social Reckoning",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -137,6 +125,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "primetime|",
+    "title": "Primetime",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
     "key": "tony|",
     "title": "TONY",
     "year": null,
@@ -145,6 +139,12 @@
    {
     "key": "inthecompanyofmenandwealthofanation|",
     "title": "IN THE COMPANY OF MEN and WEALTH OF A NATION",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "socialreckoning|",
+    "title": "The Social Reckoning",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -165,12 +165,6 @@
     "title": "Klara and the Sun",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "primetime|",
-    "title": "Primetime",
-    "year": null,
-    "reason": "ambiguous"
    },
    {
     "key": "missrepresentationriseup|",
@@ -247,12 +241,6 @@
    {
     "key": "downtownfestivalchroniclesofshpongle|",
     "title": "The Downtown Festival: Chronicles of Shpongle + Q&A",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "othermommy|",
-    "title": "Other Mommy",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -674,7 +662,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-26T04:57:46.504Z",
+ "fetchedAt": "2026-10-26T13:16:53.065Z",
  "week": [
   "2026-10-26",
   "2026-10-27",
@@ -892,7 +880,7 @@
    "name": "Film Forum",
    "ok": true,
    "count": 75,
-   "ms": 989
+   "ms": 673
   },
   {
    "id": "mg",
@@ -901,28 +889,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /nyc/",
    "carried": 43,
-   "carriedFrom": "2026-10-25T23:20:20.362Z"
+   "carriedFrom": "2026-10-26T04:57:46.504Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
-   "count": 108,
-   "ms": 217
+   "count": 113,
+   "ms": 122
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 23,
-   "ms": 377
+   "ms": 1054
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 74,
-   "ms": 174
+   "count": 75,
+   "ms": 392
   },
   {
    "id": "cv",
@@ -931,28 +919,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /showtimes/",
    "carried": 5,
-   "carriedFrom": "2026-10-25T23:20:20.362Z"
+   "carriedFrom": "2026-10-26T04:57:46.504Z"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 18,
-   "ms": 77
+   "ms": 402
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
    "count": 151,
-   "ms": 5907
+   "ms": 4574
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
    "count": 26,
-   "ms": 2162
+   "ms": 1537
   },
   {
    "id": "wrt",
@@ -975,21 +963,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 80,
-   "ms": 104
+   "ms": 597
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 35,
-   "ms": 4137
+   "ms": 4471
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 133,
-   "ms": 6411
+   "count": 70,
+   "ms": 6449
   },
   {
    "id": "spec",
@@ -1004,7 +992,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 17,
-   "ms": 1664
+   "ms": 1351
   },
   {
    "id": "momi",
@@ -1019,7 +1007,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 4,
-   "ms": 1119
+   "ms": 1014
   },
   {
    "id": "kew",
@@ -1035,7 +1023,7 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 1554
+   "ms": 2246
   }
  ],
  "notices": {},
@@ -1169,56 +1157,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-10-26",
-   "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Young Frankenstein",
-   "date": "2026-10-26",
-   "time": "11:00",
-   "genres": [
-    "comedy",
-    "scifi"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Fantasy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1278"
-  },
-  {
-   "venue": "nhp",
-   "title": "The History of Concrete",
-   "date": "2026-10-26",
-   "time": "11:15",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
-   "venue": "nhp",
-   "title": "The Social Reckoning",
-   "date": "2026-10-26",
-   "time": "11:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-26",
@@ -1245,23 +1183,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hotel Transylvania",
-   "date": "2026-10-26",
-   "time": "12:00",
-   "genres": [
-    "family",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Animation",
-    "Children",
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "97225"
   },
   {
    "venue": "quad",
@@ -1453,15 +1374,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-26",
-   "time": "14:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "FATHERLAND",
    "date": "2026-10-26",
@@ -1540,15 +1452,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-26",
-   "time": "14:35",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "paris",
    "title": "La Bola Negra",
    "date": "2026-10-26",
@@ -1586,7 +1489,16 @@
   },
   {
    "venue": "nhp",
-   "title": "Fjord",
+   "title": "Clayface",
+   "date": "2026-10-26",
+   "time": "14:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
    "date": "2026-10-26",
    "time": "14:45",
    "genres": [],
@@ -1623,6 +1535,24 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-26",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "The Social Reckoning",
+   "date": "2026-10-26",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-26",
@@ -1635,6 +1565,22 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-10-26",
+   "time": "15:15",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "ifc",
@@ -1734,6 +1680,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-10-26",
+   "time": "16:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "Making Marie Antoinette",
    "date": "2026-10-26",
@@ -1785,24 +1740,6 @@
    "genreMovieId": "206"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
-   "date": "2026-10-26",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-26",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "The Only Living Pickpocket in New York",
    "date": "2026-10-26",
@@ -1818,15 +1755,6 @@
    "date": "2026-10-26",
    "time": "16:30",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-10-26",
-   "time": "16:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1884,15 +1812,6 @@
    "date": "2026-10-26",
    "time": "16:45",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-26",
-   "time": "16:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1967,6 +1886,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-10-26",
+   "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "POSSIBLE LOVE",
    "date": "2026-10-26",
@@ -2015,7 +1943,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Fjord",
+   "title": "Clayface",
    "date": "2026-10-26",
    "time": "18:00",
    "genres": [],
@@ -2049,6 +1977,15 @@
    "year": 1991,
    "runtime": 100,
    "director": "Jean-Marie Straub, Danièle Huillet",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-10-26",
+   "time": "18:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2150,15 +2087,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-10-26",
-   "time": "18:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "You Can See Everything",
    "date": "2026-10-26",
@@ -2248,8 +2176,8 @@
    "tmdbId": 1629355
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
+   "venue": "nhw",
+   "title": "The Social Reckoning",
    "date": "2026-10-26",
    "time": "19:00",
    "genres": [],
@@ -2275,15 +2203,6 @@
    "runtime": 105,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Fjord",
-   "date": "2026-10-26",
-   "time": "19:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2328,10 +2247,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
+   "venue": "nhp",
+   "title": "Primetime",
    "date": "2026-10-26",
-   "time": "19:40",
+   "time": "19:35",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2449,6 +2368,15 @@
    "date": "2026-10-26",
    "time": "20:30",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-10-26",
+   "time": "20:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2572,6 +2500,24 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "The Blair Witch Project",
+   "date": "2026-10-26",
+   "time": "21:15",
+   "genres": [
+    "drama",
+    "horror",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2710"
+  },
+  {
    "venue": "bam",
    "title": "The History of Concrete",
    "date": "2026-10-26",
@@ -2649,24 +2595,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
-   "date": "2026-10-26",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-26",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-26",
@@ -2725,15 +2653,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-26",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
    "date": "2026-10-26",
@@ -2753,15 +2672,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1437396
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-26",
-   "time": "22:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "mg",
@@ -2784,15 +2694,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "52885"
-  },
-  {
-   "venue": "nhp",
-   "title": "Other Mommy",
-   "date": "2026-10-26",
-   "time": "22:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -2914,56 +2815,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-10-27",
-   "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Young Frankenstein",
-   "date": "2026-10-27",
-   "time": "11:00",
-   "genres": [
-    "comedy",
-    "scifi"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Fantasy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1278"
-  },
-  {
-   "venue": "nhp",
-   "title": "The History of Concrete",
-   "date": "2026-10-27",
-   "time": "11:15",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
-   "venue": "nhp",
-   "title": "The Social Reckoning",
-   "date": "2026-10-27",
-   "time": "11:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-27",
@@ -2990,23 +2841,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hotel Transylvania",
-   "date": "2026-10-27",
-   "time": "12:00",
-   "genres": [
-    "family",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Animation",
-    "Children",
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "97225"
   },
   {
    "venue": "quad",
@@ -3188,15 +3022,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-27",
-   "time": "14:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "FATHERLAND",
    "date": "2026-10-27",
@@ -3275,15 +3100,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-27",
-   "time": "14:35",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "paris",
    "title": "La Bola Negra",
    "date": "2026-10-27",
@@ -3321,7 +3137,16 @@
   },
   {
    "venue": "nhp",
-   "title": "Fjord",
+   "title": "Clayface",
+   "date": "2026-10-27",
+   "time": "14:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
    "date": "2026-10-27",
    "time": "14:45",
    "genres": [],
@@ -3348,6 +3173,24 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-27",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "The Social Reckoning",
+   "date": "2026-10-27",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-27",
@@ -3360,6 +3203,22 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-10-27",
+   "time": "15:15",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "ifc",
@@ -3444,6 +3303,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-10-27",
+   "time": "16:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "The Devils",
    "date": "2026-10-27",
@@ -3504,24 +3372,6 @@
    "genreMovieId": "206"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
-   "date": "2026-10-27",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-27",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "The Only Living Pickpocket in New York",
    "date": "2026-10-27",
@@ -3552,15 +3402,6 @@
    "date": "2026-10-27",
    "time": "16:30",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-10-27",
-   "time": "16:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3599,15 +3440,6 @@
    "date": "2026-10-27",
    "time": "16:45",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-27",
-   "time": "16:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3677,6 +3509,15 @@
    "title": "Naza",
    "date": "2026-10-27",
    "time": "17:35",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-10-27",
+   "time": "17:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3754,7 +3595,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Fjord",
+   "title": "Clayface",
    "date": "2026-10-27",
    "time": "18:00",
    "genres": [],
@@ -3766,6 +3607,15 @@
    "title": "Making Marie Antoinette",
    "date": "2026-10-27",
    "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-10-27",
+   "time": "18:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3881,15 +3731,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-10-27",
-   "time": "18:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "You Can See Everything",
    "date": "2026-10-27",
@@ -3960,8 +3801,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
+   "venue": "nhw",
+   "title": "The Social Reckoning",
    "date": "2026-10-27",
    "time": "19:00",
    "genres": [],
@@ -4004,15 +3845,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Fjord",
-   "date": "2026-10-27",
-   "time": "19:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
    "date": "2026-10-27",
@@ -4043,10 +3875,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
+   "venue": "nhp",
+   "title": "Primetime",
    "date": "2026-10-27",
-   "time": "19:40",
+   "time": "19:35",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4176,6 +4008,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-10-27",
+   "time": "20:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "The Only Living Pickpocket in New York",
    "date": "2026-10-27",
@@ -4236,6 +4077,24 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "The Blair Witch Project",
+   "date": "2026-10-27",
+   "time": "21:15",
+   "genres": [
+    "drama",
+    "horror",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2710"
   },
   {
    "venue": "bam",
@@ -4353,24 +4212,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
-   "date": "2026-10-27",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-27",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-27",
@@ -4423,15 +4264,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-27",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
    "date": "2026-10-27",
@@ -4451,15 +4283,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1437396
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-27",
-   "time": "22:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "mg",
@@ -4492,15 +4315,6 @@
    "year": 1995,
    "runtime": 83,
    "director": "Mamoru Oshii",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Other Mommy",
-   "date": "2026-10-27",
-   "time": "22:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4625,56 +4439,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-10-28",
-   "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Young Frankenstein",
-   "date": "2026-10-28",
-   "time": "11:00",
-   "genres": [
-    "comedy",
-    "scifi"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Fantasy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1278"
-  },
-  {
-   "venue": "nhp",
-   "title": "The History of Concrete",
-   "date": "2026-10-28",
-   "time": "11:15",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
-   "venue": "nhp",
-   "title": "The Social Reckoning",
-   "date": "2026-10-28",
-   "time": "11:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-28",
@@ -4701,23 +4465,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hotel Transylvania",
-   "date": "2026-10-28",
-   "time": "12:00",
-   "genres": [
-    "family",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Animation",
-    "Children",
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "97225"
   },
   {
    "venue": "quad",
@@ -4899,15 +4646,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-28",
-   "time": "14:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "FATHERLAND",
    "date": "2026-10-28",
@@ -4965,15 +4703,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-28",
-   "time": "14:35",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "paris",
    "title": "La Bola Negra",
    "date": "2026-10-28",
@@ -5007,7 +4736,16 @@
   },
   {
    "venue": "nhp",
-   "title": "Fjord",
+   "title": "Clayface",
+   "date": "2026-10-28",
+   "time": "14:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
    "date": "2026-10-28",
    "time": "14:45",
    "genres": [],
@@ -5045,6 +4783,24 @@
    "tmdbId": 1437396
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-28",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "The Social Reckoning",
+   "date": "2026-10-28",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-28",
@@ -5057,6 +4813,22 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-10-28",
+   "time": "15:15",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "quad",
@@ -5101,6 +4873,15 @@
    "date": "2026-10-28",
    "time": "16:00",
    "url": "https://www.bam.org/film/2026/the-devils",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-10-28",
+   "time": "16:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5171,24 +4952,6 @@
    "genreMovieId": "3917"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
-   "date": "2026-10-28",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-28",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "The Only Living Pickpocket in New York",
    "date": "2026-10-28",
@@ -5229,15 +4992,6 @@
    "date": "2026-10-28",
    "time": "16:30",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-10-28",
-   "time": "16:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5290,15 +5044,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-28",
-   "time": "16:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-10-28",
@@ -5329,6 +5074,15 @@
    "tmdbId": 1437396
   },
   {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-10-28",
+   "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "POSSIBLE LOVE",
    "date": "2026-10-28",
@@ -5354,7 +5108,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Fjord",
+   "title": "Clayface",
    "date": "2026-10-28",
    "time": "18:00",
    "genres": [],
@@ -5375,6 +5129,15 @@
    "title": "You Can See Everything",
    "date": "2026-10-28",
    "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-10-28",
+   "time": "18:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5501,15 +5264,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-10-28",
-   "time": "18:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "You Can See Everything",
    "date": "2026-10-28",
@@ -5605,8 +5359,8 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
+   "venue": "nhw",
+   "title": "The Social Reckoning",
    "date": "2026-10-28",
    "time": "19:00",
    "genres": [],
@@ -5650,18 +5404,9 @@
   },
   {
    "venue": "nhp",
-   "title": "Fjord",
+   "title": "Primetime",
    "date": "2026-10-28",
-   "time": "19:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-28",
-   "time": "19:40",
+   "time": "19:35",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5751,6 +5496,15 @@
   {
    "venue": "ifc",
    "title": "Habit",
+   "date": "2026-10-28",
+   "time": "20:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
    "date": "2026-10-28",
    "time": "20:45",
    "genres": [],
@@ -5886,6 +5640,24 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "The Blair Witch Project",
+   "date": "2026-10-28",
+   "time": "21:15",
+   "genres": [
+    "drama",
+    "horror",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2710"
+  },
+  {
    "venue": "bam",
    "title": "The History of Concrete",
    "date": "2026-10-28",
@@ -5983,24 +5755,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
-   "date": "2026-10-28",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-28",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-28",
@@ -6023,33 +5777,6 @@
    "fmt": "35MM",
    "note": "",
    "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3158/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-28",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-28",
-   "time": "22:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Other Mommy",
-   "date": "2026-10-28",
-   "time": "22:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6183,56 +5910,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-10-29",
-   "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Young Frankenstein",
-   "date": "2026-10-29",
-   "time": "11:00",
-   "genres": [
-    "comedy",
-    "scifi"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Fantasy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1278"
-  },
-  {
-   "venue": "nhp",
-   "title": "The History of Concrete",
-   "date": "2026-10-29",
-   "time": "11:15",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
-   "venue": "nhp",
-   "title": "The Social Reckoning",
-   "date": "2026-10-29",
-   "time": "11:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-29",
@@ -6259,23 +5936,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hotel Transylvania",
-   "date": "2026-10-29",
-   "time": "12:00",
-   "genres": [
-    "family",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Animation",
-    "Children",
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "97225"
   },
   {
    "venue": "quad",
@@ -6475,15 +6135,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-29",
-   "time": "14:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "EVEREST: THE OTHER SIDE",
    "date": "2026-10-29",
@@ -6550,17 +6201,17 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
+   "venue": "nhp",
+   "title": "Clayface",
    "date": "2026-10-29",
-   "time": "14:35",
+   "time": "14:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Fjord",
+   "venue": "nhw",
+   "title": "Primetime",
    "date": "2026-10-29",
    "time": "14:45",
    "genres": [],
@@ -6581,6 +6232,24 @@
    "title": "Naza",
    "date": "2026-10-29",
    "time": "14:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-29",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "The Social Reckoning",
+   "date": "2026-10-29",
+   "time": "15:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6608,6 +6277,22 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-10-29",
+   "time": "15:15",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "angelika",
@@ -6663,6 +6348,15 @@
    "date": "2026-10-29",
    "time": "16:00",
    "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-10-29",
+   "time": "16:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6739,24 +6433,6 @@
    "genreMovieId": "27266"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
-   "date": "2026-10-29",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-29",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "The Only Living Pickpocket in New York",
    "date": "2026-10-29",
@@ -6782,15 +6458,6 @@
    "date": "2026-10-29",
    "time": "16:30",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-10-29",
-   "time": "16:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6876,15 +6543,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-29",
-   "time": "16:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "EVEREST: THE OTHER SIDE",
    "date": "2026-10-29",
@@ -6941,6 +6599,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-10-29",
+   "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "POSSIBLE LOVE",
    "date": "2026-10-29",
@@ -6966,7 +6633,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Fjord",
+   "title": "Clayface",
    "date": "2026-10-29",
    "time": "18:00",
    "genres": [],
@@ -6987,6 +6654,15 @@
    "title": "You Can See Everything",
    "date": "2026-10-29",
    "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-10-29",
+   "time": "18:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7065,15 +6741,6 @@
   {
    "venue": "ifc",
    "title": "Closure",
-   "date": "2026-10-29",
-   "time": "18:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wildwood",
    "date": "2026-10-29",
    "time": "18:45",
    "genres": [],
@@ -7180,8 +6847,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
+   "venue": "nhw",
+   "title": "The Social Reckoning",
    "date": "2026-10-29",
    "time": "19:00",
    "genres": [],
@@ -7207,15 +6874,6 @@
    "runtime": 105,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Fjord",
-   "date": "2026-10-29",
-   "time": "19:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7253,10 +6911,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
+   "venue": "nhp",
+   "title": "Primetime",
    "date": "2026-10-29",
-   "time": "19:40",
+   "time": "19:35",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7353,6 +7011,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-10-29",
+   "time": "20:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "synd",
    "title": "Kwaidan",
    "date": "2026-10-29",
@@ -7438,6 +7105,24 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "The Blair Witch Project",
+   "date": "2026-10-29",
+   "time": "21:15",
+   "genres": [
+    "drama",
+    "horror",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2710"
   },
   {
    "venue": "bam",
@@ -7569,24 +7254,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
-   "date": "2026-10-29",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-29",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-29",
@@ -7619,33 +7286,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-29",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-29",
-   "time": "22:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Other Mommy",
-   "date": "2026-10-29",
-   "time": "22:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "paris",
    "title": "La Bola Negra",
    "date": "2026-10-30",
@@ -7673,31 +7313,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-10-30",
-   "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Young Frankenstein",
-   "date": "2026-10-30",
-   "time": "11:00",
-   "genres": [
-    "comedy",
-    "scifi"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Fantasy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1278"
-  },
-  {
    "venue": "angelika",
    "title": "EVEREST: THE OTHER SIDE",
    "date": "2026-10-30",
@@ -7707,31 +7322,6 @@
    "runtime": 115,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/everest-the-other-side",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The History of Concrete",
-   "date": "2026-10-30",
-   "time": "11:15",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
-   "venue": "nhp",
-   "title": "The Social Reckoning",
-   "date": "2026-10-30",
-   "time": "11:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7749,23 +7339,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hotel Transylvania",
-   "date": "2026-10-30",
-   "time": "12:00",
-   "genres": [
-    "family",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Animation",
-    "Children",
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "97225"
   },
   {
    "venue": "ifc",
@@ -7787,7 +7360,7 @@
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-10-30",
-   "time": "13:30",
+   "time": "13:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7875,24 +7448,6 @@
    "genreMovieId": "2291"
   },
   {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-30",
-   "time": "14:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-30",
-   "time": "14:35",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "paris",
    "title": "La Bola Negra",
    "date": "2026-10-30",
@@ -7907,9 +7462,36 @@
   },
   {
    "venue": "nhp",
-   "title": "Fjord",
+   "title": "Clayface",
    "date": "2026-10-30",
    "time": "14:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-30",
+   "time": "14:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-30",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "The Social Reckoning",
+   "date": "2026-10-30",
+   "time": "15:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7929,10 +7511,26 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-10-30",
+   "time": "15:15",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-10-30",
-   "time": "15:30",
+   "time": "15:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7941,16 +7539,7 @@
    "venue": "nhp",
    "title": "Klara and the Sun",
    "date": "2026-10-30",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-30",
-   "time": "16:15",
+   "time": "16:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8013,15 +7602,6 @@
    "genreMovieId": "2395"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-10-30",
-   "time": "16:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "QUEEN AT SEA",
    "date": "2026-10-30",
@@ -8031,15 +7611,6 @@
    "runtime": 121,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-30",
-   "time": "16:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8070,14 +7641,23 @@
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-10-30",
-   "time": "17:25",
+   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
-   "title": "Fjord",
+   "title": "Klara and the Sun",
+   "date": "2026-10-30",
+   "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Clayface",
    "date": "2026-10-30",
    "time": "18:00",
    "genres": [],
@@ -8091,6 +7671,15 @@
    "time": "18:10",
    "url": "https://ticketing.useast.veezi.com/purchase/6650?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-10-30",
+   "time": "18:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8172,15 +7761,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-10-30",
-   "time": "18:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Once Upon a Time in Harlem",
    "date": "2026-10-30",
@@ -8227,8 +7807,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
+   "venue": "nhw",
+   "title": "The Social Reckoning",
    "date": "2026-10-30",
    "time": "19:00",
    "genres": [],
@@ -8276,15 +7856,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Fjord",
-   "date": "2026-10-30",
-   "time": "19:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-10-30",
@@ -8308,10 +7879,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
+   "venue": "nhp",
+   "title": "Primetime",
    "date": "2026-10-30",
-   "time": "19:40",
+   "time": "19:35",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8354,6 +7925,15 @@
    "year": 1976,
    "runtime": 85,
    "director": "Chantal Akerman",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-10-30",
+   "time": "20:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8417,6 +7997,24 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "The Blair Witch Project",
+   "date": "2026-10-30",
+   "time": "21:15",
+   "genres": [
+    "drama",
+    "horror",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2710"
+  },
+  {
    "venue": "bam",
    "title": "Requiem",
    "date": "2026-10-30",
@@ -8459,19 +8057,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
+   "venue": "quad",
+   "title": "Who Killed Alex Odeh?",
    "date": "2026-10-30",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-30",
-   "time": "21:45",
+   "time": "21:35",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8522,33 +8111,6 @@
    "runtime": 115,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/everest-the-other-side",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-30",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-30",
-   "time": "22:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Other Mommy",
-   "date": "2026-10-30",
-   "time": "22:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8636,31 +8198,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-10-31",
-   "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Young Frankenstein",
-   "date": "2026-10-31",
-   "time": "11:00",
-   "genres": [
-    "comedy",
-    "scifi"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Fantasy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1278"
-  },
-  {
    "venue": "angelika",
    "title": "EVEREST: THE OTHER SIDE",
    "date": "2026-10-31",
@@ -8670,31 +8207,6 @@
    "runtime": 115,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/everest-the-other-side",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The History of Concrete",
-   "date": "2026-10-31",
-   "time": "11:15",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
-   "venue": "nhp",
-   "title": "The Social Reckoning",
-   "date": "2026-10-31",
-   "time": "11:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8747,23 +8259,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Hotel Transylvania",
-   "date": "2026-10-31",
-   "time": "12:00",
-   "genres": [
-    "family",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Animation",
-    "Children",
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "97225"
   },
   {
    "venue": "paris",
@@ -8899,7 +8394,25 @@
    "venue": "nhp",
    "title": "Clayface",
    "date": "2026-10-31",
-   "time": "14:15",
+   "time": "14:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
+   "date": "2026-10-31",
+   "time": "14:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-31",
+   "time": "15:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8908,16 +8421,7 @@
    "venue": "nhw",
    "title": "The Social Reckoning",
    "date": "2026-10-31",
-   "time": "14:35",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Fjord",
-   "date": "2026-10-31",
-   "time": "14:45",
+   "time": "15:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8956,6 +8460,22 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-10-31",
+   "time": "15:15",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "paris",
@@ -9049,16 +8569,7 @@
    "venue": "nhp",
    "title": "Klara and the Sun",
    "date": "2026-10-31",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-31",
-   "time": "16:15",
+   "time": "16:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9083,24 +8594,6 @@
    "date": "2026-10-31",
    "time": "16:30",
    "url": "https://www.bam.org/film/2026/once-upon-a-time-in-harlem",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-10-31",
-   "time": "16:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-31",
-   "time": "16:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9167,6 +8660,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-10-31",
+   "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "mg",
    "title": "The Brides of Dracula",
    "date": "2026-10-31",
@@ -9191,9 +8693,18 @@
   },
   {
    "venue": "nhp",
-   "title": "Fjord",
+   "title": "Clayface",
    "date": "2026-10-31",
    "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-10-31",
+   "time": "18:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9236,15 +8747,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-10-31",
-   "time": "18:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Once Upon a Time in Harlem",
    "date": "2026-10-31",
@@ -9268,8 +8770,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
+   "venue": "nhw",
+   "title": "The Social Reckoning",
    "date": "2026-10-31",
    "time": "19:00",
    "genres": [],
@@ -9317,19 +8819,19 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Fjord",
+   "venue": "quad",
+   "title": "Who Killed Alex Odeh?",
    "date": "2026-10-31",
-   "time": "19:15",
+   "time": "19:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Who Killed Alex Odeh?",
+   "venue": "nhp",
+   "title": "Primetime",
    "date": "2026-10-31",
-   "time": "19:30",
+   "time": "19:35",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9357,15 +8859,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "5445"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
-   "date": "2026-10-31",
-   "time": "19:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "mg",
@@ -9429,6 +8922,15 @@
    "genreMovieId": "1997"
   },
   {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-10-31",
+   "time": "20:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "roxy",
    "title": "Halloween",
    "date": "2026-10-31",
@@ -9467,6 +8969,24 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "The Blair Witch Project",
+   "date": "2026-10-31",
+   "time": "21:15",
+   "genres": [
+    "drama",
+    "horror",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2710"
   },
   {
    "venue": "angelika",
@@ -9508,24 +9028,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
-   "date": "2026-10-31",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-10-31",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "The Rocky Horror Picture Show: Live Shadow Cast",
    "date": "2026-10-31",
@@ -9558,24 +9060,6 @@
    "runtime": 160,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-10-31",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-10-31",
-   "time": "22:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9624,15 +9108,6 @@
    "year": 1982,
    "runtime": 117,
    "director": "Ridley Scott",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Other Mommy",
-   "date": "2026-10-31",
-   "time": "22:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9709,56 +9184,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-11-01",
-   "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Young Frankenstein",
-   "date": "2026-11-01",
-   "time": "11:00",
-   "genres": [
-    "comedy",
-    "scifi"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "Fantasy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1278"
-  },
-  {
-   "venue": "nhp",
-   "title": "The History of Concrete",
-   "date": "2026-11-01",
-   "time": "11:15",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
-  },
-  {
-   "venue": "nhp",
-   "title": "The Social Reckoning",
-   "date": "2026-11-01",
-   "time": "11:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "QUEEN AT SEA",
    "date": "2026-11-01",
@@ -9773,21 +9198,13 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Hotel Transylvania",
+   "venue": "quad",
+   "title": "Who Killed Alex Odeh?",
    "date": "2026-11-01",
-   "time": "12:00",
-   "genres": [
-    "family",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Animation",
-    "Children",
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "97225"
+   "time": "12:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -9804,10 +9221,24 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Who Killed Alex Odeh?",
+   "venue": "ifc",
+   "title": "The Last Winter",
    "date": "2026-11-01",
    "time": "13:00",
+   "genres": [
+    "horror"
+   ],
+   "sourceGenres": [
+    "Horror"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "55492"
+  },
+  {
+   "venue": "ifc",
+   "title": "Closure",
+   "date": "2026-11-01",
+   "time": "13:35",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9847,15 +9278,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-11-01",
-   "time": "14:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "paris",
    "title": "La Bola Negra",
    "date": "2026-11-01",
@@ -9869,17 +9291,26 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
+   "venue": "quad",
+   "title": "Who Killed Alex Odeh?",
    "date": "2026-11-01",
-   "time": "14:35",
+   "time": "14:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
-   "title": "Fjord",
+   "title": "Clayface",
+   "date": "2026-11-01",
+   "time": "14:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Primetime",
    "date": "2026-11-01",
    "time": "14:45",
    "genres": [],
@@ -9901,8 +9332,17 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Who Killed Alex Odeh?",
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-01",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "The Social Reckoning",
    "date": "2026-11-01",
    "time": "15:00",
    "genres": [],
@@ -9927,6 +9367,22 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "26861"
+  },
+  {
+   "venue": "nhp",
+   "title": "The History of Concrete",
+   "date": "2026-11-01",
+   "time": "15:15",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "angelika",
@@ -9976,16 +9432,7 @@
    "venue": "nhp",
    "title": "Klara and the Sun",
    "date": "2026-11-01",
-   "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-11-01",
-   "time": "16:15",
+   "time": "16:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10005,24 +9452,6 @@
    "date": "2026-11-01",
    "time": "16:30",
    "url": "https://www.bam.org/film/2026/once-upon-a-time-in-harlem",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-01",
-   "time": "16:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-11-01",
-   "time": "16:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10077,6 +9506,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-11-01",
+   "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "Jennifer’s Body",
    "date": "2026-11-01",
@@ -10098,8 +9536,24 @@
    "genreMovieId": "71205"
   },
   {
+   "venue": "ifc",
+   "title": "Casino",
+   "date": "2026-11-01",
+   "time": "18:00",
+   "genres": [
+    "thriller",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Crime",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "16"
+  },
+  {
    "venue": "nhp",
-   "title": "Fjord",
+   "title": "Clayface",
    "date": "2026-11-01",
    "time": "18:00",
    "genres": [],
@@ -10148,6 +9602,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-11-01",
+   "time": "18:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "paris",
    "title": "Wild River",
    "date": "2026-11-01",
@@ -10161,8 +9624,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
+   "venue": "ifc",
+   "title": "Closure",
    "date": "2026-11-01",
    "time": "18:45",
    "genres": [],
@@ -10189,19 +9652,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
+   "venue": "nhw",
+   "title": "The Social Reckoning",
    "date": "2026-11-01",
    "time": "19:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Fjord",
-   "date": "2026-11-01",
-   "time": "19:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10219,6 +9673,20 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ifc",
+   "title": "The Last Winter",
+   "date": "2026-11-01",
+   "time": "19:30",
+   "genres": [
+    "horror"
+   ],
+   "sourceGenres": [
+    "Horror"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "55492"
+  },
+  {
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-11-01",
@@ -10228,10 +9696,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Social Reckoning",
+   "venue": "nhp",
+   "title": "Primetime",
    "date": "2026-11-01",
-   "time": "19:40",
+   "time": "19:35",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10272,6 +9740,15 @@
    "date": "2026-11-01",
    "time": "20:35",
    "url": "https://www.bam.org/film/2026/the-spirit-noroi",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-11-01",
+   "time": "20:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10334,6 +9811,24 @@
   },
   {
    "venue": "nhw",
+   "title": "The Blair Witch Project",
+   "date": "2026-11-01",
+   "time": "21:15",
+   "genres": [
+    "drama",
+    "horror",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2710"
+  },
+  {
+   "venue": "nhw",
    "title": "You Can See Everything",
    "date": "2026-11-01",
    "time": "21:30",
@@ -10350,51 +9845,6 @@
    "fmt": "35MM",
    "note": "",
    "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3168/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Klara and the Sun",
-   "date": "2026-11-01",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-11-01",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-11-01",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Primetime",
-   "date": "2026-11-01",
-   "time": "22:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Other Mommy",
-   "date": "2026-11-01",
-   "time": "22:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
