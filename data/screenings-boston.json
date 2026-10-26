@@ -1,8 +1,8 @@
 {
  "city": "boston",
  "genreCoverage": {
-  "total": 51,
-  "classified": 14,
+  "total": 52,
+  "classified": 15,
   "unresolved": [
    {
     "key": "senseandsensibility|",
@@ -230,7 +230,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-26T13:16:58.215Z",
+ "fetchedAt": "2026-10-26T20:35:38.207Z",
  "week": [
   "2026-10-26",
   "2026-10-27",
@@ -307,15 +307,15 @@
    "id": "brattle",
    "name": "Brattle Theatre",
    "ok": true,
-   "count": 17,
-   "ms": 2947
+   "count": 18,
+   "ms": 2912
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 90,
-   "ms": 942
+   "ms": 4443
   },
   {
    "id": "somerville",
@@ -330,14 +330,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 40,
-   "ms": 918
+   "ms": 956
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 6,
-   "ms": 134
+   "ms": 313
   },
   {
    "id": "mfa",
@@ -1796,6 +1796,23 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "188"
+  },
+  {
+   "venue": "brattle",
+   "title": "The Gate",
+   "date": "2026-10-30",
+   "time": "15:30",
+   "url": "https://brattlefilm.org/purchase/1742868/",
+   "filmUrl": "https://brattlefilm.org/movies/the-gate/",
+   "genres": [
+    "horror"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Horror"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2451"
   },
   {
    "venue": "coolidge",

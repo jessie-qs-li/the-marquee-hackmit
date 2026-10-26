@@ -1,21 +1,9 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 161,
-  "classified": 52,
+  "total": 170,
+  "classified": 56,
   "unresolved": [
-   {
-    "key": "musk|",
-    "title": "MUSK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "onlylivingpickpocketinnewyork|",
-    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
    {
     "key": "oneinamillion|",
     "title": "One in a Million",
@@ -41,24 +29,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "labolanegra|",
-    "title": "La Bola Negra",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "possiblelove|",
-    "title": "POSSIBLE LOVE",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "wicker|",
-    "title": "WICKER",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "youcanseeeverything|",
     "title": "You Can See Everything",
     "year": null,
@@ -79,12 +49,6 @@
    {
     "key": "onceuponatimeinharlem|",
     "title": "ONCE UPON A TIME IN HARLEM",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "makingmarieantoinette|",
-    "title": "Making Marie Antoinette",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -115,6 +79,12 @@
    {
     "key": "papamelissa|",
     "title": "PAPA MELISSA",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "makingmarieantoinette|",
+    "title": "Making Marie Antoinette",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -167,14 +137,38 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "onlylivingpickpocketinnewyork|",
+    "title": "The Only Living Pickpocket in New York",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "missrepresentationriseup|",
     "title": "Miss Representation: Rise Up",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "wicker|",
+    "title": "WICKER",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "soulsofsin|",
     "title": "SOULS OF SIN",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "labolanegra|",
+    "title": "LA BOLA NEGRA",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "possiblelove|",
+    "title": "POSSIBLE LOVE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -240,7 +234,13 @@
    },
    {
     "key": "downtownfestivalchroniclesofshpongle|",
-    "title": "The Downtown Festival: Chronicles of Shpongle + Q&A",
+    "title": "The Downtown Festival: Chronicles of Shpongle",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "musk|",
+    "title": "MUSK",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -281,8 +281,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "tromeoandjuliet|",
-    "title": "TROMEO AND JULIET",
+    "key": "tromeoandjulietlloydkaufmaninpersononsunnov1|",
+    "title": "TROMEO AND JULIET (Lloyd Kaufman in person on Sun, Nov 1!)",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -365,8 +365,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "citizentoxiethetoxicavengeriv|",
-    "title": "CITIZEN TOXIE: THE TOXIC AVENGER IV",
+    "key": "citizentoxiethetoxicavengerivlloydkaufmaninpersononwedoct28|",
+    "title": "CITIZEN TOXIE: THE TOXIC AVENGER IV (Lloyd Kaufman in person on Wed, Oct 28!)",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -401,8 +401,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "shakespearesshitstorm|",
-    "title": "#SHAKESPEARE’S SHITSTORM",
+    "key": "shakespearesshitstormlloydkaufmaninpersononwedoct28|",
+    "title": "#SHAKESPEARE’S SHITSTORM (Lloyd Kaufman in person on Wed, Oct 28!)",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -455,8 +455,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "terrorfirmerlloydkaufmaninpersononthursoct29|",
-    "title": "TERROR FIRMER (Lloyd Kaufman in person on Thurs, Oct 29!)",
+    "key": "terrorfirmerlloydkaufmaninpersonforbothscreenings|",
+    "title": "TERROR FIRMER (Lloyd Kaufman in person for both screenings!)",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -623,6 +623,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "hugo3dscreening|2011",
+    "title": "Hugo [3D Screening]",
+    "year": 2011,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "tigerstripes|",
     "title": "Tiger Stripes",
     "year": null,
@@ -635,9 +641,27 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "gorgon|1964",
+    "title": "The Gorgon",
+    "year": 1964,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "ecerniegehr|",
     "title": "EC: ERNIE GEHR",
     "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "newsfromhomeinteriornysubway14thstreet|1976",
+    "title": "News from Home + Interior NY Subway, 14th Street",
+    "year": 1976,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "houndofthebaskervilles|1959",
+    "title": "The Hound of the Baskervilles",
+    "year": 1959,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -653,6 +677,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "somethingspecialwillymilly|1986",
+    "title": "Something Special (Willy/Milly)",
+    "year": 1986,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "noroithecurse|",
     "title": "Noroi: The Curse",
     "year": null,
@@ -662,7 +692,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-26T13:16:53.065Z",
+ "fetchedAt": "2026-10-26T20:35:29.389Z",
  "week": [
   "2026-10-26",
   "2026-10-27",
@@ -880,37 +910,35 @@
    "name": "Film Forum",
    "ok": true,
    "count": 75,
-   "ms": 673
+   "ms": 2097
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP 403 on GET /nyc/",
-   "carried": 43,
-   "carriedFrom": "2026-10-26T04:57:46.504Z"
+   "ok": true,
+   "count": 55,
+   "ms": 160
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
-   "count": 113,
-   "ms": 122
+   "count": 112,
+   "ms": 174
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 23,
-   "ms": 1054
+   "ms": 874
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 75,
-   "ms": 392
+   "count": 73,
+   "ms": 483
   },
   {
    "id": "cv",
@@ -919,28 +947,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /showtimes/",
    "carried": 5,
-   "carriedFrom": "2026-10-26T04:57:46.504Z"
+   "carriedFrom": "2026-10-26T13:16:53.065Z"
   },
   {
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 18,
-   "ms": 402
+   "ms": 409
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 151,
-   "ms": 4574
+   "count": 138,
+   "ms": 5098
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 26,
-   "ms": 1537
+   "count": 24,
+   "ms": 2081
   },
   {
    "id": "wrt",
@@ -962,22 +990,22 @@
    "id": "bam",
    "name": "BAM Rose Cinemas",
    "ok": true,
-   "count": 80,
-   "ms": 597
+   "count": 125,
+   "ms": 792
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 35,
-   "ms": 4471
+   "ms": 5606
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 70,
-   "ms": 6449
+   "count": 77,
+   "ms": 6971
   },
   {
    "id": "spec",
@@ -992,7 +1020,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 17,
-   "ms": 1351
+   "ms": 1601
   },
   {
    "id": "momi",
@@ -1007,7 +1035,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 4,
-   "ms": 1014
+   "ms": 757
   },
   {
    "id": "kew",
@@ -1023,60 +1051,11 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 2246
+   "ms": 1218
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "MUSK",
-   "date": "2026-10-26",
-   "time": "10:00",
-   "fmt": "Standard",
-   "director": "Alex Gibney",
-   "runtime": 232,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/musk",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-26",
-   "time": "10:05",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
-   "date": "2026-10-26",
-   "time": "10:35",
-   "fmt": "Standard",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
   {
    "venue": "ifc",
    "title": "The History of Concrete",
@@ -1130,61 +1109,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "paris",
-   "title": "La Bola Negra",
-   "date": "2026-10-26",
-   "time": "10:55",
-   "runtime": 160,
-   "fmt": "35MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3147/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "POSSIBLE LOVE",
-   "date": "2026-10-26",
-   "time": "11:00",
-   "fmt": "English subtitles",
-   "director": "Lee Chang-dong",
-   "runtime": 165,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/possible-love",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-10-26",
-   "time": "11:45",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WICKER",
-   "date": "2026-10-26",
-   "time": "11:45",
-   "fmt": "Standard",
-   "director": "Alex Huston Fischer & Eleanor Wilson",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-10-26",
@@ -1212,34 +1136,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-26",
-   "time": "12:15",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "ONCE UPON A TIME IN HARLEM",
    "date": "2026-10-26",
    "time": "12:15",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Making Marie Antoinette",
-   "date": "2026-10-26",
-   "time": "12:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1327,20 +1228,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA",
-   "date": "2026-10-26",
-   "time": "13:20",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "cv",
    "title": "PAPA MELISSA",
    "date": "2026-10-26",
@@ -1360,74 +1247,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "WICKER",
-   "date": "2026-10-26",
-   "time": "14:15",
-   "fmt": "Standard",
-   "director": "Alex Huston Fischer & Eleanor Wilson",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "FATHERLAND",
    "date": "2026-10-26",
    "time": "14:25",
    "note": "(OC)",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-26",
-   "time": "14:30",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
-   "date": "2026-10-26",
-   "time": "14:30",
-   "fmt": "Standard",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
-  {
-   "venue": "angelika",
-   "title": "POSSIBLE LOVE",
-   "date": "2026-10-26",
-   "time": "14:30",
-   "fmt": "English subtitles",
-   "director": "Lee Chang-dong",
-   "runtime": 165,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/possible-love",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1447,19 +1271,6 @@
    "title": "You Can See Everything",
    "date": "2026-10-26",
    "time": "14:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "paris",
-   "title": "La Bola Negra",
-   "date": "2026-10-26",
-   "time": "14:35",
-   "runtime": 160,
-   "fmt": "35MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3148/seats",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1548,20 +1359,6 @@
    "title": "The Social Reckoning",
    "date": "2026-10-26",
    "time": "15:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-10-26",
-   "time": "15:05",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1770,20 +1567,6 @@
   },
   {
    "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-26",
-   "time": "16:45",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
    "title": "WICKER",
    "date": "2026-10-26",
    "time": "16:45",
@@ -1792,6 +1575,20 @@
    "runtime": 105,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
+   "date": "2026-10-26",
+   "time": "16:45",
+   "fmt": "Standard",
+   "director": "Noah Segan",
+   "runtime": 88,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1872,6 +1669,15 @@
    "title": "Digger",
    "date": "2026-10-26",
    "time": "17:10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-26",
+   "time": "17:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2412,7 +2218,7 @@
   },
   {
    "venue": "roxy",
-   "title": "The Downtown Festival: Chronicles of Shpongle + Q&A",
+   "title": "The Downtown Festival: Chronicles of Shpongle",
    "date": "2026-10-26",
    "time": "21:00",
    "url": "https://www.roxycinemanewyork.com/screenings/the-downtown-festival-chronicles-of-shpongle-qa/",
@@ -2427,8 +2233,8 @@
    "title": "The History of Concrete",
    "date": "2026-10-26",
    "time": "21:00",
-   "url": "",
-   "note": "Sold out",
+   "url": "https://ticketing.useast.veezi.com/purchase/6662?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
+   "note": "",
    "genres": [
     "documentary",
     "comedy"
@@ -3271,20 +3077,20 @@
   },
   {
    "venue": "bam",
-   "title": "You Can See Everything",
+   "title": "Ken Russell’s The Devils",
    "date": "2026-10-27",
    "time": "16:00",
-   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "url": "https://www.bam.org/film/2026/the-devils",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "bam",
-   "title": "Ken Russell’s The Devils",
+   "title": "You Can See Everything",
    "date": "2026-10-27",
    "time": "16:00",
-   "url": "https://www.bam.org/film/2026/the-devils",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3505,6 +3311,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-27",
+   "time": "17:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-10-27",
@@ -3662,8 +3477,8 @@
    "title": "Jennifer's Body",
    "date": "2026-10-27",
    "time": "18:35",
-   "url": "",
-   "note": "Sold out",
+   "url": "https://ticketing.useast.veezi.com/purchase/6648?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
+   "note": "",
    "genres": [
     "comedy",
     "horror",
@@ -3681,20 +3496,20 @@
   },
   {
    "venue": "bam",
-   "title": "Ken Russell’s The Devils",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-10-27",
    "time": "18:40",
-   "url": "https://www.bam.org/film/2026/the-devils",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "bam",
-   "title": "The Only Living Pickpocket in New York",
+   "title": "Ken Russell’s The Devils",
    "date": "2026-10-27",
    "time": "18:40",
-   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "url": "https://www.bam.org/film/2026/the-devils",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3714,7 +3529,7 @@
   },
   {
    "venue": "afa",
-   "title": "TROMEO AND JULIET",
+   "title": "TROMEO AND JULIET (Lloyd Kaufman in person on Sun, Nov 1!)",
    "date": "2026-10-27",
    "time": "18:45",
    "genres": [],
@@ -4859,20 +4674,20 @@
   },
   {
    "venue": "bam",
-   "title": "You Can See Everything",
+   "title": "Ken Russell’s The Devils",
    "date": "2026-10-28",
    "time": "16:00",
-   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "url": "https://www.bam.org/film/2026/the-devils",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "bam",
-   "title": "Ken Russell’s The Devils",
+   "title": "You Can See Everything",
    "date": "2026-10-28",
    "time": "16:00",
-   "url": "https://www.bam.org/film/2026/the-devils",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5053,6 +4868,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-28",
+   "time": "17:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
    "date": "2026-10-28",
@@ -5157,7 +4981,7 @@
   },
   {
    "venue": "afa",
-   "title": "CITIZEN TOXIE: THE TOXIC AVENGER IV",
+   "title": "CITIZEN TOXIE: THE TOXIC AVENGER IV (Lloyd Kaufman in person on Wed, Oct 28!)",
    "date": "2026-10-28",
    "time": "18:30",
    "genres": [],
@@ -5227,20 +5051,20 @@
   },
   {
    "venue": "bam",
-   "title": "Ken Russell’s The Devils",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-10-28",
    "time": "18:40",
-   "url": "https://www.bam.org/film/2026/the-devils",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "bam",
-   "title": "The Only Living Pickpocket in New York",
+   "title": "Ken Russell’s The Devils",
    "date": "2026-10-28",
    "time": "18:40",
-   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "url": "https://www.bam.org/film/2026/the-devils",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5590,7 +5414,7 @@
   },
   {
    "venue": "afa",
-   "title": "#SHAKESPEARE’S SHITSTORM",
+   "title": "#SHAKESPEARE’S SHITSTORM (Lloyd Kaufman in person on Wed, Oct 28!)",
    "date": "2026-10-28",
    "time": "21:15",
    "genres": [],
@@ -5807,22 +5631,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "ifc",
-   "title": "The History of Concrete",
-   "date": "2026-10-29",
-   "time": "10:35",
-   "genres": [
-    "documentary",
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Documentary",
-    "Comedy"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1596296
   },
   {
    "venue": "angelika",
@@ -6344,6 +6152,16 @@
   },
   {
    "venue": "bam",
+   "title": "Ken Russell’s The Devils",
+   "date": "2026-10-29",
+   "time": "16:00",
+   "url": "https://www.bam.org/film/2026/the-devils",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
    "title": "You Can See Everything",
    "date": "2026-10-29",
    "time": "16:00",
@@ -6590,6 +6408,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-29",
+   "time": "17:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-10-29",
@@ -6700,6 +6527,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Ken Russell’s The Devils",
+   "date": "2026-10-29",
+   "time": "18:30",
+   "url": "https://www.bam.org/film/2026/the-devils",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ff",
    "title": "FATHERLAND",
    "date": "2026-10-29",
@@ -6800,16 +6637,6 @@
   },
   {
    "venue": "bam",
-   "title": "Once Upon a Time in Harlem",
-   "date": "2026-10-29",
-   "time": "19:00",
-   "url": "https://www.bam.org/film/2026/once-upon-a-time-in-harlem",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "bam",
    "title": "Eve’s Bayou",
    "date": "2026-10-29",
    "time": "19:00",
@@ -6822,6 +6649,16 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1660"
+  },
+  {
+   "venue": "bam",
+   "title": "Once Upon a Time in Harlem",
+   "date": "2026-10-29",
+   "time": "19:00",
+   "url": "https://www.bam.org/film/2026/once-upon-a-time-in-harlem",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -6889,7 +6726,7 @@
   },
   {
    "venue": "afa",
-   "title": "TERROR FIRMER (Lloyd Kaufman in person on Thurs, Oct 29!)",
+   "title": "TERROR FIRMER (Lloyd Kaufman in person for both screenings!)",
    "date": "2026-10-29",
    "time": "19:30",
    "genres": [],
@@ -7044,6 +6881,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-29",
+   "time": "21:00",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "angelika",
@@ -7341,6 +7195,26 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-10-30",
+   "time": "13:00",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-10-30",
+   "time": "13:00",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "The Innkeepers",
    "date": "2026-10-30",
@@ -7357,10 +7231,21 @@
    "genreMovieId": "92309"
   },
   {
-   "venue": "quad",
-   "title": "Who Killed Alex Odeh?",
+   "venue": "bam",
+   "title": "Ken Russell’s The Devils",
+   "date": "2026-10-30",
+   "time": "13:10",
+   "url": "https://www.bam.org/film/2026/the-devils",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Naza",
    "date": "2026-10-30",
    "time": "13:20",
+   "url": "https://www.bam.org/film/2026/naza",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7408,6 +7293,15 @@
    "runtime": 121,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Who Killed Alex Odeh?",
+   "date": "2026-10-30",
+   "time": "14:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7527,19 +7421,56 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "quad",
-   "title": "Who Killed Alex Odeh?",
+   "venue": "bam",
+   "title": "You Can See Everything",
    "date": "2026-10-30",
-   "time": "15:20",
+   "time": "15:30",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-30",
+   "time": "16:00",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "nhp",
    "title": "Klara and the Sun",
    "date": "2026-10-30",
    "time": "16:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "quad",
+   "title": "Who Killed Alex Odeh?",
+   "date": "2026-10-30",
+   "time": "16:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-10-30",
+   "time": "16:10",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7617,6 +7548,16 @@
   },
   {
    "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-10-30",
+   "time": "16:45",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
    "title": "The Sealed Soil",
    "date": "2026-10-30",
    "time": "17:00",
@@ -7641,7 +7582,16 @@
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-10-30",
-   "time": "17:15",
+   "time": "17:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-10-30",
+   "time": "17:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7721,6 +7671,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Ken Russell’s The Devils",
+   "date": "2026-10-30",
+   "time": "18:30",
+   "url": "https://www.bam.org/film/2026/the-devils",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "mg",
    "title": "Sans Soleil",
    "date": "2026-10-30",
@@ -7747,6 +7707,16 @@
    "year": 1976,
    "runtime": 105,
    "director": "Carlos Saura",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-10-30",
+   "time": "18:40",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7856,6 +7826,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-10-30",
+   "time": "19:15",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-10-30",
@@ -7883,6 +7863,16 @@
    "title": "Primetime",
    "date": "2026-10-30",
    "time": "19:35",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-10-30",
+   "time": "20:30",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7948,6 +7938,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-30",
+   "time": "21:00",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "roxy",
@@ -8016,6 +8023,16 @@
   },
   {
    "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-10-30",
+   "time": "21:20",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
    "title": "Requiem",
    "date": "2026-10-30",
    "time": "21:30",
@@ -8060,7 +8077,7 @@
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-10-30",
-   "time": "21:35",
+   "time": "21:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8295,6 +8312,26 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-10-31",
+   "time": "13:00",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-10-31",
+   "time": "13:00",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "I Sell The Dead",
    "date": "2026-10-31",
@@ -8315,6 +8352,33 @@
    "title": "Who Killed Alex Odeh?",
    "date": "2026-10-31",
    "time": "13:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-31",
+   "time": "13:15",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
+   "venue": "bam",
+   "title": "Naza",
+   "date": "2026-10-31",
+   "time": "13:20",
+   "url": "https://www.bam.org/film/2026/naza",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8502,6 +8566,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-10-31",
+   "time": "15:30",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "maysles",
    "title": "TRUE NORTH",
    "date": "2026-10-31",
@@ -8548,6 +8622,23 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-10-31",
+   "time": "16:00",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
    "venue": "mg",
    "title": "Horror of Dracula",
    "date": "2026-10-31",
@@ -8570,6 +8661,16 @@
    "title": "Klara and the Sun",
    "date": "2026-10-31",
    "time": "16:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-10-31",
+   "time": "16:10",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8599,6 +8700,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-10-31",
+   "time": "16:45",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "roxy",
    "title": "The Texas Chainsaw Massacre - 35MM",
    "date": "2026-10-31",
@@ -8622,6 +8733,15 @@
   {
    "venue": "afa",
    "title": "EC: HOLLIS FRAMPTON",
+   "date": "2026-10-31",
+   "time": "17:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
    "date": "2026-10-31",
    "time": "17:30",
    "genres": [],
@@ -8724,6 +8844,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Ken Russell’s The Devils",
+   "date": "2026-10-31",
+   "time": "18:30",
+   "url": "https://www.bam.org/film/2026/the-devils",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "QUEEN AT SEA",
    "date": "2026-10-31",
@@ -8733,6 +8863,16 @@
    "runtime": 121,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-10-31",
+   "time": "18:40",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8814,6 +8954,16 @@
    "runtime": 115,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/everest-the-other-side",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-10-31",
+   "time": "19:15",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8922,10 +9072,30 @@
    "genreMovieId": "1997"
   },
   {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-10-31",
+   "time": "20:30",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Fjord",
    "date": "2026-10-31",
    "time": "20:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Ken Russell’s The Devils",
+   "date": "2026-10-31",
+   "time": "21:00",
+   "url": "https://www.bam.org/film/2026/the-devils",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8987,6 +9157,16 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2710"
+  },
+  {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-10-31",
+   "time": "21:20",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -9184,6 +9364,41 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "mg",
+   "title": "Hugo [3D Screening]",
+   "date": "2026-11-01",
+   "time": "11:00",
+   "fmt": "3D DCP",
+   "year": 2011,
+   "runtime": 126,
+   "director": "Martin Scorsese",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "mg",
+   "title": "The Addams Family",
+   "date": "2026-11-01",
+   "time": "11:15",
+   "fmt": "35mm",
+   "year": 1991,
+   "runtime": 99,
+   "director": "Barry Sonnenfeld",
+   "genres": [
+    "family",
+    "comedy",
+    "scifi"
+   ],
+   "sourceGenres": [
+    "Children",
+    "Comedy",
+    "Fantasy"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2124"
+  },
+  {
    "venue": "angelika",
    "title": "QUEEN AT SEA",
    "date": "2026-11-01",
@@ -9221,6 +9436,26 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-01",
+   "time": "13:00",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-01",
+   "time": "13:00",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "The Last Winter",
    "date": "2026-11-01",
@@ -9233,6 +9468,46 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "55492"
+  },
+  {
+   "venue": "bam",
+   "title": "Ken Russell’s The Devils",
+   "date": "2026-11-01",
+   "time": "13:10",
+   "url": "https://www.bam.org/film/2026/the-devils",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Naza",
+   "date": "2026-11-01",
+   "time": "13:20",
+   "url": "https://www.bam.org/film/2026/naza",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "mg",
+   "title": "All That Heaven Allows",
+   "date": "2026-11-01",
+   "time": "13:30",
+   "fmt": "35mm",
+   "year": 1955,
+   "runtime": 89,
+   "director": "Douglas Sirk",
+   "genres": [
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "4419"
   },
   {
    "venue": "ifc",
@@ -9252,6 +9527,24 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "mg",
+   "title": "Sans Soleil",
+   "date": "2026-11-01",
+   "time": "13:45",
+   "fmt": "DCP",
+   "year": 1983,
+   "runtime": 103,
+   "director": "Chris Marker",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "6123"
   },
   {
    "venue": "bam",
@@ -9286,15 +9579,6 @@
    "fmt": "35MM",
    "note": "",
    "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3167/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Who Killed Alex Odeh?",
-   "date": "2026-11-01",
-   "time": "14:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9411,12 +9695,42 @@
   },
   {
    "venue": "afa",
-   "title": "TROMEO AND JULIET",
+   "title": "TROMEO AND JULIET (Lloyd Kaufman in person on Sun, Nov 1!)",
    "date": "2026-11-01",
    "time": "15:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-01",
+   "time": "15:30",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "mg",
+   "title": "Far From Heaven",
+   "date": "2026-11-01",
+   "time": "15:30",
+   "fmt": "35mm",
+   "year": 2002,
+   "runtime": 107,
+   "director": "Todd Haynes",
+   "genres": [
+    "drama",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "5812"
   },
   {
    "venue": "bam",
@@ -9429,10 +9743,50 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-11-01",
+   "time": "16:00",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
+  },
+  {
+   "venue": "mg",
+   "title": "The Gorgon",
+   "date": "2026-11-01",
+   "time": "16:00",
+   "fmt": "DCP",
+   "year": 1964,
+   "runtime": 83,
+   "director": "Terence Fisher",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Klara and the Sun",
    "date": "2026-11-01",
    "time": "16:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-01",
+   "time": "16:10",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9452,6 +9806,16 @@
    "date": "2026-11-01",
    "time": "16:30",
    "url": "https://www.bam.org/film/2026/once-upon-a-time-in-harlem",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-01",
+   "time": "16:45",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9492,6 +9856,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-01",
+   "time": "17:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "QUEEN AT SEA",
    "date": "2026-11-01",
@@ -9506,10 +9879,36 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "mg",
+   "title": "News from Home + Interior NY Subway, 14th Street",
+   "date": "2026-11-01",
+   "time": "17:45",
+   "fmt": "DCP",
+   "year": 1976,
+   "runtime": 91,
+   "director": "Chantal Akerman, G. W. \"Billy\" Bitzer",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Klara and the Sun",
    "date": "2026-11-01",
    "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "mg",
+   "title": "The Hound of the Baskervilles",
+   "date": "2026-11-01",
+   "time": "17:50",
+   "fmt": "DCP",
+   "year": 1959,
+   "runtime": 87,
+   "director": "Terence Fisher",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9565,8 +9964,8 @@
    "title": "The History of Concrete",
    "date": "2026-11-01",
    "time": "18:00",
-   "url": "",
-   "note": "Sold out",
+   "url": "https://ticketing.useast.veezi.com/purchase/6666?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
+   "note": "",
    "genres": [
     "documentary",
     "comedy"
@@ -9583,7 +9982,7 @@
    "title": "EVEREST: THE OTHER SIDE",
    "date": "2026-11-01",
    "time": "18:10",
-   "fmt": "Standard",
+   "fmt": "Q&A to follow the screening",
    "director": "Elizabeth Chai Vasarhelyi and Jimmy Chin",
    "runtime": 115,
    "note": "",
@@ -9594,7 +9993,7 @@
   },
   {
    "venue": "afa",
-   "title": "TERROR FIRMER (Lloyd Kaufman in person on Thurs, Oct 29!)",
+   "title": "TERROR FIRMER (Lloyd Kaufman in person for both screenings!)",
    "date": "2026-11-01",
    "time": "18:15",
    "genres": [],
@@ -9619,6 +10018,26 @@
    "fmt": "35MM, Intro",
    "note": "",
    "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-2999/seats",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Ken Russell’s The Devils",
+   "date": "2026-11-01",
+   "time": "18:30",
+   "url": "https://www.bam.org/film/2026/the-devils",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-01",
+   "time": "18:40",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9656,6 +10075,16 @@
    "title": "The Social Reckoning",
    "date": "2026-11-01",
    "time": "19:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-01",
+   "time": "19:15",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9705,6 +10134,39 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "mg",
+   "title": "Something Special (Willy/Milly)",
+   "date": "2026-11-01",
+   "time": "19:45",
+   "fmt": "35mm",
+   "year": 1986,
+   "runtime": 86,
+   "director": "Paul Schneider",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "mg",
+   "title": "Rushmore",
+   "date": "2026-11-01",
+   "time": "19:50",
+   "fmt": "DCP",
+   "year": 1998,
+   "runtime": 93,
+   "director": "Wes Anderson",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2395"
+  },
+  {
    "venue": "angelika",
    "title": "QUEEN AT SEA",
    "date": "2026-11-01",
@@ -9714,6 +10176,16 @@
    "runtime": 121,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-01",
+   "time": "20:30",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9755,7 +10227,7 @@
   },
   {
    "venue": "afa",
-   "title": "CITIZEN TOXIE: THE TOXIC AVENGER IV",
+   "title": "CITIZEN TOXIE: THE TOXIC AVENGER IV (Lloyd Kaufman in person on Wed, Oct 28!)",
    "date": "2026-11-01",
    "time": "21:00",
    "genres": [],
@@ -9775,6 +10247,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The History of Concrete",
+   "date": "2026-11-01",
+   "time": "21:00",
+   "url": "https://www.bam.org/film/2026/the-history-of-concrete",
+   "genres": [
+    "documentary",
+    "comedy"
+   ],
+   "sourceGenres": [
+    "Documentary",
+    "Comedy"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1596296
   },
   {
    "venue": "angelika",
@@ -9828,6 +10317,16 @@
    "genreMovieId": "2710"
   },
   {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-01",
+   "time": "21:20",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "You Can See Everything",
    "date": "2026-11-01",
@@ -9848,6 +10347,46 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "mg",
+   "title": "Autumn Sonata",
+   "date": "2026-11-01",
+   "time": "21:45",
+   "fmt": "DCP",
+   "year": 1978,
+   "runtime": 93,
+   "director": "Ingmar Bergman",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2131"
+  },
+  {
+   "venue": "mg",
+   "title": "Midnight in Paris",
+   "date": "2026-11-01",
+   "time": "21:50",
+   "fmt": "35mm",
+   "year": 2011,
+   "runtime": 94,
+   "director": "Woody Allen",
+   "genres": [
+    "comedy",
+    "scifi",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Fantasy",
+    "Romance"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "86882"
   }
  ]
 }
