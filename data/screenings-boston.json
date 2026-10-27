@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 49,
-  "classified": 13,
+  "classified": 14,
   "unresolved": [
    {
     "key": "votingcountselectionsinfilmtuesdaysection|",
@@ -49,12 +49,6 @@
    {
     "key": "wicker|",
     "title": "Wicker",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "dreamsthatmoneycanbuy|",
-    "title": "Dreams That Money Can Buy",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -224,7 +218,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-27T00:33:54.242Z",
+ "fetchedAt": "2026-10-27T09:09:17.562Z",
  "week": [
   "2026-10-27",
   "2026-10-28",
@@ -302,14 +296,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 17,
-   "ms": 2703
+   "ms": 2727
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 74,
-   "ms": 918
+   "ms": 6123
   },
   {
    "id": "somerville",
@@ -324,14 +318,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 30,
-   "ms": 1000
+   "ms": 1180
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 420
+   "ms": 397
   },
   {
    "id": "mfa",
@@ -478,10 +472,16 @@
    "time": "18:00",
    "url": "https://brattlefilm.org/purchase/1694846/",
    "filmUrl": "https://brattlefilm.org/movies/dreams-that-money-can-buy/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "scifi"
+   ],
+   "year": 1947,
+   "sourceGenres": [
+    "Drama",
+    "Fantasy"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -630,16 +630,15 @@
    "url": "https://brattlefilm.org/purchase/1694847/",
    "filmUrl": "https://brattlefilm.org/movies/laura/",
    "genres": [
+    "drama",
     "thriller"
    ],
-   "year": null,
+   "year": 1944,
    "sourceGenres": [
-    "Crime",
-    "Film-Noir",
+    "Drama",
     "Mystery"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "942"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
