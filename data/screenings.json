@@ -1,21 +1,9 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 162,
-  "classified": 52,
+  "total": 164,
+  "classified": 54,
   "unresolved": [
-   {
-    "key": "musk|",
-    "title": "MUSK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "onlylivingpickpocketinnewyork|",
-    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
    {
     "key": "oneinamillion|",
     "title": "One in a Million",
@@ -36,13 +24,7 @@
    },
    {
     "key": "labolanegra|",
-    "title": "La Bola Negra",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "possiblelove|",
-    "title": "POSSIBLE LOVE",
+    "title": "LA BOLA NEGRA in 35MM",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -67,6 +49,12 @@
    {
     "key": "digger|",
     "title": "Digger",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "onlylivingpickpocketinnewyork|",
+    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -109,6 +97,12 @@
    {
     "key": "voiceoflarazaandthefirstworldfestivalofnegroarts|",
     "title": "VOICE OF LA RAZA and THE FIRST WORLD FESTIVAL OF NEGRO ARTS",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "possiblelove|",
+    "title": "POSSIBLE LOVE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -237,6 +231,12 @@
     "title": "Ghost in the Shell: 30th Anniversary Remaster",
     "year": 1995,
     "reason": "not-found"
+   },
+   {
+    "key": "musk|",
+    "title": "MUSK",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "closure|",
@@ -668,7 +668,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-27T09:09:06.943Z",
+ "fetchedAt": "2026-10-27T15:25:41.515Z",
  "week": [
   "2026-10-27",
   "2026-10-28",
@@ -885,8 +885,8 @@
    "id": "ff",
    "name": "Film Forum",
    "ok": true,
-   "count": 56,
-   "ms": 1067
+   "count": 128,
+   "ms": 917
   },
   {
    "id": "mg",
@@ -895,28 +895,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /nyc/",
    "carried": 47,
-   "carriedFrom": "2026-10-27T00:33:49.076Z"
+   "carriedFrom": "2026-10-27T09:09:06.943Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
-   "count": 161,
-   "ms": 137
+   "count": 159,
+   "ms": 352
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 22,
-   "ms": 889
+   "ms": 562
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 99,
-   "ms": 385
+   "ms": 310
   },
   {
    "id": "cv",
@@ -930,21 +930,21 @@
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 19,
-   "ms": 348
+   "ms": 238
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 196,
-   "ms": 5112
+   "count": 192,
+   "ms": 4283
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 24,
-   "ms": 2213
+   "count": 23,
+   "ms": 2382
   },
   {
    "id": "wrt",
@@ -967,21 +967,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 126,
-   "ms": 914
+   "ms": 626
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 28,
-   "ms": 5100
+   "ms": 5003
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 91,
-   "ms": 7328
+   "ms": 8327
   },
   {
    "id": "spec",
@@ -996,7 +996,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 17,
-   "ms": 2072
+   "ms": 1793
   },
   {
    "id": "momi",
@@ -1011,7 +1011,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 3,
-   "ms": 1149
+   "ms": 155
   },
   {
    "id": "kew",
@@ -1027,60 +1027,11 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 1184
+   "ms": 800
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "MUSK",
-   "date": "2026-10-27",
-   "time": "10:00",
-   "fmt": "Standard",
-   "director": "Alex Gibney",
-   "runtime": 232,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/musk",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-27",
-   "time": "10:05",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "YOUR MOTHER YOUR MOTHER YOUR MOTHER",
-   "date": "2026-10-27",
-   "time": "10:35",
-   "fmt": "Standard",
-   "director": "Bassam Tariq",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/your-mother-your-mother-your-mother",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Crime"
-   ],
-   "genreSource": "tmdb",
-   "tmdbId": 1437396
-  },
   {
    "venue": "ifc",
    "title": "The History of Concrete",
@@ -1120,33 +1071,6 @@
    "title": "The Great Experiment",
    "date": "2026-10-27",
    "time": "10:55",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "paris",
-   "title": "La Bola Negra",
-   "date": "2026-10-27",
-   "time": "10:55",
-   "runtime": 160,
-   "fmt": "35MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3151/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "POSSIBLE LOVE",
-   "date": "2026-10-27",
-   "time": "11:00",
-   "fmt": "English subtitles",
-   "director": "Lee Chang-dong",
-   "runtime": 165,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/possible-love",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1727,20 +1651,6 @@
   },
   {
    "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-27",
-   "time": "16:45",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
    "title": "WICKER",
    "date": "2026-10-27",
    "time": "16:45",
@@ -1749,6 +1659,20 @@
    "runtime": 105,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "angelika",
+   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
+   "date": "2026-10-27",
+   "time": "16:45",
+   "fmt": "Standard",
+   "director": "Noah Segan",
+   "runtime": 88,
+   "note": "",
+   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2008,8 +1932,8 @@
    "title": "Jennifer's Body",
    "date": "2026-10-27",
    "time": "18:35",
-   "url": "https://ticketing.useast.veezi.com/purchase/6648?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
+   "url": "",
+   "note": "Sold out",
    "genres": [
     "comedy",
     "horror",
@@ -5852,6 +5776,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-10-30",
+   "time": "12:15",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-10-30",
@@ -5870,6 +5804,26 @@
    "runtime": 88,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-10-30",
+   "time": "12:25",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 1-3",
+   "date": "2026-10-30",
+   "time": "12:30",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5902,6 +5856,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-10-30",
+   "time": "13:00",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
   },
   {
    "venue": "ifc",
@@ -6086,6 +6057,26 @@
    "genreMovieId": "2291"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-10-30",
+   "time": "14:25",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-10-30",
+   "time": "14:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
    "date": "2026-10-30",
@@ -6186,6 +6177,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-10-30",
+   "time": "15:20",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
   },
   {
    "venue": "ifc",
@@ -6291,6 +6299,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-10-30",
+   "time": "16:15",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "The Devils",
    "date": "2026-10-30",
@@ -6337,6 +6355,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-10-30",
+   "time": "16:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "mg",
    "title": "Rushmore",
    "date": "2026-10-30",
@@ -6376,6 +6404,16 @@
    "date": "2026-10-30",
    "time": "16:45",
    "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-10-30",
+   "time": "16:45",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6442,6 +6480,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-10-30",
+   "time": "17:40",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
   },
   {
    "venue": "ifc",
@@ -6552,6 +6607,21 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "UNZIPPED",
+   "date": "2026-10-30",
+   "time": "18:20",
+   "note": "",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "206"
+  },
+  {
    "venue": "afa",
    "title": "EC: NANOOK OF THE NORTH",
    "date": "2026-10-30",
@@ -6585,8 +6655,18 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-10-30",
+   "time": "18:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
-   "title": "Miss Representation: Rise Up",
+   "title": "Gentle Monster",
    "date": "2026-10-30",
    "time": "18:30",
    "genres": [],
@@ -6712,6 +6792,16 @@
    "genreMovieId": "1997"
   },
   {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-10-30",
+   "time": "19:00",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "The Devils",
    "date": "2026-10-30",
@@ -6831,11 +6921,48 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-10-30",
+   "time": "20:00",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-10-30",
+   "time": "20:10",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "You Can See Everything",
    "date": "2026-10-30",
    "time": "20:30",
    "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-10-30",
+   "time": "20:30",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7006,6 +7133,16 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "3693"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-10-30",
+   "time": "21:15",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
@@ -7499,6 +7636,36 @@
    "genreMovieId": "3475"
   },
   {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-10-31",
+   "time": "12:15",
+   "note": "(OC)",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-10-31",
+   "time": "12:25",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 1-3",
+   "date": "2026-10-31",
+   "time": "12:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-10-31",
@@ -7572,6 +7739,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-10-31",
+   "time": "13:00",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
   },
   {
    "venue": "ifc",
@@ -7752,6 +7936,26 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-10-31",
+   "time": "14:25",
+   "note": "(OC)",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-10-31",
+   "time": "14:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
    "date": "2026-10-31",
@@ -7842,6 +8046,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-10-31",
+   "time": "15:20",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
   },
   {
    "venue": "paris",
@@ -8001,6 +8222,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-10-31",
+   "time": "16:15",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "EVEREST: THE OTHER SIDE",
    "date": "2026-10-31",
@@ -8025,11 +8256,31 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-10-31",
+   "time": "16:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "You Can See Everything",
    "date": "2026-10-31",
    "time": "16:45",
    "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-10-31",
+   "time": "16:45",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8104,6 +8355,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-10-31",
+   "time": "17:40",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
   },
   {
    "venue": "mg",
@@ -8215,6 +8483,21 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "UNZIPPED",
+   "date": "2026-10-31",
+   "time": "18:20",
+   "note": "",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "206"
+  },
+  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-10-31",
@@ -8234,6 +8517,25 @@
    "date": "2026-10-31",
    "time": "18:30",
    "url": "https://www.bam.org/film/2026/the-devils",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-10-31",
+   "time": "18:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ifc",
+   "title": "Gentle Monster",
+   "date": "2026-10-31",
+   "time": "18:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8308,6 +8610,16 @@
    "fmt": "35MM",
    "note": "",
    "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3163/seats",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-10-31",
+   "time": "19:00",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8461,6 +8773,33 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-10-31",
+   "time": "20:00",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-10-31",
+   "time": "20:10",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "synd",
    "title": "Halloween",
    "date": "2026-10-31",
@@ -8494,6 +8833,16 @@
    "date": "2026-10-31",
    "time": "20:30",
    "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-10-31",
+   "time": "20:30",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8576,6 +8925,16 @@
    "title": "CANNIBAL! THE MUSICAL",
    "date": "2026-10-31",
    "time": "21:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-10-31",
+   "time": "21:15",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8914,6 +9273,24 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "COCO",
+   "date": "2026-11-01",
+   "time": "11:00",
+   "note": "",
+   "genres": [
+    "adventure",
+    "family"
+   ],
+   "sourceGenres": [
+    "Adventure",
+    "Animation",
+    "Children"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "177765"
+  },
+  {
    "venue": "ifc",
    "title": "On The Road",
    "date": "2026-11-01",
@@ -9036,6 +9413,36 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-01",
+   "time": "12:15",
+   "note": "(OC)",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-01",
+   "time": "12:25",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 1-3",
+   "date": "2026-11-01",
+   "time": "12:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Fjord (Open Captioning)",
    "date": "2026-11-01",
@@ -9143,6 +9550,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-11-01",
+   "time": "13:20",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
   },
   {
    "venue": "mg",
@@ -9258,6 +9682,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-01",
+   "time": "14:25",
+   "note": "(OC)",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "paris",
    "title": "La Bola Negra",
    "date": "2026-11-01",
@@ -9266,6 +9700,16 @@
    "fmt": "35MM",
    "note": "",
    "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3167/seats",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-01",
+   "time": "14:30",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9461,6 +9905,23 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-11-01",
+   "time": "15:40",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
+  },
+  {
    "venue": "ifc",
    "title": "Gentle Monster",
    "date": "2026-11-01",
@@ -9568,6 +10029,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 4-5",
+   "date": "2026-11-01",
+   "time": "16:20",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "afa",
    "title": "EC: ERNIE GEHR",
    "date": "2026-11-01",
@@ -9587,11 +10058,31 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-01",
+   "time": "16:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "You Can See Everything",
    "date": "2026-11-01",
    "time": "16:45",
    "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-01",
+   "time": "16:45",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9762,6 +10253,23 @@
    "genreMovieId": "71205"
   },
   {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-11-01",
+   "time": "18:00",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
+  },
+  {
    "venue": "ifc",
    "title": "Casino",
    "date": "2026-11-01",
@@ -9878,10 +10386,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "ifc",
-   "title": "Gentle Monster",
+   "venue": "ff",
+   "title": "FATHERLAND",
    "date": "2026-11-01",
    "time": "18:30",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9947,6 +10456,16 @@
    "title": "TWENTY YEARS LATER: A MAN MARKED TO DIE - BOOK RELEASE EVENT",
    "date": "2026-11-01",
    "time": "19:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-01",
+   "time": "19:00",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10062,6 +10581,21 @@
    "genreMovieId": "2395"
   },
   {
+   "venue": "ff",
+   "title": "UNZIPPED",
+   "date": "2026-11-01",
+   "time": "20:00",
+   "note": "(OC)",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "206"
+  },
+  {
    "venue": "angelika",
    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
    "date": "2026-11-01",
@@ -10074,6 +10608,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-11-01",
+   "time": "20:20",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
   },
   {
    "venue": "angelika",
@@ -10114,6 +10665,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-01",
+   "time": "20:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "synd",
    "title": "American Doctor",
    "date": "2026-11-01",
@@ -10135,6 +10696,15 @@
    "date": "2026-11-01",
    "time": "20:35",
    "url": "https://www.bam.org/film/2026/the-spirit-noroi",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ifc",
+   "title": "Fjord",
+   "date": "2026-11-01",
+   "time": "20:50",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10180,15 +10750,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "ifc",
-   "title": "Fjord",
-   "date": "2026-11-01",
-   "time": "21:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Klara and the Sun",
    "date": "2026-11-01",
@@ -10226,6 +10787,16 @@
    "date": "2026-11-01",
    "time": "21:10",
    "url": "https://www.bam.org/film/2026/once-upon-a-time-in-harlem",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-01",
+   "time": "21:15",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10555,6 +11126,36 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-02",
+   "time": "12:15",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-02",
+   "time": "12:25",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 1-3",
+   "date": "2026-11-02",
+   "time": "12:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Fjord (Open Captioning)",
    "date": "2026-11-02",
@@ -10603,6 +11204,23 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-11-02",
+   "time": "13:00",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
   },
   {
    "venue": "ifc",
@@ -10687,6 +11305,26 @@
    "title": "Naza",
    "date": "2026-11-02",
    "time": "14:05",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-02",
+   "time": "14:25",
+   "note": "(OC)",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-02",
+   "time": "14:30",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10785,6 +11423,23 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-11-02",
+   "time": "15:20",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
+  },
+  {
    "venue": "angelika",
    "title": "EVEREST: THE OTHER SIDE",
    "date": "2026-11-02",
@@ -10812,15 +11467,6 @@
    "title": "You Can See Everything",
    "date": "2026-11-02",
    "time": "15:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "ifc",
-   "title": "Gentle Monster",
-   "date": "2026-11-02",
-   "time": "15:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10914,6 +11560,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-02",
+   "time": "16:15",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "The Devils",
    "date": "2026-11-02",
@@ -10937,6 +11593,26 @@
    "date": "2026-11-02",
    "time": "16:30",
    "url": "https://www.bam.org/film/2026/once-upon-a-time-in-harlem",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-02",
+   "time": "16:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-02",
+   "time": "16:45",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11026,13 +11702,21 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "ifc",
-   "title": "Miss Representation: Rise Up",
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
    "date": "2026-11-02",
    "time": "17:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
   },
   {
    "venue": "nhp",
@@ -11094,6 +11778,21 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "UNZIPPED",
+   "date": "2026-11-02",
+   "time": "18:20",
+   "note": "(OC)",
+   "genres": [
+    "documentary"
+   ],
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "206"
+  },
+  {
    "venue": "ifc",
    "title": "Gentle Monster",
    "date": "2026-11-02",
@@ -11108,6 +11807,16 @@
    "date": "2026-11-02",
    "time": "18:30",
    "url": "https://www.bam.org/film/2026/the-devils",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-02",
+   "time": "18:30",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11228,6 +11937,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-02",
+   "time": "19:00",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Blue Heron",
    "date": "2026-11-02",
@@ -11291,10 +12010,37 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "CITIZEN RUTH",
+   "date": "2026-11-02",
+   "time": "20:00",
+   "note": "",
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1392"
+  },
+  {
    "venue": "quad",
    "title": "Mildred Pierce",
    "date": "2026-11-02",
    "time": "20:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-02",
+   "time": "20:10",
+   "note": "(OC)",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11323,6 +12069,16 @@
    "runtime": 121,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-02",
+   "time": "20:30",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11463,6 +12219,16 @@
    "date": "2026-11-02",
    "time": "21:15",
    "url": "https://www.bam.org/film/2026/the-spirit-alucarda",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-02",
+   "time": "21:15",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
