@@ -242,7 +242,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-28T05:54:31.781Z",
+ "fetchedAt": "2026-10-28T13:11:08.380Z",
  "week": [
   "2026-10-28",
   "2026-10-29",
@@ -320,14 +320,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 16,
-   "ms": 2792
+   "ms": 2453
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 151,
-   "ms": 7283
+   "ms": 3164
   },
   {
    "id": "somerville",
@@ -342,14 +342,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 68,
-   "ms": 704
+   "ms": 945
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 264
+   "ms": 423
   },
   {
    "id": "mfa",
@@ -508,16 +508,17 @@
    "url": "https://brattlefilm.org/purchase/1694828/",
    "filmUrl": "https://brattlefilm.org/movies/a-place-in-the-sun/",
    "genres": [
+    "thriller",
     "drama",
     "romance"
    ],
-   "year": null,
+   "year": 1951,
    "sourceGenres": [
+    "Crime",
     "Drama",
     "Romance"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "3475"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
