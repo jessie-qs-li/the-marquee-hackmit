@@ -5,44 +5,14 @@
   "classified": 47,
   "unresolved": [
    {
-    "key": "onlylivingpickpocketinnewyork|",
-    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "labolanegra|",
-    "title": "LA BOLA NEGRA",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "fjord|",
     "title": "Fjord",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "queenatsea|",
-    "title": "QUEEN AT SEA",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "ontheroad|",
     "title": "On The Road",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "everesttheotherside|",
-    "title": "EVEREST: THE OTHER SIDE",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "wicker|",
-    "title": "WICKER",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -79,6 +49,12 @@
    {
     "key": "myundesirablefriendspartiiexilechapters13|",
     "title": "MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 1-3",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "onlylivingpickpocketinnewyork|",
+    "title": "The Only Living Pickpocket in New York",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -131,8 +107,26 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "labolanegra|",
+    "title": "La Bola Negra",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "wicker|",
+    "title": "Wicker",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "clayface|",
     "title": "Clayface",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "everesttheotherside|",
+    "title": "EVEREST: THE OTHER SIDE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -145,6 +139,12 @@
    {
     "key": "wildwood|",
     "title": "Wildwood",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "queenatsea|",
+    "title": "QUEEN AT SEA",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -608,7 +608,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-30T10:12:38.109Z",
+ "fetchedAt": "2026-10-30T18:04:44.133Z",
  "week": [
   "2026-10-30",
   "2026-10-31",
@@ -826,7 +826,7 @@
    "name": "Film Forum",
    "ok": true,
    "count": 125,
-   "ms": 495
+   "ms": 628
   },
   {
    "id": "mg",
@@ -835,28 +835,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /nyc/",
    "carried": 54,
-   "carriedFrom": "2026-10-30T01:07:58.086Z"
+   "carriedFrom": "2026-10-30T10:12:38.109Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 173,
-   "ms": 199
+   "ms": 315
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 21,
-   "ms": 501
+   "ms": 701
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 92,
-   "ms": 152
+   "ms": 244
   },
   {
    "id": "cv",
@@ -870,21 +870,21 @@
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 18,
-   "ms": 84
+   "ms": 232
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 198,
-   "ms": 4228
+   "count": 188,
+   "ms": 4449
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 26,
-   "ms": 2169
+   "count": 25,
+   "ms": 2115
   },
   {
    "id": "wrt",
@@ -907,21 +907,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 127,
-   "ms": 244
+   "ms": 412
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 28,
-   "ms": 3874
+   "ms": 4831
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 161,
-   "ms": 6954
+   "count": 154,
+   "ms": 6959
   },
   {
    "id": "spec",
@@ -936,7 +936,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 16,
-   "ms": 1768
+   "ms": 1849
   },
   {
    "id": "momi",
@@ -951,7 +951,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 2,
-   "ms": 931
+   "ms": 924
   },
   {
    "id": "kew",
@@ -966,25 +966,11 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 1,
-   "ms": 2531
+   "ms": 1311
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-30",
-   "time": "10:05",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "ifc",
    "title": "The History of Concrete",
@@ -1002,51 +988,10 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA",
-   "date": "2026-10-30",
-   "time": "10:45",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Fjord",
    "date": "2026-10-30",
    "time": "10:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "paris",
-   "title": "La Bola Negra",
-   "date": "2026-10-30",
-   "time": "10:55",
-   "runtime": 160,
-   "fmt": "35MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3159/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "QUEEN AT SEA",
-   "date": "2026-10-30",
-   "time": "11:00",
-   "fmt": "Standard",
-   "director": "Lance Hammer",
-   "runtime": 121,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1061,52 +1006,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "EVEREST: THE OTHER SIDE",
-   "date": "2026-10-30",
-   "time": "11:10",
-   "fmt": "Standard",
-   "director": "Elizabeth Chai Vasarhelyi and Jimmy Chin",
-   "runtime": 115,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/everest-the-other-side",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WICKER",
-   "date": "2026-10-30",
-   "time": "11:10",
-   "fmt": "Standard",
-   "director": "Alex Huston Fischer & Eleanor Wilson",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The Devils",
    "date": "2026-10-30",
    "time": "11:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-10-30",
-   "time": "11:45",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1135,20 +1038,6 @@
    "title": "You Can See Everything",
    "date": "2026-10-30",
    "time": "12:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-30",
-   "time": "12:20",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1292,53 +1181,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "WICKER",
-   "date": "2026-10-30",
-   "time": "13:40",
-   "fmt": "Standard",
-   "director": "Alex Huston Fischer & Eleanor Wilson",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Once Upon a Time in Harlem",
    "date": "2026-10-30",
    "time": "13:45",
    "url": "https://www.bam.org/film/2026/once-upon-a-time-in-harlem",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "EVEREST: THE OTHER SIDE",
-   "date": "2026-10-30",
-   "time": "13:50",
-   "fmt": "Standard",
-   "director": "Elizabeth Chai Vasarhelyi and Jimmy Chin",
-   "runtime": 115,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/everest-the-other-side",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "QUEEN AT SEA",
-   "date": "2026-10-30",
-   "time": "13:50",
-   "fmt": "Standard",
-   "director": "Lance Hammer",
-   "runtime": 121,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2414,15 +2261,6 @@
    "year": 1976,
    "runtime": 85,
    "director": "Chantal Akerman",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-10-30",
-   "time": "20:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4470,15 +4308,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-10-31",
-   "time": "20:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-10-31",
@@ -6438,15 +6267,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-01",
-   "time": "20:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Fjord",
    "date": "2026-11-01",
@@ -8001,15 +7821,6 @@
    "runtime": 105,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-02",
-   "time": "20:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9598,15 +9409,6 @@
    "genreMovieId": "3740"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-03",
-   "time": "20:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "synd",
    "title": "Primetime",
    "date": "2026-11-03",
@@ -10045,15 +9847,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "ifc",
-   "title": "Birds of War",
-   "date": "2026-11-04",
-   "time": "12:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "FATHERLAND",
    "date": "2026-11-04",
@@ -10087,6 +9880,15 @@
    "title": "Who Killed Alex Odeh?",
    "date": "2026-11-04",
    "time": "12:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ifc",
+   "title": "Birds of War",
+   "date": "2026-11-04",
+   "time": "12:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10150,15 +9952,6 @@
    "genreMovieId": "1392"
   },
   {
-   "venue": "ifc",
-   "title": "Gentle Monster",
-   "date": "2026-11-04",
-   "time": "13:05",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "POSSIBLE LOVE",
    "date": "2026-11-04",
@@ -10168,6 +9961,15 @@
    "runtime": 165,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/possible-love",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ifc",
+   "title": "Gentle Monster",
+   "date": "2026-11-04",
+   "time": "13:35",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10579,15 +10381,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "ifc",
-   "title": "Birds of War",
-   "date": "2026-11-04",
-   "time": "16:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Once Upon a Time in Harlem",
    "date": "2026-11-04",
@@ -10603,6 +10396,15 @@
    "date": "2026-11-04",
    "time": "16:30",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ifc",
+   "title": "Birds of War",
+   "date": "2026-11-04",
+   "time": "16:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11154,15 +10956,6 @@
    "year": 1974,
    "runtime": 71,
    "director": "Miklós Jancsó",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-04",
-   "time": "20:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12718,15 +12511,6 @@
   {
    "venue": "afa",
    "title": "BULKY TRASH + THE FREE ORCHESTRA",
-   "date": "2026-11-05",
-   "time": "20:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
    "date": "2026-11-05",
    "time": "20:45",
    "genres": [],
