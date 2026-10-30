@@ -23,20 +23,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "digger|",
-    "title": "Digger",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "onceuponatimeinharlem|",
     "title": "ONCE UPON A TIME IN HARLEM",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "youcanseeeverything|",
-    "title": "You Can See Everything",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -49,6 +37,12 @@
    {
     "key": "myundesirablefriendspartiiexilechapters13|",
     "title": "MY UNDESIRABLE FRIENDS: PART II – EXILE: Chapters 1-3",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "youcanseeeverything|",
+    "title": "You Can See Everything",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -71,12 +65,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "whokilledalexodeh|",
-    "title": "Who Killed Alex Odeh?",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "naza|",
     "title": "Naza",
     "year": null,
@@ -95,20 +83,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "possiblelove|",
-    "title": "POSSIBLE LOVE",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "klaraandthesun|",
     "title": "Klara and the Sun",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "labolanegra|",
-    "title": "La Bola Negra",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -125,12 +101,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "everesttheotherside|",
-    "title": "EVEREST: THE OTHER SIDE",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "peppermintfrappe|1967",
     "title": "Peppermint Frappé",
     "year": 1967,
@@ -143,28 +113,28 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "queenatsea|",
-    "title": "QUEEN AT SEA",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "sealedsoil|",
     "title": "The Sealed Soil",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "texaschainsawmassacre|",
-    "title": "The Texas Chainsaw Massacre - 35MM",
+    "key": "whokilledalexodeh|",
+    "title": "Who Killed Alex Odeh?",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "primetime|",
-    "title": "Primetime",
+    "key": "digger|",
+    "title": "Digger",
     "year": null,
-    "reason": "ambiguous"
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "labolanegra|",
+    "title": "La Bola Negra",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "ecnanookofthenorth|",
@@ -203,6 +173,18 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "everesttheotherside|",
+    "title": "EVEREST: THE OTHER SIDE",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "queenatsea|",
+    "title": "QUEEN AT SEA",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "ediearnoldisaloser|",
     "title": "Edie Arnold Is a Loser",
     "year": null,
@@ -223,6 +205,18 @@
    {
     "key": "halloween|",
     "title": "Halloween",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "primetime|",
+    "title": "Primetime",
+    "year": null,
+    "reason": "ambiguous"
+   },
+   {
+    "key": "possiblelove|",
+    "title": "POSSIBLE LOVE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -252,7 +246,7 @@
    },
    {
     "key": "silentnightdeadlynight5thetoymaker|",
-    "title": "Silent Night, Deadly Night 5: The Toy Maker - 35MM",
+    "title": "Silent Night, Deadly Night 5: The Toy Maker",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -271,6 +265,12 @@
    {
     "key": "sgtkabukimannypdlloydkaufmaninpersononsunoct25|",
     "title": "SGT. KABUKIMAN NYPD (Lloyd Kaufman in person on Sun, Oct 25!)",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "texaschainsawmassacre|",
+    "title": "The Texas Chainsaw Massacre - 35MM",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -608,7 +608,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-30T18:04:44.133Z",
+ "fetchedAt": "2026-10-30T22:28:20.946Z",
  "week": [
   "2026-10-30",
   "2026-10-31",
@@ -826,7 +826,7 @@
    "name": "Film Forum",
    "ok": true,
    "count": 125,
-   "ms": 628
+   "ms": 653
   },
   {
    "id": "mg",
@@ -835,28 +835,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /nyc/",
    "carried": 54,
-   "carriedFrom": "2026-10-30T10:12:38.109Z"
+   "carriedFrom": "2026-10-30T18:04:44.133Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
-   "count": 173,
-   "ms": 315
+   "count": 174,
+   "ms": 101
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 21,
-   "ms": 701
+   "ms": 769
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 92,
-   "ms": 244
+   "count": 87,
+   "ms": 411
   },
   {
    "id": "cv",
@@ -869,22 +869,22 @@
    "id": "roxy",
    "name": "Roxy Cinema New York",
    "ok": true,
-   "count": 18,
-   "ms": 232
+   "count": 17,
+   "ms": 391
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 188,
-   "ms": 4449
+   "count": 180,
+   "ms": 2813
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 25,
-   "ms": 2115
+   "count": 24,
+   "ms": 1337
   },
   {
    "id": "wrt",
@@ -907,21 +907,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 127,
-   "ms": 412
+   "ms": 489
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 28,
-   "ms": 4831
+   "ms": 5304
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 154,
-   "ms": 6959
+   "count": 140,
+   "ms": 7439
   },
   {
    "id": "spec",
@@ -935,8 +935,8 @@
    "id": "synd",
    "name": "Syndicated",
    "ok": true,
-   "count": 16,
-   "ms": 1849
+   "count": 15,
+   "ms": 1391
   },
   {
    "id": "momi",
@@ -951,7 +951,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 2,
-   "ms": 924
+   "ms": 986
   },
   {
    "id": "kew",
@@ -966,7 +966,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 1,
-   "ms": 1311
+   "ms": 1164
   }
  ],
  "notices": {},
@@ -1015,29 +1015,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Digger",
-   "date": "2026-10-30",
-   "time": "12:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "ONCE UPON A TIME IN HARLEM",
    "date": "2026-10-30",
    "time": "12:15",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "You Can See Everything",
-   "date": "2026-10-30",
-   "time": "12:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1144,29 +1126,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Who Killed Alex Odeh?",
-   "date": "2026-10-30",
-   "time": "13:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Naza",
    "date": "2026-10-30",
    "time": "13:20",
    "url": "https://www.bam.org/film/2026/naza",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "You Can See Everything",
-   "date": "2026-10-30",
-   "time": "13:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1208,20 +1172,6 @@
    "year": 1962,
    "runtime": 112,
    "director": "Yasujirô Ozu",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "POSSIBLE LOVE",
-   "date": "2026-10-30",
-   "time": "14:15",
-   "fmt": "English subtitles",
-   "director": "Lee Chang-dong",
-   "runtime": 165,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/possible-love",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1314,33 +1264,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-30",
-   "time": "14:35",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "paris",
-   "title": "La Bola Negra",
-   "date": "2026-10-30",
-   "time": "14:35",
-   "runtime": 160,
-   "fmt": "35MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3160/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-10-30",
@@ -1354,29 +1277,6 @@
    "title": "You Can See Everything",
    "date": "2026-10-30",
    "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-10-30",
-   "time": "15:05",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Who Killed Alex Odeh?",
-   "date": "2026-10-30",
-   "time": "15:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1496,20 +1396,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "WICKER",
-   "date": "2026-10-30",
-   "time": "16:10",
-   "fmt": "Standard",
-   "director": "Alex Huston Fischer & Eleanor Wilson",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "The Only Living Pickpocket in New York",
    "date": "2026-10-30",
@@ -1552,20 +1438,6 @@
    "title": "You Can See Everything",
    "date": "2026-10-30",
    "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "EVEREST: THE OTHER SIDE",
-   "date": "2026-10-30",
-   "time": "16:25",
-   "fmt": "Standard",
-   "director": "Elizabeth Chai Vasarhelyi and Jimmy Chin",
-   "runtime": 115,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/everest-the-other-side",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1633,20 +1505,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "QUEEN AT SEA",
-   "date": "2026-10-30",
-   "time": "16:40",
-   "fmt": "Standard",
-   "director": "Lance Hammer",
-   "runtime": 121,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "You Can See Everything",
    "date": "2026-10-30",
@@ -1676,20 +1534,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-30",
-   "time": "16:50",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "The Sealed Soil",
    "date": "2026-10-30",
@@ -1704,18 +1548,6 @@
    "title": "You Can See Everything",
    "date": "2026-10-30",
    "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "roxy",
-   "title": "The Texas Chainsaw Massacre - 35MM",
-   "date": "2026-10-30",
-   "time": "17:00",
-   "url": "https://www.roxycinemanewyork.com/screenings/the-texas-chainsaw-massacre-35mm/",
-   "note": "",
-   "fmt": "35MM",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1765,29 +1597,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "POSSIBLE LOVE",
-   "date": "2026-10-30",
-   "time": "18:00",
-   "fmt": "English subtitles",
-   "director": "Lee Chang-dong",
-   "runtime": 165,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/possible-love",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-10-30",
-   "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-10-30",
@@ -1801,17 +1610,6 @@
    "title": "You Can See Everything",
    "date": "2026-10-30",
    "time": "18:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "synd",
-   "title": "Primetime",
-   "date": "2026-10-30",
-   "time": "18:10",
-   "url": "",
-   "note": "Sold out",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2174,15 +1972,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1392"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-10-30",
-   "time": "20:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -3316,12 +3105,12 @@
   },
   {
    "venue": "roxy",
-   "title": "Silent Night, Deadly Night 5: The Toy Maker - 35MM",
+   "title": "Silent Night, Deadly Night 5: The Toy Maker",
    "date": "2026-10-31",
    "time": "15:00",
    "url": "https://www.roxycinemanewyork.com/screenings/silent-night-deadly-night-5-the-toy-maker-35mm-the-surreal-nightmares-of-screaming-mad-george/",
    "note": "The Surreal Nightmares of Screaming Mad George",
-   "fmt": "35MM",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3850,15 +3639,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-10-31",
-   "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-10-31",
@@ -4232,15 +4012,6 @@
    "genreMovieId": "1392"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-10-31",
-   "time": "20:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "ONCE UPON A TIME IN HARLEM",
    "date": "2026-10-31",
@@ -4419,6 +4190,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ifc",
+   "title": "On The Road",
+   "date": "2026-10-31",
+   "time": "21:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-10-31",
@@ -4515,15 +4295,6 @@
    "runtime": 115,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/everest-the-other-side",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "ifc",
-   "title": "On The Road",
-   "date": "2026-10-31",
-   "time": "21:50",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5843,15 +5614,6 @@
    "genreMovieId": "16"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-01",
-   "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-11-01",
@@ -6062,12 +5824,12 @@
   },
   {
    "venue": "roxy",
-   "title": "Silent Night, Deadly Night 5: The Toy Maker - 35MM",
+   "title": "Silent Night, Deadly Night 5: The Toy Maker",
    "date": "2026-11-01",
    "time": "19:15",
    "url": "https://www.roxycinemanewyork.com/screenings/silent-night-deadly-night-5-the-toy-maker-35mm-the-surreal-nightmares-of-screaming-mad-george/",
    "note": "The Surreal Nightmares of Screaming Mad George",
-   "fmt": "35MM",
+   "fmt": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6165,15 +5927,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "206"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-01",
-   "time": "20:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -7417,15 +7170,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-02",
-   "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-11-02",
@@ -7760,15 +7504,6 @@
    "genreMovieId": "1392"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-02",
-   "time": "20:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Mildred Pierce",
    "date": "2026-11-02",
@@ -7965,6 +7700,15 @@
    "date": "2026-11-02",
    "time": "21:20",
    "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ifc",
+   "title": "The Devils",
+   "date": "2026-11-02",
+   "time": "21:25",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9026,15 +8770,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-03",
-   "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-11-03",
@@ -9338,15 +9073,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "7335"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-03",
-   "time": "20:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "mg",
@@ -10544,15 +10270,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-04",
-   "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-11-04",
@@ -10885,15 +10602,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1392"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-04",
-   "time": "20:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -12139,15 +11847,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-05",
-   "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-11-05",
@@ -12470,15 +12169,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1392"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-05",
-   "time": "20:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
