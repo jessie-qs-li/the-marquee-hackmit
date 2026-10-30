@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 46,
-  "classified": 7,
+  "classified": 9,
   "unresolved": [
    {
     "key": "senseandsensibility|",
@@ -59,20 +59,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "rehearsalsforarevolution|",
-    "title": "Rehearsals for a Revolution",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "comeandgo|",
     "title": "Come and Go",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "bedfordpark|",
-    "title": "Bedford Park",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -242,7 +230,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-30T01:08:05.764Z",
+ "fetchedAt": "2026-10-30T10:12:45.835Z",
  "week": [
   "2026-10-30",
   "2026-10-31",
@@ -320,14 +308,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 18,
-   "ms": 2851
+   "ms": 2131
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 150,
-   "ms": 3019
+   "ms": 3972
   },
   {
    "id": "somerville",
@@ -342,7 +330,7 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 97,
-   "ms": 1237
+   "ms": 1061
   },
   {
    "id": "hfa",
@@ -510,14 +498,15 @@
    "url": "https://brattlefilm.org/purchase/1742868/",
    "filmUrl": "https://brattlefilm.org/movies/the-gate/",
    "genres": [
+    "scifi",
     "horror"
    ],
-   "year": null,
+   "year": 1987,
    "sourceGenres": [
+    "Fantasy",
     "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "2451"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -621,10 +610,14 @@
    "time": "18:00",
    "url": "https://iffboston.org/events/rehearsalsforarevolution/",
    "filmUrl": "https://brattlefilm.org/movies/rehearsals-for-a-revolution/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -739,10 +732,16 @@
    "time": "20:00",
    "url": "https://iffboston.org/events/bedfordpark/",
    "filmUrl": "https://brattlefilm.org/movies/bedford-park/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
