@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 47,
-  "classified": 11,
+  "classified": 16,
   "unresolved": [
    {
     "key": "wicker|",
@@ -19,12 +19,6 @@
    {
     "key": "onceuponatimeinharlem|",
     "title": "Once Upon a Time in Harlem",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "lagradiva|",
-    "title": "La Gradiva",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -65,32 +59,14 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "ashes|",
-    "title": "Ashes",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "gentlemonster|",
     "title": "Gentle Monster",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "everytime|",
-    "title": "Everytime",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "daughterofdarkness|",
     "title": "Daughter of Darkness",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "coward|",
-    "title": "Coward",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -103,12 +79,6 @@
    {
     "key": "devils|",
     "title": "The Devils (1971)",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "splitrock|",
-    "title": "Split Rock",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -224,7 +194,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-31T05:55:15.236Z",
+ "fetchedAt": "2026-10-31T12:45:52.225Z",
  "week": [
   "2026-10-31",
   "2026-11-01",
@@ -302,14 +272,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 18,
-   "ms": 2595
+   "ms": 2176
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 127,
-   "ms": 5342
+   "ms": 1044
   },
   {
    "id": "somerville",
@@ -324,14 +294,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 82,
-   "ms": 834
+   "ms": 712
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 270
+   "ms": 328
   },
   {
    "id": "mfa",
@@ -405,10 +375,14 @@
    "time": "11:45",
    "url": "https://iffboston.org/events/lagradiva/",
    "filmUrl": "https://brattlefilm.org/movies/la-gradiva/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -553,10 +527,16 @@
    "time": "14:45",
    "url": "https://iffboston.org/events/ashes/",
    "filmUrl": "https://brattlefilm.org/movies/ashes/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Thriller"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -650,10 +630,14 @@
    "time": "17:00",
    "url": "https://iffboston.org/events/everytime/",
    "filmUrl": "https://brattlefilm.org/movies/everytime/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -778,10 +762,17 @@
    "time": "19:30",
    "url": "https://iffboston.org/events/coward/",
    "filmUrl": "https://brattlefilm.org/movies/coward/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "War"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -917,10 +908,16 @@
    "time": "22:00",
    "url": "https://iffboston.org/events/splitrock/",
    "filmUrl": "https://brattlefilm.org/movies/split-rock/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "horror",
+    "thriller"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2892,24 +2889,6 @@
   },
   {
    "venue": "coolidge",
-   "title": "The Guardian (1990)",
-   "date": "2026-11-06",
-   "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040493~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/guardian-1990",
-   "genres": [
-    "horror",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Horror",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "2982"
-  },
-  {
-   "venue": "coolidge",
    "title": "Eraserhead",
    "date": "2026-11-06",
    "time": "23:59",
@@ -2925,6 +2904,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "3676"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Guardian (1990)",
+   "date": "2026-11-06",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040493~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/guardian-1990",
+   "genres": [
+    "horror",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2982"
   }
  ]
 }
