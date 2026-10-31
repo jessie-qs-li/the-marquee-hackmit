@@ -1,33 +1,9 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 156,
-  "classified": 52,
+  "total": 155,
+  "classified": 51,
   "unresolved": [
-   {
-    "key": "queenatsea|",
-    "title": "QUEEN AT SEA",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "onlylivingpickpocketinnewyork|",
-    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "wicker|",
-    "title": "WICKER",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "labolanegra|",
-    "title": "LA BOLA NEGRA",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
    {
     "key": "fjord|",
     "title": "Fjord",
@@ -43,12 +19,6 @@
    {
     "key": "ontheroad|",
     "title": "On The Road",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "everesttheotherside|",
-    "title": "EVEREST: THE OTHER SIDE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -107,6 +77,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "onlylivingpickpocketinnewyork|",
+    "title": "The Only Living Pickpocket in New York",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "whokilledalexodeh|",
     "title": "Who Killed Alex Odeh?",
     "year": null,
@@ -125,14 +101,14 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "possiblelove|",
-    "title": "POSSIBLE LOVE",
+    "key": "silentnightdeadlynight5thetoymaker|",
+    "title": "Silent Night, Deadly Night 5: The Toy Maker",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "silentnightdeadlynight5thetoymaker|",
-    "title": "Silent Night, Deadly Night 5: The Toy Maker",
+    "key": "labolanegra|",
+    "title": "La Bola Negra",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -143,20 +119,38 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "wicker|",
+    "title": "WICKER",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "queenatsea|",
+    "title": "QUEEN AT SEA",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "vera|1986",
     "title": "Vera",
     "year": 1986,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "sgtkabukimannypdlloydkaufmaninpersononsunoct25|",
-    "title": "SGT. KABUKIMAN NYPD (Lloyd Kaufman in person on Sun, Oct 25!)",
+    "key": "sgtkabukimannypd|",
+    "title": "SGT. KABUKIMAN NYPD",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "clayface|",
     "title": "Clayface",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "everesttheotherside|",
+    "title": "EVEREST: THE OTHER SIDE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -188,6 +182,12 @@
     "key": "bridesofdracula|1960",
     "title": "The Brides of Dracula",
     "year": 1960,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "possiblelove|",
+    "title": "POSSIBLE LOVE",
+    "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -632,7 +632,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-10-31T12:45:47.769Z",
+ "fetchedAt": "2026-10-31T19:22:14.067Z",
  "week": [
   "2026-10-31",
   "2026-11-01",
@@ -850,35 +850,37 @@
    "name": "Film Forum",
    "ok": true,
    "count": 108,
-   "ms": 290
+   "ms": 668
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": true,
-   "count": 54,
-   "ms": 106
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 on GET /nyc/",
+   "carried": 54,
+   "carriedFrom": "2026-10-31T12:45:47.769Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 154,
-   "ms": 89
+   "ms": 548
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 20,
-   "ms": 606
+   "ms": 794
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 77,
-   "ms": 143
+   "ms": 338
   },
   {
    "id": "cv",
@@ -892,21 +894,21 @@
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 17,
-   "ms": 85
+   "ms": 392
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 190,
-   "ms": 4060
+   "count": 177,
+   "ms": 3212
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 22,
-   "ms": 2263
+   "count": 21,
+   "ms": 1995
   },
   {
    "id": "wrt",
@@ -929,21 +931,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 120,
-   "ms": 226
+   "ms": 810
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 70,
-   "ms": 4129
+   "count": 63,
+   "ms": 5130
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 182,
-   "ms": 5918
+   "ms": 7332
   },
   {
    "id": "spec",
@@ -958,7 +960,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 15,
-   "ms": 1811
+   "ms": 1102
   },
   {
    "id": "momi",
@@ -973,7 +975,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 1,
-   "ms": 836
+   "ms": 368
   },
   {
    "id": "kew",
@@ -988,39 +990,11 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 1,
-   "ms": 1681
+   "ms": 2148
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "QUEEN AT SEA",
-   "date": "2026-10-31",
-   "time": "10:10",
-   "fmt": "Standard",
-   "director": "Lance Hammer",
-   "runtime": 121,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-31",
-   "time": "10:30",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "ifc",
    "title": "The History of Concrete",
@@ -1036,34 +1010,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "angelika",
-   "title": "WICKER",
-   "date": "2026-10-31",
-   "time": "10:45",
-   "fmt": "Standard",
-   "director": "Alex Huston Fischer & Eleanor Wilson",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA",
-   "date": "2026-10-31",
-   "time": "10:45",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -1131,20 +1077,6 @@
    "genreMovieId": "2052"
   },
   {
-   "venue": "angelika",
-   "title": "EVEREST: THE OTHER SIDE",
-   "date": "2026-10-31",
-   "time": "11:10",
-   "fmt": "Standard",
-   "director": "Elizabeth Chai Vasarhelyi and Jimmy Chin",
-   "runtime": 115,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/everest-the-other-side",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Wildwood",
    "date": "2026-10-31",
@@ -1187,20 +1119,6 @@
    "title": "The Devils",
    "date": "2026-10-31",
    "time": "11:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-10-31",
-   "time": "11:45",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1255,26 +1173,6 @@
    "genreMovieId": "1982"
   },
   {
-   "venue": "paris",
-   "title": "A Place in the Sun",
-   "date": "2026-10-31",
-   "time": "12:00",
-   "runtime": 122,
-   "fmt": "35MM, Intro",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-2998/seats",
-   "genres": [
-    "drama",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Romance"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "3475"
-  },
-  {
    "venue": "ff",
    "title": "ONCE UPON A TIME IN HARLEM",
    "date": "2026-10-31",
@@ -1323,38 +1221,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-31",
-   "time": "12:45",
-   "fmt": "Open Captions",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-10-31",
    "time": "12:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "QUEEN AT SEA",
-   "date": "2026-10-31",
-   "time": "13:00",
-   "fmt": "Standard",
-   "director": "Lance Hammer",
-   "runtime": 121,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1440,20 +1310,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "WICKER",
-   "date": "2026-10-31",
-   "time": "13:15",
-   "fmt": "Open Captions",
-   "director": "Alex Huston Fischer & Eleanor Wilson",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "The History of Concrete",
    "date": "2026-10-31",
@@ -1527,20 +1383,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "EVEREST: THE OTHER SIDE",
-   "date": "2026-10-31",
-   "time": "13:50",
-   "fmt": "Open Captions",
-   "director": "Elizabeth Chai Vasarhelyi and Jimmy Chin",
-   "runtime": 115,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/everest-the-other-side",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "mg",
    "title": "Beetlejuice",
    "date": "2026-10-31",
@@ -1597,20 +1439,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "POSSIBLE LOVE",
-   "date": "2026-10-31",
-   "time": "14:15",
-   "fmt": "English subtitles",
-   "director": "Lee Chang-dong",
-   "runtime": 165,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/possible-love",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "FATHERLAND",
    "date": "2026-10-31",
@@ -1658,20 +1486,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-10-31",
-   "time": "15:00",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-10-31",
@@ -1688,20 +1502,6 @@
    "url": "https://www.roxycinemanewyork.com/screenings/silent-night-deadly-night-5-the-toy-maker-35mm-the-surreal-nightmares-of-screaming-mad-george/",
    "note": "The Surreal Nightmares of Screaming Mad George",
    "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-10-31",
-   "time": "15:05",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1867,7 +1667,7 @@
   },
   {
    "venue": "afa",
-   "title": "SGT. KABUKIMAN NYPD (Lloyd Kaufman in person on Sun, Oct 25!)",
+   "title": "SGT. KABUKIMAN NYPD",
    "date": "2026-10-31",
    "time": "16:00",
    "genres": [],
@@ -2042,15 +1842,6 @@
    "title": "You Can See Everything",
    "date": "2026-10-31",
    "time": "16:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-10-31",
-   "time": "17:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4171,15 +3962,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-01",
-   "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "roxy",
    "title": "Ganja & Hess",
    "date": "2026-11-01",
@@ -5942,15 +5724,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-02",
-   "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "You Can See Everything",
    "date": "2026-11-02",
@@ -7687,15 +7460,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-03",
-   "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "WICKER",
    "date": "2026-11-03",
@@ -9334,15 +9098,6 @@
    "title": "You Can See Everything",
    "date": "2026-11-04",
    "time": "16:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-04",
-   "time": "17:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11079,15 +10834,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-05",
-   "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "You Can See Everything",
    "date": "2026-11-05",
@@ -12391,15 +12137,6 @@
    "date": "2026-11-06",
    "time": "17:00",
    "url": "https://www.bam.org/film/2026/fatherland",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-06",
-   "time": "17:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
