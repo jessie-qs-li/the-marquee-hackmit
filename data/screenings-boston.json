@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 45,
-  "classified": 12,
+  "classified": 16,
   "unresolved": [
    {
     "key": "youcanseeeverything|",
@@ -25,12 +25,6 @@
    {
     "key": "onceuponatimeinharlem|",
     "title": "Once Upon a Time in Harlem",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "tangles|",
-    "title": "Tangles",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -65,12 +59,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "dreamedadventure|",
-    "title": "The Dreamed Adventure",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "ondangerousground|",
     "title": "On Dangerous Ground",
     "year": null,
@@ -79,18 +67,6 @@
    {
     "key": "theymademeafugitive|",
     "title": "They Made Me a Fugitive",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "clarissa|",
-    "title": "Clarissa",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "bitterchristmas|",
-    "title": "Bitter Christmas",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -206,7 +182,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-01T06:21:47.165Z",
+ "fetchedAt": "2026-11-01T13:38:25.020Z",
  "week": [
   "2026-11-01",
   "2026-11-02",
@@ -284,14 +260,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 18,
-   "ms": 1991
+   "ms": 2594
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 103,
-   "ms": 4053
+   "ms": 3250
   },
   {
    "id": "somerville",
@@ -306,14 +282,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 62,
-   "ms": 721
+   "ms": 851
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 7,
-   "ms": 346
+   "ms": 388
   },
   {
    "id": "mfa",
@@ -377,10 +353,16 @@
    "time": "12:00",
    "url": "https://iffboston.org/events/tangles/",
    "filmUrl": "https://brattlefilm.org/movies/tangles/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "family",
+    "drama"
+   ],
+   "year": 2027,
+   "sourceGenres": [
+    "Animation",
+    "Drama"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -493,10 +475,18 @@
    "time": "14:15",
    "url": "https://iffboston.org/events/thedreamedadventure/",
    "filmUrl": "https://brattlefilm.org/movies/the-dreamed-adventure/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "thriller",
+    "romance"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Mystery",
+    "Romance"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -643,10 +633,14 @@
    "time": "17:30",
    "url": "http://iffboston.org/events/clarissa/",
    "filmUrl": "https://brattlefilm.org/movies/clarissa/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -760,10 +754,16 @@
    "time": "20:00",
    "url": "https://iffboston.org/events/bitterchristmas/",
    "filmUrl": "https://brattlefilm.org/movies/bitter-christmas/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2285,24 +2285,6 @@
   },
   {
    "venue": "coolidge",
-   "title": "Eraserhead",
-   "date": "2026-11-06",
-   "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1041269~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/eraserhead",
-   "genres": [
-    "drama",
-    "horror"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Horror"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "3676"
-  },
-  {
-   "venue": "coolidge",
    "title": "The Guardian (1990)",
    "date": "2026-11-06",
    "time": "23:59",
@@ -2318,6 +2300,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2982"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Eraserhead",
+   "date": "2026-11-06",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1041269~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/eraserhead",
+   "genres": [
+    "drama",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Horror"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "3676"
   },
   {
    "venue": "coolidge",
