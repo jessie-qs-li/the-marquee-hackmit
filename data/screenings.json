@@ -1,7 +1,7 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 151,
+  "total": 152,
   "classified": 41,
   "unresolved": [
    {
@@ -563,6 +563,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "nationaltheatrelivegoldenboy|",
+    "title": "National Theatre Live: Golden Boy",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "housemaid|1960",
     "title": "The Housemaid",
     "year": 1960,
@@ -668,7 +674,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-01T00:11:49.175Z",
+ "fetchedAt": "2026-11-01T06:21:39.915Z",
  "week": [
   "2026-11-01",
   "2026-11-02",
@@ -886,35 +892,35 @@
    "name": "Film Forum",
    "ok": true,
    "count": 90,
-   "ms": 268
+   "ms": 283
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
    "count": 53,
-   "ms": 57
+   "ms": 45
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
-   "count": 128,
-   "ms": 270
+   "count": 137,
+   "ms": 87
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 19,
-   "ms": 144
+   "ms": 152
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 63,
-   "ms": 135
+   "ms": 116
   },
   {
    "id": "cv",
@@ -928,21 +934,21 @@
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 14,
-   "ms": 40
+   "ms": 44
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
    "count": 181,
-   "ms": 3533
+   "ms": 3208
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
    "count": 18,
-   "ms": 1779
+   "ms": 1863
   },
   {
    "id": "wrt",
@@ -965,21 +971,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 116,
-   "ms": 443
+   "ms": 86
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 63,
-   "ms": 4924
+   "ms": 4299
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 182,
-   "ms": 7156
+   "ms": 7029
   },
   {
    "id": "spec",
@@ -994,7 +1000,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 11,
-   "ms": 1688
+   "ms": 1663
   },
   {
    "id": "momi",
@@ -1010,7 +1016,7 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 213
+   "ms": 166
   },
   {
    "id": "kew",
@@ -1025,7 +1031,7 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 1,
-   "ms": 1461
+   "ms": 970
   }
  ],
  "notices": {},
@@ -10941,11 +10947,29 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ifc",
+   "title": "Avedon",
+   "date": "2026-11-07",
+   "time": "10:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "Playback: The Battle of Algiers",
    "date": "2026-11-07",
    "time": "11:00",
    "url": "https://www.bam.org/film/2026/playback-battle-of-algiers",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ifc",
+   "title": "National Theatre Live: Golden Boy",
+   "date": "2026-11-07",
+   "time": "11:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11140,10 +11164,28 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ifc",
+   "title": "Avedon",
+   "date": "2026-11-07",
+   "time": "13:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "You Can See Everything",
    "date": "2026-11-07",
    "time": "13:10",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ifc",
+   "title": "Mouse",
+   "date": "2026-11-07",
+   "time": "13:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11365,6 +11407,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ifc",
+   "title": "Mouse",
+   "date": "2026-11-07",
+   "time": "16:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Clayface",
    "date": "2026-11-07",
@@ -11559,6 +11610,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ifc",
+   "title": "Birds of War",
+   "date": "2026-11-07",
+   "time": "18:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Fjord",
    "date": "2026-11-07",
@@ -11568,10 +11628,28 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ifc",
+   "title": "Avedon",
+   "date": "2026-11-07",
+   "time": "18:35",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Clayface",
    "date": "2026-11-07",
    "time": "18:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ifc",
+   "title": "Mouse",
+   "date": "2026-11-07",
+   "time": "18:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11790,6 +11868,15 @@
    "date": "2026-11-07",
    "time": "21:30",
    "url": "https://www.bam.org/film/2026/wild-horse-nine",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ifc",
+   "title": "Mouse",
+   "date": "2026-11-07",
+   "time": "21:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"

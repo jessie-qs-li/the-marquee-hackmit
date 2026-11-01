@@ -206,7 +206,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-01T00:11:53.970Z",
+ "fetchedAt": "2026-11-01T06:21:47.165Z",
  "week": [
   "2026-11-01",
   "2026-11-02",
@@ -284,14 +284,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 18,
-   "ms": 2112
+   "ms": 1991
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 103,
-   "ms": 1564
+   "ms": 4053
   },
   {
    "id": "somerville",
@@ -306,14 +306,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 62,
-   "ms": 703
+   "ms": 721
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 7,
-   "ms": 281
+   "ms": 346
   },
   {
    "id": "mfa",
@@ -2285,24 +2285,6 @@
   },
   {
    "venue": "coolidge",
-   "title": "The Guardian (1990)",
-   "date": "2026-11-06",
-   "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040493~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/guardian-1990",
-   "genres": [
-    "horror",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Horror",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "2982"
-  },
-  {
-   "venue": "coolidge",
    "title": "Eraserhead",
    "date": "2026-11-06",
    "time": "23:59",
@@ -2318,6 +2300,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "3676"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Guardian (1990)",
+   "date": "2026-11-06",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040493~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/guardian-1990",
+   "genres": [
+    "horror",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2982"
   },
   {
    "venue": "coolidge",
