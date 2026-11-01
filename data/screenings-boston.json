@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 45,
-  "classified": 16,
+  "classified": 12,
   "unresolved": [
    {
     "key": "youcanseeeverything|",
@@ -25,6 +25,12 @@
    {
     "key": "onceuponatimeinharlem|",
     "title": "Once Upon a Time in Harlem",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "tangles|",
+    "title": "Tangles",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -59,6 +65,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "dreamedadventure|",
+    "title": "The Dreamed Adventure",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "ondangerousground|",
     "title": "On Dangerous Ground",
     "year": null,
@@ -67,6 +79,18 @@
    {
     "key": "theymademeafugitive|",
     "title": "They Made Me a Fugitive",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "clarissa|",
+    "title": "Clarissa",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "bitterchristmas|",
+    "title": "Bitter Christmas",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -182,7 +206,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-01T13:38:25.020Z",
+ "fetchedAt": "2026-11-01T19:46:19.371Z",
  "week": [
   "2026-11-01",
   "2026-11-02",
@@ -260,14 +284,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 18,
-   "ms": 2594
+   "ms": 3131
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 103,
-   "ms": 3250
+   "ms": 2038
   },
   {
    "id": "somerville",
@@ -282,14 +306,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 62,
-   "ms": 851
+   "ms": 966
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 7,
-   "ms": 388
+   "ms": 393
   },
   {
    "id": "mfa",
@@ -353,16 +377,10 @@
    "time": "12:00",
    "url": "https://iffboston.org/events/tangles/",
    "filmUrl": "https://brattlefilm.org/movies/tangles/",
-   "genres": [
-    "family",
-    "drama"
-   ],
-   "year": 2027,
-   "sourceGenres": [
-    "Animation",
-    "Drama"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -475,18 +493,10 @@
    "time": "14:15",
    "url": "https://iffboston.org/events/thedreamedadventure/",
    "filmUrl": "https://brattlefilm.org/movies/the-dreamed-adventure/",
-   "genres": [
-    "drama",
-    "thriller",
-    "romance"
-   ],
-   "year": 2026,
-   "sourceGenres": [
-    "Drama",
-    "Mystery",
-    "Romance"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -633,14 +643,10 @@
    "time": "17:30",
    "url": "http://iffboston.org/events/clarissa/",
    "filmUrl": "https://brattlefilm.org/movies/clarissa/",
-   "genres": [
-    "drama"
-   ],
-   "year": 2026,
-   "sourceGenres": [
-    "Drama"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "kendall",
@@ -754,16 +760,10 @@
    "time": "20:00",
    "url": "https://iffboston.org/events/bitterchristmas/",
    "filmUrl": "https://brattlefilm.org/movies/bitter-christmas/",
-   "genres": [
-    "comedy",
-    "drama"
-   ],
-   "year": 2026,
-   "sourceGenres": [
-    "Comedy",
-    "Drama"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
