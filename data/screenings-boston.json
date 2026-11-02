@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 44,
-  "classified": 14,
+  "classified": 15,
   "unresolved": [
    {
     "key": "youcanseeeverything|",
@@ -61,12 +61,6 @@
    {
     "key": "5secretmovie11226|",
     "title": "$5 Secret Movie 11/2/26",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "elsinore|",
-    "title": "Elsinore",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -188,7 +182,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-02T00:51:08.000Z",
+ "fetchedAt": "2026-11-02T11:24:52.165Z",
  "week": [
   "2026-11-02",
   "2026-11-03",
@@ -266,14 +260,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 18,
-   "ms": 2326
+   "ms": 2695
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 80,
-   "ms": 2618
+   "ms": 2300
   },
   {
    "id": "somerville",
@@ -288,14 +282,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 46,
-   "ms": 536
+   "ms": 757
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 8,
-   "ms": 460
+   "ms": 491
   },
   {
    "id": "mfa",
@@ -545,10 +539,14 @@
    "time": "20:00",
    "url": "https://iffboston.org/events/elsinore/",
    "filmUrl": "https://brattlefilm.org/movies/elsinore/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
