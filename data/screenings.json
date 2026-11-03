@@ -1,33 +1,9 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 140,
-  "classified": 34,
+  "total": 141,
+  "classified": 36,
   "unresolved": [
-   {
-    "key": "queenatsea|",
-    "title": "QUEEN AT SEA",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "onlylivingpickpocketinnewyork|",
-    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "wicker|",
-    "title": "WICKER",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "labolanegra|",
-    "title": "LA BOLA NEGRA",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
    {
     "key": "fjord|",
     "title": "Fjord",
@@ -43,12 +19,6 @@
    {
     "key": "ontheroad|",
     "title": "On The Road",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "everesttheotherside|",
-    "title": "EVEREST: THE OTHER SIDE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -95,6 +65,24 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "onlylivingpickpocketinnewyork|",
+    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "wicker|",
+    "title": "WICKER",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "queenatsea|",
+    "title": "QUEEN AT SEA",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "blackout|",
     "title": "Blackout",
     "year": null,
@@ -113,8 +101,32 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "everesttheotherside|",
+    "title": "EVEREST: THE OTHER SIDE",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "possiblelove|",
     "title": "POSSIBLE LOVE",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "clayface|",
+    "title": "Clayface",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "klaraandthesun|",
+    "title": "Klara and the Sun",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "labolanegra|",
+    "title": "La Bola Negra",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -125,20 +137,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "wildwood|",
-    "title": "Wildwood",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "iamnotawitch|",
     "title": "I Am Not a Witch",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "clayface|",
-    "title": "Clayface",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -151,12 +151,6 @@
    {
     "key": "electionnightatmayslesblknewstermsconditions|",
     "title": "ELECTION NIGHT at MAYSLES + BLKNEWS: TERMS & CONDITIONS",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "darkroomscreeningsalon|",
-    "title": "DarkRoom Screening & Salon",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -644,7 +638,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-03T06:57:52.369Z",
+ "fetchedAt": "2026-11-03T17:09:07.013Z",
  "week": [
   "2026-11-03",
   "2026-11-04",
@@ -861,8 +855,8 @@
    "id": "ff",
    "name": "Film Forum",
    "ok": true,
-   "count": 54,
-   "ms": 454
+   "count": 119,
+   "ms": 642
   },
   {
    "id": "mg",
@@ -871,28 +865,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /nyc/",
    "carried": 45,
-   "carriedFrom": "2026-11-02T21:47:08.940Z"
+   "carriedFrom": "2026-11-03T06:57:52.369Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 184,
-   "ms": 379
+   "ms": 410
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 20,
-   "ms": 349
+   "ms": 708
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 96,
-   "ms": 277
+   "count": 80,
+   "ms": 451
   },
   {
    "id": "cv",
@@ -906,21 +900,21 @@
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 13,
-   "ms": 220
+   "ms": 289
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 200,
-   "ms": 3503
+   "count": 194,
+   "ms": 3443
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 24,
-   "ms": 1818
+   "count": 23,
+   "ms": 2425
   },
   {
    "id": "wrt",
@@ -943,21 +937,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 136,
-   "ms": 395
+   "ms": 449
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 49,
-   "ms": 5326
+   "count": 56,
+   "ms": 4249
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 105,
-   "ms": 7701
+   "ms": 6970
   },
   {
    "id": "spec",
@@ -972,7 +966,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 11,
-   "ms": 1976
+   "ms": 1470
   },
   {
    "id": "momi",
@@ -987,7 +981,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 4,
-   "ms": 778
+   "ms": 394
   },
   {
    "id": "kew",
@@ -1002,53 +996,11 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 1,
-   "ms": 2632
+   "ms": 1798
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "QUEEN AT SEA",
-   "date": "2026-11-03",
-   "time": "10:10",
-   "fmt": "Standard",
-   "director": "Lance Hammer",
-   "runtime": 121,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-11-03",
-   "time": "10:30",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WICKER",
-   "date": "2026-11-03",
-   "time": "10:30",
-   "fmt": "Standard",
-   "director": "Alex Huston Fischer & Eleanor Wilson",
-   "runtime": 105,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "ifc",
    "title": "The History of Concrete",
@@ -1064,20 +1016,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA",
-   "date": "2026-11-03",
-   "time": "10:45",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -1098,19 +1036,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "paris",
-   "title": "La Bola Negra",
-   "date": "2026-11-03",
-   "time": "10:55",
-   "runtime": 160,
-   "fmt": "35MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3171/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "On The Road",
    "date": "2026-11-03",
@@ -1120,38 +1045,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "EVEREST: THE OTHER SIDE",
-   "date": "2026-11-03",
-   "time": "11:10",
-   "fmt": "Standard",
-   "director": "Elizabeth Chai Vasarhelyi and Jimmy Chin",
-   "runtime": 115,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/everest-the-other-side",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The Devils",
    "date": "2026-11-03",
    "time": "11:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-11-03",
-   "time": "11:45",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1332,15 +1229,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-03",
-   "time": "14:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-11-03",
@@ -1402,6 +1290,24 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Clayface",
+   "date": "2026-11-03",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-11-03",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "You Can See Everything",
    "date": "2026-11-03",
@@ -1428,15 +1334,6 @@
    "fmt": "35MM",
    "note": "",
    "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3170/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-03",
-   "time": "14:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1481,6 +1378,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "4334"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-03",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -1550,15 +1456,6 @@
    "runtime": 105,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-03",
-   "time": "15:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1637,15 +1534,6 @@
    "date": "2026-11-03",
    "time": "16:00",
    "url": "https://www.bam.org/film/2026/you-can-see-everything",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-11-03",
-   "time": "16:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1785,18 +1673,9 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-11-03",
-   "time": "17:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
    "title": "Wicker",
    "date": "2026-11-03",
-   "time": "17:30",
+   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1832,6 +1711,15 @@
    "title": "Naza",
    "date": "2026-11-03",
    "time": "17:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Clayface",
+   "date": "2026-11-03",
+   "time": "17:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1901,6 +1789,15 @@
    "runtime": 105,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-03",
+   "time": "18:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2119,9 +2016,9 @@
   },
   {
    "venue": "nhp",
-   "title": "DarkRoom Screening & Salon",
+   "title": "Edie Arnold Is a Loser",
    "date": "2026-11-03",
-   "time": "19:15",
+   "time": "19:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2180,12 +2077,30 @@
   },
   {
    "venue": "nhp",
-   "title": "Wicker",
+   "title": "You Can See Everything",
    "date": "2026-11-03",
    "time": "19:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Chronovisor",
+   "date": "2026-11-03",
+   "time": "19:55",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
   },
   {
    "venue": "ff",
@@ -2201,15 +2116,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "7335"
-  },
-  {
-   "venue": "nhp",
-   "title": "Edie Arnold Is a Loser",
-   "date": "2026-11-03",
-   "time": "20:05",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "mg",
@@ -2230,6 +2136,15 @@
    "date": "2026-11-03",
    "time": "20:30",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-11-03",
+   "time": "20:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2281,15 +2196,6 @@
    "runtime": 105,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-03",
-   "time": "20:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2369,15 +2275,6 @@
    "genreMovieId": "71205"
   },
   {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-11-03",
-   "time": "21:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Once Upon a Time in Harlem",
    "date": "2026-11-03",
@@ -2449,18 +2346,22 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Grandma’s Boy",
+   "venue": "nhp",
+   "title": "Wicker",
    "date": "2026-11-03",
    "time": "21:30",
-   "genres": [
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "42725"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-03",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "mg",
@@ -2479,6 +2380,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "3897"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-03",
+   "time": "21:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -2568,9 +2478,9 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-03",
-   "time": "22:30",
+   "time": "22:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2839,15 +2749,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-04",
-   "time": "14:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-11-04",
@@ -2918,6 +2819,24 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Clayface",
+   "date": "2026-11-04",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-11-04",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "You Can See Everything",
    "date": "2026-11-04",
@@ -2949,15 +2868,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-04",
-   "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
    "date": "2026-11-04",
@@ -2967,6 +2877,15 @@
    "runtime": 88,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-04",
+   "time": "15:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3047,15 +2966,6 @@
    "genreMovieId": "86882"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-04",
-   "time": "15:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-11-04",
@@ -3133,15 +3043,6 @@
    "date": "2026-11-04",
    "time": "16:00",
    "url": "https://www.bam.org/film/2026/you-can-see-everything",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-11-04",
-   "time": "16:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3281,18 +3182,9 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-11-04",
-   "time": "17:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
    "title": "Wicker",
    "date": "2026-11-04",
-   "time": "17:30",
+   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3353,6 +3245,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Clayface",
+   "date": "2026-11-04",
+   "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "You Can See Everything",
    "date": "2026-11-04",
@@ -3375,6 +3276,15 @@
    "title": "Who Killed Alex Odeh?",
    "date": "2026-11-04",
    "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-04",
+   "time": "18:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3645,9 +3555,9 @@
   },
   {
    "venue": "nhp",
-   "title": "DarkRoom Screening & Salon",
+   "title": "Edie Arnold Is a Loser",
    "date": "2026-11-04",
-   "time": "19:15",
+   "time": "19:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3709,12 +3619,30 @@
   },
   {
    "venue": "nhp",
-   "title": "Wicker",
+   "title": "You Can See Everything",
    "date": "2026-11-04",
    "time": "19:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Chronovisor",
+   "date": "2026-11-04",
+   "time": "19:55",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
   },
   {
    "venue": "ff",
@@ -3743,15 +3671,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Edie Arnold Is a Loser",
-   "date": "2026-11-04",
-   "time": "20:05",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "ONCE UPON A TIME IN HARLEM",
    "date": "2026-11-04",
@@ -3767,6 +3686,15 @@
    "date": "2026-11-04",
    "time": "20:30",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-11-04",
+   "time": "20:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3789,15 +3717,6 @@
    "year": 1974,
    "runtime": 71,
    "director": "Miklós Jancsó",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-04",
-   "time": "20:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3855,15 +3774,6 @@
   {
    "venue": "ifc",
    "title": "The Devils",
-   "date": "2026-11-04",
-   "time": "21:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
    "date": "2026-11-04",
    "time": "21:00",
    "genres": [],
@@ -3951,18 +3861,22 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Grandma’s Boy",
+   "venue": "nhp",
+   "title": "Wicker",
    "date": "2026-11-04",
    "time": "21:30",
-   "genres": [
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "42725"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-04",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "roxy",
@@ -4021,6 +3935,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "27773"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-04",
+   "time": "21:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "paris",
@@ -4101,6 +4024,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-04",
+   "time": "22:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "mg",
    "title": "Ghost in the Shell: 30th Anniversary Remaster",
    "date": "2026-11-04",
@@ -4109,15 +4041,6 @@
    "year": 1995,
    "runtime": 83,
    "director": "Mamoru Oshii",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-11-04",
-   "time": "22:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4420,15 +4343,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-05",
-   "time": "14:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Who Killed Alex Odeh?",
    "date": "2026-11-05",
@@ -4485,6 +4399,24 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Clayface",
+   "date": "2026-11-05",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-11-05",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "You Can See Everything",
    "date": "2026-11-05",
@@ -4503,15 +4435,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-05",
-   "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "QUEEN AT SEA",
    "date": "2026-11-05",
@@ -4521,6 +4444,15 @@
    "runtime": 121,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-05",
+   "time": "15:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4593,15 +4525,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-05",
-   "time": "15:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-11-05",
@@ -4665,15 +4588,6 @@
    "date": "2026-11-05",
    "time": "16:00",
    "url": "https://www.bam.org/film/2026/you-can-see-everything",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-11-05",
-   "time": "16:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4823,18 +4737,9 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-11-05",
-   "time": "17:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
    "title": "Wicker",
    "date": "2026-11-05",
-   "time": "17:30",
+   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4884,6 +4789,15 @@
    "runtime": 118,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Clayface",
+   "date": "2026-11-05",
+   "time": "17:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4954,6 +4868,15 @@
    "title": "Who Killed Alex Odeh?",
    "date": "2026-11-05",
    "time": "18:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-05",
+   "time": "18:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5172,15 +5095,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "DarkRoom Screening & Salon",
-   "date": "2026-11-05",
-   "time": "19:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "WILD HORSE NINE",
    "date": "2026-11-05",
@@ -5197,6 +5111,15 @@
   {
    "venue": "ifc",
    "title": "Soul Patrol",
+   "date": "2026-11-05",
+   "time": "19:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Edie Arnold Is a Loser",
    "date": "2026-11-05",
    "time": "19:30",
    "genres": [],
@@ -5235,12 +5158,30 @@
   },
   {
    "venue": "nhp",
-   "title": "Wicker",
+   "title": "You Can See Everything",
    "date": "2026-11-05",
    "time": "19:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Chronovisor",
+   "date": "2026-11-05",
+   "time": "19:55",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
   },
   {
    "venue": "ff",
@@ -5264,15 +5205,6 @@
    "title": "Mildred Pierce",
    "date": "2026-11-05",
    "time": "20:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Edie Arnold Is a Loser",
-   "date": "2026-11-05",
-   "time": "20:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5303,6 +5235,15 @@
   },
   {
    "venue": "ifc",
+   "title": "Fjord",
+   "date": "2026-11-05",
+   "time": "20:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
    "title": "Fjord",
    "date": "2026-11-05",
    "time": "20:30",
@@ -5348,28 +5289,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-05",
-   "time": "20:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The Devils",
    "date": "2026-11-05",
    "time": "20:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-11-05",
-   "time": "21:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5460,22 +5383,35 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Grandma’s Boy",
+   "venue": "nhp",
+   "title": "Wicker",
    "date": "2026-11-05",
    "time": "21:30",
-   "genres": [
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "42725"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-05",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
    "title": "Naza",
+   "date": "2026-11-05",
+   "time": "21:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
    "date": "2026-11-05",
    "time": "21:45",
    "genres": [],
@@ -5546,6 +5482,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-05",
+   "time": "22:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "paris",
    "title": "La Bola Negra",
    "date": "2026-11-05",
@@ -5554,15 +5499,6 @@
    "fmt": "35MM",
    "note": "",
    "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3176/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-11-05",
-   "time": "22:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5724,10 +5660,35 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-06",
+   "time": "12:20",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "ifc",
    "title": "Birds of War",
    "date": "2026-11-06",
    "time": "12:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-06",
+   "time": "12:25",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5798,6 +5759,16 @@
    "date": "2026-11-06",
    "time": "13:00",
    "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-06",
+   "time": "13:00",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5874,6 +5845,21 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-06",
+   "time": "13:30",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "mg",
    "title": "Bram Stoker's Dracula",
    "date": "2026-11-06",
@@ -5936,15 +5922,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-06",
-   "time": "14:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-11-06",
@@ -5985,10 +5962,38 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-06",
+   "time": "14:25",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Soul Patrol",
    "date": "2026-11-06",
    "time": "14:25",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Clayface",
+   "date": "2026-11-06",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-11-06",
+   "time": "14:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6043,15 +6048,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-06",
-   "time": "14:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-11-06",
@@ -6085,6 +6081,30 @@
    "date": "2026-11-06",
    "time": "15:00",
    "url": "https://www.bam.org/film/2026/fatherland",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-06",
+   "time": "15:00",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-06",
+   "time": "15:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6136,10 +6156,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
    "date": "2026-11-06",
-   "time": "15:30",
+   "time": "15:45",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6167,15 +6188,6 @@
   {
    "venue": "ifc",
    "title": "Mouse",
-   "date": "2026-11-06",
-   "time": "16:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wildwood",
    "date": "2026-11-06",
    "time": "16:00",
    "genres": [],
@@ -6228,6 +6240,21 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-06",
+   "time": "16:15",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
   },
   {
    "venue": "mg",
@@ -6297,6 +6324,16 @@
    "date": "2026-11-06",
    "time": "16:30",
    "url": "https://www.bam.org/film/2026/the-devils",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-06",
+   "time": "16:30",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6381,18 +6418,9 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
-   "date": "2026-11-06",
-   "time": "17:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
    "title": "Wicker",
    "date": "2026-11-06",
-   "time": "17:30",
+   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6405,6 +6433,21 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-06",
+   "time": "17:40",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
   },
   {
    "venue": "angelika",
@@ -6435,10 +6478,29 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Clayface",
+   "date": "2026-11-06",
+   "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "You Can See Everything",
    "date": "2026-11-06",
    "time": "17:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-06",
+   "time": "18:00",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6468,6 +6530,15 @@
    "time": "18:00",
    "url": "https://ticketing.useast.veezi.com/purchase/6678?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-06",
+   "time": "18:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6528,6 +6599,16 @@
    "date": "2026-11-06",
    "time": "18:30",
    "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-06",
+   "time": "18:30",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6662,6 +6743,21 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-06",
+   "time": "19:00",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-11-06",
@@ -6701,15 +6797,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "DarkRoom Screening & Salon",
-   "date": "2026-11-06",
-   "time": "19:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "WILD HORSE NINE",
    "date": "2026-11-06",
@@ -6738,6 +6825,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Edie Arnold Is a Loser",
+   "date": "2026-11-06",
+   "time": "19:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-11-06",
@@ -6758,12 +6854,30 @@
   },
   {
    "venue": "nhp",
-   "title": "Wicker",
+   "title": "You Can See Everything",
    "date": "2026-11-06",
    "time": "19:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Chronovisor",
+   "date": "2026-11-06",
+   "time": "19:55",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
   },
   {
    "venue": "angelika",
@@ -6775,15 +6889,6 @@
    "runtime": 88,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Edie Arnold Is a Loser",
-   "date": "2026-11-06",
-   "time": "20:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6807,6 +6912,31 @@
    "tmdbId": 1437396
   },
   {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-06",
+   "time": "20:15",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-06",
+   "time": "20:20",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "angelika",
    "title": "CLUB KID",
    "date": "2026-11-06",
@@ -6821,8 +6951,18 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "You Can See Everything",
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-06",
+   "time": "20:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
    "date": "2026-11-06",
    "time": "20:30",
    "genres": [],
@@ -6830,10 +6970,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
+   "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-11-06",
-   "time": "20:45",
+   "time": "20:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6903,15 +7043,6 @@
   {
    "venue": "ifc",
    "title": "Trauma Or, Monsters All",
-   "date": "2026-11-06",
-   "time": "21:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
    "date": "2026-11-06",
    "time": "21:00",
    "genres": [],
@@ -7008,18 +7139,22 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Grandma’s Boy",
+   "venue": "nhp",
+   "title": "Wicker",
    "date": "2026-11-06",
    "time": "21:30",
-   "genres": [
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "42725"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-06",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -7047,6 +7182,15 @@
    "title": "The Devils",
    "date": "2026-11-06",
    "time": "21:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-06",
+   "time": "21:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7108,9 +7252,9 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-06",
-   "time": "22:30",
+   "time": "22:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7455,6 +7599,21 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-07",
+   "time": "12:20",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "ifc",
    "title": "Birds of War",
    "date": "2026-11-07",
@@ -7464,10 +7623,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Hen",
+   "venue": "ff",
+   "title": "FATHERLAND",
    "date": "2026-11-07",
    "time": "12:25",
+   "note": "(OC)",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7475,15 +7635,6 @@
   {
    "venue": "ifc",
    "title": "On The Road",
-   "date": "2026-11-07",
-   "time": "12:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Digger",
    "date": "2026-11-07",
    "time": "12:30",
    "genres": [],
@@ -7500,15 +7651,6 @@
    "runtime": 121,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Who Killed Alex Odeh?",
-   "date": "2026-11-07",
-   "time": "12:40",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7538,17 +7680,18 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "ifc",
-   "title": "Avedon (Open Captioning)",
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
    "date": "2026-11-07",
    "time": "13:00",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "You Can See Everything",
+   "venue": "ifc",
+   "title": "Avedon (Open Captioning)",
    "date": "2026-11-07",
    "time": "13:00",
    "genres": [],
@@ -7583,6 +7726,21 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-07",
+   "time": "13:30",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
   },
   {
    "venue": "angelika",
@@ -7635,15 +7793,6 @@
   {
    "venue": "ifc",
    "title": "Possible Love",
-   "date": "2026-11-07",
-   "time": "14:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
    "date": "2026-11-07",
    "time": "14:00",
    "genres": [],
@@ -7710,10 +7859,38 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-07",
+   "time": "14:25",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Soul Patrol",
    "date": "2026-11-07",
    "time": "14:25",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Clayface",
+   "date": "2026-11-07",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-11-07",
+   "time": "14:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7728,41 +7905,14 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "You Can See Everything",
-   "date": "2026-11-07",
-   "time": "14:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "paris",
    "title": "La Bola Negra",
    "date": "2026-11-07",
    "time": "14:35",
    "runtime": 160,
-   "fmt": "35MM",
+   "fmt": "35MM, Intro",
    "note": "",
    "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3250/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Mildred Pierce",
-   "date": "2026-11-07",
-   "time": "14:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-07",
-   "time": "14:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7806,10 +7956,25 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Hen",
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
    "date": "2026-11-07",
-   "time": "15:05",
+   "time": "15:00",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-07",
+   "time": "15:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7838,15 +8003,6 @@
    "runtime": 118,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-07",
-   "time": "15:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7886,6 +8042,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-07",
+   "time": "15:45",
+   "note": "(OC)",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "bam",
    "title": "You Can See Everything",
    "date": "2026-11-07",
@@ -7898,15 +8064,6 @@
   {
    "venue": "ifc",
    "title": "Mouse (Open Captioning)",
-   "date": "2026-11-07",
-   "time": "16:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wildwood",
    "date": "2026-11-07",
    "time": "16:00",
    "genres": [],
@@ -7940,6 +8097,21 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-07",
+   "time": "16:15",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "bam",
    "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-07",
@@ -7964,10 +8136,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Digger",
+   "venue": "ff",
+   "title": "FATHERLAND",
    "date": "2026-11-07",
-   "time": "16:35",
+   "time": "16:30",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8035,24 +8208,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "You Can See Everything",
-   "date": "2026-11-07",
-   "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "Hen",
-   "date": "2026-11-07",
-   "time": "17:05",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "afa",
    "title": "IT’LL BE OK / ALLES WIRD GUT",
    "date": "2026-11-07",
@@ -8076,7 +8231,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "Wicker",
    "date": "2026-11-07",
    "time": "17:15",
    "genres": [],
@@ -8093,15 +8248,6 @@
    "runtime": 88,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wicker",
-   "date": "2026-11-07",
-   "time": "17:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8125,6 +8271,21 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-07",
+   "time": "17:40",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "angelika",
    "title": "CLUB KID",
    "date": "2026-11-07",
@@ -8139,10 +8300,29 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Clayface",
+   "date": "2026-11-07",
+   "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "You Can See Everything",
    "date": "2026-11-07",
    "time": "17:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-07",
+   "time": "18:00",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8170,10 +8350,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
+   "venue": "nhw",
    "title": "You Can See Everything",
    "date": "2026-11-07",
-   "time": "18:00",
+   "time": "18:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8225,6 +8405,16 @@
    "date": "2026-11-07",
    "time": "18:30",
    "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-07",
+   "time": "18:30",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8286,13 +8476,19 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Hen",
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
    "date": "2026-11-07",
-   "time": "19:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "time": "19:00",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
   },
   {
    "venue": "afa",
@@ -8306,15 +8502,6 @@
   {
    "venue": "ifc",
    "title": "Soul Patrol",
-   "date": "2026-11-07",
-   "time": "19:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "DarkRoom Screening & Salon",
    "date": "2026-11-07",
    "time": "19:15",
    "genres": [],
@@ -8378,8 +8565,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "You Can See Everything",
+   "venue": "nhp",
+   "title": "Edie Arnold Is a Loser",
    "date": "2026-11-07",
    "time": "19:30",
    "genres": [],
@@ -8412,7 +8599,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Wicker",
+   "title": "You Can See Everything",
    "date": "2026-11-07",
    "time": "19:45",
    "genres": [],
@@ -8420,20 +8607,29 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Chronovisor",
+   "date": "2026-11-07",
+   "time": "19:55",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "bam",
    "title": "Playback: Love & Basketball",
    "date": "2026-11-07",
    "time": "20:00",
    "url": "https://www.bam.org/film/2026/playback-love-and-basketball",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Edie Arnold Is a Loser",
-   "date": "2026-11-07",
-   "time": "20:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8452,6 +8648,31 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-07",
+   "time": "20:15",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-07",
+   "time": "20:20",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "angelika",
    "title": "CLUB KID",
    "date": "2026-11-07",
@@ -8466,8 +8687,18 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "You Can See Everything",
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-07",
+   "time": "20:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
    "date": "2026-11-07",
    "time": "20:30",
    "genres": [],
@@ -8483,15 +8714,6 @@
    "year": 1944,
    "runtime": 95,
    "director": "Fritz Lang",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-07",
-   "time": "20:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8525,15 +8747,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-11-07",
-   "time": "21:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -8573,15 +8786,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Digger",
-   "date": "2026-11-07",
-   "time": "21:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Wild Horse Nine",
    "date": "2026-11-07",
@@ -8601,22 +8805,17 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Grandma’s Boy",
+   "venue": "nhp",
+   "title": "Wicker",
    "date": "2026-11-07",
    "time": "21:30",
-   "genres": [
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "42725"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Hen",
+   "venue": "nhw",
+   "title": "You Can See Everything",
    "date": "2026-11-07",
    "time": "21:30",
    "genres": [],
@@ -8628,6 +8827,15 @@
    "title": "Trauma Or, Monsters All",
    "date": "2026-11-07",
    "time": "21:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-07",
+   "time": "21:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8698,9 +8906,9 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-07",
-   "time": "22:30",
+   "time": "22:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8919,6 +9127,23 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "THE RED BALLOON",
+   "date": "2026-11-08",
+   "time": "11:00",
+   "note": "",
+   "genres": [
+    "family",
+    "scifi"
+   ],
+   "sourceGenres": [
+    "Children",
+    "Fantasy"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "47721"
+  },
+  {
    "venue": "ifc",
    "title": "National Theatre Live: Golden Boy",
    "date": "2026-11-08",
@@ -9033,6 +9258,21 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-08",
+   "time": "12:40",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-11-08",
@@ -9070,6 +9310,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-08",
+   "time": "12:45",
+   "note": "(OC)",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "Hen",
    "date": "2026-11-08",
@@ -9094,6 +9344,16 @@
    "date": "2026-11-08",
    "time": "13:00",
    "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-08",
+   "time": "13:00",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9180,6 +9440,21 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-08",
+   "time": "13:30",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "roxy",
    "title": "A. Rimbaud",
    "date": "2026-11-08",
@@ -9241,15 +9516,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-08",
-   "time": "14:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-11-08",
@@ -9286,6 +9552,24 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Clayface",
+   "date": "2026-11-08",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-11-08",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "You Can See Everything",
    "date": "2026-11-08",
@@ -9304,10 +9588,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "venue": "ff",
+   "title": "FATHERLAND",
    "date": "2026-11-08",
-   "time": "14:45",
+   "time": "14:40",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9356,6 +9641,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-08",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
    "date": "2026-11-08",
@@ -9382,6 +9676,21 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-08",
+   "time": "15:20",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
   },
   {
    "venue": "quad",
@@ -9427,19 +9736,20 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
+   "venue": "ifc",
+   "title": "Trauma Or, Monsters All (Open Captioning)",
    "date": "2026-11-08",
-   "time": "15:30",
+   "time": "15:35",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
-   "venue": "ifc",
-   "title": "Trauma Or, Monsters All (Open Captioning)",
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
    "date": "2026-11-08",
-   "time": "15:35",
+   "time": "15:45",
+   "note": "(OC)",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9472,15 +9782,6 @@
    "year": 2000,
    "runtime": 83,
    "director": "Ye Lou",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-11-08",
-   "time": "16:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9568,6 +9869,21 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-08",
+   "time": "16:15",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "mg",
    "title": "Columbus",
    "date": "2026-11-08",
@@ -9610,6 +9926,16 @@
    "date": "2026-11-08",
    "time": "16:30",
    "url": "https://www.bam.org/film/2026/once-upon-a-time-in-harlem",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-08",
+   "time": "16:40",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9674,7 +10000,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "Wicker",
    "date": "2026-11-08",
    "time": "17:15",
    "genres": [],
@@ -9691,15 +10017,6 @@
    "runtime": 88,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wicker",
-   "date": "2026-11-08",
-   "time": "17:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9754,10 +10071,44 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Clayface",
+   "date": "2026-11-08",
+   "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhw",
    "title": "You Can See Everything",
    "date": "2026-11-08",
    "time": "17:50",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-08",
+   "time": "18:00",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-08",
+   "time": "18:00",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9804,6 +10155,15 @@
    "runtime": 121,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-08",
+   "time": "18:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9870,6 +10230,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-08",
+   "time": "18:40",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Mouse",
    "date": "2026-11-08",
@@ -9920,6 +10290,21 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-08",
+   "time": "19:00",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
   },
   {
    "venue": "mg",
@@ -9973,15 +10358,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "DarkRoom Screening & Salon",
-   "date": "2026-11-08",
-   "time": "19:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "WILD HORSE NINE",
    "date": "2026-11-08",
@@ -10022,6 +10398,15 @@
    "year": 1973,
    "runtime": 78,
    "director": "David Elfick",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Edie Arnold Is a Loser",
+   "date": "2026-11-08",
+   "time": "19:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10082,7 +10467,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Wicker",
+   "title": "You Can See Everything",
    "date": "2026-11-08",
    "time": "19:45",
    "genres": [],
@@ -10090,19 +10475,28 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Chronovisor",
+   "date": "2026-11-08",
+   "time": "19:55",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
+  },
+  {
    "venue": "quad",
    "title": "Hen",
    "date": "2026-11-08",
    "time": "19:55",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Edie Arnold Is a Loser",
-   "date": "2026-11-08",
-   "time": "20:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10126,6 +10520,50 @@
    "tmdbId": 1596296
   },
   {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-08",
+   "time": "20:15",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-11-08",
+   "time": "20:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-08",
+   "time": "20:40",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-08",
+   "time": "20:40",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-11-08",
@@ -10140,15 +10578,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-08",
-   "time": "20:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -10184,15 +10613,6 @@
    "date": "2026-11-08",
    "time": "21:00",
    "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-11-08",
-   "time": "21:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10309,24 +10729,37 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Grandma’s Boy",
+   "venue": "nhp",
+   "title": "Wicker",
    "date": "2026-11-08",
    "time": "21:30",
-   "genres": [
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "42725"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-08",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
    "title": "Trauma Or, Monsters All",
    "date": "2026-11-08",
    "time": "21:40",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-08",
+   "time": "21:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10398,9 +10831,9 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-08",
-   "time": "22:30",
+   "time": "22:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10539,10 +10972,35 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-09",
+   "time": "12:20",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "ifc",
    "title": "Birds of War",
    "date": "2026-11-09",
    "time": "12:20",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-09",
+   "time": "12:25",
+   "note": "(OC)",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10580,6 +11038,16 @@
    "runtime": 88,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-09",
+   "time": "13:00",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10653,6 +11121,21 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-09",
+   "time": "13:30",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "angelika",
    "title": "WILD HORSE NINE",
    "date": "2026-11-09",
@@ -10662,15 +11145,6 @@
    "runtime": 118,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-09",
-   "time": "14:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10703,6 +11177,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-09",
+   "time": "14:25",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Soul Patrol",
    "date": "2026-11-09",
@@ -10721,6 +11205,24 @@
    "runtime": 160,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Clayface",
+   "date": "2026-11-09",
+   "time": "14:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Klara and the Sun",
+   "date": "2026-11-09",
+   "time": "14:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10748,19 +11250,34 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "venue": "ifc",
+   "title": "Trauma Or, Monsters All",
    "date": "2026-11-09",
-   "time": "14:45",
+   "time": "14:50",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
-   "venue": "ifc",
-   "title": "Trauma Or, Monsters All",
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
    "date": "2026-11-09",
-   "time": "14:50",
+   "time": "15:00",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-09",
+   "time": "15:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10821,15 +11338,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-09",
-   "time": "15:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
    "date": "2026-11-09",
@@ -10839,6 +11347,16 @@
    "runtime": 88,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-09",
+   "time": "15:45",
+   "note": "(OC)",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10866,15 +11384,6 @@
   {
    "venue": "ifc",
    "title": "Mouse (Open Captioning)",
-   "date": "2026-11-09",
-   "time": "16:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wildwood",
    "date": "2026-11-09",
    "time": "16:00",
    "genres": [],
@@ -10925,6 +11434,21 @@
    "genreMovieId": "2289"
   },
   {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-09",
+   "time": "16:15",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-11-09",
@@ -10953,6 +11477,16 @@
    "date": "2026-11-09",
    "time": "16:30",
    "url": "https://www.bam.org/film/2026/once-upon-a-time-in-harlem",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-09",
+   "time": "16:30",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10996,7 +11530,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "Wicker",
    "date": "2026-11-09",
    "time": "17:15",
    "genres": [],
@@ -11008,15 +11542,6 @@
    "title": "Hen",
    "date": "2026-11-09",
    "time": "17:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wicker",
-   "date": "2026-11-09",
-   "time": "17:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11035,6 +11560,30 @@
    "title": "You Can See Everything",
    "date": "2026-11-09",
    "time": "17:35",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-09",
+   "time": "17:40",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
+   "venue": "nhp",
+   "title": "Clayface",
+   "date": "2026-11-09",
+   "time": "17:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11063,6 +11612,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
+   "date": "2026-11-09",
+   "time": "18:00",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "You Can See Everything",
    "date": "2026-11-09",
@@ -11081,6 +11640,15 @@
    "runtime": 122,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-09",
+   "time": "18:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11113,6 +11681,16 @@
    "date": "2026-11-09",
    "time": "18:30",
    "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-09",
+   "time": "18:30",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11224,6 +11802,21 @@
    "genreMovieId": "2247"
   },
   {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-09",
+   "time": "19:00",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-11-09",
@@ -11256,15 +11849,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "DarkRoom Screening & Salon",
-   "date": "2026-11-09",
-   "time": "19:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The Devils",
    "date": "2026-11-09",
@@ -11276,6 +11860,15 @@
   {
    "venue": "afa",
    "title": "WHITE SNAIL",
+   "date": "2026-11-09",
+   "time": "19:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Edie Arnold Is a Loser",
    "date": "2026-11-09",
    "time": "19:30",
    "genres": [],
@@ -11303,12 +11896,30 @@
   },
   {
    "venue": "nhp",
-   "title": "Wicker",
+   "title": "You Can See Everything",
    "date": "2026-11-09",
    "time": "19:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Chronovisor",
+   "date": "2026-11-09",
+   "time": "19:55",
+   "genres": [
+    "thriller",
+    "scifi",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Science Fiction",
+    "Horror"
+   ],
+   "genreSource": "tmdb",
+   "tmdbId": 1599181
   },
   {
    "venue": "quad",
@@ -11320,10 +11931,45 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Edie Arnold Is a Loser",
+   "venue": "ff",
+   "title": "ONCE UPON A TIME IN HARLEM",
    "date": "2026-11-09",
-   "time": "20:05",
+   "time": "20:15",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "ff",
+   "title": "RAISE THE RED LANTERN",
+   "date": "2026-11-09",
+   "time": "20:20",
+   "note": "",
+   "genres": [
+    "drama"
+   ],
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
+  },
+  {
+   "venue": "ff",
+   "title": "FATHERLAND",
+   "date": "2026-11-09",
+   "time": "20:30",
+   "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Fjord",
+   "date": "2026-11-09",
+   "time": "20:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11375,15 +12021,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-09",
-   "time": "20:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "CLUB KID",
    "date": "2026-11-09",
@@ -11403,15 +12040,6 @@
    "date": "2026-11-09",
    "time": "21:00",
    "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Primetime",
-   "date": "2026-11-09",
-   "time": "21:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11480,18 +12108,22 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Grandma’s Boy",
+   "venue": "nhp",
+   "title": "Wicker",
    "date": "2026-11-09",
    "time": "21:30",
-   "genres": [
-    "comedy"
-   ],
-   "sourceGenres": [
-    "Comedy"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "42725"
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-09",
+   "time": "21:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -11549,6 +12181,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-09",
+   "time": "21:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "The Devils",
    "date": "2026-11-09",
@@ -11586,9 +12227,9 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-09",
-   "time": "22:30",
+   "time": "22:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
