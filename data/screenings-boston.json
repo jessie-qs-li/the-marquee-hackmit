@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 46,
-  "classified": 15,
+  "classified": 16,
   "unresolved": [
    {
     "key": "votingcountselectionsinfilmwednesdaysection|",
@@ -61,12 +61,6 @@
    {
     "key": "harvardbookstorewelcomesjoannechang|",
     "title": "Harvard Book Store Welcomes Joanne Chang",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "behemoth|",
-    "title": "Behemoth!",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -194,7 +188,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-04T06:39:49.817Z",
+ "fetchedAt": "2026-11-04T17:21:48.185Z",
  "week": [
   "2026-11-04",
   "2026-11-05",
@@ -272,14 +266,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 22,
-   "ms": 2111
+   "ms": 2922
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 152,
-   "ms": 7165
+   "ms": 6716
   },
   {
    "id": "somerville",
@@ -294,14 +288,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 101,
-   "ms": 779
+   "ms": 1633
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 10,
-   "ms": 295
+   "ms": 406
   },
   {
    "id": "mfa",
@@ -581,10 +575,16 @@
    "time": "20:00",
    "url": "https://iffboston.org/events/behemoth/",
    "filmUrl": "https://brattlefilm.org/movies/behemoth/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "comedy"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Music"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
