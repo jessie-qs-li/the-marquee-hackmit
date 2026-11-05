@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 46,
-  "classified": 15,
+  "classified": 16,
   "unresolved": [
    {
     "key": "wicker|",
@@ -61,12 +61,6 @@
    {
     "key": "wildhorsenine|",
     "title": "Wild Horse Nine",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "ourbodiesothershames|",
-    "title": "Our Bodies & Other Shames",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -194,7 +188,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-05T07:01:21.316Z",
+ "fetchedAt": "2026-11-05T17:28:40.169Z",
  "week": [
   "2026-11-05",
   "2026-11-06",
@@ -272,14 +266,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 22,
-   "ms": 2987
+   "ms": 3141
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 152,
-   "ms": 98417
+   "ms": 3855
   },
   {
    "id": "somerville",
@@ -294,14 +288,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 103,
-   "ms": 29741
+   "ms": 737
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 10,
-   "ms": 390
+   "ms": 382
   },
   {
    "id": "mfa",
@@ -618,10 +612,14 @@
    "time": "19:00",
    "url": "https://ticketing.bostonjfilm.org/websales/pages/info.aspx?evtinfo=576352~3a1dbf00-5ad7-4f53-af12-28ba7bfe20f4&epguid=1794be97-61f1-4b40-938f-1f50c49c7a63&mdy=11/5/2026&showing=578328&",
    "filmUrl": "https://brattlefilm.org/movies/our-bodies-other-shames/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -728,16 +726,21 @@
    "url": "https://brattlefilm.org/purchase/1741294/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "drama",
+    "scifi",
     "horror"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
-    "Drama",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
     "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "26717"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1280,34 +1283,21 @@
    "url": "https://brattlefilm.org/purchase/1741295/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "drama",
+    "scifi",
     "horror"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
-    "Drama",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
     "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "26717"
-  },
-  {
-   "venue": "coolidge",
-   "title": "The Guardian (1990)",
-   "date": "2026-11-06",
-   "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040493~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/guardian-1990",
-   "genres": [
-    "horror",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Horror",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "2982"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1326,6 +1316,24 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "3676"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Guardian (1990)",
+   "date": "2026-11-06",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040493~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/guardian-1990",
+   "genres": [
+    "horror",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "2982"
   },
   {
    "venue": "coolidge",
@@ -1931,16 +1939,21 @@
    "url": "https://brattlefilm.org/purchase/1741296/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "drama",
+    "scifi",
     "horror"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
-    "Drama",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
     "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "26717"
+   "genreSource": "venue"
   },
   {
    "venue": "hfa",
@@ -2281,16 +2294,21 @@
    "url": "https://brattlefilm.org/purchase/1741300/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "drama",
+    "scifi",
     "horror"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
-    "Drama",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
     "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "26717"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
