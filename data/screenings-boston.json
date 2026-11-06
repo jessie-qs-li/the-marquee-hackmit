@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 45,
-  "classified": 15,
+  "classified": 16,
   "unresolved": [
    {
     "key": "wildhorsenine|",
@@ -167,12 +167,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "myundesirablefriendspartiiexilechapters45of5|",
-    "title": "My Undesirable Friends: Part II - Exile, Chapters 4-5 (of 5)",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "clubkid|",
     "title": "Club Kid",
     "year": null,
@@ -188,7 +182,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-06T16:49:54.250Z",
+ "fetchedAt": "2026-11-06T23:15:53.060Z",
  "week": [
   "2026-11-06",
   "2026-11-07",
@@ -266,14 +260,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 22,
-   "ms": 2655
+   "ms": 2813
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 152,
-   "ms": 1652
+   "ms": 2512
   },
   {
    "id": "somerville",
@@ -288,14 +282,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 103,
-   "ms": 718
+   "ms": 1063
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 10,
-   "ms": 319
+   "ms": 140
   },
   {
    "id": "mfa",
@@ -565,20 +559,13 @@
     "comedy",
     "drama"
    ],
-   "year": 2026,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
   },
   {
    "venue": "kendall",
@@ -856,19 +843,16 @@
    "url": "https://brattlefilm.org/purchase/1741295/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "scifi",
+    "drama",
     "horror"
    ],
-   "year": 1991,
+   "year": null,
    "sourceGenres": [
-    "Fantasy",
-    "Horror",
-    "Fantasy",
-    "Horror",
-    "Fantasy",
+    "Drama",
     "Horror"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "26717"
   },
   {
    "venue": "coolidge",
@@ -1218,20 +1202,13 @@
     "comedy",
     "drama"
    ],
-   "year": 2026,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
   },
   {
    "venue": "coolidge",
@@ -1517,19 +1494,16 @@
    "url": "https://brattlefilm.org/purchase/1741296/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "scifi",
+    "drama",
     "horror"
    ],
-   "year": 1991,
+   "year": null,
    "sourceGenres": [
-    "Fantasy",
-    "Horror",
-    "Fantasy",
-    "Horror",
-    "Fantasy",
+    "Drama",
     "Horror"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "26717"
   },
   {
    "venue": "hfa",
@@ -1870,19 +1844,16 @@
    "url": "https://brattlefilm.org/purchase/1741300/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "scifi",
+    "drama",
     "horror"
    ],
-   "year": 1991,
+   "year": null,
    "sourceGenres": [
-    "Fantasy",
-    "Horror",
-    "Fantasy",
-    "Horror",
-    "Fantasy",
+    "Drama",
     "Horror"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "26717"
   },
   {
    "venue": "coolidge",
@@ -1934,20 +1905,16 @@
    "url": "https://brattlefilm.org/purchase/1741900/",
    "filmUrl": "https://brattlefilm.org/movies/the-brother-from-another-planet/",
    "genres": [
-    "comedy",
     "drama",
     "scifi"
    ],
-   "year": 1984,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
     "Drama",
-    "Science Fiction",
-    "Comedy",
-    "Drama",
-    "Science Fiction"
+    "Sci-Fi"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "3700"
   },
   {
    "venue": "coolidge",
@@ -2087,20 +2054,13 @@
     "comedy",
     "drama"
    ],
-   "year": 2026,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
   },
   {
    "venue": "coolidge",
@@ -2219,20 +2179,13 @@
     "comedy",
     "drama"
    ],
-   "year": 2026,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
   },
   {
    "venue": "coolidge",
@@ -2462,20 +2415,16 @@
    "url": "https://brattlefilm.org/purchase/1741902/",
    "filmUrl": "https://brattlefilm.org/movies/the-brother-from-another-planet/",
    "genres": [
-    "comedy",
     "drama",
     "scifi"
    ],
-   "year": 1984,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
     "Drama",
-    "Science Fiction",
-    "Comedy",
-    "Drama",
-    "Science Fiction"
+    "Sci-Fi"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "3700"
   },
   {
    "venue": "coolidge",
@@ -2669,20 +2618,13 @@
     "comedy",
     "drama"
    ],
-   "year": 2026,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
   },
   {
    "venue": "kendall",
@@ -3372,10 +3314,15 @@
    "time": "16:00",
    "url": "https://brattlefilm.org/showtimes/my-undesirable-friends-part-ii-exile-chapters-4-6-of-6-11-12-26-400-pm/",
    "filmUrl": "https://brattlefilm.org/movies/my-undesirable-friends-part-ii-exile-2/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary",
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -3530,10 +3477,15 @@
    "time": "19:30",
    "url": "https://brattlefilm.org/showtimes/my-undesirable-friends-part-ii-exile-chapters-4-6-of-6-11-12-26-730-pm/",
    "filmUrl": "https://brattlefilm.org/movies/my-undesirable-friends-part-ii-exile-2/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary",
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
