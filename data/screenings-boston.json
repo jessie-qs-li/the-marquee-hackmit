@@ -188,7 +188,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-06T06:58:27.664Z",
+ "fetchedAt": "2026-11-06T16:49:54.250Z",
  "week": [
   "2026-11-06",
   "2026-11-07",
@@ -266,14 +266,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 22,
-   "ms": 2475
+   "ms": 2655
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 152,
-   "ms": 966
+   "ms": 1652
   },
   {
    "id": "somerville",
@@ -288,14 +288,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 103,
-   "ms": 1431
+   "ms": 718
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 10,
-   "ms": 194
+   "ms": 319
   },
   {
    "id": "mfa",
@@ -856,16 +856,19 @@
    "url": "https://brattlefilm.org/purchase/1741295/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "drama",
+    "scifi",
     "horror"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
-    "Drama",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
     "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "26717"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1514,16 +1517,19 @@
    "url": "https://brattlefilm.org/purchase/1741296/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "drama",
+    "scifi",
     "horror"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
-    "Drama",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
     "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "26717"
+   "genreSource": "venue"
   },
   {
    "venue": "hfa",
@@ -1864,16 +1870,19 @@
    "url": "https://brattlefilm.org/purchase/1741300/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "drama",
+    "scifi",
     "horror"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
-    "Drama",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
     "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "26717"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2307,14 +2316,17 @@
    "url": "https://brattlefilm.org/showtimes/double-indemnity-11-9-26-600-pm/",
    "filmUrl": "https://brattlefilm.org/movies/double-indemnity/",
    "genres": [
-    "thriller"
+    "thriller",
+    "drama"
    ],
-   "year": 1944,
+   "year": null,
    "sourceGenres": [
     "Crime",
-    "Thriller"
+    "Drama",
+    "Film-Noir"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "3435"
   },
   {
    "venue": "coolidge",
