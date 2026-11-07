@@ -206,7 +206,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-07T06:11:32.607Z",
+ "fetchedAt": "2026-11-07T13:15:49.338Z",
  "week": [
   "2026-11-07",
   "2026-11-08",
@@ -284,14 +284,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 21,
-   "ms": 2390
+   "ms": 2033
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 128,
-   "ms": 4521
+   "ms": 3855
   },
   {
    "id": "somerville",
@@ -306,14 +306,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 86,
-   "ms": 689
+   "ms": 571
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 10,
-   "ms": 322
+   "ms": 462
   },
   {
    "id": "mfa",
@@ -390,16 +390,15 @@
    "filmUrl": "https://brattlefilm.org/movies/after-hours/",
    "genres": [
     "comedy",
-    "drama",
     "thriller"
    ],
-   "year": 1985,
+   "year": null,
    "sourceGenres": [
     "Comedy",
-    "Drama",
     "Thriller"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "7419"
   },
   {
    "venue": "coolidge",
@@ -639,18 +638,13 @@
     "comedy",
     "drama"
    ],
-   "year": 2026,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
   },
   {
    "venue": "coolidge",
@@ -936,17 +930,16 @@
    "url": "https://brattlefilm.org/purchase/1741296/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "scifi",
+    "drama",
     "horror"
    ],
-   "year": 1991,
+   "year": null,
    "sourceGenres": [
-    "Fantasy",
-    "Horror",
-    "Fantasy",
+    "Drama",
     "Horror"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "26717"
   },
   {
    "venue": "hfa",
@@ -1287,17 +1280,16 @@
    "url": "https://brattlefilm.org/purchase/1741300/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "scifi",
+    "drama",
     "horror"
    ],
-   "year": 1991,
+   "year": null,
    "sourceGenres": [
-    "Fantasy",
-    "Horror",
-    "Fantasy",
+    "Drama",
     "Horror"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "26717"
   },
   {
    "venue": "coolidge",
@@ -1498,18 +1490,13 @@
     "comedy",
     "drama"
    ],
-   "year": 2026,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
   },
   {
    "venue": "coolidge",
@@ -1628,18 +1615,13 @@
     "comedy",
     "drama"
    ],
-   "year": 2026,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
   },
   {
    "venue": "coolidge",
@@ -2072,18 +2054,13 @@
     "comedy",
     "drama"
    ],
-   "year": 2026,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
   },
   {
    "venue": "kendall",
@@ -3096,6 +3073,26 @@
   },
   {
    "venue": "coolidge",
+   "title": "The Hunted (2003)",
+   "date": "2026-11-13",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040495~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/hunted-2003",
+   "genres": [
+    "action",
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Drama",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "6219"
+  },
+  {
+   "venue": "coolidge",
    "title": "The Rocky Horror Picture Show",
    "date": "2026-11-13",
    "time": "23:59",
@@ -3114,26 +3111,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2657"
-  },
-  {
-   "venue": "coolidge",
-   "title": "The Hunted (2003)",
-   "date": "2026-11-13",
-   "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040495~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/hunted-2003",
-   "genres": [
-    "action",
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6219"
   }
  ]
 }
