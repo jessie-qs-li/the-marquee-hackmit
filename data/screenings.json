@@ -1,27 +1,9 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 132,
+  "total": 131,
   "classified": 29,
   "unresolved": [
-   {
-    "key": "wildhorsenine|",
-    "title": "WILD HORSE NINE",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "onlylivingpickpocketinnewyork|",
-    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "clubkid|",
-    "title": "CLUB KID",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
    {
     "key": "harlemdadstrollsaturdaymorningcartoonsatmaysles|",
     "title": "HARLEM DAD STROLL: SATURDAY MORNING CARTOONS at Maysles",
@@ -49,12 +31,6 @@
    {
     "key": "naza|",
     "title": "Naza",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "labolanegra|",
-    "title": "La Bola Negra",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -113,12 +89,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "queenatsea|",
-    "title": "QUEEN AT SEA",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "digger|",
     "title": "Digger",
     "year": null,
@@ -139,6 +109,12 @@
    {
     "key": "mouse|",
     "title": "Mouse",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "wildhorsenine|",
+    "title": "Wild Horse Nine",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -173,6 +149,24 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "labolanegra|",
+    "title": "La Bola Negra",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "clubkid|",
+    "title": "CLUB KID",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "onlylivingpickpocketinnewyork|",
+    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "mildredpierce|",
     "title": "Mildred Pierce",
     "year": null,
@@ -194,12 +188,6 @@
     "key": "afterwintercomesspring|1998",
     "title": "After Winter Comes Spring",
     "year": 1998,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "wildwood|",
-    "title": "Wildwood",
-    "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -356,6 +344,12 @@
     "key": "gorgon|1964",
     "title": "The Gorgon",
     "year": 1964,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "queenatsea|",
+    "title": "QUEEN AT SEA",
+    "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -626,7 +620,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-07T13:15:42.215Z",
+ "fetchedAt": "2026-11-07T19:29:22.057Z",
  "week": [
   "2026-11-07",
   "2026-11-08",
@@ -844,35 +838,37 @@
    "name": "Film Forum",
    "ok": true,
    "count": 96,
-   "ms": 303
+   "ms": 667
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": true,
-   "count": 40,
-   "ms": 105
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 on GET /nyc/",
+   "carried": 40,
+   "carriedFrom": "2026-11-07T13:15:42.215Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 148,
-   "ms": 181
+   "ms": 133
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 21,
-   "ms": 382
+   "ms": 372
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 77,
-   "ms": 160
+   "ms": 384
   },
   {
    "id": "cv",
@@ -886,21 +882,21 @@
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 11,
-   "ms": 72
+   "ms": 420
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 185,
-   "ms": 3500
+   "count": 174,
+   "ms": 2421
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 13,
-   "ms": 1942
+   "count": 12,
+   "ms": 1510
   },
   {
    "id": "wrt",
@@ -923,21 +919,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 102,
-   "ms": 244
+   "ms": 549
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 56,
-   "ms": 4419
+   "count": 42,
+   "ms": 5153
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 161,
-   "ms": 6438
+   "count": 140,
+   "ms": 7850
   },
   {
    "id": "spec",
@@ -952,7 +948,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 12,
-   "ms": 1154
+   "ms": 2033
   },
   {
    "id": "momi",
@@ -967,7 +963,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 6,
-   "ms": 393
+   "ms": 549
   },
   {
    "id": "kew",
@@ -982,53 +978,11 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 1,
-   "ms": 853
+   "ms": 1080
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-07",
-   "time": "10:00",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-11-07",
-   "time": "10:00",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID",
-   "date": "2026-11-07",
-   "time": "10:00",
-   "fmt": "Standard",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "maysles",
    "title": "HARLEM DAD STROLL: SATURDAY MORNING CARTOONS at Maysles",
@@ -1071,33 +1025,6 @@
    "title": "Naza",
    "date": "2026-11-07",
    "time": "10:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "paris",
-   "title": "La Bola Negra",
-   "date": "2026-11-07",
-   "time": "10:55",
-   "runtime": 160,
-   "fmt": "35MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3251/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-07",
-   "time": "11:00",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1152,34 +1079,6 @@
    "title": "The Devils",
    "date": "2026-11-07",
    "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-07",
-   "time": "11:20",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-11-07",
-   "time": "11:20",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1240,20 +1139,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 91735
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID",
-   "date": "2026-11-07",
-   "time": "12:20",
-   "fmt": "Open Captions",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -1317,20 +1202,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "QUEEN AT SEA",
-   "date": "2026-11-07",
-   "time": "12:40",
-   "fmt": "Standard",
-   "director": "Lance Hammer",
-   "runtime": 121,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-11-07",
@@ -1344,20 +1215,6 @@
    "title": "Hen",
    "date": "2026-11-07",
    "time": "12:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-11-07",
-   "time": "13:00",
-   "fmt": "Open Captions",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1436,48 +1293,11 @@
    "genreMovieId": "1280"
   },
   {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-07",
-   "time": "13:45",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Playback: City of God (Cidade de Deus)",
    "date": "2026-11-07",
    "time": "13:45",
    "url": "https://www.bam.org/film/2026/playback-city-of-god",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-07",
-   "time": "13:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-07",
-   "time": "14:00",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1763,15 +1583,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-11-07",
-   "time": "15:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "You Can See Everything",
    "date": "2026-11-07",
@@ -2000,15 +1811,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-07",
-   "time": "17:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-11-07",
@@ -2115,15 +1917,6 @@
    "runtime": 118,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-07",
-   "time": "18:10",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2245,15 +2038,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1280"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-07",
-   "time": "19:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -3346,15 +3130,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-08",
-   "time": "13:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "mg",
    "title": "Matías Piñeiro presents Hermia & Helena",
    "date": "2026-11-08",
@@ -3576,8 +3351,8 @@
    "title": "NAZA",
    "date": "2026-11-08",
    "time": "15:25",
-   "url": "https://ticketing.useast.veezi.com/purchase/6679?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
+   "url": "",
+   "note": "Sold out",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3606,15 +3381,6 @@
    "date": "2026-11-08",
    "time": "15:45",
    "note": "(OC)",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-11-08",
-   "time": "15:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3880,21 +3646,12 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-08",
-   "time": "17:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "synd",
    "title": "Your Mother Your Mother Your Mother",
    "date": "2026-11-08",
    "time": "17:30",
-   "url": "https://ticketing.useast.veezi.com/purchase/6683?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
+   "url": "",
+   "note": "Sold out",
    "genres": [
     "drama",
     "thriller"
@@ -4013,15 +3770,6 @@
    "title": "Who Killed Alex Odeh?",
    "date": "2026-11-08",
    "time": "18:05",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-08",
-   "time": "18:10",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4164,15 +3912,6 @@
    "year": 2026,
    "runtime": 99,
    "director": "Kogonada .",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-08",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5075,15 +4814,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-09",
-   "time": "13:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Godzilla Minus Zero",
    "date": "2026-11-09",
@@ -5273,15 +5003,6 @@
    "date": "2026-11-09",
    "time": "15:45",
    "note": "(OC)",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-11-09",
-   "time": "15:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5497,15 +5218,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-09",
-   "time": "17:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-11-09",
@@ -5581,15 +5293,6 @@
    "runtime": 122,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-09",
-   "time": "18:10",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5756,15 +5459,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1280"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-09",
-   "time": "19:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -6573,15 +6267,6 @@
    "genreMovieId": "1280"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-10",
-   "time": "13:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Godzilla Minus Zero",
    "date": "2026-11-10",
@@ -6758,15 +6443,6 @@
    "date": "2026-11-10",
    "time": "15:45",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-11-10",
-   "time": "15:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6963,15 +6639,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-10",
-   "time": "17:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-11-10",
@@ -7042,15 +6709,6 @@
    "runtime": 122,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-10",
-   "time": "18:10",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7243,15 +6901,6 @@
    "date": "2026-11-10",
    "time": "19:00",
    "url": "https://www.maysles.org/calendar/remake",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-10",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8098,15 +7747,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-11",
-   "time": "13:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Godzilla Minus Zero",
    "date": "2026-11-11",
@@ -8325,15 +7965,6 @@
    "date": "2026-11-11",
    "time": "15:45",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-11-11",
-   "time": "15:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8585,15 +8216,6 @@
    "genreMovieId": "2174"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-11",
-   "time": "17:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "RAISE THE RED LANTERN",
    "date": "2026-11-11",
@@ -8660,15 +8282,6 @@
    "runtime": 122,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-11",
-   "time": "18:10",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8846,15 +8459,6 @@
    "date": "2026-11-11",
    "time": "19:00",
    "url": "https://www.maysles.org/calendar/runa-simi",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-11",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9697,15 +9301,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-12",
-   "time": "13:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "PAPER TIGER in 35MM",
    "date": "2026-11-12",
@@ -9883,15 +9478,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-11-12",
-   "time": "15:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Mouse",
    "date": "2026-11-12",
@@ -10037,15 +9623,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-12",
-   "time": "17:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "RAISE THE RED LANTERN",
    "date": "2026-11-12",
@@ -10112,15 +9689,6 @@
    "runtime": 122,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-12",
-   "time": "18:10",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10237,15 +9805,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1280"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-12",
-   "time": "19:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -10737,15 +10296,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-13",
-   "time": "13:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "Godzilla Minus Zero",
    "date": "2026-11-13",
@@ -10803,15 +10353,6 @@
    "title": "You Can See Everything",
    "date": "2026-11-13",
    "time": "15:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wildwood",
-   "date": "2026-11-13",
-   "time": "15:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10945,15 +10486,6 @@
   },
   {
    "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-13",
-   "time": "17:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
    "title": "Wild Horse Nine",
    "date": "2026-11-13",
    "time": "17:45",
@@ -10966,15 +10498,6 @@
    "title": "You Can See Everything",
    "date": "2026-11-13",
    "time": "18:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-13",
-   "time": "18:10",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11049,15 +10572,6 @@
    "year": 2012,
    "runtime": 113,
    "director": "Sho Miyake",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-13",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"

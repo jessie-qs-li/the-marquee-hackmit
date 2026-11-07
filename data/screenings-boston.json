@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 48,
-  "classified": 15,
+  "classified": 17,
   "unresolved": [
    {
     "key": "relaxedscreeningsrayaandthelastdragon|",
@@ -53,20 +53,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "sidewalkstories|",
-    "title": "Sidewalk Stories",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "onlylivingpickpocketinnewyork|",
     "title": "The Only Living Pickpocket in New York",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "womenontrial|",
-    "title": "Women on Trial",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -206,7 +194,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-07T13:15:49.338Z",
+ "fetchedAt": "2026-11-07T19:29:29.574Z",
  "week": [
   "2026-11-07",
   "2026-11-08",
@@ -284,14 +272,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 21,
-   "ms": 2033
+   "ms": 3429
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 128,
-   "ms": 3855
+   "ms": 2827
   },
   {
    "id": "somerville",
@@ -306,14 +294,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 86,
-   "ms": 571
+   "ms": 873
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 10,
-   "ms": 462
+   "ms": 171
   },
   {
    "id": "mfa",
@@ -390,15 +378,16 @@
    "filmUrl": "https://brattlefilm.org/movies/after-hours/",
    "genres": [
     "comedy",
+    "drama",
     "thriller"
    ],
-   "year": null,
+   "year": 1985,
    "sourceGenres": [
     "Comedy",
+    "Drama",
     "Thriller"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "7419"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -517,10 +506,16 @@
    "time": "14:15",
    "url": "https://brattlefilm.org/purchase/1741897/",
    "filmUrl": "https://brattlefilm.org/movies/sidewalk-stories/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "comedy",
+    "drama"
+   ],
+   "year": 1989,
+   "sourceGenres": [
+    "Comedy",
+    "Drama"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -638,13 +633,18 @@
     "comedy",
     "drama"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Comedy",
+    "Drama",
+    "Comedy",
+    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "528"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -737,10 +737,15 @@
    "time": "19:00",
    "url": "https://ticketing.bostonjfilm.org/websales/pages/info.aspx?evtinfo=579789~3a1dbf00-5ad7-4f53-af12-28ba7bfe20f4&epguid=5857d36a-fd4b-4e6b-ac74-c26da8205f7a&mdy=11/7/2026&",
    "filmUrl": "https://brattlefilm.org/movies/women-on-trial/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "History"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -930,16 +935,17 @@
    "url": "https://brattlefilm.org/purchase/1741296/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "drama",
+    "scifi",
     "horror"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
-    "Drama",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
     "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "26717"
+   "genreSource": "venue"
   },
   {
    "venue": "hfa",
@@ -1280,16 +1286,17 @@
    "url": "https://brattlefilm.org/purchase/1741300/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "drama",
+    "scifi",
     "horror"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
-    "Drama",
+    "Fantasy",
+    "Horror",
+    "Fantasy",
     "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "26717"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1490,13 +1497,18 @@
     "comedy",
     "drama"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Comedy",
+    "Drama",
+    "Comedy",
+    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "528"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1615,13 +1627,18 @@
     "comedy",
     "drama"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Comedy",
+    "Drama",
+    "Comedy",
+    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "528"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2054,13 +2071,18 @@
     "comedy",
     "drama"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Comedy",
+    "Drama",
+    "Comedy",
+    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "528"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -3073,26 +3095,6 @@
   },
   {
    "venue": "coolidge",
-   "title": "The Hunted (2003)",
-   "date": "2026-11-13",
-   "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040495~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/hunted-2003",
-   "genres": [
-    "action",
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6219"
-  },
-  {
-   "venue": "coolidge",
    "title": "The Rocky Horror Picture Show",
    "date": "2026-11-13",
    "time": "23:59",
@@ -3111,6 +3113,26 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2657"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Hunted (2003)",
+   "date": "2026-11-13",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040495~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/hunted-2003",
+   "genres": [
+    "action",
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Drama",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "6219"
   }
  ]
 }
