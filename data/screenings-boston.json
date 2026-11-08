@@ -194,7 +194,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-08T17:58:27.980Z",
+ "fetchedAt": "2026-11-08T22:15:23.332Z",
  "week": [
   "2026-11-08",
   "2026-11-09",
@@ -272,14 +272,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 20,
-   "ms": 2989
+   "ms": 2979
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 105,
-   "ms": 4867
+   "ms": 2803
   },
   {
    "id": "somerville",
@@ -294,14 +294,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 66,
-   "ms": 889
+   "ms": 1010
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 9,
-   "ms": 394
+   "ms": 543
   },
   {
    "id": "mfa",
@@ -621,15 +621,16 @@
    "url": "https://brattlefilm.org/purchase/1741300/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "scifi",
+    "drama",
     "horror"
    ],
-   "year": 1991,
+   "year": null,
    "sourceGenres": [
-    "Fantasy",
+    "Drama",
     "Horror"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "26717"
   },
   {
    "venue": "coolidge",
@@ -681,20 +682,16 @@
    "url": "https://brattlefilm.org/purchase/1741900/",
    "filmUrl": "https://brattlefilm.org/movies/the-brother-from-another-planet/",
    "genres": [
-    "comedy",
     "drama",
     "scifi"
    ],
-   "year": 1984,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
     "Drama",
-    "Science Fiction",
-    "Comedy",
-    "Drama",
-    "Science Fiction"
+    "Sci-Fi"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "3700"
   },
   {
    "venue": "coolidge",
@@ -834,16 +831,13 @@
     "comedy",
     "drama"
    ],
-   "year": 2026,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
   },
   {
    "venue": "coolidge",
@@ -962,16 +956,13 @@
     "comedy",
     "drama"
    ],
-   "year": 2026,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
   },
   {
    "venue": "coolidge",
@@ -1201,20 +1192,16 @@
    "url": "https://brattlefilm.org/purchase/1741902/",
    "filmUrl": "https://brattlefilm.org/movies/the-brother-from-another-planet/",
    "genres": [
-    "comedy",
     "drama",
     "scifi"
    ],
-   "year": 1984,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
     "Drama",
-    "Science Fiction",
-    "Comedy",
-    "Drama",
-    "Science Fiction"
+    "Sci-Fi"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "3700"
   },
   {
    "venue": "coolidge",
@@ -1408,16 +1395,13 @@
     "comedy",
     "drama"
    ],
-   "year": 2026,
+   "year": null,
    "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "528"
   },
   {
    "venue": "kendall",
@@ -2356,12 +2340,12 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2408,14 +2392,19 @@
     "horror",
     "romance"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
     "Comedy",
     "Horror",
     "Romance"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
+   "genreSource": "venue"
   },
   {
    "venue": "hfa",
@@ -2504,14 +2493,19 @@
     "horror",
     "romance"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
     "Comedy",
     "Horror",
     "Romance"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -2573,12 +2567,12 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2625,14 +2619,19 @@
     "horror",
     "romance"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
     "Comedy",
     "Horror",
     "Romance"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
+   "genreSource": "venue"
   },
   {
    "venue": "hfa",
