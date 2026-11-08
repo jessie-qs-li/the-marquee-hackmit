@@ -194,7 +194,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-08T00:45:08.340Z",
+ "fetchedAt": "2026-11-08T10:33:49.753Z",
  "week": [
   "2026-11-08",
   "2026-11-09",
@@ -272,14 +272,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 20,
-   "ms": 3473
+   "ms": 2101
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 105,
-   "ms": 1790
+   "ms": 5819
   },
   {
    "id": "somerville",
@@ -294,14 +294,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 66,
-   "ms": 799
+   "ms": 633
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 9,
-   "ms": 299
+   "ms": 408
   },
   {
    "id": "mfa",
@@ -621,16 +621,15 @@
    "url": "https://brattlefilm.org/purchase/1741300/",
    "filmUrl": "https://brattlefilm.org/movies/begotten/",
    "genres": [
-    "drama",
+    "scifi",
     "horror"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
-    "Drama",
+    "Fantasy",
     "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "26717"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -682,16 +681,20 @@
    "url": "https://brattlefilm.org/purchase/1741900/",
    "filmUrl": "https://brattlefilm.org/movies/the-brother-from-another-planet/",
    "genres": [
+    "comedy",
     "drama",
     "scifi"
    ],
-   "year": null,
+   "year": 1984,
    "sourceGenres": [
+    "Comedy",
     "Drama",
-    "Sci-Fi"
+    "Science Fiction",
+    "Comedy",
+    "Drama",
+    "Science Fiction"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "3700"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -831,13 +834,16 @@
     "comedy",
     "drama"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Comedy",
+    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "528"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -956,13 +962,16 @@
     "comedy",
     "drama"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Comedy",
+    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "528"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1192,16 +1201,20 @@
    "url": "https://brattlefilm.org/purchase/1741902/",
    "filmUrl": "https://brattlefilm.org/movies/the-brother-from-another-planet/",
    "genres": [
+    "comedy",
     "drama",
     "scifi"
    ],
-   "year": null,
+   "year": 1984,
    "sourceGenres": [
+    "Comedy",
     "Drama",
-    "Sci-Fi"
+    "Science Fiction",
+    "Comedy",
+    "Drama",
+    "Science Fiction"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "3700"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1395,13 +1408,16 @@
     "comedy",
     "drama"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Drama",
+    "Comedy",
+    "Drama",
     "Comedy",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "528"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
