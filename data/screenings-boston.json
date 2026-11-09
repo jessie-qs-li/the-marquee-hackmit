@@ -1,7 +1,7 @@
 {
  "city": "boston",
  "genreCoverage": {
-  "total": 43,
+  "total": 42,
   "classified": 14,
   "unresolved": [
    {
@@ -119,12 +119,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "clubkid|",
-    "title": "Club Kid",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "iplayrocky|",
     "title": "I Play Rocky",
     "year": null,
@@ -182,7 +176,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-09T06:49:58.509Z",
+ "fetchedAt": "2026-11-09T19:54:53.446Z",
  "week": [
   "2026-11-09",
   "2026-11-10",
@@ -260,14 +254,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 20,
-   "ms": 2245
+   "ms": 2916
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 82,
-   "ms": 3447
+   "ms": 3696
   },
   {
    "id": "somerville",
@@ -281,15 +275,15 @@
    "id": "kendall",
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
-   "count": 49,
-   "ms": 1004
+   "count": 47,
+   "ms": 945
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 8,
-   "ms": 561
+   "ms": 214
   },
   {
    "id": "mfa",
@@ -466,17 +460,14 @@
    "url": "https://brattlefilm.org/showtimes/double-indemnity-11-9-26-600-pm/",
    "filmUrl": "https://brattlefilm.org/movies/double-indemnity/",
    "genres": [
-    "thriller",
-    "drama"
+    "thriller"
    ],
-   "year": null,
+   "year": 1944,
    "sourceGenres": [
     "Crime",
-    "Drama",
-    "Film-Noir"
+    "Thriller"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "3435"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1551,16 +1542,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "kendall",
-   "title": "Club Kid",
-   "date": "2026-11-12",
-   "time": "16:20",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "coolidge",
    "title": "Once Upon a Time in Harlem",
    "date": "2026-11-12",
@@ -1649,16 +1630,6 @@
    "title": "Wild Horse Nine",
    "date": "2026-11-12",
    "time": "19:00",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Club Kid",
-   "date": "2026-11-12",
-   "time": "19:10",
    "fmt": "",
    "genres": [],
    "sourceGenres": [],
@@ -1836,6 +1807,26 @@
   },
   {
    "venue": "coolidge",
+   "title": "The Hunted (2003)",
+   "date": "2026-11-13",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040495~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/hunted-2003",
+   "genres": [
+    "action",
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Drama",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "6219"
+  },
+  {
+   "venue": "coolidge",
    "title": "The Rocky Horror Picture Show",
    "date": "2026-11-13",
    "time": "23:59",
@@ -1854,26 +1845,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2657"
-  },
-  {
-   "venue": "coolidge",
-   "title": "The Hunted (2003)",
-   "date": "2026-11-13",
-   "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040495~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/hunted-2003",
-   "genres": [
-    "action",
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6219"
   },
   {
    "venue": "coolidge",

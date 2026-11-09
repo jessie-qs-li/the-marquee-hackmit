@@ -1,15 +1,9 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 120,
+  "total": 117,
   "classified": 22,
   "unresolved": [
-   {
-    "key": "onlylivingpickpocketinnewyork|",
-    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
    {
     "key": "birdsofwar|",
     "title": "Birds of War",
@@ -29,50 +23,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "clubkid|",
-    "title": "CLUB KID in 35MM",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "labolanegra|",
-    "title": "La Bola Negra",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "wildhorsenine|",
-    "title": "WILD HORSE NINE",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "possiblelove|",
     "title": "Possible Love",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "devils|",
-    "title": "The Devils",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "filipinana|",
-    "title": "Filipiñana",
-    "year": null,
-    "reason": "ambiguous"
-   },
-   {
-    "key": "godzillaminuszero|",
-    "title": "Godzilla Minus Zero",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "sundaysonfiresecrethongkong35mmfeature|",
-    "title": "Sundays on Fire: Secret Hong Kong 35mm Feature",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -137,14 +89,44 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "labolanegra|",
+    "title": "La Bola Negra",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "wildhorsenine|",
+    "title": "Wild Horse Nine",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "traumaormonstersall|",
     "title": "Trauma Or, Monsters All",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "onlylivingpickpocketinnewyork|",
+    "title": "The Only Living Pickpocket in New York",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "clubkid|",
+    "title": "CLUB KID",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "queenatsea|",
     "title": "QUEEN AT SEA",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "godzillaminuszero|",
+    "title": "Godzilla Minus Zero",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -163,6 +145,12 @@
    {
     "key": "catinthehat|",
     "title": "The Cat in the Hat (2026)",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "devils|",
+    "title": "The Devils",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -197,8 +185,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "clayface|",
-    "title": "Clayface",
+    "key": "spookwhosatbythedoor|",
+    "title": "The Spook Who Sat by the Door",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -211,12 +199,6 @@
    {
     "key": "boywithgreenhair|",
     "title": "The Boy with Green Hair",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "wicker|",
-    "title": "Wicker",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -596,7 +578,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-09T06:49:51.103Z",
+ "fetchedAt": "2026-11-09T19:54:45.525Z",
  "week": [
   "2026-11-09",
   "2026-11-10",
@@ -814,7 +796,7 @@
    "name": "Film Forum",
    "ok": true,
    "count": 63,
-   "ms": 408
+   "ms": 573
   },
   {
    "id": "mg",
@@ -823,28 +805,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /nyc/",
    "carried": 18,
-   "carriedFrom": "2026-11-08T22:15:15.772Z"
+   "carriedFrom": "2026-11-09T06:49:51.103Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 89,
-   "ms": 454
+   "ms": 215
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 24,
-   "ms": 437
+   "ms": 561
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 48,
-   "ms": 329
+   "ms": 340
   },
   {
    "id": "cv",
@@ -858,21 +840,21 @@
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 15,
-   "ms": 191
+   "ms": 399
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 154,
-   "ms": 3253
+   "count": 143,
+   "ms": 2534
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
-   "count": 14,
-   "ms": 2696
+   "count": 16,
+   "ms": 2126
   },
   {
    "id": "wrt",
@@ -894,22 +876,22 @@
    "id": "bam",
    "name": "BAM Rose Cinemas",
    "ok": true,
-   "count": 64,
-   "ms": 303
+   "count": 128,
+   "ms": 497
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 42,
-   "ms": 4818
+   "ms": 4800
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 126,
-   "ms": 7089
+   "count": 91,
+   "ms": 8182
   },
   {
    "id": "spec",
@@ -924,7 +906,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 11,
-   "ms": 1854
+   "ms": 1576
   },
   {
    "id": "momi",
@@ -939,7 +921,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 5,
-   "ms": 869
+   "ms": 851
   },
   {
    "id": "kew",
@@ -954,44 +936,16 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 2,
-   "ms": 1804
+   "ms": 1237
   }
  ],
  "notices": {},
  "screenings": [
   {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-11-09",
-   "time": "10:00",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Birds of War",
    "date": "2026-11-09",
    "time": "10:35",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-11-09",
-   "time": "10:40",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1015,47 +969,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-09",
-   "time": "10:50",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "paris",
-   "title": "La Bola Negra",
-   "date": "2026-11-09",
-   "time": "10:55",
-   "runtime": 160,
-   "fmt": "35MM",
-   "note": "",
-   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3255/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-09",
-   "time": "11:00",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Possible Love",
    "date": "2026-11-09",
@@ -1063,86 +976,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "The Devils",
-   "date": "2026-11-09",
-   "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-11-09",
-   "time": "11:05",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Filipiñana",
-   "date": "2026-11-09",
-   "time": "11:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-09",
-   "time": "11:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Sundays on Fire: Secret Hong Kong 35mm Feature",
-   "date": "2026-11-09",
-   "time": "12:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID",
-   "date": "2026-11-09",
-   "time": "12:05",
-   "fmt": "Standard",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Boyz n the Hood",
-   "date": "2026-11-09",
-   "time": "12:15",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6796"
   },
   {
    "venue": "ff",
@@ -1183,34 +1016,6 @@
    "title": "On The Road",
    "date": "2026-11-09",
    "time": "12:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-09",
-   "time": "12:45",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-11-09",
-   "time": "13:00",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1280,20 +1085,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-09",
-   "time": "13:30",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "RAISE THE RED LANTERN",
    "date": "2026-11-09",
@@ -1307,29 +1098,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1280"
-  },
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-09",
-   "time": "13:45",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-09",
-   "time": "14:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ifc",
@@ -1360,20 +1128,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-11-09",
-   "time": "14:30",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhp",
    "title": "You Can See Everything",
    "date": "2026-11-09",
@@ -1397,7 +1151,7 @@
   },
   {
    "venue": "nhp",
-   "title": "You Can See Everything",
+   "title": "Wild Horse Nine",
    "date": "2026-11-09",
    "time": "14:45",
    "genres": [],
@@ -1430,7 +1184,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Wild Horse Nine",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-09",
    "time": "15:00",
    "genres": [],
@@ -1442,6 +1196,15 @@
    "title": "You Can See Everything",
    "date": "2026-11-09",
    "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-09",
+   "time": "15:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1488,6 +1251,15 @@
    "title": "Fjord",
    "date": "2026-11-09",
    "time": "15:25",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Godzilla Minus Zero",
+   "date": "2026-11-09",
+   "time": "15:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1629,6 +1401,15 @@
    "genreMovieId": "1280"
   },
   {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-09",
+   "time": "16:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "WILD HORSE NINE",
    "date": "2026-11-09",
@@ -1672,15 +1453,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-09",
-   "time": "16:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Fatherland",
    "date": "2026-11-09",
@@ -1701,9 +1473,9 @@
   },
   {
    "venue": "nhp",
-   "title": "Godzilla Minus Zero",
+   "title": "You Can See Everything",
    "date": "2026-11-09",
-   "time": "17:00",
+   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1740,6 +1512,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1280"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-09",
+   "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -1841,7 +1622,16 @@
   },
   {
    "venue": "nhp",
-   "title": "The Cat in the Hat (2026)",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-09",
+   "time": "18:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Wild Horse Nine",
    "date": "2026-11-09",
    "time": "18:30",
    "genres": [],
@@ -1880,7 +1670,7 @@
   },
   {
    "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "title": "The Cat in the Hat (2026)",
    "date": "2026-11-09",
    "time": "18:45",
    "genres": [],
@@ -1914,7 +1704,7 @@
    "fmt": "35mm",
    "director": "Jordan Firstman",
    "runtime": 122,
-   "note": "",
+   "note": "Sold out",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
    "genres": [],
    "sourceGenres": [],
@@ -1961,6 +1751,15 @@
    "genreMovieId": "1280"
   },
   {
+   "venue": "nhp",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-09",
+   "time": "19:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-11-09",
@@ -1986,6 +1785,15 @@
   {
    "venue": "ifc",
    "title": "Soul Patrol",
+   "date": "2026-11-09",
+   "time": "19:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Godzilla Minus Zero",
    "date": "2026-11-09",
    "time": "19:15",
    "genres": [],
@@ -2039,8 +1847,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "venue": "nhw",
+   "title": "You Can See Everything",
    "date": "2026-11-09",
    "time": "20:00",
    "genres": [],
@@ -2053,6 +1861,15 @@
    "date": "2026-11-09",
    "time": "20:15",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-09",
+   "time": "20:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2099,8 +1916,8 @@
    "title": "Primetime",
    "date": "2026-11-09",
    "time": "20:35",
-   "url": "",
-   "note": "Sold out",
+   "url": "https://ticketing.useast.veezi.com/purchase/6691?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2154,7 +1971,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "The Spook Who Sat by the Door",
    "date": "2026-11-09",
    "time": "21:00",
    "genres": [],
@@ -2192,24 +2009,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-09",
-   "time": "21:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-09",
-   "time": "21:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "WILD HORSE NINE",
    "date": "2026-11-09",
@@ -2234,13 +2033,21 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wicker",
+   "venue": "nhw",
+   "title": "The Silence of the Lambs",
    "date": "2026-11-09",
    "time": "21:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "thriller",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Crime",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "593"
   },
   {
    "venue": "ifc",
@@ -2299,16 +2106,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-09",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
+   "title": "Godzilla Minus Zero",
    "date": "2026-11-09",
    "time": "21:45",
    "genres": [],
@@ -2347,33 +2145,6 @@
    "fmt": "35MM",
    "note": "",
    "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3252/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-09",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-09",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-09",
-   "time": "22:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2494,24 +2265,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Devils",
-   "date": "2026-11-10",
-   "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Filipiñana",
-   "date": "2026-11-10",
-   "time": "11:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-11-10",
@@ -2524,40 +2277,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-10",
-   "time": "11:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Sundays on Fire: Secret Hong Kong 35mm Feature",
-   "date": "2026-11-10",
-   "time": "12:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Boyz n the Hood",
-   "date": "2026-11-10",
-   "time": "12:15",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6796"
   },
   {
    "venue": "angelika",
@@ -2752,15 +2471,6 @@
    "genreMovieId": "1280"
   },
   {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-10",
-   "time": "14:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-11-10",
@@ -2813,7 +2523,7 @@
   },
   {
    "venue": "nhp",
-   "title": "You Can See Everything",
+   "title": "Wild Horse Nine",
    "date": "2026-11-10",
    "time": "14:45",
    "genres": [],
@@ -2860,7 +2570,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Wild Horse Nine",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-10",
    "time": "15:00",
    "genres": [],
@@ -2872,6 +2582,15 @@
    "title": "You Can See Everything",
    "date": "2026-11-10",
    "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-10",
+   "time": "15:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2918,6 +2637,15 @@
    "title": "Fjord",
    "date": "2026-11-10",
    "time": "15:25",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Godzilla Minus Zero",
+   "date": "2026-11-10",
+   "time": "15:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3036,6 +2764,15 @@
    "genreMovieId": "1280"
   },
   {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-10",
+   "time": "16:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ff",
    "title": "FATHERLAND",
    "date": "2026-11-10",
@@ -3050,15 +2787,6 @@
    "title": "You Can See Everything",
    "date": "2026-11-10",
    "time": "16:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-10",
-   "time": "16:40",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3083,15 +2811,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-10",
-   "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
    "date": "2026-11-10",
@@ -3101,6 +2820,15 @@
    "runtime": 88,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-10",
+   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3119,6 +2847,15 @@
    "title": "Naza",
    "date": "2026-11-10",
    "time": "17:35",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-10",
+   "time": "17:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3242,7 +2979,16 @@
   },
   {
    "venue": "nhp",
-   "title": "The Cat in the Hat (2026)",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-10",
+   "time": "18:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Wild Horse Nine",
    "date": "2026-11-10",
    "time": "18:30",
    "genres": [],
@@ -3286,19 +3032,9 @@
   },
   {
    "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "title": "The Cat in the Hat (2026)",
    "date": "2026-11-10",
    "time": "18:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "bam",
-   "title": "Once Upon a Time in Harlem",
-   "date": "2026-11-10",
-   "time": "18:50",
-   "url": "https://www.bam.org/film/2026/once-upon-a-time-in-harlem",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3309,6 +3045,16 @@
    "date": "2026-11-10",
    "time": "18:50",
    "url": "https://www.bam.org/film/2026/wild-horse-nine",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Once Upon a Time in Harlem",
+   "date": "2026-11-10",
+   "time": "18:50",
+   "url": "https://www.bam.org/film/2026/once-upon-a-time-in-harlem",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3330,7 +3076,7 @@
    "fmt": "35mm",
    "director": "Jordan Firstman",
    "runtime": 122,
-   "note": "",
+   "note": "Sold out",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
    "genres": [],
    "sourceGenres": [],
@@ -3382,6 +3128,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-10",
+   "time": "19:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-11-10",
@@ -3405,6 +3160,15 @@
   {
    "venue": "ifc",
    "title": "Soul Patrol",
+   "date": "2026-11-10",
+   "time": "19:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Godzilla Minus Zero",
    "date": "2026-11-10",
    "time": "19:15",
    "genres": [],
@@ -3463,8 +3227,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "venue": "nhw",
+   "title": "You Can See Everything",
    "date": "2026-11-10",
    "time": "20:00",
    "genres": [],
@@ -3477,6 +3241,15 @@
    "date": "2026-11-10",
    "time": "20:15",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-10",
+   "time": "20:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3573,7 +3346,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "The Spook Who Sat by the Door",
    "date": "2026-11-10",
    "time": "21:00",
    "genres": [],
@@ -3600,19 +3373,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
+   "venue": "bam",
+   "title": "Compulsion",
    "date": "2026-11-10",
-   "time": "21:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-10",
-   "time": "21:15",
+   "time": "21:30",
+   "url": "https://www.bam.org/film/2026/deans-list-compulsion",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3623,16 +3388,6 @@
    "date": "2026-11-10",
    "time": "21:30",
    "url": "https://www.bam.org/film/2026/the-devils",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "bam",
-   "title": "Compulsion",
-   "date": "2026-11-10",
-   "time": "21:30",
-   "url": "https://www.bam.org/film/2026/deans-list-compulsion",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3657,13 +3412,21 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wicker",
+   "venue": "nhw",
+   "title": "The Silence of the Lambs",
    "date": "2026-11-10",
    "time": "21:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "thriller",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Crime",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "593"
   },
   {
    "venue": "roxy",
@@ -3697,16 +3460,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-10",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
+   "title": "Godzilla Minus Zero",
    "date": "2026-11-10",
    "time": "21:45",
    "genres": [],
@@ -3751,24 +3505,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-10",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-10",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
    "date": "2026-11-10",
@@ -3792,15 +3528,6 @@
    "runtime": 118,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-10",
-   "time": "22:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3921,24 +3648,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Devils",
-   "date": "2026-11-11",
-   "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Filipiñana",
-   "date": "2026-11-11",
-   "time": "11:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-11-11",
@@ -3961,24 +3670,6 @@
    "fmt": "35MM",
    "note": "",
    "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3259/seats",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-11",
-   "time": "11:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Sundays on Fire: Secret Hong Kong 35mm Feature",
-   "date": "2026-11-11",
-   "time": "12:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4012,22 +3703,6 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Boyz n the Hood",
-   "date": "2026-11-11",
-   "time": "12:15",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6796"
   },
   {
    "venue": "ff",
@@ -4208,15 +3883,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-11",
-   "time": "14:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "FATHERLAND",
    "date": "2026-11-11",
@@ -4246,7 +3912,7 @@
   },
   {
    "venue": "nhp",
-   "title": "You Can See Everything",
+   "title": "Wild Horse Nine",
    "date": "2026-11-11",
    "time": "14:45",
    "genres": [],
@@ -4312,7 +3978,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Wild Horse Nine",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-11",
    "time": "15:00",
    "genres": [],
@@ -4324,6 +3990,15 @@
    "title": "You Can See Everything",
    "date": "2026-11-11",
    "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-11",
+   "time": "15:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4419,6 +4094,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2131"
+  },
+  {
+   "venue": "nhp",
+   "title": "Godzilla Minus Zero",
+   "date": "2026-11-11",
+   "time": "15:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -4525,6 +4209,15 @@
    "genreMovieId": "1280"
   },
   {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-11",
+   "time": "16:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "WILD HORSE NINE",
    "date": "2026-11-11",
@@ -4568,15 +4261,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-11",
-   "time": "16:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Fatherland",
    "date": "2026-11-11",
@@ -4591,15 +4275,6 @@
    "title": "Soul Patrol",
    "date": "2026-11-11",
    "time": "16:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-11",
-   "time": "17:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4637,6 +4312,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2184"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-11",
+   "time": "17:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -4692,6 +4376,15 @@
    "runtime": 121,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-11",
+   "time": "17:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4765,7 +4458,16 @@
   },
   {
    "venue": "nhp",
-   "title": "The Cat in the Hat (2026)",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-11",
+   "time": "18:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Wild Horse Nine",
    "date": "2026-11-11",
    "time": "18:30",
    "genres": [],
@@ -4777,8 +4479,8 @@
    "title": "NAZA",
    "date": "2026-11-11",
    "time": "18:30",
-   "url": "https://ticketing.useast.veezi.com/purchase/6681?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
+   "url": "",
+   "note": "Sold out",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -4813,7 +4515,7 @@
   },
   {
    "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "title": "The Cat in the Hat (2026)",
    "date": "2026-11-11",
    "time": "18:45",
    "genres": [],
@@ -4916,6 +4618,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-11",
+   "time": "19:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-11-11",
@@ -4939,6 +4650,15 @@
   {
    "venue": "ifc",
    "title": "Soul Patrol",
+   "date": "2026-11-11",
+   "time": "19:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Godzilla Minus Zero",
    "date": "2026-11-11",
    "time": "19:15",
    "genres": [],
@@ -5015,8 +4735,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "venue": "nhw",
+   "title": "You Can See Everything",
    "date": "2026-11-11",
    "time": "20:00",
    "genres": [],
@@ -5026,6 +4746,15 @@
   {
    "venue": "afa",
    "title": "EINSTURZENDE NEUBAUTEN: LIEBESLIEDER (GUDRUN GUT IN PERSON ON FRI, NOV 6!)",
+   "date": "2026-11-11",
+   "time": "20:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
    "date": "2026-11-11",
    "time": "20:15",
    "genres": [],
@@ -5101,7 +4830,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "The Spook Who Sat by the Door",
    "date": "2026-11-11",
    "time": "21:00",
    "genres": [],
@@ -5138,24 +4867,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
-   "date": "2026-11-11",
-   "time": "21:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-11",
-   "time": "21:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Blue Velvet",
    "date": "2026-11-11",
@@ -5184,13 +4895,21 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wicker",
+   "venue": "nhw",
+   "title": "The Silence of the Lambs",
    "date": "2026-11-11",
    "time": "21:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "thriller",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Crime",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "593"
   },
   {
    "venue": "roxy",
@@ -5251,16 +4970,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-11",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
+   "title": "Godzilla Minus Zero",
    "date": "2026-11-11",
    "time": "21:45",
    "genres": [],
@@ -5296,24 +5006,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-11",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-11",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "WILD HORSE NINE",
    "date": "2026-11-11",
@@ -5323,15 +5015,6 @@
    "runtime": 118,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-11",
-   "time": "22:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5451,15 +5134,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Devils",
-   "date": "2026-11-12",
-   "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
    "date": "2026-11-12",
@@ -5469,24 +5143,6 @@
    "runtime": 88,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Filipiñana",
-   "date": "2026-11-12",
-   "time": "11:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-12",
-   "time": "11:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5506,15 +5162,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Sundays on Fire: Secret Hong Kong 35mm Feature",
-   "date": "2026-11-12",
-   "time": "12:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-11-12",
@@ -5529,22 +5176,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "nhp",
-   "title": "Boyz n the Hood",
-   "date": "2026-11-12",
-   "time": "12:15",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6796"
   },
   {
    "venue": "angelika",
@@ -5752,15 +5383,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-12",
-   "time": "14:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "FATHERLAND",
    "date": "2026-11-12",
@@ -5790,7 +5412,7 @@
   },
   {
    "venue": "nhp",
-   "title": "You Can See Everything",
+   "title": "Wild Horse Nine",
    "date": "2026-11-12",
    "time": "14:45",
    "genres": [],
@@ -5814,7 +5436,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Wild Horse Nine",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-12",
    "time": "15:00",
    "genres": [],
@@ -5840,6 +5462,15 @@
    "runtime": 112,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-12",
+   "time": "15:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5891,6 +5522,15 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Godzilla Minus Zero",
+   "date": "2026-11-12",
+   "time": "15:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
    "date": "2026-11-12",
@@ -5915,6 +5555,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-12",
+   "time": "16:00",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Mouse",
    "date": "2026-11-12",
@@ -5928,6 +5578,16 @@
    "title": "Digger",
    "date": "2026-11-12",
    "time": "16:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Club Kid",
+   "date": "2026-11-12",
+   "time": "16:10",
+   "url": "https://www.bam.org/film/2026/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5947,6 +5607,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-12",
+   "time": "16:15",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ff",
    "title": "RAISE THE RED LANTERN",
    "date": "2026-11-12",
@@ -5960,6 +5630,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1280"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-12",
+   "time": "16:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "bam",
@@ -6015,15 +5694,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-12",
-   "time": "16:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Soul Patrol",
    "date": "2026-11-12",
@@ -6033,19 +5703,19 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
+   "venue": "quad",
+   "title": "Hen",
    "date": "2026-11-12",
-   "time": "17:00",
+   "time": "17:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "Hen",
+   "venue": "nhp",
+   "title": "You Can See Everything",
    "date": "2026-11-12",
-   "time": "17:05",
+   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6075,6 +5745,15 @@
    "runtime": 112,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-12",
+   "time": "17:45",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6135,7 +5814,16 @@
   },
   {
    "venue": "nhp",
-   "title": "The Cat in the Hat (2026)",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-12",
+   "time": "18:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Wild Horse Nine",
    "date": "2026-11-12",
    "time": "18:30",
    "genres": [],
@@ -6152,6 +5840,26 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Club Kid",
+   "date": "2026-11-12",
+   "time": "18:40",
+   "url": "https://www.bam.org/film/2026/club-kid",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-12",
+   "time": "18:45",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ifc",
    "title": "Mouse (Open Captioning)",
    "date": "2026-11-12",
@@ -6162,7 +5870,7 @@
   },
   {
    "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "title": "The Cat in the Hat (2026)",
    "date": "2026-11-12",
    "time": "18:45",
    "genres": [],
@@ -6220,6 +5928,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-12",
+   "time": "19:00",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "ff",
    "title": "RAISE THE RED LANTERN",
    "date": "2026-11-12",
@@ -6233,6 +5951,15 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1280"
+  },
+  {
+   "venue": "nhp",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-12",
+   "time": "19:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "quad",
@@ -6260,6 +5987,15 @@
   {
    "venue": "ifc",
    "title": "Soul Patrol",
+   "date": "2026-11-12",
+   "time": "19:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Godzilla Minus Zero",
    "date": "2026-11-12",
    "time": "19:15",
    "genres": [],
@@ -6310,6 +6046,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-12",
+   "time": "19:45",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "Hen",
    "date": "2026-11-12",
@@ -6319,8 +6065,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "venue": "nhw",
+   "title": "You Can See Everything",
    "date": "2026-11-12",
    "time": "20:00",
    "genres": [],
@@ -6333,6 +6079,15 @@
    "date": "2026-11-12",
    "time": "20:15",
    "note": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-12",
+   "time": "20:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6406,7 +6161,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "The Spook Who Sat by the Door",
    "date": "2026-11-12",
    "time": "21:00",
    "genres": [],
@@ -6441,19 +6196,21 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
+   "venue": "bam",
+   "title": "Club Kid",
    "date": "2026-11-12",
-   "time": "21:15",
+   "time": "21:20",
+   "url": "https://www.bam.org/film/2026/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
+   "venue": "bam",
+   "title": "Wild Horse Nine",
    "date": "2026-11-12",
-   "time": "21:15",
+   "time": "21:30",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6468,13 +6225,21 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wicker",
+   "venue": "nhw",
+   "title": "The Silence of the Lambs",
    "date": "2026-11-12",
    "time": "21:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "thriller",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Crime",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "593"
   },
   {
    "venue": "ifc",
@@ -6487,16 +6252,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-12",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
+   "title": "Godzilla Minus Zero",
    "date": "2026-11-12",
    "time": "21:45",
    "genres": [],
@@ -6513,24 +6269,6 @@
    "runtime": 122,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-12",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-12",
-   "time": "22:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6559,15 +6297,6 @@
    "runtime": 114,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-12",
-   "time": "22:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6615,15 +6344,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Devils",
-   "date": "2026-11-13",
-   "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "udocs",
    "title": "Camera Ministry: Lens-based Encounters",
    "date": "2026-11-13",
@@ -6634,47 +6354,34 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Filipiñana",
+   "venue": "bam",
+   "title": "You Can See Everything",
    "date": "2026-11-13",
-   "time": "11:15",
+   "time": "13:00",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-13",
-   "time": "11:45",
+   "time": "13:00",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Sundays on Fire: Secret Hong Kong 35mm Feature",
+   "venue": "bam",
+   "title": "Club Kid",
    "date": "2026-11-13",
-   "time": "12:00",
+   "time": "13:10",
+   "url": "https://www.bam.org/film/2026/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Boyz n the Hood",
-   "date": "2026-11-13",
-   "time": "12:15",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6796"
   },
   {
    "venue": "angelika",
@@ -6686,6 +6393,16 @@
    "runtime": 122,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-13",
+   "time": "13:30",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6714,15 +6431,6 @@
    "runtime": 112,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-13",
-   "time": "14:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6764,7 +6472,7 @@
   },
   {
    "venue": "nhp",
-   "title": "You Can See Everything",
+   "title": "Wild Horse Nine",
    "date": "2026-11-13",
    "time": "14:45",
    "genres": [],
@@ -6772,10 +6480,58 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wild Horse Nine",
+   "venue": "bam",
+   "title": "Fatherland",
    "date": "2026-11-13",
    "time": "15:00",
+   "url": "https://www.bam.org/film/2026/fatherland",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-13",
+   "time": "15:00",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-13",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-13",
+   "time": "15:05",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Godzilla Minus Zero",
+   "date": "2026-11-13",
+   "time": "15:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-13",
+   "time": "15:50",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6790,6 +6546,35 @@
    "runtime": 122,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Club Kid",
+   "date": "2026-11-13",
+   "time": "16:00",
+   "url": "https://www.bam.org/film/2026/club-kid",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-13",
+   "time": "16:15",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-13",
+   "time": "16:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6816,17 +6601,8 @@
    "fmt": "English subtitles",
    "director": "Pedro Almodóvar",
    "runtime": 112,
-   "note": "",
+   "note": "Sold out",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-13",
-   "time": "16:40",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6849,6 +6625,16 @@
    "date": "2026-11-13",
    "time": "17:00",
    "url": "https://www.bam.org/film/2026/filming-filmmakers-ak",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-13",
+   "time": "17:00",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6881,9 +6667,9 @@
   },
   {
    "venue": "nhp",
-   "title": "Godzilla Minus Zero",
+   "title": "You Can See Everything",
    "date": "2026-11-13",
-   "time": "17:00",
+   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6894,6 +6680,28 @@
    "date": "2026-11-13",
    "time": "17:30",
    "url": "https://www.maysles.org/calendar/future-beyond-rikers-film-festival-friday",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-13",
+   "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "paris",
+   "title": "La Bola Negra",
+   "date": "2026-11-13",
+   "time": "18:00",
+   "runtime": 160,
+   "fmt": "35MM",
+   "note": "",
+   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3260/seats",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6918,9 +6726,28 @@
   },
   {
    "venue": "nhp",
-   "title": "The Cat in the Hat (2026)",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-13",
    "time": "18:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-13",
+   "time": "18:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Club Kid",
+   "date": "2026-11-13",
+   "time": "18:40",
+   "url": "https://www.bam.org/film/2026/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6955,10 +6782,30 @@
    "genreMovieId": "5932"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "venue": "bam",
+   "title": "Wild Horse Nine",
    "date": "2026-11-13",
    "time": "18:45",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The Cat in the Hat (2026)",
+   "date": "2026-11-13",
+   "time": "18:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-13",
+   "time": "18:50",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6978,6 +6825,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Fatherland",
+   "date": "2026-11-13",
+   "time": "19:00",
+   "url": "https://www.bam.org/film/2026/fatherland",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "mg",
    "title": "Playback",
    "date": "2026-11-13",
@@ -6986,6 +6843,15 @@
    "year": 2012,
    "runtime": 113,
    "director": "Sho Miyake",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-13",
+   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7010,7 +6876,7 @@
    "fmt": "English subtitles",
    "director": "Pedro Almodóvar",
    "runtime": 112,
-   "note": "",
+   "note": "Sold out",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
    "genres": [],
    "sourceGenres": [],
@@ -7018,9 +6884,37 @@
   },
   {
    "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "title": "Godzilla Minus Zero",
+   "date": "2026-11-13",
+   "time": "19:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-13",
+   "time": "19:30",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
    "date": "2026-11-13",
    "time": "20:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-13",
+   "time": "20:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7036,9 +6930,19 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "The Spook Who Sat by the Door",
    "date": "2026-11-13",
    "time": "21:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-13",
+   "time": "21:15",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7057,29 +6961,21 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
+   "venue": "bam",
+   "title": "Jacquot de Nantes",
    "date": "2026-11-13",
-   "time": "21:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-13",
-   "time": "21:15",
+   "time": "21:20",
+   "url": "https://www.bam.org/film/2026/filming-filmmakers-nantes",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "bam",
-   "title": "Jacquot de Nantes",
+   "title": "Club Kid",
    "date": "2026-11-13",
    "time": "21:20",
-   "url": "https://www.bam.org/film/2026/filming-filmmakers-nantes",
+   "url": "https://www.bam.org/film/2026/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7098,13 +6994,31 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wicker",
+   "venue": "bam",
+   "title": "Wild Horse Nine",
    "date": "2026-11-13",
    "time": "21:30",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "The Silence of the Lambs",
+   "date": "2026-11-13",
+   "time": "21:30",
+   "genres": [
+    "thriller",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Crime",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "593"
   },
   {
    "venue": "roxy",
@@ -7131,16 +7045,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-13",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
+   "title": "Godzilla Minus Zero",
    "date": "2026-11-13",
    "time": "21:45",
    "genres": [],
@@ -7155,7 +7060,7 @@
    "fmt": "English subtitles",
    "director": "Pedro Almodóvar",
    "runtime": 112,
-   "note": "",
+   "note": "Sold out",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
    "genres": [],
    "sourceGenres": [],
@@ -7183,24 +7088,6 @@
    "genreMovieId": "115569"
   },
   {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-13",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-13",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "PAPER TIGER in 35MM",
    "date": "2026-11-13",
@@ -7210,15 +7097,6 @@
    "runtime": 114,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-13",
-   "time": "22:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7311,15 +7189,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Devils",
-   "date": "2026-11-14",
-   "time": "11:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "paris",
    "title": "Portrait of a Lady on Fire",
    "date": "2026-11-14",
@@ -7333,47 +7202,44 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Filipiñana",
-   "date": "2026-11-14",
-   "time": "11:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-14",
-   "time": "11:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Sundays on Fire: Secret Hong Kong 35mm Feature",
+   "venue": "bam",
+   "title": "You Can See Everything",
    "date": "2026-11-14",
    "time": "12:00",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Boyz n the Hood",
+   "venue": "bam",
+   "title": "You Can See Everything",
    "date": "2026-11-14",
-   "time": "12:15",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6796"
+   "time": "13:00",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-14",
+   "time": "13:00",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Club Kid",
+   "date": "2026-11-14",
+   "time": "13:10",
+   "url": "https://www.bam.org/film/2026/club-kid",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -7395,6 +7261,16 @@
    "date": "2026-11-14",
    "time": "13:30",
    "url": "https://www.bam.org/film/2026/filming-filmmakers-on-straub",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-14",
+   "time": "13:30",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7423,15 +7299,6 @@
    "runtime": 112,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-14",
-   "time": "14:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7479,7 +7346,7 @@
   },
   {
    "venue": "nhp",
-   "title": "You Can See Everything",
+   "title": "Wild Horse Nine",
    "date": "2026-11-14",
    "time": "14:45",
    "genres": [],
@@ -7487,10 +7354,29 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wild Horse Nine",
+   "venue": "bam",
+   "title": "Fatherland",
    "date": "2026-11-14",
    "time": "15:00",
+   "url": "https://www.bam.org/film/2026/fatherland",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-14",
+   "time": "15:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-14",
+   "time": "15:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7505,10 +7391,29 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "Godzilla Minus Zero",
+   "date": "2026-11-14",
+   "time": "15:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "quad",
    "title": "Leave Her to Heaven",
    "date": "2026-11-14",
    "time": "15:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-14",
+   "time": "15:40",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7529,10 +7434,39 @@
   },
   {
    "venue": "bam",
+   "title": "Club Kid",
+   "date": "2026-11-14",
+   "time": "16:00",
+   "url": "https://www.bam.org/film/2026/club-kid",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
    "title": "The Last Bolshevik",
    "date": "2026-11-14",
    "time": "16:15",
    "url": "https://www.bam.org/film/2026/filming-filmmakers-the-last-bolshevik",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-14",
+   "time": "16:15",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
+   "date": "2026-11-14",
+   "time": "16:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7587,19 +7521,30 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Wild Horse Nine",
+   "venue": "bam",
+   "title": "You Can See Everything",
    "date": "2026-11-14",
-   "time": "16:40",
+   "time": "16:45",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
+   "date": "2026-11-14",
+   "time": "17:00",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "nhp",
-   "title": "Godzilla Minus Zero",
+   "title": "You Can See Everything",
    "date": "2026-11-14",
-   "time": "17:00",
+   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7607,6 +7552,15 @@
   {
    "venue": "afa",
    "title": "ZORN I + II",
+   "date": "2026-11-14",
+   "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
    "date": "2026-11-14",
    "time": "17:45",
    "genres": [],
@@ -7623,10 +7577,42 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "paris",
+   "title": "La Bola Negra",
+   "date": "2026-11-14",
+   "time": "18:15",
+   "runtime": 160,
+   "fmt": "35MM",
+   "note": "",
+   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3261/seats",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
-   "title": "The Cat in the Hat (2026)",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-14",
    "time": "18:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-14",
+   "time": "18:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Club Kid",
+   "date": "2026-11-14",
+   "time": "18:40",
+   "url": "https://www.bam.org/film/2026/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7656,8 +7642,18 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-14",
+   "time": "18:45",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "title": "The Cat in the Hat (2026)",
    "date": "2026-11-14",
    "time": "18:45",
    "genres": [],
@@ -7674,6 +7670,25 @@
    "runtime": 114,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Fatherland",
+   "date": "2026-11-14",
+   "time": "19:00",
+   "url": "https://www.bam.org/film/2026/fatherland",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-14",
+   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7706,7 +7721,26 @@
   },
   {
    "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "title": "Godzilla Minus Zero",
+   "date": "2026-11-14",
+   "time": "19:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-14",
+   "time": "19:20",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
    "date": "2026-11-14",
    "time": "20:00",
    "genres": [],
@@ -7723,6 +7757,25 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-14",
+   "time": "20:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-14",
+   "time": "20:30",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "afa",
    "title": "ZORN III",
    "date": "2026-11-14",
@@ -7733,7 +7786,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "The Spook Who Sat by the Door",
    "date": "2026-11-14",
    "time": "21:00",
    "genres": [],
@@ -7741,19 +7794,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-14",
    "time": "21:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-14",
-   "time": "21:15",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7781,13 +7826,41 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Wicker",
+   "venue": "bam",
+   "title": "Club Kid",
    "date": "2026-11-14",
-   "time": "21:30",
+   "time": "21:20",
+   "url": "https://www.bam.org/film/2026/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-14",
+   "time": "21:30",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "The Silence of the Lambs",
+   "date": "2026-11-14",
+   "time": "21:30",
+   "genres": [
+    "thriller",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Crime",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "593"
   },
   {
    "venue": "angelika",
@@ -7805,16 +7878,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-14",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
+   "title": "Godzilla Minus Zero",
    "date": "2026-11-14",
    "time": "21:45",
    "genres": [],
@@ -7856,33 +7920,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "45"
-  },
-  {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-14",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-14",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-14",
-   "time": "22:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "angelika",
@@ -7927,56 +7964,34 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "The Devils",
+   "venue": "bam",
+   "title": "You Can See Everything",
    "date": "2026-11-15",
-   "time": "11:00",
+   "time": "13:00",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Filipiñana",
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-15",
-   "time": "11:15",
+   "time": "13:00",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
+   "venue": "bam",
+   "title": "Club Kid",
    "date": "2026-11-15",
-   "time": "11:45",
+   "time": "13:10",
+   "url": "https://www.bam.org/film/2026/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Sundays on Fire: Secret Hong Kong 35mm Feature",
-   "date": "2026-11-15",
-   "time": "12:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Boyz n the Hood",
-   "date": "2026-11-15",
-   "time": "12:15",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6796"
   },
   {
    "venue": "angelika",
@@ -7998,6 +8013,16 @@
    "date": "2026-11-15",
    "time": "13:30",
    "url": "https://www.bam.org/film/2026/filming-filmmakers-making-do-the-right-thing",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-15",
+   "time": "13:30",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8026,15 +8051,6 @@
    "runtime": 112,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-15",
-   "time": "14:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8070,7 +8086,7 @@
   },
   {
    "venue": "nhp",
-   "title": "You Can See Everything",
+   "title": "Wild Horse Nine",
    "date": "2026-11-15",
    "time": "14:45",
    "genres": [],
@@ -8087,8 +8103,28 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Fatherland",
+   "date": "2026-11-15",
+   "time": "15:00",
+   "url": "https://www.bam.org/film/2026/fatherland",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-15",
+   "time": "15:00",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
-   "title": "Wild Horse Nine",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-15",
    "time": "15:00",
    "genres": [],
@@ -8103,6 +8139,24 @@
    "url": "https://www.roxycinemanewyork.com/screenings/losing-ground-bill-gunn-at-roxy/",
    "note": "The Ravishing Cinema of Bill Gunn",
    "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-15",
+   "time": "15:05",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Godzilla Minus Zero",
+   "date": "2026-11-15",
+   "time": "15:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8150,8 +8204,37 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Club Kid",
+   "date": "2026-11-15",
+   "time": "16:00",
+   "url": "https://www.bam.org/film/2026/club-kid",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "afa",
    "title": "EC: UNE SIMPLE HISTOIRE",
+   "date": "2026-11-15",
+   "time": "16:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-15",
+   "time": "16:15",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
    "date": "2026-11-15",
    "time": "16:15",
    "genres": [],
@@ -8187,19 +8270,21 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Wild Horse Nine",
+   "venue": "bam",
+   "title": "You Can See Everything",
    "date": "2026-11-15",
-   "time": "16:40",
+   "time": "16:45",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-15",
    "time": "17:00",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8217,8 +8302,39 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-15",
+   "time": "17:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "paris",
+   "title": "La Bola Negra",
+   "date": "2026-11-15",
+   "time": "17:30",
+   "runtime": 160,
+   "fmt": "35MM",
+   "note": "",
+   "url": "https://tickets.paristheaternyc.com/order/showtimes/2001-3262/seats",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "afa",
    "title": "ZORN I + II",
+   "date": "2026-11-15",
+   "time": "17:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "You Can See Everything",
    "date": "2026-11-15",
    "time": "17:45",
    "genres": [],
@@ -8255,9 +8371,28 @@
   },
   {
    "venue": "nhp",
-   "title": "The Cat in the Hat (2026)",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-15",
    "time": "18:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhw",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-15",
+   "time": "18:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Club Kid",
+   "date": "2026-11-15",
+   "time": "18:40",
+   "url": "https://www.bam.org/film/2026/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8277,10 +8412,30 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "venue": "bam",
+   "title": "Wild Horse Nine",
    "date": "2026-11-15",
    "time": "18:45",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "The Cat in the Hat (2026)",
+   "date": "2026-11-15",
+   "time": "18:45",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-15",
+   "time": "18:50",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8300,6 +8455,25 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "bam",
+   "title": "Fatherland",
+   "date": "2026-11-15",
+   "time": "19:00",
+   "url": "https://www.bam.org/film/2026/fatherland",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-15",
+   "time": "19:00",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "angelika",
    "title": "BITTER CHRISTMAS",
    "date": "2026-11-15",
@@ -8309,6 +8483,15 @@
    "runtime": 112,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "nhp",
+   "title": "Godzilla Minus Zero",
+   "date": "2026-11-15",
+   "time": "19:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8336,8 +8519,8 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
+   "venue": "nhw",
+   "title": "You Can See Everything",
    "date": "2026-11-15",
    "time": "20:00",
    "genres": [],
@@ -8356,10 +8539,29 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "nhp",
+   "title": "You Can See Everything",
+   "date": "2026-11-15",
+   "time": "20:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "afa",
    "title": "EC: HUGO / JACOBS / LEVITT / MAAS",
    "date": "2026-11-15",
    "time": "20:30",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "You Can See Everything",
+   "date": "2026-11-15",
+   "time": "20:30",
+   "url": "https://www.bam.org/film/2026/you-can-see-everything",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8375,7 +8577,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Clayface",
+   "title": "The Spook Who Sat by the Door",
    "date": "2026-11-15",
    "time": "21:00",
    "genres": [],
@@ -8403,31 +8605,51 @@
    "genreMovieId": "3504"
   },
   {
-   "venue": "nhp",
-   "title": "You Can See Everything",
+   "venue": "bam",
+   "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-15",
    "time": "21:15",
+   "url": "https://www.bam.org/film/2026/the-only-living-pickpocket",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Club Kid",
+   "date": "2026-11-15",
+   "time": "21:20",
+   "url": "https://www.bam.org/film/2026/club-kid",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "bam",
+   "title": "Wild Horse Nine",
+   "date": "2026-11-15",
+   "time": "21:30",
+   "url": "https://www.bam.org/film/2026/wild-horse-nine",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-15",
-   "time": "21:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wicker",
+   "title": "The Silence of the Lambs",
    "date": "2026-11-15",
    "time": "21:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "thriller",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Crime",
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "593"
   },
   {
    "venue": "angelika",
@@ -8459,16 +8681,7 @@
   },
   {
    "venue": "nhp",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-15",
-   "time": "21:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "You Can See Everything",
+   "title": "Godzilla Minus Zero",
    "date": "2026-11-15",
    "time": "21:45",
    "genres": [],
@@ -8485,33 +8698,6 @@
    "runtime": 112,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Godzilla Minus Zero",
-   "date": "2026-11-15",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-15",
-   "time": "22:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-15",
-   "time": "22:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
