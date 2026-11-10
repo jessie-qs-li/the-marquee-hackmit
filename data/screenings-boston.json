@@ -1,9 +1,15 @@
 {
  "city": "boston",
  "genreCoverage": {
-  "total": 42,
-  "classified": 14,
+  "total": 43,
+  "classified": 12,
   "unresolved": [
+   {
+    "key": "crimecomedyandchaostheearlycinemaofthecoenbrothers|",
+    "title": "Crime, Comedy, and Chaos: The Early Cinema of the Coen Brothers",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
    {
     "key": "youcanseeeverything|",
     "title": "You Can See Everything",
@@ -47,24 +53,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "onlylivingpickpocketinnewyork|",
-    "title": "The Only Living Pickpocket in New York",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "devils|",
-    "title": "The Devils (1971)",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "crimecomedyandchaostheearlycinemaofthecoenbrothers|",
-    "title": "Crime, Comedy, and Chaos: The Early Cinema of the Coen Brothers",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "toalandunknown|",
     "title": "To a Land Unknown",
     "year": null,
@@ -91,6 +79,18 @@
    {
     "key": "variety|",
     "title": "Variety",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "devils|",
+    "title": "The Devils (1971)",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "onlylivingpickpocketinnewyork|",
+    "title": "The Only Living Pickpocket in New York",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -171,20 +171,38 @@
     "title": "Four Minus Three",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "harvardbookstorewelcomesmelissaclark|",
+    "title": "Harvard Book Store Welcomes Melissa Clark",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "seminarmichaelclayton|",
+    "title": "Seminar: Michael Clayton",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "nowheretogo|",
+    "title": "Nowhere to Go",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    }
   ],
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-09T19:54:53.446Z",
+ "fetchedAt": "2026-11-10T03:39:06.629Z",
  "week": [
-  "2026-11-09",
   "2026-11-10",
   "2026-11-11",
   "2026-11-12",
   "2026-11-13",
   "2026-11-14",
-  "2026-11-15"
+  "2026-11-15",
+  "2026-11-16"
  ],
  "venues": {
   "brattle": {
@@ -253,15 +271,15 @@
    "id": "brattle",
    "name": "Brattle Theatre",
    "ok": true,
-   "count": 20,
-   "ms": 2916
+   "count": 19,
+   "ms": 2611
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
-   "count": 82,
-   "ms": 3696
+   "count": 70,
+   "ms": 3364
   },
   {
    "id": "somerville",
@@ -275,15 +293,15 @@
    "id": "kendall",
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
-   "count": 47,
-   "ms": 945
+   "count": 35,
+   "ms": 666
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 8,
-   "ms": 214
+   "ms": 433
   },
   {
    "id": "mfa",
@@ -296,369 +314,6 @@
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "kendall",
-   "title": "You Can See Everything",
-   "date": "2026-11-09",
-   "time": "15:00",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "La Bola Negra",
-   "date": "2026-11-09",
-   "time": "15:05",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Gentle Monster",
-   "date": "2026-11-09",
-   "time": "15:15",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "You Can See Everything",
-   "date": "2026-11-09",
-   "time": "15:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045594~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/you-can-see-everything",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "La Bola Negra",
-   "date": "2026-11-09",
-   "time": "15:35",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "La bola negra",
-   "date": "2026-11-09",
-   "time": "15:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045582~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/la-bola-negra",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "brattle",
-   "title": "The Scout",
-   "date": "2026-11-09",
-   "time": "16:00",
-   "url": "https://brattlefilm.org/purchase/1741308/",
-   "filmUrl": "https://brattlefilm.org/movies/the-scout/",
-   "genres": [
-    "comedy",
-    "drama"
-   ],
-   "year": 2026,
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Comedy",
-    "Drama"
-   ],
-   "genreSource": "venue"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Wicker",
-   "date": "2026-11-09",
-   "time": "16:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045658~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-09",
-   "time": "16:10",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-09",
-   "time": "16:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045619~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Wicker",
-   "date": "2026-11-09",
-   "time": "16:20",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Once Upon a Time in Harlem",
-   "date": "2026-11-09",
-   "time": "16:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045674~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/once-upon-time-harlem",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Fatherland (2026)",
-   "date": "2026-11-09",
-   "time": "16:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045642~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/fatherland-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Gentle Monster",
-   "date": "2026-11-09",
-   "time": "17:50",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "brattle",
-   "title": "Double Indemnity",
-   "date": "2026-11-09",
-   "time": "18:00",
-   "url": "https://brattlefilm.org/showtimes/double-indemnity-11-9-26-600-pm/",
-   "filmUrl": "https://brattlefilm.org/movies/double-indemnity/",
-   "genres": [
-    "thriller"
-   ],
-   "year": 1944,
-   "sourceGenres": [
-    "Crime",
-    "Thriller"
-   ],
-   "genreSource": "venue"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Wicker",
-   "date": "2026-11-09",
-   "time": "18:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045665~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "La Bola Negra",
-   "date": "2026-11-09",
-   "time": "18:30",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "You Can See Everything",
-   "date": "2026-11-09",
-   "time": "18:35",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Fatherland (2026)",
-   "date": "2026-11-09",
-   "time": "18:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045635~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/fatherland-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Gentle Monster",
-   "date": "2026-11-09",
-   "time": "18:50",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-09",
-   "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045605~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "hfa",
-   "title": "Vertigo",
-   "date": "2026-11-09",
-   "time": "19:00",
-   "note": "Visions of a City, Or A Weekend in San Francisco.",
-   "url": "https://harvardfilmarchive.org/calendar/vertigo-2026-11",
-   "genres": [
-    "drama",
-    "thriller",
-    "romance"
-   ],
-   "sourceGenres": [
-    "Drama",
-    "Mystery",
-    "Romance",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "903"
-  },
-  {
-   "venue": "kendall",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-09",
-   "time": "19:00",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Wicker",
-   "date": "2026-11-09",
-   "time": "19:10",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "La bola negra",
-   "date": "2026-11-09",
-   "time": "19:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045588~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/la-bola-negra",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "You Can See Everything",
-   "date": "2026-11-09",
-   "time": "20:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045606~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/you-can-see-everything",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "brattle",
-   "title": "The Brother from Another Planet",
-   "date": "2026-11-09",
-   "time": "20:30",
-   "url": "https://brattlefilm.org/purchase/1741902/",
-   "filmUrl": "https://brattlefilm.org/movies/the-brother-from-another-planet/",
-   "genres": [
-    "comedy",
-    "drama",
-    "scifi"
-   ],
-   "year": 1984,
-   "sourceGenres": [
-    "Comedy",
-    "Drama",
-    "Science Fiction"
-   ],
-   "genreSource": "venue"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Wicker",
-   "date": "2026-11-09",
-   "time": "21:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045688~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/wicker",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-09",
-   "time": "21:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045681~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/only-living-pickpocket-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-09",
-   "time": "21:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045614~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "The Devils (1971)",
-   "date": "2026-11-09",
-   "time": "22:10",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1045631~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/devils-1971",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "coolidge",
    "title": "Crime, Comedy, and Chaos: The Early Cinema of the Coen Brothers",
@@ -809,8 +464,6 @@
    ],
    "year": 2026,
    "sourceGenres": [
-    "Comedy",
-    "Drama",
     "Comedy",
     "Drama"
    ],
@@ -2174,6 +1827,86 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1240889
+  },
+  {
+   "venue": "brattle",
+   "title": "Harvard Book Store Welcomes Melissa Clark",
+   "date": "2026-11-16",
+   "time": "18:00",
+   "url": "https://www.harvard.com/event/melissa-clark",
+   "filmUrl": "https://brattlefilm.org/special_events/harvard-book-store-welcomes-melissa-clark/",
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Seminar: Michael Clayton",
+   "date": "2026-11-16",
+   "time": "18:15",
+   "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=9a1366e7-8095-4ce0-a803-1dca436df4e6&",
+   "filmUrl": "https://coolidge.org/events/seminar-michael-clayton",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Being Heumann",
+   "date": "2026-11-16",
+   "time": "18:30",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1046200~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/being-heumann",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Michael Clayton",
+   "date": "2026-11-16",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1030913~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/michael-clayton",
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "55276"
+  },
+  {
+   "venue": "hfa",
+   "title": "Nowhere to Go",
+   "date": "2026-11-16",
+   "time": "19:00",
+   "note": "Great Expectations: British Postwar Cinema,",
+   "url": "https://harvardfilmarchive.org/calendar/nowhere-to-go-2026-11",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "brattle",
+   "title": "Raise the Red Lantern",
+   "date": "2026-11-16",
+   "time": "20:00",
+   "url": "https://brattlefilm.org/purchase/1741875/",
+   "filmUrl": "https://brattlefilm.org/movies/raise-the-red-lantern/",
+   "genres": [
+    "drama"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1280"
   }
  ]
 }
