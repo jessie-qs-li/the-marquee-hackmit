@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 43,
-  "classified": 12,
+  "classified": 14,
   "unresolved": [
    {
     "key": "crimecomedyandchaostheearlycinemaofthecoenbrothers|",
@@ -59,12 +59,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "permanentvacation|",
-    "title": "Permanent Vacation",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "goldenboy|",
     "title": "Golden Boy",
     "year": null,
@@ -73,12 +67,6 @@
    {
     "key": "killers|",
     "title": "The Killers",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "variety|",
-    "title": "Variety",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -194,7 +182,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-10T03:39:06.629Z",
+ "fetchedAt": "2026-11-10T15:01:08.129Z",
  "week": [
   "2026-11-10",
   "2026-11-11",
@@ -272,14 +260,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 19,
-   "ms": 2611
+   "ms": 2668
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 70,
-   "ms": 3364
+   "ms": 4019
   },
   {
    "id": "somerville",
@@ -294,14 +282,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 35,
-   "ms": 666
+   "ms": 1257
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 8,
-   "ms": 433
+   "ms": 570
   },
   {
    "id": "mfa",
@@ -549,10 +537,14 @@
    "time": "19:00",
    "url": "https://brattlefilm.org/purchase/1741904/",
    "filmUrl": "https://brattlefilm.org/movies/permanent-vacation/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama"
+   ],
+   "year": 1981,
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -614,10 +606,14 @@
    "time": "20:45",
    "url": "https://brattlefilm.org/purchase/1741905/",
    "filmUrl": "https://brattlefilm.org/movies/variety/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama"
+   ],
+   "year": 1983,
+   "sourceGenres": [
+    "Drama"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1460,26 +1456,6 @@
   },
   {
    "venue": "coolidge",
-   "title": "The Hunted (2003)",
-   "date": "2026-11-13",
-   "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040495~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/hunted-2003",
-   "genres": [
-    "action",
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6219"
-  },
-  {
-   "venue": "coolidge",
    "title": "The Rocky Horror Picture Show",
    "date": "2026-11-13",
    "time": "23:59",
@@ -1498,6 +1474,26 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2657"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Hunted (2003)",
+   "date": "2026-11-13",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040495~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/hunted-2003",
+   "genres": [
+    "action",
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Drama",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "6219"
   },
   {
    "venue": "coolidge",
