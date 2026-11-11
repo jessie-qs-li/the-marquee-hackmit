@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 43,
-  "classified": 13,
+  "classified": 12,
   "unresolved": [
    {
     "key": "labolanegra|",
@@ -19,6 +19,12 @@
    {
     "key": "gentlemonster|",
     "title": "Gentle Monster",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "myundesirablefriendspartiiexilechapters13of5|",
+    "title": "My Undesirable Friends: Part II - Exile, Chapters 1-3 (of 5)",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -188,7 +194,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-11T11:10:55.768Z",
+ "fetchedAt": "2026-11-11T19:43:20.703Z",
  "week": [
   "2026-11-11",
   "2026-11-12",
@@ -266,14 +272,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 19,
-   "ms": 2838
+   "ms": 2956
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 158,
-   "ms": 10491
+   "ms": 10342
   },
   {
    "id": "somerville",
@@ -288,14 +294,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 84,
-   "ms": 1011
+   "ms": 1095
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 7,
-   "ms": 296
+   "ms": 108
   },
   {
    "id": "mfa",
@@ -377,15 +383,10 @@
    "time": "16:00",
    "url": "https://brattlefilm.org/showtimes/my-undesirable-friends-part-ii-exile-chapters-1-3-of-6-11-11-26-400-pm/",
    "filmUrl": "https://brattlefilm.org/movies/my-undesirable-friends-part-ii-exile/",
-   "genres": [
-    "documentary"
-   ],
-   "year": 2026,
-   "sourceGenres": [
-    "Documentary",
-    "Documentary"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -568,15 +569,10 @@
    "time": "19:30",
    "url": "https://brattlefilm.org/showtimes/my-undesirable-friends-part-ii-exile-chapters-1-3-of-6-11-11-26-730-pm/",
    "filmUrl": "https://brattlefilm.org/movies/my-undesirable-friends-part-ii-exile/",
-   "genres": [
-    "documentary"
-   ],
-   "year": 2026,
-   "sourceGenres": [
-    "Documentary",
-    "Documentary"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -1297,12 +1293,15 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -1443,14 +1442,25 @@
     "horror",
     "romance"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
     "Comedy",
     "Horror",
     "Romance"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1689,14 +1699,25 @@
     "horror",
     "romance"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
     "Comedy",
     "Horror",
     "Romance"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -1799,18 +1820,14 @@
    "url": "https://brattlefilm.org/purchase/1741932/",
    "filmUrl": "https://brattlefilm.org/movies/sunset-boulevard/",
    "genres": [
-    "drama",
-    "thriller",
-    "romance"
+    "drama"
    ],
-   "year": null,
+   "year": 1950,
    "sourceGenres": [
     "Drama",
-    "Film-Noir",
-    "Romance"
+    "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "922"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1928,12 +1945,15 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -2074,14 +2094,25 @@
     "horror",
     "romance"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
     "Comedy",
     "Horror",
     "Romance"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
+   "genreSource": "venue"
   },
   {
    "venue": "hfa",
@@ -2243,18 +2274,14 @@
    "url": "https://brattlefilm.org/purchase/1741937/",
    "filmUrl": "https://brattlefilm.org/movies/sunset-boulevard/",
    "genres": [
-    "drama",
-    "thriller",
-    "romance"
+    "drama"
    ],
-   "year": null,
+   "year": 1950,
    "sourceGenres": [
     "Drama",
-    "Film-Noir",
-    "Romance"
+    "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "922"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -2362,14 +2389,25 @@
     "horror",
     "romance"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
     "Comedy",
     "Horror",
     "Romance"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
+   "genreSource": "venue"
   },
   {
    "venue": "hfa",
@@ -2495,12 +2533,15 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -2620,14 +2661,25 @@
     "horror",
     "romance"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
     "Comedy",
     "Horror",
     "Romance"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2945,12 +2997,15 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -3293,12 +3348,15 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
