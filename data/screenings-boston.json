@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 43,
-  "classified": 12,
+  "classified": 13,
   "unresolved": [
    {
     "key": "labolanegra|",
@@ -19,12 +19,6 @@
    {
     "key": "gentlemonster|",
     "title": "Gentle Monster",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "myundesirablefriendspartiiexilechapters13of5|",
-    "title": "My Undesirable Friends: Part II - Exile, Chapters 1-3 (of 5)",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -194,7 +188,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-11T01:18:54.012Z",
+ "fetchedAt": "2026-11-11T11:10:55.768Z",
  "week": [
   "2026-11-11",
   "2026-11-12",
@@ -272,14 +266,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 19,
-   "ms": 2421
+   "ms": 2838
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 158,
-   "ms": 9443
+   "ms": 10491
   },
   {
    "id": "somerville",
@@ -294,14 +288,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 84,
-   "ms": 577
+   "ms": 1011
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 7,
-   "ms": 424
+   "ms": 296
   },
   {
    "id": "mfa",
@@ -383,10 +377,15 @@
    "time": "16:00",
    "url": "https://brattlefilm.org/showtimes/my-undesirable-friends-part-ii-exile-chapters-1-3-of-6-11-11-26-400-pm/",
    "filmUrl": "https://brattlefilm.org/movies/my-undesirable-friends-part-ii-exile/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary",
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -569,10 +568,15 @@
    "time": "19:30",
    "url": "https://brattlefilm.org/showtimes/my-undesirable-friends-part-ii-exile-chapters-1-3-of-6-11-11-26-730-pm/",
    "filmUrl": "https://brattlefilm.org/movies/my-undesirable-friends-part-ii-exile/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary",
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2178,22 +2182,22 @@
   },
   {
    "venue": "coolidge",
-   "title": "Four Minus Three",
+   "title": "Club Kid",
    "date": "2026-11-15",
    "time": "11:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040974~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/four-minus-three",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1046857~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
-   "title": "Club Kid",
+   "title": "Four Minus Three",
    "date": "2026-11-15",
    "time": "11:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1046857~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/club-kid",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040974~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/four-minus-three",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
