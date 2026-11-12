@@ -1,27 +1,9 @@
 {
  "city": "nyc",
  "genreCoverage": {
-  "total": 132,
-  "classified": 32,
+  "total": 130,
+  "classified": 31,
   "unresolved": [
-   {
-    "key": "onlylivingpickpocketinnewyork|",
-    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "wildhorsenine|",
-    "title": "WILD HORSE NINE",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "labolanegra|",
-    "title": "LA BOLA NEGRA",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
    {
     "key": "naza|",
     "title": "Naza",
@@ -37,18 +19,6 @@
    {
     "key": "avedon|",
     "title": "Avedon",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "clubkid|",
-    "title": "CLUB KID in 35MM",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "queenatsea|",
-    "title": "QUEEN AT SEA",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -83,12 +53,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "zi|2026",
-    "title": "zi",
-    "year": 2026,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "digger|",
     "title": "Digger",
     "year": null,
@@ -101,20 +65,26 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "papertiger|",
-    "title": "PAPER TIGER in 35MM",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "soulpatrol|",
     "title": "Soul Patrol",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "onlylivingpickpocketinnewyork|",
+    "title": "The Only Living Pickpocket in New York",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "iplayrocky|",
     "title": "I Play Rocky",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "wildhorsenine|",
+    "title": "Wild Horse Nine",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -131,8 +101,26 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "labolanegra|",
+    "title": "LA BOLA NEGRA in 35MM",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "clubkid|",
+    "title": "Club Kid",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "godzillaminuszero|",
     "title": "Godzilla Minus Zero",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "papertiger|",
+    "title": "PAPER TIGER in 35MM",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -212,6 +200,12 @@
     "key": "killingofasacreddeer|2017",
     "title": "The Killing of a Sacred Deer",
     "year": 2017,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "zi|2026",
+    "title": "zi",
+    "year": 2026,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -608,7 +602,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-12T11:28:53.026Z",
+ "fetchedAt": "2026-11-12T20:05:35.444Z",
  "week": [
   "2026-11-12",
   "2026-11-13",
@@ -826,35 +820,35 @@
    "name": "Film Forum",
    "ok": true,
    "count": 120,
-   "ms": 511
+   "ms": 585
   },
   {
    "id": "mg",
    "name": "Metrograph",
    "ok": true,
-   "count": 42,
-   "ms": 170
+   "count": 40,
+   "ms": 96
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 126,
-   "ms": 207
+   "ms": 283
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 22,
-   "ms": 557
+   "ms": 455
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 76,
-   "ms": 390
+   "ms": 146
   },
   {
    "id": "cv",
@@ -868,21 +862,21 @@
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 12,
-   "ms": 266
+   "ms": 205
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 203,
-   "ms": 4221
+   "count": 192,
+   "ms": 3940
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
    "ok": true,
    "count": 20,
-   "ms": 2455
+   "ms": 2750
   },
   {
    "id": "wrt",
@@ -905,21 +899,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 122,
-   "ms": 609
+   "ms": 307
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
    "count": 49,
-   "ms": 4536
+   "ms": 4287
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
    "count": 119,
-   "ms": 6115
+   "ms": 6761
   },
   {
    "id": "spec",
@@ -934,7 +928,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 11,
-   "ms": 1913
+   "ms": 992
   },
   {
    "id": "momi",
@@ -949,7 +943,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 4,
-   "ms": 554
+   "ms": 875
   },
   {
    "id": "kew",
@@ -964,53 +958,11 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 2,
-   "ms": 1389
+   "ms": 4122
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-11-12",
-   "time": "10:00",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-12",
-   "time": "10:00",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA",
-   "date": "2026-11-12",
-   "time": "10:00",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "ifc",
    "title": "Naza",
@@ -1039,48 +991,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-12",
-   "time": "10:50",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-11-12",
-   "time": "11:15",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-11-12",
-   "time": "12:00",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The History of Concrete",
    "date": "2026-11-12",
@@ -1095,20 +1005,6 @@
    ],
    "genreSource": "tmdb",
    "tmdbId": 1596296
-  },
-  {
-   "venue": "angelika",
-   "title": "QUEEN AT SEA",
-   "date": "2026-11-12",
-   "time": "12:20",
-   "fmt": "Standard",
-   "director": "Lance Hammer",
-   "runtime": 121,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/queen-at-sea",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -1131,20 +1027,6 @@
    "date": "2026-11-12",
    "time": "12:25",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-12",
-   "time": "12:40",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1178,24 +1060,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "mg",
-   "title": "Sans Soleil",
-   "date": "2026-11-12",
-   "time": "13:00",
-   "fmt": "DCP",
-   "year": 1983,
-   "runtime": 103,
-   "director": "Chris Marker",
-   "genres": [
-    "documentary"
-   ],
-   "sourceGenres": [
-    "Documentary"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6123"
-  },
-  {
    "venue": "quad",
    "title": "You Can See Everything",
    "date": "2026-11-12",
@@ -1214,51 +1078,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "mg",
-   "title": "zi",
-   "date": "2026-11-12",
-   "time": "13:15",
-   "fmt": "DCP",
-   "year": 2026,
-   "runtime": 99,
-   "director": "Kogonada .",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-11-12",
    "time": "13:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-12",
-   "time": "13:30",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-11-12",
-   "time": "13:30",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1283,20 +1106,6 @@
    "title": "Mouse",
    "date": "2026-11-12",
    "time": "13:35",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "PAPER TIGER in 35MM",
-   "date": "2026-11-12",
-   "time": "14:00",
-   "fmt": "35mm",
-   "director": "James Gray",
-   "runtime": 114,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1742,8 +1551,8 @@
    "title": "Primetime",
    "date": "2026-11-12",
    "time": "18:25",
-   "url": "",
-   "note": "Sold out",
+   "url": "https://ticketing.useast.veezi.com/purchase/6694?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1831,7 +1640,7 @@
    "fmt": "35mm",
    "director": "Jordan Firstman",
    "runtime": 122,
-   "note": "Sold out",
+   "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
    "genres": [],
    "sourceGenres": [],
@@ -2101,8 +1910,8 @@
    "title": "Your Mother Your Mother Your Mother",
    "date": "2026-11-12",
    "time": "21:00",
-   "url": "https://ticketing.useast.veezi.com/purchase/6685?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
+   "url": "",
+   "note": "Sold out",
    "genres": [
     "drama",
     "thriller"
@@ -3195,7 +3004,7 @@
    "fmt": "Q&A to follow the screening",
    "director": "Jordan Firstman",
    "runtime": 122,
-   "note": "",
+   "note": "Sold out",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
    "genres": [],
    "sourceGenres": [],
@@ -5805,7 +5614,7 @@
    "title": "CLUB KID",
    "date": "2026-11-15",
    "time": "12:15",
-   "fmt": "Standard",
+   "fmt": "Open Captions",
    "director": "Jordan Firstman",
    "runtime": 122,
    "note": "",
@@ -6315,7 +6124,7 @@
    "time": "15:45",
    "fmt": "DCP",
    "year": 1982,
-   "runtime": 115,
+   "runtime": 45,
    "director": "Lorraine O'Grady, Zawe Ashton",
    "genres": [],
    "sourceGenres": [],
@@ -6898,7 +6707,7 @@
    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
    "date": "2026-11-15",
    "time": "20:00",
-   "fmt": "Standard",
+   "fmt": "Open Captions",
    "director": "Noah Segan",
    "runtime": 88,
    "note": "",
@@ -6931,8 +6740,8 @@
    "title": "Ken Russell's The Devils",
    "date": "2026-11-15",
    "time": "20:00",
-   "url": "",
-   "note": "Sold out",
+   "url": "https://ticketing.useast.veezi.com/purchase/6687?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
+   "note": "",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8124,7 +7933,7 @@
    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
    "date": "2026-11-16",
    "time": "18:05",
-   "fmt": "Standard",
+   "fmt": "Open Captions",
    "director": "Noah Segan",
    "runtime": 88,
    "note": "",
@@ -9903,8 +9712,8 @@
    "title": "The History of Concrete",
    "date": "2026-11-17",
    "time": "20:40",
-   "url": "",
-   "note": "Sold out",
+   "url": "https://ticketing.useast.veezi.com/purchase/6704?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
+   "note": "",
    "genres": [
     "documentary",
     "comedy"
@@ -10920,7 +10729,7 @@
    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
    "date": "2026-11-18",
    "time": "18:00",
-   "fmt": "Standard",
+   "fmt": "Open Captions",
    "director": "Noah Segan",
    "runtime": 88,
    "note": "",
@@ -11521,7 +11330,7 @@
    "title": "CLUB KID",
    "date": "2026-11-18",
    "time": "22:20",
-   "fmt": "Standard",
+   "fmt": "Open Captions",
    "director": "Jordan Firstman",
    "runtime": 122,
    "note": "",

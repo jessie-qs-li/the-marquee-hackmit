@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 42,
-  "classified": 12,
+  "classified": 13,
   "unresolved": [
    {
     "key": "wildhorsenine|",
@@ -49,12 +49,6 @@
    {
     "key": "gentlemonster|",
     "title": "Gentle Monster",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "myundesirablefriendspartiiexilechapters45of5|",
-    "title": "My Undesirable Friends: Part II - Exile, Chapters 4-5 (of 5)",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -188,7 +182,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-12T11:29:05.967Z",
+ "fetchedAt": "2026-11-12T20:05:48.355Z",
  "week": [
   "2026-11-12",
   "2026-11-13",
@@ -266,14 +260,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 19,
-   "ms": 2487
+   "ms": 2496
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 160,
-   "ms": 8898
+   "ms": 9079
   },
   {
    "id": "somerville",
@@ -287,15 +281,15 @@
    "id": "kendall",
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
-   "count": 83,
-   "ms": 1125
+   "count": 84,
+   "ms": 738
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 7,
-   "ms": 222
+   "ms": 414
   },
   {
    "id": "mfa",
@@ -450,6 +444,16 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "kendall",
+   "title": "Wicker",
+   "date": "2026-11-12",
+   "time": "15:10",
+   "fmt": "",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "coolidge",
    "title": "La bola negra",
    "date": "2026-11-12",
@@ -487,10 +491,15 @@
    "time": "16:00",
    "url": "https://brattlefilm.org/showtimes/my-undesirable-friends-part-ii-exile-chapters-4-6-of-6-11-12-26-400-pm/",
    "filmUrl": "https://brattlefilm.org/movies/my-undesirable-friends-part-ii-exile-2/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary",
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -635,10 +644,15 @@
    "time": "19:30",
    "url": "https://brattlefilm.org/showtimes/my-undesirable-friends-part-ii-exile-chapters-4-6-of-6-11-12-26-730-pm/",
    "filmUrl": "https://brattlefilm.org/movies/my-undesirable-friends-part-ii-exile-2/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "documentary"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Documentary",
+    "Documentary"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
