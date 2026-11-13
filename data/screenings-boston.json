@@ -170,7 +170,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-13T11:12:47.066Z",
+ "fetchedAt": "2026-11-13T19:51:14.895Z",
  "week": [
   "2026-11-13",
   "2026-11-14",
@@ -248,14 +248,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 19,
-   "ms": 2387
+   "ms": 2519
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 160,
-   "ms": 7616
+   "ms": 7748
   },
   {
    "id": "somerville",
@@ -270,14 +270,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 84,
-   "ms": 725
+   "ms": 667
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 7,
-   "ms": 322
+   "ms": 307
   },
   {
    "id": "mfa",
@@ -794,26 +794,6 @@
   },
   {
    "venue": "coolidge",
-   "title": "The Hunted (2003)",
-   "date": "2026-11-13",
-   "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040495~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/hunted-2003",
-   "genres": [
-    "action",
-    "drama",
-    "thriller"
-   ],
-   "sourceGenres": [
-    "Action",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6219"
-  },
-  {
-   "venue": "coolidge",
    "title": "The Rocky Horror Picture Show",
    "date": "2026-11-13",
    "time": "23:59",
@@ -832,6 +812,26 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "2657"
+  },
+  {
+   "venue": "coolidge",
+   "title": "The Hunted (2003)",
+   "date": "2026-11-13",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040495~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/hunted-2003",
+   "genres": [
+    "action",
+    "drama",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Drama",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "6219"
   },
   {
    "venue": "coolidge",
@@ -1465,22 +1465,22 @@
   },
   {
    "venue": "coolidge",
-   "title": "Four Minus Three",
+   "title": "Club Kid",
    "date": "2026-11-15",
    "time": "11:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040974~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/four-minus-three",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1046857~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
-   "title": "Club Kid",
+   "title": "Four Minus Three",
    "date": "2026-11-15",
    "time": "11:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1046857~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/club-kid",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040974~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/four-minus-three",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"

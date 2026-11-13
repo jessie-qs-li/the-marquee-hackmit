@@ -5,32 +5,8 @@
   "classified": 30,
   "unresolved": [
    {
-    "key": "onlylivingpickpocketinnewyork|",
-    "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "clubkid|",
-    "title": "CLUB KID in 35MM",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "mouse|",
     "title": "Mouse",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "papertiger|",
-    "title": "PAPER TIGER in 35MM",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "bitterchristmas|",
-    "title": "BITTER CHRISTMAS",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -43,18 +19,6 @@
    {
     "key": "cameraministrylensbasedencounters|",
     "title": "Camera Ministry: Lens-based Encounters",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "wildhorsenine|",
-    "title": "WILD HORSE NINE",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "labolanegra|",
-    "title": "LA BOLA NEGRA in 35MM",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -83,8 +47,20 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "onlylivingpickpocketinnewyork|",
+    "title": "The Only Living Pickpocket in New York",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "onceuponatimeinharlem|",
     "title": "ONCE UPON A TIME IN HARLEM",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "clubkid|",
+    "title": "Club Kid",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -107,6 +83,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "wildhorsenine|",
+    "title": "Wild Horse Nine",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "soulpatrol|",
     "title": "Soul Patrol",
     "year": null,
@@ -116,6 +98,12 @@
     "key": "killingofasacreddeer|2017",
     "title": "The Killing of a Sacred Deer",
     "year": 2017,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "labolanegra|",
+    "title": "LA BOLA NEGRA in 35MM",
+    "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -133,6 +121,18 @@
    {
     "key": "iplayrocky|",
     "title": "I Play Rocky",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "papertiger|",
+    "title": "PAPER TIGER in 35MM",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "bitterchristmas|",
+    "title": "BITTER CHRISTMAS",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -578,7 +578,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-13T11:12:35.800Z",
+ "fetchedAt": "2026-11-13T19:51:03.459Z",
  "week": [
   "2026-11-13",
   "2026-11-14",
@@ -796,37 +796,35 @@
    "name": "Film Forum",
    "ok": true,
    "count": 122,
-   "ms": 373
+   "ms": 463
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP 403 on GET /nyc/",
-   "carried": 40,
-   "carriedFrom": "2026-11-13T01:55:37.110Z"
+   "ok": true,
+   "count": 40,
+   "ms": 90
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 127,
-   "ms": 694
+   "ms": 108
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 21,
-   "ms": 304
+   "ms": 395
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 75,
-   "ms": 259
+   "ms": 200
   },
   {
    "id": "cv",
@@ -840,21 +838,23 @@
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 15,
-   "ms": 231
+   "ms": 98
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 206,
-   "ms": 4161
+   "count": 195,
+   "ms": 4455
   },
   {
    "id": "paris",
    "name": "The Paris Theater",
-   "ok": true,
-   "count": 20,
-   "ms": 2432
+   "ok": false,
+   "count": 0,
+   "error": "Paris anonymous browsing configuration changed",
+   "carried": 20,
+   "carriedFrom": "2026-11-13T11:12:35.800Z"
   },
   {
    "id": "wrt",
@@ -877,21 +877,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 124,
-   "ms": 313
+   "ms": 230
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 70,
-   "ms": 4132
+   "count": 63,
+   "ms": 5972
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 133,
-   "ms": 6321
+   "count": 126,
+   "ms": 5613
   },
   {
    "id": "spec",
@@ -906,7 +906,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 9,
-   "ms": 1797
+   "ms": 1763
   },
   {
    "id": "momi",
@@ -921,7 +921,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 3,
-   "ms": 467
+   "ms": 224
   },
   {
    "id": "kew",
@@ -936,39 +936,11 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 2,
-   "ms": 1480
+   "ms": 1884
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "THE ONLY LIVING PICKPOCKET IN NEW YORK",
-   "date": "2026-11-13",
-   "time": "10:00",
-   "fmt": "Standard",
-   "director": "Noah Segan",
-   "runtime": 88,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/the-only-living-pickpocket-in-new-york",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-13",
-   "time": "10:30",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "ifc",
    "title": "The History of Concrete",
@@ -995,34 +967,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "PAPER TIGER in 35MM",
-   "date": "2026-11-13",
-   "time": "11:00",
-   "fmt": "35mm",
-   "director": "James Gray",
-   "runtime": 114,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "BITTER CHRISTMAS",
-   "date": "2026-11-13",
-   "time": "11:00",
-   "fmt": "English subtitles",
-   "director": "Pedro Almodóvar",
-   "runtime": 112,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The Devils",
    "date": "2026-11-13",
@@ -1037,48 +981,6 @@
    "date": "2026-11-13",
    "time": "11:00",
    "url": "https://uniondocs.org/event/camera-ministry-lens-based-encounters-2026-11-13/",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-13",
-   "time": "11:05",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "LA BOLA NEGRA in 35MM",
-   "date": "2026-11-13",
-   "time": "11:15",
-   "fmt": "English subtitles",
-   "director": "Javier Calvo, Javier Ambrossi",
-   "runtime": 160,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/la-bola-negra-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID",
-   "date": "2026-11-13",
-   "time": "12:15",
-   "fmt": "Standard",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1186,20 +1088,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-13",
-   "time": "13:15",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Fjord",
    "date": "2026-11-13",
@@ -1232,48 +1120,6 @@
    "title": "Soul Patrol",
    "date": "2026-11-13",
    "time": "13:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "PAPER TIGER in 35MM",
-   "date": "2026-11-13",
-   "time": "13:40",
-   "fmt": "35mm",
-   "director": "James Gray",
-   "runtime": 114,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "BITTER CHRISTMAS",
-   "date": "2026-11-13",
-   "time": "13:45",
-   "fmt": "English subtitles",
-   "director": "Pedro Almodóvar",
-   "runtime": 112,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-13",
-   "time": "13:50",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1829,15 +1675,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-13",
-   "time": "18:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-11-13",
@@ -1973,7 +1810,7 @@
    "fmt": "35mm",
    "director": "James Gray",
    "runtime": 114,
-   "note": "",
+   "note": "Sold out",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
    "genres": [],
    "sourceGenres": [],
@@ -2008,15 +1845,6 @@
    "year": 2012,
    "runtime": 113,
    "director": "Sho Miyake",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-13",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3601,15 +3429,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-14",
-   "time": "18:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "paris",
    "title": "La Bola Negra",
    "date": "2026-11-14",
@@ -3756,15 +3575,6 @@
    "date": "2026-11-14",
    "time": "19:00",
    "note": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-14",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5404,15 +5214,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-15",
-   "time": "18:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-11-15",
@@ -5560,15 +5361,6 @@
    "date": "2026-11-15",
    "time": "19:00",
    "url": "https://www.bam.org/film/2026/fatherland",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-15",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6971,15 +6763,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-16",
-   "time": "18:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-11-16",
@@ -7155,15 +6938,6 @@
    "date": "2026-11-16",
    "time": "19:00",
    "url": "https://www.bam.org/film/2026/fatherland",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-16",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8440,15 +8214,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-17",
-   "time": "18:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-11-17",
@@ -8642,15 +8407,6 @@
    "date": "2026-11-17",
    "time": "19:00",
    "url": "https://www.maysles.org/calendar/web-du-bois-rebel-with-a-cause",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-17",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9876,15 +9632,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-18",
-   "time": "18:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "LA BOLA NEGRA in 35MM",
    "date": "2026-11-18",
@@ -10055,15 +9802,6 @@
    "date": "2026-11-18",
    "time": "19:00",
    "url": "https://www.bam.org/film/2026/fatherland",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-18",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11310,15 +11048,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "You Can See Everything",
-   "date": "2026-11-19",
-   "time": "18:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "FATHERLAND",
    "date": "2026-11-19",
@@ -11447,15 +11176,6 @@
    "date": "2026-11-19",
    "time": "19:00",
    "url": "https://www.bam.org/film/2026/fatherland",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-19",
-   "time": "19:00",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
