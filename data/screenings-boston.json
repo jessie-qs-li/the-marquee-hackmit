@@ -170,7 +170,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-13T01:55:47.624Z",
+ "fetchedAt": "2026-11-13T11:12:47.066Z",
  "week": [
   "2026-11-13",
   "2026-11-14",
@@ -248,14 +248,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 19,
-   "ms": 2798
+   "ms": 2387
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 160,
-   "ms": 6470
+   "ms": 7616
   },
   {
    "id": "somerville",
@@ -270,14 +270,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 84,
-   "ms": 555
+   "ms": 725
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 7,
-   "ms": 480
+   "ms": 322
   },
   {
    "id": "mfa",
@@ -418,17 +418,15 @@
    "url": "https://brattlefilm.org/purchase/1751834/",
    "filmUrl": "https://brattlefilm.org/movies/the-secret-policemans-other-ball/",
    "genres": [
-    "comedy",
-    "documentary"
+    "comedy"
    ],
-   "year": null,
+   "year": 1982,
    "sourceGenres": [
     "Comedy",
-    "Documentary",
-    "Musical"
+    "Music",
+    "TV Movie"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "6125"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -535,12 +533,19 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -681,14 +686,25 @@
     "horror",
     "romance"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
     "Comedy",
     "Horror",
     "Romance"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -927,14 +943,25 @@
     "horror",
     "romance"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
     "Comedy",
     "Horror",
     "Romance"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -1166,12 +1193,19 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -1312,14 +1346,25 @@
     "horror",
     "romance"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
     "Comedy",
     "Horror",
     "Romance"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
+   "genreSource": "venue"
   },
   {
    "venue": "hfa",
@@ -1420,22 +1465,22 @@
   },
   {
    "venue": "coolidge",
-   "title": "Club Kid",
+   "title": "Four Minus Three",
    "date": "2026-11-15",
    "time": "11:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1046857~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/club-kid",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040974~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/four-minus-three",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
-   "title": "Four Minus Three",
+   "title": "Club Kid",
    "date": "2026-11-15",
    "time": "11:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040974~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/four-minus-three",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1046857~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1600,14 +1645,25 @@
     "horror",
     "romance"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
     "Comedy",
     "Horror",
     "Romance"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
+   "genreSource": "venue"
   },
   {
    "venue": "hfa",
@@ -1733,12 +1789,19 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -1858,14 +1921,25 @@
     "horror",
     "romance"
    ],
-   "year": null,
+   "year": 2026,
    "sourceGenres": [
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
+    "Comedy",
+    "Horror",
+    "Romance",
     "Comedy",
     "Horror",
     "Romance"
    ],
-   "genreSource": "tmdb",
-   "tmdbId": 1240889
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2183,12 +2257,19 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2531,12 +2612,19 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2719,12 +2807,19 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2869,12 +2964,19 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -3155,12 +3257,19 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -3296,12 +3405,19 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
