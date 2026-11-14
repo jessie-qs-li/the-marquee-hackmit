@@ -167,14 +167,14 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "rampage|",
-    "title": "Rampage (1989)",
+    "key": "room|",
+    "title": "The Room",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "room|",
-    "title": "The Room",
+    "key": "rampage|",
+    "title": "Rampage (1989)",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    }
@@ -182,7 +182,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-14T01:29:42.282Z",
+ "fetchedAt": "2026-11-14T10:39:14.243Z",
  "week": [
   "2026-11-14",
   "2026-11-15",
@@ -260,14 +260,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 18,
-   "ms": 3428
+   "ms": 2500
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 134,
-   "ms": 11308
+   "ms": 11642
   },
   {
    "id": "somerville",
@@ -282,14 +282,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 76,
-   "ms": 869
+   "ms": 996
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 6,
-   "ms": 193
+   "ms": 212
   },
   {
    "id": "mfa",
@@ -540,18 +540,14 @@
    "url": "https://brattlefilm.org/purchase/1741932/",
    "filmUrl": "https://brattlefilm.org/movies/sunset-boulevard/",
    "genres": [
-    "drama",
-    "thriller",
-    "romance"
+    "drama"
    ],
-   "year": null,
+   "year": 1950,
    "sourceGenres": [
     "Drama",
-    "Film-Noir",
-    "Romance"
+    "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "922"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1008,18 +1004,14 @@
    "url": "https://brattlefilm.org/purchase/1741937/",
    "filmUrl": "https://brattlefilm.org/movies/sunset-boulevard/",
    "genres": [
-    "drama",
-    "thriller",
-    "romance"
+    "drama"
    ],
-   "year": null,
+   "year": 1950,
    "sourceGenres": [
     "Drama",
-    "Film-Noir",
-    "Romance"
+    "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "922"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -3028,22 +3020,22 @@
   },
   {
    "venue": "coolidge",
-   "title": "Rampage (1989)",
+   "title": "The Room",
    "date": "2026-11-20",
    "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040498~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/rampage-1989",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040497~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/room-0",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
-   "title": "The Room",
+   "title": "Rampage (1989)",
    "date": "2026-11-20",
    "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040497~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/room-0",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040498~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/rampage-1989",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
