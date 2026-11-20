@@ -5,32 +5,8 @@
   "classified": 26,
   "unresolved": [
    {
-    "key": "minotaur|",
-    "title": "MINOTAUR",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "clubkid|",
-    "title": "CLUB KID in 35MM",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "josephine|",
     "title": "Josephine",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "bitterchristmas|",
-    "title": "BITTER CHRISTMAS",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "wildhorsenine|",
-    "title": "WILD HORSE NINE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -41,20 +17,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "papertiger|",
-    "title": "PAPER TIGER in 35MM",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "devils|",
     "title": "The Devils",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "elsinore|",
-    "title": "ELSINORE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -113,6 +77,24 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "clubkid|",
+    "title": "Club Kid",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "wildhorsenine|",
+    "title": "Wild Horse Nine",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "papertiger|",
+    "title": "Paper Tiger",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "rateitx|",
     "title": "Rate It X",
     "year": null,
@@ -151,6 +133,24 @@
    {
     "key": "iplayrocky|",
     "title": "I Play Rocky",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "bitterchristmas|",
+    "title": "BITTER CHRISTMAS",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "minotaur|",
+    "title": "MINOTAUR",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "elsinore|",
+    "title": "ELSINORE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -608,7 +608,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-20T11:53:15.813Z",
+ "fetchedAt": "2026-11-20T20:30:23.951Z",
  "week": [
   "2026-11-20",
   "2026-11-21",
@@ -826,35 +826,37 @@
    "name": "Film Forum",
    "ok": true,
    "count": 115,
-   "ms": 400
+   "ms": 569
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": true,
-   "count": 50,
-   "ms": 71
+   "ok": false,
+   "count": 0,
+   "error": "HTTP 403 on GET /nyc/",
+   "carried": 50,
+   "carriedFrom": "2026-11-20T11:53:15.813Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
-   "count": 182,
-   "ms": 67
+   "count": 181,
+   "ms": 250
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 24,
-   "ms": 200
+   "ms": 429
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 90,
-   "ms": 133
+   "ms": 414
   },
   {
    "id": "cv",
@@ -868,14 +870,14 @@
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 15,
-   "ms": 59
+   "ms": 310
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 183,
-   "ms": 3262
+   "count": 171,
+   "ms": 2824
   },
   {
    "id": "paris",
@@ -905,21 +907,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 137,
-   "ms": 61
+   "ms": 422
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 70,
-   "ms": 4311
+   "count": 63,
+   "ms": 5760
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 147,
-   "ms": 6128
+   "count": 140,
+   "ms": 7269
   },
   {
    "id": "spec",
@@ -934,7 +936,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 15,
-   "ms": 1671
+   "ms": 1463
   },
   {
    "id": "momi",
@@ -949,7 +951,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 4,
-   "ms": 143
+   "ms": 241
   },
   {
    "id": "kew",
@@ -964,72 +966,16 @@
    "name": "UnionDocs",
    "ok": true,
    "count": 1,
-   "ms": 1267
+   "ms": 1634
   }
  ],
  "notices": {},
  "screenings": [
   {
-   "venue": "angelika",
-   "title": "MINOTAUR",
-   "date": "2026-11-20",
-   "time": "10:00",
-   "fmt": "English subtitles",
-   "director": "Andrey Zvyagintsev",
-   "runtime": 141,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/minotaur",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-20",
-   "time": "10:20",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Josephine",
    "date": "2026-11-20",
    "time": "10:35",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "BITTER CHRISTMAS",
-   "date": "2026-11-20",
-   "time": "10:40",
-   "fmt": "English subtitles",
-   "director": "Pedro Almodóvar",
-   "runtime": 112,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-20",
-   "time": "10:40",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1060,38 +1006,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "PAPER TIGER in 35MM",
-   "date": "2026-11-20",
-   "time": "11:05",
-   "fmt": "35mm",
-   "director": "James Gray",
-   "runtime": 114,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The Devils",
    "date": "2026-11-20",
    "time": "11:05",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "ELSINORE",
-   "date": "2026-11-20",
-   "time": "11:30",
-   "fmt": "Standard",
-   "director": "Simon Stone",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/elsinore",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1231,34 +1149,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-20",
-   "time": "13:10",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "MINOTAUR",
-   "date": "2026-11-20",
-   "time": "13:10",
-   "fmt": "English subtitles",
-   "director": "Andrey Zvyagintsev",
-   "runtime": 141,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/minotaur",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Club Kid",
    "date": "2026-11-20",
@@ -1278,39 +1168,11 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "BITTER CHRISTMAS",
-   "date": "2026-11-20",
-   "time": "13:20",
-   "fmt": "English subtitles",
-   "director": "Pedro Almodóvar",
-   "runtime": 112,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Wild Horse Nine",
    "date": "2026-11-20",
    "time": "13:20",
    "url": "https://www.bam.org/film/2026/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-20",
-   "time": "13:25",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1330,34 +1192,6 @@
    "title": "Rate It X",
    "date": "2026-11-20",
    "time": "13:40",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "PAPER TIGER in 35MM",
-   "date": "2026-11-20",
-   "time": "13:45",
-   "fmt": "35mm",
-   "director": "James Gray",
-   "runtime": 114,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "ELSINORE",
-   "date": "2026-11-20",
-   "time": "14:10",
-   "fmt": "Standard",
-   "director": "Simon Stone",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/elsinore",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1922,15 +1756,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-20",
-   "time": "18:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Steps",
    "date": "2026-11-20",
@@ -2168,15 +1993,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Club Kid",
-   "date": "2026-11-20",
-   "time": "19:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "WILD HORSE NINE",
    "date": "2026-11-20",
@@ -2207,7 +2023,7 @@
    "fmt": "Q&A to follow the screening",
    "director": "Andrey Zvyagintsev",
    "runtime": 141,
-   "note": "Sold out",
+   "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/minotaur",
    "genres": [],
    "sourceGenres": [],
@@ -3805,15 +3621,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-21",
-   "time": "18:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-11-21",
@@ -4046,15 +3853,6 @@
    "runtime": 111,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/elsinore",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Club Kid",
-   "date": "2026-11-21",
-   "time": "19:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5717,15 +5515,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-22",
-   "time": "18:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Rate It X",
    "date": "2026-11-22",
@@ -5942,15 +5731,6 @@
    "runtime": 111,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/elsinore",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Club Kid",
-   "date": "2026-11-22",
-   "time": "19:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -7294,15 +7074,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-23",
-   "time": "18:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "mg",
    "title": "That Day, On The Beach",
    "date": "2026-11-23",
@@ -7602,15 +7373,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Club Kid",
-   "date": "2026-11-23",
-   "time": "19:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Fjord",
    "date": "2026-11-23",
@@ -7779,15 +7541,6 @@
    "title": "You Can See Everything",
    "date": "2026-11-23",
    "time": "21:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "ifc",
-   "title": "Tangles",
-   "date": "2026-11-23",
-   "time": "21:05",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8936,15 +8689,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-24",
-   "time": "18:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "BITTER CHRISTMAS",
    "date": "2026-11-24",
@@ -9208,15 +8952,6 @@
    "runtime": 111,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/elsinore",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Club Kid",
-   "date": "2026-11-24",
-   "time": "19:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10451,15 +10186,6 @@
    "tmdbId": 1596296
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-25",
-   "time": "18:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "threeASFOUR: FULL CIRCLE",
    "date": "2026-11-25",
@@ -10699,15 +10425,6 @@
    "runtime": 111,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/elsinore",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Club Kid",
-   "date": "2026-11-25",
-   "time": "19:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -11816,15 +11533,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-26",
-   "time": "18:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "threeASFOUR: FULL CIRCLE",
    "date": "2026-11-26",
@@ -11991,15 +11699,6 @@
    "runtime": 111,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/elsinore",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Club Kid",
-   "date": "2026-11-26",
-   "time": "19:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"

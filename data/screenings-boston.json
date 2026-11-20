@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 36,
-  "classified": 11,
+  "classified": 13,
   "unresolved": [
    {
     "key": "papertiger|",
@@ -41,12 +41,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "itcouldnthappenhere|",
-    "title": "It Couldn't Happen Here",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "fatherland|",
     "title": "Fatherland (2026)",
     "year": null,
@@ -59,26 +53,20 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "zi|",
-    "title": "Zi",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "thiswasawoman|",
     "title": "This Was a Woman",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "room|",
-    "title": "The Room",
+    "key": "rampage|",
+    "title": "Rampage (1989)",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "rampage|",
-    "title": "Rampage (1989)",
+    "key": "room|",
+    "title": "The Room",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -158,7 +146,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-20T11:53:58.488Z",
+ "fetchedAt": "2026-11-20T20:30:34.052Z",
  "week": [
   "2026-11-20",
   "2026-11-21",
@@ -236,14 +224,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 22,
-   "ms": 2106
+   "ms": 3808
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 159,
-   "ms": 5597
+   "ms": 4857
   },
   {
    "id": "somerville",
@@ -258,16 +246,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 105,
-   "ms": 736
+   "ms": 1012
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
-   "ok": false,
-   "count": 0,
-   "error": "fetch failed",
-   "carried": 5,
-   "carriedFrom": "2026-11-20T02:23:52.113Z"
+   "ok": true,
+   "count": 5,
+   "ms": 233
   },
   {
    "id": "mfa",
@@ -427,10 +413,18 @@
    "time": "15:30",
    "url": "https://brattlefilm.org/purchase/1761995/",
    "filmUrl": "https://brattlefilm.org/movies/it-couldnt-happen-here/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "adventure",
+    "drama",
+    "comedy"
+   ],
+   "year": 1988,
+   "sourceGenres": [
+    "Adventure",
+    "Drama",
+    "Music"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -524,10 +518,36 @@
    "time": "18:00",
    "url": "https://brattlefilm.org/purchase/1744666/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -674,15 +694,26 @@
    "url": "https://brattlefilm.org/purchase/1744670/",
    "filmUrl": "https://brattlefilm.org/movies/the-hole/",
    "genres": [
-    "thriller"
+    "drama",
+    "romance",
+    "scifi"
    ],
-   "year": null,
+   "year": 1998,
    "sourceGenres": [
-    "Crime",
-    "Film-Noir"
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "31545"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -770,22 +801,22 @@
   },
   {
    "venue": "coolidge",
-   "title": "The Room",
+   "title": "Rampage (1989)",
    "date": "2026-11-20",
    "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040497~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/room-0",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040498~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/rampage-1989",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
-   "title": "Rampage (1989)",
+   "title": "The Room",
    "date": "2026-11-20",
    "time": "23:59",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040498~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/rampage-1989",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1040497~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/room-0",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1058,15 +1089,26 @@
    "url": "https://brattlefilm.org/purchase/1744674/",
    "filmUrl": "https://brattlefilm.org/movies/the-hole/",
    "genres": [
-    "thriller"
+    "drama",
+    "romance",
+    "scifi"
    ],
-   "year": null,
+   "year": 1998,
    "sourceGenres": [
-    "Crime",
-    "Film-Noir"
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "31545"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1108,10 +1150,36 @@
    "time": "18:00",
    "url": "https://brattlefilm.org/purchase/1744667/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -1264,15 +1332,26 @@
    "url": "https://brattlefilm.org/purchase/1744672/",
    "filmUrl": "https://brattlefilm.org/movies/the-hole/",
    "genres": [
-    "thriller"
+    "drama",
+    "romance",
+    "scifi"
    ],
-   "year": null,
+   "year": 1998,
    "sourceGenres": [
-    "Crime",
-    "Film-Noir"
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "31545"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -1707,15 +1786,26 @@
    "url": "https://brattlefilm.org/purchase/1744686/",
    "filmUrl": "https://brattlefilm.org/movies/the-hole/",
    "genres": [
-    "thriller"
+    "drama",
+    "romance",
+    "scifi"
    ],
-   "year": null,
+   "year": 1998,
    "sourceGenres": [
-    "Crime",
-    "Film-Noir"
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "31545"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -1839,10 +1929,36 @@
    "time": "20:00",
    "url": "https://brattlefilm.org/purchase/1744687/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1989,10 +2105,36 @@
    "time": "16:00",
    "url": "https://brattlefilm.org/purchase/1744691/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2238,10 +2380,36 @@
    "time": "21:30",
    "url": "https://brattlefilm.org/purchase/1744693/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -2409,10 +2577,36 @@
    "time": "18:00",
    "url": "https://brattlefilm.org/purchase/1744695/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -2554,10 +2748,36 @@
    "time": "20:15",
    "url": "https://brattlefilm.org/purchase/1744696/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
