@@ -29,14 +29,14 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "seminarthelunchbox|",
-    "title": "Seminar: The Lunchbox",
+    "key": "iplayrocky|",
+    "title": "I Play Rocky",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "iplayrocky|",
-    "title": "I Play Rocky",
+    "key": "seminarthelunchbox|",
+    "title": "Seminar: The Lunchbox",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -140,7 +140,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-21T02:27:42.701Z",
+ "fetchedAt": "2026-11-21T11:22:36.668Z",
  "week": [
   "2026-11-21",
   "2026-11-22",
@@ -218,14 +218,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 24,
-   "ms": 3086
+   "ms": 2528
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 132,
-   "ms": 4813
+   "ms": 6381
   },
   {
    "id": "somerville",
@@ -240,14 +240,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 89,
-   "ms": 628
+   "ms": 873
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 5,
-   "ms": 117
+   "ms": 315
   },
   {
    "id": "mfa",
@@ -306,22 +306,22 @@
   },
   {
    "venue": "coolidge",
-   "title": "Seminar: The Lunchbox",
+   "title": "I Play Rocky",
    "date": "2026-11-21",
    "time": "12:15",
-   "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=c448f1f0-95ba-4959-a550-01c2f907c8b8&",
-   "filmUrl": "https://coolidge.org/events/seminar-lunchbox",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1048290~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/i-play-rocky",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
-   "title": "I Play Rocky",
+   "title": "Seminar: The Lunchbox",
    "date": "2026-11-21",
    "time": "12:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1048290~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/i-play-rocky",
+   "url": "https://store.coolidge.org/websales/pages/entrypoint.aspx?guid=c448f1f0-95ba-4959-a550-01c2f907c8b8&",
+   "filmUrl": "https://coolidge.org/events/seminar-lunchbox",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -386,12 +386,12 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1074,12 +1074,12 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Drama",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "hfa",
