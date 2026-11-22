@@ -5,30 +5,6 @@
   "classified": 26,
   "unresolved": [
    {
-    "key": "bitterchristmas|",
-    "title": "BITTER CHRISTMAS",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "clubkid|",
-    "title": "CLUB KID in 35MM",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "minotaur|",
-    "title": "MINOTAUR",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "wildhorsenine|",
-    "title": "WILD HORSE NINE",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "josephine|",
     "title": "Josephine",
     "year": null,
@@ -47,8 +23,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "papertiger|",
-    "title": "PAPER TIGER in 35MM",
+    "key": "wildhorsenine|",
+    "title": "Wild Horse Nine",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -131,6 +107,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "clubkid|",
+    "title": "Club Kid",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "gunvornelsonprogram2|1993",
     "title": "Gunvor Nelson Program 2",
     "year": 1993,
@@ -143,14 +125,14 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "rateitx|",
-    "title": "Rate It X",
+    "key": "papertiger|",
+    "title": "Paper Tiger",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "elsinore|",
-    "title": "ELSINORE",
+    "key": "rateitx|",
+    "title": "Rate It X",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -209,8 +191,26 @@
     "reason": "ambiguous"
    },
    {
+    "key": "minotaur|",
+    "title": "MINOTAUR",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "bitterchristmas|",
+    "title": "BITTER CHRISTMAS",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "hungergamessunriseonthereaping|",
     "title": "The Hunger Games: Sunrise on the Reaping",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "elsinore|",
+    "title": "ELSINORE",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -626,7 +626,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-22T11:38:51.819Z",
+ "fetchedAt": "2026-11-22T19:49:38.708Z",
  "week": [
   "2026-11-22",
   "2026-11-23",
@@ -844,7 +844,7 @@
    "name": "Film Forum",
    "ok": true,
    "count": 83,
-   "ms": 511
+   "ms": 420
   },
   {
    "id": "mg",
@@ -853,28 +853,28 @@
    "count": 0,
    "error": "HTTP 403 on GET /nyc/",
    "carried": 56,
-   "carriedFrom": "2026-11-22T01:25:01.083Z"
+   "carriedFrom": "2026-11-22T11:38:51.819Z"
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 133,
-   "ms": 187
+   "ms": 100
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 22,
-   "ms": 501
+   "ms": 233
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
    "count": 62,
-   "ms": 171
+   "ms": 291
   },
   {
    "id": "cv",
@@ -888,14 +888,14 @@
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 15,
-   "ms": 100
+   "ms": 160
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 147,
-   "ms": 3110
+   "count": 136,
+   "ms": 3158
   },
   {
    "id": "paris",
@@ -925,21 +925,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 105,
-   "ms": 667
+   "ms": 198
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 77,
-   "ms": 4006
+   "count": 70,
+   "ms": 5091
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 161,
-   "ms": 6347
+   "count": 154,
+   "ms": 7738
   },
   {
    "id": "spec",
@@ -954,7 +954,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 13,
-   "ms": 1705
+   "ms": 1133
   },
   {
    "id": "momi",
@@ -969,7 +969,7 @@
    "name": "Maysles Documentary Center",
    "ok": true,
    "count": 2,
-   "ms": 237
+   "ms": 457
   },
   {
    "id": "kew",
@@ -985,67 +985,11 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 2123
+   "ms": 1174
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "BITTER CHRISTMAS",
-   "date": "2026-11-22",
-   "time": "10:00",
-   "fmt": "English subtitles",
-   "director": "Pedro Almodóvar",
-   "runtime": 112,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-22",
-   "time": "10:20",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "MINOTAUR",
-   "date": "2026-11-22",
-   "time": "10:30",
-   "fmt": "English subtitles",
-   "director": "Andrey Zvyagintsev",
-   "runtime": 141,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/minotaur",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-22",
-   "time": "10:35",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "ifc",
    "title": "Josephine",
@@ -1132,20 +1076,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "PAPER TIGER in 35MM",
-   "date": "2026-11-22",
-   "time": "11:05",
-   "fmt": "35mm",
-   "director": "James Gray",
-   "runtime": 114,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The Devils",
    "date": "2026-11-22",
@@ -1224,20 +1154,6 @@
    ],
    "genreSource": "movies.csv",
    "genreMovieId": "1280"
-  },
-  {
-   "venue": "angelika",
-   "title": "MINOTAUR",
-   "date": "2026-11-22",
-   "time": "12:30",
-   "fmt": "Open Captions",
-   "director": "Andrey Zvyagintsev",
-   "runtime": 141,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/minotaur",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
   },
   {
    "venue": "ff",
@@ -1339,20 +1255,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-22",
-   "time": "13:10",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Club Kid",
    "date": "2026-11-22",
@@ -1389,20 +1291,6 @@
    "title": "Fjord",
    "date": "2026-11-22",
    "time": "13:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "BITTER CHRISTMAS",
-   "date": "2026-11-22",
-   "time": "13:20",
-   "fmt": "English subtitles",
-   "director": "Pedro Almodóvar",
-   "runtime": 112,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/bitter-christmas",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1446,52 +1334,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "PAPER TIGER in 35MM",
-   "date": "2026-11-22",
-   "time": "13:45",
-   "fmt": "35mm",
-   "director": "James Gray",
-   "runtime": 114,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "ELSINORE",
-   "date": "2026-11-22",
-   "time": "13:45",
-   "fmt": "Standard",
-   "director": "Simon Stone",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/elsinore",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhw",
    "title": "You Can See Everything",
    "date": "2026-11-22",
    "time": "14:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-22",
-   "time": "14:20",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1810,15 +1656,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-22",
-   "time": "16:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "ELSINORE",
    "date": "2026-11-22",
@@ -1995,15 +1832,6 @@
    "year": 1973,
    "runtime": 118,
    "director": "Robert Aldrich",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Hunger Games: Sunrise on the Reaping",
-   "date": "2026-11-22",
-   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -3508,15 +3336,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-23",
-   "time": "16:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "ELSINORE",
    "date": "2026-11-23",
@@ -3622,15 +3441,6 @@
    "title": "Digger",
    "date": "2026-11-23",
    "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Hunger Games: Sunrise on the Reaping",
-   "date": "2026-11-23",
-   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -5191,15 +5001,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-24",
-   "time": "16:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "ELSINORE",
    "date": "2026-11-24",
@@ -5294,15 +5095,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Hunger Games: Sunrise on the Reaping",
-   "date": "2026-11-24",
-   "time": "17:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-11-24",
@@ -5347,8 +5139,8 @@
    "title": "You Can See Everything",
    "date": "2026-11-24",
    "time": "17:45",
-   "url": "https://ticketing.useast.veezi.com/purchase/6709?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
+   "url": "",
+   "note": "Sold out",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -6745,15 +6537,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-25",
-   "time": "16:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "FATHERLAND",
    "date": "2026-11-25",
@@ -6846,15 +6629,6 @@
    "title": "Digger",
    "date": "2026-11-25",
    "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Hunger Games: Sunrise on the Reaping",
-   "date": "2026-11-25",
-   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8212,15 +7986,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-26",
-   "time": "16:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ff",
    "title": "FATHERLAND",
    "date": "2026-11-26",
@@ -8310,15 +8075,6 @@
    "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-26",
    "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Hunger Games: Sunrise on the Reaping",
-   "date": "2026-11-26",
-   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9250,15 +9006,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-27",
-   "time": "16:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Elsinore",
    "date": "2026-11-27",
@@ -9310,15 +9057,6 @@
    "title": "The Only Living Pickpocket in New York",
    "date": "2026-11-27",
    "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Hunger Games: Sunrise on the Reaping",
-   "date": "2026-11-27",
-   "time": "17:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -10118,15 +9856,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-28",
-   "time": "16:20",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Elsinore",
    "date": "2026-11-28",
@@ -10187,15 +9916,6 @@
   {
    "venue": "afa",
    "title": "EC: JENNINGS / KIRSANOFF",
-   "date": "2026-11-28",
-   "time": "17:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "The Hunger Games: Sunrise on the Reaping",
    "date": "2026-11-28",
    "time": "17:15",
    "genres": [],
