@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 35,
-  "classified": 13,
+  "classified": 14,
   "unresolved": [
    {
     "key": "bjhickmanmagicshow|",
@@ -71,12 +71,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "zi|",
-    "title": "Zi",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "kana|",
     "title": "Kanał",
     "year": null,
@@ -140,7 +134,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-22T01:25:06.531Z",
+ "fetchedAt": "2026-11-22T11:38:57.310Z",
  "week": [
   "2026-11-22",
   "2026-11-23",
@@ -218,14 +212,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 25,
-   "ms": 3189
+   "ms": 2062
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 105,
-   "ms": 1165
+   "ms": 2206
   },
   {
    "id": "somerville",
@@ -240,14 +234,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 69,
-   "ms": 592
+   "ms": 574
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 4,
-   "ms": 303
+   "ms": 483
   },
   {
    "id": "mfa",
@@ -439,12 +433,11 @@
    "genres": [
     "drama"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1280"
+   "genreSource": "venue"
   },
   {
    "venue": "hfa",
@@ -581,15 +574,17 @@
    "url": "https://brattlefilm.org/purchase/1744686/",
    "filmUrl": "https://brattlefilm.org/movies/the-hole/",
    "genres": [
-    "thriller"
+    "drama",
+    "romance",
+    "scifi"
    ],
-   "year": null,
+   "year": 1998,
    "sourceGenres": [
-    "Crime",
-    "Film-Noir"
+    "Drama",
+    "Romance",
+    "Science Fiction"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "31545"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -713,10 +708,30 @@
    "time": "20:00",
    "url": "https://brattlefilm.org/purchase/1744687/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -863,10 +878,30 @@
    "time": "16:00",
    "url": "https://brattlefilm.org/purchase/1744691/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1112,10 +1147,30 @@
    "time": "21:30",
    "url": "https://brattlefilm.org/purchase/1744693/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1283,10 +1338,30 @@
    "time": "18:00",
    "url": "https://brattlefilm.org/purchase/1744695/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -1428,10 +1503,30 @@
    "time": "20:15",
    "url": "https://brattlefilm.org/purchase/1744696/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
