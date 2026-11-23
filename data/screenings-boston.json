@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 32,
-  "classified": 13,
+  "classified": 14,
   "unresolved": [
    {
     "key": "labolanegra|",
@@ -31,12 +31,6 @@
    {
     "key": "hungergamessunriseonthereaping|",
     "title": "The Hunger Games: Sunrise on the Reaping",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "zi|",
-    "title": "Zi",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -122,7 +116,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-23T01:49:26.813Z",
+ "fetchedAt": "2026-11-23T13:09:55.788Z",
  "week": [
   "2026-11-23",
   "2026-11-24",
@@ -200,14 +194,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 26,
-   "ms": 3298
+   "ms": 2637
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 80,
-   "ms": 3193
+   "ms": 5410
   },
   {
    "id": "somerville",
@@ -222,14 +216,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 51,
-   "ms": 753
+   "ms": 834
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 4,
-   "ms": 85
+   "ms": 1301
   },
   {
    "id": "mfa",
@@ -332,10 +326,27 @@
    "time": "16:00",
    "url": "https://brattlefilm.org/purchase/1744691/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -422,13 +433,12 @@
     "family",
     "drama"
    ],
-   "year": null,
+   "year": 2007,
    "sourceGenres": [
     "Animation",
     "Drama"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "55442"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -581,10 +591,27 @@
    "time": "21:30",
    "url": "https://brattlefilm.org/purchase/1744693/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -752,10 +779,27 @@
    "time": "18:00",
    "url": "https://brattlefilm.org/purchase/1744695/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -897,10 +941,27 @@
    "time": "20:15",
    "url": "https://brattlefilm.org/purchase/1744696/",
    "filmUrl": "https://brattlefilm.org/movies/zi/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "romance",
+    "scifi"
+   ],
+   "year": 2026,
+   "sourceGenres": [
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction",
+    "Drama",
+    "Romance",
+    "Science Fiction"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
