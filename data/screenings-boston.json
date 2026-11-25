@@ -134,7 +134,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-25T08:49:05.123Z",
+ "fetchedAt": "2026-11-25T19:25:10.106Z",
  "week": [
   "2026-11-25",
   "2026-11-26",
@@ -212,14 +212,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 25,
-   "ms": 2401
+   "ms": 2857
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 159,
-   "ms": 7663
+   "ms": 5565
   },
   {
    "id": "somerville",
@@ -234,14 +234,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 130,
-   "ms": 1096
+   "ms": 855
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 4,
-   "ms": 453
+   "ms": 345
   },
   {
    "id": "mfa",
@@ -417,17 +417,17 @@
    "url": "https://brattlefilm.org/purchase/1744699/",
    "filmUrl": "https://brattlefilm.org/movies/the-people-under-the-stairs/",
    "genres": [
-    "horror",
-    "thriller"
+    "comedy",
+    "horror"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Comedy",
     "Horror",
-    "Mystery",
-    "Thriller"
+    "Comedy",
+    "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "7930"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -532,14 +532,20 @@
    "url": "https://brattlefilm.org/purchase/1744700/",
    "filmUrl": "https://brattlefilm.org/movies/the-burbs/",
    "genres": [
-    "comedy"
+    "comedy",
+    "horror",
+    "thriller"
    ],
-   "year": null,
+   "year": 1989,
    "sourceGenres": [
-    "Comedy"
+    "Comedy",
+    "Horror",
+    "Thriller",
+    "Comedy",
+    "Horror",
+    "Thriller"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "2072"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -651,17 +657,17 @@
    "url": "https://brattlefilm.org/purchase/1744701/",
    "filmUrl": "https://brattlefilm.org/movies/the-people-under-the-stairs/",
    "genres": [
-    "horror",
-    "thriller"
+    "comedy",
+    "horror"
    ],
-   "year": null,
+   "year": 1991,
    "sourceGenres": [
+    "Comedy",
     "Horror",
-    "Mystery",
-    "Thriller"
+    "Comedy",
+    "Horror"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "7930"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1211,14 +1217,20 @@
    "url": "https://brattlefilm.org/purchase/1744705/",
    "filmUrl": "https://brattlefilm.org/movies/the-burbs/",
    "genres": [
-    "comedy"
+    "comedy",
+    "horror",
+    "thriller"
    ],
-   "year": null,
+   "year": 1989,
    "sourceGenres": [
-    "Comedy"
+    "Comedy",
+    "Horror",
+    "Thriller",
+    "Comedy",
+    "Horror",
+    "Thriller"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "2072"
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
