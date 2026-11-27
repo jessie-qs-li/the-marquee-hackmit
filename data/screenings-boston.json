@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 43,
-  "classified": 17,
+  "classified": 16,
   "unresolved": [
    {
     "key": "wildhorsenine|",
@@ -61,6 +61,12 @@
    {
     "key": "inwaves|",
     "title": "In Waves",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "maltesefalcon|",
+    "title": "The Maltese Falcon",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -164,7 +170,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-27T01:47:42.575Z",
+ "fetchedAt": "2026-11-27T12:43:20.509Z",
  "week": [
   "2026-11-27",
   "2026-11-28",
@@ -242,14 +248,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 23,
-   "ms": 3168
+   "ms": 2489
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 159,
-   "ms": 4274
+   "ms": 5652
   },
   {
    "id": "somerville",
@@ -264,14 +270,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 136,
-   "ms": 782
+   "ms": 612
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 4,
-   "ms": 65
+   "ms": 395
   },
   {
    "id": "mfa",
@@ -649,19 +655,10 @@
    "time": "17:15",
    "url": "https://brattlefilm.org/purchase/1744717/",
    "filmUrl": "https://brattlefilm.org/movies/the-maltese-falcon/",
-   "genres": [
-    "thriller"
-   ],
-   "year": 1941,
-   "sourceGenres": [
-    "Crime",
-    "Mystery",
-    "Thriller",
-    "Crime",
-    "Mystery",
-    "Thriller"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -985,19 +982,10 @@
    "time": "12:00",
    "url": "https://brattlefilm.org/purchase/1744723/",
    "filmUrl": "https://brattlefilm.org/movies/the-maltese-falcon/",
-   "genres": [
-    "thriller"
-   ],
-   "year": 1941,
-   "sourceGenres": [
-    "Crime",
-    "Mystery",
-    "Thriller",
-    "Crime",
-    "Mystery",
-    "Thriller"
-   ],
-   "genreSource": "venue"
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
   },
   {
    "venue": "coolidge",
@@ -1684,13 +1672,14 @@
    "genres": [
     "thriller"
    ],
-   "year": 1946,
+   "year": null,
    "sourceGenres": [
     "Crime",
-    "Mystery",
-    "Thriller"
+    "Film-Noir",
+    "Mystery"
    ],
-   "genreSource": "venue"
+   "genreSource": "movies.csv",
+   "genreMovieId": "1284"
   },
   {
    "venue": "kendall",
