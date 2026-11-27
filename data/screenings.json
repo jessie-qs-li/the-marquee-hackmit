@@ -2,26 +2,8 @@
  "city": "nyc",
  "genreCoverage": {
   "total": 129,
-  "classified": 36,
+  "classified": 33,
   "unresolved": [
-   {
-    "key": "papertiger|",
-    "title": "PAPER TIGER in 35MM",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "wildhorsenine|",
-    "title": "WILD HORSE NINE",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "clubkid|",
-    "title": "CLUB KID in 35MM",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
    {
     "key": "rateitx|",
     "title": "Rate It X",
@@ -41,12 +23,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "elsinore|",
-    "title": "ELSINORE",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "devils|",
     "title": "The Devils",
     "year": null,
@@ -59,8 +35,14 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "minotaur|",
-    "title": "MINOTAUR",
+    "key": "wildhorsenine|",
+    "title": "Wild Horse Nine",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "elsinore|",
+    "title": "Elsinore",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -83,14 +65,26 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "inwaves|",
-    "title": "In Waves",
+    "key": "clubkid|",
+    "title": "Club Kid",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "fatherland|",
     "title": "FATHERLAND",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "papertiger|",
+    "title": "Paper Tiger",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "minotaur|",
+    "title": "Minotaur",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -107,12 +101,6 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "fjord|",
-    "title": "Fjord",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "onceuponatimeinharlem|",
     "title": "ONCE UPON A TIME IN HARLEM",
     "year": null,
@@ -125,21 +113,9 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "onlylivingpickpocketinnewyork|",
-    "title": "The Only Living Pickpocket in New York",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
     "key": "naza|",
     "title": "Naza",
     "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "medea|1988",
-    "title": "Medea (1988)",
-    "year": 1988,
     "reason": "not in catalogue or ambiguous title"
    },
    {
@@ -191,6 +167,12 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "inwaves|",
+    "title": "In Waves",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "fin|",
     "title": "The Fin + Q&A",
     "year": null,
@@ -215,10 +197,22 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "fjord|",
+    "title": "Fjord",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "primetime|",
     "title": "Primetime",
     "year": null,
     "reason": "ambiguous"
+   },
+   {
+    "key": "onlylivingpickpocketinnewyork|",
+    "title": "The Only Living Pickpocket in New York",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "mandy|2018",
@@ -545,6 +539,18 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "smallslowbutsteady|2022",
+    "title": "Small, Slow But Steady",
+    "year": 2022,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "allthelongnights|2024",
+    "title": "All the Long Nights",
+    "year": 2024,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "mononoawarexxeastfacingwest|",
     "title": "MONO NO AWARE XX: EAST FACING WEST",
     "year": null,
@@ -557,16 +563,28 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
+    "key": "laraulito|1975",
+    "title": "La Raulito",
+    "year": 1975,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
     "key": "hedonist|",
     "title": "The Hedonist + Q&A",
     "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "tetsuotheironman|1989",
+    "title": "Tetsuo: The Iron Man",
+    "year": 1989,
     "reason": "not in catalogue or ambiguous title"
    }
   ],
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-27T12:43:11.200Z",
+ "fetchedAt": "2026-11-27T23:31:43.165Z",
  "week": [
   "2026-11-27",
   "2026-11-28",
@@ -784,37 +802,35 @@
    "name": "Film Forum",
    "ok": true,
    "count": 103,
-   "ms": 396
+   "ms": 561
   },
   {
    "id": "mg",
    "name": "Metrograph",
-   "ok": false,
-   "count": 0,
-   "error": "HTTP 403 on GET /nyc/",
-   "carried": 48,
-   "carriedFrom": "2026-11-27T01:47:34.146Z"
+   "ok": true,
+   "count": 49,
+   "ms": 108
   },
   {
    "id": "ifc",
    "name": "IFC Center",
    "ok": true,
    "count": 188,
-   "ms": 223
+   "ms": 311
   },
   {
    "id": "afa",
    "name": "Anthology Film Archives",
    "ok": true,
    "count": 17,
-   "ms": 514
+   "ms": 547
   },
   {
    "id": "quad",
    "name": "Quad Cinema",
    "ok": true,
-   "count": 95,
-   "ms": 148
+   "count": 90,
+   "ms": 168
   },
   {
    "id": "cv",
@@ -828,14 +844,14 @@
    "name": "Roxy Cinema New York",
    "ok": true,
    "count": 17,
-   "ms": 99
+   "ms": 92
   },
   {
    "id": "angelika",
    "name": "Angelika Film Center",
    "ok": true,
-   "count": 195,
-   "ms": 3286
+   "count": 178,
+   "ms": 3247
   },
   {
    "id": "paris",
@@ -865,21 +881,21 @@
    "name": "BAM Rose Cinemas",
    "ok": true,
    "count": 134,
-   "ms": 138
+   "ms": 136
   },
   {
    "id": "nhw",
    "name": "Nitehawk Williamsburg",
    "ok": true,
-   "count": 84,
-   "ms": 3658
+   "count": 70,
+   "ms": 4927
   },
   {
    "id": "nhp",
    "name": "Nitehawk Prospect Park",
    "ok": true,
-   "count": 175,
-   "ms": 6036
+   "count": 161,
+   "ms": 7136
   },
   {
    "id": "spec",
@@ -894,7 +910,7 @@
    "name": "Syndicated",
    "ok": true,
    "count": 14,
-   "ms": 1755
+   "ms": 2345
   },
   {
    "id": "momi",
@@ -910,7 +926,7 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 85
+   "ms": 105
   },
   {
    "id": "kew",
@@ -926,53 +942,11 @@
    "ok": true,
    "count": 0,
    "empty": true,
-   "ms": 1033
+   "ms": 1257
   }
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "angelika",
-   "title": "PAPER TIGER in 35MM",
-   "date": "2026-11-27",
-   "time": "10:20",
-   "fmt": "35mm",
-   "director": "James Gray",
-   "runtime": 114,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-27",
-   "time": "10:25",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-27",
-   "time": "10:30",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "ifc",
    "title": "Rate It X",
@@ -1001,20 +975,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "ELSINORE",
-   "date": "2026-11-27",
-   "time": "11:00",
-   "fmt": "Standard",
-   "director": "Simon Stone",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/elsinore",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "The Devils",
    "date": "2026-11-27",
@@ -1024,63 +984,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "mg",
-   "title": "The Aristocats",
-   "date": "2026-11-27",
-   "time": "11:00",
-   "fmt": "DCP",
-   "year": 1970,
-   "runtime": 78,
-   "director": "Wolfgang Reitherman",
-   "genres": [
-    "family"
-   ],
-   "sourceGenres": [
-    "Animation",
-    "Children"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "616"
-  },
-  {
    "venue": "ifc",
    "title": "14th",
    "date": "2026-11-27",
    "time": "11:05",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "mg",
-   "title": "The General",
-   "date": "2026-11-27",
-   "time": "11:15",
-   "fmt": "4K DCP",
-   "year": 1926,
-   "runtime": 78,
-   "director": "Buster Keaton, Clyde Bruckman",
-   "genres": [
-    "comedy",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Comedy",
-    "War"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "3022"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID",
-   "date": "2026-11-27",
-   "time": "11:20",
-   "fmt": "Standard",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1099,20 +1006,6 @@
    "title": "Elsinore",
    "date": "2026-11-27",
    "time": "11:45",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "MINOTAUR",
-   "date": "2026-11-27",
-   "time": "12:15",
-   "fmt": "English subtitles",
-   "director": "Andrey Zvyagintsev",
-   "runtime": 141,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/minotaur",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1142,24 +1035,6 @@
    "title": "You Can See Everything",
    "date": "2026-11-27",
    "time": "12:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "12:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "In Waves",
-   "date": "2026-11-27",
-   "time": "12:20",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1218,20 +1093,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "PAPER TIGER in 35MM",
-   "date": "2026-11-27",
-   "time": "13:00",
-   "fmt": "35mm",
-   "director": "James Gray",
-   "runtime": 114,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "You Can See Everything",
    "date": "2026-11-27",
@@ -1252,24 +1113,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "mg",
-   "title": "The Sacrifice",
-   "date": "2026-11-27",
-   "time": "13:00",
-   "fmt": "35mm",
-   "year": 1986,
-   "runtime": 149,
-   "director": "Andrei Tarkovsky",
-   "genres": [
-    "drama"
-   ],
-   "sourceGenres": [
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "26578"
-  },
-  {
    "venue": "nhp",
    "title": "The Hunger Games: Sunrise on the Reaping",
    "date": "2026-11-27",
@@ -1283,20 +1126,6 @@
    "title": "Wild Horse Nine",
    "date": "2026-11-27",
    "time": "13:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-27",
-   "time": "13:10",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1316,47 +1145,6 @@
    "title": "Josephine",
    "date": "2026-11-27",
    "time": "13:10",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-27",
-   "time": "13:15",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "mg",
-   "title": "Secrets & Lies",
-   "date": "2026-11-27",
-   "time": "13:15",
-   "fmt": "DCP",
-   "year": 1996,
-   "runtime": 136,
-   "director": "Mike Leigh",
-   "genres": [
-    "drama"
-   ],
-   "sourceGenres": [
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "1041"
-  },
-  {
-   "venue": "quad",
-   "title": "Fjord",
-   "date": "2026-11-27",
-   "time": "13:15",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1401,38 +1189,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-27",
-   "time": "13:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "quad",
-   "title": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "13:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "ELSINORE",
-   "date": "2026-11-27",
-   "time": "13:40",
-   "fmt": "Standard",
-   "director": "Simon Stone",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/elsinore",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Elsinore",
    "date": "2026-11-27",
@@ -1465,20 +1221,6 @@
    "title": "Paper Tiger",
    "date": "2026-11-27",
    "time": "14:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID",
-   "date": "2026-11-27",
-   "time": "14:20",
-   "fmt": "Standard",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1519,15 +1261,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "quad",
-   "title": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "14:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Naza",
    "date": "2026-11-27",
@@ -1555,38 +1288,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "MINOTAUR",
-   "date": "2026-11-27",
-   "time": "15:25",
-   "fmt": "English subtitles",
-   "director": "Andrey Zvyagintsev",
-   "runtime": 141,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/minotaur",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "nhw",
    "title": "Club Kid",
    "date": "2026-11-27",
    "time": "15:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "PAPER TIGER in 35MM",
-   "date": "2026-11-27",
-   "time": "15:45",
-   "fmt": "35mm",
-   "director": "James Gray",
-   "runtime": 114,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1629,20 +1334,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "angelika",
-   "title": "WILD HORSE NINE",
-   "date": "2026-11-27",
-   "time": "16:00",
-   "fmt": "Standard",
-   "director": "Martin McDonagh",
-   "runtime": 118,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "bam",
    "title": "Club Kid",
    "date": "2026-11-27",
@@ -1672,45 +1363,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "mg",
-   "title": "Rashomon",
-   "date": "2026-11-27",
-   "time": "16:00",
-   "fmt": "DCP",
-   "year": 1950,
-   "runtime": 88,
-   "director": "Akira Kurosawa",
-   "genres": [
-    "thriller",
-    "drama"
-   ],
-   "sourceGenres": [
-    "Crime",
-    "Drama",
-    "Mystery"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "5291"
-  },
-  {
    "venue": "nhp",
    "title": "Paper Tiger",
    "date": "2026-11-27",
    "time": "16:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID in 35MM",
-   "date": "2026-11-27",
-   "time": "16:05",
-   "fmt": "35mm",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid-in-35mm",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1750,37 +1406,10 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "mg",
-   "title": "Medea (1988)",
-   "date": "2026-11-27",
-   "time": "16:15",
-   "fmt": "Digital",
-   "year": 1988,
-   "runtime": 75,
-   "director": "Lars Von Trier",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "quad",
    "title": "Digger",
    "date": "2026-11-27",
    "time": "16:15",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "ELSINORE",
-   "date": "2026-11-27",
-   "time": "16:20",
-   "fmt": "Standard",
-   "director": "Simon Stone",
-   "runtime": 111,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/elsinore",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -1891,20 +1520,6 @@
    "title": "You Can See Everything",
    "date": "2026-11-27",
    "time": "17:00",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "angelika",
-   "title": "CLUB KID",
-   "date": "2026-11-27",
-   "time": "17:20",
-   "fmt": "Standard",
-   "director": "Jordan Firstman",
-   "runtime": 122,
-   "note": "",
-   "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -2030,24 +1645,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Elsinore",
-   "date": "2026-11-27",
-   "time": "18:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Paper Tiger",
-   "date": "2026-11-27",
-   "time": "18:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "MINOTAUR",
    "date": "2026-11-27",
@@ -2164,15 +1761,6 @@
   {
    "venue": "ifc",
    "title": "Josephine",
-   "date": "2026-11-27",
-   "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Club Kid",
    "date": "2026-11-27",
    "time": "18:50",
    "genres": [],
@@ -3259,15 +2847,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-28",
-   "time": "13:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Tangles",
    "date": "2026-11-28",
@@ -3425,8 +3004,8 @@
    "title": "The History of Concrete",
    "date": "2026-11-28",
    "time": "15:25",
-   "url": "https://ticketing.useast.veezi.com/purchase/6724?siteToken=dxdq5wzbef6bz2sjqt83ytzn1c",
-   "note": "",
+   "url": "",
+   "note": "Sold out",
    "genres": [
     "documentary",
     "comedy"
@@ -3928,24 +3507,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Elsinore",
-   "date": "2026-11-28",
-   "time": "18:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Paper Tiger",
-   "date": "2026-11-28",
-   "time": "18:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "MINOTAUR",
    "date": "2026-11-28",
@@ -4081,15 +3642,6 @@
   {
    "venue": "ifc",
    "title": "Josephine",
-   "date": "2026-11-28",
-   "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Club Kid",
    "date": "2026-11-28",
    "time": "18:50",
    "genres": [],
@@ -5200,15 +4752,6 @@
    "genreMovieId": "1267"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-29",
-   "time": "13:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Tangles",
    "date": "2026-11-29",
@@ -5840,24 +5383,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Elsinore",
-   "date": "2026-11-29",
-   "time": "18:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Paper Tiger",
-   "date": "2026-11-29",
-   "time": "18:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "angelika",
    "title": "MINOTAUR",
    "date": "2026-11-29",
@@ -5999,15 +5524,6 @@
   {
    "venue": "ifc",
    "title": "Josephine",
-   "date": "2026-11-29",
-   "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Club Kid",
    "date": "2026-11-29",
    "time": "18:50",
    "genres": [],
@@ -6868,15 +6384,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-11-30",
-   "time": "13:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Tangles",
    "date": "2026-11-30",
@@ -7438,24 +6945,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Elsinore",
-   "date": "2026-11-30",
-   "time": "18:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Paper Tiger",
-   "date": "2026-11-30",
-   "time": "18:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "synd",
    "title": "Nirvanna the Band the Show",
    "date": "2026-11-30",
@@ -7552,15 +7041,6 @@
    "date": "2026-11-30",
    "time": "18:50",
    "url": "https://www.bam.org/film/2026/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-11-30",
-   "time": "18:50",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -8480,15 +7960,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-12-01",
-   "time": "13:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Tangles",
    "date": "2026-12-01",
@@ -9051,24 +8522,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Elsinore",
-   "date": "2026-12-01",
-   "time": "18:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Paper Tiger",
-   "date": "2026-12-01",
-   "time": "18:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "synd",
    "title": "Nirvanna the Band the Show",
    "date": "2026-12-01",
@@ -9156,15 +8609,6 @@
    "runtime": 114,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/paper-tiger-in-35mm",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-12-01",
-   "time": "18:50",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -9940,15 +9384,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-12-02",
-   "time": "13:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Tangles",
    "date": "2026-12-02",
@@ -10536,24 +9971,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "Elsinore",
-   "date": "2026-12-02",
-   "time": "18:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Paper Tiger",
-   "date": "2026-12-02",
-   "time": "18:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "roxy",
    "title": "Bouchra + Q&A",
    "date": "2026-12-02",
@@ -10689,15 +10106,6 @@
   {
    "venue": "ifc",
    "title": "Josephine",
-   "date": "2026-12-02",
-   "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Club Kid",
    "date": "2026-12-02",
    "time": "18:50",
    "genres": [],
@@ -11540,15 +10948,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhp",
-   "title": "The Only Living Pickpocket in New York",
-   "date": "2026-12-03",
-   "time": "13:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "ifc",
    "title": "Tangles",
    "date": "2026-12-03",
@@ -11843,6 +11242,40 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "mg",
+   "title": "Once Upon A Time In The West",
+   "date": "2026-12-03",
+   "time": "16:00",
+   "fmt": "DCP",
+   "year": 1968,
+   "runtime": 164,
+   "director": "Sergio Leone",
+   "genres": [
+    "action",
+    "drama"
+   ],
+   "sourceGenres": [
+    "Action",
+    "Drama",
+    "Western"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1209"
+  },
+  {
+   "venue": "mg",
+   "title": "Small, Slow But Steady",
+   "date": "2026-12-03",
+   "time": "16:00",
+   "fmt": "DCP",
+   "year": 2022,
+   "runtime": 99,
+   "director": "Sho Miyake",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "Paper Tiger",
    "date": "2026-12-03",
@@ -12042,6 +11475,19 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "mg",
+   "title": "All the Long Nights",
+   "date": "2026-12-03",
+   "time": "18:10",
+   "fmt": "DCP",
+   "year": 2024,
+   "runtime": 119,
+   "director": "Sho Miyake",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
    "venue": "nhp",
    "title": "You Can See Everything",
    "date": "2026-12-03",
@@ -12075,24 +11521,6 @@
    "date": "2026-12-03",
    "time": "18:30",
    "note": "(OC)",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhp",
-   "title": "Elsinore",
-   "date": "2026-12-03",
-   "time": "18:30",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "nhw",
-   "title": "Paper Tiger",
-   "date": "2026-12-03",
-   "time": "18:30",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12217,15 +11645,6 @@
    "genreSource": "unclassified"
   },
   {
-   "venue": "nhw",
-   "title": "Club Kid",
-   "date": "2026-12-03",
-   "time": "18:50",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
    "venue": "afa",
    "title": "MONO NO AWARE XX: EAST FACING WEST",
    "date": "2026-12-03",
@@ -12311,6 +11730,25 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "mg",
+   "title": "Memento",
+   "date": "2026-12-03",
+   "time": "19:15",
+   "fmt": "35mm",
+   "year": 2000,
+   "runtime": 113,
+   "director": "Christopher Nolan",
+   "genres": [
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Mystery",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "4226"
+  },
+  {
    "venue": "nhp",
    "title": "Paper Tiger",
    "date": "2026-12-03",
@@ -12386,6 +11824,19 @@
    "runtime": 122,
    "note": "",
    "url": "https://www.angelikafilmcenter.com/nyc/movies/details/club-kid",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "mg",
+   "title": "La Raulito",
+   "date": "2026-12-03",
+   "time": "20:30",
+   "fmt": "DCP",
+   "year": 1975,
+   "runtime": 95,
+   "director": "Lautaro Murúa",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
@@ -12605,6 +12056,32 @@
    "genreSource": "unclassified"
   },
   {
+   "venue": "mg",
+   "title": "Lost Highway",
+   "date": "2026-12-03",
+   "time": "21:45",
+   "fmt": "4K DCP",
+   "year": 1997,
+   "runtime": 134,
+   "director": "David Lynch",
+   "genres": [
+    "thriller",
+    "drama",
+    "scifi",
+    "romance"
+   ],
+   "sourceGenres": [
+    "Crime",
+    "Drama",
+    "Fantasy",
+    "Film-Noir",
+    "Mystery",
+    "Romance"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1464"
+  },
+  {
    "venue": "angelika",
    "title": "ELSINORE",
    "date": "2026-12-03",
@@ -12667,6 +12144,19 @@
    "title": "The Only Living Pickpocket in New York",
    "date": "2026-12-03",
    "time": "22:15",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "mg",
+   "title": "Tetsuo: The Iron Man",
+   "date": "2026-12-03",
+   "time": "22:30",
+   "fmt": "DCP",
+   "year": 1989,
+   "runtime": 67,
+   "director": "Shinya Tsukamoto",
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"

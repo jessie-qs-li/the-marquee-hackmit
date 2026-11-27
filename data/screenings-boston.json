@@ -2,7 +2,7 @@
  "city": "boston",
  "genreCoverage": {
   "total": 43,
-  "classified": 16,
+  "classified": 19,
   "unresolved": [
    {
     "key": "wildhorsenine|",
@@ -61,24 +61,6 @@
    {
     "key": "inwaves|",
     "title": "In Waves",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "maltesefalcon|",
-    "title": "The Maltese Falcon",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "glasskey|",
-    "title": "The Glass Key",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "hammett|",
-    "title": "Hammett",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -170,7 +152,7 @@
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-27T12:43:20.509Z",
+ "fetchedAt": "2026-11-27T23:31:51.557Z",
  "week": [
   "2026-11-27",
   "2026-11-28",
@@ -248,14 +230,14 @@
    "name": "Brattle Theatre",
    "ok": true,
    "count": 23,
-   "ms": 2489
+   "ms": 3260
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
    "count": 159,
-   "ms": 5652
+   "ms": 3684
   },
   {
    "id": "somerville",
@@ -270,14 +252,14 @@
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
    "count": 136,
-   "ms": 612
+   "ms": 781
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
    "count": 4,
-   "ms": 395
+   "ms": 508
   },
   {
    "id": "mfa",
@@ -404,18 +386,15 @@
    "url": "https://brattlefilm.org/purchase/1744713/",
    "filmUrl": "https://brattlefilm.org/movies/chopping-mall/",
    "genres": [
-    "action",
     "horror",
     "scifi"
    ],
-   "year": null,
+   "year": 1986,
    "sourceGenres": [
-    "Action",
     "Horror",
-    "Sci-Fi"
+    "Science Fiction"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "2614"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -503,14 +482,13 @@
     "horror",
     "scifi"
    ],
-   "year": null,
+   "year": 1984,
    "sourceGenres": [
     "Comedy",
     "Horror",
-    "Sci-Fi"
+    "Science Fiction"
    ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "2613"
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -655,10 +633,19 @@
    "time": "17:15",
    "url": "https://brattlefilm.org/purchase/1744717/",
    "filmUrl": "https://brattlefilm.org/movies/the-maltese-falcon/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "thriller"
+   ],
+   "year": 1941,
+   "sourceGenres": [
+    "Crime",
+    "Mystery",
+    "Thriller",
+    "Crime",
+    "Mystery",
+    "Thriller"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -777,10 +764,16 @@
    "time": "19:30",
    "url": "https://brattlefilm.org/purchase/1744718/",
    "filmUrl": "https://brattlefilm.org/movies/the-glass-key/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "thriller"
+   ],
+   "year": 1942,
+   "sourceGenres": [
+    "Crime",
+    "Mystery",
+    "Thriller"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -873,10 +866,18 @@
    "time": "21:30",
    "url": "https://brattlefilm.org/purchase/1744719/",
    "filmUrl": "https://brattlefilm.org/movies/hammett/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "year": 1982,
+   "sourceGenres": [
+    "Drama",
+    "Thriller",
+    "Drama",
+    "Thriller"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "kendall",
@@ -982,10 +983,19 @@
    "time": "12:00",
    "url": "https://brattlefilm.org/purchase/1744723/",
    "filmUrl": "https://brattlefilm.org/movies/the-maltese-falcon/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "thriller"
+   ],
+   "year": 1941,
+   "sourceGenres": [
+    "Crime",
+    "Mystery",
+    "Thriller",
+    "Crime",
+    "Mystery",
+    "Thriller"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
@@ -1108,10 +1118,18 @@
    "time": "14:15",
    "url": "https://brattlefilm.org/purchase/1744724/",
    "filmUrl": "https://brattlefilm.org/movies/hammett/",
-   "genres": [],
-   "year": null,
-   "sourceGenres": [],
-   "genreSource": "unclassified"
+   "genres": [
+    "drama",
+    "thriller"
+   ],
+   "year": 1982,
+   "sourceGenres": [
+    "Drama",
+    "Thriller",
+    "Drama",
+    "Thriller"
+   ],
+   "genreSource": "venue"
   },
   {
    "venue": "coolidge",
