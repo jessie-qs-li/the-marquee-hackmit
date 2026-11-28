@@ -1,24 +1,18 @@
 {
  "city": "boston",
  "genreCoverage": {
-  "total": 43,
-  "classified": 19,
+  "total": 42,
+  "classified": 17,
   "unresolved": [
    {
-    "key": "wildhorsenine|",
-    "title": "Wild Horse Nine",
+    "key": "elsinore|",
+    "title": "Elsinore",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
    {
     "key": "clubkid|",
     "title": "Club Kid",
-    "year": null,
-    "reason": "not in catalogue or ambiguous title"
-   },
-   {
-    "key": "elsinore|",
-    "title": "Elsinore",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -35,8 +29,8 @@
     "reason": "not in catalogue or ambiguous title"
    },
    {
-    "key": "iplayrocky|",
-    "title": "I Play Rocky",
+    "key": "wildhorsenine|",
+    "title": "Wild Horse Nine",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -61,6 +55,12 @@
    {
     "key": "inwaves|",
     "title": "In Waves",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "iplayrocky|",
+    "title": "I Play Rocky",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
    },
@@ -147,20 +147,26 @@
     "title": "Clifford",
     "year": null,
     "reason": "not in catalogue or ambiguous title"
+   },
+   {
+    "key": "twinpeaksthereturnpart56|",
+    "title": "Twin Peaks: The Return (Part 5 & 6)",
+    "year": null,
+    "reason": "not in catalogue or ambiguous title"
    }
   ],
   "tmdbRequests": 0,
   "errors": []
  },
- "fetchedAt": "2026-11-27T23:31:51.557Z",
+ "fetchedAt": "2026-11-28T08:01:48.957Z",
  "week": [
-  "2026-11-27",
   "2026-11-28",
   "2026-11-29",
   "2026-11-30",
   "2026-12-01",
   "2026-12-02",
-  "2026-12-03"
+  "2026-12-03",
+  "2026-12-04"
  ],
  "venues": {
   "brattle": {
@@ -229,15 +235,15 @@
    "id": "brattle",
    "name": "Brattle Theatre",
    "ok": true,
-   "count": 23,
-   "ms": 3260
+   "count": 21,
+   "ms": 2893
   },
   {
    "id": "coolidge",
    "name": "Coolidge Corner Theatre",
    "ok": true,
-   "count": 159,
-   "ms": 3684
+   "count": 135,
+   "ms": 7136
   },
   {
    "id": "somerville",
@@ -251,15 +257,15 @@
    "id": "kendall",
    "name": "Landmark Kendall Square Cinema",
    "ok": true,
-   "count": 136,
-   "ms": 781
+   "count": 111,
+   "ms": 1036
   },
   {
    "id": "hfa",
    "name": "Harvard Film Archive",
    "ok": true,
-   "count": 4,
-   "ms": 508
+   "count": 3,
+   "ms": 214
   },
   {
    "id": "mfa",
@@ -272,666 +278,6 @@
  ],
  "notices": {},
  "screenings": [
-  {
-   "venue": "coolidge",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-27",
-   "time": "11:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049456~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Club Kid",
-   "date": "2026-11-27",
-   "time": "11:10",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049457~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/club-kid",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Elsinore",
-   "date": "2026-11-27",
-   "time": "11:20",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049447~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/elsinore",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Paper Tiger (2026)",
-   "date": "2026-11-27",
-   "time": "11:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049459~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/paper-tiger-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "11:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049439~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/you-can-see-everything",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "I Play Rocky",
-   "date": "2026-11-27",
-   "time": "12:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049450~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/i-play-rocky",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "The Hunger Games: Sunrise on the Reaping",
-   "date": "2026-11-27",
-   "time": "12:30",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Club Kid",
-   "date": "2026-11-27",
-   "time": "12:40",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "La Bola Negra",
-   "date": "2026-11-27",
-   "time": "12:45",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "14th",
-   "date": "2026-11-27",
-   "time": "12:45",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "brattle",
-   "title": "Chopping Mall",
-   "date": "2026-11-27",
-   "time": "13:00",
-   "url": "https://brattlefilm.org/purchase/1744713/",
-   "filmUrl": "https://brattlefilm.org/movies/chopping-mall/",
-   "genres": [
-    "horror",
-    "scifi"
-   ],
-   "year": 1986,
-   "sourceGenres": [
-    "Horror",
-    "Science Fiction"
-   ],
-   "genreSource": "venue"
-  },
-  {
-   "venue": "kendall",
-   "title": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "13:10",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Club Kid",
-   "date": "2026-11-27",
-   "time": "13:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049536~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/club-kid",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "The Hunger Games: Sunrise on the Reaping",
-   "date": "2026-11-27",
-   "time": "13:30",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Elsinore",
-   "date": "2026-11-27",
-   "time": "13:40",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049445~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/elsinore",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-27",
-   "time": "13:50",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049454~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "In Waves",
-   "date": "2026-11-27",
-   "time": "13:50",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Paper Tiger (2026)",
-   "date": "2026-11-27",
-   "time": "14:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049460~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/paper-tiger-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "brattle",
-   "title": "Night of the Comet",
-   "date": "2026-11-27",
-   "time": "15:00",
-   "url": "https://brattlefilm.org/purchase/1744714/",
-   "filmUrl": "https://brattlefilm.org/movies/night-of-the-comet/",
-   "genres": [
-    "comedy",
-    "horror",
-    "scifi"
-   ],
-   "year": 1984,
-   "sourceGenres": [
-    "Comedy",
-    "Horror",
-    "Science Fiction"
-   ],
-   "genreSource": "venue"
-  },
-  {
-   "venue": "kendall",
-   "title": "14th",
-   "date": "2026-11-27",
-   "time": "15:00",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "I Play Rocky",
-   "date": "2026-11-27",
-   "time": "15:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049449~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/i-play-rocky",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Club Kid",
-   "date": "2026-11-27",
-   "time": "15:20",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "15:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049440~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/you-can-see-everything",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-27",
-   "time": "16:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049453~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "The Hunger Games: Sunrise on the Reaping",
-   "date": "2026-11-27",
-   "time": "16:00",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-27",
-   "time": "16:05",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Elsinore",
-   "date": "2026-11-27",
-   "time": "16:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049443~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/elsinore",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "In Waves",
-   "date": "2026-11-27",
-   "time": "16:20",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Club Kid",
-   "date": "2026-11-27",
-   "time": "16:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049458~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/club-kid",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "La Bola Negra",
-   "date": "2026-11-27",
-   "time": "16:50",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "16:50",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Paper Tiger (2026)",
-   "date": "2026-11-27",
-   "time": "17:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049462~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/paper-tiger-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "brattle",
-   "title": "The Maltese Falcon",
-   "date": "2026-11-27",
-   "time": "17:15",
-   "url": "https://brattlefilm.org/purchase/1744717/",
-   "filmUrl": "https://brattlefilm.org/movies/the-maltese-falcon/",
-   "genres": [
-    "thriller"
-   ],
-   "year": 1941,
-   "sourceGenres": [
-    "Crime",
-    "Mystery",
-    "Thriller",
-    "Crime",
-    "Mystery",
-    "Thriller"
-   ],
-   "genreSource": "venue"
-  },
-  {
-   "venue": "coolidge",
-   "title": "I Play Rocky",
-   "date": "2026-11-27",
-   "time": "18:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049446~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/i-play-rocky",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "The Hunger Games: Sunrise on the Reaping",
-   "date": "2026-11-27",
-   "time": "18:20",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Club Kid",
-   "date": "2026-11-27",
-   "time": "18:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049533~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/club-kid",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Club Kid",
-   "date": "2026-11-27",
-   "time": "18:30",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-27",
-   "time": "18:45",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "In Waves",
-   "date": "2026-11-27",
-   "time": "18:50",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Elsinore",
-   "date": "2026-11-27",
-   "time": "19:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049441~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/elsinore",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "hfa",
-   "title": "The Promised Land",
-   "date": "2026-11-27",
-   "time": "19:00",
-   "note": "Once There Was History ... Andrzej Wajda",
-   "url": "https://harvardfilmarchive.org/calendar/the-promised-land-2026-11",
-   "genres": [
-    "drama"
-   ],
-   "sourceGenres": [
-    "Drama"
-   ],
-   "genreSource": "movies.csv",
-   "genreMovieId": "99574"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-27",
-   "time": "19:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049451~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "The Hunger Games: Sunrise on the Reaping",
-   "date": "2026-11-27",
-   "time": "19:20",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "brattle",
-   "title": "The Glass Key",
-   "date": "2026-11-27",
-   "time": "19:30",
-   "url": "https://brattlefilm.org/purchase/1744718/",
-   "filmUrl": "https://brattlefilm.org/movies/the-glass-key/",
-   "genres": [
-    "thriller"
-   ],
-   "year": 1942,
-   "sourceGenres": [
-    "Crime",
-    "Mystery",
-    "Thriller"
-   ],
-   "genreSource": "venue"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Paper Tiger (2026)",
-   "date": "2026-11-27",
-   "time": "19:30",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049534~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/paper-tiger-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "20:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049442~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/you-can-see-everything",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "La Bola Negra",
-   "date": "2026-11-27",
-   "time": "20:10",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "You Can See Everything",
-   "date": "2026-11-27",
-   "time": "20:30",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "I Play Rocky",
-   "date": "2026-11-27",
-   "time": "21:00",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049448~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/i-play-rocky",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "The Hunger Games: Sunrise on the Reaping",
-   "date": "2026-11-27",
-   "time": "21:05",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-27",
-   "time": "21:15",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049452~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/wild-horse-nine",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "Club Kid",
-   "date": "2026-11-27",
-   "time": "21:20",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "brattle",
-   "title": "Hammett",
-   "date": "2026-11-27",
-   "time": "21:30",
-   "url": "https://brattlefilm.org/purchase/1744719/",
-   "filmUrl": "https://brattlefilm.org/movies/hammett/",
-   "genres": [
-    "drama",
-    "thriller"
-   ],
-   "year": 1982,
-   "sourceGenres": [
-    "Drama",
-    "Thriller",
-    "Drama",
-    "Thriller"
-   ],
-   "genreSource": "venue"
-  },
-  {
-   "venue": "kendall",
-   "title": "Wild Horse Nine",
-   "date": "2026-11-27",
-   "time": "21:30",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "kendall",
-   "title": "14th",
-   "date": "2026-11-27",
-   "time": "21:40",
-   "fmt": "",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Elsinore",
-   "date": "2026-11-27",
-   "time": "21:45",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049444~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/elsinore",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Club Kid",
-   "date": "2026-11-27",
-   "time": "21:55",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049455~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/club-kid",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
-  {
-   "venue": "coolidge",
-   "title": "Paper Tiger (2026)",
-   "date": "2026-11-27",
-   "time": "22:05",
-   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1049538~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
-   "filmUrl": "https://coolidge.org/films/paper-tiger-2026",
-   "genres": [],
-   "sourceGenres": [],
-   "genreSource": "unclassified"
-  },
   {
    "venue": "coolidge",
    "title": "Elsinore",
@@ -988,9 +334,6 @@
    ],
    "year": 1941,
    "sourceGenres": [
-    "Crime",
-    "Mystery",
-    "Thriller",
     "Crime",
     "Mystery",
     "Thriller"
@@ -1124,8 +467,6 @@
    ],
    "year": 1982,
    "sourceGenres": [
-    "Drama",
-    "Thriller",
     "Drama",
     "Thriller"
    ],
@@ -3881,6 +3222,111 @@
    "genres": [],
    "sourceGenres": [],
    "genreSource": "unclassified"
+  },
+  {
+   "venue": "brattle",
+   "title": "The Wizard of Oz",
+   "date": "2026-12-04",
+   "time": "15:30",
+   "url": "https://brattlefilm.org/purchase/1752674/",
+   "filmUrl": "https://brattlefilm.org/movies/the-wizard-of-oz/",
+   "genres": [
+    "adventure",
+    "family",
+    "scifi",
+    "comedy"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Adventure",
+    "Children",
+    "Fantasy",
+    "Musical"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "919"
+  },
+  {
+   "venue": "brattle",
+   "title": "Wild at Heart",
+   "date": "2026-12-04",
+   "time": "18:00",
+   "url": "https://brattlefilm.org/purchase/1752675/",
+   "filmUrl": "https://brattlefilm.org/movies/wild-at-heart/",
+   "genres": [
+    "thriller",
+    "drama",
+    "romance"
+   ],
+   "year": null,
+   "sourceGenres": [
+    "Crime",
+    "Drama",
+    "Mystery",
+    "Romance",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "7044"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Behemoth!",
+   "date": "2026-12-04",
+   "time": "19:00",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1046181~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/behemoth",
+   "genres": [],
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "brattle",
+   "title": "Twin Peaks: The Return (Part 5 & 6)",
+   "date": "2026-12-04",
+   "time": "21:00",
+   "url": "https://brattlefilm.org/purchase/1752676/",
+   "filmUrl": "https://brattlefilm.org/special_events/twin-peaks-the-return-part-5-6/",
+   "genres": [],
+   "year": null,
+   "sourceGenres": [],
+   "genreSource": "unclassified"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Child’s Play",
+   "date": "2026-12-04",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1046332~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/childs-play",
+   "genres": [
+    "horror",
+    "thriller"
+   ],
+   "sourceGenres": [
+    "Horror",
+    "Thriller"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "1991"
+  },
+  {
+   "venue": "coolidge",
+   "title": "Eraserhead",
+   "date": "2026-12-04",
+   "time": "23:59",
+   "url": "https://store.coolidge.org/websales/pages/ticketsearchcriteria.aspx?evtinfo=1046330~2227d6a5-68f5-41c2-b22e-813c872c64f4&",
+   "filmUrl": "https://coolidge.org/films/eraserhead",
+   "genres": [
+    "drama",
+    "horror"
+   ],
+   "sourceGenres": [
+    "Drama",
+    "Horror"
+   ],
+   "genreSource": "movies.csv",
+   "genreMovieId": "3676"
   }
  ]
 }
